@@ -3,6 +3,7 @@
 
 v3 (16.10.): blessed_land (5:06,5–5:13,6) hat oben links eine Huegelstadt mit Tuermen wie Kirchtuerme (H5)
 -> ersetzt durch safe_hill_sunrise_cf (Orshot 48993). Ton und alle anderen Bilder wie v2.
+Dazu 5 s Endbild nach dem letzten Wort und 1 s Abblende (v2 blendete schon waehrend der letzten Worte ab).
 
 Zeiten aus dem Descript-Transkript der Komposition 0bee3427 (Erzaehlung Orshot-Audio 173).
 """
@@ -83,7 +84,8 @@ def main():
         "name": "folge07_lut_v3",
         "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/"
                  "boa_folge07_erzaehlung_komplett_noah_2026-10-13mp3-IU4UXH3rUoF.mp3",
-        "crossfade": 0.6, "fade_in": 0.8, "fade_out": 2.5, "loudness": -14,
+        "crossfade": 0.6, "fade_in": 0.8, "fade_out": 1.0, "tail_hold": 6.0,  # 5 s Endbild nach dem letzten Wort + 1 s Abblende (Notion-Plan)
+        "loudness": -14,
         "segments": segs,
     }
     out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),

@@ -11,6 +11,7 @@ Job file (jobs/<name>.json):
   "audio": "https://.../narration.mp3",
   "audio_start": 0, "audio_end": 480.5,          # optional trim (seconds)
   "crossfade": 0.6, "fade_in": 0.5, "fade_out": 1.5, "loudness": -14,
+  "tail_hold": 6,                                 # optional: silence after the last word, last picture stays
   "segments": [
     {"image": "https://...", "start": 0, "end": 7.2, "motion": "zoom_in"},
     {"image": "https://...", "start": 7.2, "end": 12, "motion": "pan_right",
@@ -222,6 +223,16 @@ def render_job(job, job_hash, outdir):
     t0 = time.time()
     audio = os.path.join(jdir, "audio.wav")
     aud = normalise_audio(job, audio)
+    narration_len = duration(audio)
+    tail = float(job.get("tail_hold", 0) or 0)
+    if tail > 0:
+        # Endbild: Stille nach dem letzten Wort, das letzte Bild bleibt stehen, dann Abblende.
+        # So wird das letzte Wort nie von der Abblende ueberdeckt, und der YouTube-Abspann hat Platz.
+        padded = os.path.join(jdir, "audio_tail.wav")
+        run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", audio,
+             "-af", f"apad=pad_dur={tail:.3f}", "-c:a", "pcm_s16le", padded])
+        audio = padded
+        log(f"tail hold {tail:.1f}s after the narration ({narration_len:.2f}s)")
     audio_len = duration(audio)
     if segs[-1].get("end") in (None, "audio"):
         segs[-1]["end"] = round(audio_len, 3)  # last picture runs to the end of the narration
@@ -287,6 +298,7 @@ def render_job(job, job_hash, outdir):
         "video_url": urls[os.path.basename(video)], "contact_url": urls["contact.jpg"],
         "duration_video": round(vlen, 3), "duration_audio": round(audio_len, 3),
         "timeline": round(total, 3), "segments": n,
+        "narration_end": round(narration_len, 3), "tail_hold": tail,
         "loudness_lufs": lufs, "true_peak_dbfs": peak, "input_lufs": aud["input_lufs"],
         "size_mb": round(os.path.getsize(video) / 1e6, 1),
         "render_seconds": round(time.time() - t0),

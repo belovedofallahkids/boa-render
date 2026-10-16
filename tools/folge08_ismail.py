@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Folge 08 – Ismail -> jobs/folge08_ismail_v2.json.
+"""Folge 08 – Ismail -> jobs/folge08_ismail_v3.json.
+
+v3 (16.10.): wie v2, dazu 5 s Endbild nach dem letzten Wort und 1 s Abblende
+(v2 blendete schon waehrend „Allah beschuetze euch“ ab).
 
 v2 (16.10.): two_hills = neues Bild mit beiden Huegeln (Cloudflare 49030), ohne Zuschnitt.
 v1 hatte das alte Bild zugeschnitten, dabei fehlte der zweite Huegel.
@@ -94,15 +97,16 @@ def main():
             seg["crop"] = CROP[img]
         segs.append(seg)
     job = {
-        "name": "folge08_ismail_v2",
+        "name": "folge08_ismail_v3",
         "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/"
                  "boa_folge08_erzaehlung_komplett_rohmp3-UsgRAfWl6AV.mp3",
         "audio_cuts": AUDIO_CUTS,
-        "crossfade": 0.6, "fade_in": 0.8, "fade_out": 2.5, "loudness": -14,
+        "crossfade": 0.6, "fade_in": 0.8, "fade_out": 1.0, "tail_hold": 6.0,  # 5 s Endbild nach dem letzten Wort + 1 s Abblende (Notion-Plan)
+        "loudness": -14,
         "segments": segs,
     }
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    out = os.path.join(root, "jobs", "folge08_ismail_v2.json")
+    out = os.path.join(root, "jobs", "folge08_ismail_v3.json")
     with open(out, "w") as f:
         json.dump(job, f, indent=1, ensure_ascii=False)
     # Pruef-Transkript des geschnittenen Tons (H30: Schnitte hoeren/lesen)

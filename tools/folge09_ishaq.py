@@ -3,6 +3,7 @@
 
 v3 (16.10.): blessed_land (s2a) hat oben links eine Huegelstadt mit Tuermen wie Kirchtuerme (H5)
 -> ersetzt durch safe_hill_sunrise_cf (Orshot 48993). Ton und alle anderen Bilder wie v2.
+Dazu 5 s Endbild nach dem letzten Wort und 1 s Abblende (v2 blendete schon waehrend der letzten Worte ab).
 
 Zeiten aus dem Descript-SRT der Komposition 8b7456dd (Erzaehlung Orshot-Audio 242, 496,4 s).
 Jeder Schnitt liegt in der Pause vor dem Satz. Bildplan: Notion-Seite Folge 09, Abschnitt 6.
@@ -77,7 +78,8 @@ def main():
         "name": "folge09_ishaq_v3",
         "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/"
                  "boa_folge09_erzaehlung_komplett_2026-10-16mp3-qhiWVNmapwv.mp3",
-        "crossfade": 0.6, "fade_in": 0.8, "fade_out": 2.5, "loudness": -14,
+        "crossfade": 0.6, "fade_in": 0.8, "fade_out": 1.0, "tail_hold": 6.0,  # 5 s Endbild nach dem letzten Wort + 1 s Abblende (Notion-Plan)
+        "loudness": -14,
         "segments": segs,
     }
     out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),

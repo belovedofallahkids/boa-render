@@ -3,7 +3,8 @@
  "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge07_erzaehlung_komplett_noah_2026-10-13mp3-IU4UXH3rUoF.mp3",
  "crossfade": 0.6,
  "fade_in": 0.8,
- "fade_out": 2.5,
+ "fade_out": 1.0,
+ "tail_hold": 6.0,
  "loudness": -14,
  "segments": [
   {
