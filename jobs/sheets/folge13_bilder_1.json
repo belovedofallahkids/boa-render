@@ -1,0 +1,38 @@
+{
+ "name": "folge13_bilder_1",
+ "cols": 3,
+ "images": [
+  {
+   "label": "madyan_market",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_madyan_market_cfjpg-U6TqBmK8gaj.jpeg"
+  },
+  {
+   "label": "scale_tilted",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_scale_tilted_cfjpg-idWOpHxt1sf.jpeg"
+  },
+  {
+   "label": "scale_balanced",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_scale_balanced_cfjpg-WTKCSlcOah2.jpeg"
+  },
+  {
+   "label": "blocked_road",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_blocked_road_cfjpg-rG0O011z99q.jpeg"
+  },
+  {
+   "label": "madyan_town_evening",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_madyan_town_evening_cfjpg-MTSy561m5fL.jpeg"
+  },
+  {
+   "label": "storm_far",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_storm_far_cfjpg-70Q1SKstOAl.jpeg"
+  },
+  {
+   "label": "empty_town_morning",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_empty_town_morning_cfjpg-feyzGSn83IZ.jpeg"
+  },
+  {
+   "label": "grain_pile_market",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_grain_pile_market_cfjpg-sjMPUYs8fSQ.jpeg"
+  }
+ ]
+}
