@@ -53,6 +53,9 @@ def main():
                      "fontcolor=white:box=1:boxcolor=black@0.65:boxborderw=4", "-q:v", "3", dest])
                 run(["ffmpeg", "-y", "-i", src, "-vf", "scale=1280:-2", "-q:v", "3",
                      os.path.join(big, f"{k + 1:02d}_{it['label']}.jpg")])
+                if job.get("keep_original"):
+                    import shutil
+                    shutil.copy(src, os.path.join(big, f"{k + 1:02d}_{it['label']}_original.jpg"))
             else:
                 run(["ffmpeg", "-y", "-f", "lavfi", "-i", "color=c=black:s=640x360", "-frames:v", "1", dest])
         run(["ffmpeg", "-y", "-framerate", "1", "-i", os.path.join(tmp, "%03d.jpg"), "-vf",
