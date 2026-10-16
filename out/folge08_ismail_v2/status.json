@@ -1,0 +1,17 @@
+{
+  "name": "folge08_ismail_v2",
+  "ok": true,
+  "job_hash": "c13624ec40e4135bf6b67fd327d1f5d34461b119",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge08_ismail_v2/folge08_ismail_v2.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge08_ismail_v2/contact.jpg",
+  "duration_video": 396.633,
+  "duration_audio": 396.63,
+  "timeline": 396.63,
+  "segments": 23,
+  "loudness_lufs": -14.1,
+  "true_peak_dbfs": -4.2,
+  "input_lufs": -16.51,
+  "size_mb": 190.7,
+  "render_seconds": 693,
+  "finished_utc": "2026-10-16T14:21:21Z"
+}
