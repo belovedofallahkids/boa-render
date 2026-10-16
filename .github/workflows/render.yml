@@ -35,7 +35,8 @@ jobs:
           ffmpeg -version | head -1
 
       - name: Transcribe jobs
-        run: python3 render/transcribe.py
+        continue-on-error: true
+        run: python3 render/transcribe.py 2>&1 | tee transcribe.log; mkdir -p out/transcripts; tail -c 6000 transcribe.log > out/transcripts/last_run.log
 
       - name: Render jobs
         env:

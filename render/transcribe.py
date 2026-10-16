@@ -41,6 +41,17 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     models = {}
     for job, h in todo:
+        try:
+            one(job, h, models, WhisperModel)
+        except Exception:  # noqa: BLE001
+            import traceback
+            err = traceback.format_exc()
+            print(err)
+            open(os.path.join(OUT, job["name"] + ".error.txt"), "w").write(err[-4000:])
+
+
+def one(job, h, models, WhisperModel):
+    if True:
         name = job["name"]
         src = os.path.join(OUT, name + ".audio")
         req = urllib.request.Request(job["audio"], headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
