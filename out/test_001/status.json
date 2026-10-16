@@ -1,0 +1,17 @@
+{
+  "name": "test_001",
+  "ok": true,
+  "job_hash": "10509b3bb181051416426bf2bcf836a67e8159e4",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/test_001/test_001.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/test_001/contact.jpg",
+  "duration_video": 20.0,
+  "duration_audio": 20.0,
+  "timeline": 20,
+  "segments": 3,
+  "loudness_lufs": -14.1,
+  "true_peak_dbfs": -4.5,
+  "input_lufs": -16.56,
+  "size_mb": 13.0,
+  "render_seconds": 31,
+  "finished_utc": "2026-10-16T12:04:59Z"
+}
