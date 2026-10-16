@@ -211,5 +211,7 @@
    "amount": 0.14,
    "label": "oma_window_night"
   }
- ]
+ ],
+ "disabled": true,
+ "note": "ersetzt durch v2 (night_star/sun_bright haben Kuppeln, H5)"
 }

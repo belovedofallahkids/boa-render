@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Schnittliste Folge 07 – Lut (Notion, 13.10.2026 11:40) -> jobs/folge07_lut_v1.json.
+"""Schnittliste Folge 07 – Lut (Notion, 13.10.2026 11:40) -> jobs/folge07_lut_v2.json.
 
 Zeiten aus dem Descript-Transkript der Komposition 0bee3427 (Erzaehlung Orshot-Audio 173).
 """
@@ -21,7 +21,7 @@ IMG = {
     "lut_house_evening": B + "boa_folge07_lut_house_evening_v2jpg-KGWBRBjvJfZ.jpeg",
     "torches_alley": B + "boa_folge07_torches_alleyjpg-MWLLO1ob6pb.jpeg",
     "glowing_doorway": B + "boa_folge07_glowing_doorwayjpg-uRUiJ6Y6DqX.jpeg",
-    "night_star": B + "boa_folge06_night_starpng-1FrjexopZVM.png",
+    "night_departure": B + "boa_folge07_night_departure_cf_v2jpg-9MHpkGpPPRa.jpeg",
     "dawn_storm_far": B + "boa_folge07_dawn_storm_far_v2jpg-n8mxIVsGJ0W.jpeg",
     "blessed_land": B + "boa_blessed_landpng-sF1tJ0UV8lU.png",
     "open_door_welcome": B + "boa_folge07_open_door_welcomejpg-jZERmI7dSP4.jpeg",
@@ -53,7 +53,7 @@ CUTS = [  # start, bild, bewegung
     ("3:22.0", "torches_alley", "zoom_in"),
     ("3:43.0", "noah", "zoom_in"),           # s4c
     ("3:46.9", "glowing_doorway", "zoom_in"),
-    ("4:07.3", "night_star", "pan_right"),
+    ("4:07.3", "night_departure", "zoom_in"),   # night_star (Folge 06) hat Kuppeln -> H5
     ("4:24.3", "dawn_storm_far", "zoom_in"),
     ("4:48.6", "ilyas", "zoom_in"),          # s5c
     ("4:52.2", "dawn_storm_far", "pan_right"),
@@ -76,14 +76,14 @@ def main():
             seg["crop"] = CROP[img]
         segs.append(seg)
     job = {
-        "name": "folge07_lut_v1",
+        "name": "folge07_lut_v2",
         "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/"
                  "boa_folge07_erzaehlung_komplett_noah_2026-10-13mp3-IU4UXH3rUoF.mp3",
         "crossfade": 0.6, "fade_in": 0.8, "fade_out": 2.5, "loudness": -14,
         "segments": segs,
     }
     out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                       "jobs", "folge07_lut_v1.json")
+                       "jobs", "folge07_lut_v2.json")
     with open(out, "w") as f:
         json.dump(job, f, indent=1, ensure_ascii=False)
     print(out, len(segs), "Abschnitte")
