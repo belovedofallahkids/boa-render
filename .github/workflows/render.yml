@@ -34,6 +34,10 @@ jobs:
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core > /dev/null
           ffmpeg -version | head -1
 
+      - name: Check sheets
+        continue-on-error: true
+        run: python3 render/sheets.py
+
       - name: Transcribe jobs
         continue-on-error: true
         run: python3 render/transcribe.py 2>&1 | tee transcribe.log; mkdir -p out/transcripts; tail -c 6000 transcribe.log > out/transcripts/last_run.log

@@ -1,0 +1,13 @@
+{
+ "episode": "folge10",
+ "animals_ok": ["desert_camp"],
+ "images": {
+  "desert_camp": "A Bedouin camp of dark woven goat-hair tents in a wide desert valley at golden hour, a few camels resting and a small flock of sheep, date palms, peaceful family life.",
+  "dream_sky": "A magical dreamy sky, half night and half golden dawn, with exactly eleven bright five-pointed stars arranged in one gentle arc, a glowing round sun and a crescent moon together in the same sky, soft clouds, deep blue and gold. The sun and the moon have no faces.",
+  "evening_path_empty": "An empty sandy path at dusk leading away from a camp of dark goat-hair tents toward distant hills, long shadows, quiet and slightly sad atmosphere.",
+  "seedling_patience": "A small green seedling growing out of dry cracked earth, a few raindrops sparkling on its leaves, soft light from above, hopeful and calm.",
+  "lamp_seasons": "A small clay oil lamp glowing at the entrance of a dark goat-hair tent on a rainy evening, raindrops sparkling in the warm light, a feeling of waiting and hope.",
+  "search_road": "A long desert caravan road at dawn with fresh camel hoof prints in the sand, leading toward a far-away green land on the horizon, hopeful mood.",
+  "old_staff_lamp": "Inside a dark goat-hair tent, an old wooden walking staff leaning against the tent pole next to a softly glowing clay oil lamp, cushions arranged in a circle as if a family will gather, warm evening light, calm and dignified."
+ }
+}
