@@ -157,7 +157,7 @@ def contact_sheet(video, segs, outdir):
         if k < len(segs):
             s = segs[k]
             t = (s["start"] + s["end"]) / 2
-            label = f"{k + 1}  {int(s['start'] // 60)}m{s['start'] % 60:04.1f}s"
+            label = f"{k + 1}  {int(s['start'] // 60)}m{s['start'] % 60:04.1f}s  {s.get('label', '')}"
             run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-ss", f"{t:.3f}", "-i", video,
                  "-frames:v", "1", "-vf",
                  f"scale=480:270,drawtext={font}text='{label}':x=8:y=8:fontsize=24:"
@@ -190,15 +190,7 @@ def render_job(job, job_hash, outdir):
     name = job["name"]
     fps = int(job.get("fps", 30))
     xf = float(job.get("crossfade", 0.6))
-    segs = job["segments"]
-    for k, s in enumerate(segs):
-        if s["end"] - s["start"] <= xf + 0.1:
-            raise ValueError(f"segment {k + 1} too short for crossfade")
-        if k and abs(s["start"] - segs[k - 1]["end"]) > 0.001:
-            raise ValueError(f"segment {k + 1} does not start where segment {k} ends")
-    total = segs[-1]["end"] - segs[0]["start"]
-    if segs[0]["start"] != 0:
-        raise ValueError("first segment must start at 0")
+    segs = [dict(s) for s in job["segments"]]
     jdir = os.path.join(WORK, name)
     os.makedirs(jdir, exist_ok=True)
 
@@ -206,7 +198,19 @@ def render_job(job, job_hash, outdir):
     audio = os.path.join(jdir, "audio.wav")
     aud = normalise_audio(job, audio)
     audio_len = duration(audio)
+    if segs[-1].get("end") in (None, "audio"):
+        segs[-1]["end"] = round(audio_len, 3)  # last picture runs to the end of the narration
+    for k, s in enumerate(segs):
+        if s["end"] - s["start"] <= xf + 0.1:
+            raise ValueError(f"segment {k + 1} too short for crossfade")
+        if k and abs(s["start"] - segs[k - 1]["end"]) > 0.001:
+            raise ValueError(f"segment {k + 1} does not start where segment {k} ends")
+    if segs[0]["start"] != 0:
+        raise ValueError("first segment must start at 0")
+    total = segs[-1]["end"]
     log(f"audio {audio_len:.2f}s, timeline {total:.2f}s")
+    if total > audio_len + 0.5:
+        raise ValueError(f"pictures ({total:.1f}s) run longer than the narration ({audio_len:.1f}s)")
 
     imgs = {}
     for s in segs:
