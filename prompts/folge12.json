@@ -1,0 +1,15 @@
+{
+ "episode": "folge12",
+ "animals_ok": ["green_home_valley", "golden_locusts"],
+ "images": {
+  "green_home_valley": "A peaceful green valley with a modest stone house with a flat roof, a vegetable garden, olive trees and a few sheep grazing at sunrise, blessed and calm.",
+  "wilted_garden_rain": "A small garden next to a modest stone house with a flat roof under heavy grey rain clouds, flowers bending and wilting, puddles on the path, gentle sadness, not scary.",
+  "empty_sickbed": "A simple wooden bed with a woolen blanket beside a small window on a grey day, a clay cup of water on a little stool, quiet and calm, the bed is empty.",
+  "lantern_water_night": "A small clay oil lantern and a clay water jug on a low wooden table at night, warm caring light, cosy simple room.",
+  "empty_path_visitors": "An empty dirt path leading to a small stone house with a flat roof, no footprints on the path, a few autumn leaves, lonely but peaceful.",
+  "night_dua_sky": "A calm night sky with one thin crescent moon and one single bright star above a quiet valley with gentle hills, peaceful prayerful mood.",
+  "spring_burst": "Cool clear water bursting up from rocky ground in bright sunlight, sparkling droplets, fresh and joyful.",
+  "blooming_garden_rainbow": "A garden in full bloom after the rain next to a modest stone house with a flat roof, bright flowers, fresh green leaves, a soft rainbow in the sky, joyful renewal.",
+  "golden_locusts": "A magical shower of tiny glittering golden locusts gently falling onto a simple woven cloth spread on green grass, cute stylized golden insects, sparkling gold, sunny day."
+ }
+}
