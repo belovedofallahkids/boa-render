@@ -118,8 +118,33 @@ def render_clip(i, seg, img, length, fps, out):
     return i
 
 
+def cut_audio(src, cuts, out_wav):
+    """Remove [start, end] ranges (seconds, source time) with 15 ms fades at every joint."""
+    total = duration(src)
+    keep, pos = [], 0.0
+    for a, b in sorted(cuts):
+        if a > pos:
+            keep.append((pos, a))
+        pos = max(pos, b)
+    if pos < total:
+        keep.append((pos, total))
+    fc, labels = [], []
+    for i, (a, b) in enumerate(keep):
+        d = b - a
+        fc.append(f"[0:a]atrim=start={a:.3f}:end={b:.3f},asetpts=PTS-STARTPTS,"
+                  f"afade=t=in:d=0.015,afade=t=out:st={max(d - 0.015, 0):.3f}:d=0.015[p{i}]")
+        labels.append(f"[p{i}]")
+    fc.append(f"{''.join(labels)}concat=n={len(keep)}:v=0:a=1[out]")
+    run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", src, "-filter_complex", ";".join(fc),
+         "-map", "[out]", "-ar", "48000", "-c:a", "pcm_s16le", out_wav])
+    log(f"audio cuts: {len(cuts)} removed, {len(keep)} parts kept, {duration(out_wav):.2f}s left")
+    return out_wav
+
+
 def normalise_audio(job, out_wav):
     src = fetch(job["audio"])
+    if job.get("audio_cuts"):
+        src = cut_audio(src, job["audio_cuts"], out_wav + ".cut.wav")
     trim = []
     if job.get("audio_start") is not None:
         trim += ["-ss", str(job["audio_start"])]
