@@ -1,0 +1,17 @@
+{
+  "name": "folge07_lut_v1",
+  "ok": true,
+  "job_hash": "df1627d170d26f71192c478e0434c33d4dccfb7c",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge07_lut_v1/folge07_lut_v1.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge07_lut_v1/contact.jpg",
+  "duration_video": 396.3,
+  "duration_audio": 396.28,
+  "timeline": 396.28,
+  "segments": 25,
+  "loudness_lufs": -14.1,
+  "true_peak_dbfs": -4.1,
+  "input_lufs": -16.45,
+  "size_mb": 183.3,
+  "render_seconds": 695,
+  "finished_utc": "2026-10-16T12:21:34Z"
+}
