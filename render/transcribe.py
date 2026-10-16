@@ -35,8 +35,14 @@ def main():
     if not todo:
         print("no transcribe jobs")
         return
-    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "faster-whisper==1.1.1"], check=True)
-    from faster_whisper import WhisperModel  # noqa: E402
+    try:
+        from faster_whisper import WhisperModel  # noqa: E402
+    except ImportError:
+        if "--installed" in sys.argv:
+            raise
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "faster-whisper==1.1.1"], check=True)
+        # start again so the freshly installed package is on the import path
+        os.execv(sys.executable, [sys.executable, os.path.abspath(__file__), "--installed"])
 
     os.makedirs(OUT, exist_ok=True)
     models = {}
