@@ -1,0 +1,15 @@
+{
+  "name": "test_001",
+  "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge09_erzaehlung_komplett_2026-10-16mp3-qhiWVNmapwv.mp3",
+  "audio_start": 0,
+  "audio_end": 20,
+  "crossfade": 0.6,
+  "fade_in": 0.5,
+  "fade_out": 1.0,
+  "loudness": -14,
+  "segments": [
+    {"image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_cradle_waiting_v3_cfjpg-uQStf8xfGaD.jpeg", "start": 0, "end": 7, "motion": "zoom_in"},
+    {"image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_two_palmsjpg-dx7C76YRe6u.jpeg", "start": 7, "end": 14, "motion": "pan_right"},
+    {"image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_tree_of_lightsjpg-dz4ohqXPhph.jpeg", "start": 14, "end": 20, "motion": "zoom_out"}
+  ]
+}
