@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Folge 08 – Ismail -> jobs/folge08_ismail_v1.json.
+"""Folge 08 – Ismail -> jobs/folge08_ismail_v2.json.
+
+v2 (16.10.): two_hills = neues Bild mit beiden Huegeln (Cloudflare 49030), ohne Zuschnitt.
+v1 hatte das alte Bild zugeschnitten, dabei fehlte der zweite Huegel.
 
 Ton: Roh-Erzaehlung (Orshot, 7:01,3) mit den H1-Schnitten C1–C5 (Notion, 13.10.).
 Die Schnitt- und Bildzeiten stammen aus dem Wort-Transkript out/transcripts/folge08_roh.txt
@@ -20,7 +23,7 @@ IMG = {
     "dua_sky": B + "boa_folge06_sunset_skypng-0ZD8ADNMJwX.png",
     "empty_waterskin": B + "boa_folge08_empty_waterskinjpg-8Qx3n9vnhpB.jpeg",
     "safa_hill": B + "boa_folge08_safa_hill_v2jpg-0aBYH7VwkH3.jpeg",
-    "two_hills": B + "boa_folge08_two_hillsjpg-6kmLEgM5A6Q.jpeg",
+    "two_hills": B + "boa_folge08_two_hills_v4_cfpng-KuA5Hsm8Xmc.jpeg",  # v1: boa_folge08_two_hillsjpg-6kmLEgM5A6Q.jpeg
     "sand_glow": B + "boa_folge08_sand_glow_v2jpg-imFi95mHKXi.jpeg",
     "zamzam_spring": B + "boa_folge08_zamzam_springjpg-YkXLNzh2AZs.jpeg",
     "birds_over_valley": B + "boa_folge08_birds_over_valleyjpg-lhDOEJ2JvrI.jpeg",
@@ -29,7 +32,6 @@ IMG = {
     "prayer_rug_sunrise": B + "boa_folge09_prayer_rug_sunrisejpg-Sdao2hRcTap.jpeg",
 }
 CROP = {
-    "two_hills": [0.0, 0.0, 0.62],          # Spuren unten rechts sehen aus wie Reifen -> weg
     "birds_over_valley": [0.15, 0.0, 0.62],  # nur Voegel und Felsen, der Fluss unten bleibt draussen (H1)
 }
 
@@ -92,7 +94,7 @@ def main():
             seg["crop"] = CROP[img]
         segs.append(seg)
     job = {
-        "name": "folge08_ismail_v1",
+        "name": "folge08_ismail_v2",
         "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/"
                  "boa_folge08_erzaehlung_komplett_rohmp3-UsgRAfWl6AV.mp3",
         "audio_cuts": AUDIO_CUTS,
@@ -100,7 +102,7 @@ def main():
         "segments": segs,
     }
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    out = os.path.join(root, "jobs", "folge08_ismail_v1.json")
+    out = os.path.join(root, "jobs", "folge08_ismail_v2.json")
     with open(out, "w") as f:
         json.dump(job, f, indent=1, ensure_ascii=False)
     # Pruef-Transkript des geschnittenen Tons (H30: Schnitte hoeren/lesen)

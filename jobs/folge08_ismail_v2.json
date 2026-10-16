@@ -1,0 +1,221 @@
+{
+ "name": "folge08_ismail_v2",
+ "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge08_erzaehlung_komplett_rohmp3-UsgRAfWl6AV.mp3",
+ "audio_cuts": [
+  [
+   0.0,
+   2.95
+  ],
+  [
+   133.45,
+   136.4
+  ],
+  [
+   166.9,
+   169.4
+  ],
+  [
+   214.4,
+   229.45
+  ],
+  [
+   395.66,
+   396.86
+  ]
+ ],
+ "crossfade": 0.6,
+ "fade_in": 0.8,
+ "fade_out": 2.5,
+ "loudness": -14,
+ "segments": [
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 0.0,
+   "end": 24.65,
+   "motion": "zoom_in",
+   "amount": 0.139,
+   "label": "master_A_buch"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 24.65,
+   "end": 27.45,
+   "motion": "zoom_in",
+   "amount": 0.051,
+   "label": "noah"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 27.45,
+   "end": 41.65,
+   "motion": "pan_left",
+   "amount": 0.097,
+   "label": "master_A_buch"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_valley_mecca_metapng-w09uOkimipO.png",
+   "start": 41.65,
+   "end": 65.85,
+   "motion": "zoom_in",
+   "amount": 0.137,
+   "label": "valley_mecca"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_valley_mecca_metapng-w09uOkimipO.png",
+   "start": 65.85,
+   "end": 89.45,
+   "motion": "pan_left",
+   "amount": 0.134,
+   "label": "valley_mecca"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 89.45,
+   "end": 92.65,
+   "motion": "zoom_in",
+   "amount": 0.053,
+   "label": "ilyas"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge06_sunset_skypng-0ZD8ADNMJwX.png",
+   "start": 92.65,
+   "end": 115.65,
+   "motion": "zoom_in",
+   "amount": 0.132,
+   "label": "dua_sky"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_empty_waterskinjpg-8Qx3n9vnhpB.jpeg",
+   "start": 115.65,
+   "end": 130.5,
+   "motion": "zoom_in",
+   "amount": 0.099,
+   "label": "empty_waterskin"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_safa_hill_v2jpg-0aBYH7VwkH3.jpeg",
+   "start": 130.5,
+   "end": 141.7,
+   "motion": "pan_right",
+   "amount": 0.085,
+   "label": "safa_hill"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_two_hills_v4_cfpng-KuA5Hsm8Xmc.jpeg",
+   "start": 141.7,
+   "end": 171.5,
+   "motion": "pan_left",
+   "amount": 0.14,
+   "label": "two_hills"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 171.5,
+   "end": 175.2,
+   "motion": "zoom_in",
+   "amount": 0.055,
+   "label": "noah"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_sand_glow_v2jpg-imFi95mHKXi.jpeg",
+   "start": 175.2,
+   "end": 191.1,
+   "motion": "zoom_in",
+   "amount": 0.104,
+   "label": "sand_glow"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_zamzam_springjpg-YkXLNzh2AZs.jpeg",
+   "start": 191.1,
+   "end": 206.15,
+   "motion": "zoom_in",
+   "amount": 0.1,
+   "label": "zamzam_spring"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 206.15,
+   "end": 211.85,
+   "motion": "zoom_in",
+   "amount": 0.063,
+   "label": "ilyas"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_zamzam_springjpg-YkXLNzh2AZs.jpeg",
+   "start": 211.85,
+   "end": 231.95,
+   "motion": "zoom_out",
+   "amount": 0.12,
+   "label": "zamzam_spring"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_birds_over_valleyjpg-lhDOEJ2JvrI.jpeg",
+   "start": 231.95,
+   "end": 245.85,
+   "motion": "pan_right",
+   "amount": 0.096,
+   "label": "birds_over_valley",
+   "crop": [
+    0.15,
+    0.0,
+    0.62
+   ]
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_tents_valleyjpg-z89UaCqD278.jpeg",
+   "start": 245.85,
+   "end": 274.05,
+   "motion": "zoom_in",
+   "amount": 0.14,
+   "label": "tents_valley"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_kaaba_buildingjpg-Y24OJagk9Af.jpeg",
+   "start": 274.05,
+   "end": 306.85,
+   "motion": "zoom_in",
+   "amount": 0.14,
+   "label": "kaaba_building"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 306.85,
+   "end": 310.45,
+   "motion": "zoom_in",
+   "amount": 0.054,
+   "label": "noah"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_kaaba_buildingjpg-Y24OJagk9Af.jpeg",
+   "start": 310.45,
+   "end": 315.75,
+   "motion": "zoom_out",
+   "amount": 0.061,
+   "label": "kaaba_building"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_prayer_rug_sunrisejpg-Sdao2hRcTap.jpeg",
+   "start": 315.75,
+   "end": 324.75,
+   "motion": "zoom_in",
+   "amount": 0.076,
+   "label": "prayer_rug_sunrise"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_kinder_schlafen_offizielljpg-aevRtHZ0V3q.jpeg",
+   "start": 324.75,
+   "end": 357.85,
+   "motion": "zoom_out",
+   "amount": 0.14,
+   "label": "kinder_schlafen"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_oma_window_night_offizielljpg-i61gAYOmKJ9.jpeg",
+   "start": 357.85,
+   "end": "audio",
+   "motion": "zoom_out",
+   "amount": 0.14,
+   "label": "oma_window_night"
+  }
+ ]
+}
