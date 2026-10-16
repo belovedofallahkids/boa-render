@@ -1,0 +1,17 @@
+{
+ "episode": "folge11",
+ "animals_ok": ["caravan_well", "seven_cows", "caravan_egypt"],
+ "images": {
+  "well_night": "An old round stone well in the open desert under a starry night sky, a soft beam of moonlight shining down into it, calm and hopeful.",
+  "caravan_well": "A desert caravan of camels resting beside an old round stone well in the morning, a rope and a wooden bucket on the well's edge, date palms.",
+  "egypt_house": "A wealthy ancient Egyptian house with plain smooth walls and simple geometric patterns, a garden with date palms and a small pool, a wide river in the background, golden afternoon light. No figures or carvings on the walls, no hieroglyphs, no writing.",
+  "palace_door": "A tall plain wooden door with simple geometric patterns at the end of a quiet palace corridor, warm light streaming through the gap, calm but tense. No figures or carvings on the walls, no writing.",
+  "prison_window": "A small barred window high in a clean stone cell, a single beam of light falling onto a clean floor with a straw mat, peaceful and hopeful.",
+  "seven_cows": "A dreamlike riverside meadow with seven healthy plump cows on green grass on the left and seven very thin cows standing on dry cracked ground on the right, soft pastel dream colors, calm, no violence.",
+  "wheat_ears": "A dreamlike close-up of seven green ears of wheat standing next to dry withered ears of wheat, golden light, soft focus background.",
+  "granary_full": "Ancient Egyptian granary storehouses with plain walls, full of grain sacks and stacked wheat sheaves in orderly rows, warm light, abundance. No figures or carvings on the walls, no hieroglyphs, no writing.",
+  "caravan_egypt": "A dusty caravan of camels arriving at a plain mud-brick city gate of ancient Egypt in a dry season, hopeful warm light shining through the gate. No figures or carvings on the gate, no hieroglyphs, no writing.",
+  "shirt_light": "A simple folded linen shirt resting on a cushion, glowing with a soft warm magical light, gentle golden sparkles around it, dark calm background.",
+  "family_reunion_hall": "A grand festive hall with a simple raised throne platform, cushions, carpets and warm hanging lanterns, celebratory atmosphere, the hall is empty. No figures or carvings on the walls, no writing."
+ }
+}
