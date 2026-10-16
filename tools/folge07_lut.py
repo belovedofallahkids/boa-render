@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Schnittliste Folge 07 – Lut (Notion, 13.10.2026 11:40) -> jobs/folge07_lut_v2.json.
+"""Schnittliste Folge 07 – Lut (Notion, 13.10.2026 11:40) -> jobs/folge07_lut_v3.json.
+
+v3 (16.10.): blessed_land (5:06,5–5:13,6) hat oben links eine Huegelstadt mit Tuermen wie Kirchtuerme (H5)
+-> ersetzt durch safe_hill_sunrise_cf (Orshot 48993). Ton und alle anderen Bilder wie v2.
 
 Zeiten aus dem Descript-Transkript der Komposition 0bee3427 (Erzaehlung Orshot-Audio 173).
 """
@@ -23,7 +26,8 @@ IMG = {
     "glowing_doorway": B + "boa_folge07_glowing_doorwayjpg-uRUiJ6Y6DqX.jpeg",
     "night_departure": B + "boa_folge07_night_departure_cf_v2jpg-9MHpkGpPPRa.jpeg",
     "dawn_storm_far": B + "boa_folge07_dawn_storm_far_v2jpg-n8mxIVsGJ0W.jpeg",
-    "blessed_land": B + "boa_blessed_landpng-sF1tJ0UV8lU.png",
+    "blessed_land": B + "boa_blessed_landpng-sF1tJ0UV8lU.png",  # nicht mehr verwenden (H5), bleibt gespeichert (H26)
+    "safe_hill_sunrise": B + "boa_folge07_safe_hill_sunrise_cfjpg-5E4m5FD7Bui.jpeg",
     "open_door_welcome": B + "boa_folge07_open_door_welcomejpg-jZERmI7dSP4.jpeg",
 }
 # lut_city_b: linker Ausschnitt, damit der runde Lehmturm rechts (H5) nicht zu sehen ist
@@ -57,7 +61,7 @@ CUTS = [  # start, bild, bewegung
     ("4:24.3", "dawn_storm_far", "zoom_in"),
     ("4:48.6", "ilyas", "zoom_in"),          # s5c
     ("4:52.2", "dawn_storm_far", "pan_right"),
-    ("5:06.5", "blessed_land", "zoom_in"),
+    ("5:06.5", "safe_hill_sunrise", "zoom_in"),
     ("5:13.6", "open_door_welcome", "zoom_in"),
     ("5:34.0", "kinder_schlafen", "zoom_out"),   # ab „Oh, sie schlafen schon“ (H12)
     ("6:02.7", "oma_window_night", "zoom_out"),
@@ -76,14 +80,14 @@ def main():
             seg["crop"] = CROP[img]
         segs.append(seg)
     job = {
-        "name": "folge07_lut_v2",
+        "name": "folge07_lut_v3",
         "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/"
                  "boa_folge07_erzaehlung_komplett_noah_2026-10-13mp3-IU4UXH3rUoF.mp3",
         "crossfade": 0.6, "fade_in": 0.8, "fade_out": 2.5, "loudness": -14,
         "segments": segs,
     }
     out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                       "jobs", "folge07_lut_v2.json")
+                       "jobs", "folge07_lut_v3.json")
     with open(out, "w") as f:
         json.dump(job, f, indent=1, ensure_ascii=False)
     print(out, len(segs), "Abschnitte")
