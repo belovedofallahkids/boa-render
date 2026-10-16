@@ -1,0 +1,19 @@
+{
+  "name": "folge09_ishaq_v3",
+  "ok": true,
+  "job_hash": "ec915eb8995875c95aa0eeb0b78a9ee5cfbaf868",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge09_ishaq_v3/folge09_ishaq_v3.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge09_ishaq_v3/contact.jpg",
+  "duration_video": 502.4,
+  "duration_audio": 502.4,
+  "timeline": 502.4,
+  "segments": 29,
+  "narration_end": 496.4,
+  "tail_hold": 6.0,
+  "loudness_lufs": -14.1,
+  "true_peak_dbfs": -4.0,
+  "input_lufs": -16.52,
+  "size_mb": 250.4,
+  "render_seconds": 859,
+  "finished_utc": "2026-10-16T15:05:59Z"
+}
