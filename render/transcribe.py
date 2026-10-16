@@ -36,11 +36,14 @@ def main():
         print("no transcribe jobs")
         return
     try:
+        import av  # noqa: F401
+        if not av.__version__.startswith("12."):
+            raise ImportError("wrong av version " + av.__version__)
         from faster_whisper import WhisperModel  # noqa: E402
     except ImportError:
         if "--installed" in sys.argv:
             raise
-        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "faster-whisper==1.1.1"], check=True)
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "faster-whisper==1.1.1", "av==12.3.0"], check=True)
         # start again so the freshly installed package is on the import path
         os.execv(sys.executable, [sys.executable, os.path.abspath(__file__), "--installed"])
 
@@ -59,7 +62,7 @@ def main():
 def one(job, h, models, WhisperModel):
     if True:
         name = job["name"]
-        src = os.path.join(OUT, name + ".audio")
+        src = os.path.join("/tmp", name + ".audio")
         req = urllib.request.Request(job["audio"], headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
         with urllib.request.urlopen(req, timeout=300) as r, open(src, "wb") as f:
             f.write(r.read())
