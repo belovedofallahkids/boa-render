@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "subs/*_de.srt"
+      - "scripts/**"
+      - "render/review.py"
       - "render/translate.py"
       - ".github/workflows/subs.yml"
   workflow_dispatch:
@@ -24,12 +26,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: Translate
         run: python3 render/translate.py
+      - name: Review scripts
+        continue-on-error: true
+        run: python3 render/review.py
       - name: Save
         if: always()
         run: |
           git config user.name "boa-render-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add subs out/subs || true
+          git add subs out/subs reviews || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Untertitel [skip ci]"
           for i in 1 2 3 4 5; do
