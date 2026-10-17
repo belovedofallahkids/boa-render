@@ -1,0 +1,12 @@
+{
+ "hash": "2a4706b32f584bd586ee130040a5d07a444539fc",
+ "name": "test_folge15_gemini",
+ "results": {
+  "fetch": "ok"
+ },
+ "urls": {
+  "fetch_s6b.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_test_folge15_gemini/fetch_s6b.mp3",
+  "fetch_s7a.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_test_folge15_gemini/fetch_s7a.mp3",
+  "fetch_alle.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_test_folge15_gemini/fetch_alle.mp3"
+ }
+}
