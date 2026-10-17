@@ -1,0 +1,265 @@
+{
+ "hash": "c2d6d741047b8e15cf641f7d68e8e38a95a0d05a",
+ "ok": true,
+ "duration": 403.8,
+ "fit": [
+  {
+   "id": "s1a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s1b",
+   "tempo": 1.032,
+   "drift": 0.0
+  },
+  {
+   "id": "s1c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s2a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s2b",
+   "tempo": 1.3,
+   "drift": 0.0
+  },
+  {
+   "id": "s2c",
+   "tempo": 1.0,
+   "drift": 0.03
+  },
+  {
+   "id": "s3a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s3b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s3c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s4a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s4b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s4c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s4d",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s5a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s5b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s5c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s5d",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s6a",
+   "tempo": 1.257,
+   "drift": 0.0
+  },
+  {
+   "id": "s6b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s6c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s7a",
+   "tempo": 1.018,
+   "drift": 0.0
+  },
+  {
+   "id": "s7b",
+   "tempo": 1.0,
+   "drift": 0.0
+  }
+ ],
+ "check": [
+  {
+   "id": "s1a",
+   "text": "Noah... Ilyas... you are brothers. Tell me: If one of you has to do something difficult, does the other one help?",
+   "match": 0.952
+  },
+  {
+   "id": "s1b",
+   "text": "Sure! Ilyas always helps me with my homework!",
+   "match": 0.875
+  },
+  {
+   "id": "s1c",
+   "text": "That's lovely, my darling. Cuddle in... Today I'm going to tell you about two brothers who were both prophets: Musa and his brother Harun, peace be upon them. And today is about Harun.",
+   "match": 1.0
+  },
+  {
+   "id": "s2a",
+   "text": "Do you remember? At the fire on the mountain, Allah said to Musa: Go to Pharaoh! That was a very difficult task. And Musa prayed: My Lord, give me a helper from my family: Harun, my brother.",
+   "match": 0.973
+  },
+  {
+   "id": "s2a",
+   "text": "Make me strong through him and let him share in my task.",
+   "match": 1.0
+  },
+  {
+   "id": "s2b",
+   "text": "Why did Musa want Harun specifically?",
+   "match": 0.833
+  },
+  {
+   "id": "s2c",
+   "text": "Musa said: My brother Harun can speak better than I can. Send him with me so that he helps me and confirms what I say. And Allah answered: We will make you strong through your brother! Allah made Harun a prophet as well.",
+   "match": 0.953
+  },
+  {
+   "id": "s2c",
+   "text": "A gift from His mercy.",
+   "match": 1.0
+  },
+  {
+   "id": "s3a",
+   "text": "Then Allah said to the two brothers: Go to Pharaoh, for he has transgressed all bounds. And speak to him gently, perhaps he will reflect. Musa and Harun said: Our Lord, we are afraid. And Allah said: Do not be afraid!",
+   "match": 0.951
+  },
+  {
+   "id": "s3a",
+   "text": "I am with you, I hear and I see.",
+   "match": 1.0
+  },
+  {
+   "id": "s3b",
+   "text": "So then they went there together? Like a team!",
+   "match": 1.0
+  },
+  {
+   "id": "s3c",
+   "text": "Exactly, like a team. They went to Pharaoh together, and they stuck together, even when it became hard. And Allah saved them and the Children of Israel at the sea. I told you about that last time.",
+   "match": 0.973
+  },
+  {
+   "id": "s4a",
+   "text": "After the rescue, Allah called Musa to Himself at the mountain for forty nights. Before Musa went, he said to Harun: Take my place among my people. Do what is right and do not follow those who cause mischief.",
+   "match": 0.974
+  },
+  {
+   "id": "s4b",
+   "text": "But while Musa was away, a man named Samiri made a golden calf out of the people's gold jewelry, which made a sound. And he said: This is your god! And many people believed him.",
+   "match": 0.972
+  },
+  {
+   "id": "s4c",
+   "text": "A calf made of gold? That can't be a god!",
+   "match": 1.0
+  },
+  {
+   "id": "s4d",
+   "text": "You're right, my darling. And that is BG exactly what Harun said. He called out: My people, you are only being tested by this! Your Lord is the Most Merciful. Follow me and listen to me!",
+   "match": 0.973
+  },
+  {
+   "id": "s4d",
+   "text": "But they said: We will not stop until Musa comes back.",
+   "match": 1.0
+  },
+  {
+   "id": "s5a",
+   "text": "When Musa returned and saw what had happened, he became very sad and angry. He thought Harun had not paid enough attention and grabbed him by the head.",
+   "match": 1.0
+  },
+  {
+   "id": "s5b",
+   "text": "Oh no! Was Harun mad at him then?",
+   "match": 0.875
+  },
+  {
+   "id": "s5c",
+   "text": "No, my darling. Harun stayed very calm and said lovingly: Son of my mother, let go of me! I was afraid that you would say: You have divided the Children of Israel. The people did not listen to me.",
+   "match": 0.974
+  },
+  {
+   "id": "s5d",
+   "text": "Then Musa understood that his brother had done everything right. And he prayed: My Lord, forgive me and my brother, and admit us into Your mercy. You are the Most Merciful of the merciful.",
+   "match": 1.0
+  },
+  {
+   "id": "s6a",
+   "text": "Allah praises the two brothers in the Quran. He says: Peace be upon Musa and Harun! They belonged to His believing servants.",
+   "match": 0.864
+  },
+  {
+   "id": "s6b",
+   "text": "Did our Prophet Muhammad tell about Harun too?",
+   "match": 1.0
+  },
+  {
+   "id": "s6c",
+   "text": "Yes! When our Prophet Muhammad, peace and blessings be upon him, went on a journey once, he left his cousin Ali behind to look after the family. And he said to him: Are you not pleased to be to me as Harun was to Musa?",
+   "match": 0.978
+  },
+  {
+   "id": "s6c",
+   "text": "Except that there will be no prophet after me.",
+   "match": 0.889
+  },
+  {
+   "id": "s7a",
+   "text": "Oh... they're already sleeping. My dear ones... stick together like Musa and Harun. Help each other when something is difficult. Speak the truth, even if many are doing something wrong.",
+   "match": 1.0
+  },
+  {
+   "id": "s7a",
+   "text": "And if someone misunderstands you, then stay friendly and explain it calmly.",
+   "match": 1.0
+  },
+  {
+   "id": "s7b",
+   "text": "And next time I'll tell you about Dhul-Kifl... a prophet about whom the Quran says only a few words, but very special ones.",
+   "match": 0.96
+  },
+  {
+   "id": "s7b",
+   "text": "And you, watching right now: If you liked the story, then ask your parents if they will subscribe to our channel. That way you won't miss the next story. Sleep well, my dear ones. May Allah protect you.",
+   "match": 0.974
+  }
+ ],
+ "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge15_harun/folge15_harun_en.mp3"
+}
