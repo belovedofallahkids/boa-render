@@ -85,7 +85,7 @@ def chatterbox(job, wd):
     for ln in job["lines"]:
         ref = refs["kid_ref"] if ln.get("kid") and "kid_ref" in refs else refs["ref"]
         chunks, cur = [], ""
-        for sent in re.split(r"(?<=[.!?…])\s+", clean(ln["text"])):
+        for sent in re.split(r"(?<=[.!?…؟])\s+", clean(ln["text"])):
             if cur and len(cur) + len(sent) > 220:
                 chunks.append(cur)
                 cur = sent
