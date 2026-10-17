@@ -1,0 +1,2591 @@
+{
+ "name": "folge16_dhulkifl_cb",
+ "job_hash": "483b6c157b9b8608e0a4a3355db08a2883e9d3f0",
+ "duration": 225.12,
+ "model": "medium",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.5,
+   "text": "Noah, Ilyas, heute habe ich ein kleines Rätsel für Euch.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.54,
+     "word": "Noah,"
+    },
+    {
+     "start": 1.02,
+     "end": 1.86,
+     "word": "Ilyas,"
+    },
+    {
+     "start": 2.26,
+     "end": 2.48,
+     "word": "heute"
+    },
+    {
+     "start": 2.48,
+     "end": 2.7,
+     "word": "habe"
+    },
+    {
+     "start": 2.7,
+     "end": 2.84,
+     "word": "ich"
+    },
+    {
+     "start": 2.84,
+     "end": 2.96,
+     "word": "ein"
+    },
+    {
+     "start": 2.96,
+     "end": 3.4,
+     "word": "kleines"
+    },
+    {
+     "start": 3.4,
+     "end": 3.88,
+     "word": "Rätsel"
+    },
+    {
+     "start": 3.88,
+     "end": 4.1,
+     "word": "für"
+    },
+    {
+     "start": 4.1,
+     "end": 4.5,
+     "word": "Euch."
+    }
+   ]
+  },
+  {
+   "start": 5.86,
+   "end": 10.16,
+   "text": "Es gibt einen Propheten, über den der Koran nur ganz wenige Worte sagt,",
+   "words": [
+    {
+     "start": 5.86,
+     "end": 6.18,
+     "word": "Es"
+    },
+    {
+     "start": 6.18,
+     "end": 6.42,
+     "word": "gibt"
+    },
+    {
+     "start": 6.42,
+     "end": 6.68,
+     "word": "einen"
+    },
+    {
+     "start": 6.68,
+     "end": 7.74,
+     "word": "Propheten,"
+    },
+    {
+     "start": 7.74,
+     "end": 8.02,
+     "word": "über"
+    },
+    {
+     "start": 8.02,
+     "end": 8.14,
+     "word": "den"
+    },
+    {
+     "start": 8.14,
+     "end": 8.36,
+     "word": "der"
+    },
+    {
+     "start": 8.36,
+     "end": 8.72,
+     "word": "Koran"
+    },
+    {
+     "start": 8.72,
+     "end": 8.8,
+     "word": "nur"
+    },
+    {
+     "start": 8.8,
+     "end": 9.18,
+     "word": "ganz"
+    },
+    {
+     "start": 9.18,
+     "end": 9.46,
+     "word": "wenige"
+    },
+    {
+     "start": 9.46,
+     "end": 9.8,
+     "word": "Worte"
+    },
+    {
+     "start": 9.8,
+     "end": 10.16,
+     "word": "sagt,"
+    }
+   ]
+  },
+  {
+   "start": 11.08,
+   "end": 13.3,
+   "text": "aber diese Worte sind ein riesiges Lob.",
+   "words": [
+    {
+     "start": 11.08,
+     "end": 11.38,
+     "word": "aber"
+    },
+    {
+     "start": 11.38,
+     "end": 11.68,
+     "word": "diese"
+    },
+    {
+     "start": 11.68,
+     "end": 11.98,
+     "word": "Worte"
+    },
+    {
+     "start": 11.98,
+     "end": 12.24,
+     "word": "sind"
+    },
+    {
+     "start": 12.24,
+     "end": 12.44,
+     "word": "ein"
+    },
+    {
+     "start": 12.44,
+     "end": 12.92,
+     "word": "riesiges"
+    },
+    {
+     "start": 12.92,
+     "end": 13.3,
+     "word": "Lob."
+    }
+   ]
+  },
+  {
+   "start": 17.44,
+   "end": 19.72,
+   "text": "Hm, nein, wen denn, Oma?",
+   "words": [
+    {
+     "start": 17.44,
+     "end": 17.8,
+     "word": "Hm,"
+    },
+    {
+     "start": 18.02,
+     "end": 18.46,
+     "word": "nein,"
+    },
+    {
+     "start": 18.74,
+     "end": 18.88,
+     "word": "wen"
+    },
+    {
+     "start": 18.88,
+     "end": 19.14,
+     "word": "denn,"
+    },
+    {
+     "start": 19.38,
+     "end": 19.72,
+     "word": "Oma?"
+    }
+   ]
+  },
+  {
+   "start": 20.64,
+   "end": 24.76,
+   "text": "Schön, Dhul-Kifl, Friede sei mit ihm.",
+   "words": [
+    {
+     "start": 20.64,
+     "end": 21.04,
+     "word": "Schön,"
+    },
+    {
+     "start": 22.06,
+     "end": 22.42,
+     "word": "Dhul"
+    },
+    {
+     "start": 22.42,
+     "end": 23.2,
+     "word": "-Kifl,"
+    },
+    {
+     "start": 23.52,
+     "end": 23.9,
+     "word": "Friede"
+    },
+    {
+     "start": 23.9,
+     "end": 24.0,
+     "word": "sei"
+    },
+    {
+     "start": 24.0,
+     "end": 24.22,
+     "word": "mit"
+    },
+    {
+     "start": 24.22,
+     "end": 24.76,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 25.56,
+   "end": 31.86,
+   "text": "Kuschelt Euch ein, heute wird es eine kurze Geschichte, aber eine sehr wichtige.",
+   "words": [
+    {
+     "start": 25.56,
+     "end": 26.06,
+     "word": "Kuschelt"
+    },
+    {
+     "start": 26.06,
+     "end": 26.34,
+     "word": "Euch"
+    },
+    {
+     "start": 26.34,
+     "end": 27.08,
+     "word": "ein,"
+    },
+    {
+     "start": 27.76,
+     "end": 28.08,
+     "word": "heute"
+    },
+    {
+     "start": 28.08,
+     "end": 28.28,
+     "word": "wird"
+    },
+    {
+     "start": 28.28,
+     "end": 28.54,
+     "word": "es"
+    },
+    {
+     "start": 28.54,
+     "end": 28.82,
+     "word": "eine"
+    },
+    {
+     "start": 28.82,
+     "end": 29.22,
+     "word": "kurze"
+    },
+    {
+     "start": 29.22,
+     "end": 29.76,
+     "word": "Geschichte,"
+    },
+    {
+     "start": 30.28,
+     "end": 30.56,
+     "word": "aber"
+    },
+    {
+     "start": 30.56,
+     "end": 30.9,
+     "word": "eine"
+    },
+    {
+     "start": 30.9,
+     "end": 31.34,
+     "word": "sehr"
+    },
+    {
+     "start": 31.34,
+     "end": 31.86,
+     "word": "wichtige."
+    }
+   ]
+  },
+  {
+   "start": 34.44,
+   "end": 38.36,
+   "text": "Allah erwähnt Dhul-Kifl zweimal im Koran.",
+   "words": [
+    {
+     "start": 34.44,
+     "end": 34.94,
+     "word": "Allah"
+    },
+    {
+     "start": 34.94,
+     "end": 35.7,
+     "word": "erwähnt"
+    },
+    {
+     "start": 35.7,
+     "end": 36.16,
+     "word": "Dhul"
+    },
+    {
+     "start": 36.16,
+     "end": 36.6,
+     "word": "-Kifl"
+    },
+    {
+     "start": 36.6,
+     "end": 37.1,
+     "word": "zweimal"
+    },
+    {
+     "start": 37.1,
+     "end": 37.36,
+     "word": "im"
+    },
+    {
+     "start": 37.36,
+     "end": 38.36,
+     "word": "Koran."
+    }
+   ]
+  },
+  {
+   "start": 38.58,
+   "end": 44.3,
+   "text": "Einmal sagt Allah und Ismail, Idris und Dhul-Kifl, alle gehörten zu den Geduldigen.",
+   "words": [
+    {
+     "start": 38.58,
+     "end": 38.9,
+     "word": "Einmal"
+    },
+    {
+     "start": 38.9,
+     "end": 39.18,
+     "word": "sagt"
+    },
+    {
+     "start": 39.18,
+     "end": 39.7,
+     "word": "Allah"
+    },
+    {
+     "start": 39.7,
+     "end": 40.04,
+     "word": "und"
+    },
+    {
+     "start": 40.04,
+     "end": 40.66,
+     "word": "Ismail,"
+    },
+    {
+     "start": 40.88,
+     "end": 41.18,
+     "word": "Idris"
+    },
+    {
+     "start": 41.18,
+     "end": 41.32,
+     "word": "und"
+    },
+    {
+     "start": 41.32,
+     "end": 41.7,
+     "word": "Dhul"
+    },
+    {
+     "start": 41.7,
+     "end": 42.52,
+     "word": "-Kifl,"
+    },
+    {
+     "start": 42.56,
+     "end": 42.84,
+     "word": "alle"
+    },
+    {
+     "start": 42.84,
+     "end": 43.26,
+     "word": "gehörten"
+    },
+    {
+     "start": 43.26,
+     "end": 43.48,
+     "word": "zu"
+    },
+    {
+     "start": 43.48,
+     "end": 43.64,
+     "word": "den"
+    },
+    {
+     "start": 43.64,
+     "end": 44.3,
+     "word": "Geduldigen."
+    }
+   ]
+  },
+  {
+   "start": 45.08,
+   "end": 49.8,
+   "text": "Wir ließen sie in unsere Barmherzigkeit eintreten, sie gehörten zu den Rechtschaffenden.",
+   "words": [
+    {
+     "start": 45.08,
+     "end": 45.3,
+     "word": "Wir"
+    },
+    {
+     "start": 45.3,
+     "end": 45.56,
+     "word": "ließen"
+    },
+    {
+     "start": 45.56,
+     "end": 45.78,
+     "word": "sie"
+    },
+    {
+     "start": 45.78,
+     "end": 45.9,
+     "word": "in"
+    },
+    {
+     "start": 45.9,
+     "end": 46.16,
+     "word": "unsere"
+    },
+    {
+     "start": 46.16,
+     "end": 46.9,
+     "word": "Barmherzigkeit"
+    },
+    {
+     "start": 46.9,
+     "end": 47.56,
+     "word": "eintreten,"
+    },
+    {
+     "start": 47.86,
+     "end": 48.1,
+     "word": "sie"
+    },
+    {
+     "start": 48.1,
+     "end": 48.44,
+     "word": "gehörten"
+    },
+    {
+     "start": 48.44,
+     "end": 48.66,
+     "word": "zu"
+    },
+    {
+     "start": 48.66,
+     "end": 48.78,
+     "word": "den"
+    },
+    {
+     "start": 48.78,
+     "end": 49.8,
+     "word": "Rechtschaffenden."
+    }
+   ]
+  },
+  {
+   "start": 51.06,
+   "end": 58.92,
+   "text": "Und an einer anderen Stelle sagt Allah und Gedenke Ismails, Ilyasas und Dhul-Kifls,",
+   "words": [
+    {
+     "start": 51.06,
+     "end": 51.7,
+     "word": "Und"
+    },
+    {
+     "start": 51.7,
+     "end": 51.9,
+     "word": "an"
+    },
+    {
+     "start": 51.9,
+     "end": 52.14,
+     "word": "einer"
+    },
+    {
+     "start": 52.14,
+     "end": 52.62,
+     "word": "anderen"
+    },
+    {
+     "start": 52.62,
+     "end": 52.94,
+     "word": "Stelle"
+    },
+    {
+     "start": 52.94,
+     "end": 53.28,
+     "word": "sagt"
+    },
+    {
+     "start": 53.28,
+     "end": 53.84,
+     "word": "Allah"
+    },
+    {
+     "start": 53.84,
+     "end": 54.76,
+     "word": "und"
+    },
+    {
+     "start": 54.76,
+     "end": 55.36,
+     "word": "Gedenke"
+    },
+    {
+     "start": 55.36,
+     "end": 56.34,
+     "word": "Ismails,"
+    },
+    {
+     "start": 56.66,
+     "end": 57.4,
+     "word": "Ilyasas"
+    },
+    {
+     "start": 57.4,
+     "end": 57.76,
+     "word": "und"
+    },
+    {
+     "start": 57.76,
+     "end": 58.1,
+     "word": "Dhul"
+    },
+    {
+     "start": 58.1,
+     "end": 58.92,
+     "word": "-Kifls,"
+    }
+   ]
+  },
+  {
+   "start": 60.44,
+   "end": 63.02,
+   "text": "alle gehörten zu den Besten.",
+   "words": [
+    {
+     "start": 60.44,
+     "end": 60.66,
+     "word": "alle"
+    },
+    {
+     "start": 60.66,
+     "end": 61.18,
+     "word": "gehörten"
+    },
+    {
+     "start": 61.18,
+     "end": 61.4,
+     "word": "zu"
+    },
+    {
+     "start": 61.4,
+     "end": 61.58,
+     "word": "den"
+    },
+    {
+     "start": 61.58,
+     "end": 63.02,
+     "word": "Besten."
+    }
+   ]
+  },
+  {
+   "start": 63.24,
+   "end": 66.1,
+   "text": "Zu den Besten? Wow, und was hat der gemacht?",
+   "words": [
+    {
+     "start": 63.24,
+     "end": 63.42,
+     "word": "Zu"
+    },
+    {
+     "start": 63.42,
+     "end": 63.62,
+     "word": "den"
+    },
+    {
+     "start": 63.62,
+     "end": 64.34,
+     "word": "Besten?"
+    },
+    {
+     "start": 64.44,
+     "end": 64.8,
+     "word": "Wow,"
+    },
+    {
+     "start": 64.9,
+     "end": 65.16,
+     "word": "und"
+    },
+    {
+     "start": 65.16,
+     "end": 65.36,
+     "word": "was"
+    },
+    {
+     "start": 65.36,
+     "end": 65.44,
+     "word": "hat"
+    },
+    {
+     "start": 65.44,
+     "end": 65.6,
+     "word": "der"
+    },
+    {
+     "start": 65.6,
+     "end": 66.1,
+     "word": "gemacht?"
+    }
+   ]
+  },
+  {
+   "start": 67.48,
+   "end": 72.88,
+   "text": "Das erzählt uns der Koran nicht, mein Schatz, aber Allah sagt uns zwei Dinge über ihn,",
+   "words": [
+    {
+     "start": 67.48,
+     "end": 67.76,
+     "word": "Das"
+    },
+    {
+     "start": 67.76,
+     "end": 68.12,
+     "word": "erzählt"
+    },
+    {
+     "start": 68.12,
+     "end": 68.36,
+     "word": "uns"
+    },
+    {
+     "start": 68.36,
+     "end": 68.54,
+     "word": "der"
+    },
+    {
+     "start": 68.54,
+     "end": 68.94,
+     "word": "Koran"
+    },
+    {
+     "start": 68.94,
+     "end": 69.3,
+     "word": "nicht,"
+    },
+    {
+     "start": 69.42,
+     "end": 69.56,
+     "word": "mein"
+    },
+    {
+     "start": 69.56,
+     "end": 70.26,
+     "word": "Schatz,"
+    },
+    {
+     "start": 70.68,
+     "end": 70.92,
+     "word": "aber"
+    },
+    {
+     "start": 70.92,
+     "end": 71.22,
+     "word": "Allah"
+    },
+    {
+     "start": 71.22,
+     "end": 71.48,
+     "word": "sagt"
+    },
+    {
+     "start": 71.48,
+     "end": 71.84,
+     "word": "uns"
+    },
+    {
+     "start": 71.84,
+     "end": 72.08,
+     "word": "zwei"
+    },
+    {
+     "start": 72.08,
+     "end": 72.3,
+     "word": "Dinge"
+    },
+    {
+     "start": 72.3,
+     "end": 72.54,
+     "word": "über"
+    },
+    {
+     "start": 72.54,
+     "end": 72.88,
+     "word": "ihn,"
+    }
+   ]
+  },
+  {
+   "start": 73.0,
+   "end": 77.66,
+   "text": "er war geduldig und er war Rechtschaffen und genau darüber sprechen wir heute.",
+   "words": [
+    {
+     "start": 73.0,
+     "end": 73.14,
+     "word": "er"
+    },
+    {
+     "start": 73.14,
+     "end": 73.38,
+     "word": "war"
+    },
+    {
+     "start": 73.38,
+     "end": 74.16,
+     "word": "geduldig"
+    },
+    {
+     "start": 74.16,
+     "end": 74.58,
+     "word": "und"
+    },
+    {
+     "start": 74.58,
+     "end": 74.76,
+     "word": "er"
+    },
+    {
+     "start": 74.76,
+     "end": 74.84,
+     "word": "war"
+    },
+    {
+     "start": 74.84,
+     "end": 75.54,
+     "word": "Rechtschaffen"
+    },
+    {
+     "start": 75.54,
+     "end": 76.08,
+     "word": "und"
+    },
+    {
+     "start": 76.08,
+     "end": 76.34,
+     "word": "genau"
+    },
+    {
+     "start": 76.34,
+     "end": 76.64,
+     "word": "darüber"
+    },
+    {
+     "start": 76.64,
+     "end": 77.02,
+     "word": "sprechen"
+    },
+    {
+     "start": 77.02,
+     "end": 77.26,
+     "word": "wir"
+    },
+    {
+     "start": 77.26,
+     "end": 77.66,
+     "word": "heute."
+    }
+   ]
+  },
+  {
+   "start": 78.74,
+   "end": 85.32,
+   "text": "Was heißt eigentlich geduldig? Ilyas, wann musstest Du schon mal geduldig sein?",
+   "words": [
+    {
+     "start": 78.74,
+     "end": 79.34,
+     "word": "Was"
+    },
+    {
+     "start": 79.34,
+     "end": 79.64,
+     "word": "heißt"
+    },
+    {
+     "start": 79.64,
+     "end": 80.08,
+     "word": "eigentlich"
+    },
+    {
+     "start": 80.08,
+     "end": 81.04,
+     "word": "geduldig?"
+    },
+    {
+     "start": 82.94,
+     "end": 83.4,
+     "word": "Ilyas,"
+    },
+    {
+     "start": 83.56,
+     "end": 83.72,
+     "word": "wann"
+    },
+    {
+     "start": 83.72,
+     "end": 84.1,
+     "word": "musstest"
+    },
+    {
+     "start": 84.1,
+     "end": 84.16,
+     "word": "Du"
+    },
+    {
+     "start": 84.16,
+     "end": 84.3,
+     "word": "schon"
+    },
+    {
+     "start": 84.3,
+     "end": 84.5,
+     "word": "mal"
+    },
+    {
+     "start": 84.5,
+     "end": 84.98,
+     "word": "geduldig"
+    },
+    {
+     "start": 84.98,
+     "end": 85.32,
+     "word": "sein?"
+    }
+   ]
+  },
+  {
+   "start": 86.82,
+   "end": 91.96,
+   "text": "Wenn Noah im Badezimmer so lange braucht und wenn ich auf meinen Geburtstag warte.",
+   "words": [
+    {
+     "start": 86.82,
+     "end": 87.08,
+     "word": "Wenn"
+    },
+    {
+     "start": 87.08,
+     "end": 87.4,
+     "word": "Noah"
+    },
+    {
+     "start": 87.4,
+     "end": 87.64,
+     "word": "im"
+    },
+    {
+     "start": 87.64,
+     "end": 88.28,
+     "word": "Badezimmer"
+    },
+    {
+     "start": 88.28,
+     "end": 88.56,
+     "word": "so"
+    },
+    {
+     "start": 88.56,
+     "end": 88.8,
+     "word": "lange"
+    },
+    {
+     "start": 88.8,
+     "end": 89.32,
+     "word": "braucht"
+    },
+    {
+     "start": 89.32,
+     "end": 89.94,
+     "word": "und"
+    },
+    {
+     "start": 89.94,
+     "end": 90.12,
+     "word": "wenn"
+    },
+    {
+     "start": 90.12,
+     "end": 90.24,
+     "word": "ich"
+    },
+    {
+     "start": 90.24,
+     "end": 90.4,
+     "word": "auf"
+    },
+    {
+     "start": 90.4,
+     "end": 90.68,
+     "word": "meinen"
+    },
+    {
+     "start": 90.68,
+     "end": 91.28,
+     "word": "Geburtstag"
+    },
+    {
+     "start": 91.28,
+     "end": 91.96,
+     "word": "warte."
+    }
+   ]
+  },
+  {
+   "start": 93.06,
+   "end": 99.76,
+   "text": "Ja, das ist auch Geduld. Geduld heißt, wenn etwas schwer ist oder lange dauert,",
+   "words": [
+    {
+     "start": 93.06,
+     "end": 93.5,
+     "word": "Ja,"
+    },
+    {
+     "start": 93.92,
+     "end": 94.1,
+     "word": "das"
+    },
+    {
+     "start": 94.1,
+     "end": 94.32,
+     "word": "ist"
+    },
+    {
+     "start": 94.32,
+     "end": 94.6,
+     "word": "auch"
+    },
+    {
+     "start": 94.6,
+     "end": 95.3,
+     "word": "Geduld."
+    },
+    {
+     "start": 96.0,
+     "end": 96.38,
+     "word": "Geduld"
+    },
+    {
+     "start": 96.38,
+     "end": 96.9,
+     "word": "heißt,"
+    },
+    {
+     "start": 97.12,
+     "end": 97.32,
+     "word": "wenn"
+    },
+    {
+     "start": 97.32,
+     "end": 97.58,
+     "word": "etwas"
+    },
+    {
+     "start": 97.58,
+     "end": 98.02,
+     "word": "schwer"
+    },
+    {
+     "start": 98.02,
+     "end": 98.4,
+     "word": "ist"
+    },
+    {
+     "start": 98.4,
+     "end": 98.7,
+     "word": "oder"
+    },
+    {
+     "start": 98.7,
+     "end": 99.0,
+     "word": "lange"
+    },
+    {
+     "start": 99.0,
+     "end": 99.76,
+     "word": "dauert,"
+    }
+   ]
+  },
+  {
+   "start": 99.96,
+   "end": 106.04,
+   "text": "wirst Du nicht wügend und gibst nicht auf. Du tust weiter das Richtige und vertraust auf Allah.",
+   "words": [
+    {
+     "start": 99.96,
+     "end": 100.0,
+     "word": "wirst"
+    },
+    {
+     "start": 100.0,
+     "end": 100.12,
+     "word": "Du"
+    },
+    {
+     "start": 100.12,
+     "end": 100.4,
+     "word": "nicht"
+    },
+    {
+     "start": 100.4,
+     "end": 100.82,
+     "word": "wügend"
+    },
+    {
+     "start": 100.82,
+     "end": 101.02,
+     "word": "und"
+    },
+    {
+     "start": 101.02,
+     "end": 101.26,
+     "word": "gibst"
+    },
+    {
+     "start": 101.26,
+     "end": 101.46,
+     "word": "nicht"
+    },
+    {
+     "start": 101.46,
+     "end": 101.84,
+     "word": "auf."
+    },
+    {
+     "start": 103.1,
+     "end": 103.3,
+     "word": "Du"
+    },
+    {
+     "start": 103.3,
+     "end": 103.56,
+     "word": "tust"
+    },
+    {
+     "start": 103.56,
+     "end": 103.94,
+     "word": "weiter"
+    },
+    {
+     "start": 103.94,
+     "end": 104.2,
+     "word": "das"
+    },
+    {
+     "start": 104.2,
+     "end": 104.68,
+     "word": "Richtige"
+    },
+    {
+     "start": 104.68,
+     "end": 104.88,
+     "word": "und"
+    },
+    {
+     "start": 104.88,
+     "end": 105.34,
+     "word": "vertraust"
+    },
+    {
+     "start": 105.34,
+     "end": 105.6,
+     "word": "auf"
+    },
+    {
+     "start": 105.6,
+     "end": 106.04,
+     "word": "Allah."
+    }
+   ]
+  },
+  {
+   "start": 107.02,
+   "end": 111.64,
+   "text": "Allah, sagt im Koran, Allah ist mit den Geduldigen.",
+   "words": [
+    {
+     "start": 107.02,
+     "end": 107.7,
+     "word": "Allah,"
+    },
+    {
+     "start": 108.08,
+     "end": 108.32,
+     "word": "sagt"
+    },
+    {
+     "start": 108.32,
+     "end": 108.54,
+     "word": "im"
+    },
+    {
+     "start": 108.54,
+     "end": 109.5,
+     "word": "Koran,"
+    },
+    {
+     "start": 109.78,
+     "end": 110.24,
+     "word": "Allah"
+    },
+    {
+     "start": 110.24,
+     "end": 110.46,
+     "word": "ist"
+    },
+    {
+     "start": 110.46,
+     "end": 110.64,
+     "word": "mit"
+    },
+    {
+     "start": 110.64,
+     "end": 110.86,
+     "word": "den"
+    },
+    {
+     "start": 110.86,
+     "end": 111.64,
+     "word": "Geduldigen."
+    }
+   ]
+  },
+  {
+   "start": 112.82,
+   "end": 117.66,
+   "text": "Und unser Prophet Muhammad, Allah segne ihn und schenke ihm Fiden, sagte,",
+   "words": [
+    {
+     "start": 112.82,
+     "end": 113.06,
+     "word": "Und"
+    },
+    {
+     "start": 113.06,
+     "end": 113.28,
+     "word": "unser"
+    },
+    {
+     "start": 113.28,
+     "end": 113.7,
+     "word": "Prophet"
+    },
+    {
+     "start": 113.7,
+     "end": 114.32,
+     "word": "Muhammad,"
+    },
+    {
+     "start": 114.7,
+     "end": 115.18,
+     "word": "Allah"
+    },
+    {
+     "start": 115.18,
+     "end": 115.6,
+     "word": "segne"
+    },
+    {
+     "start": 115.6,
+     "end": 115.92,
+     "word": "ihn"
+    },
+    {
+     "start": 115.92,
+     "end": 116.1,
+     "word": "und"
+    },
+    {
+     "start": 116.1,
+     "end": 116.34,
+     "word": "schenke"
+    },
+    {
+     "start": 116.34,
+     "end": 116.62,
+     "word": "ihm"
+    },
+    {
+     "start": 116.62,
+     "end": 117.04,
+     "word": "Fiden,"
+    },
+    {
+     "start": 117.4,
+     "end": 117.66,
+     "word": "sagte,"
+    }
+   ]
+  },
+  {
+   "start": 118.3,
+   "end": 122.08,
+   "text": "niemand hat ein besseres und größeres Geschenk bekommen als die Geduld.",
+   "words": [
+    {
+     "start": 118.3,
+     "end": 118.68,
+     "word": "niemand"
+    },
+    {
+     "start": 118.68,
+     "end": 118.92,
+     "word": "hat"
+    },
+    {
+     "start": 118.92,
+     "end": 119.2,
+     "word": "ein"
+    },
+    {
+     "start": 119.2,
+     "end": 119.74,
+     "word": "besseres"
+    },
+    {
+     "start": 119.74,
+     "end": 119.9,
+     "word": "und"
+    },
+    {
+     "start": 119.9,
+     "end": 120.46,
+     "word": "größeres"
+    },
+    {
+     "start": 120.46,
+     "end": 120.8,
+     "word": "Geschenk"
+    },
+    {
+     "start": 120.8,
+     "end": 121.16,
+     "word": "bekommen"
+    },
+    {
+     "start": 121.16,
+     "end": 121.46,
+     "word": "als"
+    },
+    {
+     "start": 121.46,
+     "end": 121.7,
+     "word": "die"
+    },
+    {
+     "start": 121.7,
+     "end": 122.08,
+     "word": "Geduld."
+    }
+   ]
+  },
+  {
+   "start": 123.44,
+   "end": 129.46,
+   "text": "Und was heißt Rechtschaffen? Rechtschaffen ist jemand, der Allah gehorcht und Gutes tut.",
+   "words": [
+    {
+     "start": 123.44,
+     "end": 123.68,
+     "word": "Und"
+    },
+    {
+     "start": 123.68,
+     "end": 123.98,
+     "word": "was"
+    },
+    {
+     "start": 123.98,
+     "end": 124.22,
+     "word": "heißt"
+    },
+    {
+     "start": 124.22,
+     "end": 125.0,
+     "word": "Rechtschaffen?"
+    },
+    {
+     "start": 125.68,
+     "end": 126.26,
+     "word": "Rechtschaffen"
+    },
+    {
+     "start": 126.26,
+     "end": 126.52,
+     "word": "ist"
+    },
+    {
+     "start": 126.52,
+     "end": 126.94,
+     "word": "jemand,"
+    },
+    {
+     "start": 127.2,
+     "end": 127.4,
+     "word": "der"
+    },
+    {
+     "start": 127.4,
+     "end": 127.88,
+     "word": "Allah"
+    },
+    {
+     "start": 127.88,
+     "end": 128.48,
+     "word": "gehorcht"
+    },
+    {
+     "start": 128.48,
+     "end": 128.72,
+     "word": "und"
+    },
+    {
+     "start": 128.72,
+     "end": 129.06,
+     "word": "Gutes"
+    },
+    {
+     "start": 129.06,
+     "end": 129.46,
+     "word": "tut."
+    }
+   ]
+  },
+  {
+   "start": 130.86,
+   "end": 134.76,
+   "text": "Auch wenn niemand zuschaut? Zum Beispiel heimlich mein Zimmer aufräumen?",
+   "words": [
+    {
+     "start": 130.86,
+     "end": 131.14,
+     "word": "Auch"
+    },
+    {
+     "start": 131.14,
+     "end": 131.34,
+     "word": "wenn"
+    },
+    {
+     "start": 131.34,
+     "end": 131.66,
+     "word": "niemand"
+    },
+    {
+     "start": 131.66,
+     "end": 132.26,
+     "word": "zuschaut?"
+    },
+    {
+     "start": 132.8,
+     "end": 133.04,
+     "word": "Zum"
+    },
+    {
+     "start": 133.04,
+     "end": 133.36,
+     "word": "Beispiel"
+    },
+    {
+     "start": 133.36,
+     "end": 133.76,
+     "word": "heimlich"
+    },
+    {
+     "start": 133.76,
+     "end": 133.94,
+     "word": "mein"
+    },
+    {
+     "start": 133.94,
+     "end": 134.22,
+     "word": "Zimmer"
+    },
+    {
+     "start": 134.22,
+     "end": 134.76,
+     "word": "aufräumen?"
+    }
+   ]
+  },
+  {
+   "start": 134.76,
+   "end": 141.36,
+   "text": "Ein Sossi. Ganz genau, mein Schatz. Oder einem Kind helfen, das alleine ist.",
+   "words": [
+    {
+     "start": 134.76,
+     "end": 136.02,
+     "word": "Ein"
+    },
+    {
+     "start": 136.02,
+     "end": 137.34,
+     "word": "Sossi."
+    },
+    {
+     "start": 137.56,
+     "end": 137.92,
+     "word": "Ganz"
+    },
+    {
+     "start": 137.92,
+     "end": 138.26,
+     "word": "genau,"
+    },
+    {
+     "start": 138.38,
+     "end": 138.54,
+     "word": "mein"
+    },
+    {
+     "start": 138.54,
+     "end": 139.08,
+     "word": "Schatz."
+    },
+    {
+     "start": 139.18,
+     "end": 139.36,
+     "word": "Oder"
+    },
+    {
+     "start": 139.36,
+     "end": 139.62,
+     "word": "einem"
+    },
+    {
+     "start": 139.62,
+     "end": 139.96,
+     "word": "Kind"
+    },
+    {
+     "start": 139.96,
+     "end": 140.3,
+     "word": "helfen,"
+    },
+    {
+     "start": 140.34,
+     "end": 140.58,
+     "word": "das"
+    },
+    {
+     "start": 140.58,
+     "end": 140.98,
+     "word": "alleine"
+    },
+    {
+     "start": 140.98,
+     "end": 141.36,
+     "word": "ist."
+    }
+   ]
+  },
+  {
+   "start": 141.7,
+   "end": 144.44,
+   "text": "Oder die Wahrheit sagen, auch wenn es schwer ist.",
+   "words": [
+    {
+     "start": 141.7,
+     "end": 141.9,
+     "word": "Oder"
+    },
+    {
+     "start": 141.9,
+     "end": 142.16,
+     "word": "die"
+    },
+    {
+     "start": 142.16,
+     "end": 142.62,
+     "word": "Wahrheit"
+    },
+    {
+     "start": 142.62,
+     "end": 142.94,
+     "word": "sagen,"
+    },
+    {
+     "start": 143.2,
+     "end": 143.4,
+     "word": "auch"
+    },
+    {
+     "start": 143.4,
+     "end": 143.56,
+     "word": "wenn"
+    },
+    {
+     "start": 143.56,
+     "end": 143.7,
+     "word": "es"
+    },
+    {
+     "start": 143.7,
+     "end": 144.06,
+     "word": "schwer"
+    },
+    {
+     "start": 144.06,
+     "end": 144.44,
+     "word": "ist."
+    }
+   ]
+  },
+  {
+   "start": 146.04,
+   "end": 151.5,
+   "text": "Allah sieht alles. Und er hat Dulkifel in seine Barmherzigkeit eintreten lassen.",
+   "words": [
+    {
+     "start": 146.04,
+     "end": 146.4,
+     "word": "Allah"
+    },
+    {
+     "start": 146.4,
+     "end": 146.78,
+     "word": "sieht"
+    },
+    {
+     "start": 146.78,
+     "end": 147.46,
+     "word": "alles."
+    },
+    {
+     "start": 147.98,
+     "end": 148.16,
+     "word": "Und"
+    },
+    {
+     "start": 148.16,
+     "end": 148.58,
+     "word": "er"
+    },
+    {
+     "start": 148.58,
+     "end": 148.58,
+     "word": "hat"
+    },
+    {
+     "start": 148.58,
+     "end": 149.3,
+     "word": "Dulkifel"
+    },
+    {
+     "start": 149.3,
+     "end": 149.44,
+     "word": "in"
+    },
+    {
+     "start": 149.44,
+     "end": 149.64,
+     "word": "seine"
+    },
+    {
+     "start": 149.64,
+     "end": 150.48,
+     "word": "Barmherzigkeit"
+    },
+    {
+     "start": 150.48,
+     "end": 151.08,
+     "word": "eintreten"
+    },
+    {
+     "start": 151.08,
+     "end": 151.5,
+     "word": "lassen."
+    }
+   ]
+  },
+  {
+   "start": 153.66,
+   "end": 157.14,
+   "text": "Weißt Du, manche Leute erzählen über Dulkifel lange Geschichten.",
+   "words": [
+    {
+     "start": 153.66,
+     "end": 153.98,
+     "word": "Weißt"
+    },
+    {
+     "start": 153.98,
+     "end": 154.12,
+     "word": "Du,"
+    },
+    {
+     "start": 154.3,
+     "end": 154.68,
+     "word": "manche"
+    },
+    {
+     "start": 154.68,
+     "end": 154.94,
+     "word": "Leute"
+    },
+    {
+     "start": 154.94,
+     "end": 155.46,
+     "word": "erzählen"
+    },
+    {
+     "start": 155.46,
+     "end": 155.72,
+     "word": "über"
+    },
+    {
+     "start": 155.72,
+     "end": 156.36,
+     "word": "Dulkifel"
+    },
+    {
+     "start": 156.36,
+     "end": 156.54,
+     "word": "lange"
+    },
+    {
+     "start": 156.54,
+     "end": 157.14,
+     "word": "Geschichten."
+    }
+   ]
+  },
+  {
+   "start": 157.8,
+   "end": 160.28,
+   "text": "Aber für viele davon gibt es keine sicheren Quellen.",
+   "words": [
+    {
+     "start": 157.8,
+     "end": 158.02,
+     "word": "Aber"
+    },
+    {
+     "start": 158.02,
+     "end": 158.26,
+     "word": "für"
+    },
+    {
+     "start": 158.26,
+     "end": 158.46,
+     "word": "viele"
+    },
+    {
+     "start": 158.46,
+     "end": 158.8,
+     "word": "davon"
+    },
+    {
+     "start": 158.8,
+     "end": 159.04,
+     "word": "gibt"
+    },
+    {
+     "start": 159.04,
+     "end": 159.26,
+     "word": "es"
+    },
+    {
+     "start": 159.26,
+     "end": 159.46,
+     "word": "keine"
+    },
+    {
+     "start": 159.46,
+     "end": 159.86,
+     "word": "sicheren"
+    },
+    {
+     "start": 159.86,
+     "end": 160.28,
+     "word": "Quellen."
+    }
+   ]
+  },
+  {
+   "start": 160.74,
+   "end": 163.42,
+   "text": "Und was wir nicht sicher wissen, das erfinden wir nicht.",
+   "words": [
+    {
+     "start": 160.74,
+     "end": 160.98,
+     "word": "Und"
+    },
+    {
+     "start": 160.98,
+     "end": 161.16,
+     "word": "was"
+    },
+    {
+     "start": 161.16,
+     "end": 161.34,
+     "word": "wir"
+    },
+    {
+     "start": 161.34,
+     "end": 161.64,
+     "word": "nicht"
+    },
+    {
+     "start": 161.64,
+     "end": 161.84,
+     "word": "sicher"
+    },
+    {
+     "start": 161.84,
+     "end": 162.16,
+     "word": "wissen,"
+    },
+    {
+     "start": 162.3,
+     "end": 162.54,
+     "word": "das"
+    },
+    {
+     "start": 162.54,
+     "end": 162.86,
+     "word": "erfinden"
+    },
+    {
+     "start": 162.86,
+     "end": 163.04,
+     "word": "wir"
+    },
+    {
+     "start": 163.04,
+     "end": 163.42,
+     "word": "nicht."
+    }
+   ]
+  },
+  {
+   "start": 164.5,
+   "end": 168.76,
+   "text": "Und warum erzählt Allah uns nicht mehr über ihn?",
+   "words": [
+    {
+     "start": 164.5,
+     "end": 165.14,
+     "word": "Und"
+    },
+    {
+     "start": 165.14,
+     "end": 165.66,
+     "word": "warum"
+    },
+    {
+     "start": 165.66,
+     "end": 166.38,
+     "word": "erzählt"
+    },
+    {
+     "start": 166.38,
+     "end": 166.86,
+     "word": "Allah"
+    },
+    {
+     "start": 166.86,
+     "end": 167.26,
+     "word": "uns"
+    },
+    {
+     "start": 167.26,
+     "end": 167.6,
+     "word": "nicht"
+    },
+    {
+     "start": 167.6,
+     "end": 167.88,
+     "word": "mehr"
+    },
+    {
+     "start": 167.88,
+     "end": 168.2,
+     "word": "über"
+    },
+    {
+     "start": 168.2,
+     "end": 168.76,
+     "word": "ihn?"
+    }
+   ]
+  },
+  {
+   "start": 169.62,
+   "end": 171.6,
+   "text": "Allah weiß am besten, was wir brauchen.",
+   "words": [
+    {
+     "start": 169.62,
+     "end": 169.84,
+     "word": "Allah"
+    },
+    {
+     "start": 169.84,
+     "end": 170.2,
+     "word": "weiß"
+    },
+    {
+     "start": 170.2,
+     "end": 170.44,
+     "word": "am"
+    },
+    {
+     "start": 170.44,
+     "end": 170.7,
+     "word": "besten,"
+    },
+    {
+     "start": 170.8,
+     "end": 170.96,
+     "word": "was"
+    },
+    {
+     "start": 170.96,
+     "end": 171.22,
+     "word": "wir"
+    },
+    {
+     "start": 171.22,
+     "end": 171.6,
+     "word": "brauchen."
+    }
+   ]
+  },
+  {
+   "start": 172.22,
+   "end": 175.38,
+   "text": "Vielleicht will er uns zeigen, nicht jeder gute Mensch wird berühmt.",
+   "words": [
+    {
+     "start": 172.22,
+     "end": 172.56,
+     "word": "Vielleicht"
+    },
+    {
+     "start": 172.56,
+     "end": 172.76,
+     "word": "will"
+    },
+    {
+     "start": 172.76,
+     "end": 172.86,
+     "word": "er"
+    },
+    {
+     "start": 172.86,
+     "end": 173.06,
+     "word": "uns"
+    },
+    {
+     "start": 173.06,
+     "end": 173.42,
+     "word": "zeigen,"
+    },
+    {
+     "start": 173.72,
+     "end": 173.88,
+     "word": "nicht"
+    },
+    {
+     "start": 173.88,
+     "end": 174.06,
+     "word": "jeder"
+    },
+    {
+     "start": 174.06,
+     "end": 174.38,
+     "word": "gute"
+    },
+    {
+     "start": 174.38,
+     "end": 174.6,
+     "word": "Mensch"
+    },
+    {
+     "start": 174.6,
+     "end": 174.82,
+     "word": "wird"
+    },
+    {
+     "start": 174.82,
+     "end": 175.38,
+     "word": "berühmt."
+    }
+   ]
+  },
+  {
+   "start": 176.2,
+   "end": 179.5,
+   "text": "Aber Allah kennt jeden, der geduldig ist und Gutes tut.",
+   "words": [
+    {
+     "start": 176.2,
+     "end": 176.42,
+     "word": "Aber"
+    },
+    {
+     "start": 176.42,
+     "end": 176.82,
+     "word": "Allah"
+    },
+    {
+     "start": 176.82,
+     "end": 177.08,
+     "word": "kennt"
+    },
+    {
+     "start": 177.08,
+     "end": 177.56,
+     "word": "jeden,"
+    },
+    {
+     "start": 177.76,
+     "end": 177.94,
+     "word": "der"
+    },
+    {
+     "start": 177.94,
+     "end": 178.42,
+     "word": "geduldig"
+    },
+    {
+     "start": 178.42,
+     "end": 178.66,
+     "word": "ist"
+    },
+    {
+     "start": 178.66,
+     "end": 178.84,
+     "word": "und"
+    },
+    {
+     "start": 178.84,
+     "end": 179.26,
+     "word": "Gutes"
+    },
+    {
+     "start": 179.26,
+     "end": 179.5,
+     "word": "tut."
+    }
+   ]
+  },
+  {
+   "start": 180.18,
+   "end": 184.6,
+   "text": "Und Allah sagt, die Geduldigen bekommen ihren Lohn ohne Grenze.",
+   "words": [
+    {
+     "start": 180.18,
+     "end": 180.4,
+     "word": "Und"
+    },
+    {
+     "start": 180.4,
+     "end": 180.8,
+     "word": "Allah"
+    },
+    {
+     "start": 180.8,
+     "end": 181.16,
+     "word": "sagt,"
+    },
+    {
+     "start": 181.34,
+     "end": 181.48,
+     "word": "die"
+    },
+    {
+     "start": 181.48,
+     "end": 181.96,
+     "word": "Geduldigen"
+    },
+    {
+     "start": 181.96,
+     "end": 182.44,
+     "word": "bekommen"
+    },
+    {
+     "start": 182.44,
+     "end": 182.84,
+     "word": "ihren"
+    },
+    {
+     "start": 182.84,
+     "end": 183.42,
+     "word": "Lohn"
+    },
+    {
+     "start": 183.42,
+     "end": 183.88,
+     "word": "ohne"
+    },
+    {
+     "start": 183.88,
+     "end": 184.6,
+     "word": "Grenze."
+    }
+   ]
+  },
+  {
+   "start": 186.0,
+   "end": 187.78,
+   "text": "Oh, sie schlafen schon.",
+   "words": [
+    {
+     "start": 186.0,
+     "end": 186.54,
+     "word": "Oh,"
+    },
+    {
+     "start": 186.6,
+     "end": 186.84,
+     "word": "sie"
+    },
+    {
+     "start": 186.84,
+     "end": 187.3,
+     "word": "schlafen"
+    },
+    {
+     "start": 187.3,
+     "end": 187.78,
+     "word": "schon."
+    }
+   ]
+  },
+  {
+   "start": 188.4,
+   "end": 193.14,
+   "text": "Meine Lieben, seid geduldig wie Dulkifel, wenn etwas schwer ist oder lange dauert.",
+   "words": [
+    {
+     "start": 188.4,
+     "end": 188.62,
+     "word": "Meine"
+    },
+    {
+     "start": 188.62,
+     "end": 189.3,
+     "word": "Lieben,"
+    },
+    {
+     "start": 189.5,
+     "end": 189.6,
+     "word": "seid"
+    },
+    {
+     "start": 189.6,
+     "end": 190.14,
+     "word": "geduldig"
+    },
+    {
+     "start": 190.14,
+     "end": 190.38,
+     "word": "wie"
+    },
+    {
+     "start": 190.38,
+     "end": 191.14,
+     "word": "Dulkifel,"
+    },
+    {
+     "start": 191.14,
+     "end": 191.32,
+     "word": "wenn"
+    },
+    {
+     "start": 191.32,
+     "end": 191.56,
+     "word": "etwas"
+    },
+    {
+     "start": 191.56,
+     "end": 191.92,
+     "word": "schwer"
+    },
+    {
+     "start": 191.92,
+     "end": 192.12,
+     "word": "ist"
+    },
+    {
+     "start": 192.12,
+     "end": 192.32,
+     "word": "oder"
+    },
+    {
+     "start": 192.32,
+     "end": 192.6,
+     "word": "lange"
+    },
+    {
+     "start": 192.6,
+     "end": 193.14,
+     "word": "dauert."
+    }
+   ]
+  },
+  {
+   "start": 193.14,
+   "end": 199.2,
+   "text": "Tut Gutes, auch wenn niemand zuschaut. Und erzählt nur, was Ihr sicher wisst.",
+   "words": [
+    {
+     "start": 193.14,
+     "end": 194.16,
+     "word": "Tut"
+    },
+    {
+     "start": 194.16,
+     "end": 194.62,
+     "word": "Gutes,"
+    },
+    {
+     "start": 194.78,
+     "end": 194.92,
+     "word": "auch"
+    },
+    {
+     "start": 194.92,
+     "end": 195.04,
+     "word": "wenn"
+    },
+    {
+     "start": 195.04,
+     "end": 195.34,
+     "word": "niemand"
+    },
+    {
+     "start": 195.34,
+     "end": 196.16,
+     "word": "zuschaut."
+    },
+    {
+     "start": 196.58,
+     "end": 196.82,
+     "word": "Und"
+    },
+    {
+     "start": 196.82,
+     "end": 197.16,
+     "word": "erzählt"
+    },
+    {
+     "start": 197.16,
+     "end": 197.56,
+     "word": "nur,"
+    },
+    {
+     "start": 197.62,
+     "end": 197.78,
+     "word": "was"
+    },
+    {
+     "start": 197.78,
+     "end": 198.0,
+     "word": "Ihr"
+    },
+    {
+     "start": 198.0,
+     "end": 198.3,
+     "word": "sicher"
+    },
+    {
+     "start": 198.3,
+     "end": 199.2,
+     "word": "wisst."
+    }
+   ]
+  },
+  {
+   "start": 199.4,
+   "end": 205.62,
+   "text": "Und nächstes Mal erzähle ich Euch von Dawud, einem Propheten mit einer wunderschönen Stimme,",
+   "words": [
+    {
+     "start": 199.4,
+     "end": 199.68,
+     "word": "Und"
+    },
+    {
+     "start": 199.68,
+     "end": 200.08,
+     "word": "nächstes"
+    },
+    {
+     "start": 200.08,
+     "end": 200.48,
+     "word": "Mal"
+    },
+    {
+     "start": 200.48,
+     "end": 201.08,
+     "word": "erzähle"
+    },
+    {
+     "start": 201.08,
+     "end": 201.28,
+     "word": "ich"
+    },
+    {
+     "start": 201.28,
+     "end": 201.54,
+     "word": "Euch"
+    },
+    {
+     "start": 201.54,
+     "end": 201.82,
+     "word": "von"
+    },
+    {
+     "start": 201.82,
+     "end": 202.76,
+     "word": "Dawud,"
+    },
+    {
+     "start": 203.02,
+     "end": 203.14,
+     "word": "einem"
+    },
+    {
+     "start": 203.14,
+     "end": 203.8,
+     "word": "Propheten"
+    },
+    {
+     "start": 203.8,
+     "end": 203.98,
+     "word": "mit"
+    },
+    {
+     "start": 203.98,
+     "end": 204.24,
+     "word": "einer"
+    },
+    {
+     "start": 204.24,
+     "end": 205.0,
+     "word": "wunderschönen"
+    },
+    {
+     "start": 205.0,
+     "end": 205.62,
+     "word": "Stimme,"
+    }
+   ]
+  },
+  {
+   "start": 205.84,
+   "end": 209.0,
+   "text": "mit dem sogar die Berge und die Vögel Allah lobten.",
+   "words": [
+    {
+     "start": 205.84,
+     "end": 205.96,
+     "word": "mit"
+    },
+    {
+     "start": 205.96,
+     "end": 206.08,
+     "word": "dem"
+    },
+    {
+     "start": 206.08,
+     "end": 206.4,
+     "word": "sogar"
+    },
+    {
+     "start": 206.4,
+     "end": 206.66,
+     "word": "die"
+    },
+    {
+     "start": 206.66,
+     "end": 207.08,
+     "word": "Berge"
+    },
+    {
+     "start": 207.08,
+     "end": 207.36,
+     "word": "und"
+    },
+    {
+     "start": 207.36,
+     "end": 207.62,
+     "word": "die"
+    },
+    {
+     "start": 207.62,
+     "end": 208.0,
+     "word": "Vögel"
+    },
+    {
+     "start": 208.0,
+     "end": 208.36,
+     "word": "Allah"
+    },
+    {
+     "start": 208.36,
+     "end": 209.0,
+     "word": "lobten."
+    }
+   ]
+  },
+  {
+   "start": 210.0,
+   "end": 213.94,
+   "text": "Und Du, der Du gerade zuschaust, wenn Dir die Geschichte gefallen hat,",
+   "words": [
+    {
+     "start": 210.0,
+     "end": 210.22,
+     "word": "Und"
+    },
+    {
+     "start": 210.22,
+     "end": 210.58,
+     "word": "Du,"
+    },
+    {
+     "start": 210.64,
+     "end": 210.78,
+     "word": "der"
+    },
+    {
+     "start": 210.78,
+     "end": 211.0,
+     "word": "Du"
+    },
+    {
+     "start": 211.0,
+     "end": 211.44,
+     "word": "gerade"
+    },
+    {
+     "start": 211.44,
+     "end": 212.14,
+     "word": "zuschaust,"
+    },
+    {
+     "start": 212.22,
+     "end": 212.36,
+     "word": "wenn"
+    },
+    {
+     "start": 212.36,
+     "end": 212.56,
+     "word": "Dir"
+    },
+    {
+     "start": 212.56,
+     "end": 212.8,
+     "word": "die"
+    },
+    {
+     "start": 212.8,
+     "end": 213.12,
+     "word": "Geschichte"
+    },
+    {
+     "start": 213.12,
+     "end": 213.6,
+     "word": "gefallen"
+    },
+    {
+     "start": 213.6,
+     "end": 213.94,
+     "word": "hat,"
+    }
+   ]
+  },
+  {
+   "start": 214.32,
+   "end": 217.22,
+   "text": "dann frag Deine Eltern, ob sie unseren Kanal abonnieren.",
+   "words": [
+    {
+     "start": 214.32,
+     "end": 214.46,
+     "word": "dann"
+    },
+    {
+     "start": 214.46,
+     "end": 214.72,
+     "word": "frag"
+    },
+    {
+     "start": 214.72,
+     "end": 215.0,
+     "word": "Deine"
+    },
+    {
+     "start": 215.0,
+     "end": 215.36,
+     "word": "Eltern,"
+    },
+    {
+     "start": 215.46,
+     "end": 215.58,
+     "word": "ob"
+    },
+    {
+     "start": 215.58,
+     "end": 215.7,
+     "word": "sie"
+    },
+    {
+     "start": 215.7,
+     "end": 216.04,
+     "word": "unseren"
+    },
+    {
+     "start": 216.04,
+     "end": 216.5,
+     "word": "Kanal"
+    },
+    {
+     "start": 216.5,
+     "end": 217.22,
+     "word": "abonnieren."
+    }
+   ]
+  },
+  {
+   "start": 217.86,
+   "end": 220.1,
+   "text": "So verpasst Du die nächste Geschichte nicht.",
+   "words": [
+    {
+     "start": 217.86,
+     "end": 218.12,
+     "word": "So"
+    },
+    {
+     "start": 218.12,
+     "end": 218.54,
+     "word": "verpasst"
+    },
+    {
+     "start": 218.54,
+     "end": 218.74,
+     "word": "Du"
+    },
+    {
+     "start": 218.74,
+     "end": 218.88,
+     "word": "die"
+    },
+    {
+     "start": 218.88,
+     "end": 219.2,
+     "word": "nächste"
+    },
+    {
+     "start": 219.2,
+     "end": 219.68,
+     "word": "Geschichte"
+    },
+    {
+     "start": 219.68,
+     "end": 220.1,
+     "word": "nicht."
+    }
+   ]
+  },
+  {
+   "start": 221.28,
+   "end": 222.72,
+   "text": "Schlaf gut, meine Lieben.",
+   "words": [
+    {
+     "start": 221.28,
+     "end": 221.54,
+     "word": "Schlaf"
+    },
+    {
+     "start": 221.54,
+     "end": 221.88,
+     "word": "gut,"
+    },
+    {
+     "start": 222.1,
+     "end": 222.28,
+     "word": "meine"
+    },
+    {
+     "start": 222.28,
+     "end": 222.72,
+     "word": "Lieben."
+    }
+   ]
+  },
+  {
+   "start": 222.72,
+   "end": 224.84,
+   "text": "Allah beschütze Euch.",
+   "words": [
+    {
+     "start": 222.72,
+     "end": 224.06,
+     "word": "Allah"
+    },
+    {
+     "start": 224.06,
+     "end": 224.56,
+     "word": "beschütze"
+    },
+    {
+     "start": 224.56,
+     "end": 224.84,
+     "word": "Euch."
+    }
+   ]
+  }
+ ]
+}
