@@ -1,0 +1,175 @@
+{
+ "name": "folge15_harun_dub",
+ "episode": "folge15_harun",
+ "duration": 397.76,
+ "langs": [
+  "ar",
+  "en"
+ ],
+ "prophet": "Harun",
+ "ref_audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge14_erzaehlung_komplett_2026-10-16mp3-hxXoUqUsSzs.mp3",
+ "ref": [
+  45.0,
+  56.5
+ ],
+ "kid_ref": [
+  203.5,
+  207.0
+ ],
+ "segments": [
+  {
+   "id": "s1a",
+   "start": 0.0,
+   "end": 13.84,
+   "kid": false,
+   "de": "[whispers] Noah… Ilyas… ihr seid Brüder. [curious] Sagt mal: Wenn einer von euch etwas Schweres machen muss, hilft der andere dann?"
+  },
+  {
+   "id": "s1b",
+   "start": 14.5,
+   "end": 18.6,
+   "kid": true,
+   "de": "[childlike voice] [excited] Klar! Ilyas hilft mir immer bei den Hausaufgaben!"
+  },
+  {
+   "id": "s1c",
+   "start": 19.52,
+   "end": 39.68,
+   "kid": false,
+   "de": "[chuckles] Das ist schön, mein Schatz. Kuschelt euch ein… [warmly] Heute erzähle ich euch von zwei Brüdern, die beide Propheten waren: Musa und sein Bruder Harun, Friede sei mit ihnen. Und heute geht es um Harun."
+  },
+  {
+   "id": "s2a",
+   "start": 40.88,
+   "end": 71.54,
+   "kid": false,
+   "de": "[warmly] Erinnert ihr euch? Am Feuer auf dem Berg sagte Allah zu Musa: Geh zu Pharao! [softly] Das war eine sehr schwere Aufgabe. Und Musa betete: Mein Herr, gib mir einen Helfer aus meiner Familie: Harun, meinen Bruder. Mach mich durch ihn stark und lass ihn bei meiner Aufgabe dabei sein."
+  },
+  {
+   "id": "s2b",
+   "start": 72.28,
+   "end": 75.14,
+   "kid": true,
+   "de": "[childlike voice] [curious] Warum wollte Musa genau Harun?"
+  },
+  {
+   "id": "s2c",
+   "start": 75.14,
+   "end": 103.72,
+   "kid": false,
+   "de": "[warmly] Musa sagte: Mein Bruder Harun kann besser reden als ich. Schick ihn mit mir, damit er mir hilft und bestätigt, was ich sage. [excited] Und Allah antwortete: Wir machen dich stark durch deinen Bruder! [softly] Allah machte Harun auch zu einem Propheten. Ein Geschenk aus Seiner Barmherzigkeit."
+  },
+  {
+   "id": "s3a",
+   "start": 103.72,
+   "end": 136.48,
+   "kid": false,
+   "de": "[warmly] Dann sagte Allah zu den beiden Brüdern: Geht zu Pharao, denn er ist maßlos geworden. Und sprecht freundlich mit ihm, vielleicht denkt er nach. [softly] Musa und Harun sagten: Unser Herr, wir haben Angst. Und Allah sagte: Habt keine Angst! Ich bin mit euch, Ich höre und Ich sehe."
+  },
+  {
+   "id": "s3b",
+   "start": 137.24,
+   "end": 141.2,
+   "kid": true,
+   "de": "[childlike voice] [excited] Dann sind sie zusammen hingegangen? Wie ein Team!"
+  },
+  {
+   "id": "s3c",
+   "start": 142.88,
+   "end": 163.2,
+   "kid": false,
+   "de": "[chuckles] Ganz genau, wie ein Team. Sie gingen zusammen zu Pharao, und sie hielten zusammen, auch als es schwer wurde. [warmly] Und Allah rettete sie und die Kinder Israils am Meer. Das habe ich euch letztes Mal erzählt."
+  },
+  {
+   "id": "s4a",
+   "start": 164.5,
+   "end": 185.46,
+   "kid": false,
+   "de": "[softly] Nach der Rettung rief Allah Musa für vierzig Nächte zu sich, an den Berg. Bevor Musa ging, sagte er zu Harun: Vertritt mich bei meinem Volk. Mach alles richtig und folge nicht denen, die Unheil stiften."
+  },
+  {
+   "id": "s4b",
+   "start": 185.46,
+   "end": 199.48,
+   "kid": false,
+   "de": "[serious] Doch während Musa weg war, machte ein Mann namens Samiri aus dem Goldschmuck der Leute ein goldenes Kalb, das einen Laut von sich gab. Und er sagte: Das ist euer Gott! [sighs] Und viele Leute glaubten ihm."
+  },
+  {
+   "id": "s4c",
+   "start": 200.56,
+   "end": 205.12,
+   "kid": true,
+   "de": "[childlike voice] [surprised] Ein Kalb aus Gold? Das kann doch kein Gott sein!"
+  },
+  {
+   "id": "s4d",
+   "start": 205.86,
+   "end": 232.58,
+   "kid": false,
+   "de": "[warmly] Du hast recht, mein Schatz. Und genau das hat Harun gesagt. Er rief: Mein Volk, damit werdet ihr nur geprüft! Euer Herr ist der Barmherzige. Folgt mir und hört auf mich! [softly] Aber sie sagten: Wir hören nicht auf, bis Musa zurückkommt."
+  },
+  {
+   "id": "s5a",
+   "start": 233.84,
+   "end": 248.86,
+   "kid": false,
+   "de": "[softly] Als Musa zurückkam und sah, was passiert war, wurde er sehr traurig und zornig. Er dachte, Harun hätte nicht genug aufgepasst, und packte ihn am Kopf."
+  },
+  {
+   "id": "s5b",
+   "start": 249.54,
+   "end": 253.52,
+   "kid": true,
+   "de": "[childlike voice] [nervous] Oh nein! War Harun dann sauer auf ihn?"
+  },
+  {
+   "id": "s5c",
+   "start": 254.22,
+   "end": 273.98,
+   "kid": false,
+   "de": "[warmly] Nein, mein Schatz. Harun blieb ganz ruhig und sagte liebevoll: Sohn meiner Mutter, lass mich los! [softly] Ich hatte Angst, dass du sagst: Du hast die Kinder Israils gespalten. Die Leute haben nicht auf mich gehört."
+  },
+  {
+   "id": "s5d",
+   "start": 274.7,
+   "end": 298.4,
+   "kid": false,
+   "de": "[warmly] Da verstand Musa, dass sein Bruder alles richtig gemacht hatte. Und er betete: Mein Herr, vergib mir und meinem Bruder, und lass uns in Deine Barmherzigkeit eintreten. Du bist der Barmherzigste der Barmherzigen."
+  },
+  {
+   "id": "s6a",
+   "start": 299.64,
+   "end": 308.36,
+   "kid": false,
+   "de": "[warmly] Allah lobt die beiden Brüder im Koran. Er sagt: Friede sei auf Musa und Harun! [softly] Sie gehörten zu Seinen gläubigen Dienern."
+  },
+  {
+   "id": "s6b",
+   "start": 309.66,
+   "end": 313.48,
+   "kid": true,
+   "de": "[childlike voice] [curious] Hat unser Prophet Muhammad auch von Harun erzählt?"
+  },
+  {
+   "id": "s6c",
+   "start": 315.18,
+   "end": 342.7,
+   "kid": false,
+   "de": "[chuckles] Ja! Als unser Prophet Muhammad, Allah segne ihn und schenke ihm Frieden, einmal auf eine Reise ging, ließ er seinen Cousin Ali zurück, um auf die Familie aufzupassen. [warmly] Und er sagte zu ihm: Bist du nicht froh, für mich so zu sein wie Harun für Musa? Nur dass nach mir kein Prophet mehr kommt."
+  },
+  {
+   "id": "s7a",
+   "start": 344.14,
+   "end": 361.06,
+   "kid": false,
+   "de": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… haltet zusammen wie Musa und Harun. Helft einander, wenn etwas schwer ist. Sagt die Wahrheit, auch wenn viele etwas Falsches tun. Und wenn euch jemand falsch versteht, dann bleibt freundlich und erklärt es ruhig."
+  },
+  {
+   "id": "s7b",
+   "start": 361.76,
+   "end": 397.74,
+   "kid": false,
+   "de": "[whispers] Und nächstes Mal erzähle ich euch von Dhul-Kifl… einem Propheten, über den der Koran nur wenige Worte sagt, aber ganz besondere. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch."
+  }
+ ]
+}
