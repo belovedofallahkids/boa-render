@@ -127,5 +127,6 @@
    "kid": false,
    "gap_before": 0.6
   }
- ]
+ ],
+ "cfg": 0.3
 }

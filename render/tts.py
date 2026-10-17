@@ -41,6 +41,27 @@ def concat(files, out, gaps=None):
     run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-b:a", "128k", out])
 
 
+_ASR = None
+
+
+def check(wav, sr, text, lang, wd):
+    """Share of script words heard in the generated audio (faster-whisper small, CPU)."""
+    global _ASR
+    import difflib, torchaudio
+    if _ASR is None:
+        from faster_whisper import WhisperModel
+        _ASR = WhisperModel("small", device="cpu", compute_type="int8")
+    p = os.path.join(wd, "_chk.wav")
+    torchaudio.save(p, wav, sr)
+    segs, _ = _ASR.transcribe(p, language=lang, beam_size=1, vad_filter=False)
+    norm = lambda t: [w for w in re.sub(r"[^\w\s]", " ", t.lower()).split() if w]
+    a, b = norm(text), norm(" ".join(x.text for x in segs))
+    if not a:
+        return 1.0
+    sm = difflib.SequenceMatcher(a=a, b=b, autojunk=False)
+    return sum(n for _, _, n in sm.get_matching_blocks()) / len(a)
+
+
 def chatterbox(job, wd):
     import torch, torchaudio
     _load = torch.load
@@ -59,6 +80,8 @@ def chatterbox(job, wd):
             refs[key] = p
     model = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
     outs = []
+    report = []
+    job["_report"] = report
     for ln in job["lines"]:
         ref = refs["kid_ref"] if ln.get("kid") and "kid_ref" in refs else refs["ref"]
         chunks, cur = [], ""
@@ -72,10 +95,19 @@ def chatterbox(job, wd):
             chunks.append(cur)
         pieces = []
         for c in chunks:
-            wv = model.generate(c, language_id="de", audio_prompt_path=ref,
-                                exaggeration=ln.get("exaggeration", 0.5), cfg_weight=ln.get("cfg", 0.5))
-            pieces.append(wv)
-            pieces.append(torch.zeros(1, int(model.sr * 0.3)))
+            best = None
+            for attempt in range(4):
+                wv = model.generate(c, language_id=job.get("lang", "de"), audio_prompt_path=ref,
+                                    exaggeration=ln.get("exaggeration", 0.5), cfg_weight=ln.get("cfg", job.get("cfg", 0.3)))
+                score = check(wv, model.sr, c, job.get("lang", "de"), wd)
+                print(f"  {ln['id']} try {attempt+1} match {score:.2f}: {c[:50]}", flush=True)
+                if best is None or score > best[0]:
+                    best = (score, wv)
+                if score >= 0.93:
+                    break
+            pieces.append(best[1])
+            pieces.append(torch.zeros(1, int(model.sr * 0.35)))
+            report.append({"id": ln["id"], "text": c, "match": round(best[0], 3)})
         wav = torch.cat(pieces[:-1], dim=1)
         w = os.path.join(wd, f"chatterbox_{ln['id']}.wav")
         torchaudio.save(w, wav, model.sr)
@@ -173,6 +205,8 @@ def main():
                     concat(outs, alle, gl)
                     files += outs + [alle]
                 status["results"][eng] = "ok"
+                if job.get("_report"):
+                    status["check"] = job.pop("_report")
             except Exception:
                 status["results"][eng] = traceback.format_exc()[-1500:]
         if files:
