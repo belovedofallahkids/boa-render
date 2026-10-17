@@ -1,0 +1,62 @@
+{
+ "nr": 20, "key": "alyasa", "prophet": "Alyasa", "ar": "اليسع عليه السلام",
+ "notion": "3f66fc05-6b0e-81a6-bc11-e5a463037e52",
+ "publish": "2027-01-22",
+ "title": "Prophet Alyasa 🌙 Islamische Geschichten für Kinder | Einer der Besten",
+ "seo_title": "Prophet Alyasa für Kinder – kleine gute Taten jeden Tag | Islam für Kinder",
+ "alt_titles": ["Prophet Alyasa 🌙 Folge 20 | Die Geschichten der Propheten für Kinder", "Prophet Alyasa (Elisa) – Islam für Kinder erklärt", "Wer war Prophet Alyasa? Oma erzählt", "Die Propheten sind Brüder – Prophet Alyasa", "Prophet Alyasa einfach erklärt (4–12 Jahre)", "Kleine Taten, die Allah liebt – Prophet Alyasa", "Prophet Alyasa – islamische Gute-Nacht-Geschichte", "Einer der Besten: Prophet Alyasa 🌙"],
+ "hook_desc": "Prophet Alyasa (Friede sei mit ihm) wird im Koran nur zweimal genannt – aber jedes Mal neben großen Propheten und als „einer der Besten“. 🌙 Heute erzählt Oma Karmoucha Noah und Ilyas, warum die Propheten wie Brüder sind und warum Allah kleine gute Taten liebt, die man jeden Tag tut.",
+ "learn": ["Die Propheten sind wie Brüder – sie brachten alle dieselbe Botschaft", "Allah liebt kleine gute Taten, die man regelmäßig tut", "Ehrlich bleiben: Wir erzählen nur, was sicher ist"],
+ "sources_line": "Koran 6:84–90, 38:45–48 · Sahih al-Bukhari 3443, 6464 · Sahih Muslim 783.",
+ "prev": "Prophet Ilyas", "next": "Prophet Yunus",
+ "tags": ["prophet alyasa", "alyasa für kinder", "elisa islam", "prophet elisa", "islam für kinder", "prophetengeschichten", "gute nacht geschichte", "islamische geschichten", "25 propheten", "beloved of allah kids"],
+ "hashtag": "#ProphetAlyasa",
+ "chapters": [["s1a", "In guter Gesellschaft"], ["s2a", "Was der Koran sagt"], ["s3a", "Die Propheten sind Brüder"], ["s4a", "Kleine Taten jeden Tag"], ["s5a", "Die Lehre & Gute Nacht"]],
+ "segments": {
+  "s1a": "[whispers] Noah… Ilyas… erinnert ihr euch an Dhul-Kifl? Der Prophet, über den der Koran nur wenige Worte sagt? [curious] Heute kommt noch so einer. Und er steht im Koran direkt neben Dhul-Kifl.",
+  "s1b": "[childlike voice] [curious] Wer denn, Oma?",
+  "s1c": "[warmly] Prophet Alyasa, Friede sei mit ihm. Kuschelt euch ein. Heute erzähle ich euch, was Allah über ihn sagt, und was wir davon lernen können.",
+  "s2a": "[warmly] An einer Stelle im Koran nennt Allah viele Propheten hintereinander: Ibrahim, Ishaq, Yaqub, Nuh, Dawud, Sulaiman, Ayyub, Yusuf, Musa, Harun… [softly] und dann: Ismail, Alyasa, Yunus und Lut. Und Allah sagt: Jeden von ihnen haben Wir vor allen Menschen ausgezeichnet.",
+  "s2b": "[childlike voice] [excited] Die kennen wir ja fast alle! Die hast du uns schon erzählt!",
+  "s2c": "[chuckles] Ja, mein Schatz! Und an einer anderen Stelle sagt Allah: Gedenke Ismails, Alyasas und Dhul-Kifls. Alle gehören zu den Besten.",
+  "s2d": "[childlike voice] [curious] Und was hat Alyasa erlebt?",
+  "s2e": "[softly] Das erzählt uns der Koran nicht genau, mein Schatz. Manche Leute erzählen Geschichten über ihn, aber nicht aus sicheren Quellen. [warmly] Und was wir nicht sicher wissen, das erfinden wir nicht. Aber wir wissen das Wichtigste: Allah hat ihn ausgezeichnet. Er gehört zu den Besten.",
+  "s3a": "[warmly] Und Allah sagt über all diese Propheten: Das sind die, die Allah rechtgeleitet hat. Folge ihrer Rechtleitung. [softly] Alle Propheten brachten dieselbe Botschaft: Es gibt nur einen Gott, Allah. Betet Ihn an und tut Gutes.",
+  "s3b": "[childlike voice] [surprised] Alle das Gleiche? Von Adam bis jetzt?",
+  "s3c": "[warmly] Ja, alle! Unser Prophet Muhammad, Allah segne ihn und schenke ihm Frieden, sagte: Die Propheten sind Brüder. Ihre Religion ist eine. [chuckles] So wie ihr zwei: verschieden, aber Brüder.",
+  "s3d": "[childlike voice] [chuckles] Auch wenn Noah mir manchmal meine Kissen klaut?",
+  "s3e": "[chuckles] Auch dann, mein Schatz.",
+  "s4a": "[softly] Wisst ihr, was ich an Alyasa so schön finde? Wir kennen nicht viele große Geschichten über ihn. Aber Allah sagt: Er gehört zu den Besten. [warmly] Man muss nicht berühmt sein, um bei Allah gut zu sein.",
+  "s4b": "[warmly] Unser Prophet sagte: Die liebsten Taten bei Allah sind die, die man regelmäßig tut, auch wenn sie klein sind.",
+  "s4c": "[childlike voice] [curious] Klein? So wie jeden Abend Bismillah sagen?",
+  "s4d": "[warmly] Genau so, mein Schatz! Jeden Tag Bismillah sagen. Jeden Tag Danke sagen. Jeden Tag ein Lächeln schenken. [softly] Kleine Tropfen, jeden Tag. Und mit der Zeit wird daraus ein ganzer Fluss voller guter Taten.",
+  "s5a": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… seid wie Brüder, so wie die Propheten Brüder waren. Tut jeden Tag eine kleine gute Tat, auch wenn sie keiner sieht. Und erzählt nur, was ihr sicher wisst.",
+  "s5b": "[whispers] Und nächstes Mal erzähle ich euch von Prophet Yunus… der im Bauch eines großen Fisches zu Allah gebetet hat. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch."
+ },
+ "kids": {"s1b": "noah", "s2b": "ilyas", "s2d": "noah", "s3b": "ilyas", "s3d": "ilyas", "s4c": "noah"},
+ "sources": {
+  "s1a": "Alyasa und Dhul-Kifl zusammen genannt (38:48); Folge 16",
+  "s2a": "Aufzählung der Propheten, „Ismail, Alyasa, Yunus und Lut – jeden zeichneten Wir vor den Weltenbewohnern aus“ (6:84–86)",
+  "s2c": "„Und gedenke Ismails, Alyasas und Dhul-Kifls; alle gehören zu den Besten“ (38:48)",
+  "s2e": "H1: keine weiteren gesicherten Angaben; Erzählungen aus unsicheren Quellen werden nicht erzählt",
+  "s3a": "„Das sind diejenigen, die Allah rechtgeleitet hat, so folge ihrer Rechtleitung“ (6:90); gemeinsame Botschaft (21:25)",
+  "s3c": "„Die Propheten sind Brüder von verschiedenen Müttern, ihre Religion ist eine“ (Sahih al-Bukhari 3443, Muslim 2365) – kindgerecht verkürzt",
+  "s4b": "„Die liebsten Taten bei Allah sind die beständigsten, auch wenn sie wenig sind“ (Sahih al-Bukhari 6464, Sahih Muslim 783)",
+  "s5b": "Teaser Yunus (21:87, 37:142)"
+ },
+ "images": {
+  "two_scrolls_side": "Two old parchment scrolls lying side by side on a wooden table in warm candle light, peaceful and humble, no readable letters.",
+  "row_of_lamps": "A long row of glowing oil lamps on a stone wall at dusk, each lamp shining with the same warm light, stretching into the distance.",
+  "starry_path_hills": "A winding path over gentle hills under a starry sky, with soft glowing stones marking the way, calm and guiding.",
+  "two_trees_one_root": "Two olive trees growing from the same root on a sunny hill, branches touching, warm afternoon light, brotherhood.",
+  "pillows_cozy_room": "A cozy children's bedroom at night with two beds, scattered soft pillows and a warm night lamp, nobody present.",
+  "water_drops_river": "Small water drops falling from leaves into a tiny stream that grows into a sparkling river through a green valley, morning light."
+ },
+ "plan": [
+  ["s1a", "master_A_buch", "zoom_in"], ["s1a|Heute kommt noch", "scroll_few_lines", "zoom_in"], ["s1b", "noah", "zoom_in"], ["s1c", "master_A_buch", "pan_left"],
+  ["s2a", "row_of_lamps", "pan_right"], ["s2b", "ilyas", "zoom_in"], ["s2c", "two_scrolls_side", "zoom_in"], ["s2d", "noah", "zoom_in"], ["s2e", "unknown_flowers_field", "zoom_in"],
+  ["s3a", "starry_path_hills", "zoom_in"], ["s3b", "ilyas", "zoom_in"], ["s3c", "two_trees_one_root", "zoom_in"], ["s3d", "ilyas", "zoom_in"], ["s3e", "pillows_cozy_room", "zoom_in"],
+  ["s4a", "quiet_garden_dawn", "zoom_in"], ["s4b", "water_drops_river", "zoom_in"], ["s4c", "noah", "zoom_in"], ["s4d", "water_drops_river", "pan_right"],
+  ["s5a", "kinder_schlafen", "zoom_out"], ["s5b", "oma_window_night", "zoom_out"]
+ ]
+}

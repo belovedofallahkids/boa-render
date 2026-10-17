@@ -1,0 +1,22 @@
+{
+ "episode": "folge18",
+ "animals_ok": [
+  "birds_sky_morning",
+  "ant_valley",
+  "ant_hills_safe",
+  "hoopoe_branch",
+  "glass_floor_palace"
+ ],
+ "images": {
+  "birds_sky_morning": "Many colorful birds flying together in a bright morning sky over green hills and a calm river, joyful and free.",
+  "wind_over_land": "Strong gentle wind sweeping over golden grass fields and treetops, swirls of leaves in the air, soft clouds moving fast, sunny day.",
+  "ant_valley": "Close-up of a tiny friendly cartoon ant standing on a pebble in a sunny valley, many small ant holes in the soil around it, grass blades like trees.",
+  "ant_hills_safe": "Little ant hills in warm soil with tiny ants walking in neat lines into their holes, soft afternoon light, safe and cozy.",
+  "hoopoe_branch": "A beautiful hoopoe bird with its crown of orange feathers sitting on a branch, looking curious, soft blue sky background.",
+  "sun_worship_far": "A distant ancient city of Saba in a green valley with a big golden sunrise behind it, gardens and a large stone dam, peaceful landscape view.",
+  "letter_seal_bird": "A rolled parchment letter with a red wax seal lying on a stone ledge, a hoopoe feather beside it, warm light, no readable letters.",
+  "gift_chests": "Open wooden treasure chests with gold and jewels in a palace hall, soft light, nobody present.",
+  "throne_appears": "A grand ornate golden throne with soft magical sparkles around it in an empty palace hall, warm light, nobody present.",
+  "glass_floor_palace": "A palace hall with a perfectly clear glass floor over shallow water with fish and lilies beneath, reflections of columns, sunlight, nobody present."
+ }
+}
