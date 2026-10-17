@@ -179,7 +179,7 @@ def build(key):
         if s["label"] in KIDS:
             line = ep["segments"][s["script"].split("|")[0]]
             assert "[childlike voice]" in line, f"{key}: Kinderbild nicht auf Kinderzeile {s['script']}"
-    job = {"name": ep["job"], "audio": A + ep["audio"], "crossfade": 0.6, "fade_in": 0.8, "fade_out": 1.0,
+    job = {"name": ep["job"], "audio": ep["audio"] if ep["audio"].startswith("http") else A + ep["audio"], "crossfade": 0.6, "fade_in": 0.8, "fade_out": 1.0,
            "tail_hold": 6.0, "loudness": -14, "segments": segs}
     with open(os.path.join(ROOT, "jobs", ep["job"] + ".json"), "w") as f:
         json.dump(job, f, indent=1, ensure_ascii=False)
