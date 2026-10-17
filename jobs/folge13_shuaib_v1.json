@@ -1,0 +1,268 @@
+{
+ "name": "folge13_shuaib_v1",
+ "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge13_erzaehlung_komplett_2026-10-16mp3-GxSGFNIEqWn.mp3",
+ "crossfade": 0.6,
+ "fade_in": 0.8,
+ "fade_out": 1.0,
+ "tail_hold": 6.0,
+ "loudness": -14,
+ "segments": [
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 0.0,
+   "end": 19.91,
+   "motion": "zoom_in",
+   "amount": 0.12,
+   "label": "master_A_buch",
+   "script": "s1a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 19.91,
+   "end": 23.32,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s1b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 23.32,
+   "end": 38.53,
+   "motion": "pan_left",
+   "amount": 0.101,
+   "label": "master_A_buch",
+   "script": "s1c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_madyan_market_cfjpg-U6TqBmK8gaj.jpeg",
+   "start": 38.53,
+   "end": 51.71,
+   "motion": "pan_right",
+   "amount": 0.093,
+   "label": "madyan_market",
+   "script": "s2a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_scale_tilted_cfjpg-idWOpHxt1sf.jpeg",
+   "start": 51.71,
+   "end": 63.81,
+   "motion": "zoom_in",
+   "amount": 0.088,
+   "label": "scale_tilted",
+   "script": "s2a|Und sie schummelten"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 63.81,
+   "end": 67.22,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s2b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_scale_tilted_cfjpg-idWOpHxt1sf.jpeg",
+   "start": 67.22,
+   "end": 75.51,
+   "motion": "zoom_out",
+   "amount": 0.073,
+   "label": "scale_tilted",
+   "script": "s2c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_blocked_road_v2_cfpng-TEldLP2eTm0.jpeg",
+   "start": 75.51,
+   "end": 85.22,
+   "motion": "zoom_in",
+   "amount": 0.079,
+   "label": "blocked_road",
+   "script": "s2c|Und sie setzten sich"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_madyan_town_evening_cfjpg-MTSy561m5fL.jpeg",
+   "start": 85.22,
+   "end": 97.75,
+   "motion": "zoom_in",
+   "amount": 0.09,
+   "label": "madyan_town_evening",
+   "script": "s3a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_scale_balanced_cfjpg-WTKCSlcOah2.jpeg",
+   "start": 97.75,
+   "end": 110.48,
+   "motion": "zoom_in",
+   "amount": 0.091,
+   "label": "scale_balanced",
+   "script": "s3a|Gebt beim Messen"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_madyan_town_evening_cfjpg-MTSy561m5fL.jpeg",
+   "start": 110.48,
+   "end": 133.53,
+   "motion": "pan_right",
+   "amount": 0.13,
+   "label": "madyan_town_evening",
+   "script": "s3b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 133.53,
+   "end": 136.69,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s3c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_madyan_town_evening_cfjpg-MTSy561m5fL.jpeg",
+   "start": 136.69,
+   "end": 154.25,
+   "motion": "zoom_out",
+   "amount": 0.11,
+   "label": "madyan_town_evening",
+   "script": "s4a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 154.25,
+   "end": 158.15,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s4b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_prayer_rug_sunrisejpg-Sdao2hRcTap.jpeg",
+   "start": 158.15,
+   "end": 178.1,
+   "motion": "zoom_in",
+   "amount": 0.12,
+   "label": "prayer_rug_sunrise",
+   "script": "s4c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_madyan_market_cfjpg-U6TqBmK8gaj.jpeg",
+   "start": 178.1,
+   "end": 192.69,
+   "motion": "zoom_in",
+   "amount": 0.098,
+   "label": "madyan_market",
+   "script": "s5a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge12_night_dua_sky_cfjpg-JhW0kGjZT4G.jpeg",
+   "start": 192.69,
+   "end": 206.17,
+   "motion": "zoom_in",
+   "amount": 0.094,
+   "label": "night_dua_sky",
+   "script": "s5a|Shuaib antwortete"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 206.17,
+   "end": 210.0,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s5b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_storm_far_v2_cfpng-3J6JqWml881.jpeg",
+   "start": 210.0,
+   "end": 225.55,
+   "motion": "zoom_in",
+   "amount": 0.102,
+   "label": "storm_far",
+   "script": "s5c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_empty_town_morning_cfjpg-feyzGSn83IZ.jpeg",
+   "start": 225.55,
+   "end": 232.33,
+   "motion": "pan_right",
+   "amount": 0.067,
+   "label": "empty_town_morning",
+   "script": "s5c|Am Morgen war",
+   "crop": [
+    0.25,
+    0.25,
+    0.75
+   ]
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_sunrise_hope_cfjpg-jm9njyyaEFi.jpeg",
+   "start": 232.33,
+   "end": 245.3,
+   "motion": "zoom_in",
+   "amount": 0.092,
+   "label": "sunrise_hope",
+   "script": "s6a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 245.3,
+   "end": 248.06,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s6b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_scale_balanced_cfjpg-WTKCSlcOah2.jpeg",
+   "start": 248.06,
+   "end": 271.78,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "scale_balanced",
+   "script": "s6c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge13_grain_pile_market_cfjpg-sjMPUYs8fSQ.jpeg",
+   "start": 271.78,
+   "end": 306.06,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "grain_pile_market",
+   "script": "s6d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 306.06,
+   "end": 310.35,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s6e"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 310.35,
+   "end": 318.15,
+   "motion": "pan_left",
+   "amount": 0.071,
+   "label": "master_A_buch",
+   "script": "s6f"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_kinder_schlafen_offizielljpg-aevRtHZ0V3q.jpeg",
+   "start": 318.15,
+   "end": 342.78,
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "kinder_schlafen",
+   "script": "s7a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_oma_window_night_offizielljpg-i61gAYOmKJ9.jpeg",
+   "start": 342.78,
+   "end": "audio",
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "oma_window_night",
+   "script": "s7b"
+  }
+ ]
+}

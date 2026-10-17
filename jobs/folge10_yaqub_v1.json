@@ -1,0 +1,209 @@
+{
+ "name": "folge10_yaqub_v1",
+ "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge10_erzaehlung_komplett_2026-10-16mp3-pCjJuXGM97k.mp3",
+ "crossfade": 0.6,
+ "fade_in": 0.8,
+ "fade_out": 1.0,
+ "tail_hold": 6.0,
+ "loudness": -14,
+ "segments": [
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 0.0,
+   "end": 22.02,
+   "motion": "zoom_in",
+   "amount": 0.128,
+   "label": "master_A_buch",
+   "script": "s1a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 22.02,
+   "end": 25.66,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s1b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 25.66,
+   "end": 46.57,
+   "motion": "pan_left",
+   "amount": 0.124,
+   "label": "master_A_buch",
+   "script": "s1c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_desert_camp_cfjpg-UoE7PPTTF15.jpeg",
+   "start": 46.57,
+   "end": 77.45,
+   "motion": "pan_right",
+   "amount": 0.13,
+   "label": "desert_camp",
+   "script": "s2a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 77.45,
+   "end": 81.21,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s2b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_tree_of_lightsjpg-dz4ohqXPhph.jpeg",
+   "start": 81.21,
+   "end": 110.78,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "tree_of_lights",
+   "script": "s2c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_prayer_rug_sunrisejpg-Sdao2hRcTap.jpeg",
+   "start": 110.78,
+   "end": 138.15,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "prayer_rug_sunrise",
+   "script": "s3a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_dream_sky_compositepng-wgS30bDF0sJ.png",
+   "start": 138.15,
+   "end": 155.05,
+   "motion": "zoom_in",
+   "amount": 0.04,
+   "label": "dream_sky",
+   "script": "s3b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 155.05,
+   "end": 159.44,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s3c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_dream_sky_compositepng-wgS30bDF0sJ.png",
+   "start": 159.44,
+   "end": 194.24,
+   "motion": "zoom_in",
+   "amount": 0.04,
+   "label": "dream_sky",
+   "script": "s3d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_evening_path_empty_cfjpg-oXbVS4FYRwr.jpeg",
+   "start": 194.24,
+   "end": 223.33,
+   "motion": "pan_left",
+   "amount": 0.13,
+   "label": "evening_path_empty",
+   "script": "s4a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 223.33,
+   "end": 227.79,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s4b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_seedling_patience_cfjpg-NNkXInQAWCl.jpeg",
+   "start": 227.79,
+   "end": 263.62,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "seedling_patience",
+   "script": "s4c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_lamp_seasons_cfjpg-Kh4BcvtNNsb.jpeg",
+   "start": 263.62,
+   "end": 286.26,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "lamp_seasons",
+   "script": "s5a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_sunrise_hope_cfjpg-jm9njyyaEFi.jpeg",
+   "start": 286.26,
+   "end": 310.88,
+   "motion": "pan_right",
+   "amount": 0.13,
+   "label": "sunrise_hope",
+   "script": "s5b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 310.88,
+   "end": 314.63,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s5c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_search_road_cfjpg-1X1c5lYUXW3.jpeg",
+   "start": 314.63,
+   "end": 324.94,
+   "motion": "zoom_in",
+   "amount": 0.081,
+   "label": "search_road",
+   "script": "s5d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_old_staff_lamp_cfjpg-Qsjk2o5uTiR.jpeg",
+   "start": 324.94,
+   "end": 363.41,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "old_staff_lamp",
+   "script": "s6a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 363.41,
+   "end": 371.12,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s6b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_tree_of_lightsjpg-dz4ohqXPhph.jpeg",
+   "start": 371.12,
+   "end": 396.84,
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "tree_of_lights",
+   "script": "s6c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_kinder_schlafen_offizielljpg-aevRtHZ0V3q.jpeg",
+   "start": 396.84,
+   "end": 427.9,
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "kinder_schlafen",
+   "script": "s7a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_oma_window_night_offizielljpg-i61gAYOmKJ9.jpeg",
+   "start": 427.9,
+   "end": "audio",
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "oma_window_night",
+   "script": "s7b"
+  }
+ ]
+}

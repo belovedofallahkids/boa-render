@@ -1,0 +1,317 @@
+{
+ "name": "folge11_yusuf_v1",
+ "audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge11_erzaehlung_komplett_2026-10-16mp3-4TgelsVzyaK.mp3",
+ "crossfade": 0.6,
+ "fade_in": 0.8,
+ "fade_out": 1.0,
+ "tail_hold": 6.0,
+ "loudness": -14,
+ "segments": [
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 0.0,
+   "end": 6.66,
+   "motion": "zoom_in",
+   "amount": 0.067,
+   "label": "master_A_buch",
+   "script": "s1a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_dream_sky_compositepng-wgS30bDF0sJ.png",
+   "start": 6.66,
+   "end": 20.6,
+   "motion": "zoom_in",
+   "amount": 0.04,
+   "label": "dream_sky",
+   "script": "s1a|Elf Sterne die Sonne"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 20.6,
+   "end": 24.15,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s1b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 24.15,
+   "end": 44.44,
+   "motion": "pan_left",
+   "amount": 0.121,
+   "label": "master_A_buch",
+   "script": "s1c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_desert_camp_cfjpg-UoE7PPTTF15.jpeg",
+   "start": 44.44,
+   "end": 67.6,
+   "motion": "pan_right",
+   "amount": 0.13,
+   "label": "desert_camp",
+   "script": "s2a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_well_night_cfjpg-kiluIu8ASLu.jpeg",
+   "start": 67.6,
+   "end": 84.72,
+   "motion": "zoom_in",
+   "amount": 0.108,
+   "label": "well_night",
+   "script": "s2b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_caravan_well_cfjpg-vbBoOhOpWhb.jpeg",
+   "start": 84.72,
+   "end": 97.68,
+   "motion": "pan_right",
+   "amount": 0.092,
+   "label": "caravan_well",
+   "script": "s2b|Bald kam eine Reisegruppe"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 97.68,
+   "end": 100.8,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s2c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_egypt_house_cfjpg-LpuhlomtG0v.jpeg",
+   "start": 100.8,
+   "end": 125.91,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "egypt_house",
+   "script": "s2d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_palace_door_cfjpg-SvCdXm2zM2S.jpeg",
+   "start": 125.91,
+   "end": 150.54,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "palace_door",
+   "script": "s3a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 150.54,
+   "end": 154.45,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s3b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_palace_door_cfjpg-SvCdXm2zM2S.jpeg",
+   "start": 154.45,
+   "end": 171.44,
+   "motion": "zoom_out",
+   "amount": 0.108,
+   "label": "palace_door",
+   "script": "s3c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_prison_window_cfjpg-FmYjMZjZcLY.jpeg",
+   "start": 171.44,
+   "end": 186.12,
+   "motion": "zoom_in",
+   "amount": 0.099,
+   "label": "prison_window",
+   "script": "s3c|Trotzdem kam Yusuf"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_lamp_seasons_cfjpg-Kh4BcvtNNsb.jpeg",
+   "start": 186.12,
+   "end": 212.6,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "lamp_seasons",
+   "script": "s4a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_prison_window_cfjpg-FmYjMZjZcLY.jpeg",
+   "start": 212.6,
+   "end": 243.61,
+   "motion": "pan_right",
+   "amount": 0.13,
+   "label": "prison_window",
+   "script": "s4b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 243.61,
+   "end": 248.24,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s4c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_seven_cows_v2_cfpng-TcvWRf2a1ha.jpeg",
+   "start": 248.24,
+   "end": 261.46,
+   "motion": "zoom_in",
+   "amount": 0.093,
+   "label": "seven_cows",
+   "script": "s5a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_wheat_ears_cfjpg-r6OVxR0HWvD.jpeg",
+   "start": 261.46,
+   "end": 278.91,
+   "motion": "zoom_in",
+   "amount": 0.11,
+   "label": "wheat_ears",
+   "script": "s5a|Und er sah sieben"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_granary_full_cfjpg-kgEfDo5QjhA.jpeg",
+   "start": 278.91,
+   "end": 335.61,
+   "motion": "pan_right",
+   "amount": 0.13,
+   "label": "granary_full",
+   "script": "s5b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_caravan_egypt_cfjpg-lCD24SA1QEJ.jpeg",
+   "start": 335.61,
+   "end": 354.89,
+   "motion": "zoom_in",
+   "amount": 0.117,
+   "label": "caravan_egypt",
+   "script": "s6a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 354.89,
+   "end": 358.96,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s6b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_granary_full_cfjpg-kgEfDo5QjhA.jpeg",
+   "start": 358.96,
+   "end": 379.24,
+   "motion": "zoom_out",
+   "amount": 0.121,
+   "label": "granary_full",
+   "script": "s6c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_sunrise_hope_cfjpg-jm9njyyaEFi.jpeg",
+   "start": 379.24,
+   "end": 400.15,
+   "motion": "zoom_in",
+   "amount": 0.124,
+   "label": "sunrise_hope",
+   "script": "s6d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 400.15,
+   "end": 405.48,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s6e"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_sunrise_hope_cfjpg-jm9njyyaEFi.jpeg",
+   "start": 405.48,
+   "end": 415.87,
+   "motion": "pan_right",
+   "amount": 0.082,
+   "label": "sunrise_hope",
+   "script": "s6f"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_shirt_light_v2_cfpng-53n0wh6Xal3.jpeg",
+   "start": 415.87,
+   "end": 425.96,
+   "motion": "zoom_in",
+   "amount": 0.08,
+   "label": "shirt_light",
+   "script": "s7a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_search_road_cfjpg-1X1c5lYUXW3.jpeg",
+   "start": 425.96,
+   "end": 436.83,
+   "motion": "zoom_in",
+   "amount": 0.083,
+   "label": "search_road",
+   "script": "s7a|Als die Karawane"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_shirt_light_v2_cfpng-53n0wh6Xal3.jpeg",
+   "start": 436.83,
+   "end": 443.43,
+   "motion": "zoom_out",
+   "amount": 0.066,
+   "label": "shirt_light",
+   "script": "s7a|Sie legten das Hemd"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_family_reunion_hall_v2_cfpng-Iit0kuCmycu.jpeg",
+   "start": 443.43,
+   "end": 463.26,
+   "motion": "zoom_in",
+   "amount": 0.119,
+   "label": "family_reunion_hall",
+   "script": "s7b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_dream_sky_compositepng-wgS30bDF0sJ.png",
+   "start": 463.26,
+   "end": 474.06,
+   "motion": "zoom_in",
+   "amount": 0.04,
+   "label": "dream_sky",
+   "script": "s7b|Und Yusuf sagte Papa"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 474.06,
+   "end": 482.17,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s7c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge11_family_reunion_hall_v2_cfpng-Iit0kuCmycu.jpeg",
+   "start": 482.17,
+   "end": 496.62,
+   "motion": "pan_left",
+   "amount": 0.098,
+   "label": "family_reunion_hall",
+   "script": "s7d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_kinder_schlafen_offizielljpg-aevRtHZ0V3q.jpeg",
+   "start": 496.62,
+   "end": 520.44,
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "kinder_schlafen",
+   "script": "s8a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_oma_window_night_offizielljpg-i61gAYOmKJ9.jpeg",
+   "start": 520.44,
+   "end": "audio",
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "oma_window_night",
+   "script": "s8b"
+  }
+ ]
+}
