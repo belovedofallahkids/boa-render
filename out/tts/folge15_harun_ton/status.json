@@ -1,0 +1,10 @@
+{
+ "hash": "546d64cbd786914ffe0db0df11a590df9364a521",
+ "name": "folge15_harun_ton",
+ "results": {
+  "assemble": "ok"
+ },
+ "urls": {
+  "boa_folge15_erzaehlung_komplett.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge15_harun_ton/boa_folge15_erzaehlung_komplett.mp3"
+ }
+}
