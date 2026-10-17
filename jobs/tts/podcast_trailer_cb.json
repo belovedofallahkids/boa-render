@@ -1,0 +1,19 @@
+{
+ "name": "podcast_trailer_cb",
+ "engines": [
+  "chatterbox"
+ ],
+ "ref_audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge14_erzaehlung_komplett_2026-10-16mp3-hxXoUqUsSzs.mp3",
+ "ref": [
+  45.0,
+  56.5
+ ],
+ "lines": [
+  {
+   "id": "trailer",
+   "text": "[warmly] Assalamu alaikum, meine Lieben! Ich bin Oma Karmoucha. Jeden Abend kuscheln sich meine Enkel Noah und Ilyas zu mir, und ich erzähle ihnen eine Geschichte von den Propheten: von Adam bis zu unserem geliebten Propheten Muhammad, Allah segne ihn und schenke ihm Frieden. [softly] Alles, was ich erzähle, kommt aus dem Koran und aus sicheren Hadithen. Wir erfinden nichts dazu. [warmly] Jeden Freitag gibt es eine neue Geschichte. Kuschelt euch ein… und hört gut zu. Schlaft gut, meine Lieben.",
+   "kid": false,
+   "gap_before": 0
+  }
+ ]
+}
