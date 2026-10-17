@@ -1,6 +1,8 @@
 {
  "episode": "folge17",
- "animals_ok": [],
+ "animals_ok": [
+  "mountains_birds_dawn"
+ ],
  "images": {
   "mountains_birds_dawn": "Majestic green mountains at sunrise with many small birds flying in a gentle circle above them, golden light, peaceful and joyful, nobody present.",
   "army_far_dust": "Far away on a wide plain, a huge cloud of dust and many tiny tents of a big army camp on the horizon, seen from a hill, tense but not scary, no people visible.",
