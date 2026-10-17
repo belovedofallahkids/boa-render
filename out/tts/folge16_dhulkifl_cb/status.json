@@ -1,10 +1,11 @@
 {
- "hash": "fdeb15af68545ec6982f3f06e9c317fabfb57abb",
+ "hash": "53040d760f581afd4dc2b3ff8d4e17ea83e0bae3",
  "name": "folge16_dhulkifl_cb",
  "results": {
   "chatterbox": "ok"
  },
  "urls": {
+  "chatterbox_alle.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_alle.mp3",
   "chatterbox_s1a.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_s1a.mp3",
   "chatterbox_s1b.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_s1b.mp3",
   "chatterbox_s1c.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_s1c.mp3",
@@ -23,7 +24,7 @@
   "chatterbox_s5b.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_s5b.mp3",
   "chatterbox_s5c.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_s5c.mp3",
   "chatterbox_s6a.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_s6a.mp3",
-  "chatterbox_s6b.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_s6b.mp3",
-  "chatterbox_alle.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_alle.mp3"
- }
+  "chatterbox_s6b.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_folge16_dhulkifl_cb/chatterbox_s6b.mp3"
+ },
+ "note": "Status nachgetragen (Speichern war fehlgeschlagen)"
 }

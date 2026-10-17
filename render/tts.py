@@ -54,7 +54,10 @@ def check(wav, sr, text, lang, wd):
     p = os.path.join(wd, "_chk.wav")
     torchaudio.save(p, wav, sr)
     segs, _ = _ASR.transcribe(p, language=lang, beam_size=1, vad_filter=False)
-    norm = lambda t: [w for w in re.sub(r"[^\w\s]", " ", t.lower()).split() if w]
+    def norm(t):
+        t = re.sub(r"[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]", "", t.lower())
+        t = t.translate(str.maketrans("أإآٱةى", "ااااهي"))
+        return [w for w in re.sub(r"[^\w\s]", " ", t).split() if w]
     a, b = norm(text), norm(" ".join(x.text for x in segs))
     if not a:
         return 1.0
@@ -96,14 +99,14 @@ def chatterbox(job, wd):
         pieces = []
         for c in chunks:
             best = None
-            for attempt in range(4):
+            for attempt in range(job.get("tries", 4)):
                 wv = model.generate(c, language_id=job.get("lang", "de"), audio_prompt_path=ref,
                                     exaggeration=ln.get("exaggeration", 0.5), cfg_weight=ln.get("cfg", job.get("cfg", 0.3)))
                 score = check(wv, model.sr, c, job.get("lang", "de"), wd)
                 print(f"  {ln['id']} try {attempt+1} match {score:.2f}: {c[:50]}", flush=True)
                 if best is None or score > best[0]:
                     best = (score, wv)
-                if score >= 0.93:
+                if score >= job.get("min_match", 0.93):
                     break
             pieces.append(best[1])
             pieces.append(torch.zeros(1, int(model.sr * 0.35)))

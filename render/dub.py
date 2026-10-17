@@ -47,20 +47,24 @@ def translate(job, lang):
 def main():
     for jf in sorted(glob.glob(os.path.join(ROOT, "jobs", "dub", "*.json"))):
         raw = open(jf, "rb").read(); h = hashlib.sha1(raw).hexdigest(); job = json.loads(raw)
-        ep = job["episode"]; od = os.path.join(ROOT, "out", "dub", ep); st = os.path.join(od, "status.json")
-        status = json.load(open(st)) if os.path.exists(st) else {}
+        ep = job["episode"]; od = os.path.join(ROOT, "out", "dub", ep)
+        only = os.environ.get("DUB_LANG")
         os.makedirs(od, exist_ok=True); os.makedirs(os.path.join(ROOT, "dub"), exist_ok=True)
         wd = "/tmp/dub_" + ep; os.makedirs(wd, exist_ok=True)
-        files = []
         for lang in job["langs"]:
-            if status.get(lang, {}).get("hash") == h and status[lang].get("ok"):
+            if only and lang != only:
                 continue
+            st = os.path.join(od, f"status_{lang}.json")
+            status = json.load(open(st)) if os.path.exists(st) else {}
+            if status.get("hash") == h and status.get("ok"):
+                continue
+            files = []
             try:
                 tp = os.path.join(ROOT, "dub", f"{ep}_{lang}.json")
                 texts = json.load(open(tp)) if os.path.exists(tp) else translate(job, lang)
                 json.dump(texts, open(tp, "w"), indent=1, ensure_ascii=False)
                 tj = {"name": f"{ep}_{lang}", "lang": lang, "cfg": 0.3, "ref_audio": job["ref_audio"], "ref": job["ref"],
-                      "kid_ref": job["kid_ref"],
+                      "kid_ref": job["kid_ref"], "tries": 3, "min_match": 0.85,
                       "lines": [{"id": s["id"], "text": texts[s["id"]], "kid": s["kid"]} for s in job["segments"]]}
                 lwd = os.path.join(wd, lang); os.makedirs(lwd, exist_ok=True)
                 outs = tts.chatterbox(tj, lwd)
@@ -95,18 +99,16 @@ def main():
                 out = os.path.join(wd, f"{ep}_{lang}.mp3")
                 run(["ffmpeg", "-loglevel", "error", "-y", "-i", raw_w, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "44100", "-b:a", "192k", out])
                 files.append(out)
-                status[lang] = {"hash": h, "ok": True, "duration": round(dur(out), 2), "fit": fit, "check": rep}
+                status = {"hash": h, "ok": True, "duration": round(dur(out), 2), "fit": fit, "check": rep}
+                tag = "dub_" + ep
+                ex = subprocess.run(["gh", "release", "view", tag, "--repo", REPO], capture_output=True).returncode == 0
+                if not ex:
+                    subprocess.run(["gh", "release", "create", tag, "--repo", REPO, "--title", tag, "--notes", "Synchronisation (kostenlos)"])
+                run(["gh", "release", "upload", tag, *files, "--repo", REPO, "--clobber"])
+                status["url"] = f"https://github.com/{REPO}/releases/download/{tag}/{os.path.basename(out)}"
             except Exception as e:
                 import traceback
-                status[lang] = {"hash": h, "ok": False, "error": traceback.format_exc()[-1500:]}
-            json.dump(status, open(st, "w"), indent=1, ensure_ascii=False)
-        if files:
-            tag = "dub_" + ep
-            ex = subprocess.run(["gh", "release", "view", tag, "--repo", REPO], capture_output=True).returncode == 0
-            run(["gh", "release", "upload" if ex else "create", tag, *files, "--repo", REPO] + (["--clobber"] if ex else ["--title", tag, "--notes", "Synchronisation (kostenlos)"]))
-            for f in files:
-                lang = f.rsplit("_", 1)[1][:-4]
-                status[lang]["url"] = f"https://github.com/{REPO}/releases/download/{tag}/{os.path.basename(f)}"
+                status = {"hash": h, "ok": False, "error": traceback.format_exc()[-1500:]}
             json.dump(status, open(st, "w"), indent=1, ensure_ascii=False)
 
 if __name__ == "__main__":
