@@ -1,0 +1,40 @@
+{
+ "name": "test_folge15_rest",
+ "engines": [
+  "chatterbox",
+  "edge"
+ ],
+ "ref_audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge14_erzaehlung_komplett_2026-10-16mp3-hxXoUqUsSzs.mp3",
+ "ref": [
+  45.0,
+  56.5
+ ],
+ "kid_ref": [
+  203.5,
+  207.0
+ ],
+ "edge_voice": "de-DE-SeraphinaMultilingualNeural",
+ "edge_kid_voice": "de-DE-GiselaNeural",
+ "lines": [
+  {
+   "id": "s4b",
+   "text": "[serious] Doch während Musa weg war, machte ein Mann namens Samiri aus dem Goldschmuck der Leute ein goldenes Kalb, das einen Laut von sich gab. Und er sagte: Das ist euer Gott! [sighs] Und viele Leute glaubten ihm.",
+   "kid": false
+  },
+  {
+   "id": "s6a",
+   "text": "[warmly] Allah lobt die beiden Brüder im Koran. Er sagt: Friede sei auf Musa und Harun! [softly] Sie gehörten zu Seinen gläubigen Dienern.",
+   "kid": false
+  },
+  {
+   "id": "s6b",
+   "text": "[childlike voice] [curious] Hat unser Prophet Muhammad auch von Harun erzählt?",
+   "kid": true
+  },
+  {
+   "id": "s7a",
+   "text": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… haltet zusammen wie Musa und Harun. Helft einander, wenn etwas schwer ist. Sagt die Wahrheit, auch wenn viele etwas Falsches tun. Und wenn euch jemand falsch versteht, dann bleibt freundlich und erklärt es ruhig.",
+   "kid": false
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+#!/usr/bin/env python3
+"""Free TTS on GitHub Actions (no credits).
+
+jobs/tts/<name>.json:
+{"name": "...", "engines": ["chatterbox", "edge"],
+ "ref_audio": "https://...mp3", "ref": [start, end], "kid_ref": [start, end],
+ "edge_voice": "de-DE-SeraphinaMultilingualNeural", "edge_kid_voice": "de-DE-GiselaNeural",
+ "lines": [{"id": "s4b", "text": "...", "kid": false}, ...]}
+-> release tts_<name>: <engine>_<id>.mp3 and <engine>_alle.mp3 (lines joined with 0.6 s pauses)
+-> out/tts/<name>/status.json
+"""
+import asyncio, glob, hashlib, json, os, re, subprocess, sys, traceback, urllib.request
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO = os.environ.get("GITHUB_REPOSITORY", "belovedofallahkids/boa-render")
+TAG = re.compile(r"\[[^\]]*\]")
+
+
+def run(cmd):
+    subprocess.run(cmd, check=True)
+
+
+def clean(t):
+    t = TAG.sub("", t).replace("…", "...")
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def concat(files, out):
+    lst = out + ".txt"
+    sil = out + "_sil.wav"
+    run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "0.6", sil])
+    parts = []
+    for f in files:
+        w = f + ".24k.wav"
+        run(["ffmpeg", "-loglevel", "error", "-y", "-i", f, "-ar", "24000", "-ac", "1", w])
+        parts += [w, sil]
+    open(lst, "w").write("".join(f"file '{p}'\n" for p in parts[:-1]))
+    run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-b:a", "128k", out])
+
+
+def chatterbox(job, wd):
+    import torch, torchaudio
+    _load = torch.load
+    torch.load = lambda *a, **k: _load(*a, **{**k, "map_location": "cpu"})
+    from chatterbox.mtl_tts import ChatterboxMultilingualTTS
+    src = os.path.join(wd, "ref_src.mp3")
+    urllib.request.urlretrieve(job["ref_audio"], src)
+    refs = {}
+    for key in ("ref", "kid_ref"):
+        if key in job:
+            a, b = job[key]
+            p = os.path.join(wd, key + ".wav")
+            run(["ffmpeg", "-loglevel", "error", "-y", "-i", src, "-ss", str(a), "-to", str(b), "-ar", "24000", "-ac", "1", p])
+            refs[key] = p
+    model = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
+    outs = []
+    for ln in job["lines"]:
+        ref = refs["kid_ref"] if ln.get("kid") and "kid_ref" in refs else refs["ref"]
+        wav = model.generate(clean(ln["text"]), language_id="de", audio_prompt_path=ref,
+                             exaggeration=ln.get("exaggeration", 0.5), cfg_weight=ln.get("cfg", 0.5))
+        w = os.path.join(wd, f"chatterbox_{ln['id']}.wav")
+        torchaudio.save(w, wav, model.sr)
+        m = w[:-4] + ".mp3"
+        run(["ffmpeg", "-loglevel", "error", "-y", "-i", w, "-b:a", "128k", m])
+        outs.append(m)
+        print("chatterbox", ln["id"], "ok", flush=True)
+    return outs
+
+
+def edge(job, wd):
+    import edge_tts
+    outs = []
+    for ln in job["lines"]:
+        v = job.get("edge_kid_voice") if ln.get("kid") else job.get("edge_voice")
+        m = os.path.join(wd, f"edge_{ln['id']}.mp3")
+        asyncio.run(edge_tts.Communicate(clean(ln["text"]), v or "de-DE-SeraphinaMultilingualNeural",
+                                         rate=ln.get("rate", "-8%")).save(m))
+        outs.append(m)
+    return outs
+
+
+def main():
+    for jf in sorted(glob.glob(os.path.join(ROOT, "jobs", "tts", "*.json"))):
+        raw = open(jf, "rb").read()
+        h = hashlib.sha1(raw).hexdigest()
+        job = json.loads(raw)
+        name = job["name"]
+        od = os.path.join(ROOT, "out", "tts", name)
+        st = os.path.join(od, "status.json")
+        if os.path.exists(st) and json.load(open(st)).get("hash") == h:
+            continue
+        os.makedirs(od, exist_ok=True)
+        wd = os.path.join("/tmp", "tts_" + name)
+        os.makedirs(wd, exist_ok=True)
+        status = {"hash": h, "name": name, "results": {}}
+        files = []
+        for eng in job.get("engines", ["chatterbox"]):
+            try:
+                outs = {"chatterbox": chatterbox, "edge": edge}[eng](job, wd)
+                alle = os.path.join(wd, f"{eng}_alle.mp3")
+                concat(outs, alle)
+                files += outs + [alle]
+                status["results"][eng] = "ok"
+            except Exception:
+                status["results"][eng] = traceback.format_exc()[-1500:]
+        if files:
+            tag = "tts_" + name
+            ex = subprocess.run(["gh", "release", "view", tag, "--repo", REPO], capture_output=True).returncode == 0
+            if ex:
+                run(["gh", "release", "upload", tag, *files, "--clobber", "--repo", REPO])
+            else:
+                run(["gh", "release", "create", tag, *files, "--repo", REPO, "--title", tag, "--notes", "Kostenloser TTS-Test"])
+            status["urls"] = {os.path.basename(f): f"https://github.com/{REPO}/releases/download/{tag}/{os.path.basename(f)}" for f in files}
+        json.dump(status, open(st, "w"), indent=1, ensure_ascii=False)
+
+
+if __name__ == "__main__":
+    main()
