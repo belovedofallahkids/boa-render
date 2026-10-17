@@ -1,0 +1,19 @@
+{
+  "name": "folge12_ayyub_v1",
+  "ok": true,
+  "job_hash": "183e5ad82faca9c95dde4cf343d8a1b1d3136a83",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge12_ayyub_v1/folge12_ayyub_v1.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge12_ayyub_v1/contact.jpg",
+  "duration_video": 410.267,
+  "duration_audio": 410.24,
+  "timeline": 410.24,
+  "segments": 25,
+  "narration_end": 404.24,
+  "tail_hold": 6.0,
+  "loudness_lufs": -14.1,
+  "true_peak_dbfs": -3.8,
+  "input_lufs": -16.47,
+  "size_mb": 197.9,
+  "render_seconds": 696,
+  "finished_utc": "2026-10-17T03:30:57Z"
+}

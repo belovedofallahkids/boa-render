@@ -1,0 +1,19 @@
+{
+  "name": "folge13_shuaib_v1",
+  "ok": true,
+  "job_hash": "3fd5c6d87d9777f3a1c7c5000f8d92bf236be19d",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge13_shuaib_v1/folge13_shuaib_v1.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge13_shuaib_v1/contact.jpg",
+  "duration_video": 387.333,
+  "duration_audio": 387.32,
+  "timeline": 387.32,
+  "segments": 28,
+  "narration_end": 381.32,
+  "tail_hold": 6.0,
+  "loudness_lufs": -14.1,
+  "true_peak_dbfs": -4.2,
+  "input_lufs": -16.41,
+  "size_mb": 181.1,
+  "render_seconds": 667,
+  "finished_utc": "2026-10-17T03:42:04Z"
+}
