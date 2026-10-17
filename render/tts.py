@@ -92,6 +92,19 @@ def edge(job, wd):
     return outs
 
 
+def fetch(job, wd):
+    outs = []
+    for ln in job["lines"]:
+        src = os.path.join(wd, f"fetch_{ln['id']}.src")
+        req = urllib.request.Request(ln["url"], headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
+        with urllib.request.urlopen(req, timeout=300) as r, open(src, "wb") as f:
+            f.write(r.read())
+        m = os.path.join(wd, f"fetch_{ln['id']}.mp3")
+        run(["ffmpeg", "-loglevel", "error", "-y", "-i", src, "-b:a", "128k", m])
+        outs.append(m)
+    return outs
+
+
 def main():
     for jf in sorted(glob.glob(os.path.join(ROOT, "jobs", "tts", "*.json"))):
         raw = open(jf, "rb").read()
@@ -109,7 +122,7 @@ def main():
         files = []
         for eng in job.get("engines", ["chatterbox"]):
             try:
-                outs = {"chatterbox": chatterbox, "edge": edge}[eng](job, wd)
+                outs = {"chatterbox": chatterbox, "edge": edge, "fetch": fetch}[eng](job, wd)
                 alle = os.path.join(wd, f"{eng}_alle.mp3")
                 concat(outs, alle)
                 files += outs + [alle]

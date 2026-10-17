@@ -1,0 +1,16 @@
+{
+ "name": "test_folge15_gemini",
+ "engines": [
+  "fetch"
+ ],
+ "lines": [
+  {
+   "id": "s6b",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_test_gemini_tts_folge15_s6bwav-zBp9l9unc00.wav"
+  },
+  {
+   "id": "s7a",
+   "url": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_test_gemini_tts_folge15_s7awav-I3v7OQ5Qq0z.wav"
+  }
+ ]
+}
