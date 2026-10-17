@@ -1,0 +1,37 @@
+{
+ "flow": "p1hnxaZ83xJ5P5mRWire",
+ "composition": "N5ETSaVzCgiEmnz3Oqwp",
+ "nodes": {
+  "s1a": "RzrX9uGfyjgMjcvnsPON",
+  "s1b": "MqZtqE5dQErBj5VPUDqd",
+  "s1c": "4CXVC5t8I9ZKkIeZGf9s",
+  "s2a": "cJSDkDXFRjHDOeuOlJCA",
+  "s2b": "wLpLz89N7oUsUJyQib8q",
+  "s2c": "xQPvOBterxoplrhJlP1V",
+  "s3a": "g1qb01pScaaUK52vLgAm",
+  "s3b": "myRitZCRGzbLwm7pSLEa",
+  "s3c": "YNnSmR8LHWU51fMxhtV7",
+  "s4a": "oLqyTKsZHhutYLvsvCHp",
+  "s4b": "DFPTuNT3tiuu2kUjBZt2",
+  "s4c": "L54j3hCQl3pCsfA9Z5M1",
+  "s4d": "wBkotRSuuFLgmnhEuirC",
+  "s5a": "ANxFFPrJLRln7NubKFnS",
+  "s5b": "eLiepSUe6P3tgne8YKBF",
+  "s5c": "ZxnA6hydMUZ4aXuZqZNi",
+  "s5d": "rfLm4FZ2CuNCTeC80g8K",
+  "s6a": "l8f4Dlk6aRvkmVptEbcd",
+  "s6b": "pONGMYkIno8SrrVCAzoX",
+  "s6c": "uGl8KLfyVPLCjFRXECJw",
+  "s7a": "03TzyvEN66a2h9UgYuaa",
+  "s7b": "bOUw8FzUCPooQnndsvl1"
+ },
+ "status_2026-10-17": {
+  "done": "19 of 22 segments (s6b pending at time of note)",
+  "failed_no_credits": [
+   "s4b",
+   "s6a",
+   "s7a"
+  ],
+  "note": "ElevenLabs quota 231000 used up, 93 credits left at 06:37 UTC; composition N5ETSaVzCgiEmnz3Oqwp set to one track with gaps 0.6/1.2, not run yet"
+ }
+}
