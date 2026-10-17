@@ -29,15 +29,20 @@ def translate(job, lang):
     prompt = (f"Translate this German children's Islamic bedtime story (grandmother Oma telling her grandsons Noah and Ilyas "
               f"about Prophet {job['prophet']}) into {LN[lang]}. {NOTE[lang]} Keep meaning exact, add or remove nothing, keep it natural "
               f"for speaking aloud and about the same length. Return one line per input line, same order, each starting with the same [id]. No other text.\n\n{lines}")
-    for a in range(4):
+    last = ""
+    for a, model in enumerate(["gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-3.5-flash", "gemini-2.5-flash-lite"]):
         try:
-            got = dict(re.findall(r"^\[(s\d+[a-z])\]\s*(.+)$", ask(prompt), flags=re.M))
-            if all(s["id"] in got for s in job["segments"]):
+            txt = ask(prompt, model)
+            got = dict(re.findall(r"^\s*\**\[(s\d+[a-z])\]\**\s*(.+)$", txt, flags=re.M))
+            miss = [s["id"] for s in job["segments"] if s["id"] not in got]
+            if not miss:
                 return got
+            last = f"{model}: missing {miss[:6]} | {txt[:400]}"
         except Exception as e:
-            print("translate fail", e, flush=True)
-        time.sleep(30)
-    raise RuntimeError("translation incomplete")
+            last = f"{model}: {e}"
+        print("translate fail", last, flush=True)
+        time.sleep(40)
+    raise RuntimeError("translation incomplete: " + last)
 
 def main():
     for jf in sorted(glob.glob(os.path.join(ROOT, "jobs", "dub", "*.json"))):

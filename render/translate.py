@@ -23,9 +23,9 @@ def parse(srt):
         out.append((l[0].strip(), l[1].strip(), "\n".join(l[2:]).strip()))
     return out
 
-def ask(prompt):
+def ask(prompt, model="gemini-3.5-flash"):
     body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.2}}
-    payload = json.dumps({"k": "boaFlux2026x", "engine": "text", "m": "gemini-3.5-flash",
+    payload = json.dumps({"k": "boaFlux2026x", "engine": "text", "m": model,
                           "b": base64.b64encode(json.dumps(body, ensure_ascii=False).encode()).decode()}).encode()
     req = urllib.request.Request(HOOK, data=payload, headers={"Content-Type": "application/json", "User-Agent": "boa-render"})
     with urllib.request.urlopen(req, timeout=320) as r:
