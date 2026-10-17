@@ -44,7 +44,9 @@ def chatterbox(job, wd):
     torch.load = lambda *a, **k: _load(*a, **{**k, "map_location": "cpu"})
     from chatterbox.mtl_tts import ChatterboxMultilingualTTS
     src = os.path.join(wd, "ref_src.mp3")
-    urllib.request.urlretrieve(job["ref_audio"], src)
+    req = urllib.request.Request(job["ref_audio"], headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
+    with urllib.request.urlopen(req, timeout=180) as r, open(src, "wb") as f:
+        f.write(r.read())
     refs = {}
     for key in ("ref", "kid_ref"):
         if key in job:
@@ -73,8 +75,19 @@ def edge(job, wd):
     for ln in job["lines"]:
         v = job.get("edge_kid_voice") if ln.get("kid") else job.get("edge_voice")
         m = os.path.join(wd, f"edge_{ln['id']}.mp3")
-        asyncio.run(edge_tts.Communicate(clean(ln["text"]), v or "de-DE-SeraphinaMultilingualNeural",
-                                         rate=ln.get("rate", "-8%")).save(m))
+        last = None
+        for voice in [v, "de-DE-KatjaNeural", "de-DE-AmalaNeural"]:
+            if not voice:
+                continue
+            try:
+                asyncio.run(edge_tts.Communicate(clean(ln["text"]), voice).save(m))
+                last = None
+                break
+            except Exception as e:
+                last = f"{voice}: {e}"
+                print("edge fail", ln["id"], last, flush=True)
+        if last:
+            raise RuntimeError(last)
         outs.append(m)
     return outs
 
