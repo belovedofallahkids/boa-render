@@ -1,0 +1,12 @@
+{
+ "ar": {
+  "hash": "92e91839a54b00fb16450eafbb1db55590e9ab0a",
+  "ok": false,
+  "error": "Traceback (most recent call last):\n  File \"/home/runner/work/boa-render/boa-render/render/dub.py\", line 55, in main\n    texts = json.load(open(tp)) if os.path.exists(tp) else translate(job, lang)\n                                                           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/boa-render/boa-render/render/dub.py\", line 40, in translate\n    raise RuntimeError(\"translation incomplete\")\nRuntimeError: translation incomplete\n"
+ },
+ "en": {
+  "hash": "92e91839a54b00fb16450eafbb1db55590e9ab0a",
+  "ok": false,
+  "error": "Traceback (most recent call last):\n  File \"/home/runner/work/boa-render/boa-render/render/dub.py\", line 55, in main\n    texts = json.load(open(tp)) if os.path.exists(tp) else translate(job, lang)\n                                                           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/boa-render/boa-render/render/dub.py\", line 40, in translate\n    raise RuntimeError(\"translation incomplete\")\nRuntimeError: translation incomplete\n"
+ }
+}
