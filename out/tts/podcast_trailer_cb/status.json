@@ -1,0 +1,11 @@
+{
+ "hash": "ab46700b1e42b9afa223c273d84fd930e01cd777",
+ "name": "podcast_trailer_cb",
+ "results": {
+  "chatterbox": "ok"
+ },
+ "urls": {
+  "chatterbox_trailer.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_podcast_trailer_cb/chatterbox_trailer.mp3",
+  "chatterbox_alle.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_podcast_trailer_cb/chatterbox_alle.mp3"
+ }
+}
