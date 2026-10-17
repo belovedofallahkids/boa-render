@@ -105,6 +105,31 @@ def fetch(job, wd):
     return outs
 
 
+def assemble(job, wd):
+    """Lines with url + gap_before (s) -> one mp3 (44.1 kHz mono), loudness -16 LUFS."""
+    parts = []
+    for i, ln in enumerate(job["lines"]):
+        src = os.path.join(wd, f"as_{i:02d}.src")
+        req = urllib.request.Request(ln["url"], headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
+        with urllib.request.urlopen(req, timeout=300) as r, open(src, "wb") as f:
+            f.write(r.read())
+        g = float(ln.get("gap_before", 0))
+        if g > 0:
+            sil = os.path.join(wd, f"as_{i:02d}_gap.wav")
+            run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(g), sil])
+            parts.append(sil)
+        w = os.path.join(wd, f"as_{i:02d}.wav")
+        run(["ffmpeg", "-loglevel", "error", "-y", "-i", src, "-ar", "44100", "-ac", "1", w])
+        parts.append(w)
+    lst = os.path.join(wd, "as_list.txt")
+    open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
+    raw = os.path.join(wd, "as_raw.wav")
+    run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, raw])
+    out = os.path.join(wd, job.get("out", job["name"]) + ".mp3")
+    run(["ffmpeg", "-loglevel", "error", "-y", "-i", raw, "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-b:a", "192k", out])
+    return [out]
+
+
 def main():
     for jf in sorted(glob.glob(os.path.join(ROOT, "jobs", "tts", "*.json"))):
         raw = open(jf, "rb").read()
@@ -122,10 +147,13 @@ def main():
         files = []
         for eng in job.get("engines", ["chatterbox"]):
             try:
-                outs = {"chatterbox": chatterbox, "edge": edge, "fetch": fetch}[eng](job, wd)
-                alle = os.path.join(wd, f"{eng}_alle.mp3")
-                concat(outs, alle)
-                files += outs + [alle]
+                outs = {"chatterbox": chatterbox, "edge": edge, "fetch": fetch, "assemble": assemble}[eng](job, wd)
+                if eng == "assemble":
+                    files += outs
+                else:
+                    alle = os.path.join(wd, f"{eng}_alle.mp3")
+                    concat(outs, alle)
+                    files += outs + [alle]
                 status["results"][eng] = "ok"
             except Exception:
                 status["results"][eng] = traceback.format_exc()[-1500:]

@@ -1,0 +1,141 @@
+{
+ "name": "folge15_harun_ton",
+ "out": "boa_folge15_erzaehlung_komplett",
+ "engines": [
+  "assemble"
+ ],
+ "lines": [
+  {
+   "id": "s1a",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/ALphqGpbX7SpVrIMzg3b/sgCMzCWAyw0i6ZFv1umi/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=96ff6e59c896d85cbb44dbea34f03a3c75079a85f6cee82b91126706a1c9dd837a44ab3c117cced7ae7afc5d6f4aadcd536d0e136e5a795bcb2910d35b809a2b650ff81c5f21555329fff2b07252eabd32d338270a94013410bec48b05011cc54881223f41eb13bfa7357b787f3c456e3924fbd53a593b570462b0c5067859a982c20a80b37e12164e01e8e98e79832c66d5a8250dccdb4e3fc9839e8a11b01ec41747e0d5a1d6ff5cc3403c8dbf4fef831e1d29cc7a398900b93454c568947ddb26b3d420c3d4e8414b2b16e081e55d837d8c946014a5a07563340ae207ba8f373810b68007c825f5ae2693f196d5183352486c6c85cc481e00824fb393d8e4",
+   "gap_before": 0,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s1b",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/6iJApGohnfQHi68cyqr7/q57US9MGiKlsCjFEuiez/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=33702060d45f01d8af54ffb3b673a45b40f40bb2d12562470aa3f8249be6f3c071d54f00f3ad7b5e9ab0e7a700a1f47ad85cd64be03a133f7202b2daf9a057d508d87de5b3a8bc366eb2f64d38566b9c6b51c6e6ccbb5300785cafdd8dbd8851a033aaa1c0e1b04193f6a5b81d1168e520daec86269e240293fd2b7df324443a912baf134c07c398634d4512b83b2b1c77be78130d080e53d295441b98a294e29a737478fccbc98224d88aefdedb82781ec92f3d69e56573ecb52ed4b14b76cb0e3b401499877beac248f798f484ed02b1d020860a4290adbda4ed1b0c211c3417aa77882e1842f144226202ead4480faf13b393e995eaf98c457d17060c5f25",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s1c",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/6yrrwVFSlWm1rGNgwCSb/rxTYdq1zkvArgxbd3mK7/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=80aefac088b557616ee7cc261c854e037ff7fcfd1e7ed11419eb410cb87380e6e8037fc4a7d765d92e83957fee9aeff08feb2f0aa037893180e5342320149d3ed649cece917ca1dbb39b0c16853e5f39a4b8c59f86467f00098c514796156fbee73dcf58fb927cf5e30301189631f53c73c2cd52220efbc096876eee821e33cc8fc805d57af0995bf30518e11df12e7a49bb58a388c815a1e4a7fb41b01bbe961693c86bef82d331277b4537e5e0a86d6ca908d6156c398098afd4e491d88e4cee46a0b9fb69e4bb219d64d3125161e09eeac4728b00b9356e19fad1b1f8cb2dcf97e203948db824a35b441317c84fe7589c8b28dd015363a83d2f9038da8a83",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s2a",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/7LyDsdSwK1Ctine2hts8/v3nuNJYjMK4dVEGEj0Hn/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=56a0ce518f84d9510535b1c8933fcc4be858c732e1290b9b6b23b1a0130d0c2b93e961d29ac0b1c9bdb844eeb3e875ec35a4a72233cfe02ceafc7c0e5a6c1d1023c4c25836d01d1d631064b53a1e04abbc7b0682ef23c26e56eb58ec3efea28d6ef1a7626ac33708acbce7af81eaaf616cf2ca7523cc48ddaf711c0bafd52dae8aad5cf499af2f2c1acd4c4f743dfaf700373f1876c70d57d54fc8da361fdd82567a73257f1864672dc516d4691163f39420ed9708a93ee20c606852cdc086c91f4c67766a65555a6431b80deba17016823c4fb1574537d50f62d75592ee4665967fd4985bdd5168699d820cc445447a0e338454df2542d08d0e8b397c47fcad",
+   "gap_before": 1.2,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s2b",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/Onh6f6MzTfdOjXsK6SL5/FJXHYH9BuSd8ng4kOB1P/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=45a9cd1f8106ad324c2e5292bfc31e691a4994373ccfeca80e4f308b2d23db966ca724f1d1439336a33c426c710475798dcf771f2e48e7070d54be84de90f85f74e0ae3945f7f4a12d6fffe5ee1ec676ed54073b9797c01ec57adc501a4ab2f15964f7eb512f3a168f6526a0ad65535c4a8de00fb18cc082209aae91a786ac8ab73f29a2071f7429c1a05013d1bd65b32aeb92624b562f3612175b460455c5882efe98078198b99230350766fc026615e23f36a4f9a427dbb15b890cb03e6035b8d440146aed8aef013fb9099441050f72643351f6d33c8ab67bd2875c090e3db7bcc4fa9a38a9f9c2f9c9c7fcb761f4d82b5b4a244d13b09f2b3e557ccb26ca",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s2c",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/yY0se2pHW6ku3zPwcPoo/qx9BFg59r4DULc7dICOP/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=99921329dca4619bf065946669a2af97ff08130edb3671d8736e4bc680731706e19bbf824150a56c07cd33bc8186a54d0fa6d7130703f4e1d172290197e139c0233269b875febb10265d73cf00db566fb45e25fe43b28e186b92ef897d3babdd8cea55a0a008c94a9f1b05c59d27b57250097cd5aa1b913f4251d481c7e2acd8a24a599f4ea581a39796fc5141475a0ddf1d220f36697f1597211f0fd388d862d2b397fb6995cf236c6b43a3c905b3cc770585f8da23477443b6dea310220c659bd3cd10dc93f31b18794a5fe4afac9bbd86172b4d4ea41ca61279c984ba36da9fc407f0cf6a64d0358ff724b4d6af64897f57e60378672832e4a673e76b875b",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s3a",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/wBrwtdBIHgWnXjUzRQEK/IIavKsc7T7DgPtQSxPUF/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=62b73f40ffcbe531753b747f118e6587e4eac1ab48c167eb7fd22ea8cb891d4c2e09f13c04c282c07df314d405015b618a432fbbcf653bda0421ed4b46682a67439e345d9dd9d86016205ad1917f7fa7276a7aa0306c25d944a7db926f229a57faa0f942d3f034e883f26eca0356a134f4fbecf8de1f4d9ee516ba00cafdee147bd5cf57c614de2ab0feb3ea81227f62c8c745f6686ccad9e76f50f6088a01afe78251dad8f6ed756c30b11f69d39e27643f88979fca531acbc6ce33f41c32421fc04182bec50ee6e13b968e73899570f478335415e36f3a1acbc803081430e7b5071fed221f03673a536b0f2fa4eb801367e802efe9c2812a16ad5d1fd64681",
+   "gap_before": 1.2,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s3b",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/k9MtQRew60KzMnYmZ92M/zuK0EiS2bi8XdkFUnxl7/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1eb78137ad5a9585129908ba57188e6959f30b6d95eac6fcedadf1ded53714938dfa58dd255f38b23ebe071d67add77a70b67eb189d54cfb66b129506395c4d228638a5b6d5ccf64e535cebae5da4018731a64af0f60524419038804e4d8cef68d0d162f16c02a4a61cb1370be3d37b9939762182d599d537dc61bc78774ece931fed53a2353bec52857a4d16cbdf825a0f3c00b7c00f1085238d490214a7d2f44dd225b10da6a53e3b5b2a5d89b505e1ddc971d2b55312ea923a44441d65287714ae6c63d75b6f7651cea0a7573a0061dd8b81c6457cb14662c834c03a2137a4163247af02e69ff229c3c8f6aa192a3508933161e377b996fe632d7350d3ee8",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s3c",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/GqYBuHNvvGdJog4Gx2C3/LNMSN97K4gKac7df5Qn4/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7cc7b2c9b11357a6b04075f80e30829f97518ddb0f5c798e94a97a77e18a49cc19034fa3998b4fc70c1f40be3697314c977c297d1634a2c646f528f230fa708768406eeaf41fdb861d5bf524b9b9cc688e459034717c1e974814438094c94fe4ca32d080662a1db788b44aadf016d56de81051bf3230ef268dd1fc1bc7f20c1d821fb32693110852ac0cc205c79c374c11f576950592fd5689813359a024570e097582b4c2fca16c783add8b4dff7a5ee42e0bb0ced2d17cb04f13f0e8be4b2653b23c296201703f7669cdfb5df9187f989cb2cf32faa7863ce7083d38395436590f7d68713a47b50b0ed7cd77fd488fc511c706aa7f2ccd598c6aa3aecd5005",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s4a",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/cQn9SElbkRKCA9i01dsw/WtWRAK7aYbsqJRpzqBnH/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=69f32a9bd5edc9c7c2fde2adf359c1d16ce713a5ec0e58f4e4087b45abf44e61e08718b5a7a0c07e18e865280db11e5cbf4b915e8dbf9cabe2d2fa11f69af5e72b3af264885acaf481483637e4c63789cb52370984c2dcde66955dd42727bdd39c64decacff255f565244435124e9e3da0d6cf0d89ea38227b0432c0cb00e23906a42a47f75225e0a55a844d7ebeaaa06c3e4aeb5f9d94a0a33cc44793c6ada5e9b0bada2021b92360e646e82db7fed061c1159a1e13228ec8836213d5895dba2907adf5dd0a0a708e7a5db80aef0ebb58e1f90d294ef8360ad9ce562881b9897ce362d4fe123cf5557990c9d9873e51f5023f75d83f221e008f550b7b935dcd",
+   "gap_before": 1.2,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s4b",
+   "url": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_test_folge15_rest/chatterbox_s4b.mp3",
+   "gap_before": 0.6,
+   "src": "chatterbox"
+  },
+  {
+   "id": "s4c",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/FFwDeVplcRnK8aHuigen/tIBfLf1CNOXaD517r1tG/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=56f15f2c171d387f69260fd231125e5e0b45b1a3227eecc61172d7558aa18d6963f8df0081cbd53a07e89882957d4f32608b57435c3f324854f68e5f0a52ef22e200c83234af84704e1a1a84797358ae76b7864b3573b77f4277abd66a7fefc4694fcee083c7481c2d4f20b797929a9125d14c3852266e64bd5056b05bc2933891d63b374dc5e556df704f651d11a48cf9bdf605a93ceef942c9cac1af3d21ad3d117bb140e65a8b91aa702479481b1710fa7e75ab143518f9ab917d192a537e7fdfc864d59d70af54e33a2ddbd42239b8a1d9cdc60c4b71aac4417aa7d1468f190b51cfb640fa9ee2868c17bff113539bb1c27968447f2040c9e428d5b7d5eb",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s4d",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/I1KcsIoiiFClBSl48tO4/GKCWeYQ2J8gynyOfbq0U/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=ae091dba0bd3beb9e17331f017c8d0836e7da8743d29006e25880909e9cb4a3ee374b8f1099cceea6b5c776db0d64e8cb111818ab3387b9f219e3279364e07d41845652fa62f3becaff75cff908e481bcd6fb2968411816d4a37afccc73173151dd876721c29755e04cac028bacf9377aefd4dfed98344fe05a8f8255d6cace5597cb62c3f4d3c49004072d3338fe86cd77997960ab2a36c8ba68fbc18124d7189d36be31c4847bd0e41734da93ee4522a4b286b83ce0d26e5d26c37cedc98cbed765345ee9960723d89c4c433efd55497097d4049fd3ae752378a6351e4996c4bb17ee022ca948f41f378593434d2cb0e84a684d7b54c58f15b9c61c41a158a",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s5a",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/6UVRl7cNKYqywt5at7bK/yMLcMpTNNPcLfLXYZtk0/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3674ca6d34cf86d7f1b736be4f909fce729fe824b376aa9e6c33960923146c3045393c01146c32ef259008a0366d336307757de5ad147d0ea376905cac894c883297b93d28e044ff62576c062136a400acb5e7e1a70aefc9b50a917a0dd0ca8513a0c51773c3ca5a559d8d0dd166d750db17759cb755b161a7363d41cff431a7d91e3b03c91a146d778121fd46b3b8a89f9580eb1ff467b2790959e653c1e4e7a697a5fbbd54c316a78ed1128b754a39a03f0b83fa58bb93e97a1f695e557b139020aad02f47029e6cedb42a01dec9e9df49475ef551bd11204720f7f72e629d9afe4d86913cad5387960b0166c7677a5dc9ea5d5ef07e395ecb5ec9a734f39b",
+   "gap_before": 1.2,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s5b",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/fCxsOPXpFMLmNBhhSDK6/1mO8LTfCKE7CufMqA2am/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3b4b1fc1f400ac168ce0520a829fa359fff765be00079534a4fb9a04c3b6f6d30dd72aea49765d23aa71c2461fb86d9dc95a84434d012579bcf0d90d0a854ebb1b2a7aaaf99f208faa540ca36082ac341f4703ebfab7ef9a64029b46906016a17f9d06277904667b63e81db164a69c790537dbda3359a4f04d8bbae6288a9b6fc6115f9fec2dbc002fff5ce2ee1b5f090c5eaa0033ddc7f3b07ccb890747232e831360eeda263051e72b39847146f724c10a49974d809184be60984427b650648f36d4732b2f706aa54f64bb3944dab946d601b6e4bad4df141bf85673fdc8228defdb0672f55bac792901407054f935d3b90b3ac3b92a466b01f387293b24d3",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s5c",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/j29qW06XjjYsnWNUhDJe/DlX633DZGyYOPPguU1qN/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=76646c44e9b2b9555f69594341e5c2b9adeeaaef206ab65d4c6895b7e4ac897f71ba4252ea03df9db696a531ba748fd91d1b5a9579fbc7b3673bc64cdce535e88f820a839388d3906dbe4e382e4220bb5abcec49327c0c7d44942581e51f589f99b0fa3f5b331e22d6a3393617bdcb03c7ba2b48ce8bf7570839432c9397df994be570ee94026e09a294be29cb284400ada47b55c0620d8886900852ddd2d3ff8cf7c57a257cfa0afca5cf6eb7ad98212141b2bd4f783dc9eee79a79c112542faedec651582a091ff6438729d48141119693bc8fcb32ae138fd20a56fbd72328f489185b14fe259b04446023f0b6658f017a28177c00ee235b6781c67279f69f",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s5d",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/w7aJh23LUQUmHqufgSLU/UpPoY7vpnsl2LMakSltT/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=41b0833a3b279cc0e06167440505a2c508fcf175778b89e8651efb70d437f0de7ad9ea06bb9f0f66988795a1ae5db6c6c2a24c3b20fcc7f36ab6accde0e0af645337e206a097e5385c64e4e4efb8e968050e22d45ea87be30314f4fc1df3317ea9be2e8506b88fd2a95b508e833542d02c8fdae2c1c5aafb1eb65a7e78a2ce8c31e06d1e9d348460fc6dab3eb7be6b29168a387817e641bd2072352e66a7e6d56f22e49da4894116983f77b4b1a2d48d45ce9ef9903983df001808587d7c7ba0a0e16ff751caec2534beaef3d9dabf2607dd84036bdc29aa1a017156ff1af4a556a30b11febce86107bb3f4118997e2ecf0d86ba4465fb8d94cebf96f8157dac",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s6a",
+   "url": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_test_folge15_rest/chatterbox_s6a.mp3",
+   "gap_before": 1.2,
+   "src": "chatterbox"
+  },
+  {
+   "id": "s6b",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/sAaaOlyCx554bmBcFFDB/WffkUBRKMNy3mKBqY3MP/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=08198d8e6fe163cc4d08a6a89264293842e3e7a5417936636bcb0d2e6be4f7b00063deda91748b6f4af234c55d1a5f18dc75bb4d388b67e31989894d3ef3778cc5c29154a1ea609384f2194d553e25e21289542c377189d870dc58dfbc35a5a213c84ad1e2d0a3c237c6059aa5b530e8e68e1ada9b1d507b83cb96b828ec66cfeb0a9911d68fcefde5a3122dea3867cc1a83d49a033f0e6f7a5ffb6d53b5100162728e801d6afd9260a0c50792904bda65ccd9c00ece9b58a44b19fc955b7f5106db5a6b156bad9f3919f47e8564a5ed555eb70af524025a151c10710b489c02f6703b257ed10a7dcd3e2698b0c03f679cb6af6a93e35ac59cdeaf9fc39f3da7",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s6c",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/zxVpfF1ggR9OiHBwnPzc/YeQSGJsOe7PTuVpNOL9Q/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=93a5350e370d17944c3fc4a6ca212db10d3ee43926189796ab2567570ccdc61e24cc1f8bf657f6653b59a0f4fb09785c62ec92ab14b0312c73c824ade6b25e37bd9a27acb2881b61f708ee50ed4cca8d45f0ac078262b46b4b1a1fd6cfb16203a2aab94ae6eee38e2bf18384e10e741bc0766948ec7be15337d6e00c8876e78a926b15b90ce65b45041facde7530871c5b6e2a8e9482a8e9e389673bffc36cd524e4ee3eec4176e5b4c52097caa1739f324f44db6165b105761510ca3d4037e526feab6101893d88fe27404cc23a687ad69b8a35ae242dd3e6f71505ea2316157c23a31e9b08e693436a8569d5f2672ef6ffbde8b49bfd7afe3b41f46562d56a",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  },
+  {
+   "id": "s7a",
+   "url": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_test_folge15_rest/chatterbox_s7a.mp3",
+   "gap_before": 1.2,
+   "src": "chatterbox"
+  },
+  {
+   "id": "s7b",
+   "url": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/PDdjEW8qEl13eAIKu263/bVMoN8QNsuXj7PVEC4rg/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T073956Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0aeece51bbb11a047486617453a421abd9a0cd3b2168f0d032053ecc6add3e4398c877037ecedcef06d9bf6d61ca9086611489f9d1e73165c340faa34371362153adcc546696012bc19d75c58b27d4c28fc5afd1f4cfe86582473de46cf9f04debc7d0552c5cef28c5a44be9553add5957c4d57b482db4662f7e7356c51e145322bd2f640fd91cd973a2766f04f4c8831ee676f8fc6dde35c2639b33a0e33d033ca899151fde1e4a13d8684921b0ea032864bef1ea40a27d6f6dfec15fef0f153e9acae183f01a732d99564d8d0a8e1e17d40b74651bd112f11ba805bb714dc545dc5a96ece54b9d1462c83a79d23293df885e1e3c1134ac3ef8adf8a80108a4",
+   "gap_before": 0.6,
+   "src": "elevenlabs"
+  }
+ ]
+}
