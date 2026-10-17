@@ -1,9 +1,26 @@
 {
- "hash": "ab46700b1e42b9afa223c273d84fd930e01cd777",
+ "hash": "8424ce051d67d6df30044653132040ce4b0b0937",
  "name": "podcast_trailer_cb",
  "results": {
   "chatterbox": "ok"
  },
+ "check": [
+  {
+   "id": "trailer",
+   "text": "Assalamu alaikum, meine Lieben! Ich bin Oma Karmoucha.",
+   "match": 0.875
+  },
+  {
+   "id": "trailer",
+   "text": "Jeden Abend kuscheln sich meine Enkel Noah und Ilyas zu mir, und ich erzähle ihnen eine Geschichte von den Propheten: von Adam bis zu unserem geliebten Propheten Muhammad, Allah segne ihn und schenke ihm Frieden.",
+   "match": 0.943
+  },
+  {
+   "id": "trailer",
+   "text": "Alles, was ich erzähle, kommt aus dem Koran und aus sicheren Hadithen. Wir erfinden nichts dazu. Jeden Freitag gibt es eine neue Geschichte. Kuschelt euch ein... und hört gut zu. Schlaft gut, meine Lieben.",
+   "match": 0.971
+  }
+ ],
  "urls": {
   "chatterbox_trailer.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_podcast_trailer_cb/chatterbox_trailer.mp3",
   "chatterbox_alle.mp3": "https://github.com/belovedofallahkids/boa-render/releases/download/tts_podcast_trailer_cb/chatterbox_alle.mp3"
