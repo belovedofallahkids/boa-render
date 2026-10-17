@@ -16,7 +16,7 @@ def main():
         raw = open(f).read(); h = hashlib.sha1(raw.encode()).hexdigest()[:12]
         d = json.loads(raw)
         out = os.path.join(ROOT, "reviews", os.path.basename(f)[:-5] + ".md")
-        if os.path.exists(out) and h in open(out).read(300):
+        if os.path.exists(out) and h in open(out).read(300) and "FEHLER" not in open(out).read():
             continue
         lines = "\n".join(f"[{k}] {v}" for k, v in d["segments"].items())
         src = "\n".join(f"[{k}] {v}" for k, v in d.get("sources", {}).items())
@@ -33,7 +33,7 @@ def main():
             txt = f"FEHLER: {e}"
         open(out, "w").write(f"<!-- {h} -->\n# Zweite Prüfung (Gemini) – Folge {d['nr']} {d['prophet']}\n\n{txt}\n")
         print(out, flush=True)
-        time.sleep(5)
+        time.sleep(20)
 
 if __name__ == "__main__":
     main()
