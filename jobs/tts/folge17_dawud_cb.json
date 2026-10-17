@@ -1,0 +1,149 @@
+{
+ "name": "folge17_dawud_cb",
+ "engines": [
+  "chatterbox"
+ ],
+ "ref_audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge14_erzaehlung_komplett_2026-10-16mp3-hxXoUqUsSzs.mp3",
+ "ref": [
+  45.0,
+  56.5
+ ],
+ "kid_ref": [
+  203.5,
+  207.0
+ ],
+ "lines": [
+  {
+   "id": "s1a",
+   "text": "[whispers] Noah… Ilyas… hört mal ganz genau hin. [curious] Habt ihr gewusst, dass sogar die Berge und die Vögel Allah loben können?",
+   "kid": false,
+   "gap_before": 0
+  },
+  {
+   "id": "s1b",
+   "text": "[childlike voice] [surprised] Die Berge? Die können doch gar nicht sprechen!",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s1c",
+   "text": "[chuckles] Doch, auf ihre Art, die nur Allah versteht. [warmly] Kuschelt euch ein… Heute erzähle ich euch von Prophet Dawud, Friede sei mit ihm. Mit ihm haben die Berge und die Vögel ganz besonders Allah gelobt.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s2a",
+   "text": "[warmly] Lange nach Musa zogen die Kinder Israils mit ihrem König Talut los. Vor ihnen wartete ein großes, starkes Heer mit seinem Anführer Jalut. [curious] Auf dem Weg kamen sie an einen Fluss. Und Talut sagte: Allah prüft euch mit diesem Fluss. Wer daraus trinkt, gehört nicht zu mir. Nur eine Handvoll ist erlaubt.",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s2b",
+   "text": "[childlike voice] [curious] Und? Haben sie nur eine Handvoll getrunken?",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s2c",
+   "text": "[sighs] Die meisten nicht. Sie tranken, so viel sie wollten. Nur wenige hielten durch. [softly] Und als diese wenigen das riesige Heer sahen, sagten manche: Heute haben wir keine Kraft gegen Jalut.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s2d",
+   "text": "[warmly] Aber die, die fest an Allah glaubten, sagten etwas Wunderschönes: Wie oft hat schon eine kleine Gruppe eine große Gruppe besiegt, mit Allahs Erlaubnis! Allah ist mit den Geduldigen.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s3a",
+   "text": "[softly] Und sie beteten: Unser Herr, schenk uns Geduld, mach unsere Füße fest und hilf uns. [excited] Unter ihnen war ein mutiger Mann: Dawud. Und mit Allahs Erlaubnis besiegte Dawud den starken Jalut!",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s3b",
+   "text": "[childlike voice] [excited] Der Kleine hat den Großen besiegt?",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s3c",
+   "text": "[warmly] Ja, mein Schatz, mit Allahs Hilfe. Denn wahre Stärke kommt nicht von großen Muskeln, sondern vom Vertrauen auf Allah. [softly] Und Allah schenkte Dawud danach ein Königreich, Weisheit und viel Wissen.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s4a",
+   "text": "[warmly] Allah machte Dawud zu einem Propheten und gab ihm ein heiliges Buch: den Zabur. [softly] Und Dawud lobte Allah sehr oft. Allah sagt im Koran: Ihr Berge, lobt mit ihm, und ihr Vögel auch!",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s4b",
+   "text": "[warmly] Morgens und abends lobten die Berge Allah zusammen mit Dawud. Und die Vögel versammelten sich um ihn. [softly] Unser Prophet Muhammad, Allah segne ihn und schenke ihm Frieden, sagte einmal über einen Mann mit einer schönen Stimme beim Koranlesen: Er hat eine Stimme wie die Familie von Dawud.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s4c",
+   "text": "[childlike voice] [excited] Subhanallah! Dann darf ich auch mit den Vögeln Allah loben?",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s4d",
+   "text": "[chuckles] Natürlich, mein Schatz! Jedes Mal, wenn du Subhanallah sagst, lobst du Allah. Genau wie die Berge und die Vögel.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s5a",
+   "text": "[curious] Und Allah schenkte Dawud noch ein Wunder: Das harte Eisen wurde in seinen Händen weich! [warmly] Allah lehrte ihn, daraus feine Kettenhemden zu machen, die die Menschen schützten.",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s5b",
+   "text": "[childlike voice] [surprised] Ein König, der selbst arbeitet?",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s5c",
+   "text": "[warmly] Ja! Unser Prophet sagte: Niemand hat jemals besseres Essen gegessen als das, was er mit seinen eigenen Händen verdient hat. Und Prophet Dawud aß von der Arbeit seiner Hände.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s6a",
+   "text": "[warmly] Und Dawud fastete auf eine ganz besondere Art: einen Tag fastete er, einen Tag nicht, immer abwechselnd. [softly] Unser Prophet sagte: Das liebste Fasten bei Allah ist das Fasten von Dawud. Und das liebste Gebet bei Allah ist das Gebet von Dawud: Er schlief die halbe Nacht, betete ein Drittel und schlief wieder ein Sechstel.",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s6b",
+   "text": "[childlike voice] [curious] Und mit dem Schlafen war er auch gut, oder? So wie wir!",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s6c",
+   "text": "[chuckles] Ja, genau, mein kluger Schatz. Dawud hat gebetet und auch geschlafen. Allah mag es, wenn wir das Gute tun und dabei nicht übertreiben.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s7a",
+   "text": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… seid mutig wie Dawud, denn wahre Stärke kommt vom Vertrauen auf Allah. Lobt Allah oft: Subhanallah, wie die Berge und die Vögel. Und helft mit euren eigenen Händen.",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s7b",
+   "text": "[whispers] Und nächstes Mal erzähle ich euch von Dawuds Sohn Sulaiman… der die Sprache der Vögel verstand und sogar eine kleine Ameise sprechen hörte. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch.",
+   "kid": false,
+   "gap_before": 0.6
+  }
+ ]
+}

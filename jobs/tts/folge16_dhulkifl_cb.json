@@ -1,0 +1,131 @@
+{
+ "name": "folge16_dhulkifl_cb",
+ "engines": [
+  "chatterbox"
+ ],
+ "ref_audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge14_erzaehlung_komplett_2026-10-16mp3-hxXoUqUsSzs.mp3",
+ "ref": [
+  45.0,
+  56.5
+ ],
+ "kid_ref": [
+  203.5,
+  207.0
+ ],
+ "lines": [
+  {
+   "id": "s1a",
+   "text": "[whispers] Noah… Ilyas… heute habe ich ein kleines Rätsel für euch. [curious] Es gibt einen Propheten, über den der Koran nur ganz wenige Worte sagt. Aber diese Worte sind ein riesiges Lob. Wisst ihr, wen ich meine?",
+   "kid": false,
+   "gap_before": 0
+  },
+  {
+   "id": "s1b",
+   "text": "[childlike voice] [curious] Hmm… nein! Wen denn, Oma?",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s1c",
+   "text": "[chuckles] Prophet Dhul-Kifl, Friede sei mit ihm. [warmly] Kuschelt euch ein. Heute wird es eine kurze Geschichte, aber eine sehr wichtige.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s2a",
+   "text": "[warmly] Allah erwähnt Dhul-Kifl zweimal im Koran. Einmal sagt Allah: Und Ismail, Idris und Dhul-Kifl, alle gehörten zu den Geduldigen. [softly] Wir ließen sie in Unsere Barmherzigkeit eintreten. Sie gehörten zu den Rechtschaffenen.",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s2b",
+   "text": "[warmly] Und an einer anderen Stelle sagt Allah: Und gedenke Ismails, Alyasas und Dhul-Kifls. Alle gehörten zu den Besten.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s2c",
+   "text": "[childlike voice] [surprised] Zu den Besten? Wow! Und was hat er gemacht?",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s2d",
+   "text": "[softly] Das erzählt uns der Koran nicht, mein Schatz. [warmly] Aber Allah sagt uns zwei Dinge über ihn: Er war geduldig. Und er war rechtschaffen. Und genau darüber sprechen wir heute.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s3a",
+   "text": "[curious] Was heißt eigentlich geduldig? Ilyas, wann musstest du schon mal geduldig sein?",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s3b",
+   "text": "[childlike voice] [sighs] Wenn Noah im Badezimmer sooo lange braucht! Und wenn ich auf meinen Geburtstag warte.",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s3c",
+   "text": "[chuckles] Ja, das ist auch Geduld! [warmly] Geduld heißt: Wenn etwas schwer ist oder lange dauert, wirst du nicht wütend und gibst nicht auf. Du tust weiter das Richtige und vertraust auf Allah. [softly] Allah sagt im Koran: Allah ist mit den Geduldigen.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s3d",
+   "text": "[warmly] Und unser Prophet Muhammad, Allah segne ihn und schenke ihm Frieden, sagte: Niemand hat ein besseres und größeres Geschenk bekommen als die Geduld.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s4a",
+   "text": "[warmly] Und was heißt rechtschaffen? Rechtschaffen ist jemand, der Allah gehorcht und Gutes tut. Nicht nur, wenn alle zuschauen, sondern auch, wenn ihn niemand sieht.",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s4b",
+   "text": "[childlike voice] [curious] Auch wenn niemand zuschaut? Zum Beispiel heimlich mein Zimmer aufräumen?",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s4c",
+   "text": "[chuckles] Ganz genau, mein Schatz! Oder einem Kind helfen, das alleine ist. Oder die Wahrheit sagen, auch wenn es schwer ist. [softly] Allah sieht alles. Und Er hat Dhul-Kifl in Seine Barmherzigkeit eintreten lassen.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s5a",
+   "text": "[softly] Weißt du, manche Leute erzählen über Dhul-Kifl lange Geschichten. Aber für viele davon gibt es keine sicheren Quellen. [warmly] Und was wir nicht sicher wissen, das erfinden wir nicht.",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s5b",
+   "text": "[childlike voice] [curious] Und warum erzählt Allah uns nicht mehr über ihn?",
+   "kid": true,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s5c",
+   "text": "[warmly] Allah weiß am besten, was wir brauchen. [softly] Vielleicht will Er uns zeigen: Nicht jeder gute Mensch wird berühmt. Aber Allah kennt jeden, der geduldig ist und Gutes tut. Und Allah sagt: Die Geduldigen bekommen ihren Lohn ohne Grenze.",
+   "kid": false,
+   "gap_before": 0.6
+  },
+  {
+   "id": "s6a",
+   "text": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… seid geduldig wie Dhul-Kifl, wenn etwas schwer ist oder lange dauert. Tut Gutes, auch wenn niemand zuschaut. Und erzählt nur, was ihr sicher wisst.",
+   "kid": false,
+   "gap_before": 1.2
+  },
+  {
+   "id": "s6b",
+   "text": "[whispers] Und nächstes Mal erzähle ich euch von Dawud… einem Propheten mit einer wunderschönen Stimme, mit dem sogar die Berge und die Vögel Allah lobten. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch.",
+   "kid": false,
+   "gap_before": 0.6
+  }
+ ]
+}

@@ -25,16 +25,19 @@ def clean(t):
     return re.sub(r"\s+", " ", t).strip()
 
 
-def concat(files, out):
+def concat(files, out, gaps=None):
     lst = out + ".txt"
-    sil = out + "_sil.wav"
-    run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "0.6", sil])
     parts = []
-    for f in files:
+    for i, f in enumerate(files):
+        g = 0.6 if gaps is None else gaps[i]
+        if i > 0 and g > 0:
+            sil = f"{out}_sil{i}.wav"
+            run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", str(g), sil])
+            parts.append(sil)
         w = f + ".24k.wav"
         run(["ffmpeg", "-loglevel", "error", "-y", "-i", f, "-ar", "24000", "-ac", "1", w])
-        parts += [w, sil]
-    open(lst, "w").write("".join(f"file '{p}'\n" for p in parts[:-1]))
+        parts.append(w)
+    open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
     run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-b:a", "128k", out])
 
 
@@ -58,8 +61,22 @@ def chatterbox(job, wd):
     outs = []
     for ln in job["lines"]:
         ref = refs["kid_ref"] if ln.get("kid") and "kid_ref" in refs else refs["ref"]
-        wav = model.generate(clean(ln["text"]), language_id="de", audio_prompt_path=ref,
-                             exaggeration=ln.get("exaggeration", 0.5), cfg_weight=ln.get("cfg", 0.5))
+        chunks, cur = [], ""
+        for sent in re.split(r"(?<=[.!?…])\s+", clean(ln["text"])):
+            if cur and len(cur) + len(sent) > 220:
+                chunks.append(cur)
+                cur = sent
+            else:
+                cur = (cur + " " + sent).strip()
+        if cur:
+            chunks.append(cur)
+        pieces = []
+        for c in chunks:
+            wv = model.generate(c, language_id="de", audio_prompt_path=ref,
+                                exaggeration=ln.get("exaggeration", 0.5), cfg_weight=ln.get("cfg", 0.5))
+            pieces.append(wv)
+            pieces.append(torch.zeros(1, int(model.sr * 0.3)))
+        wav = torch.cat(pieces[:-1], dim=1)
         w = os.path.join(wd, f"chatterbox_{ln['id']}.wav")
         torchaudio.save(w, wav, model.sr)
         m = w[:-4] + ".mp3"
@@ -152,7 +169,8 @@ def main():
                     files += outs
                 else:
                     alle = os.path.join(wd, f"{eng}_alle.mp3")
-                    concat(outs, alle)
+                    gl = [ln.get("gap_before", 0.6) for ln in job["lines"]]
+                    concat(outs, alle, gl)
                     files += outs + [alle]
                 status["results"][eng] = "ok"
             except Exception:
