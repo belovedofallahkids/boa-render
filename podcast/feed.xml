@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+  <title>Oma erzählt – Prophetengeschichten für Kinder (Beloved of Allah Kids)</title>
+  <link>https://www.youtube.com/@BelovedOfAllahKids</link>
+  <atom:link href="https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+  <language>de</language>
+  <description>Islamische Gute-Nacht-Geschichten für Kinder von 4 bis 12 Jahren. Jeden Abend erzählt Oma Karmoucha ihren Enkeln Noah und Ilyas eine Geschichte von den Propheten – von Adam bis zu unserem geliebten Propheten Muhammad ﷺ. Alles aus dem Koran und aus sicheren Hadithen, nichts dazuerfunden. Jeden Freitag eine neue Folge. Auch als Video auf YouTube: @BelovedOfAllahKids</description>
+  <itunes:summary>Islamische Gute-Nacht-Geschichten für Kinder von 4 bis 12 Jahren. Jeden Abend erzählt Oma Karmoucha ihren Enkeln Noah und Ilyas eine Geschichte von den Propheten – von Adam bis zu unserem geliebten Propheten Muhammad ﷺ. Alles aus dem Koran und aus sicheren Hadithen, nichts dazuerfunden. Jeden Freitag eine neue Folge. Auch als Video auf YouTube: @BelovedOfAllahKids</itunes:summary>
+  <itunes:author>Beloved of Allah Kids</itunes:author>
+  <itunes:owner><itunes:name>Beloved of Allah Kids</itunes:name><itunes:email>houtacampino@gmail.com</itunes:email></itunes:owner>
+  <itunes:image href="https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/podcast/cover.jpg"/>
+  <image><url>https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/podcast/cover.jpg</url><title>Oma erzählt – Prophetengeschichten für Kinder (Beloved of Allah Kids)</title><link>https://www.youtube.com/@BelovedOfAllahKids</link></image>
+  <itunes:category text="Kids &amp; Family"><itunes:category text="Stories for Kids"/></itunes:category>
+  <itunes:category text="Religion &amp; Spirituality"><itunes:category text="Islam"/></itunes:category>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <item>
+   <title>Willkommen bei Oma erzählt – Prophetengeschichten für Kinder</title>
+   <description>Oma Karmoucha stellt sich vor: Jeden Abend erzählt sie Noah und Ilyas eine Geschichte von den Propheten – von Adam bis zu unserem geliebten Propheten Muhammad ﷺ. Alles aus dem Koran und aus sicheren Hadithen. Jeden Freitag eine neue Folge.</description>
+   <itunes:summary>Oma Karmoucha stellt sich vor: Jeden Abend erzählt sie Noah und Ilyas eine Geschichte von den Propheten – von Adam bis zu unserem geliebten Propheten Muhammad ﷺ. Alles aus dem Koran und aus sicheren Hadithen. Jeden Freitag eine neue Folge.</itunes:summary>
+   <enclosure url="https://github.com/belovedofallahkids/boa-render/releases/download/tts_podcast_trailer_cb/chatterbox_trailer.mp3" length="634797" type="audio/mpeg"/>
+   <guid isPermaLink="false">boa-trailer-2026-10</guid>
+   <pubDate>Sat, 17 Oct 2026 12:00:00 +0200</pubDate>
+   <itunes:duration>40</itunes:duration>
+   <itunes:episodeType>trailer</itunes:episodeType>
+   
+   <itunes:explicit>false</itunes:explicit>
+  </item>
+ </channel>
+</rss>
