@@ -1,0 +1,603 @@
+{
+ "name": "tts_test15_chatterbox",
+ "job_hash": "296aafaf1bc85e23983475a496496b1bf9b79ae9",
+ "duration": 45.74,
+ "model": "medium",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.28,
+   "text": "Doch während Musa weg war, machte ein Mann namens Samiri aus dem Goldschmuck der Leute",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.24,
+     "word": "Doch"
+    },
+    {
+     "start": 0.24,
+     "end": 0.66,
+     "word": "während"
+    },
+    {
+     "start": 0.66,
+     "end": 1.06,
+     "word": "Musa"
+    },
+    {
+     "start": 1.06,
+     "end": 1.3,
+     "word": "weg"
+    },
+    {
+     "start": 1.3,
+     "end": 1.86,
+     "word": "war,"
+    },
+    {
+     "start": 2.28,
+     "end": 2.54,
+     "word": "machte"
+    },
+    {
+     "start": 2.54,
+     "end": 2.68,
+     "word": "ein"
+    },
+    {
+     "start": 2.68,
+     "end": 2.94,
+     "word": "Mann"
+    },
+    {
+     "start": 2.94,
+     "end": 3.42,
+     "word": "namens"
+    },
+    {
+     "start": 3.42,
+     "end": 3.82,
+     "word": "Samiri"
+    },
+    {
+     "start": 3.82,
+     "end": 4.02,
+     "word": "aus"
+    },
+    {
+     "start": 4.02,
+     "end": 4.24,
+     "word": "dem"
+    },
+    {
+     "start": 4.24,
+     "end": 4.74,
+     "word": "Goldschmuck"
+    },
+    {
+     "start": 4.74,
+     "end": 4.94,
+     "word": "der"
+    },
+    {
+     "start": 4.94,
+     "end": 5.28,
+     "word": "Leute"
+    }
+   ]
+  },
+  {
+   "start": 5.28,
+   "end": 12.22,
+   "text": "ein goldenes Kalb, das einen laut von sich gab, und er sagte, das ist euer Gott, und",
+   "words": [
+    {
+     "start": 5.28,
+     "end": 5.76,
+     "word": "ein"
+    },
+    {
+     "start": 5.76,
+     "end": 6.38,
+     "word": "goldenes"
+    },
+    {
+     "start": 6.38,
+     "end": 6.86,
+     "word": "Kalb,"
+    },
+    {
+     "start": 6.98,
+     "end": 7.16,
+     "word": "das"
+    },
+    {
+     "start": 7.16,
+     "end": 7.4,
+     "word": "einen"
+    },
+    {
+     "start": 7.4,
+     "end": 7.66,
+     "word": "laut"
+    },
+    {
+     "start": 7.66,
+     "end": 7.9,
+     "word": "von"
+    },
+    {
+     "start": 7.9,
+     "end": 8.1,
+     "word": "sich"
+    },
+    {
+     "start": 8.1,
+     "end": 8.44,
+     "word": "gab,"
+    },
+    {
+     "start": 9.3,
+     "end": 9.46,
+     "word": "und"
+    },
+    {
+     "start": 9.46,
+     "end": 9.7,
+     "word": "er"
+    },
+    {
+     "start": 9.7,
+     "end": 9.98,
+     "word": "sagte,"
+    },
+    {
+     "start": 10.48,
+     "end": 10.64,
+     "word": "das"
+    },
+    {
+     "start": 10.64,
+     "end": 10.86,
+     "word": "ist"
+    },
+    {
+     "start": 10.86,
+     "end": 11.1,
+     "word": "euer"
+    },
+    {
+     "start": 11.1,
+     "end": 11.42,
+     "word": "Gott,"
+    },
+    {
+     "start": 11.86,
+     "end": 12.22,
+     "word": "und"
+    }
+   ]
+  },
+  {
+   "start": 12.22,
+   "end": 13.62,
+   "text": "viele Leute glaubten ihm.",
+   "words": [
+    {
+     "start": 12.22,
+     "end": 12.48,
+     "word": "viele"
+    },
+    {
+     "start": 12.48,
+     "end": 12.8,
+     "word": "Leute"
+    },
+    {
+     "start": 12.8,
+     "end": 13.26,
+     "word": "glaubten"
+    },
+    {
+     "start": 13.26,
+     "end": 13.62,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 14.7,
+   "end": 17.84,
+   "text": "Allah lobt die beiden Brüder im Koran.",
+   "words": [
+    {
+     "start": 14.7,
+     "end": 15.3,
+     "word": "Allah"
+    },
+    {
+     "start": 15.3,
+     "end": 15.8,
+     "word": "lobt"
+    },
+    {
+     "start": 15.8,
+     "end": 16.04,
+     "word": "die"
+    },
+    {
+     "start": 16.04,
+     "end": 16.4,
+     "word": "beiden"
+    },
+    {
+     "start": 16.4,
+     "end": 16.78,
+     "word": "Brüder"
+    },
+    {
+     "start": 16.78,
+     "end": 17.02,
+     "word": "im"
+    },
+    {
+     "start": 17.02,
+     "end": 17.84,
+     "word": "Koran."
+    }
+   ]
+  },
+  {
+   "start": 18.14,
+   "end": 23.48,
+   "text": "Er sagt, Friede sei auf Musa und Harun, sie gehörten zu seinen gläubigen Dienern.",
+   "words": [
+    {
+     "start": 18.14,
+     "end": 18.34,
+     "word": "Er"
+    },
+    {
+     "start": 18.34,
+     "end": 18.74,
+     "word": "sagt,"
+    },
+    {
+     "start": 19.08,
+     "end": 19.38,
+     "word": "Friede"
+    },
+    {
+     "start": 19.38,
+     "end": 19.5,
+     "word": "sei"
+    },
+    {
+     "start": 19.5,
+     "end": 19.72,
+     "word": "auf"
+    },
+    {
+     "start": 19.72,
+     "end": 20.16,
+     "word": "Musa"
+    },
+    {
+     "start": 20.16,
+     "end": 20.36,
+     "word": "und"
+    },
+    {
+     "start": 20.36,
+     "end": 20.82,
+     "word": "Harun,"
+    },
+    {
+     "start": 21.12,
+     "end": 21.36,
+     "word": "sie"
+    },
+    {
+     "start": 21.36,
+     "end": 21.76,
+     "word": "gehörten"
+    },
+    {
+     "start": 21.76,
+     "end": 22.0,
+     "word": "zu"
+    },
+    {
+     "start": 22.0,
+     "end": 22.24,
+     "word": "seinen"
+    },
+    {
+     "start": 22.24,
+     "end": 22.72,
+     "word": "gläubigen"
+    },
+    {
+     "start": 22.72,
+     "end": 23.48,
+     "word": "Dienern."
+    }
+   ]
+  },
+  {
+   "start": 24.7,
+   "end": 27.68,
+   "text": "Hat unser Prophet Muhammad auch von Harun erzählt?",
+   "words": [
+    {
+     "start": 24.7,
+     "end": 24.94,
+     "word": "Hat"
+    },
+    {
+     "start": 24.94,
+     "end": 25.3,
+     "word": "unser"
+    },
+    {
+     "start": 25.3,
+     "end": 25.74,
+     "word": "Prophet"
+    },
+    {
+     "start": 25.74,
+     "end": 26.28,
+     "word": "Muhammad"
+    },
+    {
+     "start": 26.28,
+     "end": 26.54,
+     "word": "auch"
+    },
+    {
+     "start": 26.54,
+     "end": 26.74,
+     "word": "von"
+    },
+    {
+     "start": 26.74,
+     "end": 27.06,
+     "word": "Harun"
+    },
+    {
+     "start": 27.06,
+     "end": 27.68,
+     "word": "erzählt?"
+    }
+   ]
+  },
+  {
+   "start": 28.78,
+   "end": 36.02,
+   "text": "Oh, sie schlafen schon, meine Lieben, haltet zusammen, wie Musa und Harun, helft einander,",
+   "words": [
+    {
+     "start": 28.78,
+     "end": 29.38,
+     "word": "Oh,"
+    },
+    {
+     "start": 29.56,
+     "end": 29.72,
+     "word": "sie"
+    },
+    {
+     "start": 29.72,
+     "end": 30.32,
+     "word": "schlafen"
+    },
+    {
+     "start": 30.32,
+     "end": 30.84,
+     "word": "schon,"
+    },
+    {
+     "start": 31.38,
+     "end": 31.6,
+     "word": "meine"
+    },
+    {
+     "start": 31.6,
+     "end": 32.32,
+     "word": "Lieben,"
+    },
+    {
+     "start": 32.68,
+     "end": 32.96,
+     "word": "haltet"
+    },
+    {
+     "start": 32.96,
+     "end": 33.36,
+     "word": "zusammen,"
+    },
+    {
+     "start": 33.46,
+     "end": 33.64,
+     "word": "wie"
+    },
+    {
+     "start": 33.64,
+     "end": 34.1,
+     "word": "Musa"
+    },
+    {
+     "start": 34.1,
+     "end": 34.34,
+     "word": "und"
+    },
+    {
+     "start": 34.34,
+     "end": 34.82,
+     "word": "Harun,"
+    },
+    {
+     "start": 35.38,
+     "end": 35.62,
+     "word": "helft"
+    },
+    {
+     "start": 35.62,
+     "end": 36.02,
+     "word": "einander,"
+    }
+   ]
+  },
+  {
+   "start": 36.04,
+   "end": 37.36,
+   "text": "wenn etwas schwer ist.",
+   "words": [
+    {
+     "start": 36.04,
+     "end": 36.22,
+     "word": "wenn"
+    },
+    {
+     "start": 36.22,
+     "end": 36.46,
+     "word": "etwas"
+    },
+    {
+     "start": 36.46,
+     "end": 36.9,
+     "word": "schwer"
+    },
+    {
+     "start": 36.9,
+     "end": 37.36,
+     "word": "ist."
+    }
+   ]
+  },
+  {
+   "start": 37.88,
+   "end": 42.34,
+   "text": "Sagt die Wahrheit, auch wenn viele etwas Falsches tun, und wenn Euch jemand falsch",
+   "words": [
+    {
+     "start": 37.88,
+     "end": 38.08,
+     "word": "Sagt"
+    },
+    {
+     "start": 38.08,
+     "end": 38.26,
+     "word": "die"
+    },
+    {
+     "start": 38.26,
+     "end": 38.8,
+     "word": "Wahrheit,"
+    },
+    {
+     "start": 38.94,
+     "end": 39.06,
+     "word": "auch"
+    },
+    {
+     "start": 39.06,
+     "end": 39.26,
+     "word": "wenn"
+    },
+    {
+     "start": 39.26,
+     "end": 39.56,
+     "word": "viele"
+    },
+    {
+     "start": 39.56,
+     "end": 39.88,
+     "word": "etwas"
+    },
+    {
+     "start": 39.88,
+     "end": 40.36,
+     "word": "Falsches"
+    },
+    {
+     "start": 40.36,
+     "end": 40.7,
+     "word": "tun,"
+    },
+    {
+     "start": 41.1,
+     "end": 41.32,
+     "word": "und"
+    },
+    {
+     "start": 41.32,
+     "end": 41.5,
+     "word": "wenn"
+    },
+    {
+     "start": 41.5,
+     "end": 41.66,
+     "word": "Euch"
+    },
+    {
+     "start": 41.66,
+     "end": 42.0,
+     "word": "jemand"
+    },
+    {
+     "start": 42.0,
+     "end": 42.34,
+     "word": "falsch"
+    }
+   ]
+  },
+  {
+   "start": 42.34,
+   "end": 45.62,
+   "text": "versteht, dann bleibt freundlich und erklärt es ruhig.",
+   "words": [
+    {
+     "start": 42.34,
+     "end": 43.08,
+     "word": "versteht,"
+    },
+    {
+     "start": 43.26,
+     "end": 43.38,
+     "word": "dann"
+    },
+    {
+     "start": 43.38,
+     "end": 43.64,
+     "word": "bleibt"
+    },
+    {
+     "start": 43.64,
+     "end": 44.36,
+     "word": "freundlich"
+    },
+    {
+     "start": 44.36,
+     "end": 44.58,
+     "word": "und"
+    },
+    {
+     "start": 44.58,
+     "end": 44.88,
+     "word": "erklärt"
+    },
+    {
+     "start": 44.88,
+     "end": 45.12,
+     "word": "es"
+    },
+    {
+     "start": 45.12,
+     "end": 45.62,
+     "word": "ruhig."
+    }
+   ]
+  }
+ ]
+}
