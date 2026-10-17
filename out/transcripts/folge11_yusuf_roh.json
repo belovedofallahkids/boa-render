@@ -1,0 +1,4807 @@
+{
+ "name": "folge11_yusuf_roh",
+ "job_hash": "39296205cb045a7766110641fbe9503eba888a2d",
+ "duration": 553.56,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 14.64,
+   "text": "Noah, Ilyas. Erinnert ihr euch an Yusufs Traum? Elf Sterne, die Sonne und der Mond? Und alle verneigten sich vor ihm.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.46,
+     "word": "Noah,"
+    },
+    {
+     "start": 1.58,
+     "end": 2.34,
+     "word": "Ilyas."
+    },
+    {
+     "start": 3.56,
+     "end": 4.24,
+     "word": "Erinnert"
+    },
+    {
+     "start": 4.24,
+     "end": 4.38,
+     "word": "ihr"
+    },
+    {
+     "start": 4.38,
+     "end": 4.6,
+     "word": "euch"
+    },
+    {
+     "start": 4.6,
+     "end": 4.96,
+     "word": "an"
+    },
+    {
+     "start": 4.96,
+     "end": 5.62,
+     "word": "Yusufs"
+    },
+    {
+     "start": 5.62,
+     "end": 5.98,
+     "word": "Traum?"
+    },
+    {
+     "start": 7.34,
+     "end": 7.84,
+     "word": "Elf"
+    },
+    {
+     "start": 7.84,
+     "end": 8.52,
+     "word": "Sterne,"
+    },
+    {
+     "start": 9.36,
+     "end": 9.5,
+     "word": "die"
+    },
+    {
+     "start": 9.5,
+     "end": 9.98,
+     "word": "Sonne"
+    },
+    {
+     "start": 9.98,
+     "end": 10.32,
+     "word": "und"
+    },
+    {
+     "start": 10.32,
+     "end": 10.54,
+     "word": "der"
+    },
+    {
+     "start": 10.54,
+     "end": 10.92,
+     "word": "Mond?"
+    },
+    {
+     "start": 12.16,
+     "end": 12.56,
+     "word": "Und"
+    },
+    {
+     "start": 12.56,
+     "end": 13.1,
+     "word": "alle"
+    },
+    {
+     "start": 13.1,
+     "end": 13.78,
+     "word": "verneigten"
+    },
+    {
+     "start": 13.78,
+     "end": 14.16,
+     "word": "sich"
+    },
+    {
+     "start": 14.16,
+     "end": 14.42,
+     "word": "vor"
+    },
+    {
+     "start": 14.42,
+     "end": 14.64,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 16.26,
+   "end": 20.38,
+   "text": "Heute erfahrt ihr endlich, was dieser Traum bedeutet.",
+   "words": [
+    {
+     "start": 16.26,
+     "end": 16.64,
+     "word": "Heute"
+    },
+    {
+     "start": 16.64,
+     "end": 17.22,
+     "word": "erfahrt"
+    },
+    {
+     "start": 17.22,
+     "end": 17.34,
+     "word": "ihr"
+    },
+    {
+     "start": 17.34,
+     "end": 17.8,
+     "word": "endlich,"
+    },
+    {
+     "start": 18.56,
+     "end": 18.78,
+     "word": "was"
+    },
+    {
+     "start": 18.78,
+     "end": 19.24,
+     "word": "dieser"
+    },
+    {
+     "start": 19.24,
+     "end": 19.76,
+     "word": "Traum"
+    },
+    {
+     "start": 19.76,
+     "end": 20.38,
+     "word": "bedeutet."
+    }
+   ]
+  },
+  {
+   "start": 21.14,
+   "end": 28.72,
+   "text": "Und ob sie Yusuf gefunden haben? Genau das. Kuschelt euch ein.",
+   "words": [
+    {
+     "start": 20.82,
+     "end": 21.34,
+     "word": "Und"
+    },
+    {
+     "start": 21.34,
+     "end": 21.7,
+     "word": "ob"
+    },
+    {
+     "start": 21.7,
+     "end": 21.92,
+     "word": "sie"
+    },
+    {
+     "start": 21.92,
+     "end": 22.34,
+     "word": "Yusuf"
+    },
+    {
+     "start": 22.34,
+     "end": 22.82,
+     "word": "gefunden"
+    },
+    {
+     "start": 22.82,
+     "end": 23.54,
+     "word": "haben?"
+    },
+    {
+     "start": 24.76,
+     "end": 25.8,
+     "word": "Genau"
+    },
+    {
+     "start": 25.8,
+     "end": 26.58,
+     "word": "das."
+    },
+    {
+     "start": 27.46,
+     "end": 28.12,
+     "word": "Kuschelt"
+    },
+    {
+     "start": 28.12,
+     "end": 28.3,
+     "word": "euch"
+    },
+    {
+     "start": 28.3,
+     "end": 28.72,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 30.44,
+   "end": 43.76,
+   "text": "Heute erzähle ich euch von Prophet Yusuf. Friede sei mit ihm. Seine Geschichte hat im Koran eine ganze eigene Suche. Die Suche Yusuf.",
+   "words": [
+    {
+     "start": 30.44,
+     "end": 30.98,
+     "word": "Heute"
+    },
+    {
+     "start": 30.98,
+     "end": 31.76,
+     "word": "erzähle"
+    },
+    {
+     "start": 31.76,
+     "end": 31.94,
+     "word": "ich"
+    },
+    {
+     "start": 31.94,
+     "end": 32.14,
+     "word": "euch"
+    },
+    {
+     "start": 32.14,
+     "end": 32.46,
+     "word": "von"
+    },
+    {
+     "start": 32.46,
+     "end": 32.86,
+     "word": "Prophet"
+    },
+    {
+     "start": 32.86,
+     "end": 33.64,
+     "word": "Yusuf."
+    },
+    {
+     "start": 34.22,
+     "end": 34.74,
+     "word": "Friede"
+    },
+    {
+     "start": 34.74,
+     "end": 34.9,
+     "word": "sei"
+    },
+    {
+     "start": 34.9,
+     "end": 35.12,
+     "word": "mit"
+    },
+    {
+     "start": 35.12,
+     "end": 35.36,
+     "word": "ihm."
+    },
+    {
+     "start": 36.72,
+     "end": 37.1,
+     "word": "Seine"
+    },
+    {
+     "start": 37.1,
+     "end": 37.5,
+     "word": "Geschichte"
+    },
+    {
+     "start": 37.5,
+     "end": 37.92,
+     "word": "hat"
+    },
+    {
+     "start": 37.92,
+     "end": 38.08,
+     "word": "im"
+    },
+    {
+     "start": 38.08,
+     "end": 38.58,
+     "word": "Koran"
+    },
+    {
+     "start": 38.58,
+     "end": 38.9,
+     "word": "eine"
+    },
+    {
+     "start": 38.9,
+     "end": 39.48,
+     "word": "ganze"
+    },
+    {
+     "start": 39.48,
+     "end": 40.24,
+     "word": "eigene"
+    },
+    {
+     "start": 40.24,
+     "end": 40.98,
+     "word": "Suche."
+    },
+    {
+     "start": 42.18,
+     "end": 42.38,
+     "word": "Die"
+    },
+    {
+     "start": 42.38,
+     "end": 42.92,
+     "word": "Suche"
+    },
+    {
+     "start": 42.92,
+     "end": 43.76,
+     "word": "Yusuf."
+    }
+   ]
+  },
+  {
+   "start": 45.12,
+   "end": 57.8,
+   "text": "Yusufs Brüder waren neidisch. Sie sagten, unser Vater hat Yusuf und seinen Bruder lieber als uns. Und sie wollten Yusuf loswerden.",
+   "words": [
+    {
+     "start": 45.12,
+     "end": 45.96,
+     "word": "Yusufs"
+    },
+    {
+     "start": 45.96,
+     "end": 46.4,
+     "word": "Brüder"
+    },
+    {
+     "start": 46.4,
+     "end": 47.02,
+     "word": "waren"
+    },
+    {
+     "start": 47.02,
+     "end": 47.8,
+     "word": "neidisch."
+    },
+    {
+     "start": 48.78,
+     "end": 49.0,
+     "word": "Sie"
+    },
+    {
+     "start": 49.0,
+     "end": 49.6,
+     "word": "sagten,"
+    },
+    {
+     "start": 50.34,
+     "end": 50.6,
+     "word": "unser"
+    },
+    {
+     "start": 50.6,
+     "end": 51.08,
+     "word": "Vater"
+    },
+    {
+     "start": 51.08,
+     "end": 51.38,
+     "word": "hat"
+    },
+    {
+     "start": 51.38,
+     "end": 51.96,
+     "word": "Yusuf"
+    },
+    {
+     "start": 51.96,
+     "end": 52.2,
+     "word": "und"
+    },
+    {
+     "start": 52.2,
+     "end": 52.5,
+     "word": "seinen"
+    },
+    {
+     "start": 52.5,
+     "end": 52.98,
+     "word": "Bruder"
+    },
+    {
+     "start": 52.98,
+     "end": 53.38,
+     "word": "lieber"
+    },
+    {
+     "start": 53.38,
+     "end": 53.76,
+     "word": "als"
+    },
+    {
+     "start": 53.76,
+     "end": 54.14,
+     "word": "uns."
+    },
+    {
+     "start": 55.36,
+     "end": 55.66,
+     "word": "Und"
+    },
+    {
+     "start": 55.66,
+     "end": 55.92,
+     "word": "sie"
+    },
+    {
+     "start": 55.92,
+     "end": 56.18,
+     "word": "wollten"
+    },
+    {
+     "start": 56.18,
+     "end": 56.9,
+     "word": "Yusuf"
+    },
+    {
+     "start": 56.9,
+     "end": 57.8,
+     "word": "loswerden."
+    }
+   ]
+  },
+  {
+   "start": 58.94,
+   "end": 69.8,
+   "text": "Einer von ihnen sagte, werft ihn in einen tiefen Brunnen. Vielleicht nimmt ihn eine Reisegruppe mit. Und so geschah es.",
+   "words": [
+    {
+     "start": 58.94,
+     "end": 59.36,
+     "word": "Einer"
+    },
+    {
+     "start": 59.36,
+     "end": 59.62,
+     "word": "von"
+    },
+    {
+     "start": 59.62,
+     "end": 59.82,
+     "word": "ihnen"
+    },
+    {
+     "start": 59.82,
+     "end": 60.24,
+     "word": "sagte,"
+    },
+    {
+     "start": 61.44,
+     "end": 61.82,
+     "word": "werft"
+    },
+    {
+     "start": 61.82,
+     "end": 62.06,
+     "word": "ihn"
+    },
+    {
+     "start": 62.06,
+     "end": 62.34,
+     "word": "in"
+    },
+    {
+     "start": 62.34,
+     "end": 62.6,
+     "word": "einen"
+    },
+    {
+     "start": 62.6,
+     "end": 63.22,
+     "word": "tiefen"
+    },
+    {
+     "start": 63.22,
+     "end": 63.66,
+     "word": "Brunnen."
+    },
+    {
+     "start": 64.64,
+     "end": 65.06,
+     "word": "Vielleicht"
+    },
+    {
+     "start": 65.06,
+     "end": 65.48,
+     "word": "nimmt"
+    },
+    {
+     "start": 65.48,
+     "end": 65.78,
+     "word": "ihn"
+    },
+    {
+     "start": 65.78,
+     "end": 66.16,
+     "word": "eine"
+    },
+    {
+     "start": 66.16,
+     "end": 67.08,
+     "word": "Reisegruppe"
+    },
+    {
+     "start": 67.08,
+     "end": 67.26,
+     "word": "mit."
+    },
+    {
+     "start": 67.94,
+     "end": 68.32,
+     "word": "Und"
+    },
+    {
+     "start": 68.32,
+     "end": 68.72,
+     "word": "so"
+    },
+    {
+     "start": 68.72,
+     "end": 69.52,
+     "word": "geschah"
+    },
+    {
+     "start": 69.52,
+     "end": 69.8,
+     "word": "es."
+    }
+   ]
+  },
+  {
+   "start": 69.8,
+   "end": 74.6,
+   "text": "Doch im dunklen Brunnen war Yusuf nicht allein.",
+   "words": [
+    {
+     "start": 69.8,
+     "end": 71.14,
+     "word": "Doch"
+    },
+    {
+     "start": 71.14,
+     "end": 71.62,
+     "word": "im"
+    },
+    {
+     "start": 71.62,
+     "end": 72.24,
+     "word": "dunklen"
+    },
+    {
+     "start": 72.24,
+     "end": 72.86,
+     "word": "Brunnen"
+    },
+    {
+     "start": 72.86,
+     "end": 73.18,
+     "word": "war"
+    },
+    {
+     "start": 73.18,
+     "end": 73.8,
+     "word": "Yusuf"
+    },
+    {
+     "start": 73.8,
+     "end": 74.08,
+     "word": "nicht"
+    },
+    {
+     "start": 74.08,
+     "end": 74.6,
+     "word": "allein."
+    }
+   ]
+  },
+  {
+   "start": 76.06,
+   "end": 83.96,
+   "text": "Allah ließ ihn wissen. Eines Tages wirst du ihnen erzählen, was sie getan haben.",
+   "words": [
+    {
+     "start": 76.06,
+     "end": 76.74,
+     "word": "Allah"
+    },
+    {
+     "start": 76.74,
+     "end": 77.44,
+     "word": "ließ"
+    },
+    {
+     "start": 77.44,
+     "end": 77.58,
+     "word": "ihn"
+    },
+    {
+     "start": 77.58,
+     "end": 77.94,
+     "word": "wissen."
+    },
+    {
+     "start": 79.24,
+     "end": 79.6,
+     "word": "Eines"
+    },
+    {
+     "start": 79.6,
+     "end": 80.08,
+     "word": "Tages"
+    },
+    {
+     "start": 80.08,
+     "end": 80.96,
+     "word": "wirst"
+    },
+    {
+     "start": 80.96,
+     "end": 81.18,
+     "word": "du"
+    },
+    {
+     "start": 81.18,
+     "end": 81.42,
+     "word": "ihnen"
+    },
+    {
+     "start": 81.42,
+     "end": 82.26,
+     "word": "erzählen,"
+    },
+    {
+     "start": 82.76,
+     "end": 82.9,
+     "word": "was"
+    },
+    {
+     "start": 82.9,
+     "end": 83.08,
+     "word": "sie"
+    },
+    {
+     "start": 83.08,
+     "end": 83.48,
+     "word": "getan"
+    },
+    {
+     "start": 83.48,
+     "end": 83.96,
+     "word": "haben."
+    }
+   ]
+  },
+  {
+   "start": 85.48,
+   "end": 97.24,
+   "text": "Bald kam eine Reisegruppe. Einer ließ seinen Eimer in den Brunnen hinab und rief, was für eine gute Nachricht, da ist ein Junge.",
+   "words": [
+    {
+     "start": 85.48,
+     "end": 86.18,
+     "word": "Bald"
+    },
+    {
+     "start": 86.18,
+     "end": 86.5,
+     "word": "kam"
+    },
+    {
+     "start": 86.5,
+     "end": 86.96,
+     "word": "eine"
+    },
+    {
+     "start": 86.96,
+     "end": 87.92,
+     "word": "Reisegruppe."
+    },
+    {
+     "start": 89.12,
+     "end": 89.48,
+     "word": "Einer"
+    },
+    {
+     "start": 89.48,
+     "end": 89.92,
+     "word": "ließ"
+    },
+    {
+     "start": 89.92,
+     "end": 90.16,
+     "word": "seinen"
+    },
+    {
+     "start": 90.16,
+     "end": 90.68,
+     "word": "Eimer"
+    },
+    {
+     "start": 90.68,
+     "end": 90.94,
+     "word": "in"
+    },
+    {
+     "start": 90.94,
+     "end": 91.08,
+     "word": "den"
+    },
+    {
+     "start": 91.08,
+     "end": 91.6,
+     "word": "Brunnen"
+    },
+    {
+     "start": 91.6,
+     "end": 92.04,
+     "word": "hinab"
+    },
+    {
+     "start": 92.04,
+     "end": 92.76,
+     "word": "und"
+    },
+    {
+     "start": 92.76,
+     "end": 93.18,
+     "word": "rief,"
+    },
+    {
+     "start": 94.1,
+     "end": 94.3,
+     "word": "was"
+    },
+    {
+     "start": 94.3,
+     "end": 94.54,
+     "word": "für"
+    },
+    {
+     "start": 94.54,
+     "end": 94.72,
+     "word": "eine"
+    },
+    {
+     "start": 94.72,
+     "end": 95.0,
+     "word": "gute"
+    },
+    {
+     "start": 95.0,
+     "end": 95.72,
+     "word": "Nachricht,"
+    },
+    {
+     "start": 96.34,
+     "end": 96.5,
+     "word": "da"
+    },
+    {
+     "start": 96.5,
+     "end": 96.66,
+     "word": "ist"
+    },
+    {
+     "start": 96.66,
+     "end": 96.88,
+     "word": "ein"
+    },
+    {
+     "start": 96.88,
+     "end": 97.24,
+     "word": "Junge."
+    }
+   ]
+  },
+  {
+   "start": 98.24,
+   "end": 106.12,
+   "text": "Puh, haben sie ihn nach Hause gebracht? Nein mein Schatz. Sie verkauften ihn für ein paar Münzen.",
+   "words": [
+    {
+     "start": 98.12,
+     "end": 98.54,
+     "word": "Puh,"
+    },
+    {
+     "start": 98.8,
+     "end": 99.04,
+     "word": "haben"
+    },
+    {
+     "start": 99.04,
+     "end": 99.24,
+     "word": "sie"
+    },
+    {
+     "start": 99.24,
+     "end": 99.4,
+     "word": "ihn"
+    },
+    {
+     "start": 99.4,
+     "end": 99.66,
+     "word": "nach"
+    },
+    {
+     "start": 99.66,
+     "end": 99.94,
+     "word": "Hause"
+    },
+    {
+     "start": 99.94,
+     "end": 100.34,
+     "word": "gebracht?"
+    },
+    {
+     "start": 101.26,
+     "end": 101.76,
+     "word": "Nein"
+    },
+    {
+     "start": 101.76,
+     "end": 102.02,
+     "word": "mein"
+    },
+    {
+     "start": 102.02,
+     "end": 102.44,
+     "word": "Schatz."
+    },
+    {
+     "start": 103.44,
+     "end": 103.8,
+     "word": "Sie"
+    },
+    {
+     "start": 103.8,
+     "end": 104.6,
+     "word": "verkauften"
+    },
+    {
+     "start": 104.6,
+     "end": 104.9,
+     "word": "ihn"
+    },
+    {
+     "start": 104.9,
+     "end": 105.24,
+     "word": "für"
+    },
+    {
+     "start": 105.24,
+     "end": 105.44,
+     "word": "ein"
+    },
+    {
+     "start": 105.44,
+     "end": 105.64,
+     "word": "paar"
+    },
+    {
+     "start": 105.64,
+     "end": 106.12,
+     "word": "Münzen."
+    }
+   ]
+  },
+  {
+   "start": 107.44,
+   "end": 117.98,
+   "text": "Ein Mann aus Ägypten kaufte ihn und sagte zu seiner Frau, behandle ihn gut. Vielleicht nehmen wir ihn sogar als Sohn an.",
+   "words": [
+    {
+     "start": 107.44,
+     "end": 107.68,
+     "word": "Ein"
+    },
+    {
+     "start": 107.68,
+     "end": 107.94,
+     "word": "Mann"
+    },
+    {
+     "start": 107.94,
+     "end": 108.28,
+     "word": "aus"
+    },
+    {
+     "start": 108.28,
+     "end": 108.92,
+     "word": "Ägypten"
+    },
+    {
+     "start": 108.92,
+     "end": 109.42,
+     "word": "kaufte"
+    },
+    {
+     "start": 109.42,
+     "end": 109.7,
+     "word": "ihn"
+    },
+    {
+     "start": 109.7,
+     "end": 110.52,
+     "word": "und"
+    },
+    {
+     "start": 110.52,
+     "end": 110.98,
+     "word": "sagte"
+    },
+    {
+     "start": 110.98,
+     "end": 111.3,
+     "word": "zu"
+    },
+    {
+     "start": 111.3,
+     "end": 111.52,
+     "word": "seiner"
+    },
+    {
+     "start": 111.52,
+     "end": 112.06,
+     "word": "Frau,"
+    },
+    {
+     "start": 112.98,
+     "end": 113.62,
+     "word": "behandle"
+    },
+    {
+     "start": 113.62,
+     "end": 113.8,
+     "word": "ihn"
+    },
+    {
+     "start": 113.8,
+     "end": 114.18,
+     "word": "gut."
+    },
+    {
+     "start": 114.98,
+     "end": 115.54,
+     "word": "Vielleicht"
+    },
+    {
+     "start": 115.54,
+     "end": 116.0,
+     "word": "nehmen"
+    },
+    {
+     "start": 116.0,
+     "end": 116.28,
+     "word": "wir"
+    },
+    {
+     "start": 116.28,
+     "end": 116.54,
+     "word": "ihn"
+    },
+    {
+     "start": 116.54,
+     "end": 116.9,
+     "word": "sogar"
+    },
+    {
+     "start": 116.9,
+     "end": 117.34,
+     "word": "als"
+    },
+    {
+     "start": 117.34,
+     "end": 117.72,
+     "word": "Sohn"
+    },
+    {
+     "start": 117.72,
+     "end": 117.98,
+     "word": "an."
+    }
+   ]
+  },
+  {
+   "start": 119.28,
+   "end": 125.24,
+   "text": "Und als Yusuf groß wurde, schenkte Allah ihm Weisheit und Wissen.",
+   "words": [
+    {
+     "start": 119.28,
+     "end": 119.7,
+     "word": "Und"
+    },
+    {
+     "start": 119.7,
+     "end": 120.0,
+     "word": "als"
+    },
+    {
+     "start": 120.0,
+     "end": 120.44,
+     "word": "Yusuf"
+    },
+    {
+     "start": 120.44,
+     "end": 120.86,
+     "word": "groß"
+    },
+    {
+     "start": 120.86,
+     "end": 121.42,
+     "word": "wurde,"
+    },
+    {
+     "start": 122.22,
+     "end": 122.56,
+     "word": "schenkte"
+    },
+    {
+     "start": 122.56,
+     "end": 122.96,
+     "word": "Allah"
+    },
+    {
+     "start": 122.96,
+     "end": 123.42,
+     "word": "ihm"
+    },
+    {
+     "start": 123.42,
+     "end": 124.22,
+     "word": "Weisheit"
+    },
+    {
+     "start": 124.22,
+     "end": 124.82,
+     "word": "und"
+    },
+    {
+     "start": 124.82,
+     "end": 125.24,
+     "word": "Wissen."
+    }
+   ]
+  },
+  {
+   "start": 126.58,
+   "end": 138.26,
+   "text": "Yusuf wurde ein schöner, guter junger Mann. Eines Tages wollte die Frau des Hausherrn, dass er etwas tut, was Allah verboten hat.",
+   "words": [
+    {
+     "start": 126.58,
+     "end": 127.34,
+     "word": "Yusuf"
+    },
+    {
+     "start": 127.34,
+     "end": 127.8,
+     "word": "wurde"
+    },
+    {
+     "start": 127.8,
+     "end": 128.12,
+     "word": "ein"
+    },
+    {
+     "start": 128.12,
+     "end": 128.76,
+     "word": "schöner,"
+    },
+    {
+     "start": 128.86,
+     "end": 129.48,
+     "word": "guter"
+    },
+    {
+     "start": 129.48,
+     "end": 129.92,
+     "word": "junger"
+    },
+    {
+     "start": 129.92,
+     "end": 130.12,
+     "word": "Mann."
+    },
+    {
+     "start": 131.56,
+     "end": 131.98,
+     "word": "Eines"
+    },
+    {
+     "start": 131.98,
+     "end": 132.42,
+     "word": "Tages"
+    },
+    {
+     "start": 132.42,
+     "end": 133.06,
+     "word": "wollte"
+    },
+    {
+     "start": 133.06,
+     "end": 133.36,
+     "word": "die"
+    },
+    {
+     "start": 133.36,
+     "end": 133.64,
+     "word": "Frau"
+    },
+    {
+     "start": 133.64,
+     "end": 133.92,
+     "word": "des"
+    },
+    {
+     "start": 133.92,
+     "end": 135.0,
+     "word": "Hausherrn,"
+    },
+    {
+     "start": 135.22,
+     "end": 135.38,
+     "word": "dass"
+    },
+    {
+     "start": 135.38,
+     "end": 135.5,
+     "word": "er"
+    },
+    {
+     "start": 135.5,
+     "end": 135.86,
+     "word": "etwas"
+    },
+    {
+     "start": 135.86,
+     "end": 136.22,
+     "word": "tut,"
+    },
+    {
+     "start": 136.6,
+     "end": 136.76,
+     "word": "was"
+    },
+    {
+     "start": 136.76,
+     "end": 137.1,
+     "word": "Allah"
+    },
+    {
+     "start": 137.1,
+     "end": 137.88,
+     "word": "verboten"
+    },
+    {
+     "start": 137.88,
+     "end": 138.26,
+     "word": "hat."
+    }
+   ]
+  },
+  {
+   "start": 139.54,
+   "end": 150.54,
+   "text": "Doch Yusuf sagte, ich suche Zuflucht bei Allah. Und er lief schnell zur Tür. Dabei riss sie sein Hemd hinten ein.",
+   "words": [
+    {
+     "start": 139.54,
+     "end": 140.04,
+     "word": "Doch"
+    },
+    {
+     "start": 140.04,
+     "end": 140.5,
+     "word": "Yusuf"
+    },
+    {
+     "start": 140.5,
+     "end": 140.86,
+     "word": "sagte,"
+    },
+    {
+     "start": 141.8,
+     "end": 141.96,
+     "word": "ich"
+    },
+    {
+     "start": 141.96,
+     "end": 142.44,
+     "word": "suche"
+    },
+    {
+     "start": 142.44,
+     "end": 143.2,
+     "word": "Zuflucht"
+    },
+    {
+     "start": 143.2,
+     "end": 143.48,
+     "word": "bei"
+    },
+    {
+     "start": 143.48,
+     "end": 143.84,
+     "word": "Allah."
+    },
+    {
+     "start": 144.86,
+     "end": 145.42,
+     "word": "Und"
+    },
+    {
+     "start": 145.42,
+     "end": 145.66,
+     "word": "er"
+    },
+    {
+     "start": 145.66,
+     "end": 145.98,
+     "word": "lief"
+    },
+    {
+     "start": 145.98,
+     "end": 146.36,
+     "word": "schnell"
+    },
+    {
+     "start": 146.36,
+     "end": 146.68,
+     "word": "zur"
+    },
+    {
+     "start": 146.68,
+     "end": 147.0,
+     "word": "Tür."
+    },
+    {
+     "start": 148.0,
+     "end": 148.36,
+     "word": "Dabei"
+    },
+    {
+     "start": 148.36,
+     "end": 148.82,
+     "word": "riss"
+    },
+    {
+     "start": 148.82,
+     "end": 149.06,
+     "word": "sie"
+    },
+    {
+     "start": 149.06,
+     "end": 149.38,
+     "word": "sein"
+    },
+    {
+     "start": 149.38,
+     "end": 149.8,
+     "word": "Hemd"
+    },
+    {
+     "start": 149.8,
+     "end": 150.06,
+     "word": "hinten"
+    },
+    {
+     "start": 150.06,
+     "end": 150.54,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 150.54,
+   "end": 153.82,
+   "text": "Hinten? Warum ist das wichtig?",
+   "words": [
+    {
+     "start": 150.54,
+     "end": 151.98,
+     "word": "Hinten?"
+    },
+    {
+     "start": 152.54,
+     "end": 152.96,
+     "word": "Warum"
+    },
+    {
+     "start": 152.96,
+     "end": 153.22,
+     "word": "ist"
+    },
+    {
+     "start": 153.22,
+     "end": 153.42,
+     "word": "das"
+    },
+    {
+     "start": 153.42,
+     "end": 153.82,
+     "word": "wichtig?"
+    }
+   ]
+  },
+  {
+   "start": 155.08,
+   "end": 165.0,
+   "text": "Gut gefragt. Ein Mann aus ihrer Familie sagte, ist das Hemd hinten zerrissen, dann sagt Yusuf die Wahrheit.",
+   "words": [
+    {
+     "start": 155.08,
+     "end": 155.9,
+     "word": "Gut"
+    },
+    {
+     "start": 155.9,
+     "end": 156.36,
+     "word": "gefragt."
+    },
+    {
+     "start": 157.56,
+     "end": 157.94,
+     "word": "Ein"
+    },
+    {
+     "start": 157.94,
+     "end": 158.2,
+     "word": "Mann"
+    },
+    {
+     "start": 158.2,
+     "end": 158.6,
+     "word": "aus"
+    },
+    {
+     "start": 158.6,
+     "end": 158.84,
+     "word": "ihrer"
+    },
+    {
+     "start": 158.84,
+     "end": 159.44,
+     "word": "Familie"
+    },
+    {
+     "start": 159.44,
+     "end": 159.9,
+     "word": "sagte,"
+    },
+    {
+     "start": 160.92,
+     "end": 161.12,
+     "word": "ist"
+    },
+    {
+     "start": 161.12,
+     "end": 161.34,
+     "word": "das"
+    },
+    {
+     "start": 161.34,
+     "end": 161.66,
+     "word": "Hemd"
+    },
+    {
+     "start": 161.66,
+     "end": 161.9,
+     "word": "hinten"
+    },
+    {
+     "start": 161.9,
+     "end": 162.54,
+     "word": "zerrissen,"
+    },
+    {
+     "start": 163.16,
+     "end": 163.28,
+     "word": "dann"
+    },
+    {
+     "start": 163.28,
+     "end": 163.72,
+     "word": "sagt"
+    },
+    {
+     "start": 163.72,
+     "end": 164.16,
+     "word": "Yusuf"
+    },
+    {
+     "start": 164.16,
+     "end": 164.34,
+     "word": "die"
+    },
+    {
+     "start": 164.34,
+     "end": 165.0,
+     "word": "Wahrheit."
+    }
+   ]
+  },
+  {
+   "start": 165.88,
+   "end": 170.76,
+   "text": "Denn dann ist er weggelaufen. Und genau so war es.",
+   "words": [
+    {
+     "start": 165.88,
+     "end": 166.14,
+     "word": "Denn"
+    },
+    {
+     "start": 166.14,
+     "end": 166.44,
+     "word": "dann"
+    },
+    {
+     "start": 166.44,
+     "end": 166.76,
+     "word": "ist"
+    },
+    {
+     "start": 166.76,
+     "end": 167.02,
+     "word": "er"
+    },
+    {
+     "start": 167.02,
+     "end": 167.82,
+     "word": "weggelaufen."
+    },
+    {
+     "start": 168.76,
+     "end": 169.08,
+     "word": "Und"
+    },
+    {
+     "start": 169.08,
+     "end": 169.62,
+     "word": "genau"
+    },
+    {
+     "start": 169.62,
+     "end": 170.04,
+     "word": "so"
+    },
+    {
+     "start": 170.04,
+     "end": 170.44,
+     "word": "war"
+    },
+    {
+     "start": 170.44,
+     "end": 170.76,
+     "word": "es."
+    }
+   ]
+  },
+  {
+   "start": 172.12,
+   "end": 178.08,
+   "text": "Trotzdem kam Yusuf ins Gefängnis. Aber er hatte zu Allah gebetet.",
+   "words": [
+    {
+     "start": 172.12,
+     "end": 172.94,
+     "word": "Trotzdem"
+    },
+    {
+     "start": 172.94,
+     "end": 173.28,
+     "word": "kam"
+    },
+    {
+     "start": 173.28,
+     "end": 173.84,
+     "word": "Yusuf"
+    },
+    {
+     "start": 173.84,
+     "end": 174.06,
+     "word": "ins"
+    },
+    {
+     "start": 174.06,
+     "end": 174.78,
+     "word": "Gefängnis."
+    },
+    {
+     "start": 175.8,
+     "end": 176.2,
+     "word": "Aber"
+    },
+    {
+     "start": 176.2,
+     "end": 176.52,
+     "word": "er"
+    },
+    {
+     "start": 176.52,
+     "end": 176.74,
+     "word": "hatte"
+    },
+    {
+     "start": 176.74,
+     "end": 177.02,
+     "word": "zu"
+    },
+    {
+     "start": 177.02,
+     "end": 177.26,
+     "word": "Allah"
+    },
+    {
+     "start": 177.26,
+     "end": 178.08,
+     "word": "gebetet."
+    }
+   ]
+  },
+  {
+   "start": 179.08,
+   "end": 185.48,
+   "text": "Mein Herr, das Gefängnis ist mir lieber als das, wozu sie mich auffordern.",
+   "words": [
+    {
+     "start": 178.9,
+     "end": 179.34,
+     "word": "Mein"
+    },
+    {
+     "start": 179.34,
+     "end": 179.78,
+     "word": "Herr,"
+    },
+    {
+     "start": 180.6,
+     "end": 180.82,
+     "word": "das"
+    },
+    {
+     "start": 180.82,
+     "end": 181.58,
+     "word": "Gefängnis"
+    },
+    {
+     "start": 181.58,
+     "end": 182.0,
+     "word": "ist"
+    },
+    {
+     "start": 182.0,
+     "end": 182.22,
+     "word": "mir"
+    },
+    {
+     "start": 182.22,
+     "end": 182.52,
+     "word": "lieber"
+    },
+    {
+     "start": 182.52,
+     "end": 182.86,
+     "word": "als"
+    },
+    {
+     "start": 182.86,
+     "end": 183.16,
+     "word": "das,"
+    },
+    {
+     "start": 183.74,
+     "end": 184.18,
+     "word": "wozu"
+    },
+    {
+     "start": 184.18,
+     "end": 184.34,
+     "word": "sie"
+    },
+    {
+     "start": 184.34,
+     "end": 184.54,
+     "word": "mich"
+    },
+    {
+     "start": 184.54,
+     "end": 185.48,
+     "word": "auffordern."
+    }
+   ]
+  },
+  {
+   "start": 186.76,
+   "end": 196.2,
+   "text": "Im Gefängnis waren zwei junge Männer. Beide hatten einen Traum und fragten Yusuf, was er bedeutet.",
+   "words": [
+    {
+     "start": 186.76,
+     "end": 187.06,
+     "word": "Im"
+    },
+    {
+     "start": 187.06,
+     "end": 187.78,
+     "word": "Gefängnis"
+    },
+    {
+     "start": 187.78,
+     "end": 188.14,
+     "word": "waren"
+    },
+    {
+     "start": 188.14,
+     "end": 188.52,
+     "word": "zwei"
+    },
+    {
+     "start": 188.52,
+     "end": 189.1,
+     "word": "junge"
+    },
+    {
+     "start": 189.1,
+     "end": 189.48,
+     "word": "Männer."
+    },
+    {
+     "start": 190.66,
+     "end": 191.2,
+     "word": "Beide"
+    },
+    {
+     "start": 191.2,
+     "end": 191.62,
+     "word": "hatten"
+    },
+    {
+     "start": 191.62,
+     "end": 191.94,
+     "word": "einen"
+    },
+    {
+     "start": 191.94,
+     "end": 192.66,
+     "word": "Traum"
+    },
+    {
+     "start": 192.66,
+     "end": 193.46,
+     "word": "und"
+    },
+    {
+     "start": 193.46,
+     "end": 194.34,
+     "word": "fragten"
+    },
+    {
+     "start": 194.34,
+     "end": 194.86,
+     "word": "Yusuf,"
+    },
+    {
+     "start": 195.28,
+     "end": 195.4,
+     "word": "was"
+    },
+    {
+     "start": 195.4,
+     "end": 195.66,
+     "word": "er"
+    },
+    {
+     "start": 195.66,
+     "end": 196.2,
+     "word": "bedeutet."
+    }
+   ]
+  },
+  {
+   "start": 197.32,
+   "end": 208.78,
+   "text": "Yusuf sagte zuerst, ich bete nur den einen Allah an, wie meine Väter Ibrahim, Isaac und Jakub.",
+   "words": [
+    {
+     "start": 197.32,
+     "end": 198.24,
+     "word": "Yusuf"
+    },
+    {
+     "start": 198.24,
+     "end": 198.66,
+     "word": "sagte"
+    },
+    {
+     "start": 198.66,
+     "end": 199.34,
+     "word": "zuerst,"
+    },
+    {
+     "start": 200.4,
+     "end": 200.58,
+     "word": "ich"
+    },
+    {
+     "start": 200.58,
+     "end": 201.04,
+     "word": "bete"
+    },
+    {
+     "start": 201.04,
+     "end": 201.36,
+     "word": "nur"
+    },
+    {
+     "start": 201.36,
+     "end": 201.66,
+     "word": "den"
+    },
+    {
+     "start": 201.66,
+     "end": 202.16,
+     "word": "einen"
+    },
+    {
+     "start": 202.16,
+     "end": 202.62,
+     "word": "Allah"
+    },
+    {
+     "start": 202.62,
+     "end": 203.14,
+     "word": "an,"
+    },
+    {
+     "start": 203.96,
+     "end": 204.22,
+     "word": "wie"
+    },
+    {
+     "start": 204.22,
+     "end": 204.54,
+     "word": "meine"
+    },
+    {
+     "start": 204.54,
+     "end": 205.08,
+     "word": "Väter"
+    },
+    {
+     "start": 205.08,
+     "end": 206.02,
+     "word": "Ibrahim,"
+    },
+    {
+     "start": 206.96,
+     "end": 207.36,
+     "word": "Isaac"
+    },
+    {
+     "start": 207.36,
+     "end": 208.16,
+     "word": "und"
+    },
+    {
+     "start": 208.16,
+     "end": 208.78,
+     "word": "Jakub."
+    }
+   ]
+  },
+  {
+   "start": 209.8,
+   "end": 220.56,
+   "text": "Erst dann erklärte er ihre Träume. Dem einen sabte er, du wirst bald frei sein und deinem Herrn wieder zu trinken geben.",
+   "words": [
+    {
+     "start": 209.8,
+     "end": 210.08,
+     "word": "Erst"
+    },
+    {
+     "start": 210.08,
+     "end": 210.48,
+     "word": "dann"
+    },
+    {
+     "start": 210.48,
+     "end": 211.18,
+     "word": "erklärte"
+    },
+    {
+     "start": 211.18,
+     "end": 211.38,
+     "word": "er"
+    },
+    {
+     "start": 211.38,
+     "end": 211.68,
+     "word": "ihre"
+    },
+    {
+     "start": 211.68,
+     "end": 212.24,
+     "word": "Träume."
+    },
+    {
+     "start": 212.96,
+     "end": 213.22,
+     "word": "Dem"
+    },
+    {
+     "start": 213.22,
+     "end": 213.76,
+     "word": "einen"
+    },
+    {
+     "start": 213.76,
+     "end": 214.36,
+     "word": "sabte"
+    },
+    {
+     "start": 214.36,
+     "end": 214.62,
+     "word": "er,"
+    },
+    {
+     "start": 215.66,
+     "end": 215.8,
+     "word": "du"
+    },
+    {
+     "start": 215.8,
+     "end": 216.1,
+     "word": "wirst"
+    },
+    {
+     "start": 216.1,
+     "end": 216.38,
+     "word": "bald"
+    },
+    {
+     "start": 216.38,
+     "end": 216.78,
+     "word": "frei"
+    },
+    {
+     "start": 216.78,
+     "end": 217.12,
+     "word": "sein"
+    },
+    {
+     "start": 217.12,
+     "end": 218.04,
+     "word": "und"
+    },
+    {
+     "start": 218.04,
+     "end": 218.58,
+     "word": "deinem"
+    },
+    {
+     "start": 218.58,
+     "end": 218.9,
+     "word": "Herrn"
+    },
+    {
+     "start": 218.9,
+     "end": 219.3,
+     "word": "wieder"
+    },
+    {
+     "start": 219.3,
+     "end": 219.62,
+     "word": "zu"
+    },
+    {
+     "start": 219.62,
+     "end": 220.12,
+     "word": "trinken"
+    },
+    {
+     "start": 220.12,
+     "end": 220.56,
+     "word": "geben."
+    }
+   ]
+  },
+  {
+   "start": 221.56,
+   "end": 226.72,
+   "text": "Für den anderen hatte der Traum eine traurige Bedeutung.",
+   "words": [
+    {
+     "start": 221.56,
+     "end": 222.36,
+     "word": "Für"
+    },
+    {
+     "start": 222.36,
+     "end": 222.58,
+     "word": "den"
+    },
+    {
+     "start": 222.58,
+     "end": 223.06,
+     "word": "anderen"
+    },
+    {
+     "start": 223.06,
+     "end": 223.98,
+     "word": "hatte"
+    },
+    {
+     "start": 223.98,
+     "end": 224.22,
+     "word": "der"
+    },
+    {
+     "start": 224.22,
+     "end": 224.78,
+     "word": "Traum"
+    },
+    {
+     "start": 224.78,
+     "end": 225.1,
+     "word": "eine"
+    },
+    {
+     "start": 225.1,
+     "end": 225.98,
+     "word": "traurige"
+    },
+    {
+     "start": 225.98,
+     "end": 226.72,
+     "word": "Bedeutung."
+    }
+   ]
+  },
+  {
+   "start": 228.24,
+   "end": 237.24,
+   "text": "Yusuf bat den Ersten, erzählt einem Herrn von mir. Doch der Scheitern ließ ihn das vergessen.",
+   "words": [
+    {
+     "start": 228.24,
+     "end": 228.8,
+     "word": "Yusuf"
+    },
+    {
+     "start": 228.8,
+     "end": 229.06,
+     "word": "bat"
+    },
+    {
+     "start": 229.06,
+     "end": 229.32,
+     "word": "den"
+    },
+    {
+     "start": 229.32,
+     "end": 229.86,
+     "word": "Ersten,"
+    },
+    {
+     "start": 230.82,
+     "end": 231.34,
+     "word": "erzählt"
+    },
+    {
+     "start": 231.34,
+     "end": 231.74,
+     "word": "einem"
+    },
+    {
+     "start": 231.74,
+     "end": 232.12,
+     "word": "Herrn"
+    },
+    {
+     "start": 232.12,
+     "end": 232.46,
+     "word": "von"
+    },
+    {
+     "start": 232.46,
+     "end": 232.76,
+     "word": "mir."
+    },
+    {
+     "start": 234.04,
+     "end": 234.32,
+     "word": "Doch"
+    },
+    {
+     "start": 234.32,
+     "end": 234.56,
+     "word": "der"
+    },
+    {
+     "start": 234.56,
+     "end": 235.18,
+     "word": "Scheitern"
+    },
+    {
+     "start": 235.18,
+     "end": 236.22,
+     "word": "ließ"
+    },
+    {
+     "start": 236.22,
+     "end": 236.4,
+     "word": "ihn"
+    },
+    {
+     "start": 236.4,
+     "end": 236.72,
+     "word": "das"
+    },
+    {
+     "start": 236.72,
+     "end": 237.24,
+     "word": "vergessen."
+    }
+   ]
+  },
+  {
+   "start": 238.56,
+   "end": 247.74,
+   "text": "Und Yusuf blieb noch einige Jahre im Gefängnis. Einige Jahre? Das ist aber lange.",
+   "words": [
+    {
+     "start": 238.56,
+     "end": 239.02,
+     "word": "Und"
+    },
+    {
+     "start": 239.02,
+     "end": 239.64,
+     "word": "Yusuf"
+    },
+    {
+     "start": 239.64,
+     "end": 240.62,
+     "word": "blieb"
+    },
+    {
+     "start": 240.62,
+     "end": 240.82,
+     "word": "noch"
+    },
+    {
+     "start": 240.82,
+     "end": 241.36,
+     "word": "einige"
+    },
+    {
+     "start": 241.36,
+     "end": 241.9,
+     "word": "Jahre"
+    },
+    {
+     "start": 241.9,
+     "end": 242.4,
+     "word": "im"
+    },
+    {
+     "start": 242.4,
+     "end": 243.16,
+     "word": "Gefängnis."
+    },
+    {
+     "start": 244.06,
+     "end": 244.62,
+     "word": "Einige"
+    },
+    {
+     "start": 244.62,
+     "end": 245.22,
+     "word": "Jahre?"
+    },
+    {
+     "start": 246.02,
+     "end": 246.58,
+     "word": "Das"
+    },
+    {
+     "start": 246.58,
+     "end": 246.92,
+     "word": "ist"
+    },
+    {
+     "start": 246.92,
+     "end": 247.26,
+     "word": "aber"
+    },
+    {
+     "start": 247.26,
+     "end": 247.74,
+     "word": "lange."
+    }
+   ]
+  },
+  {
+   "start": 248.74,
+   "end": 261.06,
+   "text": "Dann hatte der König von Ägypten einen seltsamen Traum. Sieben dicke Kühe wurden von sieben mageren Kühen gefressen.",
+   "words": [
+    {
+     "start": 248.74,
+     "end": 249.46,
+     "word": "Dann"
+    },
+    {
+     "start": 249.46,
+     "end": 249.96,
+     "word": "hatte"
+    },
+    {
+     "start": 249.96,
+     "end": 250.3,
+     "word": "der"
+    },
+    {
+     "start": 250.3,
+     "end": 250.8,
+     "word": "König"
+    },
+    {
+     "start": 250.8,
+     "end": 251.0,
+     "word": "von"
+    },
+    {
+     "start": 251.0,
+     "end": 251.8,
+     "word": "Ägypten"
+    },
+    {
+     "start": 251.8,
+     "end": 252.26,
+     "word": "einen"
+    },
+    {
+     "start": 252.26,
+     "end": 253.22,
+     "word": "seltsamen"
+    },
+    {
+     "start": 253.22,
+     "end": 253.98,
+     "word": "Traum."
+    },
+    {
+     "start": 254.94,
+     "end": 255.7,
+     "word": "Sieben"
+    },
+    {
+     "start": 255.7,
+     "end": 256.2,
+     "word": "dicke"
+    },
+    {
+     "start": 256.2,
+     "end": 256.94,
+     "word": "Kühe"
+    },
+    {
+     "start": 256.94,
+     "end": 257.82,
+     "word": "wurden"
+    },
+    {
+     "start": 257.82,
+     "end": 258.14,
+     "word": "von"
+    },
+    {
+     "start": 258.14,
+     "end": 258.76,
+     "word": "sieben"
+    },
+    {
+     "start": 258.76,
+     "end": 259.56,
+     "word": "mageren"
+    },
+    {
+     "start": 259.56,
+     "end": 260.14,
+     "word": "Kühen"
+    },
+    {
+     "start": 260.14,
+     "end": 261.06,
+     "word": "gefressen."
+    }
+   ]
+  },
+  {
+   "start": 261.86,
+   "end": 271.74,
+   "text": "Und er sah sieben grüne Ehren und andere, die ganz trocken waren. Niemand konnte den Traum deuten.",
+   "words": [
+    {
+     "start": 261.86,
+     "end": 262.46,
+     "word": "Und"
+    },
+    {
+     "start": 262.46,
+     "end": 262.66,
+     "word": "er"
+    },
+    {
+     "start": 262.66,
+     "end": 262.86,
+     "word": "sah"
+    },
+    {
+     "start": 262.86,
+     "end": 263.44,
+     "word": "sieben"
+    },
+    {
+     "start": 263.44,
+     "end": 263.96,
+     "word": "grüne"
+    },
+    {
+     "start": 263.96,
+     "end": 264.64,
+     "word": "Ehren"
+    },
+    {
+     "start": 264.64,
+     "end": 265.58,
+     "word": "und"
+    },
+    {
+     "start": 265.58,
+     "end": 266.08,
+     "word": "andere,"
+    },
+    {
+     "start": 266.34,
+     "end": 266.42,
+     "word": "die"
+    },
+    {
+     "start": 266.42,
+     "end": 266.82,
+     "word": "ganz"
+    },
+    {
+     "start": 266.82,
+     "end": 267.3,
+     "word": "trocken"
+    },
+    {
+     "start": 267.3,
+     "end": 267.76,
+     "word": "waren."
+    },
+    {
+     "start": 269.2,
+     "end": 269.84,
+     "word": "Niemand"
+    },
+    {
+     "start": 269.84,
+     "end": 270.36,
+     "word": "konnte"
+    },
+    {
+     "start": 270.36,
+     "end": 270.68,
+     "word": "den"
+    },
+    {
+     "start": 270.68,
+     "end": 271.2,
+     "word": "Traum"
+    },
+    {
+     "start": 271.2,
+     "end": 271.74,
+     "word": "deuten."
+    }
+   ]
+  },
+  {
+   "start": 272.74,
+   "end": 285.38,
+   "text": "Da erinnerte sich der Mann aus dem Gefängnis endlich an Yusuf. Yusuf erklärte, sieben Jahre lang wird es viel Getreide geben.",
+   "words": [
+    {
+     "start": 272.74,
+     "end": 273.6,
+     "word": "Da"
+    },
+    {
+     "start": 273.6,
+     "end": 274.28,
+     "word": "erinnerte"
+    },
+    {
+     "start": 274.28,
+     "end": 274.54,
+     "word": "sich"
+    },
+    {
+     "start": 274.54,
+     "end": 274.78,
+     "word": "der"
+    },
+    {
+     "start": 274.78,
+     "end": 275.02,
+     "word": "Mann"
+    },
+    {
+     "start": 275.02,
+     "end": 275.34,
+     "word": "aus"
+    },
+    {
+     "start": 275.34,
+     "end": 275.52,
+     "word": "dem"
+    },
+    {
+     "start": 275.52,
+     "end": 276.24,
+     "word": "Gefängnis"
+    },
+    {
+     "start": 276.24,
+     "end": 277.28,
+     "word": "endlich"
+    },
+    {
+     "start": 277.28,
+     "end": 277.94,
+     "word": "an"
+    },
+    {
+     "start": 277.94,
+     "end": 278.64,
+     "word": "Yusuf."
+    },
+    {
+     "start": 279.18,
+     "end": 279.9,
+     "word": "Yusuf"
+    },
+    {
+     "start": 279.9,
+     "end": 280.62,
+     "word": "erklärte,"
+    },
+    {
+     "start": 281.6,
+     "end": 282.2,
+     "word": "sieben"
+    },
+    {
+     "start": 282.2,
+     "end": 282.58,
+     "word": "Jahre"
+    },
+    {
+     "start": 282.58,
+     "end": 283.06,
+     "word": "lang"
+    },
+    {
+     "start": 283.06,
+     "end": 283.38,
+     "word": "wird"
+    },
+    {
+     "start": 283.38,
+     "end": 283.66,
+     "word": "es"
+    },
+    {
+     "start": 283.66,
+     "end": 284.1,
+     "word": "viel"
+    },
+    {
+     "start": 284.1,
+     "end": 284.9,
+     "word": "Getreide"
+    },
+    {
+     "start": 284.9,
+     "end": 285.38,
+     "word": "geben."
+    }
+   ]
+  },
+  {
+   "start": 286.36,
+   "end": 294.66,
+   "text": "Bewart es gut auf. Danach kommen sieben schwere Jahre, in denen ihr davon essen könnt.",
+   "words": [
+    {
+     "start": 286.36,
+     "end": 286.84,
+     "word": "Bewart"
+    },
+    {
+     "start": 286.84,
+     "end": 287.1,
+     "word": "es"
+    },
+    {
+     "start": 287.1,
+     "end": 287.38,
+     "word": "gut"
+    },
+    {
+     "start": 287.38,
+     "end": 287.8,
+     "word": "auf."
+    },
+    {
+     "start": 289.22,
+     "end": 289.9,
+     "word": "Danach"
+    },
+    {
+     "start": 289.9,
+     "end": 290.26,
+     "word": "kommen"
+    },
+    {
+     "start": 290.26,
+     "end": 290.88,
+     "word": "sieben"
+    },
+    {
+     "start": 290.88,
+     "end": 291.46,
+     "word": "schwere"
+    },
+    {
+     "start": 291.46,
+     "end": 291.92,
+     "word": "Jahre,"
+    },
+    {
+     "start": 292.48,
+     "end": 292.8,
+     "word": "in"
+    },
+    {
+     "start": 292.8,
+     "end": 293.04,
+     "word": "denen"
+    },
+    {
+     "start": 293.04,
+     "end": 293.4,
+     "word": "ihr"
+    },
+    {
+     "start": 293.4,
+     "end": 293.8,
+     "word": "davon"
+    },
+    {
+     "start": 293.8,
+     "end": 294.18,
+     "word": "essen"
+    },
+    {
+     "start": 294.18,
+     "end": 294.66,
+     "word": "könnt."
+    }
+   ]
+  },
+  {
+   "start": 295.66,
+   "end": 302.68,
+   "text": "Und danach kommt wieder ein gutes Jahr. Der König rief, bringt Yusuf zu mir.",
+   "words": [
+    {
+     "start": 295.66,
+     "end": 296.08,
+     "word": "Und"
+    },
+    {
+     "start": 296.08,
+     "end": 296.68,
+     "word": "danach"
+    },
+    {
+     "start": 296.68,
+     "end": 297.18,
+     "word": "kommt"
+    },
+    {
+     "start": 297.18,
+     "end": 297.54,
+     "word": "wieder"
+    },
+    {
+     "start": 297.54,
+     "end": 297.88,
+     "word": "ein"
+    },
+    {
+     "start": 297.88,
+     "end": 298.28,
+     "word": "gutes"
+    },
+    {
+     "start": 298.28,
+     "end": 298.72,
+     "word": "Jahr."
+    },
+    {
+     "start": 299.56,
+     "end": 299.74,
+     "word": "Der"
+    },
+    {
+     "start": 299.74,
+     "end": 300.2,
+     "word": "König"
+    },
+    {
+     "start": 300.2,
+     "end": 300.52,
+     "word": "rief,"
+    },
+    {
+     "start": 301.22,
+     "end": 301.46,
+     "word": "bringt"
+    },
+    {
+     "start": 301.46,
+     "end": 302.18,
+     "word": "Yusuf"
+    },
+    {
+     "start": 302.18,
+     "end": 302.42,
+     "word": "zu"
+    },
+    {
+     "start": 302.42,
+     "end": 302.68,
+     "word": "mir."
+    }
+   ]
+  },
+  {
+   "start": 304.22,
+   "end": 309.7,
+   "text": "Aber Yusuf sagte, erst soll geklärt werden, dass ich unschuldig bin.",
+   "words": [
+    {
+     "start": 304.22,
+     "end": 304.58,
+     "word": "Aber"
+    },
+    {
+     "start": 304.58,
+     "end": 305.18,
+     "word": "Yusuf"
+    },
+    {
+     "start": 305.18,
+     "end": 305.54,
+     "word": "sagte,"
+    },
+    {
+     "start": 306.52,
+     "end": 306.9,
+     "word": "erst"
+    },
+    {
+     "start": 306.9,
+     "end": 307.26,
+     "word": "soll"
+    },
+    {
+     "start": 307.26,
+     "end": 307.8,
+     "word": "geklärt"
+    },
+    {
+     "start": 307.8,
+     "end": 308.22,
+     "word": "werden,"
+    },
+    {
+     "start": 308.4,
+     "end": 308.5,
+     "word": "dass"
+    },
+    {
+     "start": 308.5,
+     "end": 308.7,
+     "word": "ich"
+    },
+    {
+     "start": 308.7,
+     "end": 309.48,
+     "word": "unschuldig"
+    },
+    {
+     "start": 309.48,
+     "end": 309.7,
+     "word": "bin."
+    }
+   ]
+  },
+  {
+   "start": 310.92,
+   "end": 318.34,
+   "text": "Und wirklich? Die Frau des Hausherrn gab zu, dass Yusuf die Wahrheit gesagt hatte.",
+   "words": [
+    {
+     "start": 310.92,
+     "end": 311.5,
+     "word": "Und"
+    },
+    {
+     "start": 311.5,
+     "end": 311.96,
+     "word": "wirklich?"
+    },
+    {
+     "start": 313.1,
+     "end": 313.24,
+     "word": "Die"
+    },
+    {
+     "start": 313.24,
+     "end": 313.64,
+     "word": "Frau"
+    },
+    {
+     "start": 313.64,
+     "end": 313.96,
+     "word": "des"
+    },
+    {
+     "start": 313.96,
+     "end": 314.78,
+     "word": "Hausherrn"
+    },
+    {
+     "start": 314.78,
+     "end": 314.92,
+     "word": "gab"
+    },
+    {
+     "start": 314.92,
+     "end": 315.32,
+     "word": "zu,"
+    },
+    {
+     "start": 316.02,
+     "end": 316.14,
+     "word": "dass"
+    },
+    {
+     "start": 316.14,
+     "end": 316.72,
+     "word": "Yusuf"
+    },
+    {
+     "start": 316.72,
+     "end": 316.96,
+     "word": "die"
+    },
+    {
+     "start": 316.96,
+     "end": 317.46,
+     "word": "Wahrheit"
+    },
+    {
+     "start": 317.46,
+     "end": 317.84,
+     "word": "gesagt"
+    },
+    {
+     "start": 317.84,
+     "end": 318.34,
+     "word": "hatte."
+    }
+   ]
+  },
+  {
+   "start": 319.62,
+   "end": 328.54,
+   "text": "Yusuf sagte, setze mich über die Vorräte des Landes. Ich passe gut darauf auf und weiß Bescheid.",
+   "words": [
+    {
+     "start": 319.62,
+     "end": 320.5,
+     "word": "Yusuf"
+    },
+    {
+     "start": 320.5,
+     "end": 320.92,
+     "word": "sagte,"
+    },
+    {
+     "start": 321.92,
+     "end": 322.3,
+     "word": "setze"
+    },
+    {
+     "start": 322.3,
+     "end": 322.5,
+     "word": "mich"
+    },
+    {
+     "start": 322.5,
+     "end": 322.86,
+     "word": "über"
+    },
+    {
+     "start": 322.86,
+     "end": 323.04,
+     "word": "die"
+    },
+    {
+     "start": 323.04,
+     "end": 323.78,
+     "word": "Vorräte"
+    },
+    {
+     "start": 323.78,
+     "end": 324.0,
+     "word": "des"
+    },
+    {
+     "start": 324.0,
+     "end": 324.44,
+     "word": "Landes."
+    },
+    {
+     "start": 325.42,
+     "end": 325.58,
+     "word": "Ich"
+    },
+    {
+     "start": 325.58,
+     "end": 325.84,
+     "word": "passe"
+    },
+    {
+     "start": 325.84,
+     "end": 326.28,
+     "word": "gut"
+    },
+    {
+     "start": 326.28,
+     "end": 326.6,
+     "word": "darauf"
+    },
+    {
+     "start": 326.6,
+     "end": 327.2,
+     "word": "auf"
+    },
+    {
+     "start": 327.2,
+     "end": 327.54,
+     "word": "und"
+    },
+    {
+     "start": 327.54,
+     "end": 327.82,
+     "word": "weiß"
+    },
+    {
+     "start": 327.82,
+     "end": 328.54,
+     "word": "Bescheid."
+    }
+   ]
+  },
+  {
+   "start": 329.86,
+   "end": 335.1,
+   "text": "Und so wurde Yusuf der Verwalter aller Vorräte in Ägypten.",
+   "words": [
+    {
+     "start": 329.86,
+     "end": 330.34,
+     "word": "Und"
+    },
+    {
+     "start": 330.34,
+     "end": 330.66,
+     "word": "so"
+    },
+    {
+     "start": 330.66,
+     "end": 331.0,
+     "word": "wurde"
+    },
+    {
+     "start": 331.0,
+     "end": 331.64,
+     "word": "Yusuf"
+    },
+    {
+     "start": 331.64,
+     "end": 331.88,
+     "word": "der"
+    },
+    {
+     "start": 331.88,
+     "end": 332.58,
+     "word": "Verwalter"
+    },
+    {
+     "start": 332.58,
+     "end": 333.04,
+     "word": "aller"
+    },
+    {
+     "start": 333.04,
+     "end": 334.0,
+     "word": "Vorräte"
+    },
+    {
+     "start": 334.0,
+     "end": 334.4,
+     "word": "in"
+    },
+    {
+     "start": 334.4,
+     "end": 335.1,
+     "word": "Ägypten."
+    }
+   ]
+  },
+  {
+   "start": 336.12,
+   "end": 341.02,
+   "text": "Dann kamen die schweren Jahre, auch im Land von Jakub.",
+   "words": [
+    {
+     "start": 336.12,
+     "end": 336.72,
+     "word": "Dann"
+    },
+    {
+     "start": 336.72,
+     "end": 337.4,
+     "word": "kamen"
+    },
+    {
+     "start": 337.4,
+     "end": 337.52,
+     "word": "die"
+    },
+    {
+     "start": 337.52,
+     "end": 338.2,
+     "word": "schweren"
+    },
+    {
+     "start": 338.2,
+     "end": 338.6,
+     "word": "Jahre,"
+    },
+    {
+     "start": 339.34,
+     "end": 339.64,
+     "word": "auch"
+    },
+    {
+     "start": 339.64,
+     "end": 339.96,
+     "word": "im"
+    },
+    {
+     "start": 339.96,
+     "end": 340.22,
+     "word": "Land"
+    },
+    {
+     "start": 340.22,
+     "end": 340.52,
+     "word": "von"
+    },
+    {
+     "start": 340.52,
+     "end": 341.02,
+     "word": "Jakub."
+    }
+   ]
+  },
+  {
+   "start": 342.56,
+   "end": 351.26,
+   "text": "Yusufs Brüder reisten nach Ägypten, um Getreide zu holen. Yusuf erkannte sie sofort.",
+   "words": [
+    {
+     "start": 342.56,
+     "end": 343.5,
+     "word": "Yusufs"
+    },
+    {
+     "start": 343.5,
+     "end": 343.9,
+     "word": "Brüder"
+    },
+    {
+     "start": 343.9,
+     "end": 344.56,
+     "word": "reisten"
+    },
+    {
+     "start": 344.56,
+     "end": 344.84,
+     "word": "nach"
+    },
+    {
+     "start": 344.84,
+     "end": 345.62,
+     "word": "Ägypten,"
+    },
+    {
+     "start": 346.02,
+     "end": 346.26,
+     "word": "um"
+    },
+    {
+     "start": 346.26,
+     "end": 346.86,
+     "word": "Getreide"
+    },
+    {
+     "start": 346.86,
+     "end": 347.16,
+     "word": "zu"
+    },
+    {
+     "start": 347.16,
+     "end": 347.66,
+     "word": "holen."
+    },
+    {
+     "start": 348.8,
+     "end": 349.74,
+     "word": "Yusuf"
+    },
+    {
+     "start": 349.74,
+     "end": 350.58,
+     "word": "erkannte"
+    },
+    {
+     "start": 350.58,
+     "end": 350.76,
+     "word": "sie"
+    },
+    {
+     "start": 350.76,
+     "end": 351.26,
+     "word": "sofort."
+    }
+   ]
+  },
+  {
+   "start": 352.6,
+   "end": 358.54,
+   "text": "Aber sie erkannten ihn nicht. Sie wussten gar nicht, dass das Yusuf ist.",
+   "words": [
+    {
+     "start": 352.6,
+     "end": 352.96,
+     "word": "Aber"
+    },
+    {
+     "start": 352.96,
+     "end": 353.18,
+     "word": "sie"
+    },
+    {
+     "start": 353.18,
+     "end": 353.72,
+     "word": "erkannten"
+    },
+    {
+     "start": 353.72,
+     "end": 354.04,
+     "word": "ihn"
+    },
+    {
+     "start": 354.04,
+     "end": 354.48,
+     "word": "nicht."
+    },
+    {
+     "start": 355.3,
+     "end": 355.58,
+     "word": "Sie"
+    },
+    {
+     "start": 355.58,
+     "end": 356.28,
+     "word": "wussten"
+    },
+    {
+     "start": 356.28,
+     "end": 356.6,
+     "word": "gar"
+    },
+    {
+     "start": 356.6,
+     "end": 356.94,
+     "word": "nicht,"
+    },
+    {
+     "start": 357.26,
+     "end": 357.36,
+     "word": "dass"
+    },
+    {
+     "start": 357.36,
+     "end": 357.56,
+     "word": "das"
+    },
+    {
+     "start": 357.56,
+     "end": 358.16,
+     "word": "Yusuf"
+    },
+    {
+     "start": 358.16,
+     "end": 358.54,
+     "word": "ist."
+    }
+   ]
+  },
+  {
+   "start": 359.38,
+   "end": 367.08,
+   "text": "Mit einem klugen Plan, den Allah ihm eingab, behielt Yusuf später seinen Bruder bei sich.",
+   "words": [
+    {
+     "start": 359.38,
+     "end": 359.64,
+     "word": "Mit"
+    },
+    {
+     "start": 359.64,
+     "end": 360.02,
+     "word": "einem"
+    },
+    {
+     "start": 360.02,
+     "end": 360.56,
+     "word": "klugen"
+    },
+    {
+     "start": 360.56,
+     "end": 361.06,
+     "word": "Plan,"
+    },
+    {
+     "start": 361.34,
+     "end": 361.58,
+     "word": "den"
+    },
+    {
+     "start": 361.58,
+     "end": 362.08,
+     "word": "Allah"
+    },
+    {
+     "start": 362.08,
+     "end": 362.46,
+     "word": "ihm"
+    },
+    {
+     "start": 362.46,
+     "end": 363.18,
+     "word": "eingab,"
+    },
+    {
+     "start": 364.08,
+     "end": 364.42,
+     "word": "behielt"
+    },
+    {
+     "start": 364.42,
+     "end": 364.96,
+     "word": "Yusuf"
+    },
+    {
+     "start": 364.96,
+     "end": 365.5,
+     "word": "später"
+    },
+    {
+     "start": 365.5,
+     "end": 366.0,
+     "word": "seinen"
+    },
+    {
+     "start": 366.0,
+     "end": 366.52,
+     "word": "Bruder"
+    },
+    {
+     "start": 366.52,
+     "end": 366.8,
+     "word": "bei"
+    },
+    {
+     "start": 366.8,
+     "end": 367.08,
+     "word": "sich."
+    }
+   ]
+  },
+  {
+   "start": 368.02,
+   "end": 378.78,
+   "text": "Und als die anderen wieder kamen, sagte er, ich bin Yusuf und das ist mein Bruder. Allah war gut zu uns.",
+   "words": [
+    {
+     "start": 368.02,
+     "end": 368.82,
+     "word": "Und"
+    },
+    {
+     "start": 368.82,
+     "end": 369.2,
+     "word": "als"
+    },
+    {
+     "start": 369.2,
+     "end": 369.46,
+     "word": "die"
+    },
+    {
+     "start": 369.46,
+     "end": 369.84,
+     "word": "anderen"
+    },
+    {
+     "start": 369.84,
+     "end": 370.24,
+     "word": "wieder"
+    },
+    {
+     "start": 370.24,
+     "end": 371.02,
+     "word": "kamen,"
+    },
+    {
+     "start": 371.34,
+     "end": 371.68,
+     "word": "sagte"
+    },
+    {
+     "start": 371.68,
+     "end": 372.12,
+     "word": "er,"
+    },
+    {
+     "start": 373.24,
+     "end": 373.44,
+     "word": "ich"
+    },
+    {
+     "start": 373.44,
+     "end": 373.66,
+     "word": "bin"
+    },
+    {
+     "start": 373.66,
+     "end": 374.3,
+     "word": "Yusuf"
+    },
+    {
+     "start": 374.3,
+     "end": 374.84,
+     "word": "und"
+    },
+    {
+     "start": 374.84,
+     "end": 375.26,
+     "word": "das"
+    },
+    {
+     "start": 375.26,
+     "end": 375.5,
+     "word": "ist"
+    },
+    {
+     "start": 375.5,
+     "end": 375.72,
+     "word": "mein"
+    },
+    {
+     "start": 375.72,
+     "end": 376.18,
+     "word": "Bruder."
+    },
+    {
+     "start": 377.16,
+     "end": 377.6,
+     "word": "Allah"
+    },
+    {
+     "start": 377.6,
+     "end": 377.94,
+     "word": "war"
+    },
+    {
+     "start": 377.94,
+     "end": 378.24,
+     "word": "gut"
+    },
+    {
+     "start": 378.24,
+     "end": 378.52,
+     "word": "zu"
+    },
+    {
+     "start": 378.52,
+     "end": 378.78,
+     "word": "uns."
+    }
+   ]
+  },
+  {
+   "start": 379.7,
+   "end": 385.18,
+   "text": "Die Brüder schämten sich sehr und sagten, wir haben unrecht getan.",
+   "words": [
+    {
+     "start": 379.7,
+     "end": 379.86,
+     "word": "Die"
+    },
+    {
+     "start": 379.86,
+     "end": 380.3,
+     "word": "Brüder"
+    },
+    {
+     "start": 380.3,
+     "end": 380.92,
+     "word": "schämten"
+    },
+    {
+     "start": 380.92,
+     "end": 381.2,
+     "word": "sich"
+    },
+    {
+     "start": 381.2,
+     "end": 381.56,
+     "word": "sehr"
+    },
+    {
+     "start": 381.56,
+     "end": 381.98,
+     "word": "und"
+    },
+    {
+     "start": 381.98,
+     "end": 382.58,
+     "word": "sagten,"
+    },
+    {
+     "start": 383.64,
+     "end": 383.9,
+     "word": "wir"
+    },
+    {
+     "start": 383.9,
+     "end": 384.18,
+     "word": "haben"
+    },
+    {
+     "start": 384.18,
+     "end": 384.78,
+     "word": "unrecht"
+    },
+    {
+     "start": 384.78,
+     "end": 385.18,
+     "word": "getan."
+    }
+   ]
+  },
+  {
+   "start": 386.42,
+   "end": 395.64,
+   "text": "Und Yusuf? Er sagte, heute gibt es keinen Vorwurf gegen euch. Allah vergibt euch.",
+   "words": [
+    {
+     "start": 386.42,
+     "end": 387.18,
+     "word": "Und"
+    },
+    {
+     "start": 387.18,
+     "end": 387.78,
+     "word": "Yusuf?"
+    },
+    {
+     "start": 388.86,
+     "end": 389.18,
+     "word": "Er"
+    },
+    {
+     "start": 389.18,
+     "end": 389.54,
+     "word": "sagte,"
+    },
+    {
+     "start": 390.66,
+     "end": 390.96,
+     "word": "heute"
+    },
+    {
+     "start": 390.96,
+     "end": 391.24,
+     "word": "gibt"
+    },
+    {
+     "start": 391.24,
+     "end": 391.46,
+     "word": "es"
+    },
+    {
+     "start": 391.46,
+     "end": 391.78,
+     "word": "keinen"
+    },
+    {
+     "start": 391.78,
+     "end": 392.64,
+     "word": "Vorwurf"
+    },
+    {
+     "start": 392.64,
+     "end": 392.9,
+     "word": "gegen"
+    },
+    {
+     "start": 392.9,
+     "end": 393.28,
+     "word": "euch."
+    },
+    {
+     "start": 394.26,
+     "end": 394.66,
+     "word": "Allah"
+    },
+    {
+     "start": 394.66,
+     "end": 395.26,
+     "word": "vergibt"
+    },
+    {
+     "start": 395.26,
+     "end": 395.64,
+     "word": "euch."
+    }
+   ]
+  },
+  {
+   "start": 396.8,
+   "end": 405.48,
+   "text": "Er ist der Barmherzigste der Barmherzigen. Er hat ihn einfach verziehen, nach allem, was sie getan haben?",
+   "words": [
+    {
+     "start": 396.8,
+     "end": 397.0,
+     "word": "Er"
+    },
+    {
+     "start": 397.0,
+     "end": 397.24,
+     "word": "ist"
+    },
+    {
+     "start": 397.24,
+     "end": 397.42,
+     "word": "der"
+    },
+    {
+     "start": 397.42,
+     "end": 398.58,
+     "word": "Barmherzigste"
+    },
+    {
+     "start": 398.58,
+     "end": 398.86,
+     "word": "der"
+    },
+    {
+     "start": 398.86,
+     "end": 399.74,
+     "word": "Barmherzigen."
+    },
+    {
+     "start": 400.56,
+     "end": 400.78,
+     "word": "Er"
+    },
+    {
+     "start": 400.78,
+     "end": 401.0,
+     "word": "hat"
+    },
+    {
+     "start": 401.0,
+     "end": 401.2,
+     "word": "ihn"
+    },
+    {
+     "start": 401.2,
+     "end": 401.8,
+     "word": "einfach"
+    },
+    {
+     "start": 401.8,
+     "end": 402.5,
+     "word": "verziehen,"
+    },
+    {
+     "start": 403.38,
+     "end": 403.56,
+     "word": "nach"
+    },
+    {
+     "start": 403.56,
+     "end": 404.06,
+     "word": "allem,"
+    },
+    {
+     "start": 404.18,
+     "end": 404.32,
+     "word": "was"
+    },
+    {
+     "start": 404.32,
+     "end": 404.5,
+     "word": "sie"
+    },
+    {
+     "start": 404.5,
+     "end": 404.94,
+     "word": "getan"
+    },
+    {
+     "start": 404.94,
+     "end": 405.48,
+     "word": "haben?"
+    }
+   ]
+  },
+  {
+   "start": 405.48,
+   "end": 415.3,
+   "text": "Ja mein Schatz, Verzeihen ist manchmal schwerer als alles andere. Und genau das hat Yusuf getan.",
+   "words": [
+    {
+     "start": 405.48,
+     "end": 406.6,
+     "word": "Ja"
+    },
+    {
+     "start": 406.6,
+     "end": 406.88,
+     "word": "mein"
+    },
+    {
+     "start": 406.88,
+     "end": 407.34,
+     "word": "Schatz,"
+    },
+    {
+     "start": 408.26,
+     "end": 409.02,
+     "word": "Verzeihen"
+    },
+    {
+     "start": 409.02,
+     "end": 409.28,
+     "word": "ist"
+    },
+    {
+     "start": 409.28,
+     "end": 409.74,
+     "word": "manchmal"
+    },
+    {
+     "start": 409.74,
+     "end": 410.54,
+     "word": "schwerer"
+    },
+    {
+     "start": 410.54,
+     "end": 410.76,
+     "word": "als"
+    },
+    {
+     "start": 410.76,
+     "end": 411.22,
+     "word": "alles"
+    },
+    {
+     "start": 411.22,
+     "end": 411.84,
+     "word": "andere."
+    },
+    {
+     "start": 412.92,
+     "end": 413.3,
+     "word": "Und"
+    },
+    {
+     "start": 413.3,
+     "end": 413.66,
+     "word": "genau"
+    },
+    {
+     "start": 413.66,
+     "end": 413.96,
+     "word": "das"
+    },
+    {
+     "start": 413.96,
+     "end": 414.32,
+     "word": "hat"
+    },
+    {
+     "start": 414.32,
+     "end": 414.84,
+     "word": "Yusuf"
+    },
+    {
+     "start": 414.84,
+     "end": 415.3,
+     "word": "getan."
+    }
+   ]
+  },
+  {
+   "start": 416.44,
+   "end": 425.46,
+   "text": "Yusuf gab ihnen sein Hemd und sagte, legt es auf das Gesicht meines Vaters, dann wird er wieder sehen.",
+   "words": [
+    {
+     "start": 416.44,
+     "end": 417.32,
+     "word": "Yusuf"
+    },
+    {
+     "start": 417.32,
+     "end": 417.58,
+     "word": "gab"
+    },
+    {
+     "start": 417.58,
+     "end": 417.9,
+     "word": "ihnen"
+    },
+    {
+     "start": 417.9,
+     "end": 418.2,
+     "word": "sein"
+    },
+    {
+     "start": 418.2,
+     "end": 418.8,
+     "word": "Hemd"
+    },
+    {
+     "start": 418.8,
+     "end": 419.1,
+     "word": "und"
+    },
+    {
+     "start": 419.1,
+     "end": 419.48,
+     "word": "sagte,"
+    },
+    {
+     "start": 420.68,
+     "end": 421.26,
+     "word": "legt"
+    },
+    {
+     "start": 421.26,
+     "end": 421.4,
+     "word": "es"
+    },
+    {
+     "start": 421.4,
+     "end": 421.6,
+     "word": "auf"
+    },
+    {
+     "start": 421.6,
+     "end": 421.82,
+     "word": "das"
+    },
+    {
+     "start": 421.82,
+     "end": 422.28,
+     "word": "Gesicht"
+    },
+    {
+     "start": 422.28,
+     "end": 422.72,
+     "word": "meines"
+    },
+    {
+     "start": 422.72,
+     "end": 423.22,
+     "word": "Vaters,"
+    },
+    {
+     "start": 424.08,
+     "end": 424.28,
+     "word": "dann"
+    },
+    {
+     "start": 424.28,
+     "end": 424.58,
+     "word": "wird"
+    },
+    {
+     "start": 424.58,
+     "end": 424.8,
+     "word": "er"
+    },
+    {
+     "start": 424.8,
+     "end": 425.04,
+     "word": "wieder"
+    },
+    {
+     "start": 425.04,
+     "end": 425.46,
+     "word": "sehen."
+    }
+   ]
+  },
+  {
+   "start": 426.46,
+   "end": 436.3,
+   "text": "Als die Karawane aus Ägypten aufbrach, sagte Jakub weit weg, ich rieche den Duft von Yusuf.",
+   "words": [
+    {
+     "start": 426.46,
+     "end": 427.08,
+     "word": "Als"
+    },
+    {
+     "start": 427.08,
+     "end": 427.34,
+     "word": "die"
+    },
+    {
+     "start": 427.34,
+     "end": 428.06,
+     "word": "Karawane"
+    },
+    {
+     "start": 428.06,
+     "end": 428.4,
+     "word": "aus"
+    },
+    {
+     "start": 428.4,
+     "end": 429.06,
+     "word": "Ägypten"
+    },
+    {
+     "start": 429.06,
+     "end": 429.78,
+     "word": "aufbrach,"
+    },
+    {
+     "start": 430.38,
+     "end": 430.82,
+     "word": "sagte"
+    },
+    {
+     "start": 430.82,
+     "end": 431.44,
+     "word": "Jakub"
+    },
+    {
+     "start": 431.44,
+     "end": 431.98,
+     "word": "weit"
+    },
+    {
+     "start": 431.98,
+     "end": 432.36,
+     "word": "weg,"
+    },
+    {
+     "start": 433.6,
+     "end": 433.92,
+     "word": "ich"
+    },
+    {
+     "start": 433.92,
+     "end": 434.54,
+     "word": "rieche"
+    },
+    {
+     "start": 434.54,
+     "end": 434.82,
+     "word": "den"
+    },
+    {
+     "start": 434.82,
+     "end": 435.4,
+     "word": "Duft"
+    },
+    {
+     "start": 435.4,
+     "end": 435.72,
+     "word": "von"
+    },
+    {
+     "start": 435.72,
+     "end": 436.3,
+     "word": "Yusuf."
+    }
+   ]
+  },
+  {
+   "start": 437.36,
+   "end": 443.04,
+   "text": "Sie legten das Hemd auf sein Gesicht und Jakub konnte wieder sehen.",
+   "words": [
+    {
+     "start": 437.36,
+     "end": 437.78,
+     "word": "Sie"
+    },
+    {
+     "start": 437.78,
+     "end": 438.32,
+     "word": "legten"
+    },
+    {
+     "start": 438.32,
+     "end": 438.56,
+     "word": "das"
+    },
+    {
+     "start": 438.56,
+     "end": 439.0,
+     "word": "Hemd"
+    },
+    {
+     "start": 439.0,
+     "end": 439.14,
+     "word": "auf"
+    },
+    {
+     "start": 439.14,
+     "end": 439.38,
+     "word": "sein"
+    },
+    {
+     "start": 439.38,
+     "end": 439.72,
+     "word": "Gesicht"
+    },
+    {
+     "start": 439.72,
+     "end": 440.94,
+     "word": "und"
+    },
+    {
+     "start": 440.94,
+     "end": 441.48,
+     "word": "Jakub"
+    },
+    {
+     "start": 441.48,
+     "end": 442.26,
+     "word": "konnte"
+    },
+    {
+     "start": 442.26,
+     "end": 442.58,
+     "word": "wieder"
+    },
+    {
+     "start": 442.58,
+     "end": 443.04,
+     "word": "sehen."
+    }
+   ]
+  },
+  {
+   "start": 443.82,
+   "end": 450.52,
+   "text": "Die ganze Familie kam nach Ägypten. Yusuf setzte seine Eltern auf den Thron",
+   "words": [
+    {
+     "start": 443.82,
+     "end": 444.02,
+     "word": "Die"
+    },
+    {
+     "start": 444.02,
+     "end": 444.4,
+     "word": "ganze"
+    },
+    {
+     "start": 444.4,
+     "end": 445.04,
+     "word": "Familie"
+    },
+    {
+     "start": 445.04,
+     "end": 445.46,
+     "word": "kam"
+    },
+    {
+     "start": 445.46,
+     "end": 445.78,
+     "word": "nach"
+    },
+    {
+     "start": 445.78,
+     "end": 446.62,
+     "word": "Ägypten."
+    },
+    {
+     "start": 447.36,
+     "end": 448.2,
+     "word": "Yusuf"
+    },
+    {
+     "start": 448.2,
+     "end": 448.82,
+     "word": "setzte"
+    },
+    {
+     "start": 448.82,
+     "end": 449.1,
+     "word": "seine"
+    },
+    {
+     "start": 449.1,
+     "end": 449.5,
+     "word": "Eltern"
+    },
+    {
+     "start": 449.5,
+     "end": 449.9,
+     "word": "auf"
+    },
+    {
+     "start": 449.9,
+     "end": 450.1,
+     "word": "den"
+    },
+    {
+     "start": 450.1,
+     "end": 450.52,
+     "word": "Thron"
+    }
+   ]
+  },
+  {
+   "start": 450.52,
+   "end": 458.0,
+   "text": "und alle verneigten sich vor ihm zur Begrüßung. Damals war das erlaubt.",
+   "words": [
+    {
+     "start": 450.52,
+     "end": 451.54,
+     "word": "und"
+    },
+    {
+     "start": 451.54,
+     "end": 452.1,
+     "word": "alle"
+    },
+    {
+     "start": 452.1,
+     "end": 452.78,
+     "word": "verneigten"
+    },
+    {
+     "start": 452.78,
+     "end": 453.14,
+     "word": "sich"
+    },
+    {
+     "start": 453.14,
+     "end": 453.42,
+     "word": "vor"
+    },
+    {
+     "start": 453.42,
+     "end": 453.72,
+     "word": "ihm"
+    },
+    {
+     "start": 453.72,
+     "end": 454.14,
+     "word": "zur"
+    },
+    {
+     "start": 454.14,
+     "end": 454.92,
+     "word": "Begrüßung."
+    },
+    {
+     "start": 456.02,
+     "end": 456.86,
+     "word": "Damals"
+    },
+    {
+     "start": 456.86,
+     "end": 457.06,
+     "word": "war"
+    },
+    {
+     "start": 457.06,
+     "end": 457.26,
+     "word": "das"
+    },
+    {
+     "start": 457.26,
+     "end": 458.0,
+     "word": "erlaubt."
+    }
+   ]
+  },
+  {
+   "start": 459.08,
+   "end": 470.14,
+   "text": "Heute werfen wir uns nur vor Allah nieder. Und Yusuf sagte, Papa, das ist die Bedeutung meines Traumes.",
+   "words": [
+    {
+     "start": 459.08,
+     "end": 459.52,
+     "word": "Heute"
+    },
+    {
+     "start": 459.52,
+     "end": 460.42,
+     "word": "werfen"
+    },
+    {
+     "start": 460.42,
+     "end": 460.6,
+     "word": "wir"
+    },
+    {
+     "start": 460.6,
+     "end": 460.82,
+     "word": "uns"
+    },
+    {
+     "start": 460.82,
+     "end": 461.24,
+     "word": "nur"
+    },
+    {
+     "start": 461.24,
+     "end": 461.6,
+     "word": "vor"
+    },
+    {
+     "start": 461.6,
+     "end": 462.08,
+     "word": "Allah"
+    },
+    {
+     "start": 462.08,
+     "end": 462.64,
+     "word": "nieder."
+    },
+    {
+     "start": 463.88,
+     "end": 464.48,
+     "word": "Und"
+    },
+    {
+     "start": 464.48,
+     "end": 464.94,
+     "word": "Yusuf"
+    },
+    {
+     "start": 464.94,
+     "end": 465.26,
+     "word": "sagte,"
+    },
+    {
+     "start": 466.52,
+     "end": 466.82,
+     "word": "Papa,"
+    },
+    {
+     "start": 468.02,
+     "end": 468.16,
+     "word": "das"
+    },
+    {
+     "start": 468.16,
+     "end": 468.42,
+     "word": "ist"
+    },
+    {
+     "start": 468.42,
+     "end": 468.6,
+     "word": "die"
+    },
+    {
+     "start": 468.6,
+     "end": 469.24,
+     "word": "Bedeutung"
+    },
+    {
+     "start": 469.24,
+     "end": 469.66,
+     "word": "meines"
+    },
+    {
+     "start": 469.66,
+     "end": 470.14,
+     "word": "Traumes."
+    }
+   ]
+  },
+  {
+   "start": 471.14,
+   "end": 481.4,
+   "text": "Mein Herr hat ihn wahrgemacht. Die elf Sterne waren die Brüder und die Sonne und der Mond waren die Eltern.",
+   "words": [
+    {
+     "start": 471.14,
+     "end": 471.78,
+     "word": "Mein"
+    },
+    {
+     "start": 471.78,
+     "end": 472.16,
+     "word": "Herr"
+    },
+    {
+     "start": 472.16,
+     "end": 472.54,
+     "word": "hat"
+    },
+    {
+     "start": 472.54,
+     "end": 472.8,
+     "word": "ihn"
+    },
+    {
+     "start": 472.8,
+     "end": 473.66,
+     "word": "wahrgemacht."
+    },
+    {
+     "start": 474.46,
+     "end": 474.62,
+     "word": "Die"
+    },
+    {
+     "start": 474.62,
+     "end": 475.08,
+     "word": "elf"
+    },
+    {
+     "start": 475.08,
+     "end": 475.88,
+     "word": "Sterne"
+    },
+    {
+     "start": 475.88,
+     "end": 476.38,
+     "word": "waren"
+    },
+    {
+     "start": 476.38,
+     "end": 476.66,
+     "word": "die"
+    },
+    {
+     "start": 476.66,
+     "end": 477.3,
+     "word": "Brüder"
+    },
+    {
+     "start": 477.3,
+     "end": 478.32,
+     "word": "und"
+    },
+    {
+     "start": 478.32,
+     "end": 478.56,
+     "word": "die"
+    },
+    {
+     "start": 478.56,
+     "end": 479.02,
+     "word": "Sonne"
+    },
+    {
+     "start": 479.02,
+     "end": 479.34,
+     "word": "und"
+    },
+    {
+     "start": 479.34,
+     "end": 479.56,
+     "word": "der"
+    },
+    {
+     "start": 479.56,
+     "end": 479.86,
+     "word": "Mond"
+    },
+    {
+     "start": 479.86,
+     "end": 480.72,
+     "word": "waren"
+    },
+    {
+     "start": 480.72,
+     "end": 480.96,
+     "word": "die"
+    },
+    {
+     "start": 480.96,
+     "end": 481.4,
+     "word": "Eltern."
+    }
+   ]
+  },
+  {
+   "start": 482.94,
+   "end": 496.12,
+   "text": "Ganz genau mein kluger Schatz. Und Yusuf betete, mein Herr lass mich als Muslim sterben und vereine mich mit den Rechtschaffenden.",
+   "words": [
+    {
+     "start": 482.94,
+     "end": 483.88,
+     "word": "Ganz"
+    },
+    {
+     "start": 483.88,
+     "end": 484.5,
+     "word": "genau"
+    },
+    {
+     "start": 484.5,
+     "end": 484.82,
+     "word": "mein"
+    },
+    {
+     "start": 484.82,
+     "end": 485.22,
+     "word": "kluger"
+    },
+    {
+     "start": 485.22,
+     "end": 485.78,
+     "word": "Schatz."
+    },
+    {
+     "start": 486.76,
+     "end": 487.22,
+     "word": "Und"
+    },
+    {
+     "start": 487.22,
+     "end": 487.76,
+     "word": "Yusuf"
+    },
+    {
+     "start": 487.76,
+     "end": 488.36,
+     "word": "betete,"
+    },
+    {
+     "start": 489.52,
+     "end": 489.86,
+     "word": "mein"
+    },
+    {
+     "start": 489.86,
+     "end": 490.32,
+     "word": "Herr"
+    },
+    {
+     "start": 490.32,
+     "end": 491.28,
+     "word": "lass"
+    },
+    {
+     "start": 491.28,
+     "end": 491.54,
+     "word": "mich"
+    },
+    {
+     "start": 491.54,
+     "end": 491.8,
+     "word": "als"
+    },
+    {
+     "start": 491.8,
+     "end": 492.28,
+     "word": "Muslim"
+    },
+    {
+     "start": 492.28,
+     "end": 492.98,
+     "word": "sterben"
+    },
+    {
+     "start": 492.98,
+     "end": 493.9,
+     "word": "und"
+    },
+    {
+     "start": 493.9,
+     "end": 494.48,
+     "word": "vereine"
+    },
+    {
+     "start": 494.48,
+     "end": 494.78,
+     "word": "mich"
+    },
+    {
+     "start": 494.78,
+     "end": 495.1,
+     "word": "mit"
+    },
+    {
+     "start": 495.1,
+     "end": 495.24,
+     "word": "den"
+    },
+    {
+     "start": 495.24,
+     "end": 496.12,
+     "word": "Rechtschaffenden."
+    }
+   ]
+  },
+  {
+   "start": 497.12,
+   "end": 499.88,
+   "text": "Oh, sie schlafen schon.",
+   "words": [
+    {
+     "start": 497.12,
+     "end": 497.9,
+     "word": "Oh,"
+    },
+    {
+     "start": 498.66,
+     "end": 498.9,
+     "word": "sie"
+    },
+    {
+     "start": 498.9,
+     "end": 499.48,
+     "word": "schlafen"
+    },
+    {
+     "start": 499.48,
+     "end": 499.88,
+     "word": "schon."
+    }
+   ]
+  },
+  {
+   "start": 501.54,
+   "end": 513.38,
+   "text": "Meine Lieben, seid ehrlich wie Yusuf, auch wenn es schwer ist. Vertraut Allah, auch wenn es dunkel ist wie in einem Brunnen.",
+   "words": [
+    {
+     "start": 501.54,
+     "end": 501.94,
+     "word": "Meine"
+    },
+    {
+     "start": 501.94,
+     "end": 502.5,
+     "word": "Lieben,"
+    },
+    {
+     "start": 503.32,
+     "end": 503.52,
+     "word": "seid"
+    },
+    {
+     "start": 503.52,
+     "end": 504.14,
+     "word": "ehrlich"
+    },
+    {
+     "start": 504.14,
+     "end": 504.56,
+     "word": "wie"
+    },
+    {
+     "start": 504.56,
+     "end": 505.28,
+     "word": "Yusuf,"
+    },
+    {
+     "start": 505.86,
+     "end": 506.06,
+     "word": "auch"
+    },
+    {
+     "start": 506.06,
+     "end": 506.44,
+     "word": "wenn"
+    },
+    {
+     "start": 506.44,
+     "end": 506.62,
+     "word": "es"
+    },
+    {
+     "start": 506.62,
+     "end": 506.92,
+     "word": "schwer"
+    },
+    {
+     "start": 506.92,
+     "end": 507.46,
+     "word": "ist."
+    },
+    {
+     "start": 508.66,
+     "end": 509.28,
+     "word": "Vertraut"
+    },
+    {
+     "start": 509.28,
+     "end": 509.62,
+     "word": "Allah,"
+    },
+    {
+     "start": 510.42,
+     "end": 510.72,
+     "word": "auch"
+    },
+    {
+     "start": 510.72,
+     "end": 511.02,
+     "word": "wenn"
+    },
+    {
+     "start": 511.02,
+     "end": 511.18,
+     "word": "es"
+    },
+    {
+     "start": 511.18,
+     "end": 511.7,
+     "word": "dunkel"
+    },
+    {
+     "start": 511.7,
+     "end": 512.1,
+     "word": "ist"
+    },
+    {
+     "start": 512.1,
+     "end": 512.34,
+     "word": "wie"
+    },
+    {
+     "start": 512.34,
+     "end": 512.5,
+     "word": "in"
+    },
+    {
+     "start": 512.5,
+     "end": 512.76,
+     "word": "einem"
+    },
+    {
+     "start": 512.76,
+     "end": 513.38,
+     "word": "Brunnen."
+    }
+   ]
+  },
+  {
+   "start": 514.24,
+   "end": 519.94,
+   "text": "Und verzeiht anderen, so wie Yusuf seinen Brüdern verziehen hat.",
+   "words": [
+    {
+     "start": 514.24,
+     "end": 514.74,
+     "word": "Und"
+    },
+    {
+     "start": 514.74,
+     "end": 515.62,
+     "word": "verzeiht"
+    },
+    {
+     "start": 515.62,
+     "end": 516.02,
+     "word": "anderen,"
+    },
+    {
+     "start": 516.74,
+     "end": 516.92,
+     "word": "so"
+    },
+    {
+     "start": 516.92,
+     "end": 517.3,
+     "word": "wie"
+    },
+    {
+     "start": 517.3,
+     "end": 517.92,
+     "word": "Yusuf"
+    },
+    {
+     "start": 517.92,
+     "end": 518.3,
+     "word": "seinen"
+    },
+    {
+     "start": 518.3,
+     "end": 518.94,
+     "word": "Brüdern"
+    },
+    {
+     "start": 518.94,
+     "end": 519.52,
+     "word": "verziehen"
+    },
+    {
+     "start": 519.52,
+     "end": 519.94,
+     "word": "hat."
+    }
+   ]
+  },
+  {
+   "start": 520.94,
+   "end": 532.46,
+   "text": "Und nächstes Mal erzähle ich euch von Ayub, einem Propheten, der sehr krank wurde und trotzdem geduldig blieb.",
+   "words": [
+    {
+     "start": 520.94,
+     "end": 521.5,
+     "word": "Und"
+    },
+    {
+     "start": 521.5,
+     "end": 522.22,
+     "word": "nächstes"
+    },
+    {
+     "start": 522.22,
+     "end": 522.64,
+     "word": "Mal"
+    },
+    {
+     "start": 522.64,
+     "end": 523.42,
+     "word": "erzähle"
+    },
+    {
+     "start": 523.42,
+     "end": 523.6,
+     "word": "ich"
+    },
+    {
+     "start": 523.6,
+     "end": 523.82,
+     "word": "euch"
+    },
+    {
+     "start": 523.82,
+     "end": 524.26,
+     "word": "von"
+    },
+    {
+     "start": 524.26,
+     "end": 525.2,
+     "word": "Ayub,"
+    },
+    {
+     "start": 526.12,
+     "end": 526.66,
+     "word": "einem"
+    },
+    {
+     "start": 526.66,
+     "end": 527.64,
+     "word": "Propheten,"
+    },
+    {
+     "start": 527.92,
+     "end": 528.2,
+     "word": "der"
+    },
+    {
+     "start": 528.2,
+     "end": 528.66,
+     "word": "sehr"
+    },
+    {
+     "start": 528.66,
+     "end": 529.24,
+     "word": "krank"
+    },
+    {
+     "start": 529.24,
+     "end": 529.62,
+     "word": "wurde"
+    },
+    {
+     "start": 529.62,
+     "end": 530.58,
+     "word": "und"
+    },
+    {
+     "start": 530.58,
+     "end": 531.24,
+     "word": "trotzdem"
+    },
+    {
+     "start": 531.24,
+     "end": 532.04,
+     "word": "geduldig"
+    },
+    {
+     "start": 532.04,
+     "end": 532.46,
+     "word": "blieb."
+    }
+   ]
+  },
+  {
+   "start": 534.98,
+   "end": 545.34,
+   "text": "Und du, der du gerade zuschaust, wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren.",
+   "words": [
+    {
+     "start": 534.98,
+     "end": 535.74,
+     "word": "Und"
+    },
+    {
+     "start": 535.74,
+     "end": 536.1,
+     "word": "du,"
+    },
+    {
+     "start": 536.7,
+     "end": 536.7,
+     "word": "der"
+    },
+    {
+     "start": 536.7,
+     "end": 536.86,
+     "word": "du"
+    },
+    {
+     "start": 536.86,
+     "end": 537.16,
+     "word": "gerade"
+    },
+    {
+     "start": 537.16,
+     "end": 538.1,
+     "word": "zuschaust,"
+    },
+    {
+     "start": 539.18,
+     "end": 539.28,
+     "word": "wenn"
+    },
+    {
+     "start": 539.28,
+     "end": 539.5,
+     "word": "dir"
+    },
+    {
+     "start": 539.5,
+     "end": 539.64,
+     "word": "die"
+    },
+    {
+     "start": 539.64,
+     "end": 540.06,
+     "word": "Geschichte"
+    },
+    {
+     "start": 540.06,
+     "end": 540.5,
+     "word": "gefallen"
+    },
+    {
+     "start": 540.5,
+     "end": 541.0,
+     "word": "hat,"
+    },
+    {
+     "start": 541.66,
+     "end": 541.76,
+     "word": "dann"
+    },
+    {
+     "start": 541.76,
+     "end": 542.06,
+     "word": "frag"
+    },
+    {
+     "start": 542.06,
+     "end": 542.36,
+     "word": "deine"
+    },
+    {
+     "start": 542.36,
+     "end": 542.78,
+     "word": "Eltern,"
+    },
+    {
+     "start": 543.44,
+     "end": 543.62,
+     "word": "ob"
+    },
+    {
+     "start": 543.62,
+     "end": 543.76,
+     "word": "sie"
+    },
+    {
+     "start": 543.76,
+     "end": 544.06,
+     "word": "unseren"
+    },
+    {
+     "start": 544.06,
+     "end": 544.6,
+     "word": "Kanal"
+    },
+    {
+     "start": 544.6,
+     "end": 545.34,
+     "word": "abonnieren."
+    }
+   ]
+  },
+  {
+   "start": 545.34,
+   "end": 553.4,
+   "text": "So verpasst du die nächste Geschichte nicht. Schlaft gut, meine Lieben. Allah beschütze euch.",
+   "words": [
+    {
+     "start": 545.34,
+     "end": 546.42,
+     "word": "So"
+    },
+    {
+     "start": 546.42,
+     "end": 547.0,
+     "word": "verpasst"
+    },
+    {
+     "start": 547.0,
+     "end": 547.08,
+     "word": "du"
+    },
+    {
+     "start": 547.08,
+     "end": 547.22,
+     "word": "die"
+    },
+    {
+     "start": 547.22,
+     "end": 547.56,
+     "word": "nächste"
+    },
+    {
+     "start": 547.56,
+     "end": 548.1,
+     "word": "Geschichte"
+    },
+    {
+     "start": 548.1,
+     "end": 548.44,
+     "word": "nicht."
+    },
+    {
+     "start": 549.54,
+     "end": 550.22,
+     "word": "Schlaft"
+    },
+    {
+     "start": 550.22,
+     "end": 550.44,
+     "word": "gut,"
+    },
+    {
+     "start": 550.62,
+     "end": 550.76,
+     "word": "meine"
+    },
+    {
+     "start": 550.76,
+     "end": 551.24,
+     "word": "Lieben."
+    },
+    {
+     "start": 552.12,
+     "end": 552.38,
+     "word": "Allah"
+    },
+    {
+     "start": 552.38,
+     "end": 553.12,
+     "word": "beschütze"
+    },
+    {
+     "start": 553.12,
+     "end": 553.4,
+     "word": "euch."
+    }
+   ]
+  }
+ ]
+}
