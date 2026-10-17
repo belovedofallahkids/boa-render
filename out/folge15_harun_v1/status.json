@@ -1,0 +1,19 @@
+{
+  "name": "folge15_harun_v1",
+  "ok": true,
+  "job_hash": "f70184a3f4adb56f10059426dd7374d06cc0497c",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge15_harun_v1/folge15_harun_v1.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge15_harun_v1/contact.jpg",
+  "duration_video": 403.767,
+  "duration_audio": 403.76,
+  "timeline": 403.76,
+  "segments": 23,
+  "narration_end": 397.76,
+  "tail_hold": 6.0,
+  "loudness_lufs": -14.2,
+  "true_peak_dbfs": -4.3,
+  "input_lufs": -16.36,
+  "size_mb": 161.2,
+  "render_seconds": 537,
+  "finished_utc": "2026-10-17T07:56:11Z"
+}
