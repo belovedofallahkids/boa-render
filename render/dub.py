@@ -11,7 +11,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = os.environ.get("GITHUB_REPOSITORY", "belovedofallahkids/boa-render")
 LN = {"ar": "Arabic (Modern Standard Arabic, simple and warm, for small children)", "en": "English", "tr": "Turkish", "fr": "French"}
 NOTE = {
-    "ar": "Use Quranic Arabic names (هارون، موسى، إلياس، نوح). 'Friede sei mit ihm' = 'عليه السلام'; Muhammad formula = 'صلى الله عليه وسلم'. Oma calls the boys 'يا حبيبي'. Add full tashkeel (diacritics) on every word so a speech engine reads it correctly.",
+    "ar": "Use Quranic Arabic names for prophets (هارون، موسى). The grandson Noah is written نُوا (never نوح), Ilyas = إلياس. 'Friede sei mit ihm' = 'عليه السلام'; Muhammad formula = 'صلى الله عليه وسلم'. Oma calls the boys 'يا حبيبي'. Add full tashkeel (diacritics) on every word so a speech engine reads it correctly.",
     "en": "Keep 'Allah'. 'Friede sei mit ihm' = 'peace be upon him'. Muhammad formula = 'peace and blessings be upon him'. 'mein Schatz' = 'my darling'.",
     "tr": "Keep 'Allah'. Turkish prophet names (Harun, Musa, Hz. Muhammed). 'Friede sei mit ihm' = 'aleyhisselam'.",
     "fr": "Keep 'Allah'. 'Friede sei mit ihm' = 'que la paix soit sur lui'.",
