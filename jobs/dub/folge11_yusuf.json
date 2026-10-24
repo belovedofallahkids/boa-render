@@ -1,0 +1,218 @@
+{
+ "name": "folge11_yusuf_dub",
+ "episode": "folge11_yusuf",
+ "duration": 553.56,
+ "langs": [
+  "ar",
+  "tr",
+  "fr"
+ ],
+ "prophet": "Yusuf",
+ "ref_audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge14_erzaehlung_komplett_2026-10-16mp3-hxXoUqUsSzs.mp3",
+ "ref": [
+  45.0,
+  56.5
+ ],
+ "kid_ref": [
+  203.5,
+  207.0
+ ],
+ "segments": [
+  {
+   "id": "s1a",
+   "start": 0.0,
+   "end": 20.38,
+   "kid": false,
+   "de": "[whispers] Noah… Ilyas… erinnert ihr euch an Yusufs Traum? Elf Sterne, die Sonne und der Mond… und alle verneigten sich vor ihm. [curious] Heute erfahrt ihr endlich, was dieser Traum bedeutet!"
+  },
+  {
+   "id": "s1b",
+   "start": 20.82,
+   "end": 23.54,
+   "kid": true,
+   "de": "[childlike voice] [excited] Und ob sie Yusuf gefunden haben!"
+  },
+  {
+   "id": "s1c",
+   "start": 24.76,
+   "end": 43.76,
+   "kid": false,
+   "de": "[chuckles] Genau das. Kuschelt euch ein… [warmly] Heute erzähle ich euch von Prophet Yusuf, Friede sei mit ihm. Seine Geschichte hat im Koran eine ganze eigene Sure: die Sure Yusuf."
+  },
+  {
+   "id": "s2a",
+   "start": 45.12,
+   "end": 67.26,
+   "kid": false,
+   "de": "[softly] Yusufs Brüder waren neidisch. Sie sagten: Unser Vater hat Yusuf und seinen Bruder lieber als uns! Und sie wollten Yusuf loswerden. [nervous] Einer von ihnen sagte: Werft ihn in einen tiefen Brunnen. Vielleicht nimmt ihn eine Reisegruppe mit."
+  },
+  {
+   "id": "s2b",
+   "start": 67.94,
+   "end": 97.24,
+   "kid": false,
+   "de": "[softly] Und so geschah es. Doch im dunklen Brunnen war Yusuf nicht allein. Allah ließ ihn wissen: Eines Tages wirst du ihnen erzählen, was sie getan haben. [warmly] Bald kam eine Reisegruppe. Einer ließ seinen Eimer in den Brunnen hinab und rief: Was für eine gute Nachricht! Da ist ein Junge!"
+  },
+  {
+   "id": "s2c",
+   "start": 98.12,
+   "end": 100.34,
+   "kid": true,
+   "de": "[childlike voice] [relieved] Puh! Haben sie ihn nach Hause gebracht?"
+  },
+  {
+   "id": "s2d",
+   "start": 101.26,
+   "end": 125.24,
+   "kid": false,
+   "de": "[softly] Nein, mein Schatz. Sie verkauften ihn für ein paar Münzen. Ein Mann aus Ägypten kaufte ihn und sagte zu seiner Frau: Behandle ihn gut! Vielleicht nehmen wir ihn sogar als Sohn an. [warmly] Und als Yusuf groß wurde, schenkte Allah ihm Weisheit und Wissen."
+  },
+  {
+   "id": "s3a",
+   "start": 126.58,
+   "end": 150.54,
+   "kid": false,
+   "de": "[serious] Yusuf wurde ein schöner, guter junger Mann. Eines Tages wollte die Frau des Hausherrn, dass er etwas tut, was Allah verboten hat. [serious] Doch Yusuf sagte: Ich suche Zuflucht bei Allah! Und er lief schnell zur Tür. Dabei riss sie sein Hemd hinten ein."
+  },
+  {
+   "id": "s3b",
+   "start": 150.54,
+   "end": 153.82,
+   "kid": true,
+   "de": "[childlike voice] [curious] Hinten? Warum ist das wichtig?"
+  },
+  {
+   "id": "s3c",
+   "start": 155.08,
+   "end": 185.48,
+   "kid": false,
+   "de": "[chuckles] Gut gefragt! Ein Mann aus ihrer Familie sagte: Ist das Hemd hinten zerrissen, dann sagt Yusuf die Wahrheit. Denn dann ist er weggelaufen. Und genau so war es! [softly] Trotzdem kam Yusuf ins Gefängnis. Aber er hatte zu Allah gebetet: Mein Herr, das Gefängnis ist mir lieber als das, wozu sie mich auffordern."
+  },
+  {
+   "id": "s4a",
+   "start": 186.76,
+   "end": 212.24,
+   "kid": false,
+   "de": "[warmly] Im Gefängnis waren zwei junge Männer. Beide hatten einen Traum und fragten Yusuf, was er bedeutet. [softly] Yusuf sagte zuerst: Ich bete nur den einen Allah an, wie meine Väter Ibrahim, Ishaq und Yaqub. Erst dann erklärte er ihre Träume."
+  },
+  {
+   "id": "s4b",
+   "start": 212.96,
+   "end": 243.16,
+   "kid": false,
+   "de": "[warmly] Dem einen sagte er: Du wirst bald frei sein und deinem Herrn wieder zu trinken geben. Für den anderen hatte der Traum eine traurige Bedeutung. [softly] Yusuf bat den ersten: Erzähl deinem Herrn von mir! Doch der Shaitan ließ ihn das vergessen. Und Yusuf blieb noch einige Jahre im Gefängnis."
+  },
+  {
+   "id": "s4c",
+   "start": 244.06,
+   "end": 247.74,
+   "kid": true,
+   "de": "[childlike voice] [sad] Einige Jahre? Das ist aber lange!"
+  },
+  {
+   "id": "s5a",
+   "start": 248.74,
+   "end": 278.64,
+   "kid": false,
+   "de": "[curious] Dann hatte der König von Ägypten einen seltsamen Traum: Sieben dicke Kühe wurden von sieben mageren Kühen gefressen. Und er sah sieben grüne Ähren und andere, die ganz trocken waren. [softly] Niemand konnte den Traum deuten. Da erinnerte sich der Mann aus dem Gefängnis endlich an Yusuf!"
+  },
+  {
+   "id": "s5b",
+   "start": 279.18,
+   "end": 298.72,
+   "kid": false,
+   "de": "[warmly] Yusuf erklärte: Sieben Jahre lang wird es viel Getreide geben. Bewahrt es gut auf! Danach kommen sieben schwere Jahre, in denen ihr davon essen könnt. Und danach kommt wieder ein gutes Jahr."
+  },
+  {
+   "id": "s5c",
+   "start": 299.56,
+   "end": 335.1,
+   "kid": false,
+   "de": "[excited] Der König rief: Bringt Yusuf zu mir! Aber Yusuf sagte: Erst soll geklärt werden, dass ich unschuldig bin. Und wirklich: Die Frau des Hausherrn gab zu, dass Yusuf die Wahrheit gesagt hatte. [warmly] Yusuf sagte: Setze mich über die Vorräte des Landes, ich passe gut darauf auf und weiß Bescheid. Und so wurde Yusuf der Verwalter aller Vorräte in Ägypten."
+  },
+  {
+   "id": "s6a",
+   "start": 336.12,
+   "end": 354.48,
+   "kid": false,
+   "de": "[softly] Dann kamen die schweren Jahre, auch im Land von Yaqub. Yusufs Brüder reisten nach Ägypten, um Getreide zu holen. [curious] Yusuf erkannte sie sofort. Aber sie erkannten ihn nicht!"
+  },
+  {
+   "id": "s6b",
+   "start": 355.3,
+   "end": 358.54,
+   "kid": true,
+   "de": "[childlike voice] [excited] Sie wussten gar nicht, dass das Yusuf ist!"
+  },
+  {
+   "id": "s6c",
+   "start": 359.38,
+   "end": 378.78,
+   "kid": false,
+   "de": "[warmly] Mit einem klugen Plan, den Allah ihm eingab, behielt Yusuf später seinen Bruder bei sich. [softly] Und als die anderen wiederkamen, sagte er: Ich bin Yusuf, und das ist mein Bruder. Allah war gut zu uns."
+  },
+  {
+   "id": "s6d",
+   "start": 379.7,
+   "end": 399.74,
+   "kid": false,
+   "de": "[softly] Die Brüder schämten sich sehr und sagten: Wir haben Unrecht getan. [warmly] Und Yusuf? Er sagte: Heute gibt es keinen Vorwurf gegen euch. Allah vergibt euch. Er ist der Barmherzigste der Barmherzigen."
+  },
+  {
+   "id": "s6e",
+   "start": 400.56,
+   "end": 405.48,
+   "kid": true,
+   "de": "[childlike voice] [surprised] Er hat ihnen einfach verziehen? Nach allem, was sie getan haben?"
+  },
+  {
+   "id": "s6f",
+   "start": 405.48,
+   "end": 415.3,
+   "kid": false,
+   "de": "[warmly] Ja, mein Schatz. Verzeihen ist manchmal schwerer als alles andere. Und genau das hat Yusuf getan."
+  },
+  {
+   "id": "s7a",
+   "start": 416.44,
+   "end": 443.04,
+   "kid": false,
+   "de": "[excited] Yusuf gab ihnen sein Hemd und sagte: Legt es auf das Gesicht meines Vaters, dann wird er wieder sehen. [softly] Als die Karawane aus Ägypten aufbrach, sagte Yaqub weit weg: Ich rieche den Duft von Yusuf! [excited] Sie legten das Hemd auf sein Gesicht, und Yaqub konnte wieder sehen!"
+  },
+  {
+   "id": "s7b",
+   "start": 443.82,
+   "end": 472.8,
+   "kid": false,
+   "de": "[warmly] Die ganze Familie kam nach Ägypten. Yusuf setzte seine Eltern auf den Thron, und alle verneigten sich vor ihm zur Begrüßung. Damals war das erlaubt. Heute werfen wir uns nur vor Allah nieder. [softly] Und Yusuf sagte: Papa, das ist die Bedeutung meines Traumes. Mein Herr hat ihn wahr gemacht."
+  },
+  {
+   "id": "s7c",
+   "start": 474.46,
+   "end": 481.4,
+   "kid": true,
+   "de": "[childlike voice] [excited] Die elf Sterne waren die Brüder! Und die Sonne und der Mond waren die Eltern!"
+  },
+  {
+   "id": "s7d",
+   "start": 482.94,
+   "end": 495.24,
+   "kid": false,
+   "de": "[chuckles] Ganz genau, mein kluger Schatz. [softly] Und Yusuf betete: Mein Herr, lass mich als Muslim sterben und vereine mich mit den Rechtschaffenen."
+  },
+  {
+   "id": "s8a",
+   "start": 497.12,
+   "end": 519.94,
+   "kid": false,
+   "de": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… seid ehrlich wie Yusuf, auch wenn es schwer ist. Vertraut Allah, auch wenn es dunkel ist wie in einem Brunnen. Und verzeiht anderen, so wie Yusuf seinen Brüdern verziehen hat."
+  },
+  {
+   "id": "s8b",
+   "start": 520.94,
+   "end": 553.4,
+   "kid": false,
+   "de": "[whispers] Und nächstes Mal erzähle ich euch von Ayyub… einem Propheten, der sehr krank wurde und trotzdem geduldig blieb. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch."
+  }
+ ]
+}

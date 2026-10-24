@@ -1,0 +1,183 @@
+{
+ "name": "folge10_yaqub_dub",
+ "episode": "folge10_yaqub",
+ "duration": 463.8,
+ "langs": [
+  "ar",
+  "tr",
+  "fr"
+ ],
+ "prophet": "Yaqub",
+ "ref_audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge14_erzaehlung_komplett_2026-10-16mp3-hxXoUqUsSzs.mp3",
+ "ref": [
+  45.0,
+  56.5
+ ],
+ "kid_ref": [
+  203.5,
+  207.0
+ ],
+ "segments": [
+  {
+   "id": "s1a",
+   "start": 0.0,
+   "end": 21.74,
+   "kid": false,
+   "de": "[whispers] Noah… Ilyas… wisst ihr noch? Ich habe euch eine wichtige Frage versprochen. [softly] Ganz am Ende seines Lebens rief Prophet Yaqub seine Söhne zu sich. Und er fragte sie: Was werdet ihr nach mir anbeten?"
+  },
+  {
+   "id": "s1b",
+   "start": 22.3,
+   "end": 24.86,
+   "kid": true,
+   "de": "[childlike voice] [curious] Und? Was haben sie geantwortet?"
+  },
+  {
+   "id": "s1c",
+   "start": 26.46,
+   "end": 45.96,
+   "kid": false,
+   "de": "[chuckles] Das verrate ich euch ganz am Ende. Kuschelt euch ein… [warmly] Heute erzähle ich euch von Prophet Yaqub, Friede sei mit ihm. Er war der Sohn von Ishaq und der Enkel von Ibrahim."
+  },
+  {
+   "id": "s2a",
+   "start": 47.18,
+   "end": 77.04,
+   "kid": false,
+   "de": "[warmly] Erinnert ihr euch? Die Engel hatten Sara gesagt: Nach Ishaq kommt Yaqub. Und genau so geschah es. Ishaq bekam einen Sohn, Yaqub, und Allah machte auch ihn zu einem Propheten. [softly] Yaqub und seine Familie lebten in der Wüste, in Zelten, mit ihren Tieren."
+  },
+  {
+   "id": "s2b",
+   "start": 77.86,
+   "end": 80.78,
+   "kid": true,
+   "de": "[childlike voice] [curious] Und was hat Yaqub seinen Kindern beigebracht?"
+  },
+  {
+   "id": "s2c",
+   "start": 81.64,
+   "end": 110.16,
+   "kid": false,
+   "de": "[warmly] Das Wichtigste von allem! Schon Ibrahim hatte es seinen Söhnen geraten, und Yaqub sagte es genauso zu seinen Söhnen: [softly] Meine Söhne, Allah hat für euch diesen Glauben ausgewählt. Darum sterbt nur als Muslime. [warmly] Das heißt: Bleibt Allah treu, euer ganzes Leben lang."
+  },
+  {
+   "id": "s3a",
+   "start": 111.4,
+   "end": 137.68,
+   "kid": false,
+   "de": "[warmly] Yaqub war ein starker Prophet. Allah sagt im Koran: Er war stark im Guten und hatte einen klaren Blick für das, was richtig ist. Er betete, tat Gutes und zeigte den Menschen den Weg zu Allah. [softly] Yaqub hatte viele Söhne. Einer von ihnen hieß Yusuf."
+  },
+  {
+   "id": "s3b",
+   "start": 138.62,
+   "end": 154.64,
+   "kid": false,
+   "de": "[curious] Eines Tages kam der junge Yusuf zu seinem Vater und sagte: Papa, ich habe im Traum elf Sterne gesehen, und die Sonne und den Mond. Und sie haben sich alle vor mir verneigt!"
+  },
+  {
+   "id": "s3c",
+   "start": 155.46,
+   "end": 159.02,
+   "kid": true,
+   "de": "[childlike voice] [excited] Elf Sterne? Was bedeutet das?"
+  },
+  {
+   "id": "s3d",
+   "start": 159.86,
+   "end": 193.74,
+   "kid": false,
+   "de": "[warmly] Yaqub war weise. Er verstand: Dieser Traum ist etwas ganz Besonderes. Er sagte: Mein Sohn, erzähl deinen Traum nicht deinen Brüdern, sonst denken sie sich etwas gegen dich aus. [softly] Allah wird dich auserwählen, dir Wissen schenken und Seine Gnade an dir vollenden, so wie Er sie an deinen Vätern Ibrahim und Ishaq vollendet hat."
+  },
+  {
+   "id": "s4a",
+   "start": 194.74,
+   "end": 223.14,
+   "kid": false,
+   "de": "[softly] Doch dann kam ein schwerer Tag. Die Brüder baten: Lass Yusuf morgen mit uns gehen! Yaqub wollte es erst nicht, aber dann ließ er ihn gehen. [slowly] Am Abend kamen die Brüder zurück, ohne Yusuf. Sie weinten und sagten: Ein Wolf hat ihn geholt! Und sie zeigten Yusufs Hemd."
+  },
+  {
+   "id": "s4b",
+   "start": 223.52,
+   "end": 227.5,
+   "kid": true,
+   "de": "[childlike voice] [sad] Oh nein! Hat Yaqub ihnen geglaubt?"
+  },
+  {
+   "id": "s4c",
+   "start": 228.08,
+   "end": 250.42,
+   "kid": false,
+   "de": "[warmly] Nein. Yaqub sagte: Ihr habt euch da etwas ausgedacht. [softly] Und dann sagte er etwas, das wir nie vergessen sollen: Ich will schöne Geduld haben. Und Allah ist es, bei dem ich Hilfe suche."
+  },
+  {
+   "id": "s4d",
+   "start": 251.12,
+   "end": 262.88,
+   "kid": false,
+   "de": "[warmly] Schöne Geduld, das heißt: Man ist geduldig und klagt nicht bei den Menschen. Alles, was einem auf dem Herzen liegt, sagt man Allah."
+  },
+  {
+   "id": "s5a",
+   "start": 264.36,
+   "end": 285.9,
+   "kid": false,
+   "de": "[softly] [slowly] Viele Jahre vergingen. Yaqub vergaß Yusuf nie. Seine Traurigkeit war so groß, dass seine Augen ganz weiß und schwach wurden. [warmly] Seine Söhne sagten: Hörst du denn nie auf, an Yusuf zu denken?"
+  },
+  {
+   "id": "s5b",
+   "start": 286.62,
+   "end": 310.46,
+   "kid": false,
+   "de": "[warmly] Und Yaqub antwortete: Ich klage meinen Kummer und meine Traurigkeit nur Allah. Und ich weiß von Allah, was ihr nicht wisst. [softly] Meine Söhne, geht und sucht nach Yusuf. Und verliert nie die Hoffnung auf Allahs Barmherzigkeit!"
+  },
+  {
+   "id": "s5c",
+   "start": 311.3,
+   "end": 314.16,
+   "kid": true,
+   "de": "[childlike voice] [curious] Und? Haben sie Yusuf gefunden?"
+  },
+  {
+   "id": "s5d",
+   "start": 315.1,
+   "end": 324.48,
+   "kid": false,
+   "de": "[chuckles] Das, mein Schatz, ist eine eigene, ganz große Geschichte. Die erzähle ich euch beim nächsten Mal!"
+  },
+  {
+   "id": "s6a",
+   "start": 325.4,
+   "end": 362.96,
+   "kid": false,
+   "de": "[softly] Und jetzt die Frage, die ich euch versprochen habe. Als Yaqub sehr alt war und sein Leben zu Ende ging, rief er seine Söhne zu sich und fragte sie: Was werdet ihr nach mir anbeten? [warmly] Und seine Söhne antworteten: Wir werden deinen Gott anbeten, den Gott deiner Väter Ibrahim, Ismail und Ishaq, den einen einzigen Gott. Und wir sind Ihm ergeben."
+  },
+  {
+   "id": "s6b",
+   "start": 363.86,
+   "end": 370.68,
+   "kid": true,
+   "de": "[childlike voice] [curious] Moment mal… Ismail war doch Yaqubs Onkel, nicht sein Vater!"
+  },
+  {
+   "id": "s6c",
+   "start": 371.56,
+   "end": 396.22,
+   "kid": false,
+   "de": "[chuckles] Gut aufgepasst, mein Schatz! Im Arabischen nennt man auch den Onkel manchmal Vater, weil er der Familie so nahe ist. [warmly] Und seht ihr? Ibrahim, Ismail, Ishaq, Yaqub und seine Söhne: Alle beteten denselben, einen Allah an."
+  },
+  {
+   "id": "s7a",
+   "start": 397.46,
+   "end": 427.4,
+   "kid": false,
+   "de": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… wenn ihr traurig seid, dann denkt an Yaqub: Habt schöne Geduld und erzählt Allah alles, was euch bedrückt. Verliert nie die Hoffnung auf Allahs Barmherzigkeit. Und bleibt Allah treu, euer ganzes Leben lang."
+  },
+  {
+   "id": "s7b",
+   "start": 428.4,
+   "end": 463.66,
+   "kid": false,
+   "de": "[whispers] Und nächstes Mal erzähle ich euch von Yusuf… von einem Brunnen, einem Gefängnis und einem König. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch."
+  }
+ ]
+}
