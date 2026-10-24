@@ -1,0 +1,19 @@
+{
+  "name": "folge14_musa_v2",
+  "ok": true,
+  "job_hash": "aa06e8065f41d5e0123461f275bfaee6b6b62765",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge14_musa_v2/folge14_musa_v2.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge14_musa_v2/contact.jpg",
+  "duration_video": 562.467,
+  "duration_audio": 562.44,
+  "timeline": 562.44,
+  "segments": 29,
+  "narration_end": 556.44,
+  "tail_hold": 6.0,
+  "loudness_lufs": -14.1,
+  "true_peak_dbfs": -4.0,
+  "input_lufs": -16.46,
+  "size_mb": 236.2,
+  "render_seconds": 939,
+  "finished_utc": "2026-10-24T02:09:30Z"
+}
