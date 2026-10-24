@@ -1,0 +1,5 @@
+{
+ "hash": "2e2710a70b94037f38e9cd5c1ab1220c55249732",
+ "ok": false,
+ "error": "Traceback (most recent call last):\n  File \"/home/runner/work/boa-render/boa-render/render/dub.py\", line 64, in main\n    texts = json.load(open(tp)) if os.path.exists(tp) else translate(job, lang)\n                                                           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/boa-render/boa-render/render/dub.py\", line 45, in translate\n    raise RuntimeError(\"translation incomplete: \" + last)\nRuntimeError: translation incomplete: gemini-2.5-flash-lite: HTTP Error 404: Not Found\n"
+}
