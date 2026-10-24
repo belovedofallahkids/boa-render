@@ -1,0 +1,360 @@
+{
+ "hash": "89c86010c4a8cfe522c10ec7e5a610404ec24296",
+ "ok": true,
+ "duration": 559.6,
+ "fit": [
+  {
+   "id": "s1a",
+   "tempo": 1.212,
+   "drift": 0.0
+  },
+  {
+   "id": "s1b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s1c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s2a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s2b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s2c",
+   "tempo": 1.3,
+   "drift": 0.0
+  },
+  {
+   "id": "s2d",
+   "tempo": 1.0,
+   "drift": 0.02
+  },
+  {
+   "id": "s3a",
+   "tempo": 1.3,
+   "drift": 0.0
+  },
+  {
+   "id": "s3b",
+   "tempo": 1.0,
+   "drift": 12.35
+  },
+  {
+   "id": "s3c",
+   "tempo": 1.0,
+   "drift": 11.46
+  },
+  {
+   "id": "s4a",
+   "tempo": 1.0,
+   "drift": 6.21
+  },
+  {
+   "id": "s4b",
+   "tempo": 1.0,
+   "drift": 0.39
+  },
+  {
+   "id": "s4c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s5a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s5b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s5c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s6a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s6b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s6c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s6d",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s6e",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s6f",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s7a",
+   "tempo": 1.076,
+   "drift": 0.0
+  },
+  {
+   "id": "s7b",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s7c",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s7d",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s8a",
+   "tempo": 1.0,
+   "drift": 0.0
+  },
+  {
+   "id": "s8b",
+   "tempo": 1.0,
+   "drift": 0.0
+  }
+ ],
+ "check": [
+  {
+   "id": "s1a",
+   "text": "Noah... Ilyas... vous vous souvenez du rêve de Yusuf ? Onze étoiles, le soleil et la lune... et toutes s'inclinaient devant lui. Aujourd'hui, vous allez enfin savoir ce que signifie ce rêve !",
+   "match": 0.909
+  },
+  {
+   "id": "s1b",
+   "text": "Et comment qu'ils l'ont trouvé, Yusuf !",
+   "match": 1.0
+  },
+  {
+   "id": "s1c",
+   "text": "Exactement. Blottissez-vous bien... Aujourd'hui, je vais vous parler du prophète Yusuf, que la paix soit sur lui. Son histoire a toute une sourate dédiée dans le Coran : la sourate Yusuf.",
+   "match": 0.938
+  },
+  {
+   "id": "s2a",
+   "text": "Les frères de Yusuf étaient jaloux. Ils disaient : Notre père aime Yusuf et son frère plus que nous ! Et ils voulaient se débarrasser de Yusuf. L'un d'eux a dit : Jetez-le au fond d'un puits profond.",
+   "match": 0.897
+  },
+  {
+   "id": "s2a",
+   "text": "Peut-être qu'une caravane l'emportera.",
+   "match": 1.0
+  },
+  {
+   "id": "s2b",
+   "text": "Et c'est ce qui arriva. Mais dans le puits sombre, Yusuf n'était pas seul. Allah lui fit savoir : Un jour, tu leur raconteras ce qu'ils ont fait. Bientôt, une caravane passa.",
+   "match": 0.971
+  },
+  {
+   "id": "s2b",
+   "text": "L'un d'eux descendit son seau dans le puits et s'écria : Quelle bonne nouvelle ! Il y a un garçon !",
+   "match": 0.905
+  },
+  {
+   "id": "s2c",
+   "text": "Ouf ! Est-ce qu'ils l'ont ramené à la maison ?",
+   "match": 1.0
+  },
+  {
+   "id": "s2d",
+   "text": "Non, mon trésor. Ils l'ont vendu pour quelques pièces de monnaie. Un homme d'Égypte l'a acheté et a dit à sa femme : Traite-le bien ! Peut-être que nous l'adopterons même comme notre fils.",
+   "match": 0.974
+  },
+  {
+   "id": "s2d",
+   "text": "Et quand Yusuf a grandi, Allah lui a accordé de la sagesse et du savoir.",
+   "match": 0.867
+  },
+  {
+   "id": "s3a",
+   "text": "Yusuf est devenu un beau et bon jeune homme. Un jour, la femme du maître de maison a voulu qu'il fasse quelque chose qu'Allah a interdit. Mais Yusuf a dit : Je cherche refuge auprès d'Allah !",
+   "match": 0.974
+  },
+  {
+   "id": "s3a",
+   "text": "Et il a couru vite vers la porte. En faisant cela, elle a déchiré sa chemise par derrière.",
+   "match": 1.0
+  },
+  {
+   "id": "s3b",
+   "text": "Par derrière ? Pourquoi est-ce important ?",
+   "match": 1.0
+  },
+  {
+   "id": "s3c",
+   "text": "Bonne question ! Un homme de sa famille a dit : Si la chemise est déchirée par derrière, alors Yusuf dit la vérité. Car cela veut dire qu'il s'est enfui. Et c'était exactement ça ! Malgré cela, Yusuf est allé en prison.",
+   "match": 0.952
+  },
+  {
+   "id": "s3c",
+   "text": "Mais il avait prié Allah : Mon Seigneur, la prison m'est préférable à ce à quoi ils me convient.",
+   "match": 0.895
+  },
+  {
+   "id": "s4a",
+   "text": "Dans la prison, il y avait deux jeunes hommes. Tous deux avaient fait un rêve et ont demandé à Yusuf ce qu'il signifiait.",
+   "match": 1.0
+  },
+  {
+   "id": "s4a",
+   "text": "Yusuf a d'abord dit : Je n'adore que le seul et unique Allah, comme mes pères Ibrahim, Ishaq et Yaqub. Ce n'est qu'ensuite qu'il a expliqué leurs rêves.",
+   "match": 0.719
+  },
+  {
+   "id": "s4b",
+   "text": "À l'un d'eux, il a dit : Tu seras bientôt libre et tu donneras à nouveau à boire à ton maître. Pour l'autre, le rêve avait une triste signification. Yusuf a demandé au premier : Parle de moi à ton maître !",
+   "match": 0.952
+  },
+  {
+   "id": "s4b",
+   "text": "Mais le Shaitan le lui a fait oublier. Et Yusuf est resté encore quelques années en prison.",
+   "match": 0.882
+  },
+  {
+   "id": "s4c",
+   "text": "Quelques années ? Mais c'est long !",
+   "match": 1.0
+  },
+  {
+   "id": "s5a",
+   "text": "Puis, le roi d'Égypte a fait un rêve étrange : sept vaches grasses étaient mangées par sept vaches maigres. Et il a vu sept épis verts et d'autres tout secs. Personne ne pouvait interpréter le rêve.",
+   "match": 0.649
+  },
+  {
+   "id": "s5a",
+   "text": "C'est alors que l'homme de la prison s'est enfin souvenu de Yusuf !",
+   "match": 0.933
+  },
+  {
+   "id": "s5b",
+   "text": "Yusuf a expliqué : Pendant sept ans, il y aura beaucoup de blé. Conservez-le bien ! Après cela viendront sept années difficiles, pendant lesquelles vous pourrez en manger. Et après cela viendra de nouveau une bonne année.",
+   "match": 0.944
+  },
+  {
+   "id": "s5c",
+   "text": "Le roi s'est écrié : Amenez-moi Yusuf ! Mais Yusuf a dit : D'abord, il faut prouver que je suis innocent. Et en effet : la femme du maître de maison a avoué que Yusuf avait dit la vérité.",
+   "match": 0.974
+  },
+  {
+   "id": "s5c",
+   "text": "Yusuf a dit : Place-moi à la tête des réserves du pays, je veillerai bien sur elles et je m'y connais. C'est ainsi que Yusuf est devenu le responsable de toutes les réserves en Égypte.",
+   "match": 0.946
+  },
+  {
+   "id": "s6a",
+   "text": "Puis sont venues les années difficiles, même dans le pays de Yaqub. Les frères de Yusuf ont voyagé jusqu'en Égypte pour chercher du blé. Yusuf les a reconnus tout de suite. Mais eux ne l'ont pas reconnu !",
+   "match": 0.923
+  },
+  {
+   "id": "s6b",
+   "text": "Ils ne savaient même pas que c'était Yusuf !",
+   "match": 0.889
+  },
+  {
+   "id": "s6c",
+   "text": "Grâce à un plan astucieux qu'Allah lui a inspiré, Yusuf a gardé plus tard son frère auprès de lui. Et quand les autres sont revenus, il a dit : Je suis Yusuf, et voici mon frère. Allah a été bon envers nous.",
+   "match": 0.929
+  },
+  {
+   "id": "s6d",
+   "text": "Les frères ont eu très honte et ont dit : Nous avons commis une injustice. Et Yusuf ? Il a dit : Aujourd'hui, il n'y a aucun reproche contre vous. Allah vous pardonne. Il est le plus Miséricordieux des miséricordieux.",
+   "match": 0.974
+  },
+  {
+   "id": "s6e",
+   "text": "Il leur a simplement pardonné ? Après tout ce qu'ils ont fait ?",
+   "match": 1.0
+  },
+  {
+   "id": "s6f",
+   "text": "Oui, mon trésor. Pardonner est parfois plus difficile que tout le reste. Et c'est exactement ce que Yusuf a fait.",
+   "match": 0.952
+  },
+  {
+   "id": "s7a",
+   "text": "Yusuf leur a donné sa chemise et a dit : Posez-la sur le visage de mon père, alors il recouvrera la vue. Lorsque la caravane est partie d'Égypte, Yaqub a dit, au loin : Je sens l'odeur de Yusuf !",
+   "match": 0.925
+  },
+  {
+   "id": "s7a",
+   "text": "Ils ont posé la chemise sur son visage, et Yaqub a pu voir à nouveau !",
+   "match": 0.933
+  },
+  {
+   "id": "s7b",
+   "text": "Toute la famille est venue en Égypte. Yusuf a fait asseoir ses parents sur le trône, et tous se sont inclinés devant lui pour le saluer. À l'époque, c'était autorisé.",
+   "match": 0.969
+  },
+  {
+   "id": "s7b",
+   "text": "Aujourd'hui, nous ne nous prosternons que devant Allah. Et Yusuf a dit : Papa, c'est la signification de mon rêve. Mon Seigneur l'a réalisé.",
+   "match": 0.962
+  },
+  {
+   "id": "s7c",
+   "text": "Les onze étoiles, c'étaient les frères ! Et le soleil et la lune, c'étaient les parents !",
+   "match": 0.882
+  },
+  {
+   "id": "s7d",
+   "text": "Tout à fait, mon trésor intelligent. Et Yusuf a prié : Mon Seigneur, fais-moi mourir en musulman et fais-moi rejoindre les vertueux.",
+   "match": 0.957
+  },
+  {
+   "id": "s8a",
+   "text": "Oh... ils dorment déjà. Mes chéris... soyez honnêtes comme Yusuf, même si c'est difficile. Faites confiance à Allah, même quand il fait sombre comme dans un puits.",
+   "match": 0.893
+  },
+  {
+   "id": "s8a",
+   "text": "Et pardonnez aux autres, tout comme Yusuf a pardonné à ses frères.",
+   "match": 0.833
+  },
+  {
+   "id": "s8b",
+   "text": "Et la prochaine fois, je vous parlerai d'Ayyub... un prophète qui est tombé très malade et qui est quand même resté patient.",
+   "match": 0.913
+  },
+  {
+   "id": "s8b",
+   "text": "Et toi qui regardes en ce moment : si tu as aimé cette histoire, demande à tes parents s'ils peuvent s'abonner à notre chaîne. Comme ça, tu ne rateras pas la prochaine histoire. Dormez bien, mes chéris.",
+   "match": 0.921
+  },
+  {
+   "id": "s8b",
+   "text": "Qu'Allah vous protège.",
+   "match": 0.5
+  }
+ ],
+ "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge11_yusuf/folge11_yusuf_fr.mp3"
+}
