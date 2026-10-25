@@ -13,7 +13,7 @@ yel = np.zeros((h, w), bool); sub = cv2.inRange(hsv[y0:y1, x0:x1], (18, 150, 200
 yel[y0:y1, x0:x1] = sub
 open(f"{o}/bbox.txt", "w").write(f"{x0} {y0} {x1} {y1}\n")
 pad = 12
-mask = np.zeros((h, w), np.uint8); mask[y0 - pad:y1 + pad, x0 - pad:x1 + pad] = 255
+mask = np.zeros((h, w), np.uint8); mask[452:604, 908:1250] = 255
 clean = cv2.inpaint(im, mask, 9, cv2.INPAINT_TELEA)
 pil = Image.fromarray(cv2.cvtColor(clean, cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil)
 # sample letter colour
@@ -26,10 +26,9 @@ while True:
     bb = d.textbbox((0, 0), txt, font=font, stroke_width=6)
     if bb[2] - bb[0] <= 470 or size < 40: break
     size -= 4; font = ImageFont.truetype("/tmp/pop.ttf", size)
-bb = d.textbbox((0, 0), txt, font=font)
-tw, th = bb[2] - bb[0], bb[3] - bb[1]
-X = x1 - tw - bb[0]          # keep right edge
-Y = y1 - th - bb[1]          # keep baseline/bottom
+bb = d.textbbox((0, 0), txt, font=font, stroke_width=7)
+X = 1236 - bb[2]             # right edge like the original word (incl. outline)
+Y = 584 - bb[3]              # bottom edge like the original word (incl. outline)
 d.text((X, Y), txt, font=font, fill=col, stroke_width=7, stroke_fill=(38, 18, 48))
 pil.save(f"{o}/thumb_noah.jpg", quality=92)
 print("bbox", x0, y0, x1, y1, "color", col, "size", size)
