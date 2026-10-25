@@ -7,7 +7,9 @@
       "fr": "Noah",
       "tr": "Nuh",
       "en": "Noah",
-      "note": "ar per owner 25.10.2026; de TTS must not say 'Nu'"
+      "note": "ar per owner 25.10.2026; de TTS must not say 'Nu'",
+      "bs": "Noah",
+      "sq": "Noah"
     },
     "ilyas": {
       "ar": "إِلْيَاسُ",
@@ -15,7 +17,9 @@
       "fr": "Ilyas",
       "tr": "İlyas",
       "en": "Ilyas",
-      "note": "never 'Elias' in de/fr/en (past error)"
+      "note": "never 'Elias' in de/fr/en (past error)",
+      "bs": "Ilyas",
+      "sq": "Ilyas"
     },
     "oma": {
       "ar": "جَدَّتِي / تيتا كرموشة",
@@ -23,7 +27,9 @@
       "fr": "Mamie Karmoucha",
       "tr": "Karmuşa Nine",
       "en": "Grandma Karmoucha",
-      "note": "OWNER TO CONFIRM non-ar/de forms"
+      "note": "OWNER TO CONFIRM non-ar/de forms",
+      "bs": "nena Karmoucha",
+      "sq": "gjyshja Karmoucha"
     }
   },
   "prophets": {
@@ -47,7 +53,9 @@
       "fr": "Noah",
       "tr": "Nuh",
       "en": "Noah",
-      "note": "Owner 25.10.2026: the prophet is named like the child Noah ('مثل الطفل'): de/fr/en Noah, ar نوح, tr Nuh. Replaces de 'Nuh'. TTS must never say 'Nu'."
+      "note": "Owner 25.10.2026: the prophet is named like the child Noah ('مثل الطفل'): de/fr/en Noah, ar نوح, tr Nuh. Replaces de 'Nuh'. TTS must never say 'Nu'.",
+      "bs": "Noah",
+      "sq": "Noah"
     },
     "hud": {
       "ar": "هُود",
@@ -68,7 +76,9 @@
       "de": "Ibrahim",
       "fr": "Ibrahim",
       "tr": "İbrahim",
-      "en": "Ibrahim"
+      "en": "Ibrahim",
+      "bs": "Ibrahim",
+      "sq": "Ibrahim"
     },
     "lut": {
       "ar": "لُوط",
@@ -82,28 +92,36 @@
       "de": "Ismail",
       "fr": "Ismaïl",
       "tr": "İsmail",
-      "en": "Ismail"
+      "en": "Ismail",
+      "bs": "Ismail",
+      "sq": "Ismail"
     },
     "ishaq": {
       "ar": "إِسْحَاق",
       "de": "Ishaq",
       "fr": "Ishaq",
       "tr": "İshak",
-      "en": "Ishaq"
+      "en": "Ishaq",
+      "bs": "Ishak",
+      "sq": "Is'hak"
     },
     "yaqub": {
       "ar": "يَعْقُوب",
       "de": "Yaqub",
       "fr": "Yaqoub",
       "tr": "Yakub",
-      "en": "Yaqub"
+      "en": "Yaqub",
+      "bs": "Jakub",
+      "sq": "Jakub"
     },
     "yusuf": {
       "ar": "يُوسُف",
       "de": "Yusuf",
       "fr": "Youssouf",
       "tr": "Yusuf",
-      "en": "Yusuf"
+      "en": "Yusuf",
+      "bs": "Jusuf",
+      "sq": "Jusuf"
     },
     "ayyub": {
       "ar": "أَيُّوب",
@@ -212,5 +230,6 @@
     "de: Jakub instead of Yaqub",
     "de: Ishmael instead of Ismail",
     "ar: نُوا instead of نُوح (fixed 25.10)"
-  ]
+  ],
+  "_proposed_bs_sq": "bs/sq forms added 25.10.2026 as PROPOSALS (H51) – owner + human native reviewer to confirm before any recording"
 }
