@@ -45,7 +45,7 @@ TOWER = (51.0, 85.6)
 rep["h5_crop_window"] = TOWER
 fc = (f"[0:v]split[s0][s1];[s1]crop=iw*0.82:ih*0.82:0:ih*0.09,scale=1920:1080,setsar=1[cz];"
       f"[s0][cz]overlay=0:0:enable='between(t,{TOWER[0]},{TOWER[1]})'[vfix];[vfix]split[va][vb];"
-      f"[va]trim=0:{c0},setpts=PTS-STARTPTS[v1];[vb]trim={c1},setpts=PTS-STARTPTS[v2];[0:v]trim={c1},setpts=PTS-STARTPTS[v2];"
+      f"[va]trim=0:{c0},setpts=PTS-STARTPTS[v1];[vb]trim={c1},setpts=PTS-STARTPTS[v2];"
       f"[0:a]atrim=0:{c0},asetpts=PTS-STARTPTS,afade=t=out:st={c0-0.015}:d=0.015[a1];"
       f"[0:a]atrim={c1},asetpts=PTS-STARTPTS,afade=t=in:d=0.015[a2];"
       f"[v1][a1][v2][a2]concat=n=2:v=1:a=1[v][a];"
