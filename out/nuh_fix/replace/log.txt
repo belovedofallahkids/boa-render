@@ -27,9 +27,21 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
   232.9,
   233.3
  ],
- "h5_crop_window": [
-  51.0,
-  85.6
+ "h5_crops": [
+  [
+   [
+    51.0,
+    85.6
+   ],
+   "iw*0.82:ih*0.82:0:ih*0.09"
+  ],
+  [
+   [
+    159.3,
+    172.3
+   ],
+   "iw*0.62:ih*0.62:iw*0.38:ih*0.30"
+  ]
  ],
  "ffmpeg_err": "",
  "final_duration": "341.200000",
