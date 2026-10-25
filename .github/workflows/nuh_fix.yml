@@ -11,7 +11,7 @@ jobs:
         with: {python-version: "3.11"}
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
       - run: pip install -q faster-whisper==1.1.1 av==12.3.0
-      - run: python3 tools/nuh_cut_test.py
+      - run: python3 tools/nuh_cut_test.py 2>&1 | tee /tmp/l.txt; mkdir -p out/nuh_fix; tail -c 3000 /tmp/l.txt > out/nuh_fix/log.txt
       - if: always()
         run: |
           git config user.name "boa-render-bot"

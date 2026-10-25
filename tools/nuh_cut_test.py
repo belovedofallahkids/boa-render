@@ -5,7 +5,9 @@ import json, os, subprocess, urllib.request
 URL = "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge03_nuh_alt_ton_mit_schrittenm4a-K5ddGJhffjV.m4a"
 OUT = "out/nuh_fix"; os.makedirs(OUT, exist_ok=True)
 src = "/tmp/nuh260.m4a"
-urllib.request.urlretrieve(URL, src)
+req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
+with urllib.request.urlopen(req, timeout=300) as r, open(src, "wb") as f:
+    f.write(r.read())
 WINDOWS = [(232.95, 233.22), (232.98, 233.24), (232.93, 233.25), (233.00, 233.20)]
 from faster_whisper import WhisperModel
 m = WhisperModel("medium", device="cpu", compute_type="int8")
