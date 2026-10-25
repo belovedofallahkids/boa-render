@@ -1,14 +1,51 @@
-Traceback (most recent call last):
-  File "/home/runner/work/boa-render/boa-render/tools/nuh_replace.py", line 34, in <module>
-    best = max((np.corrcoef(envl(xo, 200 + l / 100, 260 + l / 100)[:len(e6)], e6)[0, 1], l / 100) for l in range(-300, 301))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/boa-render/boa-render/tools/nuh_replace.py", line 34, in <genexpr>
-    best = max((np.corrcoef(envl(xo, 200 + l / 100, 260 + l / 100)[:len(e6)], e6)[0, 1], l / 100) for l in range(-300, 301))
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py", line 3015, in corrcoef
-    c = cov(x, y, rowvar, dtype=dtype)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py", line 2823, in cov
-    X = np.concatenate((X, y), axis=0)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 5999 and the array at index 1 has size 6000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{
+ "orig_probe": {
+  "duration": "336.500000",
+  "streams": [
+   {
+    "codec_type": "video",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "sample_rate": null
+   },
+   {
+    "codec_type": "audio",
+    "codec_name": "aac",
+    "width": null,
+    "height": null,
+    "r_frame_rate": "0/0",
+    "sample_rate": "44100"
+   }
+  ]
+ },
+ "offset_orig_minus_260": 0.0,
+ "offset_corr": 1.0,
+ "cut_in_orig": [
+  232.9,
+  233.3
+ ],
+ "ffmpeg_err": "",
+ "final_duration": "341.200000",
+ "loudness": [
+  "I:         -14.1 LUFS",
+  "LRA:         4.5 LU"
+ ],
+ "silences_over_2.5s": [
+  "silence_start: 336.175708",
+  "silence_end: 341.216417 | silence_duration: 5.040708"
+ ],
+ "black": [
+  "black_start:0 black_end:1 black_duration:1"
+ ],
+ "joint_text": [
+  " 223.02 bleibt nicht bei denen, die nicht glauben.",
+  " 227.18 Aber der Sohn rief,",
+  " 229.62 Ich gehe auf einen Berg,",
+  " 232.18 der schützt vor dem Wasser.",
+  " 235.76 Nu antwortete,",
+  " 238.52 Heute schützt nichts vor Allahs Befehl,"
+ ]
+}
