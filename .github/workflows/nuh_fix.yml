@@ -10,8 +10,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
-      - run: pip install -q faster-whisper==1.1.1 av==12.3.0 requests
-      - run: python3 tools/nuh_scenes.py 2>&1 | tee /tmp/l.txt; mkdir -p out/nuh_fix; tail -c 3000 /tmp/l.txt > out/nuh_fix/log.txt
+      - run: pip install -q faster-whisper==1.1.1 av==12.3.0 requests opencv-python-headless pillow numpy
+      - run: python3 tools/nuh_thumb_noah.py 2>&1 | tee /tmp/l.txt; mkdir -p out/nuh_fix; tail -c 3000 /tmp/l.txt > out/nuh_fix/log.txt
       - if: always()
         run: |
           git config user.name "boa-render-bot"
