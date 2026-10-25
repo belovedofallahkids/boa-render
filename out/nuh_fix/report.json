@@ -7,18 +7,26 @@
   },
   {
    "cut": [
-    232.95,
-    233.22
+    232.9,
+    233.3
    ],
-   "file": "out/nuh_fix/cut_232.95_233.22.mp3",
+   "file": "out/nuh_fix/cut_232.90_233.30.mp3",
    "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
   },
   {
    "cut": [
-    232.98,
-    233.24
+    232.9,
+    233.2
    ],
-   "file": "out/nuh_fix/cut_232.98_233.24.mp3",
+   "file": "out/nuh_fix/cut_232.90_233.20.mp3",
+   "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
+  },
+  {
+   "cut": [
+    232.9,
+    233.25
+   ],
+   "file": "out/nuh_fix/cut_232.90_233.25.mp3",
    "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
   },
   {
@@ -27,14 +35,6 @@
     233.25
    ],
    "file": "out/nuh_fix/cut_232.93_233.25.mp3",
-   "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
-  },
-  {
-   "cut": [
-    233.0,
-    233.2
-   ],
-   "file": "out/nuh_fix/cut_233.00_233.20.mp3",
    "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
   }
  ],
