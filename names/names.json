@@ -1,0 +1,215 @@
+{
+ "_rule": "H37: one fixed spelling per name per language. Never improvise. Before a full episode in a new language/voice, record a names test line and get owner approval. Proof-listen every name in the final audio.",
+ "kids_and_narrator": {
+  "noah": {
+   "ar": "نُوحُ",
+   "de": "Noah",
+   "fr": "Noah",
+   "tr": "Nuh",
+   "en": "Noah",
+   "note": "ar per owner 25.10.2026; de TTS must not say 'Nu'"
+  },
+  "ilyas": {
+   "ar": "إِلْيَاسُ",
+   "de": "Ilyas",
+   "fr": "Ilyas",
+   "tr": "İlyas",
+   "en": "Ilyas",
+   "note": "never 'Elias' in de/fr/en (past error)"
+  },
+  "oma": {
+   "ar": "جَدَّتِي / تيتا كرموشة",
+   "de": "Oma Karmoucha",
+   "fr": "Mamie Karmoucha",
+   "tr": "Karmuşa Nine",
+   "en": "Grandma Karmoucha",
+   "note": "OWNER TO CONFIRM non-ar/de forms"
+  }
+ },
+ "prophets": {
+  "adam": {
+   "ar": "آدَم",
+   "de": "Adam",
+   "fr": "Adam",
+   "tr": "Âdem",
+   "en": "Adam"
+  },
+  "idris": {
+   "ar": "إِدْرِيس",
+   "de": "Idris",
+   "fr": "Idris",
+   "tr": "İdris",
+   "en": "Idris"
+  },
+  "nuh": {
+   "ar": "نُوح",
+   "de": "Nuh",
+   "fr": "Nouh",
+   "tr": "Nuh",
+   "en": "Nuh"
+  },
+  "hud": {
+   "ar": "هُود",
+   "de": "Hud",
+   "fr": "Houd",
+   "tr": "Hûd",
+   "en": "Hud"
+  },
+  "salih": {
+   "ar": "صَالِح",
+   "de": "Salih",
+   "fr": "Salih",
+   "tr": "Salih",
+   "en": "Salih"
+  },
+  "ibrahim": {
+   "ar": "إِبْرَاهِيم",
+   "de": "Ibrahim",
+   "fr": "Ibrahim",
+   "tr": "İbrahim",
+   "en": "Ibrahim"
+  },
+  "lut": {
+   "ar": "لُوط",
+   "de": "Lut",
+   "fr": "Lout",
+   "tr": "Lût",
+   "en": "Lut"
+  },
+  "ismail": {
+   "ar": "إِسْمَاعِيل",
+   "de": "Ismail",
+   "fr": "Ismaïl",
+   "tr": "İsmail",
+   "en": "Ismail"
+  },
+  "ishaq": {
+   "ar": "إِسْحَاق",
+   "de": "Ishaq",
+   "fr": "Ishaq",
+   "tr": "İshak",
+   "en": "Ishaq"
+  },
+  "yaqub": {
+   "ar": "يَعْقُوب",
+   "de": "Yaqub",
+   "fr": "Yaqoub",
+   "tr": "Yakub",
+   "en": "Yaqub"
+  },
+  "yusuf": {
+   "ar": "يُوسُف",
+   "de": "Yusuf",
+   "fr": "Youssouf",
+   "tr": "Yusuf",
+   "en": "Yusuf"
+  },
+  "ayyub": {
+   "ar": "أَيُّوب",
+   "de": "Ayyub",
+   "fr": "Ayyoub",
+   "tr": "Eyyûb",
+   "en": "Ayyub"
+  },
+  "shuaib": {
+   "ar": "شُعَيْب",
+   "de": "Shuaib",
+   "fr": "Chouaïb",
+   "tr": "Şuayb",
+   "en": "Shuaib"
+  },
+  "musa": {
+   "ar": "مُوسَى",
+   "de": "Musa",
+   "fr": "Moussa",
+   "tr": "Mûsâ",
+   "en": "Musa"
+  },
+  "harun": {
+   "ar": "هَارُون",
+   "de": "Harun",
+   "fr": "Haroun",
+   "tr": "Hârûn",
+   "en": "Harun"
+  },
+  "dhulkifl": {
+   "ar": "ذُو الْكِفْل",
+   "de": "Dhul-Kifl",
+   "fr": "Dhoul-Kifl",
+   "tr": "Zülkifl",
+   "en": "Dhul-Kifl"
+  },
+  "dawud": {
+   "ar": "دَاوُود",
+   "de": "Dawud",
+   "fr": "Dawoud",
+   "tr": "Dâvûd",
+   "en": "Dawud"
+  },
+  "sulaiman": {
+   "ar": "سُلَيْمَان",
+   "de": "Sulaiman",
+   "fr": "Souleymane",
+   "tr": "Süleyman",
+   "en": "Sulaiman"
+  },
+  "ilyas_prophet": {
+   "ar": "إِلْيَاس",
+   "de": "Ilyas",
+   "fr": "Ilyas",
+   "tr": "İlyas",
+   "en": "Ilyas"
+  },
+  "alyasa": {
+   "ar": "الْيَسَع",
+   "de": "Al-Yasa",
+   "fr": "Al-Yasa'",
+   "tr": "Elyesa",
+   "en": "Al-Yasa"
+  },
+  "yunus": {
+   "ar": "يُونُس",
+   "de": "Yunus",
+   "fr": "Younous",
+   "tr": "Yunus",
+   "en": "Yunus"
+  },
+  "zakariya": {
+   "ar": "زَكَرِيَّا",
+   "de": "Zakariya",
+   "fr": "Zakariya",
+   "tr": "Zekeriyya",
+   "en": "Zakariya"
+  },
+  "yahya": {
+   "ar": "يَحْيَى",
+   "de": "Yahya",
+   "fr": "Yahya",
+   "tr": "Yahya",
+   "en": "Yahya"
+  },
+  "isa": {
+   "ar": "عِيسَى",
+   "de": "Isa",
+   "fr": "Issa",
+   "tr": "İsa",
+   "en": "Isa"
+  },
+  "muhammad": {
+   "ar": "مُحَمَّد ﷺ",
+   "de": "Muhammad ﷺ",
+   "fr": "Muhammad ﷺ",
+   "tr": "Muhammed ﷺ",
+   "en": "Muhammad ﷺ"
+  }
+ },
+ "known_tts_errors": [
+  "de: Elias instead of Ilyas",
+  "de: Omar",
+  "de: Nu instead of Nuh/Noah",
+  "de: Isaak instead of Ishaq",
+  "de: Jakub instead of Yaqub",
+  "de: Ishmael instead of Ismail",
+  "ar: نُوا instead of نُوح (fixed 25.10)"
+ ]
+}
