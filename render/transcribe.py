@@ -43,7 +43,7 @@ def main():
     except ImportError:
         if "--installed" in sys.argv:
             raise
-        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "faster-whisper==1.1.1", "av==12.3.0"], check=True)
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "faster-whisper==1.1.1", "av==12.3.0", "requests"], check=True)
         # start again so the freshly installed package is on the import path
         os.execv(sys.executable, [sys.executable, os.path.abspath(__file__), "--installed"])
 
