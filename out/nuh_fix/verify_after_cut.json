@@ -1,0 +1,21 @@
+{
+ "corr": 0.9712,
+ "lag": -0.072,
+ "removed_in_260": [
+  233.052,
+  233.386
+ ],
+ "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt mir dem Wasser.",
+ "words_260_touched": [
+  [
+   "232.980",
+   "233.240",
+   "nicht"
+  ],
+  [
+   "233.240",
+   "233.480",
+   "vor"
+  ]
+ ]
+}
