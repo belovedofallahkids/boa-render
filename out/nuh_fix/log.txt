@@ -7,34 +7,34 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
  },
  {
   "cut": [
-   232.9,
-   233.3
+   233.0,
+   233.333
   ],
-  "file": "out/nuh_fix/cut_232.90_233.30.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
+  "file": "out/nuh_fix/cut_233.00_233.33.mp3",
+  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt mir dem Wasser."
  },
  {
   "cut": [
-   232.9,
-   233.2
+   233.0,
+   233.367
   ],
-  "file": "out/nuh_fix/cut_232.90_233.20.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
+  "file": "out/nuh_fix/cut_233.00_233.37.mp3",
+  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt mit dem Wasser."
  },
  {
   "cut": [
-   232.9,
-   233.25
+   232.967,
+   233.367
   ],
-  "file": "out/nuh_fix/cut_232.90_233.25.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
+  "file": "out/nuh_fix/cut_232.97_233.37.mp3",
+  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt dem Wasser."
  },
  {
   "cut": [
-   232.93,
-   233.25
+   233.033,
+   233.367
   ],
-  "file": "out/nuh_fix/cut_232.93_233.25.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
+  "file": "out/nuh_fix/cut_233.03_233.37.mp3",
+  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt mit dem Wasser."
  }
 ]
