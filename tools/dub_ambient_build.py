@@ -42,7 +42,7 @@ for (k,a,b,t) in pieces:
     flt.append(f'[{idx}]aresample=48000,aformat=channel_layouts=stereo,atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.03,afade=t=out:st={max(0,b-a-0.05):.3f}:d=0.05,adelay={int(t*1000)}|{int(t*1000)}[v{idx}]'); idx+=1
 flt.append(''.join(f'[b{i}]' for i in range(nb))+f'amix=inputs={nb}:normalize=0,atrim=0:{T}[amb]')
 flt.append(''.join(f'[v{i}]' for i in range(nb,idx))+f'amix=inputs={idx-nb}:normalize=0,apad=whole_dur={T},atrim=0:{T},asplit[voice][key]')
-flt.append('[amb][key]sidechaincompress=threshold=0.03:ratio=4:attack=60:release=600[ambd]')
+flt.append('[amb]equalizer=f=2500:t=q:w=1.2:g=-8,equalizer=f=1000:t=q:w=1:g=-4[ambe];[ambe][key]sidechaincompress=threshold=0.01:ratio=20:attack=30:release=900:makeup=1[ambd]')
 flt.append(f'[voice][ambd]amix=inputs=2:normalize=0,afade=t=out:st={T-1}:d=1[m]')
 run(['ffmpeg','-y',*inputs,'-filter_complex',';'.join(flt),'-map','[m]','-ar','48000',f'{D}/mix2_raw.wav'])
 print(' '.join(report))
