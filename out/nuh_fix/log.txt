@@ -1,40 +1,43 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[
- {
-  "cut": null,
-  "file": "out/nuh_fix/orig_226_236.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt nicht vor dem Wasser."
- },
- {
-  "cut": [
-   233.0,
-   233.333
-  ],
-  "file": "out/nuh_fix/cut_233.00_233.33.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt mir dem Wasser."
- },
- {
-  "cut": [
-   233.0,
-   233.367
-  ],
-  "file": "out/nuh_fix/cut_233.00_233.37.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt mit dem Wasser."
- },
- {
-  "cut": [
-   232.967,
-   233.367
-  ],
-  "file": "out/nuh_fix/cut_232.97_233.37.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt dem Wasser."
- },
- {
-  "cut": [
-   233.033,
-   233.367
-  ],
-  "file": "out/nuh_fix/cut_233.03_233.37.mp3",
-  "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt mit dem Wasser."
- }
-]
+{
+ "corr": 0.9975,
+ "lag_s(260 = published + lag)": -0.088,
+ "tests": [
+  {
+   "published_cut": [
+    233.021,
+    233.355
+   ],
+   "in_260": [
+    232.933,
+    233.267
+   ],
+   "file": "out/nuh_fix/editor_cut_233.021_233.355.mp3",
+   "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
+  },
+  {
+   "published_cut": [
+    233.021,
+    233.388
+   ],
+   "in_260": [
+    232.933,
+    233.3
+   ],
+   "file": "out/nuh_fix/editor_cut_233.021_233.388.mp3",
+   "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
+  },
+  {
+   "published_cut": [
+    232.988,
+    233.355
+   ],
+   "in_260": [
+    232.9,
+    233.267
+   ],
+   "file": "out/nuh_fix/editor_cut_232.988_233.355.mp3",
+   "text": "Aber der Sohn rief, ich gehe auf einen Berg, der schützt vor dem Wasser."
+  }
+ ]
+}
