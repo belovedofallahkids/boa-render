@@ -9,6 +9,7 @@ probe=lambda f: float(subprocess.check_output(['ffprobe','-v','error','-show_ent
 import os
 OPEN=f'{D}/open.mp3' if os.path.exists(f'{D}/open.mp3') else None
 CLOSE=f'{D}/close.mp3' if os.path.exists(f'{D}/close.mp3') else None
+FINAL=f'{D}/final.mp3' if os.path.exists(f'{D}/final.mp3') else None  # replaces s7b after the cut (owner: أستودعكم الله)
 GMAX=2.4
 pieces=[]; rep=[]; resid=[]
 SHARE={'s4c':'s4d'}; carry=None
@@ -42,6 +43,8 @@ for i,s in enumerate(segs):
         pieces.append((f'{D}/{k}.mp3',prev,c,t)); t+=c-prev
         if c in [x for x,_ in extra]:
             cd=dict(extra)[c]; t+=0.9; pieces.append((CLOSE,0,cd,t)); t+=cd+0.9
+            if FINAL:
+                fd=probe(FINAL); pieces.append((FINAL,0,fd,t)); t+=fd; break
         elif c!=dur[k]: t+=g
         prev=c
     if XA:
