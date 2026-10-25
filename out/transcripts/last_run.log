@@ -1,16 +1,6 @@
 
 [notice] A new release of pip is available: 26.2.1 -> 26.2.2
 [notice] To update, run: pip install --upgrade pip
-Traceback (most recent call last):
-  File "/home/runner/work/boa-render/boa-render/render/transcribe.py", line 91, in <module>
-    main()
-  File "/home/runner/work/boa-render/boa-render/render/transcribe.py", line 42, in main
-    from faster_whisper import WhisperModel  # noqa: E402
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/faster_whisper/__init__.py", line 2, in <module>
-    from faster_whisper.transcribe import BatchedInferencePipeline, WhisperModel
-  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/faster_whisper/transcribe.py", line 22, in <module>
-    from faster_whisper.utils import download_model, format_timestamp, get_end, get_logger
-  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/faster_whisper/utils.py", line 8, in <module>
-    import requests
-ModuleNotFoundError: No module named 'requests'
+transcribed folge10_yaqub_ar_s3d_v2 34 words
+transcribed folge10_yaqub_ar_s4a_v2 34 words
+transcribed folge10_yaqub_ar_s5a_v2 25 words
