@@ -1,0 +1,26 @@
+{
+ "plan_c": {
+  "cut_260": [
+   231.764,
+   235.0
+  ],
+  "text": "bleibt nicht bei denen, die nicht glauben. Aber der Sohn rief, ich gehe auf einen Berg. Nu antwortete, heute schützt nichts vor Allers Befehl, außer seiner Barmherzigkeit.",
+  "silences": []
+ },
+ "plan_c_early": {
+  "cut_260": [
+   231.6,
+   234.7
+  ],
+  "text": "bleibt nicht bei denen, die nicht glauben. Aber der Sohn rief, ich gehe auf einen Berg. Nu antwortete, heute schützt nichts vor Allersbefehl, außer seiner Barmherzigkeit.",
+  "silences": []
+ },
+ "plan_c_late": {
+  "cut_260": [
+   231.95,
+   235.3
+  ],
+  "text": "bleibt nicht bei denen, die nicht glauben. Aber der Sohn rief, ich gehe auf einen Berg. Nu antwortete, heute schützt nichts vor Allersbefehl, außer seiner Barmherzigkeit.",
+  "silences": []
+ }
+}
