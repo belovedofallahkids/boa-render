@@ -21,7 +21,7 @@ jobs:
           f=out/nuh_fix/replace/folge03_nuh_v2.mp4
           if [ -f "$f" ]; then
             gh release view folge03_nuh_v2 >/dev/null 2>&1 || gh release create folge03_nuh_v2 -t "Folge 03 Nuh v2 (Ersatz, H16)" -n "Ersatz für KRlC8t0bHcA: 'nicht' (Hud 43) entfernt, Anfang vollständig."
-            gh release upload folge03_nuh_v2 "$f" out/nuh_fix/replace/contact.jpg out/nuh_fix/replace/joint_check.mp3 --clobber
+            gh release upload folge03_nuh_v2 "$f" out/nuh_fix/replace/contact.jpg out/nuh_fix/replace/joint_check.mp3 out/nuh_fix/replace/h5_crop_check.jpg --clobber
             rm "$f"
           fi
       - if: always()
