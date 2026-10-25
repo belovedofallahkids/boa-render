@@ -1,45 +1,16 @@
-  error: subprocess-exited-with-error
-  
-  × Getting requirements to build wheel did not run successfully.
-  │ exit code: 1
-  ╰─> [11 lines of output]
-      Package libavformat was not found in the pkg-config search path.
-      Perhaps you should add the directory containing `libavformat.pc'
-      to the PKG_CONFIG_PATH environment variable
-      Package 'libavformat' not found
-      Package 'libavcodec' not found
-      Package 'libavdevice' not found
-      Package 'libavutil' not found
-      Package 'libavfilter' not found
-      Package 'libswscale' not found
-      Package 'libswresample' not found
-      pkg-config could not find libraries ['avformat', 'avcodec', 'avdevice', 'avutil', 'avfilter', 'swscale', 'swresample']
-      [end of output]
-  
-  note: This error originates from a subprocess, and is likely not a problem with pip.
-error: subprocess-exited-with-error
 
-× Getting requirements to build wheel did not run successfully.
-│ exit code: 1
-╰─> See above for output.
-
-note: This error originates from a subprocess, and is likely not a problem with pip.
-Traceback (most recent call last):
-  File "/home/runner/work/boa-render/boa-render/render/transcribe.py", line 39, in main
-    import av  # noqa: F401
-    ^^^^^^^^^
-ModuleNotFoundError: No module named 'av'
-
-During handling of the above exception, another exception occurred:
-
+[notice] A new release of pip is available: 26.2.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip
 Traceback (most recent call last):
   File "/home/runner/work/boa-render/boa-render/render/transcribe.py", line 91, in <module>
     main()
-    ~~~~^^
-  File "/home/runner/work/boa-render/boa-render/render/transcribe.py", line 46, in main
-    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "faster-whisper==1.1.1", "av==12.3.0"], check=True)
-    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.14/subprocess.py", line 578, in run
-    raise CalledProcessError(retcode, process.args,
-                             output=stdout, stderr=stderr)
-subprocess.CalledProcessError: Command '['/usr/bin/python3', '-m', 'pip', 'install', '-q', 'faster-whisper==1.1.1', 'av==12.3.0']' returned non-zero exit status 1.
+  File "/home/runner/work/boa-render/boa-render/render/transcribe.py", line 42, in main
+    from faster_whisper import WhisperModel  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/faster_whisper/__init__.py", line 2, in <module>
+    from faster_whisper.transcribe import BatchedInferencePipeline, WhisperModel
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/faster_whisper/transcribe.py", line 22, in <module>
+    from faster_whisper.utils import download_model, format_timestamp, get_end, get_logger
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/faster_whisper/utils.py", line 8, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
