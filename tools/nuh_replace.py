@@ -40,11 +40,18 @@ c0, c1 = 232.90 + best[1], 233.30 + best[1]          # cut in original-video tim
 rep["cut_in_orig"] = [round(c0, 3), round(c1, 3)]
 dur = float(probe["format"]["duration"])
 # build: video [0,c0] + [c1,end] ; then tail 5 s of last frame + 1 s fade ; audio with 15 ms fades at the joint
-# H5: minaret-like tower at the right edge of the city image (Nuh's people, 0:52-1:24) -> crop it away, scale back
-TOWER = (51.0, 85.6)
-rep["h5_crop_window"] = TOWER
-fc = (f"[0:v]split[s0][s1];[s1]crop=iw*0.82:ih*0.82:0:ih*0.09,scale=1920:1080,setsar=1[cz];"
-      f"[s0][cz]overlay=0:0:enable='between(t,{TOWER[0]},{TOWER[1]})'[vfix];[vfix]split[va][vb];"
+# H5 (1): minaret-like tower at the right edge of the city image (Nuh's people, 0:52-1:24)
+# H5 (2): church-style bell tower behind the oven (2:39-2:52) -> keep only the lower right part (oven + water)
+CROPS = [((51.0, 85.6), "iw*0.82:ih*0.82:0:ih*0.09"),
+         ((159.3, 172.3), "iw*0.62:ih*0.62:iw*0.38:ih*0.30")]
+rep["h5_crops"] = CROPS
+parts = ["[0:v]split=3[s0][s1][s2]"]
+for k, ((a, b), c) in enumerate(CROPS):
+    parts.append(f"[s{k+1}]crop={c},scale=1920:1080,setsar=1[cz{k}]")
+parts.append(f"[s0][cz0]overlay=0:0:enable='between(t,{CROPS[0][0][0]},{CROPS[0][0][1]})'[o0]")
+parts.append(f"[o0][cz1]overlay=0:0:enable='between(t,{CROPS[1][0][0]},{CROPS[1][0][1]})'[vfix]")
+parts.append("[vfix]split[va][vb]")
+fc = (";".join(parts) + ";"
       f"[va]trim=0:{c0},setpts=PTS-STARTPTS[v1];[vb]trim={c1},setpts=PTS-STARTPTS[v2];"
       f"[0:a]atrim=0:{c0},asetpts=PTS-STARTPTS,afade=t=out:st={c0-0.015}:d=0.015[a1];"
       f"[0:a]atrim={c1},asetpts=PTS-STARTPTS,afade=t=in:d=0.015[a2];"
@@ -53,9 +60,9 @@ fc = (f"[0:v]split[s0][s1];[s1]crop=iw*0.82:ih*0.82:0:ih*0.09,scale=1920:1080,se
       f"[a]apad=pad_dur=5,loudnorm=I=-14:TP=-1.5:LRA=11[ao]")
 r = run("ffmpeg", "-y", "-loglevel", "error", "-i", "/tmp/orig.mp4", "-filter_complex", fc, "-map", "[vo]", "-map", "[ao]",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-r", "30", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
-        "-movflags", "+faststart", f"{OUT}/folge03_nuh_v2.mp4")
+        "-movflags", "+faststart", f"{OUT}/folge03_nuh_v3.mp4")
 rep["ffmpeg_err"] = r.stderr[-1500:]
-F = f"{OUT}/folge03_nuh_v2.mp4"
+F = f"{OUT}/folge03_nuh_v3.mp4"
 rep["final_duration"] = run("ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", F).stdout.strip()
 lo = run("ffmpeg", "-i", F, "-af", "ebur128", "-f", "null", "-").stderr
 rep["loudness"] = [l.strip() for l in lo.splitlines()[-12:] if "I:" in l or "LRA:" in l or "Peak" in l]
@@ -65,6 +72,7 @@ os.makedirs(f"{OUT}/frames", exist_ok=True)
 run("ffmpeg", "-y", "-loglevel", "error", "-i", F, "-vf", "fps=1/10,scale=480:-1", f"{OUT}/frames/f_%03d.jpg")
 run("ffmpeg", "-y", "-loglevel", "error", "-i", F, "-vf", "fps=1/10,scale=320:-1,tile=6x6", "-frames:v", "1", f"{OUT}/contact.jpg")
 run("ffmpeg", "-y", "-loglevel", "error", "-ss", "49", "-to", "88", "-i", F, "-vf", "fps=1/2,scale=480:-1,tile=4x5", "-frames:v", "1", f"{OUT}/h5_crop_check.jpg")
+run("ffmpeg", "-y", "-loglevel", "error", "-ss", "157", "-to", "175", "-i", F, "-vf", "fps=1,scale=640:-1,tile=3x6", "-frames:v", "1", f"{OUT}/h5_crop_check2.jpg")
 run("ffmpeg", "-y", "-loglevel", "error", "-ss", str(c0 - 4), "-i", F, "-t", "8", "-vn", "-c:a", "libmp3lame", "-q:a", "3", f"{OUT}/joint_check.mp3")
 from faster_whisper import WhisperModel
 m = WhisperModel("medium", device="cpu", compute_type="int8")
