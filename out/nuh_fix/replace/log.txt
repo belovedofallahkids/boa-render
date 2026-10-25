@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/runner/work/boa-render/boa-render/tools/nuh_replace.py", line 34, in <module>
+    best = max((np.corrcoef(envl(xo, 200 + l / 100, 260 + l / 100)[:len(e6)], e6)[0, 1], l / 100) for l in range(-300, 301))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/boa-render/boa-render/tools/nuh_replace.py", line 34, in <genexpr>
+    best = max((np.corrcoef(envl(xo, 200 + l / 100, 260 + l / 100)[:len(e6)], e6)[0, 1], l / 100) for l in range(-300, 301))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py", line 3015, in corrcoef
+    c = cov(x, y, rowvar, dtype=dtype)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py", line 2823, in cov
+    X = np.concatenate((X, y), axis=0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 5999 and the array at index 1 has size 6000
