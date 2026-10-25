@@ -1,0 +1,27 @@
+name: yt_check
+on:
+  workflow_dispatch:
+    inputs:
+      video: {description: "YouTube video id", required: true}
+      name: {description: "output name", required: true}
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q yt-dlp faster-whisper==1.1.1 av==12.3.0
+      - run: python3 tools/yt_check.py "${{ github.event.inputs.video }}" "${{ github.event.inputs.name }}"
+      - if: always()
+        run: |
+          git config user.name "boa-render-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out || true
+          git diff --cached --quiet && exit 0
+          git commit -m "yt_check ${{ github.event.inputs.name }} [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 6; done
