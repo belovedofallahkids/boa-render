@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/runner/work/boa-render/boa-render/tools/fetch_verses.py", line 13, in <module>
+    cands = [t for t in res if key in (t.get("author_name", "") + " " + t.get("name", "") + " " + t.get("slug", "")).lower()]
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
