@@ -1,0 +1,30 @@
+name: store
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "jobs/store/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  store:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and attach to release (H40)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dl
+          for f in jobs/store/*.json; do
+            rel=$(python3 -c "import json,sys;print(json.load(open('$f'))['release'])")
+            gh release view "$rel" >/dev/null 2>&1 || gh release create "$rel" -t "$rel" -n "permanent audio"
+            python3 -c "import json;[print(k,v) for k,v in json.load(open('$f'))['files'].items()]" | while read n u; do
+              if gh release view "$rel" --json assets -q '.assets[].name' | grep -qx "$n.mp3"; then echo "exists $n"; continue; fi
+              curl -fsSL "$u" -o "dl/$n.mp3" && gh release upload "$rel" "dl/$n.mp3" && echo "stored $n"
+            done
+          done

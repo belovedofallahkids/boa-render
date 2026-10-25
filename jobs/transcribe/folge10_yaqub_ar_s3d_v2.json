@@ -1,0 +1,7 @@
+{
+ "name": "folge10_yaqub_ar_s3d_v2",
+ "audio": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/iKbe7NhZdTNlYB2W6ne3/F3LGLr60b79izlXLfjQj/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T075137Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=4f47fca849cbf842d6ae9408d00d34e62b2acf631525b90713f644c701a0bd92d8b08e4a05f09f8dac354c8702a5b432fc3b3d3bee95b46ea0865999ef06bb1d07f1243bfeb166b7ba6a19394eba7714fbb87d1e75072e36dd1f3e9d429072779c9c87d3032f82974a26acc0d8794bf053d1f0c124fafb78564ff9f9cf23ffc8b9004a18b86d27080358431d256c9ab4168d4abf6ea7d170eefaaaa0b852c4502418cdbaabf9a7369be2bdc0fbd9da611626e72d515379fcce85201f915d787ab452975f6bfbabff963b948c75983478e664506644998b44ce86b0e05dc73e1b07a044be215f3c18dc18216e431cda20b79d94ff2eb2bd03617c6463597faa60",
+ "language": "ar",
+ "model": "medium",
+ "prompt": "الجدة تحكي لنُوح وإلياس قصة النبي يعقوب ويوسف وإبراهيم وإسحاق."
+}
