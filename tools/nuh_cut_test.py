@@ -8,7 +8,7 @@ src = "/tmp/nuh260.m4a"
 req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
 with urllib.request.urlopen(req, timeout=300) as r, open(src, "wb") as f:
     f.write(r.read())
-WINDOWS = [(232.95, 233.22), (232.98, 233.24), (232.93, 233.25), (233.00, 233.20)]
+WINDOWS = [(232.90, 233.30), (232.90, 233.20), (232.90, 233.25), (232.93, 233.25)]
 from faster_whisper import WhisperModel
 m = WhisperModel("medium", device="cpu", compute_type="int8")
 rep = []
