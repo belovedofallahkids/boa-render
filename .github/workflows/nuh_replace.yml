@@ -1,0 +1,34 @@
+name: nuh_replace
+on:
+  workflow_dispatch:
+    inputs:
+      url: {description: "original video download url", required: true}
+permissions: {contents: write}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q numpy faster-whisper==1.1.1 av==12.3.0 requests
+      - run: python3 tools/nuh_replace.py "${{ github.event.inputs.url }}" 2>&1 | tee /tmp/l.txt; mkdir -p out/nuh_fix/replace; tail -c 4000 /tmp/l.txt > out/nuh_fix/replace/log.txt
+      - name: Release (permanent copy, H40)
+        env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+        run: |
+          f=out/nuh_fix/replace/folge03_nuh_v2.mp4
+          if [ -f "$f" ]; then
+            gh release view folge03_nuh_v2 >/dev/null 2>&1 || gh release create folge03_nuh_v2 -t "Folge 03 Nuh v2 (Ersatz, H16)" -n "Ersatz für KRlC8t0bHcA: 'nicht' (Hud 43) entfernt, Anfang vollständig."
+            gh release upload folge03_nuh_v2 "$f" out/nuh_fix/replace/contact.jpg out/nuh_fix/replace/joint_check.mp3 --clobber
+            rm "$f"
+          fi
+      - if: always()
+        run: |
+          git config user.name "boa-render-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/nuh_fix || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Nuh v2 Ersatz: Bericht [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 6; done
