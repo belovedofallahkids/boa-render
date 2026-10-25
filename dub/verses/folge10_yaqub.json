@@ -1,0 +1,260 @@
+{
+ "all_ids": [
+  [
+   85,
+   "english",
+   "Abdul Haleem",
+   "M.A.S. Abdel Haleem"
+  ],
+  [
+   149,
+   "english",
+   "Fadel Soliman",
+   "Fadel Soliman, Bridges’ translation"
+  ],
+  [
+   84,
+   "english",
+   "Mufti Taqi Usmani",
+   "T. Usmani"
+  ],
+  [
+   95,
+   "english",
+   "Sayyid Abul Ala Maududi",
+   "A. Maududi (Tafhim commentary)"
+  ],
+  [
+   19,
+   "english",
+   "Mohammed Marmaduke William Pickthall",
+   "M. Pickthall"
+  ],
+  [
+   22,
+   "english",
+   "Abdullah Yusuf Ali",
+   "A. Yusuf Ali"
+  ],
+  [
+   20,
+   "english",
+   "Saheeh International",
+   "Saheeh International"
+  ],
+  [
+   203,
+   "english",
+   "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+   "Al-Hilali & Khan"
+  ],
+  [
+   57,
+   "english",
+   "Transliteration",
+   "Transliteration"
+  ],
+  [
+   136,
+   "french",
+   "Montada Islamic Foundation",
+   "Montada Islamic Foundation"
+  ],
+  [
+   210,
+   "turkish",
+   "Dar Al-Salam Center",
+   "Dar Al-Salam Center"
+  ],
+  [
+   214,
+   "bosnian",
+   "Dar Al-Salam Center",
+   "Dar Al-Salam Center"
+  ],
+  [
+   88,
+   "albanian",
+   "Hasan Efendi Nahi",
+   "Hasan Efendi Nahi"
+  ],
+  [
+   77,
+   "turkish",
+   "Diyanet Isleri",
+   "Turkish Translation(Diyanet)"
+  ],
+  [
+   47,
+   "albanian",
+   "Albanian",
+   "Albanian"
+  ],
+  [
+   124,
+   "turkish",
+   "Muslim Shahin",
+   "Muslim Shahin"
+  ],
+  [
+   112,
+   "turkish",
+   "Shaban Britch",
+   "Shaban Britch"
+  ],
+  [
+   89,
+   "albanian",
+   "Sherif Ahmeti\t",
+   "Albanian Translation"
+  ],
+  [
+   31,
+   "french",
+   "Muhammad Hamidullah",
+   "Muhammad Hamidullah"
+  ],
+  [
+   25,
+   "bosnian",
+   "Muhamed Mehanović",
+   "Muhamed Mehanović"
+  ],
+  [
+   52,
+   "turkish",
+   "Elmalili Hamdi Yazir\t",
+   "Elmalili Hamdi Yazir"
+  ],
+  [
+   126,
+   "bosnian",
+   "Besim Korkut",
+   "Besim Korkut"
+  ],
+  [
+   779,
+   "french",
+   "Rashid Maash",
+   "Rashid Maash"
+  ]
+ ],
+ "source": "api.quran.com v4",
+ "translations": {
+  "fr": {
+   "id": 31,
+   "name": "Muhammad Hamidullah",
+   "author": "Muhammad Hamidullah"
+  },
+  "tr": {
+   "id": 77,
+   "name": "Turkish Translation(Diyanet)",
+   "author": "Diyanet Isleri"
+  },
+  "en": {
+   "id": 20,
+   "name": "Saheeh International",
+   "author": "Saheeh International"
+  },
+  "bs": {
+   "id": 126,
+   "name": "Besim Korkut",
+   "author": "Besim Korkut"
+  },
+  "sq": {
+   "id": 89,
+   "name": "Albanian Translation",
+   "author": "Sherif Ahmeti\t"
+  }
+ },
+ "verses": {
+  "2:132": {
+   "ar": "وَوَصَّىٰ بِهَآ إِبْرَٰهِـۧمُ بَنِيهِ وَيَعْقُوبُ يَـٰبَنِىَّ إِنَّ ٱللَّهَ ٱصْطَفَىٰ لَكُمُ ٱلدِّينَ فَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ",
+   "fr": "Et c’est ce que Abraham recommanda à ses fils, de même que Jacob: \"Ô mes fils! Certes, Allah vous a choisi la religion: ne mourrez point, donc, autrement qu’en Soumis!\" (à Allah).",
+   "tr": "İbrahim bunu oğullarına vasiyet etti. Yakub da: &quot;Oğullarım! Allah dini size seçti, siz de ancak O'na teslim olmuş olarak can verin&quot; dedi.",
+   "en": "And Abraham instructed his sons [to do the same] and [so did] Jacob, [saying], \"O my sons, indeed Allāh has chosen for you this religion, so do not die except while you are Muslims.\"",
+   "bs": "I Ibrahim ostavi u amanet sinovima svojim a i Jakub: \"Sinovi moji, Allah vam je odabrao pravu vjeru, i nipošto ne umirite drugačije nego kao muslimani!\"",
+   "sq": "E Ibrahimi i porositi bijtë e tij me këtë (fe), e edhe Jakubi, (u thanë) “O bijtë e mi, All-llahu ua zgjodhi fenë (islame) juve, pra mos vdisni ndryshe, por vetëm duke qenë muslimanë!”"
+  },
+  "2:133": {
+   "ar": "أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنۢ بَعْدِى قَالُوا۟ نَعْبُدُ إِلَـٰهَكَ وَإِلَـٰهَ ءَابَآئِكَ إِبْرَٰهِـۧمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ إِلَـٰهًا وَٰحِدًا وَنَحْنُ لَهُۥ مُسْلِمُونَ",
+   "fr": "Etiez-vous témoins quand la mort se présenta à Jacob et qu’il dit à ses fils: \"Qu’adorerez-vous après moi?\" - Ils répondirent: \"Nous adorerons ta divinité et la divinité de tes pères: Abraham, Ismaël et Isaac, Divinité Unique et à laquelle nous sommes Soumis.\"",
+   "tr": "Yoksa Yakub can verirken sizler yanında mı idiniz? O, oğullarına: &quot;Benden sonra kime kulluk edeceksiniz?&quot; diye sormuştu; Onlar da: &quot;Senin Tanrına ve ataların İbrahim, İsmail, İshak'ın Tanrısı olan tek Tanrıya kulluk edeceğiz, bizler O'na teslim olmuşuzdur&quot; demişlerdi.",
+   "en": "Or were you witnesses when death approached Jacob, when he said to his sons, \"What will you worship after me?\" They said, \"We will worship your God and the God of your fathers, Abraham and Ishmael and Isaac - one God. And we are Muslims [in submission] to Him.\"",
+   "bs": "Vi niste bili prisutni kada je Jakubu smrtni čas došao i kada je sinove svoje upitao: \"Kome ćete se, poslije mene, klanjati?\" – \"Klanjaćemo se\" – odgovorili su – \"Bogu tvome, Bogu tvojih predaka Ibrahima i Ismaila i Ishaka, Bogu jednome, i mi se Njemu pokoravamo!\"",
+   "sq": "A ishit ju (ithtarë të librit) dëshmitarë kur Jakubit iu afrua vdekja, e ai bijve të vet u tha: “Çka do të adhuroni pas meje”? Ata thanë: “Do të adhurojmë Zotin (Ilah) tënd, dhe Zotin e prindërve tuaj: Ibrahimit, Ismailit, Is’hakut, Një të Vetmin Zot dhe ne, vetëm Atij i jemi dorëzuar!”"
+  },
+  "38:45": {
+   "ar": "وَٱذْكُرْ عِبَـٰدَنَآ إِبْرَٰهِيمَ وَإِسْحَـٰقَ وَيَعْقُوبَ أُو۟لِى ٱلْأَيْدِى وَٱلْأَبْصَـٰرِ",
+   "fr": "Et rappelle-toi Abraham, Isaac et Jacob ? Nos serviteurs puissants  et clairvoyants.",
+   "tr": "Güçlü ve anlayışlı olan kullarımız İbrahim, İshak ve Yakub'u da an.",
+   "en": "And remember Our servants, Abraham, Isaac and Jacob - those of strength and [religious] vision.",
+   "bs": "I sjeti se robova Naših Ibrahima i Ishaka i Jakuba, sve u vjeri čvrstih i dalekovidnih.",
+   "sq": "Përkujto robërit tanë Ibrahimin, Is-hakun, Jakubin që ishin të fortë në zbatimin e detyrave dhe largpamës në fe."
+  },
+  "12:4": {
+   "ar": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَـٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا وَٱلشَّمْسَ وَٱلْقَمَرَ رَأَيْتُهُمْ لِى سَـٰجِدِينَ",
+   "fr": "Quand Joseph dit à son père : \"Ô mon père ! J'ai vu [en songe], onze étoiles, et aussi le soleil et la lune ; je les ai vus prosternés devant moi.\"",
+   "tr": "Yusuf babasına: &quot;Babacığım! &quot;Rüyamda onbir yıldız, güneş ve ayın bana secde ettiklerini gördüm&quot; demişti.",
+   "en": "[Of these stories mention] when Joseph said to his father, \"O my father, indeed I have seen [in a dream] eleven stars and the sun and the moon; I saw them prostrating to me.\"",
+   "bs": "Kada Jusuf reče ocu svome: \"O oče moj, sanjao sam jedanaest zvijezda, i Sunce i Mjesec, i u snu sam ih vidio kako mi se pokloniše\" –",
+   "sq": "(përkujto) Kur Jusufi, babait të vet i tha: “O baba im, pashë (në ëndërr) njëmbëdhjetë yje dhe diellin dhe hënën, i pashë duke më bërë mua sexhde!”"
+  },
+  "12:5": {
+   "ar": "قَالَ يَـٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَـٰنَ لِلْإِنسَـٰنِ عَدُوٌّ مُّبِينٌ",
+   "fr": "\"Ô mon fils, dit-il, ne raconte pas ta vision à tes frères car ils monteraient un complot contre toi ; le Diable (Satan) est certainement pour l’homme un ennemi déclaré.",
+   "tr": "Babası şunları söyledi: &quot;Oğulcuğum! Rüyanı kardeşlerine anlatma, yoksa sana tuzak kurarlar; zira şeytan insanın apaçık düşmanıdır&quot;.",
+   "en": "He said, \"O my son, do not relate your vision to your brothers or they will contrive against you a plan. Indeed Satan, to man, is a manifest enemy.",
+   "bs": "on reče: \"O sinko moj, ne kazuj svoga sna braći svojoj, da ti ne učine kakvu pakost, šejtan je doista čovjeku otvoreni neprijatelj.",
+   "sq": "Ai (Jakubi) tha: “O biri im, mos u trego ëndërrën tënde vëllezërve tu, se po të bëjnë ndonjë dredhi, s’ka dyshim, djalli për njeriun është armik i hapët”."
+  },
+  "12:6": {
+   "ar": "وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَـٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌ",
+   "fr": "Ainsi ton Seigneur te choisira et t’enseignera l’interprétation des rêves, et Il parfaira Son bienfait sur toi et sur la famille de Jacob, tout comme Il l’a parfait auparavant sur tes deux ancêtres : Abraham et Isaac, car ton Seigneur est Omniscient et Sage.”",
+   "tr": "&quot;Rabbin seni böylece rüyandaki gibi seçecek, sana rüyaları yorumlamayı öğretecek; daha önce, ataların İbrahim ve İshak'a nimetlerini tamamladığı gibi, sana ve Yakub soyuna da tamamlayacaktır. Doğrusu Rabbin bilir, hakimdir.&quot;",
+   "en": "And thus will your Lord choose you and teach you the interpretation of narratives [i.e., events or dreams] and complete His favor upon you and upon the family of Jacob, as He completed it upon your fathers before, Abraham and Isaac. Indeed, your Lord is Knowing and Wise.\"",
+   "bs": "I eto tako, Gospodar tvoj će tebe odabrati, i tumačenju snova te naučiti, i milošću Svojom tebe i Jakubovu porodicu obasuti, kao što je prije tebe obasuo pretke tvoje, Ibrahima i Ishaka. – Gospodar tvoj, zaista, sve zna i mudar je.\"",
+   "sq": "Ja, keshtu Zoti yt të zgjedh ty, të mëson interpretimin e ëndërrave, plotëson dhuntinë e tij ndaj teje dhe familjes së Jakubit, sikrse pat plotësuar atë më parë ndaj prindërve tu, Ibrahimit dhe Is-hakut. Vërtet, Zoti yt është më i dijshmi, më i urti!”"
+  },
+  "12:18": {
+   "ar": "وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍ كَذِبٍ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا ۖ فَصَبْرٌ جَمِيلٌ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+   "fr": "Ils apportèrent sa tunique tachée d’un faux sang. Il dit : \"Vos âmes, plutôt, vous ont suggéré quelque chose... [Il ne me reste plus donc] qu’une belle patience! C’est Allah qu’il faut appeler au secours contre ce que vous racontez !\"",
+   "tr": "Üzerine başka bir kan bulaşmış olarak Yusuf'un gömleğini de getirmişlerdi. Babaları: &quot;Sizi nefsiniz bir iş yapmaya sürükledi; artık bana güzelce sabır gerekir. Anlattıklarınıza ancak Allah'tan yardım istenir&quot; dedi.",
+   "en": "And they brought upon his shirt false blood. [Jacob] said, \"Rather, your souls have enticed you to something, so patience is most fitting. And Allāh is the one sought for help against that which you describe.\"",
+   "bs": "I donesoše košulju njegovu lažnom krvlju okrvavljenu. \"U vašim dušama je ponikla zla misao\" – reče on – \"i ja se neću jadati, od Allaha ja tražim pomoć protiv ovoga što vi iznosite.\"",
+   "sq": "E erdhën (i sollën) e në këmishën e tj me gjak të rrejshëm. Ai tha: “Jo, (nuk e k ngrënë ujku), por epshet tuaja ua hijeshuan punën. Halli im është: durim i mirë. All-llahu është nga i cili kërkohet ndihmë për këtë që përshkruani ju”."
+  },
+  "12:84": {
+   "ar": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَـٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌ",
+   "fr": "Et il se détourna d’eux et dit: “Que mon chagrin est grand pour Joseph! ” Et ses yeux blanchirent d’affliction. Et il était accablé.",
+   "tr": "Onlara sırt çevirdi, &quot;Vah, Yusuf'a yazık oldu!&quot; dedi ve üzüntüden gözlerine ak düştü. Artık acısını içinde saklıyordu.",
+   "en": "And he turned away from them and said, \"Oh, my sorrow over Joseph,\" and his eyes became white from grief, for he was [of that] a suppressor.",
+   "bs": "I okrenu se od njih i reče: \"O Jusufe, tugo moja!\" – a oči su mu bile pobijeljele od jada, bio je vrlo potišten.",
+   "sq": "Dhe, ua ktheu shpinën e tha: “O dëshprim i imi për Jusufin, hde nga pikëllimi iu zbardhën të dy sytë, po i përmbajtur (nga pikëllimi)."
+  },
+  "12:85": {
+   "ar": "قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَـٰلِكِينَ",
+   "fr": "- Ils dirent: “Par Allah! Tu ne cesseras pas d’évoquer Joseph, jusqu’à ce que tu t’épuises ou que tu sois parmi les morts.”",
+   "tr": "&quot;Allah'a yemin ederiz ki, Yusuf'u anıp durman seni bitkin düşürecek veya helak olacaksın&quot; dediler.",
+   "en": "They said, \"By Allāh, you will not cease remembering Joseph until you become fatally ill or become of those who perish.\"",
+   "bs": "\"Allaha nam\" – rekoše oni – \"ti toliko spominješ Jusufa da ćeš teško oboljeti ili umrijeti!\"",
+   "sq": "Ata thanë: “Për All-llahun ti vazhdimisht e përkujton Jusufin derisa do të sëmuresh rëndë, e të shkatërrohesh”."
+  },
+  "12:86": {
+   "ar": "قَالَ إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
+   "fr": "- Il dit : “Je ne me plains qu’à Allah de mon déchirement et de mon chagrin. Et, je sais de la part d’Allah, ce que vous ne savez pas.",
+   "tr": "Yakup: &quot;Ben üzüntü ve tasamı yalnız Allah'a açarım. Allah katından, sizin bilmediklerinizi bilirim&quot; dedi.",
+   "en": "He said, \"I only complain of my suffering and my grief to Allāh, and I know from Allāh that which you do not know.",
+   "bs": "\"Ja tugu svoju i jad svoj pred Allaha iznosim, a od Allaha znam ono što vi ne znate\" – reče on.",
+   "sq": "Ai (Jakubi) tha: “Unë hidhërimin tim dhe pikëllimin tim, ia parashtroj All-llahut, e unë di për All-llahun atë që ju nuk e dini”."
+  },
+  "12:87": {
+   "ar": "يَـٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَـٰفِرُونَ",
+   "fr": "Ô mes fils ! Partez et enquérez-vous de Joseph et de son frère ! Et ne désespérez pas de la miséricorde d’Allah. Ce sont seulement les gens mécréants qui désespèrent de la miséricorde d’Allah.”",
+   "tr": "&quot;Ey Oğullarım! Gidin, Yusuf'u ve kardeşini arayın. Allah'ın rahmetinden ümidinizi kesmeyin; doğrusu kafirlerden başkası Allah'ın rahmetinden ümidini kesmez.&quot;",
+   "en": "O my sons, go and find out about Joseph and his brother and despair not of relief from Allāh. Indeed, no one despairs of relief from Allāh except the disbelieving people.\"",
+   "bs": "\"O sinovi moji, idite i raspitajte se za Jusufa i brata njegova, i ne gubite nadu u milost Allahovu; samo nevjernici gube nadu u Allahovu milost.\"",
+   "sq": "(Jakubi u tha të bijëve të vet) O bijtë e mi, shkoni dhe hulumtoni (në Egjipt) për Jusufin dhe vëllain e tij, e mos e humbni shpresën nga mëshira e All-llahit, pse vetëm populli jobesimtarë e humb shpresën në All-llahun."
+  }
+ }
+}

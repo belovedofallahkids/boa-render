@@ -1,5 +1,1 @@
-Traceback (most recent call last):
-  File "/home/runner/work/boa-render/boa-render/tools/fetch_verses.py", line 13, in <module>
-    cands = [t for t in res if key in (t.get("author_name", "") + " " + t.get("name", "") + " " + t.get("slug", "")).lower()]
-                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
-TypeError: can only concatenate str (not "NoneType") to str
+{"fr": {"id": 31, "name": "Muhammad Hamidullah", "author": "Muhammad Hamidullah"}, "tr": {"id": 77, "name": "Turkish Translation(Diyanet)", "author": "Diyanet Isleri"}, "en": {"id": 20, "name": "Saheeh International", "author": "Saheeh International"}, "bs": {"id": 126, "name": "Besim Korkut", "author": "Besim Korkut"}, "sq": {"id": 89, "name": "Albanian Translation", "author": "Sherif Ahmeti\t"}}
