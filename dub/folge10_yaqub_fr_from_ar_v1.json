@@ -4,14 +4,14 @@
   "lang": "fr",
   "source": "dub/folge10_yaqub_ar_final_v9.txt (Arabic mother text, owner-approved 25.10.2026)",
   "verses": "verbatim from Hamidullah via api.quran.com (dub/verses/folge10_yaqub.json); only names adapted to names/names.json, bracketed insertions and footnotes removed",
-  "status": "DRAFT v1 – needs back-translation check + independent reviewer (H44) + owner approval; names test line (H37) before recording",
-  "notes": "2:132 Hamidullah text on quran.com has the typo 'ne mourrez point'; corrected to 'ne mourez point' (spelling only)."
+  "status": "DRAFT v2 – reviewer fixes applied (independent review 25.10.2026); needs owner approval; names test line (H37) before recording",
+  "notes": "2:132 Hamidullah text on quran.com has the typo 'ne mourrez point'; corrected to 'ne mourez point' (spelling only). Allowed deviations from Hamidullah: s4c keeps his own bracketed words 'Il ne me reste plus donc' without brackets (needed for grammar); s5b commas removed; s3d inner 'dit-il' removed (narration already says 'Il dit')."
  },
  "open": "Au nom d’Allah. Assalamou alaykoum, mes chéris. Approchez-vous, l’histoire de ce soir est très belle.",
  "s1a": "Noah… Ilyas… Vous vous souvenez ? Je vous ai promis une question importante. À la fin de sa vie, le prophète Yaqoub appela ses fils et leur demanda : « Qu’adorerez-vous après moi ? »",
  "s1b": "Et qu’est-ce qu’ils ont répondu, Mamie ?",
  "s1c": "Ça, je vous le dirai à la fin de l’histoire. Couvrez-vous bien… Aujourd’hui, je vous parle du prophète Yaqoub, que la paix soit sur lui. Il était le fils d’Ishaq et le petit-fils d’Ibrahim.",
- "s2a": "Vous vous souvenez ? Les anges avaient dit à Sara : après Ishaq viendra Yaqoub. Et c’est ce qui arriva. Ishaq eut un fils nommé Yaqoub, et Allah fit de lui aussi un prophète. Yaqoub et sa famille vivaient dans le désert.",
+ "s2a": "Vous vous souvenez ? Les anges avaient dit à Sara : après Ishaq viendra Yaqoub. Et c’est ce qui arriva. Allah donna à Ishaq un fils nommé Yaqoub, et Allah fit de lui aussi un prophète. Yaqoub et sa famille vivaient dans le désert.",
  "x_s2a": "Imaginez avec moi ce grand endroit calme… C’est là que vivait un noble prophète qui aimait beaucoup Allah.",
  "s2b": "Et qu’est-ce que Yaqoub a appris à ses enfants ?",
  "s2c": "La chose la plus importante au monde ! Ibrahim l’avait recommandée à ses fils, et Yaqoub dit les mêmes paroles à ses fils : « Ô mes fils ! Certes, Allah vous a choisi la religion : ne mourez point, donc, autrement qu’en Soumis ! » Cela veut dire : restez avec Allah, toute votre vie.",

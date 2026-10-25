@@ -4,10 +4,11 @@
   "lang": "sq",
   "source": "dub/folge10_yaqub_ar_final_v9.txt (Arabic mother text, owner-approved 25.10.2026)",
   "verses": "verbatim from Sherif Ahmeti via api.quran.com (dub/verses/folge10_yaqub.json); only names adapted, bracketed/parenthesised insertions removed",
-  "status": "DRAFT v1 – needs back-translation check + independent reviewer (H44) + owner approval; names test line (H37) before recording; H44.6: human native reviewer required before publishing; name forms (Noah, Ilyas, nena/gjyshja Karmoucha, Jakub, Jusuf…) PROPOSED – owner to confirm"
+  "status": "DRAFT v2 – reviewer fixes applied (independent review 25.10.2026); needs owner approval; names test line (H37) before recording ; H44.6 human native reviewer required",
+  "notes": "s6a keeps Sherif Ahmeti verbatim ('prindërve tuaj', grammar slip in the source) – owner to decide. Note: Ahmeti 12:86 'di për All-llahun' (about Allah) vs Arabic من الله (from Allah) – approved text kept, flagged."
  },
  "open": "Bismilah. Es-selamu alejkum, të dashurit e mi. Afrohuni, tregimi i sontëm është shumë i bukur.",
- "s1a": "Noah… Ilyas… A e mbani mend? Ju premtova një pyetje të rëndësishme. Në fund të jetës së tij, pejgamberi Jakub i thirri bijtë e vet dhe i pyeti: “Çka do të adhuroni pas meje?”",
+ "s1a": "Noah… Ilyas… A e mbani mend? Ju premtova se do t'ju bëja një pyetje të rëndësishme. Në fund të jetës së tij, pejgamberi Jakub i thirri bijtë e vet dhe i pyeti: “Çka do të adhuroni pas meje?”",
  "s1b": "Dhe çfarë u përgjigjën, gjyshe?",
  "s1c": "Këtë do t'jua them në fund të tregimit. Mbulohuni mirë… Sot do t'ju tregoj për pejgamberin Jakub, paqja qoftë mbi të. Ai ishte djali i Is'hakut dhe nipi i Ibrahimit.",
  "s2a": "A e mbani mend? Melekët i thanë Sarës: pas Is'hakut vjen Jakubi. Dhe ashtu ndodhi. Is'hakut iu fal një djalë me emrin Jakub, dhe All-llahu e bëri edhe atë pejgamber. Jakubi dhe familja e tij jetonin në shkretëtirë.",
@@ -32,8 +33,8 @@
  "s6a": "E tani, pyetja që ju premtova. Kur Jakubi u plak shumë dhe iu afrua fundi i jetës, i thirri bijtë e tij dhe i pyeti: “Çka do të adhuroni pas meje?” Ata thanë: “Do të adhurojmë Zotin tënd, dhe Zotin e prindërve tuaj: Ibrahimit, Ismailit, Is'hakut, Një të Vetmin Zot dhe ne, vetëm Atij i jemi dorëzuar!”",
  "x_s6a": "Sa përgjigje e bukur! Të gjithë thanë: adhurojmë vetëm All-llahun.",
  "s6b": "Prit, gjyshe… Ismaili ishte xhaxhai i Jakubit, jo babai i tij!",
- "s6c": "Të lumtë, shpirti im, ke qenë shumë i vëmendshëm! Arabët ndonjëherë xhaxhain e quajnë baba, sepse është shumë i afërt me familjen. Dhe shikoni: Ibrahimi, Ismaili, Is'haku, Jakubi dhe bijtë e tij, të gjithë e adhuruan All-llahun Një të Vetëm.",
- "s7a": "Ah… i zuri gjumi. Të dashurit e mi… kur jeni të mërzitur, kujtoni Jakubin: bëni durim të mirë dhe tregojini All-llahut gjithçka që ju shqetëson. Kurrë mos e humbni shpresën nga mëshira e All-llahut. Dhe qëndroni me All-llahun gjithë jetën tuaj.",
+ "s6c": "Të lumtë, shpirti im, ke qenë shumë i vëmendshëm! Arabët ndonjëherë xhaxhain e quajnë baba, sepse është shumë i afërt me familjen. Dhe shikoni: Ibrahimi, Ismaili, Is'haku, Jakubi dhe bijtë e tij, të gjithë e adhuruan vetëm All-llahun, Një të Vetmin.",
+ "s7a": "Ah… i zuri gjumi të dyve. Të dashurit e mi… kur jeni të mërzitur, kujtoni Jakubin: bëni durim të mirë dhe tregojini All-llahut gjithçka që ju shqetëson. Kurrë mos e humbni shpresën nga mëshira e All-llahut. Dhe qëndroni me All-llahun gjithë jetën tuaj.",
  "s7b": "Herën tjetër do t'ju tregoj për Jusufin… për një pus, një burg dhe një mbret. E ti, që po na shikon tani: nëse të pëlqeu tregimi, kërkoju prindërve të tu të abonohen në kanalin tonë, që të mos e humbasësh tregimin e ardhshëm.",
  "close": "E ju, baballarë dhe nëna të dashura: abonohuni në kanalin tonë dhe ndajini këto tregime me ata që i doni, që bashkë t'ua përcjellim fëmijëve tanë mesazhin e bukur të Islamit.",
  "final": "Natën e mirë, të dashurit e mi. Ju lë në emanet të All-llahut, tek i Cili emanetet nuk humbasin kurrë."

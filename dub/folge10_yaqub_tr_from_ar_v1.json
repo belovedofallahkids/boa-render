@@ -4,10 +4,11 @@
   "lang": "tr",
   "source": "dub/folge10_yaqub_ar_final_v9.txt (Arabic mother text, owner-approved 25.10.2026)",
   "verses": "verbatim from Diyanet Isleri via api.quran.com (dub/verses/folge10_yaqub.json); only names adapted, bracketed/parenthesised insertions removed",
-  "status": "DRAFT v1 – needs back-translation check + independent reviewer (H44) + owner approval; names test line (H37) before recording"
+  "status": "DRAFT v2 – reviewer fixes applied (independent review 25.10.2026); needs owner approval; names test line (H37) before recording",
+  "notes": "Allowed deviations from Diyanet: 'onbir' written 'on bir' (TDK spelling); s4c 'Anlattıklarınıza' omitted because the Arabic quotes only up to المستعان. s6a keeps Diyanet's 'Tanrı' verbatim (owner may prefer another approved translation)."
  },
  "open": "Bismillah. Esselamü aleyküm, canlarım. Yaklaşın bana, bu geceki hikâye çok güzel.",
- "s1a": "Nuh… İlyas… Hatırlıyor musunuz? Size önemli bir soru sözü vermiştim. Hayatının sonunda Yakub peygamber oğullarını çağırdı ve onlara sordu: “Benden sonra kime kulluk edeceksiniz?”",
+ "s1a": "Nuh… İlyas… Hatırlıyor musunuz? Size önemli bir soru soracağıma söz vermiştim. Hayatının sonunda Yakub peygamber oğullarını çağırdı ve onlara sordu: “Benden sonra kime kulluk edeceksiniz?”",
  "s1b": "Peki ne dediler, nineciğim?",
  "s1c": "Bunu size hikâyenin sonunda söyleyeceğim. İyice örtünün… Bugün size Yakub peygamberi anlatacağım, ona selam olsun. O, İshak'ın oğlu ve İbrahim'in torunuydu.",
  "s2a": "Hatırlıyor musunuz? Melekler Sare'ye şöyle demişti: İshak'tan sonra Yakub gelecek. Ve öyle de oldu. İshak'a Yakub adında bir oğul verildi, Allah onu da peygamber yaptı. Yakub ve ailesi çölde yaşıyordu.",
@@ -34,7 +35,7 @@
  "s6b": "Bir dakika nineciğim… İsmail, Yakub'un amcasıydı, babası değil!",
  "s6c": "Aferin canım, çok iyi dikkat ettin! Araplar bazen amcaya da baba derler, çünkü o aileye çok yakındır. Ve bakın: İbrahim, İsmail, İshak, Yakub ve oğulları, hepsi bir olan Allah'a kulluk ettiler.",
  "s7a": "Ah… uyudular. Canlarım… üzüldüğünüzde Yakub'u hatırlayın: güzelce sabredin ve sizi sıkan her şeyi Allah'a anlatın. Allah'ın rahmetinden asla ümidinizi kesmeyin. Ve ömrünüz boyunca Allah'la birlikte kalın.",
- "s7b": "Bir dahaki sefere size Yusuf'u anlatacağım… bir kuyuyu, bir zindanı ve bir kralı. Ve sen, şu anda bizi izleyen: hikâye hoşuna gittiyse, ailenden kanalımıza abone olmalarını iste, böylece bir sonraki hikâyeyi kaçırmazsın.",
+ "s7b": "Bir dahaki sefere size Yusuf'u anlatacağım… bir kuyuyu, bir zindanı ve bir kralı. Ve sen, şu anda bizi izleyen arkadaşım: hikâye hoşuna gittiyse, ailenden kanalımıza abone olmalarını iste, böylece bir sonraki hikâyeyi kaçırmazsın.",
  "close": "Ve siz, değerli anneler ve babalar: kanalımıza abone olun ve bu hikâyeleri sevdiklerinizle paylaşın; İslam'ın güzel mesajını birlikte çocuklarımıza ulaştıralım.",
  "final": "İyi geceler, canlarım. Sizi, emanetleri asla kaybolmayan Allah'a emanet ediyorum."
 }
