@@ -8,7 +8,7 @@ src = "/tmp/nuh260.m4a"
 req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
 with urllib.request.urlopen(req, timeout=300) as r, open(src, "wb") as f:
     f.write(r.read())
-WINDOWS = [(232.90, 233.30), (232.90, 233.20), (232.90, 233.25), (232.93, 233.25)]
+WINDOWS = [(233.000, 233.333), (233.000, 233.367), (232.967, 233.367), (233.033, 233.367)]
 from faster_whisper import WhisperModel
 m = WhisperModel("medium", device="cpu", compute_type="int8")
 rep = []
@@ -24,9 +24,9 @@ for a, b in WINDOWS:
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-filter_complex", flt, f], check=True)
     rep.append({"cut": [a, b], "file": f, "text": tx(f)})
 # loudness envelope 232.6-233.6 in 10 ms steps (to see the gaps between words)
-r = subprocess.run(["ffmpeg", "-ss", "232.6", "-to", "233.6", "-i", src, "-af",
-                    "astats=metadata=1:reset=1:length=0.01,ametadata=print:key=lavfi.astats.Overall.RMS_level",
+r = subprocess.run(["ffmpeg", "-ss", "232.8", "-to", "233.5", "-i", src, "-af",
+                    "astats=metadata=1:reset=1:length=0.012,ametadata=print:key=lavfi.astats.Overall.RMS_level",
                     "-f", "null", "-"], capture_output=True, text=True)
 env = [l.split("=")[-1] for l in r.stderr.splitlines() if "RMS_level" in l]
-json.dump({"tests": rep, "rms_232.6_233.6_10ms": env}, open(f"{OUT}/report.json", "w"), ensure_ascii=False, indent=1)
+json.dump({"tests": rep, "rms_232.8_233.5": env}, open(f"{OUT}/report.json", "w"), ensure_ascii=False, indent=1)
 print(json.dumps(rep, ensure_ascii=False, indent=1))
