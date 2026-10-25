@@ -1,0 +1,24 @@
+name: media_branch
+on:
+  workflow_dispatch:
+    inputs:
+      tag: {description: "release tag", required: true}
+      asset: {description: "asset file name", required: true}
+permissions: {contents: write}
+jobs:
+  m:
+    runs-on: ubuntu-latest
+    steps:
+      - env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+        run: |
+          set -e
+          mkdir w && cd w
+          gh release download "${{ inputs.tag }}" -R "${{ github.repository }}" -p "${{ inputs.asset }}"
+          sha256sum "${{ inputs.asset }}" > "${{ inputs.asset }}.sha256"
+          split -b 80M -d "${{ inputs.asset }}" "${{ inputs.asset }}.part"
+          rm "${{ inputs.asset }}"; ls -la
+          git init -q -b "media-${{ inputs.tag }}"
+          git config user.name "boa-render-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add . && git commit -qm "media ${{ inputs.tag }}/${{ inputs.asset }} (split for browser upload)"
+          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "HEAD:media-${{ inputs.tag }}"
