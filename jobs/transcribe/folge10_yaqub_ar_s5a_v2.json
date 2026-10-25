@@ -1,6 +1,6 @@
 {
  "name": "folge10_yaqub_ar_s5a_v2",
- "audio": "https://storage.googleapis.com/xi-backend/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/E0B7513mzGLLJDebwsaR/HSwZx74uYa6KSTWUK1UV/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261025%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261025T075134Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=57e2170e45a6d655c59f3507d84d0105aeb73b3c54408da3047f8c4c3c016a8a62f4a35695832f540546ce6514dc7580f7649205fb6bf78a6502b2536b0f7bb082019b8fc7f3c41ed57dc823d11188c6e0e2a130da29642457d969d02dcbb8c22c919c712d8278d072fb28bb4b35843dbc7a94f8053068e94b1a59541842d55c742b428d44b80c1b73b6856f65c608591f980c0c5bd81934f9dc0ab48a0f1ef70b36b9a17b068413831c2b892c413a4fc826323cf097df7f276537bf70fb4cbc6e2c4dff89403c308b2579f978ee1d6d98fa292b90be14fe03d73b4f17ade05966f88120eba3b57b3ce2b66df7ec922425fc0ff30508bcacc702cdfc75879b0d",
+ "audio": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge10_yaqub/folge10_yaqub_ar_s5a_v2.mp3",
  "language": "ar",
  "model": "medium",
  "prompt": "الجدة تحكي لنُوح وإلياس قصة النبي يعقوب ويوسف وإبراهيم وإسحاق."
