@@ -27,6 +27,10 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
   232.9,
   233.3
  ],
+ "h5_crop_window": [
+  51.0,
+  85.6
+ ],
  "ffmpeg_err": "",
  "final_duration": "341.200000",
  "loudness": [
@@ -41,11 +45,11 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
   "black_start:0 black_end:1 black_duration:1"
  ],
  "joint_text": [
-  " 223.02 bleibt nicht bei denen, die nicht glauben.",
+  " 222.90 Bleibt nicht bei denen, die nicht glauben.",
   " 227.18 Aber der Sohn rief,",
   " 229.62 Ich gehe auf einen Berg,",
-  " 232.18 der schützt vor dem Wasser.",
-  " 235.76 Nu antwortete,",
+  " 232.20 der schützt vor dem Wasser.",
+  " 235.86 Nu antwortete,",
   " 238.52 Heute schützt nichts vor Allahs Befehl,"
  ]
 }
