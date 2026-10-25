@@ -31,7 +31,10 @@ def envl(x, t0, t1):
     a = x[int(t0 * sr):int(t1 * sr)]; n = len(a) // 160
     return np.log(np.abs(a[:n * 160]).reshape(n, 160).max(1) + 1e-3)
 e6 = envl(x6, 200, 260)
-best = max((np.corrcoef(envl(xo, 200 + l / 100, 260 + l / 100)[:len(e6)], e6)[0, 1], l / 100) for l in range(-300, 301))
+def cc(l):
+    eo = envl(xo, 200 + l / 100, 261 + l / 100)[:len(e6)]
+    return np.corrcoef(eo, e6[:len(eo)])[0, 1]
+best = max((cc(l), l / 100) for l in range(-300, 301))
 rep["offset_orig_minus_260"] = best[1]; rep["offset_corr"] = round(float(best[0]), 4)
 c0, c1 = 232.90 + best[1], 233.30 + best[1]          # cut in original-video time
 rep["cut_in_orig"] = [round(c0, 3), round(c1, 3)]
