@@ -21,7 +21,7 @@ for i,s in enumerate(segs):
         xn=f'{D}/x_{nk}.mp3'; need=dur[nk]+1.0+(probe(xn)+1.0 if os.path.exists(xn) else 0)+0.4
         en=en2-need
     if k=='s1a' and OPEN:
-        od=probe(OPEN); pieces.append((OPEN,0,od,t)); t+=od+0.8
+        od=probe(OPEN); pieces.append((OPEN,0,od,t)); t+=od+0.55
     XA=f'{D}/x_{k}.mp3' if os.path.exists(f'{D}/x_{k}.mp3') else None
     xa=probe(XA) if XA else 0
     sp=[x for x in SPAN.get(k,[]) if x]
