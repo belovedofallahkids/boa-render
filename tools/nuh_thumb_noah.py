@@ -6,31 +6,30 @@ o = "out/nuh_fix/thumb"; os.makedirs(o, exist_ok=True)
 urllib.request.urlretrieve("https://i.ytimg.com/vi/KRlC8t0bHcA/maxresdefault.jpg", f"{o}/orig.jpg")
 urllib.request.urlretrieve("https://github.com/google/fonts/raw/main/ofl/poppins/Poppins-ExtraBold.ttf", "/tmp/pop.ttf")
 im = cv2.imread(f"{o}/orig.jpg"); h, w = im.shape[:2]
-# locate the yellow letters (high R,G, low B) in the lower right quarter
+# exact box of the word NUH (measured on the 1280x720 original): letters 930-1230 x 470-575 incl. outline
+x0, y0, x1, y1 = 936, 476, 1226, 572
 hsv = cv2.cvtColor(im, cv2.COLOR_BGR2HSV)
-yel = cv2.inRange(hsv, (18, 120, 170), (40, 255, 255))
-yel[:int(h * 0.5), :] = 0; yel[:, :int(w * 0.62)] = 0
-ys, xs = np.nonzero(yel)
-x0, x1, y0, y1 = xs.min(), xs.max(), ys.min(), ys.max()
+yel = np.zeros((h, w), bool); sub = cv2.inRange(hsv[y0:y1, x0:x1], (18, 150, 200), (40, 255, 255)) > 0
+yel[y0:y1, x0:x1] = sub
 open(f"{o}/bbox.txt", "w").write(f"{x0} {y0} {x1} {y1}\n")
-pad = 14
+pad = 12
 mask = np.zeros((h, w), np.uint8); mask[y0 - pad:y1 + pad, x0 - pad:x1 + pad] = 255
 clean = cv2.inpaint(im, mask, 9, cv2.INPAINT_TELEA)
 pil = Image.fromarray(cv2.cvtColor(clean, cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil)
 # sample letter colour
 col = tuple(int(c) for c in np.median(im[yel > 0], axis=0)[::-1])
 target_h = y1 - y0
-size = int(target_h * 1.32)
+size = int(target_h * 1.36)
 font = ImageFont.truetype("/tmp/pop.ttf", size)
 txt = "NOAH"
 while True:
     bb = d.textbbox((0, 0), txt, font=font, stroke_width=6)
-    if bb[2] - bb[0] <= (w - 24) - (x0 - 40) or size < 40: break
+    if bb[2] - bb[0] <= 470 or size < 40: break
     size -= 4; font = ImageFont.truetype("/tmp/pop.ttf", size)
 bb = d.textbbox((0, 0), txt, font=font)
 tw, th = bb[2] - bb[0], bb[3] - bb[1]
 X = x1 - tw - bb[0]          # keep right edge
 Y = y1 - th - bb[1]          # keep baseline/bottom
-d.text((X, Y), txt, font=font, fill=col, stroke_width=6, stroke_fill=(35, 25, 20))
+d.text((X, Y), txt, font=font, fill=col, stroke_width=7, stroke_fill=(38, 18, 48))
 pil.save(f"{o}/thumb_noah.jpg", quality=92)
 print("bbox", x0, y0, x1, y1, "color", col, "size", size)
