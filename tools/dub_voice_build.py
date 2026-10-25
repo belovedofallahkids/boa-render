@@ -12,10 +12,12 @@ CLOSE=f'{D}/close.mp3' if os.path.exists(f'{D}/close.mp3') else None
 GMAX=2.4
 pieces=[]; rep=[]; resid=[]
 SHARE={'s4c':'s4d'}; carry=None
+FOLLOW={'s7b'}; last_end=0.0  # owner: no silence before the closing, silence goes to the very end
 for i,s in enumerate(segs):
     k=s['id']; st=s['start']; en=segs[i+1]['start'] if i+1<len(segs) else T-1.5
     t=st+(0.3 if k=='s1a' else 0.35)
     if carry is not None: t=carry+1.0; carry=None
+    if k in FOLLOW: t=last_end+1.2
     if k in SHARE:
         nk=SHARE[k]; j2=[x['id'] for x in segs].index(nk); en2=segs[j2+1]['start']
         xn=f'{D}/x_{nk}.mp3'; need=dur[nk]+1.0+(probe(xn)+1.0 if os.path.exists(xn) else 0)+0.4
@@ -31,7 +33,7 @@ for i,s in enumerate(segs):
     used=sum(d for _,d in extra)+0.9*len(extra)+(xa+1.0 if XA else 0)
     F=(en-t)-dur[k]-used-0.4
     cands=[(c,d) for c,d in P[k] if d>=0.4 and 1.2<c<dur[k]-1.2 and not any(a<=c<=b for a,b in sp) and all(abs(c-x)>0.5 for x,_ in extra)]
-    n=min(len(cands), max(0,int(F//1.6)), 7)
+    n=0 if k in ('s7a','s7b') else min(len(cands), max(0,int(F//1.6)), 7)
     cuts=sorted(c for c,_ in sorted(cands,key=lambda x:-x[1])[:n])
     g=min(GMAX, F/(n+1)) if n else 0
     allc=sorted(set(cuts+[x for x,_ in extra]))
@@ -45,6 +47,7 @@ for i,s in enumerate(segs):
     if XA:
         t+=1.0; pieces.append((XA,0,xa,t)); t+=xa
     if k in SHARE: carry=t
+    last_end=t
     resid.append(round(en-t,1)); rep.append(f'{k}:{n}x{g:.1f}')
 inputs=[];flt=[]
 for j,(f,a,b,t) in enumerate(pieces):
