@@ -1,0 +1,8 @@
+{"date":"2026-10-26","purpose":"Owner chooses a local grandmother voice per language (H51). Text = open + s1a of Yaqub translations v2.","model":"eleven_v3","flow":"LFMEqDhd5SpLKMCg7iUl","credits_total":1252,
+ "samples":{
+  "fr":{"file":"1_fr_grandma_clo.mp3","voice":"Grandma Clo – Warm Storyteller","voice_id":"EMuO6fFLrXKOryHzij6K","generation":"GIx1YYl3bxX96FThe0LN","credits":259},
+  "tr":{"file":"2_tr_umitales.mp3","voice":"Umitales","voice_id":"AT6MdagXHAuKZlvWWwtT","generation":"wjHn96oTGeEVQha6viYN","credits":241},
+  "en":{"file":"3_en_maria_moody.mp3","voice":"Maria Moody | Grandmotherly Storykeeper","voice_id":"wGcFBfKz5yUQqhqr0mVy","generation":"Fg0ujm7LAqcB2FbKoTVg","credits":253},
+  "bs":{"file":"4_bs_anja.mp3","voice":"Anja – Pro Serbian Narration (Balkan, bedtime stories)","voice_id":"VnqrcpsIQtSAwCasY5CP","generation":"26pOoM7qcwah0ozm3Awb","credits":251},
+  "sq":{"file":"5_sq_oma_karmoucha.mp3","voice":"Oma Karmoucha (no Albanian voice in the library)","voice_id":"FEM3ZC2atorRe8Nrrq01","generation":"VWvJxlrVKvxMMGh7c7T7","credits":248}},
+ "status":"waiting for owner's choice"}
