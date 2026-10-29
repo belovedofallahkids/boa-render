@@ -1,0 +1,253 @@
+{
+ "_status": "DRAFT v2 – 30.10.2026. Gemini draft → Claude check (4 errors) → ChatGPT review → Claude decision per point (see _review). Needs owner approval (H18) before YouTube changes.",
+ "desc_line2": {
+  "ar": "قصة من القرآن الكريم، بلا موسيقى.",
+  "en": "A story from the Qur'an, with no music.",
+  "_note": "Episodes with a hadith in src (7) add: والسنة الصحيحة / and authentic Sunnah"
+ },
+ "hashtags_common": {
+  "ar": [
+   "#قصص_الأنبياء",
+   "#قصص_الانبياء_للاطفال",
+   "#قصص_قبل_النوم_للاطفال"
+  ],
+  "en": [
+   "#IslamicStoriesForKids",
+   "#ProphetStories",
+   "#BedtimeStoriesForKids"
+  ]
+ },
+ "episodes": [
+  {
+   "n": 1,
+   "id": "C1_QbdipQPU",
+   "src": "البقرة 30–31؛ ص 71–72؛ النساء 1",
+   "ar": {
+    "title": "قصة النبي آدم عليه السلام للأطفال 🌙 قصص الأنبياء | خلق أول البشر",
+    "q": "هل تعلم كيف خلق الله تعالى أبا البشر آدم عليه السلام وعلّمه الأسماء كلها؟",
+    "tag": "#قصة_آدم_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Adam Story for Kids 🌙 Islamic Stories for Kids | The First Human",
+    "q": "Do you know how Allah created Adam, the father of all people, and taught him all the names?",
+    "tag": "#ProphetAdam"
+   }
+  },
+  {
+   "n": 2,
+   "id": "FVjc2h7ZzOI",
+   "src": "مريم 56–57، الأنبياء 85",
+   "ar": {
+    "title": "قصة النبي إدريس عليه السلام للأطفال 🌙 قصص الأنبياء | المكان العلي",
+    "q": "هل تريد أن تعرف قصة النبي الذي وصفه الله بالصّدّيق ورفعه مكانًا عليًّا؟",
+    "tag": "#قصة_إدريس_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Idris Story for Kids 🌙 Islamic Stories for Kids | Raised to a High Place",
+    "q": "Would you like to know about the prophet whom Allah called truthful and raised to a high place?",
+    "tag": "#ProphetIdris"
+   }
+  },
+  {
+   "n": 3,
+   "id": "2z5bsTOxkJc",
+   "src": "هود 37",
+   "ar": {
+    "title": "قصة النبي نوح عليه السلام للأطفال 🌙 قصص الأنبياء | سفينة نوح",
+    "q": "هل تحب أن تعرف قصة السفينة الكبيرة التي أمر الله نوحًا عليه السلام ببنائها؟",
+    "tag": "#قصة_نوح_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Noah Story for Kids 🌙 Islamic Stories for Kids | Noah's Ship",
+    "q": "Would you like to hear about the great ship that Allah commanded Noah to build?",
+    "tag": "#ProphetNoah"
+   }
+  },
+  {
+   "n": 4,
+   "id": "aqAAZvPu24A",
+   "src": "فصلت 15؛ هود 50–52",
+   "ar": {
+    "title": "قصة النبي هود عليه السلام للأطفال 🌙 قصص الأنبياء | قوم عاد وقوتهم",
+    "q": "هل تريد أن تعرف قصة قوم عاد الأقوياء، وكيف دعاهم نبي الله هود عليه السلام؟",
+    "tag": "#قصة_هود_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Hud Story for Kids 🌙 Islamic Stories for Kids | The People of 'Ad",
+    "q": "Do you want to know about the very strong people of 'Ad, and how Prophet Hud called them to Allah?",
+    "tag": "#ProphetHud"
+   }
+  },
+  {
+   "n": 5,
+   "id": "SrduUjN2b6I",
+   "src": "الأعراف 73",
+   "ar": {
+    "title": "قصة النبي صالح عليه السلام للأطفال 🌙 قصص الأنبياء | ناقة الله",
+    "q": "هل سمعت عن الناقة التي جعلها الله آية لقوم ثمود؟",
+    "tag": "#قصة_صالح_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Salih Story for Kids 🌙 Islamic Stories for Kids | Allah's She-Camel",
+    "q": "Have you heard about the she-camel that Allah made a sign for the people of Thamud?",
+    "tag": "#ProphetSalih"
+   }
+  },
+  {
+   "n": 6,
+   "id": "kLXKwVK7bII",
+   "src": "الأنبياء 68–69",
+   "ar": {
+    "title": "قصة النبي إبراهيم عليه السلام للأطفال 🌙 قصص الأنبياء | بردًا وسلامًا",
+    "q": "كيف جعل الله النار بردًا وسلامًا على إبراهيم عليه السلام؟",
+    "tag": "#قصة_إبراهيم_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Ibrahim Story for Kids 🌙 Islamic Stories for Kids | Cool and Safe",
+    "q": "How did Allah make the fire cool and safe for Ibrahim?",
+    "tag": "#ProphetIbrahim"
+   }
+  },
+  {
+   "n": 7,
+   "id": "DfSvCAeJrPI",
+   "src": "إبراهيم 37؛ البخاري 3364؛ مسلم 2473 («إنها مباركة»)",
+   "ar": {
+    "title": "قصة النبي إسماعيل عليه السلام للأطفال 🌙 قصص الأنبياء | ماء زمزم",
+    "q": "كيف ظهر ماء زمزم المبارك لأم إسماعيل ورضيعها في وادٍ غير ذي زرع؟",
+    "tag": "#قصة_إسماعيل_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Ismail Story for Kids 🌙 Islamic Stories for Kids | The Water of Zamzam",
+    "q": "How did the blessed water of Zamzam appear for Ismail's mother and her baby in a dry valley?",
+    "tag": "#ProphetIsmail"
+   }
+  },
+  {
+   "n": 8,
+   "id": "O2CZZcXuBa0",
+   "src": "هود 77، 81؛ الحجر 62؛ العنكبوت 33 («إنا منجوك وأهلك»)",
+   "ar": {
+    "title": "قصة النبي لوط عليه السلام للأطفال 🌙 قصص الأنبياء | الضيوف الغرباء",
+    "q": "من هم الضيوف الذين جاؤوا إلى نبي الله لوط عليه السلام، وأخبروه أنهم رسل ربه وأنه ناجٍ؟",
+    "tag": "#قصة_لوط_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Lut Story for Kids 🌙 Islamic Stories for Kids | The Unknown Guests",
+    "q": "Who were the guests who came to Prophet Lut and told him they were messengers of his Lord, and that he would be saved?",
+    "tag": "#ProphetLut"
+   }
+  },
+  {
+   "n": 9,
+   "id": "WPsbvEsJ4S8",
+   "src": "الذاريات 28، هود 71",
+   "ar": {
+    "title": "قصة النبي إسحاق عليه السلام للأطفال 🌙 قصص الأنبياء | البشرى بإسحاق",
+    "q": "هل تحب أن تعرف كيف بُشّر إبراهيم عليه السلام بابنه إسحاق؟",
+    "tag": "#قصة_إسحاق_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Ishaq Story for Kids 🌙 Islamic Stories for Kids | The Good News",
+    "q": "Would you like to hear the good news Ibrahim received about his son Ishaq?",
+    "tag": "#ProphetIshaq"
+   }
+  },
+  {
+   "n": 10,
+   "id": "bYMbH2JWOmw",
+   "src": "يوسف 18، 86–87",
+   "ar": {
+    "title": "قصة النبي يعقوب عليه السلام للأطفال 🌙 قصص الأنبياء | الصبر الجميل",
+    "q": "كيف صبر نبي الله يعقوب عليه السلام صبرًا جميلًا، ولم ييأس من رَوح الله؟",
+    "tag": "#قصة_يعقوب_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Yaqub Story for Kids 🌙 Islamic Stories for Kids | Beautiful Patience",
+    "q": "How did Prophet Yaqub show beautiful patience and never lose hope in Allah's mercy?",
+    "tag": "#ProphetYaqub"
+   }
+  },
+  {
+   "n": 11,
+   "id": "JkDMNOlskhY",
+   "src": "يوسف 4، 90، 100",
+   "ar": {
+    "title": "قصة النبي يوسف عليه السلام للأطفال 🌙 قصص الأنبياء | تحقّقت الرؤيا",
+    "q": "كيف تحققت رؤيا النبي يوسف عليه السلام بعد الصبر والابتلاء؟",
+    "tag": "#قصة_يوسف_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Yusuf Story for Kids 🌙 Islamic Stories for Kids | The Dream Comes True",
+    "q": "How did Prophet Yusuf's dream come true after patience and hardship?",
+    "tag": "#ProphetYusuf"
+   }
+  },
+  {
+   "n": 12,
+   "id": "x40FMezIaRA",
+   "src": "ص 41–44",
+   "ar": {
+    "title": "قصة النبي أيوب عليه السلام للأطفال 🌙 قصص الأنبياء | الصبر على المرض",
+    "q": "كيف صبر نبي الله أيوب عليه السلام على المرض، فقال الله عنه: نِعْمَ العبدُ إنه أوّاب؟",
+    "tag": "#قصة_أيوب_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Ayyub Story for Kids 🌙 Islamic Stories for Kids | Patience in Illness",
+    "q": "How was Prophet Ayyub patient in his illness, so that Allah called him an excellent servant who always turned back to Him?",
+    "tag": "#ProphetAyyub"
+   }
+  },
+  {
+   "n": 13,
+   "id": "_vrFYGpWaQE",
+   "src": "الأعراف 85",
+   "ar": {
+    "title": "قصة النبي شعيب عليه السلام للأطفال 🌙 قصص الأنبياء | الوفاء بالكيل والميزان",
+    "q": "كيف دعا النبي شعيب عليه السلام قومه إلى الوفاء بالكيل والميزان؟",
+    "tag": "#قصة_شعيب_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Shuaib Story for Kids 🌙 Islamic Stories for Kids | Fair Measure",
+    "q": "How did Prophet Shuaib call his people to give full and fair measure?",
+    "tag": "#ProphetShuaib"
+   }
+  },
+  {
+   "n": 14,
+   "id": "iVIQmKTU4QM",
+   "src": "الشعراء 63، 65؛ طه 77",
+   "ar": {
+    "title": "قصة النبي موسى عليه السلام للأطفال 🌙 قصص الأنبياء | انفلاق البحر",
+    "q": "كيف انفلق البحر وصار طريقًا يابسًا لنجاة موسى عليه السلام ومن معه؟",
+    "tag": "#قصة_موسى_عليه_السلام"
+   },
+   "en": {
+    "title": "Prophet Musa Story for Kids 🌙 Islamic Stories for Kids | The Sea Parts",
+    "q": "How did the sea split into a dry path to save Musa and the people with him?",
+    "tag": "#ProphetMusa"
+   }
+  }
+ ],
+ "_review": {
+  "accepted_from_chatgpt": [
+   "1 src",
+   "3 سفينة نوح",
+   "4 قوم عاد",
+   "5 en",
+   "6 بردًا وسلامًا",
+   "8 title",
+   "9 البشرى بإسحاق",
+   "10 روح الله",
+   "11 src",
+   "13 الكيل والميزان",
+   "desc_line2"
+  ],
+  "rejected_with_source": [
+   "7 «المبارك» ثابت: مسلم 2473",
+   "8 «ناجٍ» ثابت: العنكبوت 33",
+   "14 النجاة ثابتة: الشعراء 65",
+   "10 en Beautiful Patience: عبارة معروفة"
+  ]
+ }
+}
