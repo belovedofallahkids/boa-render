@@ -4,7 +4,12 @@
 import base64, glob, hashlib, json, os, re, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-HOOK = "https://hook.eu1.make.com/slmenq0wkshmnxiiq9sw393ucl46mj1y"
+# Make webhook + key come from the environment (GitHub Secrets BOA_HOOK_URL / BOA_HOOK_KEY).
+# Never write them into this repository: it is public.
+HOOK = os.environ.get("BOA_HOOK_URL", "")
+HOOK_KEY = os.environ.get("BOA_HOOK_KEY", "")
+if not HOOK or not HOOK_KEY:
+    raise SystemExit("BOA_HOOK_URL / BOA_HOOK_KEY not set (GitHub Secrets or local env)")
 LANGS = {"ar": "Arabic (Modern Standard Arabic, simple words for children)", "en": "English", "tr": "Turkish",
          "fr": "French"}
 NOTES = {
@@ -25,7 +30,7 @@ def parse(srt):
 
 def ask(prompt, model="gemini-3.5-flash"):
     body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.2}}
-    payload = json.dumps({"k": "boaFlux2026x", "engine": "text", "m": model,
+    payload = json.dumps({"k": HOOK_KEY, "engine": "text", "m": model,
                           "b": base64.b64encode(json.dumps(body, ensure_ascii=False).encode()).decode()}).encode()
     req = urllib.request.Request(HOOK, data=payload, headers={"Content-Type": "application/json", "User-Agent": "boa-render"})
     with urllib.request.urlopen(req, timeout=320) as r:

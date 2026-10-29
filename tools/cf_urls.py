@@ -7,10 +7,16 @@ Every prompt gets the series style in front and the safety rules at the end (H-r
 no faces, no text; never domes/minarets/crosses unless the scene needs nothing of the kind).
 """
 import json
+import os
 import sys
 import urllib.parse
 
-HOOK = "https://hook.eu1.make.com/slmenq0wkshmnxiiq9sw393ucl46mj1y"
+# Make webhook + key come from the environment (GitHub Secrets BOA_HOOK_URL / BOA_HOOK_KEY).
+# Never write them into this repository: it is public.
+HOOK = os.environ.get("BOA_HOOK_URL", "")
+HOOK_KEY = os.environ.get("BOA_HOOK_KEY", "")
+if not HOOK or not HOOK_KEY:
+    raise SystemExit("BOA_HOOK_URL / BOA_HOOK_KEY not set (GitHub Secrets or local env)")
 PRE = ("Stylized Pixar 3D animated movie look, soft rounded shapes, warm saturated colors, "
        "not photorealistic. ")
 SUF_PEOPLE = " Family animated film still. No people, no human figures, no faces, no hands, no text, no letters."
@@ -26,7 +32,7 @@ def main():
         if name not in spec.get("animals_ok", []):
             p += SUF_ANIMALS
         p += SUF_ARCH + SUF_PEOPLE
-        out[name] = HOOK + "?" + urllib.parse.urlencode({"k": "boaFlux2026x", "prompt": p})
+        out[name] = HOOK + "?" + urllib.parse.urlencode({"k": HOOK_KEY, "prompt": p})
     print(json.dumps(out, indent=1, ensure_ascii=False))
 
 

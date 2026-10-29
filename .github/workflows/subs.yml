@@ -25,6 +25,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Translate
+        env:
+          BOA_HOOK_URL: ${{ secrets.BOA_HOOK_URL }}
+          BOA_HOOK_KEY: ${{ secrets.BOA_HOOK_KEY }}
         run: python3 render/translate.py
       - name: Review scripts
         continue-on-error: true

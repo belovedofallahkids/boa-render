@@ -3,7 +3,13 @@
 Usage: python3 tools/gemini_tts_urls.py scripts/folge15_harun.json s4b s6a ...
 """
 import base64, json, re, sys, urllib.parse
-HOOK = "https://hook.eu1.make.com/slmenq0wkshmnxiiq9sw393ucl46mj1y"
+import os
+# Make webhook + key come from the environment (GitHub Secrets BOA_HOOK_URL / BOA_HOOK_KEY).
+# Never write them into this repository: it is public.
+HOOK = os.environ.get("BOA_HOOK_URL", "")
+HOOK_KEY = os.environ.get("BOA_HOOK_KEY", "")
+if not HOOK or not HOOK_KEY:
+    raise SystemExit("BOA_HOOK_URL / BOA_HOOK_KEY not set (GitHub Secrets or local env)")
 OMA = "Sulafat"
 KID = "Puck"
 STYLE = {"whispers": "whispering softly", "softly": "softly", "warmly": "warmly", "chuckles": "with a gentle chuckle",
@@ -25,7 +31,7 @@ def body(text, kid):
 
 def url(text, kid):
     b = base64.b64encode(json.dumps(body(text, kid), ensure_ascii=False).encode()).decode()
-    return HOOK + "?" + urllib.parse.urlencode({"k": "boaFlux2026x", "engine": "tts", "b": b})
+    return HOOK + "?" + urllib.parse.urlencode({"k": HOOK_KEY, "engine": "tts", "b": b})
 
 if __name__ == "__main__":
     d = json.load(open(sys.argv[1]))
