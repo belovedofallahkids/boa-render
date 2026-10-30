@@ -40,9 +40,9 @@
    "ep": "folge13_shuaib",
    "video": "_vrFYGpWaQE",
    "duration": null,
-   "job": null,
-   "status": "translate",
-   "note": "Arabic: Notion page 13; published v2 job not in repo (H40); v3 fix pending (footprints)"
+   "job": "jobs/folge13_shuaib_v1.json",
+   "status": "draft",
+   "note": "DRAFT 30.10.: Arabic + 5 translations; job v1 (published v2 = image change only, timing to verify); H55 review + owner approval pending"
   },
   {
    "nr": 14,
