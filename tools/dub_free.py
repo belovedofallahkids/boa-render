@@ -61,6 +61,11 @@ async def tts(text, voice, rate, pitch, out):
     raise last
 
 
+BACKUP = {"fr": "fr-FR-DeniseNeural", "en": "en-US-JennyNeural", "tr": "tr-TR-EmelNeural",
+          "bs": "bs-BA-VesnaNeural", "sq": "sq-AL-AnilaNeural"}
+FALLBACK = []
+
+
 def main():
     os.makedirs(OD, exist_ok=True)
     tx = json.load(open(f"{ROOT}/dub/{EP}_{LANG}_from_ar_v1.json", encoding="utf-8"))
@@ -106,7 +111,23 @@ def main():
     clips = {}
     for k in keys:
         out = f"{OD}/{k}.mp3"
-        asyncio.run(tts(clean(tx[k]), voice, rate, KID_PITCH if (k in kids or k.startswith("k_")) else pitch, out))
+        p_ = KID_PITCH if (k in kids or k.startswith("k_")) else pitch
+        try:
+            asyncio.run(tts(clean(tx[k]), voice, rate, p_, out))
+        except Exception as ex:  # H56 b9: deterministic NoAudioReceived on single lines -> safe fallbacks, logged
+            txt = clean(tx[k]).replace("’", "'").replace("«", "").replace("»", "").replace("“", "").replace("”", "")
+            done = False
+            for v_, p2 in ((voice, p_), (voice, "+0Hz"), (BACKUP.get(LANG, voice), p_)):
+                try:
+                    asyncio.run(tts(txt, v_, rate, p2, out))
+                    FALLBACK.append({"key": k, "voice": v_, "pitch": p2, "error": str(ex)[:120]})
+                    done = True
+                    break
+                except Exception:
+                    continue
+            if not done:
+                print("::error title=tts failed %s %s::%s" % (LANG, k, txt[:200]), flush=True)
+                raise
         clips[k] = out
         print("tts", k, round(dur(out), 1), flush=True)
 
@@ -193,7 +214,7 @@ def main():
 
     rep = {"episode": EP, "lang": LANG, "voice": voice, "rate": rate, "pitch": pitch, "kid_pitch": KID_PITCH,
            "duration_video": T, "speech_end": round(t_end, 1), "lufs": m[-1] if m else None,
-           "overruns": warn, "gaps_over_1_2s": gaps, "asr_below_0_85": low, "lines": checks,
+           "tts_fallbacks": FALLBACK, "overruns": warn, "gaps_over_1_2s": gaps, "asr_below_0_85": low, "lines": checks,
            "status": "DRAFT – owner listens (H46.6); names test (H37); bs/sq human reviewer (H44.6)"}
     rp = f"{OD}/{EP}_{LANG}_free_{VER}_report.json"
     json.dump(rep, open(rp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
