@@ -203,4 +203,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        # H56: logs are not readable from Claude sessions -> put the traceback into a GitHub annotation (API-readable)
+        import traceback
+        tb = traceback.format_exc()
+        print("::error title=dub_free %s %s::%s" % (EP, LANG, tb[-1500:].replace("%", "%25").replace("\n", "%0A")), flush=True)
+        raise
