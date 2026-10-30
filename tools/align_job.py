@@ -63,7 +63,7 @@ def main():
         else:
             s["script"] = cur
         used.add(cur)
-    out = dict(job, name=JOB + "_keyed")
+    out = dict(job, name=JOB + "_keyed", disabled=True)  # dubbing only, render.py skips it
     json.dump(out, open(f"{ROOT}/jobs/{JOB}_keyed.json", "w"), ensure_ascii=False, indent=1)
     json.dump({"episode": EP, "job": JOB, "keys": rep, "segments": [(s["start"], s["label"], s["script"]) for s in job["segments"]]},
               open(f"{ROOT}/dub/align/{EP}_align_report.json", "w"), ensure_ascii=False, indent=1)

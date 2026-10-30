@@ -241,5 +241,7 @@
    "label": "oma_window_night",
    "script": "s7b"
   }
- ]
+ ],
+ "disabled": true,
+ "_note": "keyed copy for dubbing only (H56: never re-render)"
 }
