@@ -8,7 +8,7 @@ Placement like the approved Arabic track (H46/H49): every line starts with its i
 extra lines x_<key> follow their sentence; open before s1a; s7b -> close -> final without a pause
 gap before the closing; all remaining silence at the very end.
 Checks (H35/H46): overrun of the next image, gaps > 1.2 s, LUFS, whisper transcript vs text per line.
-Output: release dub_<ep>_free: <ep>_<lang>_free_v1.mp3 + <ep>_<lang>_free_v1_report.json
+Output: release dub_<ep>_free: <ep>_<lang>_free_{VER}.mp3 + <ep>_<lang>_free_{VER}_report.json
 DRAFT – owner listens before any upload (H46.6); bs/sq need a human reviewer (H44.6).
 """
 import asyncio, difflib, json, os, re, subprocess, sys
@@ -27,6 +27,7 @@ VOICE = {
 }
 KID_PITCH = "+22Hz"
 OD = f"/tmp/dubfree_{LANG}"
+VER = "v2" if os.environ.get("DUB_FILL") == "1" else "v1"
 
 
 def sh(*a, **k):
@@ -139,7 +140,7 @@ def main():
     flt.append("".join(f"[v{j}]" for j in range(len(place))) +
                f"amix=inputs={len(place)}:normalize=0,apad=whole_dur={T},atrim=0:{T},"
                f"afade=t=out:st={T - 1}:d=1,loudnorm=I=-14:TP=-1.5:LRA=11[m]")
-    track = f"{OD}/{EP}_{LANG}_free_v1.mp3"
+    track = f"{OD}/{EP}_{LANG}_free_{VER}.mp3"
     sh("ffmpeg", "-loglevel", "error", "-y", *inputs, "-filter_complex", ";".join(flt),
        "-map", "[m]", "-ar", "48000", "-b:a", "192k", track)
     lufs = subprocess.run(["ffmpeg", "-i", track, "-af", "ebur128", "-f", "null", "-"],
@@ -164,7 +165,7 @@ def main():
            "duration_video": T, "speech_end": round(t_end, 1), "lufs": m[-1] if m else None,
            "overruns": warn, "gaps_over_1_2s": gaps, "asr_below_0_85": low, "lines": checks,
            "status": "DRAFT – owner listens (H46.6); names test (H37); bs/sq human reviewer (H44.6)"}
-    rp = f"{OD}/{EP}_{LANG}_free_v1_report.json"
+    rp = f"{OD}/{EP}_{LANG}_free_{VER}_report.json"
     json.dump(rep, open(rp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     sh("gh", "release", "upload", TAG, track, rp, "--repo", REPO, "--clobber")
     print(json.dumps({k: rep[k] for k in ("lang", "lufs", "speech_end", "overruns", "gaps_over_1_2s",
