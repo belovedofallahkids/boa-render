@@ -45,8 +45,20 @@ def clean(t):
 
 
 async def tts(text, voice, rate, pitch, out):
-    import edge_tts
-    await edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).save(out)
+    # H56 b4: edge-tts fails now and then (seen mostly in fr) -> retry with backoff instead of failing the whole track
+    import edge_tts, asyncio as _a
+    last = None
+    for attempt in range(6):
+        try:
+            await edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).save(out)
+            if os.path.exists(out) and os.path.getsize(out) > 1000:
+                return
+            last = RuntimeError("empty audio")
+        except Exception as ex:
+            last = ex
+        print(f"tts retry {attempt + 1}: {last}", flush=True)
+        await _a.sleep(5 * (attempt + 1))
+    raise last
 
 
 def main():
