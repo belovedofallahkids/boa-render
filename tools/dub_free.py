@@ -74,8 +74,16 @@ def main():
                                               key=lambda x: int(re.findall(r"_v(\d+)\.json$", x)[0]))[-1]
     job = json.load(open(jf))
     segs = job["segments"]
-    T = float(os.environ.get("DUB_DURATION") or (463.8 if EP == "folge10_yaqub" else
-              (job["segments"][-1]["end"] if job["segments"][-1].get("end") not in (None, "audio") else 0)))
+    T = float(os.environ.get("DUB_DURATION") or 0)
+    # H56 b11 (31.10.): track length = exact rendered video timeline (out/<job>/status.json); a track
+    # shorter than the video failed YouTube processing (Yaqub 463.8 vs 469.8 s); raw audio length is
+    # wrong when the job has audio_cuts (Ismail).
+    stp = f"{ROOT}/out/{job['name'].replace('_keyed', '')}/status.json"
+    if not T and os.path.exists(stp):
+        T = float(json.load(open(stp)).get("timeline") or 0)
+        print("video length from render status:", T, flush=True)
+    if not T and job["segments"][-1].get("end") not in (None, "audio"):
+        T = float(job["segments"][-1]["end"])
     if not T and job.get("audio", "").startswith("http"):
         try:  # video length = narration audio + tail_hold (how the render was built)
             T = round(dur(job["audio"]) + float(job.get("tail_hold") or 0), 1)
@@ -161,7 +169,10 @@ def main():
         else:
             t = t_end + 0.8
         # next hard boundary = start of the next image after this line's image
-        nxt = next((x for x in starts if x > t + 0.01), T)  # start of the next image
+        # an image that only continues the same sentence ("<key>|cont") is not a boundary for it
+        same = set() if (k + "_2") in keys else {
+            s_["start"] for s_ in segs if str(s_["script"]).split("|")[0] == k.split("_2")[0] and "|" in str(s_["script"])}
+        nxt = next((x for x in starts if x > t + 0.01 and x not in same), T)  # start of the next image
         room = nxt - t - 0.15
         f = clips[k]
         if d > room and k not in ("s7b", "close", "final"):
