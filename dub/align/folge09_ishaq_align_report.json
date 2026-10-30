@@ -1,0 +1,273 @@
+{
+ "episode": "folge09_ishaq",
+ "job": "folge09_ishaq_v3",
+ "keys": {
+  "s1a": {
+   "found": true,
+   "t": 0.0,
+   "score": 0.83
+  },
+  "s1b": {
+   "found": true,
+   "t": 26.5,
+   "score": 1.0
+  },
+  "s1c": {
+   "found": true,
+   "t": 30.28,
+   "score": 1.0
+  },
+  "s2a": {
+   "found": true,
+   "t": 47.76,
+   "score": 0.83
+  },
+  "s2b": {
+   "found": true,
+   "t": 76.96,
+   "score": 1.0
+  },
+  "s2c": {
+   "found": true,
+   "t": 79.6,
+   "score": 1.0
+  },
+  "s3a": {
+   "found": true,
+   "t": 99.94,
+   "score": 1.0
+  },
+  "s3b": {
+   "found": true,
+   "t": 126.8,
+   "score": 1.0
+  },
+  "s3c": {
+   "found": true,
+   "t": 150.4,
+   "score": 0.83
+  },
+  "s3d": {
+   "found": true,
+   "t": 155.22,
+   "score": 1.0
+  },
+  "s4a": {
+   "found": true,
+   "t": 180.04,
+   "score": 0.83
+  },
+  "s4b": {
+   "found": true,
+   "t": 203.04,
+   "score": 1.0
+  },
+  "s4c": {
+   "found": true,
+   "t": 209.48,
+   "score": 1.0
+  },
+  "s4d": {
+   "found": true,
+   "t": 235.12,
+   "score": 1.0
+  },
+  "s5a": {
+   "found": true,
+   "t": 267.58,
+   "score": 1.0
+  },
+  "s5b": {
+   "found": true,
+   "t": 295.4,
+   "score": 1.0
+  },
+  "s5c": {
+   "found": true,
+   "t": 298.28,
+   "score": 0.67
+  },
+  "s6a": {
+   "found": true,
+   "t": 320.88,
+   "score": 0.6
+  },
+  "s6b": {
+   "found": true,
+   "t": 353.78,
+   "score": 0.83
+  },
+  "s6c": {
+   "found": true,
+   "t": 359.06,
+   "score": 0.8
+  },
+  "s6d": {
+   "found": true,
+   "t": 398.88,
+   "score": 1.0
+  },
+  "s6e": {
+   "found": true,
+   "t": 403.62,
+   "score": 1.0
+  },
+  "s7a": {
+   "found": true,
+   "t": 426.76,
+   "score": 1.0
+  },
+  "s7b": {
+   "found": true,
+   "t": 456.9,
+   "score": 1.0
+  }
+ },
+ "segments": [
+  [
+   0.0,
+   "master_A_buch",
+   "s1a"
+  ],
+  [
+   26.4,
+   "noah",
+   "s1b"
+  ],
+  [
+   30.0,
+   "master_A_buch",
+   "s1c"
+  ],
+  [
+   47.6,
+   "safe_hill_sunrise",
+   "s2a"
+  ],
+  [
+   66.5,
+   "cradle_waiting",
+   "s2a|cont"
+  ],
+  [
+   76.6,
+   "ilyas",
+   "s2b"
+  ],
+  [
+   79.3,
+   "tent_lamp_night",
+   "s2c"
+  ],
+  [
+   99.7,
+   "ibrahim_tent_food",
+   "s3a"
+  ],
+  [
+   126.0,
+   "ibrahim_tent_food",
+   "s3b"
+  ],
+  [
+   140.5,
+   "lut_city",
+   "s3b|cont"
+  ],
+  [
+   147.2,
+   "tent_golden_light",
+   "s3b|cont"
+  ],
+  [
+   150.2,
+   "noah",
+   "s3c"
+  ],
+  [
+   155.0,
+   "tent_golden_light",
+   "s3d"
+  ],
+  [
+   179.8,
+   "cradle_waiting",
+   "s4a"
+  ],
+  [
+   203.6,
+   "ilyas",
+   "s4b"
+  ],
+  [
+   209.3,
+   "tent_golden_light",
+   "s4c"
+  ],
+  [
+   234.8,
+   "sunrise_hope",
+   "s4d"
+  ],
+  [
+   267.1,
+   "cradle_morning",
+   "s5a"
+  ],
+  [
+   295.4,
+   "noah",
+   "s5b"
+  ],
+  [
+   299.6,
+   "two_palms",
+   "s5c"
+  ],
+  [
+   322.3,
+   "prayer_rug_sunrise",
+   "s6a"
+  ],
+  [
+   345.5,
+   "basket_sharing",
+   "s6a|cont"
+  ],
+  [
+   353.5,
+   "ilyas",
+   "s6b"
+  ],
+  [
+   358.8,
+   "tree_of_lights",
+   "s6c"
+  ],
+  [
+   373.7,
+   "tree_of_lights",
+   "s6c|cont"
+  ],
+  [
+   398.7,
+   "noah",
+   "s6d"
+  ],
+  [
+   403.4,
+   "lanterns_path",
+   "s6e"
+  ],
+  [
+   426.3,
+   "kinder_schlafen",
+   "s7a"
+  ],
+  [
+   456.7,
+   "oma_window_night",
+   "s7b"
+  ]
+ ]
+}
