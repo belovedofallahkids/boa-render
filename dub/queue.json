@@ -121,9 +121,9 @@
    "ep": "folge08_ismail",
    "video": "DfSvCAeJrPI",
    "duration": null,
-   "job": "jobs/folge08_ismail_v3.json",
-   "status": "translate",
-   "note": "sacrifice story missing (fix pending)"
+   "job": "jobs/folge08_ismail_v3_keyed.json",
+   "status": "draft",
+   "note": "DRAFT 31.10.: Arabic keyed + H55 (Notion 08), 5 translations; keyed job fixed for audio_cuts"
   },
   {
    "nr": 9,

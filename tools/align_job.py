@@ -13,6 +13,16 @@ EP, JOB = os.environ["ALIGN_EP"], os.environ["ALIGN_JOB"]
 def norm(w):
     return re.sub(r"[^a-zäöüß0-9]", "", w.lower())
 
+def to_video(t, cuts):
+    """raw narration time -> video timeline (audio_cuts [[a,b],...] are removed before the render)."""
+    off = 0.0
+    for a, b in cuts:
+        if t >= b:
+            off += b - a
+        elif t > a:
+            return a - off
+    return t - off
+
 def main():
     job = json.load(open(f"{ROOT}/jobs/{JOB}.json"))
     keys = json.load(open(f"{ROOT}/dub/align/{EP}_de_keys.json"))
@@ -36,9 +46,9 @@ def main():
         if bi is None or best < 0.5:
             rep[k] = {"found": False, "score": round(best, 2)}
             continue
-        starts[k] = words[bi][1]
+        starts[k] = to_video(words[bi][1], job.get("audio_cuts") or [])
         pos = bi + 1
-        rep[k] = {"found": True, "t": round(words[bi][1], 2), "score": round(best, 2)}
+        rep[k] = {"found": True, "t_raw": round(words[bi][1], 2), "t": round(starts[k], 2), "score": round(best, 2)}
     order = sorted(starts.items(), key=lambda x: x[1])
     used = set()
     for s in job["segments"]:

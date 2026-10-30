@@ -45,7 +45,7 @@
    "motion": "zoom_in",
    "amount": 0.051,
    "label": "noah",
-   "script": "s1a|cont"
+   "script": "s1b"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
@@ -54,7 +54,7 @@
    "motion": "pan_left",
    "amount": 0.097,
    "label": "master_A_buch",
-   "script": "s1b"
+   "script": "s1c"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_valley_mecca_metapng-w09uOkimipO.png",
@@ -63,7 +63,7 @@
    "motion": "zoom_in",
    "amount": 0.137,
    "label": "valley_mecca",
-   "script": "s1c"
+   "script": "s2a"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_valley_mecca_metapng-w09uOkimipO.png",
@@ -72,7 +72,7 @@
    "motion": "pan_left",
    "amount": 0.134,
    "label": "valley_mecca",
-   "script": "s2a"
+   "script": "s2b"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
@@ -81,7 +81,7 @@
    "motion": "zoom_in",
    "amount": 0.053,
    "label": "ilyas",
-   "script": "s2b"
+   "script": "s2c"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge06_sunset_skypng-0ZD8ADNMJwX.png",
@@ -90,7 +90,7 @@
    "motion": "zoom_in",
    "amount": 0.132,
    "label": "dua_sky",
-   "script": "s2c"
+   "script": "s2d"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_empty_waterskinjpg-8Qx3n9vnhpB.jpeg",
@@ -99,7 +99,7 @@
    "motion": "zoom_in",
    "amount": 0.099,
    "label": "empty_waterskin",
-   "script": "s2d"
+   "script": "s3a"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_safa_hill_v2jpg-0aBYH7VwkH3.jpeg",
@@ -108,7 +108,7 @@
    "motion": "pan_right",
    "amount": 0.085,
    "label": "safa_hill",
-   "script": "s3a"
+   "script": "s3b"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_two_hills_v4_cfpng-KuA5Hsm8Xmc.jpeg",
@@ -117,7 +117,7 @@
    "motion": "pan_left",
    "amount": 0.14,
    "label": "two_hills",
-   "script": "s3b"
+   "script": "s3b|cont"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
@@ -126,7 +126,7 @@
    "motion": "zoom_in",
    "amount": 0.055,
    "label": "noah",
-   "script": "s3c"
+   "script": "s3d"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_sand_glow_v2jpg-imFi95mHKXi.jpeg",
@@ -135,7 +135,7 @@
    "motion": "zoom_in",
    "amount": 0.104,
    "label": "sand_glow",
-   "script": "s3c|cont"
+   "script": "s4a"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_zamzam_springjpg-YkXLNzh2AZs.jpeg",
@@ -144,7 +144,7 @@
    "motion": "zoom_in",
    "amount": 0.1,
    "label": "zamzam_spring",
-   "script": "s4a"
+   "script": "s4a|cont"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
@@ -153,7 +153,7 @@
    "motion": "zoom_in",
    "amount": 0.063,
    "label": "ilyas",
-   "script": "s4b"
+   "script": "s4c"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_zamzam_springjpg-YkXLNzh2AZs.jpeg",
@@ -162,7 +162,7 @@
    "motion": "zoom_out",
    "amount": 0.12,
    "label": "zamzam_spring",
-   "script": "s4b|cont"
+   "script": "s4d"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_birds_over_valleyjpg-lhDOEJ2JvrI.jpeg",
@@ -176,7 +176,7 @@
     0.0,
     0.62
    ],
-   "script": "s4c"
+   "script": "s5a"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_tents_valleyjpg-z89UaCqD278.jpeg",
@@ -185,7 +185,7 @@
    "motion": "zoom_in",
    "amount": 0.14,
    "label": "tents_valley",
-   "script": "s4d"
+   "script": "s5a|cont"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_kaaba_buildingjpg-Y24OJagk9Af.jpeg",
@@ -194,7 +194,7 @@
    "motion": "zoom_in",
    "amount": 0.14,
    "label": "kaaba_building",
-   "script": "s5a"
+   "script": "s6a"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
@@ -203,7 +203,7 @@
    "motion": "zoom_in",
    "amount": 0.054,
    "label": "noah",
-   "script": "s6a"
+   "script": "s6b"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge08_kaaba_buildingjpg-Y24OJagk9Af.jpeg",
@@ -212,7 +212,7 @@
    "motion": "zoom_out",
    "amount": 0.061,
    "label": "kaaba_building",
-   "script": "s6a|cont"
+   "script": "s6c"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_prayer_rug_sunrisejpg-Sdao2hRcTap.jpeg",
@@ -221,7 +221,7 @@
    "motion": "zoom_in",
    "amount": 0.076,
    "label": "prayer_rug_sunrise",
-   "script": "s6a|cont"
+   "script": "s6c|cont"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_kinder_schlafen_offizielljpg-aevRtHZ0V3q.jpeg",
@@ -230,7 +230,7 @@
    "motion": "zoom_out",
    "amount": 0.14,
    "label": "kinder_schlafen",
-   "script": "s6a|cont"
+   "script": "s7a"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_oma_window_night_offizielljpg-i61gAYOmKJ9.jpeg",
@@ -239,7 +239,7 @@
    "motion": "zoom_out",
    "amount": 0.14,
    "label": "oma_window_night",
-   "script": "s7a"
+   "script": "s7b"
   }
  ]
 }
