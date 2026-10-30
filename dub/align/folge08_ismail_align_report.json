@@ -1,0 +1,233 @@
+{
+ "episode": "folge08_ismail",
+ "job": "folge08_ismail_v3",
+ "keys": {
+  "s1a": {
+   "found": true,
+   "t": 1.36,
+   "score": 0.83
+  },
+  "s1b": {
+   "found": true,
+   "t": 27.81,
+   "score": 1.0
+  },
+  "s1c": {
+   "found": true,
+   "t": 30.84,
+   "score": 1.0
+  },
+  "s2a": {
+   "found": true,
+   "t": 45.34,
+   "score": 0.83
+  },
+  "s2b": {
+   "found": true,
+   "t": 69.1,
+   "score": 0.83
+  },
+  "s2c": {
+   "found": true,
+   "t": 92.82,
+   "score": 1.0
+  },
+  "s2d": {
+   "found": true,
+   "t": 95.96,
+   "score": 1.0
+  },
+  "s3a": {
+   "found": true,
+   "t": 119.28,
+   "score": 0.83
+  },
+  "s3b": {
+   "found": true,
+   "t": 136.6,
+   "score": 0.83
+  },
+  "s3c": {
+   "found": true,
+   "t": 157.06,
+   "score": 1.0
+  },
+  "s3d": {
+   "found": true,
+   "t": 179.12,
+   "score": 0.67
+  },
+  "s4a": {
+   "found": true,
+   "t": 183.96,
+   "score": 0.83
+  },
+  "s4b": {
+   "found": true,
+   "t": 204.24,
+   "score": 0.8
+  },
+  "s4c": {
+   "found": true,
+   "t": 229.82,
+   "score": 0.8
+  },
+  "s4d": {
+   "found": true,
+   "t": 235.9,
+   "score": 1.0
+  },
+  "s5a": {
+   "found": true,
+   "t": 255.92,
+   "score": 1.0
+  },
+  "s5b": {
+   "found": true,
+   "t": 282.56,
+   "score": 0.83
+  },
+  "s6a": {
+   "found": true,
+   "t": 297.56,
+   "score": 1.0
+  },
+  "s6b": {
+   "found": true,
+   "t": 329.2,
+   "score": 0.6
+  },
+  "s6c": {
+   "found": true,
+   "t": 332.52,
+   "score": 0.83
+  },
+  "s7a": {
+   "found": true,
+   "t": 348.62,
+   "score": 1.0
+  },
+  "s7b": {
+   "found": true,
+   "t": 381.76,
+   "score": 1.0
+  }
+ },
+ "segments": [
+  [
+   0.0,
+   "master_A_buch",
+   "s1a"
+  ],
+  [
+   24.65,
+   "noah",
+   "s1a|cont"
+  ],
+  [
+   27.45,
+   "master_A_buch",
+   "s1b"
+  ],
+  [
+   41.65,
+   "valley_mecca",
+   "s1c"
+  ],
+  [
+   65.85,
+   "valley_mecca",
+   "s2a"
+  ],
+  [
+   89.45,
+   "ilyas",
+   "s2b"
+  ],
+  [
+   92.65,
+   "dua_sky",
+   "s2c"
+  ],
+  [
+   115.65,
+   "empty_waterskin",
+   "s2d"
+  ],
+  [
+   130.5,
+   "safa_hill",
+   "s3a"
+  ],
+  [
+   141.7,
+   "two_hills",
+   "s3b"
+  ],
+  [
+   171.5,
+   "noah",
+   "s3c"
+  ],
+  [
+   175.2,
+   "sand_glow",
+   "s3c|cont"
+  ],
+  [
+   191.1,
+   "zamzam_spring",
+   "s4a"
+  ],
+  [
+   206.15,
+   "ilyas",
+   "s4b"
+  ],
+  [
+   211.85,
+   "zamzam_spring",
+   "s4b|cont"
+  ],
+  [
+   231.95,
+   "birds_over_valley",
+   "s4c"
+  ],
+  [
+   245.85,
+   "tents_valley",
+   "s4d"
+  ],
+  [
+   274.05,
+   "kaaba_building",
+   "s5a"
+  ],
+  [
+   306.85,
+   "noah",
+   "s6a"
+  ],
+  [
+   310.45,
+   "kaaba_building",
+   "s6a|cont"
+  ],
+  [
+   315.75,
+   "prayer_rug_sunrise",
+   "s6a|cont"
+  ],
+  [
+   324.75,
+   "kinder_schlafen",
+   "s6a|cont"
+  ],
+  [
+   357.85,
+   "oma_window_night",
+   "s7a"
+  ]
+ ]
+}
