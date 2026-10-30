@@ -11,6 +11,9 @@ on:
       ep:
         description: "episode key (e.g. folge10_yaqub)"
         default: "folge10_yaqub"
+      fill:
+        description: "1 = add owner-approved gap lines (dub/<ep>_fill_v1.json)"
+        default: "0"
 
 permissions:
   contents: write
@@ -49,4 +52,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DUB_LANG: ${{ matrix.lang }}
           DUB_EP: ${{ github.event.inputs.ep || 'folge10_yaqub' }}
+          DUB_FILL: ${{ github.event.inputs.fill || '0' }}
         run: python3 tools/dub_free.py

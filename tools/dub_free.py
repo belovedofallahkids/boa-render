@@ -60,6 +60,15 @@ def main():
     starts = sorted(s["start"] for s in segs)
     kids = {s["script"] for s in segs if s["label"] in ("noah", "ilyas")}
     keys = [k for k in tx if not k.startswith("_")]
+    # gap lines (owner choice «أ» 30.10.): only with DUB_FILL=1, i.e. after owner approval of the Arabic text
+    fp = f"{ROOT}/dub/{EP}_fill_v1.json"
+    if os.environ.get("DUB_FILL") == "1" and os.path.exists(fp):
+        fill = json.load(open(fp, encoding="utf-8"))
+        for fk, fv in fill.items():
+            if fk.startswith("_") or LANG not in fv or fv["after"] not in keys:
+                continue
+            tx[fk] = fv[LANG]
+            keys.insert(keys.index(fv["after"]) + 1, fk)
     voice, rate, pitch = VOICE[LANG]
 
     # 1) TTS every line (one call each, free)
@@ -76,7 +85,7 @@ def main():
         d = dur(clips[k])
         if k == "open":
             t = 0.3
-        elif k.startswith("x_"):
+        elif k.startswith(("x_", "y_")):
             t = t_end + 1.0
         elif k in ("close", "final"):
             t = t_end + 0.9
