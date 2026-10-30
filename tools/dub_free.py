@@ -66,6 +66,12 @@ def main():
         img.setdefault(s["script"], s)
     starts = sorted(s["start"] for s in segs)
     kids = {s["script"] for s in segs if s["label"] in ("noah", "ilyas")}
+    # split lines (owner choice «ب» 30.10.2026): "<key>_2" starts on the 2nd image of that sentence
+    # (job script "<key>|…"); "k_<key>" = short kid question between the parts (kid voice, no new info, H55)
+    for s in segs:
+        base = str(s["script"]).split("|")[0]
+        if "|" in str(s["script"]) and base + "_2" not in img:
+            img[base + "_2"] = s
     keys = [k for k in tx if not k.startswith("_")]
     # gap lines (owner choice «أ» 30.10.): only with DUB_FILL=1, i.e. after owner approval of the Arabic text
     fp = f"{ROOT}/dub/{EP}_fill_v1.json"
@@ -82,7 +88,7 @@ def main():
     clips = {}
     for k in keys:
         out = f"{OD}/{k}.mp3"
-        asyncio.run(tts(clean(tx[k]), voice, rate, KID_PITCH if k in kids else pitch, out))
+        asyncio.run(tts(clean(tx[k]), voice, rate, KID_PITCH if (k in kids or k.startswith("k_")) else pitch, out))
         clips[k] = out
         print("tts", k, round(dur(out), 1), flush=True)
 
@@ -105,7 +111,7 @@ def main():
         d = dur(clips[k])
         if k == "open":
             t = 0.3
-        elif k.startswith(("x_", "y_")):
+        elif k.startswith(("x_", "y_", "k_")):
             t = t_end + 1.0
         elif k in ("close", "final"):
             t = t_end + 0.9

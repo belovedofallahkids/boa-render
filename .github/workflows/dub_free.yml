@@ -1,11 +1,7 @@
 name: dub_free
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "tools/dub_free.py"
-      - ".github/workflows/dub_free.yml"
+  # no push trigger (30.10.2026): a push re-dubbed Yaqub v1 by default; run only by dispatch
   workflow_dispatch:
     inputs:
       ep:
