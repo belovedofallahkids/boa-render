@@ -1,0 +1,20 @@
+{
+ "_rule": "Owner 30.10.2026: «الدبلجة لازم تعطي الأوامر لكل الفيديوات لنكون جاهزين مسبقًا». An episode is dubbed automatically (workflow dub_auto, free edge-tts, no Claude needed) as soon as its status is 'ready'. Claude sets 'ready' only when: Arabic mother text approved by owner (H45), all 5 translations dub/<ep>_<lang>_from_ar_v1.json exist (from Arabic, H44-a), verses from approved translations (H51), back-translation + second review by ChatGPT (H52), names per names/names.json (H37). Order: published first (H47), then the rest.",
+ "langs": ["fr", "en", "tr", "bs", "sq"],
+ "episodes": [
+  {"nr": 10, "ep": "folge10_yaqub",  "video": "bYMbH2JWOmw", "duration": 463.8, "job": "jobs/folge10_yaqub_v1.json", "status": "dubbed", "note": "v2 with gap lines 30.10. (run 41092281898)"},
+  {"nr": 11, "ep": "folge11_yusuf",  "video": "JkDMNOlskhY", "duration": null, "job": null, "status": "translate", "note": "Arabic mother text: Notion page 11 (24.10. rewrite) – owner approval of Arabic needed; job for published v2 not in repo (H40)"},
+  {"nr": 12, "ep": "folge12_ayyub",  "video": "x40FMezIaRA", "duration": null, "job": "jobs/folge12_ayyub_v1.json", "status": "translate", "note": "Arabic mother text: Notion page 12"},
+  {"nr": 13, "ep": "folge13_shuaib", "video": "_vrFYGpWaQE", "duration": null, "job": null, "status": "translate", "note": "Arabic: Notion page 13; published v2 job not in repo (H40); v3 fix pending (footprints)"},
+  {"nr": 14, "ep": "folge14_musa",   "video": "iVIQmKTU4QM", "duration": 563.0, "job": "jobs/folge14_musa_v2.json", "status": "translate", "note": "Arabic mother text: Notion page 14 (H45 table)"},
+  {"nr": 1,  "ep": "folge01_adam",   "video": null, "duration": null, "job": null, "status": "translate", "note": "remake planned (D7) – dub after remake"},
+  {"nr": 2,  "ep": "folge02_idris",  "video": null, "duration": null, "job": null, "status": "translate", "note": "remake planned (D7)"},
+  {"nr": 3,  "ep": "folge03_nuh",    "video": "2z5bsTOxkJc", "duration": null, "job": null, "status": "translate", "note": "v3 published 26.10.; German audio still says 'Nu' (re-record pending)"},
+  {"nr": 4,  "ep": "folge04_hud",    "video": null, "duration": null, "job": null, "status": "translate", "note": "remake planned (D7)"},
+  {"nr": 5,  "ep": "folge05_salih",  "video": null, "duration": null, "job": null, "status": "translate", "note": "remake planned (D7)"},
+  {"nr": 6,  "ep": "folge06_ibrahim","video": "kLXKwVK7bII", "duration": null, "job": null, "status": "translate", "note": "children's names missing at the start (fix pending)"},
+  {"nr": 7,  "ep": "folge07_lut",    "video": "O2CZZcXuBa0", "duration": null, "job": null, "status": "translate", "note": "published v4 job not in repo (H40)"},
+  {"nr": 8,  "ep": "folge08_ismail", "video": "DfSvCAeJrPI", "duration": null, "job": "jobs/folge08_ismail_v3.json", "status": "translate", "note": "sacrifice story missing (fix pending)"},
+  {"nr": 9,  "ep": "folge09_ishaq",  "video": "WPsbvEsJ4S8", "duration": null, "job": null, "status": "translate", "note": "published v4 job not in repo (H40)"}
+ ]
+}

@@ -1,0 +1,80 @@
+name: dub_auto
+
+# Owner 30.10.2026: all episodes dubbed in advance, without Claude present.
+# Every episode in dub/queue.json with status "ready" whose release dub_<ep>_free has no v1 track yet
+# is dubbed in all languages (free edge-tts + whisper check). Runs on every push to dub/** and daily.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dub/**"
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+          q = json.load(open("dub/queue.json"))
+          inc = []
+          for e in q["episodes"]:
+              if e["status"] != "ready":
+                  continue
+              tag = f"dub_{e['ep']}_free"
+              have = subprocess.run(["gh", "release", "view", tag, "--repo", os.environ["GITHUB_REPOSITORY"],
+                                     "--json", "assets", "-q", ".assets[].name"], capture_output=True, text=True).stdout
+              if subprocess.run(["gh", "release", "view", tag, "--repo", os.environ["GITHUB_REPOSITORY"]],
+                                capture_output=True).returncode != 0:
+                  subprocess.run(["gh", "release", "create", tag, "--repo", os.environ["GITHUB_REPOSITORY"],
+                                  "--title", tag, "--notes", "Kostenlose Dub-Spuren (edge-tts), ENTWURF"], check=True)
+              for l in q["langs"]:
+                  if not os.path.exists(f"dub/{e['ep']}_{l}_from_ar_v1.json"):
+                      continue
+                  if f"{e['ep']}_{l}_free_v1.mp3" in have:
+                      continue
+                  inc.append({"ep": e["ep"], "lang": l, "job": e.get("job") or "", "dur": str(e.get("duration") or "")})
+          print(inc)
+          open(os.environ["GITHUB_OUTPUT"], "a").write("matrix=" + json.dumps({"include": inc or [{"ep": "", "lang": "", "job": "", "dur": ""}]}) + "\n")
+          PY
+  dub:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+        if: matrix.ep != ''
+      - uses: actions/setup-python@v5
+        if: matrix.ep != ''
+        with:
+          python-version: "3.11"
+      - name: Install
+        if: matrix.ep != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q edge-tts faster-whisper
+      - name: Dub
+        if: matrix.ep != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DUB_EP: ${{ matrix.ep }}
+          DUB_LANG: ${{ matrix.lang }}
+          DUB_JOB: ${{ matrix.job }}
+          DUB_DURATION: ${{ matrix.dur }}
+        run: python3 tools/dub_free.py

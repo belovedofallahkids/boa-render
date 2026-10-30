@@ -52,9 +52,15 @@ async def tts(text, voice, rate, pitch, out):
 def main():
     os.makedirs(OD, exist_ok=True)
     tx = json.load(open(f"{ROOT}/dub/{EP}_{LANG}_from_ar_v1.json", encoding="utf-8"))
-    job = json.load(open(f"{ROOT}/jobs/{EP}_v1.json"))
+    import glob
+    jf = os.environ.get("DUB_JOB") or sorted(glob.glob(f"{ROOT}/jobs/{EP}_v*.json"),
+                                              key=lambda x: int(re.findall(r"_v(\d+)\.json$", x)[0]))[-1]
+    job = json.load(open(jf))
     segs = job["segments"]
-    T = float(os.environ.get("DUB_DURATION", "463.8"))
+    T = float(os.environ.get("DUB_DURATION") or (463.8 if EP == "folge10_yaqub" else
+              (job["segments"][-1]["end"] if job["segments"][-1].get("end") not in (None, "audio") else 0)))
+    if not T:
+        T = max(s["start"] for s in segs) + 40.0  # fallback; real length is set from the published video
     img = {}
     for s in segs:
         img.setdefault(s["script"], s)
