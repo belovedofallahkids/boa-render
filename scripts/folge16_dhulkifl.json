@@ -17,7 +17,7 @@
   "s1b": "[childlike voice] [curious] Hmm… nein! Wen denn, Oma?",
   "s1c": "[chuckles] Prophet Dhul-Kifl, Friede sei mit ihm. [warmly] Kuschelt euch ein. Heute wird es eine kurze Geschichte, aber eine sehr wichtige.",
   "s2a": "[warmly] Allah erwähnt Dhul-Kifl zweimal im Koran. Einmal sagt Allah: Und Ismail, Idris und Dhul-Kifl, alle gehörten zu den Geduldigen. [softly] Wir ließen sie in Unsere Barmherzigkeit eintreten. Sie gehörten zu den Rechtschaffenen.",
-  "s2b": "[warmly] Und an einer anderen Stelle sagt Allah: Und gedenke Ismails, Alyasas und Dhul-Kifls. Alle gehörten zu den Besten.",
+  "s2b": "[warmly] Und an einer anderen Stelle sagt Allah: Und gedenke Ismails, Al-Yasas und Dhul-Kifls. Alle gehörten zu den Besten.",
   "s2c": "[childlike voice] [surprised] Zu den Besten? Wow! Und was hat er gemacht?",
   "s2d": "[softly] Das erzählt uns der Koran nicht, mein Schatz. [warmly] Aber Allah sagt uns zwei Dinge über ihn: Er war geduldig. Und er war rechtschaffen. Und genau darüber sprechen wir heute.",
   "s3a": "[curious] Was heißt eigentlich geduldig? Ilyas, wann musstest du schon mal geduldig sein?",
@@ -29,21 +29,21 @@
   "s4c": "[chuckles] Ganz genau, mein Schatz! Oder einem Kind helfen, das alleine ist. Oder die Wahrheit sagen, auch wenn es schwer ist. [softly] Allah sieht alles. Und Er hat Dhul-Kifl in Seine Barmherzigkeit eintreten lassen.",
   "s5a": "[softly] Weißt du, manche Leute erzählen über Dhul-Kifl lange Geschichten. Aber für viele davon gibt es keine sicheren Quellen. [warmly] Und was wir nicht sicher wissen, das erfinden wir nicht.",
   "s5b": "[childlike voice] [curious] Und warum erzählt Allah uns nicht mehr über ihn?",
-  "s5c": "[warmly] Allah weiß am besten, was wir brauchen. [softly] Vielleicht will Er uns zeigen: Nicht jeder gute Mensch wird berühmt. Aber Allah kennt jeden, der geduldig ist und Gutes tut. Und Allah sagt: Die Geduldigen bekommen ihren Lohn ohne Grenze.",
+  "s5c": "[warmly] Allah weiß am besten. [softly] Aber eines wissen wir sicher: Allah kennt jeden, der geduldig ist und Gutes tut, auch wenn die Menschen ihn nicht kennen. Und Allah sagt: Die Geduldigen bekommen ihren Lohn ohne Abrechnung.",
   "s6a": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… seid geduldig wie Dhul-Kifl, wenn etwas schwer ist oder lange dauert. Tut Gutes, auch wenn niemand zuschaut. Und erzählt nur, was ihr sicher wisst.",
   "s6b": "[whispers] Und nächstes Mal erzähle ich euch von Dawud… einem Propheten mit einer wunderschönen Stimme, mit dem sogar die Berge und die Vögel Allah lobten. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch."
  },
  "kids": {"s1b": "ilyas", "s2c": "noah", "s3b": "ilyas", "s4b": "noah", "s5b": "ilyas"},
  "sources": {
   "s2a": "„Und Ismail, Idris und Dhul-Kifl – alle gehörten zu den Geduldigen. Und Wir ließen sie in Unsere Barmherzigkeit eintreten; sie gehörten zu den Rechtschaffenen“ (21:85–86)",
-  "s2b": "„Und gedenke Ismails, Alyasas und Dhul-Kifls; alle gehören zu den Besten“ (38:48)",
+  "s2b": "„Und gedenke Ismails, Al-Yasas und Dhul-Kifls; alle gehören zu den Besten“ (38:48)",
   "s2d": "Keine weiteren gesicherten Angaben im Koran oder in sahih Hadithen; Prophetenschaft nach der Mehrheit der Gelehrten (Ibn Kathir), daher nur „Prophet“ wie in der Serie",
   "s3c": "„Allah ist mit den Geduldigen“ (2:153)",
   "s3d": "„Niemandem wurde eine Gabe gegeben, die besser und umfassender ist als die Geduld“ (Sahih al-Bukhari 1469, Sahih Muslim 1053)",
   "s4a": "Rechtschaffen (salih) = gehorsam und Gutes tun; allgemeine Erklärung",
   "s4c": "In die Barmherzigkeit eintreten lassen (21:86)",
   "s5a": "H1: Erzählungen über Dhul-Kifl ohne sichere Quelle werden nicht erzählt",
-  "s5c": "„Den Geduldigen wird ihr Lohn ohne Abrechnung voll zuteil“ (39:10) – kindgerecht „ohne Grenze“",
+  "s5c": "„Den Geduldigen wird ihr Lohn ohne Abrechnung voll zuteil“ (39:10); keine Vermutung über Allahs Absicht (H00, Doppelprüfung 30.10.2026)",
   "s6b": "Teaser Dawud: Berge und Vögel lobpreisen mit ihm (34:10, 38:18–19, 21:79)"
  },
  "images": {
