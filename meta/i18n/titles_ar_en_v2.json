@@ -1,5 +1,5 @@
 {
- "_status": "DRAFT v2 – 30.10.2026. Gemini draft → Claude check (4 errors) → ChatGPT review → Claude decision per point (see _review). Needs owner approval (H18) before YouTube changes.",
+ "_status": "APPROVED by owner 30.10.2026 (with 2 changes: Ayyub 12 'نِعْمَ العبد/Patience in Hardship' per H55, Noah 3 en 'Noah's Ark'). Ready to add in YouTube Studio → Langues.",
  "desc_line2": {
   "ar": "قصة من القرآن الكريم، بلا موسيقى.",
   "en": "A story from the Qur'an, with no music.",
@@ -58,7 +58,7 @@
     "tag": "#قصة_نوح_عليه_السلام"
    },
    "en": {
-    "title": "Prophet Noah Story for Kids 🌙 Islamic Stories for Kids | Noah's Ship",
+    "title": "Prophet Noah Story for Kids 🌙 Islamic Stories for Kids | Noah's Ark",
     "q": "Would you like to hear about the great ship that Allah commanded Noah to build?",
     "tag": "#ProphetNoah"
    }
@@ -188,13 +188,13 @@
    "id": "x40FMezIaRA",
    "src": "ص 41–44",
    "ar": {
-    "title": "قصة النبي أيوب عليه السلام للأطفال 🌙 قصص الأنبياء | الصبر على المرض",
-    "q": "كيف صبر نبي الله أيوب عليه السلام على المرض، فقال الله عنه: نِعْمَ العبدُ إنه أوّاب؟",
+    "title": "قصة النبي أيوب عليه السلام للأطفال 🌙 قصص الأنبياء | نِعْمَ العبد",
+    "q": "كيف صبر نبي الله أيوب عليه السلام على الضرّ، فقال الله عنه: نِعْمَ العبدُ إنه أوّاب؟",
     "tag": "#قصة_أيوب_عليه_السلام"
    },
    "en": {
-    "title": "Prophet Ayyub Story for Kids 🌙 Islamic Stories for Kids | Patience in Illness",
-    "q": "How was Prophet Ayyub patient in his illness, so that Allah called him an excellent servant who always turned back to Him?",
+    "title": "Prophet Ayyub Story for Kids 🌙 Islamic Stories for Kids | Patience in Hardship",
+    "q": "How was Prophet Ayyub patient in hardship, so that Allah called him an excellent servant who always turned back to Him?",
     "tag": "#ProphetAyyub"
    }
   },
