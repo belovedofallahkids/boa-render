@@ -79,6 +79,19 @@ def main():
         clips[k] = out
         print("tts", k, round(dur(out), 1), flush=True)
 
+    # 1b) opening fix (owner 30.10.: «صلح جملة البداية»): open + s1a share the first image and must end
+    # before Ilyas's image (s1b). If too long, re-voice both at one faster rate (natural TTS, not atempo).
+    if "open" in clips and "s1a" in clips and "s1b" in img:
+        room = img["s1b"]["start"] - 0.3 - 0.55 - 0.25
+        need = dur(clips["open"]) + dur(clips["s1a"])
+        if need > room:
+            base = int(rate.rstrip("%"))
+            new = min(10, int(((1 + base / 100) * need / room - 1) * 100 + 1))
+            for k in ("open", "s1a"):
+                asyncio.run(tts(clean(tx[k]), voice, f"{new:+d}%", pitch, clips[k]))
+            print("opening re-voiced at", f"{new:+d}%", round(need, 1), "->",
+                  round(dur(clips["open"]) + dur(clips["s1a"]), 1), "room", round(room, 1), flush=True)
+
     # 2) placement
     place, warn, t_end = [], [], 0.0
     for i, k in enumerate(keys):

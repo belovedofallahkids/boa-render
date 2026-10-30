@@ -3,7 +3,7 @@
   "episode": "folge10_yaqub",
   "purpose": "Short gap lines by Oma (owner 30.10.2026 choice «أ», H49 update 2): fill long silences in the free dub tracks. Each line follows the sentence named in 'after'.",
   "rule": "No new religious information (H1); imagination is announced; every line restates the approved text or a cited verse.",
-  "status": "PROPOSAL – needs owner approval of the Arabic text before recording; translations need second review (H52) and back-translation (H44-a)."
+  "status": "ARABIC APPROVED by owner 30.10.2026 («نعم موافق عالجمل لما تكون في السياق ومجاراة للكلام بدون المس من المعلومة»). Verse wording aligned to each language's approved translation (dub/verses) and to the episode's own terms. ChatGPT second review (H52) still open; owner listens in context before upload."
  },
  "y_s3b": {
   "after": "s3b",
@@ -12,15 +12,15 @@
   "fr": "Imaginez avec moi : onze étoiles, le soleil et la lune… Quel rêve !",
   "en": "Imagine it with me: eleven stars, the sun and the moon… What a dream!",
   "tr": "Benimle hayal edin: on bir yıldız, güneş ve ay… Ne rüya ama!",
-  "bs": "Zamislite sa mnom: jedanaest zvijezda, sunce i mjesec… Kakav san!",
+  "bs": "Zamislite sa mnom: jedanaest zvijezda, i Sunce i Mjesec… Kakav san!",
   "sq": "Imagjinoni me mua: njëmbëdhjetë yje, dielli dhe hëna… Çfarë ëndrre!"
  },
  "y_s4a": {
   "after": "s4a",
   "source": "Yusuf 12:13 «إِنِّي لَيَحْزُنُنِي أَنْ تَذْهَبُوا بِهِ» (Yaqub's sadness is stated)",
   "ar": "تخيّلا هذا المساءَ الحزين… وكان يعقوبُ قد قال لهم: يُحزنني أن تذهبوا به.",
-  "fr": "Imaginez ce soir triste… Yaqoub leur avait dit : cela m’attriste que vous l’emmeniez.",
-  "en": "Imagine that sad evening… Yaqub had told them: it saddens me that you take him.",
+  "fr": "Imaginez ce soir triste… Yaqoub leur avait dit : je m’attriste que vous l’emmeniez.",
+  "en": "Imagine that sad evening… Yaqub had told them: it saddens me that you should take him.",
   "tr": "O hüzünlü akşamı hayal edin… Yakub onlara: Onu götürmeniz beni üzer, demişti.",
   "bs": "Zamislite tu tužnu večer… Jakub im je rekao: žao mi je što ga odvodite.",
   "sq": "Imagjinoni atë mbrëmje të trishtë… Jakubi u kishte thënë: më trishton që ta merrni me vete."
@@ -30,20 +30,20 @@
   "source": "Yusuf 12:87 (repeats the verse in s5b)",
   "ar": "لا تيأسوا من رَوحِ الله… ما أجملَ هذه الكلمة! احفظاها جيّدًا.",
   "fr": "Ne désespérez pas de la miséricorde d’Allah… Quelle belle parole ! Retenez-la bien.",
-  "en": "Do not lose hope in Allah’s mercy… What beautiful words! Remember them well.",
-  "tr": "Allah’ın rahmetinden ümit kesmeyin… Ne güzel bir söz! İyi ezberleyin.",
-  "bs": "Ne gubite nadu u Allahovu milost… Kako lijepe riječi! Dobro ih zapamtite.",
-  "sq": "Mos e humbni shpresën te mëshira e Allahut… Sa fjalë e bukur! Mbajeni mend mirë."
+  "en": "Despair not of relief from Allah… What beautiful words! Remember them well.",
+  "tr": "Allah'ın rahmetinden ümidinizi kesmeyin… Ne güzel bir söz! İyi ezberleyin.",
+  "bs": "Ne gubite nadu u milost Allahovu… Kako lijepe riječi! Dobro ih zapamtite.",
+  "sq": "Mos e humbni shpresën nga mëshira e All-llahut… Sa fjalë e bukur! Mbajeni mend mirë."
  },
  "y_s6a": {
   "after": "x_s6a",
   "source": "restates s6a / x_s6a (Al-Baqara 2:133)",
   "ar": "تذكّرا هذا الجوابَ جيّدًا… إلهًا واحدًا.",
-  "fr": "Retenez bien cette réponse… un seul Dieu.",
+  "fr": "Retenez bien cette réponse… une Divinité Unique.",
   "en": "Remember this answer well… one God.",
-  "tr": "Bu cevabı iyi hatırlayın… tek bir ilah.",
-  "bs": "Dobro zapamtite ovaj odgovor… jedan Bog.",
-  "sq": "Mbajeni mend mirë këtë përgjigje… një Zot të vetëm."
+  "tr": "Bu cevabı iyi hatırlayın… tek Tanrı.",
+  "bs": "Dobro zapamtite ovaj odgovor… Bogu jednome.",
+  "sq": "Mbajeni mend mirë këtë përgjigje… Një të Vetmin Zot."
  },
  "y_s6c": {
   "after": "s6c",
@@ -53,6 +53,6 @@
   "en": "All the prophets called to one thing: to worship Allah alone.",
   "tr": "Bütün peygamberler tek bir şeye çağırdı: yalnız Allah’a ibadet etmeye.",
   "bs": "Svi vjerovjesnici pozivali su u jedno: da obožavamo samo Allaha.",
-  "sq": "Të gjithë profetët thirrën për një gjë: ta adhurojmë vetëm Allahun."
+  "sq": "Të gjithë profetët thirrën për një gjë: ta adhurojmë vetëm All-llahun."
  }
 }
