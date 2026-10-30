@@ -31,7 +31,7 @@ jobs:
           q = json.load(open("dub/queue.json"))
           inc = []
           for e in q["episodes"]:
-              if e["status"] != "ready":
+              if e["status"] not in ("ready", "draft"):
                   continue
               tag = f"dub_{e['ep']}_free"
               have = subprocess.run(["gh", "release", "view", tag, "--repo", os.environ["GITHUB_REPOSITORY"],
