@@ -1,0 +1,34 @@
+name: align
+
+on:
+  workflow_dispatch:
+    inputs:
+      ep:
+        description: "episode key, e.g. folge07_lut"
+      job:
+        description: "job name without .json, e.g. folge07_lut_v3"
+
+permissions:
+  contents: write
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q faster-whisper
+      - name: Align
+        env:
+          ALIGN_EP: ${{ github.event.inputs.ep }}
+          ALIGN_JOB: ${{ github.event.inputs.job }}
+        run: python3 tools/align_job.py
+      - name: Commit
+        run: |
+          git config user.name "boa-bot"; git config user.email "boa-bot@users.noreply.github.com"
+          git add jobs/ dub/align/
+          git commit -m "align ${{ github.event.inputs.ep }} (keyed job)" || exit 0
+          git pull --rebase && git push
