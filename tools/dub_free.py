@@ -87,10 +87,7 @@ def main():
         else:
             t = t_end + 0.8
         # next hard boundary = start of the next image after this line's image
-        nxt = next((x for x in starts if x > t + 0.01), T)
-        later = [kk for kk in keys[i + 1:] if kk in img]
-        if later and k not in ("s7b", "close", "final"):
-            nxt = min(nxt, img[later[0]]["start"]) if not k.startswith("x_") else img[later[0]]["start"]
+        nxt = next((x for x in starts if x > t + 0.01), T)  # start of the next image
         room = nxt - t - 0.15
         f = clips[k]
         if d > room and k not in ("s7b", "close", "final"):
