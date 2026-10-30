@@ -22,9 +22,9 @@
    "ep": "folge11_yusuf",
    "video": "JkDMNOlskhY",
    "duration": null,
-   "job": null,
-   "status": "translate",
-   "note": "Arabic mother text: Notion page 11 (24.10. rewrite) – owner approval of Arabic needed; job for published v2 not in repo (H40)"
+   "job": "jobs/folge11_yusuf_v1.json",
+   "status": "draft",
+   "note": "DRAFT 30.10.: Arabic + 5 translations; job v1 (published v2 = images only, audio same); H45/H52 pending"
   },
   {
    "nr": 12,
