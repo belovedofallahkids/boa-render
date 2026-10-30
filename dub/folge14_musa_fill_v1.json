@@ -1,0 +1,88 @@
+{
+ "_meta": {
+  "episode": "folge14_musa",
+  "purpose": "Short gap lines by Oma (H49 update 2) to fill long silences in the free dub tracks after the H55 cleanup (v1 reports 30.10.2026: gaps up to 17 s). Each line follows the sentence named in 'after'.",
+  "rule": "H55 (owner 30.10.2026): free interaction between Oma and the kids for suspense or filling gaps, with NO new religious information; every line restates the approved text or a verse already in the episode.",
+  "status": "DRAFT – written under the owner's H55 freedom for interaction lines; owner listens in context before upload; ChatGPT review (H52) of the translations open."
+ },
+ "y_s2a": {
+  "after": "s2a",
+  "source": "restates s2b (فَإِذَا خِفْتِ عَلَيْهِ) as suspense",
+  "ar": "تخيّلا معي… أمٌّ تحمل طفلها الصغير، وهي خائفة عليه. ماذا ستفعل يا تُرى؟",
+  "fr": "Imaginez avec moi… une maman qui tient son tout petit bébé, et elle a peur pour lui. Que va-t-elle faire ?",
+  "en": "Imagine it with me… a mother holding her tiny baby, and she is afraid for him. What will she do?",
+  "tr": "Benimle hayal edin… minicik bebeğini kucağında tutan bir anne, onun için korkuyor. Acaba ne yapacak?",
+  "bs": "Zamislite sa mnom… majka drži svoje malo dijete i boji se za njega. Šta li će učiniti?",
+  "sq": "Imagjinoni me mua… një nënë që mban foshnjën e saj të vogël dhe ka frikë për të. Çfarë do të bëjë vallë?"
+ },
+ "y_s2b": {
+  "after": "s2b",
+  "source": "restates 28:7 (إِنَّا رَادُّوهُ إِلَيْكِ) in s2b",
+  "ar": "صندوقٌ صغيرٌ يطفو على الماء… لكنّ اللهَ وعدها أن يردَّه إليها!",
+  "fr": "Un petit coffre qui flotte sur l’eau… mais Allah lui a promis de le lui rendre !",
+  "en": "A little chest floating on the water… but Allah promised to return him to her!",
+  "tr": "Suyun üstünde yüzen küçük bir sandık… ama Allah onu ona geri döndüreceğine söz vermişti!",
+  "bs": "Mali sanduk pluta po vodi… ali Allah joj je obećao da će joj ga vratiti!",
+  "sq": "Një arkë e vogël që noton mbi ujë… por All-llahu i premtoi se do t’ia kthejë!"
+ },
+ "y_s2e": {
+  "after": "s2e",
+  "source": "restates 28:13 in s2e",
+  "ar": "أرأيتما؟ وعدُ الله حقّ. عاد موسى إلى حضن أمّه.",
+  "fr": "Vous voyez ? La promesse d’Allah est vérité. Moussa est revenu dans les bras de sa maman.",
+  "en": "Do you see? Allah’s promise is true. Musa came back into his mother’s arms.",
+  "tr": "Gördünüz mü? Allah'ın vaadi haktır. Mûsâ annesinin kucağına geri döndü.",
+  "bs": "Vidite li? Allahovo obećanje je istina. Musa se vratio u majčino naručje.",
+  "sq": "E shihni? Premtimi i All-llahut është i vërtetë. Musai u kthye në krahët e nënës së tij."
+ },
+ "y_s3a": {
+  "after": "s3a",
+  "source": "restates s3a",
+  "ar": "تخيّلا معي… موسى يمشي نحو مدين، خطوةً بعد خطوة.",
+  "fr": "Imaginez avec moi… Moussa qui marche vers Madyan, pas à pas.",
+  "en": "Imagine it with me… Musa walking toward Madyan, step by step.",
+  "tr": "Benimle hayal edin… Mûsâ adım adım Medyen'e doğru yürüyor.",
+  "bs": "Zamislite sa mnom… Musa ide prema Medjenu, korak po korak.",
+  "sq": "Imagjinoni me mua… Musai ecën drejt Medjenit, hap pas hapi."
+ },
+ "y_s3b": {
+  "after": "s3b",
+  "source": "refers to the dua 28:24 in s3b (no new content)",
+  "ar": "ما أجملَ دعاءَ موسى! احفظاه جيّدًا، وادعوا به أنتما أيضًا.",
+  "fr": "Quelle belle prière que celle de Moussa ! Retenez-la bien, et dites-la vous aussi.",
+  "en": "What a beautiful prayer Musa made! Remember it well, and say it too.",
+  "tr": "Mûsâ'nın duası ne güzel! İyi ezberleyin, siz de böyle dua edin.",
+  "bs": "Kako je lijepa Musaova dova! Dobro je zapamtite i učite je i vi.",
+  "sq": "Sa e bukur është lutja e Musait! Mbajeni mend mirë dhe lutuni edhe ju me të."
+ },
+ "y_s3d": {
+  "after": "s3d",
+  "source": "restates s3b→s3d (dua, then good came: 28:24–27)",
+  "ar": "أرأيتما؟ دعا موسى ربَّه، فجاءه الخير.",
+  "fr": "Vous voyez ? Moussa a invoqué son Seigneur, et le bien est venu à lui.",
+  "en": "Do you see? Musa called upon his Lord, and good came to him.",
+  "tr": "Gördünüz mü? Mûsâ Rabbine dua etti ve hayır ona geldi.",
+  "bs": "Vidite li? Musa je zamolio svog Gospodara, i dobro mu je došlo.",
+  "sq": "E shihni? Musai iu lut Zotit të tij dhe e mira i erdhi."
+ },
+ "y_s4d": {
+  "after": "s4d",
+  "source": "restates s4d/s5a (Harun with Musa, 20:36, 20:43)",
+  "ar": "تخيّلا معي… موسى وأخوه هارون يذهبان معًا إلى فرعون. هل سيسمع منهما؟",
+  "fr": "Imaginez avec moi… Moussa et son frère Haroun vont ensemble chez Pharaon. Va-t-il les écouter ?",
+  "en": "Imagine it with me… Musa and his brother Harun going together to Pharaoh. Will he listen to them?",
+  "tr": "Benimle hayal edin… Mûsâ ve kardeşi Hârûn birlikte Firavun'a gidiyor. Acaba onları dinleyecek mi?",
+  "bs": "Zamislite sa mnom… Musa i njegov brat Harun idu zajedno faraonu. Hoće li ih poslušati?",
+  "sq": "Imagjinoni me mua… Musai dhe vëllai i tij Haruni shkojnë së bashku te faraoni. A do t’i dëgjojë vallë?"
+ },
+ "y_s5d": {
+  "after": "s5d",
+  "source": "restates 20:70 in s5d",
+  "ar": "ما أعجبَ هذا! السحرة الذين جاؤوا لفرعون صاروا مؤمنين.",
+  "fr": "Comme c’est étonnant ! Les magiciens venus pour Pharaon sont devenus croyants.",
+  "en": "How amazing! The magicians who came for Pharaoh became believers.",
+  "tr": "Ne şaşırtıcı! Firavun için gelen sihirbazlar iman ettiler.",
+  "bs": "Kako je to čudesno! Čarobnjaci koji su došli zbog faraona postali su vjernici.",
+  "sq": "Sa e çuditshme! Magjistarët që erdhën për faraonin u bënë besimtarë."
+ }
+}

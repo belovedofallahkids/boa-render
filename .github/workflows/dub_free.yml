@@ -14,6 +14,9 @@ on:
       fill:
         description: "1 = add owner-approved gap lines (dub/<ep>_fill_v1.json)"
         default: "0"
+      dur:
+        description: "published video length in seconds (empty = from job)"
+        default: ""
 
 permissions:
   contents: write
@@ -53,4 +56,5 @@ jobs:
           DUB_LANG: ${{ matrix.lang }}
           DUB_EP: ${{ github.event.inputs.ep || 'folge10_yaqub' }}
           DUB_FILL: ${{ github.event.inputs.fill || '0' }}
+          DUB_DURATION: ${{ github.event.inputs.dur || '' }}
         run: python3 tools/dub_free.py
