@@ -112,9 +112,9 @@
    "ep": "folge07_lut",
    "video": "O2CZZcXuBa0",
    "duration": null,
-   "job": null,
-   "status": "translate",
-   "note": "published v4 job not in repo (H40)"
+   "job": "jobs/folge07_lut_v3_keyed.json",
+   "status": "draft",
+   "note": "DRAFT 31.10.: Arabic keyed + H55, 5 translations; job keyed by tools/align_job.py (23/23)"
   },
   {
    "nr": 8,
