@@ -59,6 +59,12 @@ def main():
     segs = job["segments"]
     T = float(os.environ.get("DUB_DURATION") or (463.8 if EP == "folge10_yaqub" else
               (job["segments"][-1]["end"] if job["segments"][-1].get("end") not in (None, "audio") else 0)))
+    if not T and job.get("audio", "").startswith("http"):
+        try:  # video length = narration audio + tail_hold (how the render was built)
+            T = round(dur(job["audio"]) + float(job.get("tail_hold") or 0), 1)
+            print("video length from job audio:", T, flush=True)
+        except Exception as ex:
+            print("audio length failed:", ex, flush=True)
     if not T:
         T = max(s["start"] for s in segs) + 40.0  # fallback; real length is set from the published video
     img = {}

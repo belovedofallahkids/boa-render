@@ -32,8 +32,8 @@
    "video": "x40FMezIaRA",
    "duration": null,
    "job": "jobs/folge12_ayyub_v1.json",
-   "status": "translate",
-   "note": "Arabic mother text: Notion page 12"
+   "status": "draft",
+   "note": "Arabic mother text dub/folge12_ayyub_ar.json (H55 quick fixes 30.10.); 5 translations v1 DRAFT (owner order to dub all first, then review); open: s4a scholarly remark (H55), owner approval of Arabic, H52, listening, bs/sq reviewer"
   },
   {
    "nr": 13,
