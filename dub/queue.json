@@ -50,8 +50,8 @@
    "video": "iVIQmKTU4QM",
    "duration": 563.0,
    "job": "jobs/folge14_musa_v2.json",
-   "status": "translate",
-   "note": "Arabic mother text: Notion page 14 (H45 table)"
+   "status": "draft",
+   "note": "Arabic mother text owner-approved 30.10.2026 (dub/folge14_musa_ar.json, H45/H55); 5 translations v2 aligned; DRAFT for listening – ChatGPT review (H52), owner listening, bs/sq human reviewer pending"
   },
   {
    "nr": 1,
