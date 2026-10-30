@@ -1,0 +1,52 @@
+name: dub_free
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/dub_free.py"
+      - ".github/workflows/dub_free.yml"
+  workflow_dispatch:
+    inputs:
+      ep:
+        description: "episode key (e.g. folge10_yaqub)"
+        default: "folge10_yaqub"
+
+permissions:
+  contents: write
+
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EP: ${{ github.event.inputs.ep || 'folge10_yaqub' }}
+        run: |
+          gh release view "dub_${EP}_free" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+          gh release create "dub_${EP}_free" --repo "$GITHUB_REPOSITORY" --title "dub_${EP}_free" \
+            --notes "Kostenlose Dub-Spuren (edge-tts), ENTWURF – Besitzer hört vor dem Upload (H46.6, H54)"
+  dub:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: [fr, en, tr, bs, sq]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q edge-tts faster-whisper
+      - name: Dub
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DUB_LANG: ${{ matrix.lang }}
+          DUB_EP: ${{ github.event.inputs.ep || 'folge10_yaqub' }}
+        run: python3 tools/dub_free.py
