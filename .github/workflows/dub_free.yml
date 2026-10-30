@@ -13,6 +13,9 @@ on:
       dur:
         description: "published video length in seconds (empty = from job)"
         default: ""
+      ver:
+        description: "track version tag (empty = v1, or v2 with fill)"
+        default: ""
 
 permissions:
   contents: write
@@ -53,4 +56,5 @@ jobs:
           DUB_EP: ${{ github.event.inputs.ep || 'folge10_yaqub' }}
           DUB_FILL: ${{ github.event.inputs.fill || '0' }}
           DUB_DURATION: ${{ github.event.inputs.dur || '' }}
+          DUB_VER: ${{ github.event.inputs.ver || '' }}
         run: python3 tools/dub_free.py

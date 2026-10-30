@@ -27,7 +27,7 @@ VOICE = {
 }
 KID_PITCH = "+22Hz"
 OD = f"/tmp/dubfree_{LANG}"
-VER = "v2" if os.environ.get("DUB_FILL") == "1" else "v1"
+VER = os.environ.get("DUB_VER") or ("v2" if os.environ.get("DUB_FILL") == "1" else "v1")
 
 
 def sh(*a, **k):
@@ -175,6 +175,11 @@ def main():
         nxt = next((x for x in starts if x > t + 0.01 and x not in same), T)  # start of the next image
         room = nxt - t - 0.15
         f = clips[k]
+        # H56 b12 (31.10.): a gap/kid filler line (x_/y_/k_: no new info, H55) that cannot fit before the
+        # next image even at max tempo is dropped for this language instead of pushing the story late
+        if k.startswith(("x_", "y_", "k_")) and d / 1.12 > room:
+            warn.append({"key": k, "type": "fill_skipped", "seconds": round(d / 1.12 - room, 2)})
+            continue
         if d > room and k not in ("s7b", "close", "final"):
             tempo = min(1.12, d / max(room, 0.1))
             f2 = f"{OD}/{k}_t.wav"

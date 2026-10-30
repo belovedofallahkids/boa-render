@@ -12,7 +12,6 @@
    "nr": 10,
    "ep": "folge10_yaqub",
    "video": "bYMbH2JWOmw",
-   "duration": 463.8,
    "job": "jobs/folge10_yaqub_v1.json",
    "status": "dubbed",
    "note": "v2 with gap lines 30.10. (run 41092281898)"
@@ -21,7 +20,6 @@
    "nr": 11,
    "ep": "folge11_yusuf",
    "video": "JkDMNOlskhY",
-   "duration": null,
    "job": "jobs/folge11_yusuf_v1.json",
    "status": "draft",
    "note": "DRAFT 30.10.: Arabic + 5 translations; job v1 (published v2 = images only, audio same); H45/H52 pending"
@@ -30,7 +28,6 @@
    "nr": 12,
    "ep": "folge12_ayyub",
    "video": "x40FMezIaRA",
-   "duration": null,
    "job": "jobs/folge12_ayyub_v1.json",
    "status": "draft",
    "note": "Arabic mother text dub/folge12_ayyub_ar.json (H55 quick fixes 30.10.); 5 translations v1 DRAFT (owner order to dub all first, then review); open: s4a scholarly remark (H55), owner approval of Arabic, H52, listening, bs/sq reviewer"
@@ -39,7 +36,6 @@
    "nr": 13,
    "ep": "folge13_shuaib",
    "video": "_vrFYGpWaQE",
-   "duration": null,
    "job": "jobs/folge13_shuaib_v1.json",
    "status": "draft",
    "note": "DRAFT 30.10.: Arabic + 5 translations; job v1 (published v2 = image change only, timing to verify); H55 review + owner approval pending"
@@ -48,7 +44,6 @@
    "nr": 14,
    "ep": "folge14_musa",
    "video": "iVIQmKTU4QM",
-   "duration": 563.0,
    "job": "jobs/folge14_musa_v2.json",
    "status": "draft",
    "note": "Arabic mother text owner-approved 30.10.2026 (dub/folge14_musa_ar.json, H45/H55); 5 translations v2 aligned; DRAFT for listening – ChatGPT review (H52), owner listening, bs/sq human reviewer pending"
@@ -57,7 +52,6 @@
    "nr": 1,
    "ep": "folge01_adam",
    "video": null,
-   "duration": null,
    "job": null,
    "status": "translate",
    "note": "remake planned (D7) – dub after remake"
@@ -66,7 +60,6 @@
    "nr": 2,
    "ep": "folge02_idris",
    "video": null,
-   "duration": null,
    "job": null,
    "status": "translate",
    "note": "remake planned (D7)"
@@ -75,7 +68,6 @@
    "nr": 3,
    "ep": "folge03_nuh",
    "video": "2z5bsTOxkJc",
-   "duration": null,
    "job": null,
    "status": "translate",
    "note": "v3 published 26.10.; German audio still says 'Nu' (re-record pending)"
@@ -84,7 +76,6 @@
    "nr": 4,
    "ep": "folge04_hud",
    "video": null,
-   "duration": null,
    "job": null,
    "status": "translate",
    "note": "remake planned (D7)"
@@ -93,7 +84,6 @@
    "nr": 5,
    "ep": "folge05_salih",
    "video": null,
-   "duration": null,
    "job": null,
    "status": "translate",
    "note": "remake planned (D7)"
@@ -102,7 +92,6 @@
    "nr": 6,
    "ep": "folge06_ibrahim",
    "video": "kLXKwVK7bII",
-   "duration": null,
    "job": null,
    "status": "translate",
    "note": "children's names missing at the start (fix pending)"
@@ -111,7 +100,6 @@
    "nr": 7,
    "ep": "folge07_lut",
    "video": "O2CZZcXuBa0",
-   "duration": null,
    "job": "jobs/folge07_lut_v3_keyed.json",
    "status": "draft",
    "note": "DRAFT 31.10.: Arabic keyed + H55, 5 translations; job keyed by tools/align_job.py (23/23)"
@@ -120,7 +108,6 @@
    "nr": 8,
    "ep": "folge08_ismail",
    "video": "DfSvCAeJrPI",
-   "duration": null,
    "job": "jobs/folge08_ismail_v3_keyed.json",
    "status": "draft",
    "note": "DRAFT 31.10.: Arabic keyed + H55 (Notion 08), 5 translations; keyed job fixed for audio_cuts"
@@ -129,7 +116,6 @@
    "nr": 9,
    "ep": "folge09_ishaq",
    "video": "WPsbvEsJ4S8",
-   "duration": null,
    "job": "jobs/folge09_ishaq_v3_keyed.json",
    "status": "draft",
    "note": "DRAFT 31.10.: Arabic keyed + H55, 5 translations; job keyed 24/24"
