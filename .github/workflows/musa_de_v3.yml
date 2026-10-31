@@ -1,0 +1,40 @@
+name: musa_de_v3
+on:
+  push:
+    branches: [main]
+    paths: ["tools/musa_de_v3.py", "tools/musa_de_v3_check.py", "tools/thumb_serie.py", ".github/workflows/musa_de_v3.yml"]
+  workflow_dispatch: {}
+permissions: {contents: write}
+concurrency: {group: render, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core >/dev/null
+      - run: pip install -q numpy pillow faster-whisper==1.1.1 av==12.3.0 requests
+      - name: media branch
+        run: |
+          git config --global user.name "boa-render-bot"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin media-folge14_musa_de_v2
+          git worktree add work/media FETCH_HEAD
+          mkdir -p work/seg && cp work/media/seg/*.mp3 work/seg/
+      - name: build + render
+        run: python3 tools/musa_de_v3.py 2>&1 | tee build.log
+      - name: checks
+        run: python3 tools/musa_de_v3_check.py 2>&1 | tee check.log
+      - if: always()
+        run: |
+          mkdir -p out/musa_de_v3
+          tail -c 8000 build.log > out/musa_de_v3/build_log.txt || true
+          tail -c 8000 check.log > out/musa_de_v3/check_log.txt || true
+          git add out jobs/folge14_musa_v3.json scripts subs assets/thumbnails || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Musa 14 DE v3: render + checks [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 6; done
