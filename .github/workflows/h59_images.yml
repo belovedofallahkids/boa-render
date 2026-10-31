@@ -1,0 +1,34 @@
+name: h59_images
+on:
+  workflow_dispatch:
+    inputs:
+      ep: {description: "episode key, e.g. folge14_musa", default: "folge14_musa"}
+      max: {default: "40"}
+permissions: {contents: write}
+concurrency: {group: h59_images, cancel-in-progress: false}
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      EP: ${{ github.event.inputs.ep }}
+      MAX: ${{ github.event.inputs.max }}
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q requests numpy opencv-python-headless
+      - name: Generate
+        run: |
+          set -o pipefail
+          test -n "$CF_API_TOKEN" || { echo "::error::Secret CF_API_TOKEN fehlt"; exit 1; }
+          python3 tools/h59_cf_images.py 2>&1 | tee gen.log || { tail -c 800 gen.log | tr '\n' ' ' | sed 's/^/::error::/'; echo; exit 1; }
+          grep -E "^(FAIL|generated)" gen.log | tr '\n' ' ' | sed 's/^/::notice::/'; echo
+      - if: always()
+        run: |
+          git config user.name "boa-render-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/h59 prompts out/h59_check || true
+          git commit -m "H59 images ${EP} [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 6; done
