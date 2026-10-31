@@ -1,0 +1,36 @@
+name: h59_sample
+on:
+  workflow_dispatch:
+    inputs:
+      job: {description: "job file", default: "jobs/folge14_musa_v3.json"}
+      video: {description: "published render URL", default: "https://github.com/belovedofallahkids/boa-render/releases/download/folge14_musa_v3/folge14_musa_v3.mp4"}
+      t0: {default: "239.4"}
+      t1: {default: "299.4"}
+  push:
+    branches: [main]
+    paths: [".github/workflows/h59_sample.yml"]
+permissions: {contents: write}
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      JOB: ${{ github.event.inputs.job || 'jobs/folge14_musa_v3.json' }}
+      VIDEO_URL: ${{ github.event.inputs.video || 'https://github.com/belovedofallahkids/boa-render/releases/download/folge14_musa_v3/folge14_musa_v3.mp4' }}
+      T0: ${{ github.event.inputs.t0 || '239.4' }}
+      T1: ${{ github.event.inputs.t1 || '299.4' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q numpy opencv-python-headless
+      - run: python3 tools/h59_sample.py
+      - name: Loudness check
+        run: ffmpeg -hide_banner -i out/h59_sample/h59_after.mp4 -af ebur128 -f null - 2>&1 | grep -A3 "Integrated" | tee out/h59_sample/lufs.txt
+      - name: Release (draft sample, not for publishing)
+        run: |
+          cd out/h59_sample && zip -q frames.zip frames/*.jpg
+          gh release view h59_sample >/dev/null 2>&1 || gh release create h59_sample -t "H59 sample (draft, not for publishing)" -n "More movement from approved images only. Musa v3 ${T0}-${T1}s."
+          gh release upload h59_sample h59_after.mp4 h59_before.mp4 contact.jpg frames.zip shots.json lufs.txt --clobber
