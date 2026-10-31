@@ -138,7 +138,8 @@ def main():
     t0, t1 = float(os.environ["T0"]), float(os.environ["T1"])
     segs = []
     for s in job["segments"]:
-        a, b = s["start"], s.get("end") or 1e9
+        a, b = s["start"], s.get("end")
+        b = b if isinstance(b, (int, float)) else 1e9
         if b <= t0 or a >= t1 or s.get("disabled"):
             continue
         segs.append((max(a, t0) - t0, min(b, t1) - t0, s["image"]))
