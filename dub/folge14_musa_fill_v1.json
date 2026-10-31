@@ -3,7 +3,8 @@
   "episode": "folge14_musa",
   "purpose": "Short gap lines by Oma (H49 update 2) to fill long silences in the free dub tracks after the H55 cleanup (v1 reports 30.10.2026: gaps up to 17 s). Each line follows the sentence named in 'after'.",
   "rule": "H55 (owner 30.10.2026): free interaction between Oma and the kids for suspense or filling gaps, with NO new religious information; every line restates the approved text or a verse already in the episode.",
-  "status": "DRAFT – written under the owner's H55 freedom for interaction lines; owner listens in context before upload; ChatGPT review (H52) of the translations open."
+  "status": "DRAFT – written under the owner's H55 freedom for interaction lines; owner listens in context before upload; ChatGPT review (H52) of the translations open.",
+  "v2_lines": "31.10.2026: y_s2d, y_k_s4a, y_s4c, y_s5b, y_s6d, y_s6f – Arabic approved by owner («نعم») to fill gaps of the v3 tracks (611 s); translations from the Arabic, restating episode wording only (H55); ChatGPT review (H52) open."
  },
  "y_s2a": {
   "after": "s2a",
@@ -84,5 +85,59 @@
   "tr": "Ne şaşırtıcı! Firavun için gelen sihirbazlar iman ettiler.",
   "bs": "Kako je to čudesno! Čarobnjaci koji su došli zbog faraona postali su vjernici.",
   "sq": "Sa e çuditshme! Magjistarët që erdhën për faraonin u bënë besimtarë."
+ },
+ "y_s2d": {
+  "after": "s2d",
+  "ar": "أرأيتما؟ الطفلُ الذي خافت عليه أمُّه صار في قصر فرعون نفسه!",
+  "fr": "Vous voyez ? Le bébé pour qui sa maman avait peur s’est retrouvé dans le palais même de Pharaon !",
+  "en": "Do you see? The baby his mother was afraid for ended up in Pharaoh’s own palace!",
+  "tr": "Gördünüz mü? Annesinin korktuğu bebek, Firavun'un tam da kendi sarayına gitti!",
+  "bs": "Vidite li? Dijete za koje se majka bojala našlo se baš u faraonovom dvorcu!",
+  "sq": "E shihni? Fëmija për të cilin kishte frikë nëna e tij, përfundoi pikërisht në pallatin e faraonit!"
+ },
+ "y_k_s4a": {
+  "after": "k_s4a",
+  "ar": "انتظرا… واسمعا ما قيل لموسى عند النار.",
+  "fr": "Attendez… et écoutez ce qui fut dit à Moussa près du feu.",
+  "en": "Wait… and listen to what was said to Musa at the fire.",
+  "tr": "Bekleyin… ve ateşin yanında Mûsâ'ya ne söylendiğini dinleyin.",
+  "bs": "Čekajte… i slušajte šta je rečeno Musau kod vatre.",
+  "sq": "Prisni… dhe dëgjoni çfarë iu tha Musait pranë zjarrit."
+ },
+ "y_s4c": {
+  "after": "s4c",
+  "ar": "عصا تصير حيّة، ويدٌ تخرج بيضاء! آيتان من الله لموسى.",
+  "fr": "Un bâton qui devient un serpent, et une main qui sort toute blanche ! Deux signes d’Allah pour Moussa.",
+  "en": "A staff that becomes a snake, and a hand that comes out white! Two signs from Allah for Musa.",
+  "tr": "Yılan olan bir değnek ve bembeyaz çıkan bir el! Allah'tan Mûsâ'ya iki mucize.",
+  "bs": "Štap koji postaje zmija, i ruka koja izlazi bijela! Dva znaka od Allaha za Musaa.",
+  "sq": "Një shkop që bëhet gjarpër, dhe një dorë që del e bardhë! Dy shenja nga All-llahu për Musain."
+ },
+ "y_s5b": {
+  "after": "s5b",
+  "ar": "رأيتما؟ عصا موسى تلقّفت ما صنعه السحرة.",
+  "fr": "Vous avez vu ? Le bâton de Moussa a happé ce que les magiciens avaient fabriqué.",
+  "en": "Did you see? Musa’s staff devoured what the magicians had made.",
+  "tr": "Gördünüz mü? Mûsâ'nın değneği sihirbazların yaptıklarını yuttu.",
+  "bs": "Jeste li vidjeli? Musaov štap progutao je ono što su vračari napravili.",
+  "sq": "E patë? Shkopi i Musait gëlltiti atë që kishin bërë magjistarët."
+ },
+ "y_s6d": {
+  "after": "s6d",
+  "ar": "نجّى الله موسى ومن معه أجمعين. وإذا كان الله معنا فلا نخاف.",
+  "fr": "Allah a sauvé Moussa et tous ceux qui étaient avec lui. Et quand Allah est avec nous, nous n’avons pas peur.",
+  "en": "Allah saved Musa and all those with him. And when Allah is with us, we are not afraid.",
+  "tr": "Allah, Mûsâ'yı ve beraberindekilerin hepsini kurtardı. Allah bizimle olunca korkmayız.",
+  "bs": "Allah je spasio Musaa i sve one koji su bili s njim. A kad je Allah s nama, mi se ne bojimo.",
+  "sq": "All-llahu e shpëtoi Musain dhe të gjithë ata që ishin me të. Dhe kur All-llahu është me ne, ne nuk kemi frikë."
+ },
+ "y_s6f": {
+  "after": "s6f",
+  "ar": "يوم عاشوراء… يومٌ نجّى الله فيه موسى عليه السلام.",
+  "fr": "Le jour de Achoura… un jour où Allah a sauvé Moussa, que la paix soit sur lui.",
+  "en": "The day of Ashura… a day on which Allah saved Musa, peace be upon him.",
+  "tr": "Âşûrâ günü… Allah'ın Mûsâ aleyhisselâmı kurtardığı bir gün.",
+  "bs": "Dan Ašure… dan u kojem je Allah spasio Musaa, alejhis-selam.",
+  "sq": "Dita e Ashures… një ditë kur All-llahu e shpëtoi Musain, paqja qoftë mbi të."
  }
 }
