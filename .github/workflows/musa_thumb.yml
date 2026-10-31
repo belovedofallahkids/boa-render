@@ -1,0 +1,20 @@
+name: musa_thumb
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/musa_thumb_v3.py", ".github/workflows/musa_thumb.yml"]
+permissions: {contents: write}
+jobs:
+  thumb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q pillow
+      - run: python3 tools/musa_thumb_v3.py
+      - run: |
+          git config user.name "boa-render-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/folge14_musa_v3/thumb_musa_v3.jpg && git commit -m "Musa 14 v3 thumbnail [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 6; done
