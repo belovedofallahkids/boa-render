@@ -51,6 +51,8 @@ def speak(t):
     t = clean(t)
     if LANG == "tr":
         t = t.translate(str.maketrans("âîûÂÎÛ", "aiuAIU"))
+    if LANG == "fr":  # v5 review: «Allah seul» heard «à la seule», «Hajar» heard «un jarre»
+        t = re.sub(r"\bAllah seul\b", "Allah, Lui seul", t).replace("Hajar", "Hadjar")
     return t
 
 
@@ -247,11 +249,13 @@ def main():
             asyncio.run(tts(speak(bv[LANG]), voice, rate, pitch, bclips[bk]))
         except Exception:
             bclips.pop(bk)
-    nofill = {"s7a", "s7b", "close", "final"}
+    # no filler once the children sleep (image kinder_schlafen) or in the farewell (v5 Yusuf: s7b is not the end)
+    sleep_t = min([float(x["start"]) for x in segs if x.get("label") in ("kinder_schlafen", "oma_window_night")] or [T])
+    nofill = {"close", "final"}
     out_place = []
     for i, (k, f, t, d) in enumerate(place):
         nxt_t = place[i + 1][2] if i + 1 < len(place) else None
-        if nxt_t is None or k in nofill:
+        if nxt_t is None or k in nofill or t >= sleep_t - 0.5:
             out_place.append((k, f, t, d))
             continue
         gap = nxt_t - (t + d)
@@ -267,7 +271,7 @@ def main():
         gap = nxt_t - end
         while gap > 2.2:
             cand = [(dur(p_), b) for b, p_ in bclips.items()
-                    if dur(p_) <= gap - 1.0 and end - used.get(b, -999) > 90]
+                    if dur(p_) <= gap - 1.0 and end - used.get(b, -999) > 45]
             if not cand:
                 break
             bd, b = max(cand)
@@ -277,6 +281,22 @@ def main():
             gap = nxt_t - end
     place = out_place
     t_end = max(t + d for _, _, t, d in place)
+    # never cut the last words (v5 Yusuf tr ended 1.3 s after the video): speed the farewell lines to fit
+    if t_end > T - 1.5:
+        tail = [i for i, p_ in enumerate(place) if p_[0] in ("s7b", "close", "final")]
+        if tail:
+            i0 = tail[0]
+            span0 = t_end - place[i0][2]
+            fac = min(1.15, span0 / max(span0 - (t_end - (T - 1.5)), 1))
+            t0 = place[i0][2]
+            for i in tail:
+                k, f, t, d = place[i]
+                f2 = f"{OD}/{k}_fit.wav"
+                sh("ffmpeg", "-loglevel", "error", "-y", "-i", f, "-af", f"atempo={fac:.4f}", f2)
+                nt = t0 + (t - place[i0][2]) / fac
+                place[i] = (k, f2, nt, dur(f2))
+            t_end = max(t + d for _, _, t, d in place)
+            warn.append({"key": "final", "type": "tail_sped", "factor": round(fac, 3), "end": round(t_end, 1)})
 
     gaps = []
     for (k1, _, t1, d1), (k2, _, t2, _) in zip(place, place[1:]):

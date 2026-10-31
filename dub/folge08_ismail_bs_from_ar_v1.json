@@ -5,7 +5,8 @@
   "source": "Arabic mother text Notion page 08 (25.10.2026, rows 1–12) re-split into keys per German Full Script (published DfSvCAeJrPI after cuts C1–C5); H55/H56 quick fixes 31.10.2026 (see callout on page 08). Open/close/final = approved Yaqub wording.",
   "verses": "14:37, 19:54 complete; 2:127 dua part as quoted in Bukhari 3364 — verbatim fr Hamidullah, en Saheeh, tr Diyanet, bs Korkut, sq Ahmeti via raw.githubusercontent.com/fawazahmed0/quran-api; brackets removed; names per names/names.json (Ismaël→Ismaïl, Ishmael→Ismail).",
   "hadith": "Bukhari 3364 (s2a–s2b, s3a–s4b, s4d, s5a–s5b, s6a, s3c Prophet's words); s6c 2:144.",
-  "status": "DRAFT v1 – 31.10.2026 scheduled run. OPEN: owner approval of Arabic H55 changes (H45); ChatGPT review (H52); H57 bs/sq; new names for names.json; keyed job bug (align ignores audio_cuts); sacrifice story not in published video."
+  "status": "DRAFT v1 – 31.10.2026 scheduled run. OPEN: owner approval of Arabic H55 changes (H45); ChatGPT review (H52); H57 bs/sq; new names for names.json; keyed job bug (align ignores audio_cuts); sacrifice story not in published video.",
+  "fix_2026_10_31": "s4b merged into s4d after its first sentence (owner H58 review): s4b had no image of its own and ran 5–7 s over Ilyas's image (s4c); order kept as in Bukhari 3364 (basin, drinking, nursing, then the angel's words)."
  },
  "open": "Bismillah. Esselamu alejkum, dragi moji. Primaknite se, večerašnja priča je jako lijepa.",
  "s1a": "Jeste li ikada bili žedni, jako, jako žedni? Zamislite vrelu pustinju, nigdje vode… i odjednom iz pijeska izvire izvor! Izvor koji postoji i danas!",
@@ -20,9 +21,8 @@
  "s3c": "To je učinila sedam puta. Znate li šta? Naš Vjerovjesnik Muhammed, sallallahu alejhi ve sellem, rekao je: „To je hod ljudi između njih.“ To znači: ljudi hodaju između Safe i Merve, kao što je hodala Hadžera.",
  "s3d": "Stvarno? Kao Hadžera?",
  "s4a": "Kada se popela na Mervu, čula je glas… i eto meleka na mjestu Zemzema. Kopao je zemlju petom, ili krilom, dok se nije pojavila voda.",
- "s4b": "Hadžera je počela praviti malo korito oko vode i zahvatati vodu u svoju mješinu. Napila se i podojila svoje dijete.",
  "s4c": "Zemzem! Znam tu vodu! Ljudi je piju u Meki!",
- "s4d": "Baš ta, dušo moja, i teče i danas. I melek je rekao Hadžeri: Ne bojte se da ćete propasti, jer ovdje je Allahova kuća, koju će sagraditi ovaj dječak i njegov otac, a Allah ne napušta svoje.",
+ "s4d": "Baš ta, dušo moja, i teče i danas. Hadžera je počela praviti malo korito oko vode i zahvatati vodu u svoju mješinu. Napila se i podojila svoje dijete. I melek je rekao Hadžeri: Ne bojte se da ćete propasti, jer ovdje je Allahova kuća, koju će sagraditi ovaj dječak i njegov otac, a Allah ne napušta svoje.",
  "s5a": "Zatim su pored njih prošli neki ljudi iz plemena Džurhum. Vidjeli su pticu kako kruži iznad doline i rekli: Ova ptica sigurno kruži iznad vode, a mi znamo ovu dolinu, u njoj nema vode. Došli su i rekli Hadžeri: Dopuštaš li nam da se nastanimo kod tebe? Rekla je: Da. Pa su se nastanili, dok u dolini nije bilo nekoliko njihovih porodica.",
  "s5b": "Ismail je odrastao među njima i od njih naučio arapski. A Allah kaže u Kur’anu: „I spomeni u Knjizi Ismaila! On je ispunjavao dato obećanje i bio poslanik, vjerovjesnik.“",
  "s6a": "Zatim je došao Ibrahim i rekao: O Ismaile, Allah mi je nešto naredio. Rekao je: Učini ono što ti je naredio tvoj Gospodar. Rekao je: Hoćeš li mi pomoći? Rekao je: Pomoći ću ti. Rekao je: Allah mi je naredio da ovdje sagradim kuću. Tako je Ismail donosio kamenje, a Ibrahim gradio, i obojica su govorili: „Gospodaru naš, primi od nas, jer Ti, uistinu, sve čuješ i sve znaš.“",

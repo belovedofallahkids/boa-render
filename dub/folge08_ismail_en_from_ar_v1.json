@@ -5,7 +5,8 @@
   "source": "Arabic mother text Notion page 08 (25.10.2026, rows 1–12) re-split into keys per German Full Script (published DfSvCAeJrPI after cuts C1–C5); H55/H56 quick fixes 31.10.2026 (see callout on page 08). Open/close/final = approved Yaqub wording.",
   "verses": "14:37, 19:54 complete; 2:127 dua part as quoted in Bukhari 3364 — verbatim fr Hamidullah, en Saheeh, tr Diyanet, bs Korkut, sq Ahmeti via raw.githubusercontent.com/fawazahmed0/quran-api; brackets removed; names per names/names.json (Ismaël→Ismaïl, Ishmael→Ismail).",
   "hadith": "Bukhari 3364 (s2a–s2b, s3a–s4b, s4d, s5a–s5b, s6a, s3c Prophet's words); s6c 2:144.",
-  "status": "DRAFT v1 – 31.10.2026 scheduled run. OPEN: owner approval of Arabic H55 changes (H45); ChatGPT review (H52); H57 bs/sq; new names for names.json; keyed job bug (align ignores audio_cuts); sacrifice story not in published video."
+  "status": "DRAFT v1 – 31.10.2026 scheduled run. OPEN: owner approval of Arabic H55 changes (H45); ChatGPT review (H52); H57 bs/sq; new names for names.json; keyed job bug (align ignores audio_cuts); sacrifice story not in published video.",
+  "fix_2026_10_31": "s4b merged into s4d after its first sentence (owner H58 review): s4b had no image of its own and ran 5–7 s over Ilyas's image (s4c); order kept as in Bukhari 3364 (basin, drinking, nursing, then the angel's words)."
  },
  "open": "In the name of Allah. Assalamu alaikum, my dears. Come closer, tonight’s story is very beautiful.",
  "s1a": "Have you ever been thirsty, really, really thirsty? Imagine a very hot desert, with no water anywhere… and suddenly a spring gushes up from the sand! A spring that is still there today!",
@@ -20,9 +21,8 @@
  "s3c": "She did that seven times. Do you know what? Our Prophet Muhammad, peace and blessings be upon him, said: “That is the going of the people between them.” That means: people go between Safa and Marwah, just as Hajar did.",
  "s3d": "Really? Like Hajar?",
  "s4a": "When she reached the top of Marwah, she heard a voice… and there was the angel, at the place of Zamzam. He dug the ground with his heel, or with his wing, until the water appeared.",
- "s4b": "Hajar began to make a little basin around it, and to scoop water into her waterskin. She drank, and she nursed her child.",
  "s4c": "Zamzam! I know that water! People drink it in Makkah!",
- "s4d": "That’s the very one, my dear, and it still flows today. And the angel said to Hajar: Do not be afraid of being lost, for here is the House of Allah, which this boy and his father will build, and Allah does not let His people be lost.",
+ "s4d": "That’s the very one, my dear, and it still flows today. Hajar began to make a little basin around it, and to scoop water into her waterskin. She drank, and she nursed her child. And the angel said to Hajar: Do not be afraid of being lost, for here is the House of Allah, which this boy and his father will build, and Allah does not let His people be lost.",
  "s5a": "Then some people from the tribe of Jurhum passed by. They saw a bird circling above the valley and said: This bird must be circling over water, but we know this valley, and there is no water in it. They came and said to Hajar: Will you allow us to settle near you? She said: Yes. So they settled there, until there were several families of them in the valley.",
  "s5b": "Ismail grew up among them, and he learned Arabic from them. And Allah says in the Qur’an: “And mention in the Book, Ismail. Indeed, he was true to his promise, and he was a messenger and a prophet.”",
  "s6a": "Then Ibrahim came and said: O Ismail, Allah has given me a command. He said: Do what your Lord has commanded you. He said: And will you help me? He said: I will help you. He said: Allah has commanded me to build a House here. So Ismail brought the stones, and Ibrahim built, and both of them were saying: “Our Lord, accept from us. Indeed You are the Hearing, the Knowing.”",
