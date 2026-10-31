@@ -1,0 +1,50 @@
+name: musa_fix
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/musa_fix_v3.py", ".github/workflows/musa_fix.yml"]
+permissions: {contents: write}
+concurrency: {group: render, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      AUDIO_URL: https://github.com/${{ github.repository }}/releases/download/fix_folge14_musa_v3/folge14_musa_de_v3.mp3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core >/dev/null
+      - run: pip install -q faster-whisper==1.1.1
+      - name: New segments from media branch
+        run: git fetch -q origin media-folge14_musa_de_v2 && git checkout FETCH_HEAD -- seg && ls seg | wc -l
+      - name: Build narration v3 + job
+        run: python3 tools/musa_fix_v3.py
+      - name: Release audio
+        run: |
+          gh release view fix_folge14_musa_v3 >/dev/null 2>&1 || gh release create fix_folge14_musa_v3 -t "Musa 14 DE v3 narration" -n "Owner-approved German fixes (H55) 31.10.2026; text fixes/folge14_musa_de_v2.json"
+          gh release upload fix_folge14_musa_v3 work/musa_v3/folge14_musa_de_v3.mp3 seg/*.mp3 --clobber
+      - name: ASR check (whisper medium, German)
+        run: |
+          python3 - <<'P'
+          from faster_whisper import WhisperModel
+          m = WhisperModel("medium", device="cpu", compute_type="int8")
+          segs, _ = m.transcribe("work/musa_v3/folge14_musa_de_v3.mp3", language="de", beam_size=5)
+          open("out/folge14_musa_v3/asr.txt", "w").write("\n".join(f"{s.start:7.2f} {s.end:7.2f} {s.text.strip()}" for s in segs))
+          P
+      - name: Render v3
+        env: {FORCE_JOB: folge14_musa_v3}
+        run: |
+          for f in jobs/*.json; do case "$f" in *folge14_musa_v3*) ;; *) python3 -c "import json,sys;p=sys.argv[1];j=json.load(open(p));j['disabled']=True;json.dump(j,open(p,'w'))" "$f";; esac; done
+          python3 render/render.py
+          git checkout -- jobs/ ':!jobs/folge14_musa_v3.json' 2>/dev/null || true
+      - if: always()
+        run: |
+          git config user.name "boa-render-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -- $(git diff --name-only jobs/ | grep -v folge14_musa_v3) 2>/dev/null || true
+          git add jobs/folge14_musa_v3.json out/folge14_musa_v3 || true
+          git commit -m "Musa 14 v3: narration fix + render [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 6; done
