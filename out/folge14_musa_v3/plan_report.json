@@ -1,0 +1,141 @@
+{
+ "pieces": [
+  {
+   "piece": "orig 0.0-39.67",
+   "start": 0.0,
+   "dur": 39.67
+  },
+  {
+   "piece": "new s2a",
+   "start": 39.67,
+   "dur": 40.839
+  },
+  {
+   "piece": "new s2b",
+   "start": 80.509,
+   "dur": 30.3
+  },
+  {
+   "piece": "orig 107.4-111.07",
+   "start": 110.809,
+   "dur": 3.67
+  },
+  {
+   "piece": "new s2d",
+   "start": 114.479,
+   "dur": 22.679
+  },
+  {
+   "piece": "new s2e",
+   "start": 137.158,
+   "dur": 31.5
+  },
+  {
+   "piece": "orig 157.3-162.70",
+   "start": 168.658,
+   "dur": 5.4
+  },
+  {
+   "piece": "new s3a",
+   "start": 174.058,
+   "dur": 14.903
+  },
+  {
+   "piece": "new s3b",
+   "start": 188.962,
+   "dur": 25.651
+  },
+  {
+   "piece": "orig 203.5-207.35",
+   "start": 214.613,
+   "dur": 3.85
+  },
+  {
+   "piece": "new s3d",
+   "start": 218.463,
+   "dur": 20.94
+  },
+  {
+   "piece": "new s4a",
+   "start": 239.403,
+   "dur": 22.548
+  },
+  {
+   "piece": "new k_s4a",
+   "start": 261.951,
+   "dur": 5.529
+  },
+  {
+   "piece": "new s4a_2",
+   "start": 267.479,
+   "dur": 23.525
+  },
+  {
+   "piece": "orig 257.24-260.27",
+   "start": 291.005,
+   "dur": 3.03
+  },
+  {
+   "piece": "new s4c",
+   "start": 294.035,
+   "dur": 32.626
+  },
+  {
+   "piece": "new s4d",
+   "start": 326.66,
+   "dur": 41.637
+  },
+  {
+   "piece": "new s5a",
+   "start": 368.298,
+   "dur": 19.58
+  },
+  {
+   "piece": "new s5b",
+   "start": 387.878,
+   "dur": 19.58
+  },
+  {
+   "piece": "orig 358.4-362.43",
+   "start": 407.458,
+   "dur": 4.03
+  },
+  {
+   "piece": "new s5d",
+   "start": 411.488,
+   "dur": 16.024
+  },
+  {
+   "piece": "new s6a",
+   "start": 427.512,
+   "dur": 26.275
+  },
+  {
+   "piece": "orig 413.29-416.80",
+   "start": 453.787,
+   "dur": 3.51
+  },
+  {
+   "piece": "new s6c",
+   "start": 457.297,
+   "dur": 29.754
+  },
+  {
+   "piece": "orig 445.19-467.68",
+   "start": 487.051,
+   "dur": 22.49
+  },
+  {
+   "piece": "new s6f",
+   "start": 509.541,
+   "dur": 27.852
+  },
+  {
+   "piece": "orig 488.86-556.44",
+   "start": 537.393,
+   "dur": 67.58
+  }
+ ],
+ "audio_len": 604.973,
+ "segments": 30
+}
