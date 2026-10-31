@@ -1,8 +1,6 @@
 name: musa_de_v3
+# Manual only: a parallel session (musa_fix.yml) is building Musa v3; do not run both.
 on:
-  push:
-    branches: [main]
-    paths: ["tools/musa_de_v3.py", "tools/musa_de_v3_check.py", "tools/thumb_serie.py", ".github/workflows/musa_de_v3.yml"]
   workflow_dispatch: {}
 permissions: {contents: write}
 concurrency: {group: render, cancel-in-progress: false}
