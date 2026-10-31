@@ -1,0 +1,223 @@
+{
+ "name": "folge14_musa_dub",
+ "episode": "folge14_musa",
+ "duration": 556.44,
+ "langs": [
+  "de"
+ ],
+ "prophet": "Musa",
+ "ref_audio": "https://storage.orshot.com/cloud/w-12325/renders/audio/boa_folge14_erzaehlung_komplett_2026-10-16mp3-hxXoUqUsSzs.mp3",
+ "ref": [
+  45.0,
+  56.5
+ ],
+ "kid_ref": [
+  203.5,
+  207.0
+ ],
+ "segments": [
+  {
+   "id": "s1a",
+   "start": 0.0,
+   "end": 16.42,
+   "kid": false,
+   "de": "[whispers] Noah… Ilyas… erinnert ihr euch? Ich habe euch von einem Baby erzählt, das in einer kleinen Kiste auf einem großen Fluss schwamm. [curious] Wer legt denn ein Baby in einen Fluss?"
+  },
+  {
+   "id": "s1b",
+   "start": 16.98,
+   "end": 21.32,
+   "kid": true,
+   "de": "[childlike voice] [surprised] Ja, wer macht denn so was? Das ist doch gefährlich!"
+  },
+  {
+   "id": "s1c",
+   "start": 21.88,
+   "end": 39.52,
+   "kid": false,
+   "de": "[warmly] Kuschelt euch ein, dann erfahrt ihr es. [softly] Heute erzähle ich euch von Prophet Musa, Friede sei mit ihm. Sein Name kommt im Koran öfter vor als der Name jedes anderen Propheten."
+  },
+  {
+   "id": "s2a",
+   "start": 40.6,
+   "end": 82.0,
+   "kid": false,
+   "de": "[warmly] Erinnert ihr euch an Prophet Yaqub? Er hatte noch einen zweiten Namen: Israil. Seine Nachkommen nennt man darum die Kinder Israils. [serious] Viele von ihnen lebten in Ägypten. Dort herrschte ein ungerechter König: Pharao. Er unterdrückte die Kinder Israils und wollte nicht, dass ihre kleinen Jungen groß werden. [softly] Gerade da bekam eine Mutter aus den Kindern Israils ein Baby: Musa."
+  },
+  {
+   "id": "s2b",
+   "start": 82.34,
+   "end": 107.38,
+   "kid": false,
+   "de": "[warmly] Allah gab Musas Mutter ein: Stille ihn. Und wenn du Angst um ihn hast, dann leg ihn in eine Kiste und setz sie auf den Fluss. Hab keine Angst und sei nicht traurig. Wir bringen ihn zu dir zurück und machen ihn zu einem Gesandten."
+  },
+  {
+   "id": "s2c",
+   "start": 107.94,
+   "end": 110.76,
+   "kid": true,
+   "de": "[childlike voice] [nervous] Und wohin ist die Kiste geschwommen?"
+  },
+  {
+   "id": "s2d",
+   "start": 111.66,
+   "end": 129.92,
+   "kid": false,
+   "de": "[excited] Ausgerechnet zum Palast von Pharao! Pharaos Frau sah das Baby und sagte: Er soll eine Freude für mich und für dich sein. Tut ihm nichts! Vielleicht nehmen wir ihn als Sohn an."
+  },
+  {
+   "id": "s2e",
+   "start": 130.46,
+   "end": 157.22,
+   "kid": false,
+   "de": "[warmly] Aber das Baby wollte von keiner Amme trinken. Da kam Musas Schwester, die der Kiste heimlich gefolgt war, und sagte: Soll ich euch eine Familie zeigen, die gut für ihn sorgt? [softly] Und so kam Musa zurück zu seiner eigenen Mutter, damit sie nicht mehr traurig ist. Allahs Versprechen war wahr."
+  },
+  {
+   "id": "s2f",
+   "start": 157.96,
+   "end": 162.26,
+   "kid": true,
+   "de": "[childlike voice] [excited] Wow! Allah hat ihn zu seiner Mama zurückgebracht!"
+  },
+  {
+   "id": "s3a",
+   "start": 163.64,
+   "end": 177.52,
+   "kid": false,
+   "de": "[softly] Musa wuchs im Palast auf. Als er erwachsen war, musste er eines Tages aus Ägypten fliehen. Er wanderte lange durch die Wüste, bis nach Madyan."
+  },
+  {
+   "id": "s3b",
+   "start": 178.76,
+   "end": 203.52,
+   "kid": false,
+   "de": "[warmly] Dort sah er an einem Brunnen zwei Frauen, die mit ihren Schafen warteten, bis die Hirten fertig waren. Musa half ihnen und tränkte ihre Schafe. [softly] Dann setzte er sich in den Schatten und betete: Mein Herr, ich brauche jedes Gute, das Du mir schickst."
+  },
+  {
+   "id": "s3c",
+   "start": 203.52,
+   "end": 206.96,
+   "kid": true,
+   "de": "[childlike voice] [curious] Und? Hat Allah ihm etwas Gutes geschickt?"
+  },
+  {
+   "id": "s3d",
+   "start": 207.92,
+   "end": 225.7,
+   "kid": false,
+   "de": "[chuckles] Und wie! Der Vater der beiden Frauen lud Musa ein. Musa blieb viele Jahre in Madyan, arbeitete dort und heiratete. [warmly] Allah hatte für ihn gesorgt."
+  },
+  {
+   "id": "s4a",
+   "start": 226.66,
+   "end": 257.1,
+   "kid": false,
+   "de": "[curious] Auf dem Weg zurück sah Musa ein Feuer an der Seite eines Berges. Er sagte zu seiner Familie: Wartet hier, vielleicht bringe ich euch etwas Feuer. [dramatically] Als er näher kam, rief ihn eine Stimme: O Musa! Ich bin dein Herr. Zieh deine Schuhe aus, du bist im heiligen Tal Tuwa. Ich bin Allah, es gibt keinen Gott außer Mir."
+  },
+  {
+   "id": "s4b",
+   "start": 257.74,
+   "end": 260.06,
+   "kid": true,
+   "de": "[childlike voice] [whispers] Allah hat mit ihm gesprochen?"
+  },
+  {
+   "id": "s4c",
+   "start": 261.0,
+   "end": 287.68,
+   "kid": false,
+   "de": "[warmly] Ja, mein Schatz. Deshalb nennt man Musa auch Kalimullah: der, mit dem Allah gesprochen hat. [excited] Und Allah gab ihm zwei Wunder: Sein Stock wurde zu einer Schlange, wenn er ihn warf. Und seine Hand kam ganz hell und weiß heraus, wenn er sie unter seinem Arm hervorzog."
+  },
+  {
+   "id": "s4d",
+   "start": 288.28,
+   "end": 321.86,
+   "kid": false,
+   "de": "[softly] Dann sagte Allah: Geh zu Pharao, denn er ist maßlos geworden. Und Musa betete: Mein Herr, mach mir meine Brust weit und mach mir meine Aufgabe leicht. Löse den Knoten von meiner Zunge, damit sie mich verstehen. Und gib mir meinen Bruder Harun als Helfer. [warmly] Und Allah gab ihm alles, worum er gebeten hatte."
+  },
+  {
+   "id": "s5a",
+   "start": 332.6,
+   "end": 341.72,
+   "kid": false,
+   "de": "[warmly] Allah sagte zu Musa und Harun: Sprecht freundlich mit Pharao, vielleicht denkt er nach. [serious] Doch Pharao war hochmütig. Er glaubte nicht und holte die besten Zauberer seines Landes."
+  },
+  {
+   "id": "s5b",
+   "start": 342.5,
+   "end": 358.18,
+   "kid": false,
+   "de": "[dramatically] Die Zauberer warfen ihre Seile und Stöcke, und es sah so aus, als würden sie sich bewegen. [excited] Dann warf Musa seinen Stock, und er verschlang alles, was sie vorgetäuscht hatten!"
+  },
+  {
+   "id": "s5c",
+   "start": 359.94,
+   "end": 362.2,
+   "kid": true,
+   "de": "[childlike voice] [excited] Ha! Gegen Allahs Wunder hilft kein Zaubertrick!"
+  },
+  {
+   "id": "s5d",
+   "start": 363.0,
+   "end": 386.18,
+   "kid": false,
+   "de": "[warmly] Genau! Und die Zauberer verstanden sofort: Das ist kein Trick, das ist von Allah! Sie warfen sich nieder und sagten: Wir glauben an den Herrn von Harun und Musa. [softly] Pharao drohte ihnen, aber sie blieben standhaft."
+  },
+  {
+   "id": "s6a",
+   "start": 387.56,
+   "end": 413.08,
+   "kid": false,
+   "de": "[whispers] Dann befahl Allah Musa: Zieh mit den Kindern Israils in der Nacht los. [nervous] Bei Sonnenaufgang jagte Pharao mit seinem ganzen Heer hinter ihnen her. Vor ihnen lag das Meer, hinter ihnen kam Pharao. Die Leute riefen: Gleich holen sie uns ein!"
+  },
+  {
+   "id": "s6b",
+   "start": 413.8,
+   "end": 416.68,
+   "kid": true,
+   "de": "[childlike voice] [nervous] Oh nein! Und was hat Musa gemacht?"
+  },
+  {
+   "id": "s6c",
+   "start": 427.56,
+   "end": 445.02,
+   "kid": false,
+   "de": "[warmly] Musa sagte ganz ruhig: Nein! Mein Herr ist mit mir. Er wird mich leiten. [dramatically] Da sagte Allah: Schlag mit deinem Stock auf das Meer! Und das Meer teilte sich, und jede Seite war wie ein riesiger Berg. Dazwischen war ein trockener Weg!"
+  },
+  {
+   "id": "s6d",
+   "start": 445.7,
+   "end": 461.7,
+   "kid": false,
+   "de": "[softly] Musa und die Kinder Israils gingen sicher hindurch. Als Pharao mit seinem Heer folgte, schloss sich das Meer wieder. Allah hatte Musa und alle, die bei ihm waren, gerettet."
+  },
+  {
+   "id": "s6e",
+   "start": 462.3,
+   "end": 467.42,
+   "kid": true,
+   "de": "[childlike voice] [excited] Das Meer hat sich geteilt! Das ist so ein großes Wunder!"
+  },
+  {
+   "id": "s6f",
+   "start": 467.94,
+   "end": 487.88,
+   "kid": false,
+   "de": "[warmly] Und wisst ihr was? Unser Prophet Muhammad, Allah segne ihn und schenke ihm Frieden, fastete am Tag Aschura, weil Allah an diesem Tag Musa gerettet hat. [softly] Darum fasten viele Muslime bis heute an Aschura."
+  },
+  {
+   "id": "s7a",
+   "start": 489.82,
+   "end": 519.54,
+   "kid": false,
+   "de": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… wenn ihr Angst habt, dann sagt wie Musa: Mein Herr ist mit mir. Wenn etwas schwer ist, dann betet: Mein Herr, mach mir meine Brust weit und meine Aufgabe leicht. Und sprecht immer freundlich, sogar mit schwierigen Menschen."
+  },
+  {
+   "id": "s7b",
+   "start": 520.8,
+   "end": 556.42,
+   "kid": false,
+   "de": "[whispers] Und nächstes Mal erzähle ich euch von Harun… Musas Bruder, der so gut reden konnte. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch."
+  }
+ ]
+}
