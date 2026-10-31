@@ -3,6 +3,9 @@
 right panel taken from the sea picture used in the video (sea_split_ohne_spuren – no footprints),
 title 'Das Meer teilt sich' + 'MUSA' redrawn in the series style."""
 import json, os, urllib.request
+def get(u, dst):
+    r = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (boa-render)"})
+    open(dst, "wb").write(urllib.request.urlopen(r, timeout=120).read())
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -12,7 +15,7 @@ W, H = base.size  # 1280x720
 url = next(s["image"] for s in json.load(open(os.path.join(ROOT, "jobs/folge14_musa_v2.json")))["segments"]
            if "sea_split_ohne_spuren" in s["image"])
 src = "/tmp/sea.jpg"
-urllib.request.urlretrieve(url, src)
+get(url, src)
 sea = Image.open(src).convert("RGB")
 # right panel: from the slanted divider (x≈806 at top, ≈746 at bottom) to the right edge
 pw = W - 740
@@ -27,7 +30,7 @@ img = Image.composite(layer, base, mask.filter(ImageFilter.GaussianBlur(1.2)))
 d = ImageDraw.Draw(img)
 d.line([(809, 0), (749, H)], fill=(250, 240, 220), width=5)  # cream divider like the template
 fp = "/tmp/pop.ttf"
-urllib.request.urlretrieve("https://github.com/google/fonts/raw/main/ofl/poppins/Poppins-ExtraBold.ttf", fp)
+get("https://github.com/google/fonts/raw/main/ofl/poppins/Poppins-ExtraBold.ttf", fp)
 def center_text(txt, size, y, fill, stroke, sw, shadow=None):
     f = ImageFont.truetype(fp, size)
     while True:
