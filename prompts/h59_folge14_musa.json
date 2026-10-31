@@ -59,7 +59,10 @@
    "sentence": "setze ihn in das Wasser, fürchte dich nicht",
    "id": "h59_musa_chest_reeds_dawn",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a small wooden chest lined with a soft blanket resting at the edge of the Nile among green reeds at dawn, gentle golden light on the water. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "approved",
+   "file": "assets/h59/folge14/h59_musa_chest_reeds_dawn.jpg",
+   "source": "ElevenLabs flux-2-pro, gen 5jrf6rs8lIZpdwl52und, 272.7 credits",
+   "check": "31.10.2026 Claude: Vollbild + 4 Viertel: keine Menschen/Spuren/Schatten/Text ✅"
   },
   {
    "t0": 97.5,
