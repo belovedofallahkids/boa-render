@@ -126,6 +126,11 @@ def main():
             tx[fk] = fv[LANG]
             keys.insert(keys.index(fv["after"]) + 1, fk)
     voice, rate, pitch = VOICE[LANG]
+    # per-episode rate override (v6 review: Ismail tr runs 5–13 s over the next images at -10%)
+    _ro = json.loads(os.environ.get("DUB_RATES") or "{}")
+    if LANG in _ro:
+        rate = _ro[LANG]
+        print("rate override", LANG, rate, flush=True)
 
     # 1) TTS every line (one call each, free)
     clips = {}
@@ -205,7 +210,9 @@ def main():
             t = t_end + 1.0
         elif k in ("close", "final"):
             t = t_end + 0.9
-        elif k == "s7b":
+        elif k == "s7b" or (k in img and img[k].get("label") == "oma_window_night"):
+            # farewell starts right after the lesson, on the sleeping-children image if needed (v6 Yusuf:
+            # 7–9 s of silence waiting for the window image)
             t = t_end + 1.2
         elif k in img:
             t = max(img[k]["start"] + 0.35, t_end + 0.55)
