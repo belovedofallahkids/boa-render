@@ -16,6 +16,9 @@ on:
       ver:
         description: "track version tag (empty = v1, or v2 with fill)"
         default: ""
+      job:
+        description: "job file (empty = newest jobs/<ep>_vN.json), e.g. jobs/folge14_musa_v3_keyed.json"
+        default: ""
 
 permissions:
   contents: write
@@ -57,4 +60,5 @@ jobs:
           DUB_FILL: ${{ github.event.inputs.fill || '0' }}
           DUB_DURATION: ${{ github.event.inputs.dur || '' }}
           DUB_VER: ${{ github.event.inputs.ver || '' }}
+          DUB_JOB: ${{ github.event.inputs.job || '' }}
         run: python3 tools/dub_free.py

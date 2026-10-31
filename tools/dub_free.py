@@ -70,7 +70,7 @@ def main():
     os.makedirs(OD, exist_ok=True)
     tx = json.load(open(f"{ROOT}/dub/{EP}_{LANG}_from_ar_v1.json", encoding="utf-8"))
     import glob
-    jf = os.environ.get("DUB_JOB") or sorted(glob.glob(f"{ROOT}/jobs/{EP}_v*.json"),
+    jf = os.environ.get("DUB_JOB") or sorted([x for x in glob.glob(f"{ROOT}/jobs/{EP}_v*.json") if re.search(r"_v\d+\.json$", x)],
                                               key=lambda x: int(re.findall(r"_v(\d+)\.json$", x)[0]))[-1]
     job = json.load(open(jf))
     segs = job["segments"]

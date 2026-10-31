@@ -44,9 +44,9 @@
    "nr": 14,
    "ep": "folge14_musa",
    "video": "RPdXVMieWro",
-   "job": "jobs/folge14_musa_v2.json",
+   "job": "jobs/folge14_musa_v3_keyed.json",
    "status": "draft",
-   "note": "German v3 published 31.10.2026 (RPdXVMieWro, replaces iVIQmKTU4QM, now private): 18 lines re-recorded (H55), new timeline 611 s. Dub drafts v3 were timed on v2 (563 s) -> must be re-timed on jobs/folge14_musa_v3.json before upload. Arabic mother text owner-approved 30.10.2026 (dub/folge14_musa_ar.json, H45/H55); 5 translations v2 aligned; DRAFT for listening – ChatGPT review (H52), owner listening, bs/sq human reviewer pending"
+   "note": "German v3 published 31.10.2026 (RPdXVMieWro, replaces iVIQmKTU4QM, now private): 18 lines re-recorded (H55), new timeline 611 s. Dub drafts v3 were timed on v2 (563 s) -> re-timed 31.10. on jobs/folge14_musa_v3_keyed.json (dub_free ver=v3, fill=1, dur=611.0). Arabic mother text owner-approved 30.10.2026 (dub/folge14_musa_ar.json, H45/H55); 5 translations v2 aligned; DRAFT for listening – ChatGPT review (H52), owner listening, bs/sq human reviewer pending"
   },
   {
    "nr": 1,
