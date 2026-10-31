@@ -1,0 +1,233 @@
+{
+ "episode": "folge14_musa",
+ "job": "jobs/folge14_musa_v3.json",
+ "rule": "H59 + owner 31.10.2026 «زيادة الصور… ألوان زاهية… لتسهيل فهم القصة»",
+ "prefix": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. ",
+ "suffix": " No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+ "images": [
+  {
+   "t0": 33.1,
+   "t1": 39.9,
+   "sentence": "Sein Name kommt im Koran öfter vor",
+   "id": "h59_musa_quran_stand_light",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a beautifully decorated closed book resting on a carved wooden reading stand, soft golden light around it, cozy room. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 39.9,
+   "t1": 49.7,
+   "sentence": "Prophet Jakub / Israel",
+   "id": "h59_musa_canaan_tents_dusk",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a peaceful ancient desert tent camp at dusk beside olive trees, warm lantern glow, first stars in a purple sky. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 49.7,
+   "t1": 56.1,
+   "sentence": "Seine Nachkommen: Kinder Israels",
+   "id": "h59_musa_village_lamps_river",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a small village of mud-brick houses beside a wide river at evening, many small window lamps glowing warmly. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 56.1,
+   "t1": 65.3,
+   "sentence": "Ägypten, ungerechter König Pharao",
+   "id": "h59_musa_egypt_palace_nile",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a grand ancient Egyptian palace with tall plain columns beside the Nile river, palm trees, clear sky, no carvings of figures, no sculptures. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 65.3,
+   "t1": 72.5,
+   "sentence": "Er unterdrückte sie (H6: nur Stimmung)",
+   "id": "h59_musa_storm_clouds_palace",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. dark grey clouds gathering over a distant palace, a single small warm lamp glowing in a humble mud-brick window in the foreground. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 72.5,
+   "t1": 80.7,
+   "sentence": "Eine Mutter bekam ein Baby, Musa",
+   "id": "h59_musa_cradle_humble_room",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. an empty small wooden cradle with a soft blanket in a humble mud-brick room, warm lamp light, simple clay pots. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 86.3,
+   "t1": 97.5,
+   "sentence": "setze ihn in das Wasser, fürchte dich nicht",
+   "id": "h59_musa_chest_reeds_dawn",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a small wooden chest lined with a soft blanket resting at the edge of the Nile among green reeds at dawn, gentle golden light on the water. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 97.5,
+   "t1": 104.9,
+   "sentence": "Wir werden ihn dir zurückbringen",
+   "id": "h59_musa_nile_sunrise_rays",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. the calm Nile river at sunrise with soft golden rays of light from the sky reflecting on the water. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 114.7,
+   "t1": 119.9,
+   "sentence": "zum Palast von Pharao",
+   "id": "h59_musa_chest_floating_palace",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a small wooden chest floating on the calm Nile toward the garden steps of a grand Egyptian palace, lotus flowers on the water. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 119.9,
+   "t1": 133.7,
+   "sentence": "Pharaos Frau sah das Baby",
+   "id": "h59_musa_chest_palace_steps",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a small wooden chest resting on stone garden steps at the water's edge, lotus flowers, palm trees, soft morning light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 133.7,
+   "t1": 141.3,
+   "sentence": "Allah hatte ihm die Ammen verwehrt",
+   "id": "h59_musa_milk_jugs_table",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. several clay milk jugs standing untouched on a palace table, soft light from a window. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 141.3,
+   "t1": 154.1,
+   "sentence": "Seine Schwester war der Kiste heimlich gefolgt",
+   "id": "h59_musa_papyrus_reeds_river",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. tall papyrus reeds along a river bank, soft sunlight between the reeds, calm water, dragonflies. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 154.1,
+   "t1": 169.1,
+   "sentence": "So brachte Allah ihn zu seiner Mutter zurück",
+   "id": "h59_musa_cradle_golden_return",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. the same humble mud-brick room with the small wooden cradle now bathed in warm golden light, flowers in a clay pot, happy cozy mood. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 198.9,
+   "t1": 202.5,
+   "sentence": "Da tränkte er ihnen ihre Tiere",
+   "id": "h59_musa_sheep_trough_well",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. fluffy sheep drinking from a stone water trough beside a desert well, sparkling water, warm afternoon light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 202.5,
+   "t1": 214.9,
+   "sentence": "zog er sich zurück in den Schatten",
+   "id": "h59_musa_acacia_shade",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a lone acacia tree casting cool shade in a golden desert, soft breeze, peaceful afternoon. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 221.5,
+   "t1": 232.5,
+   "sentence": "Der Vater lud Musa ein",
+   "id": "h59_musa_madyan_tent_home",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a cozy welcoming tent home in a desert oasis at evening, lantern glowing, a table with bread and dates, no meat. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 232.5,
+   "t1": 239.7,
+   "sentence": "acht oder zehn Jahre arbeitet",
+   "id": "h59_musa_sheep_hills_seasons",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a flock of sheep grazing on green hills under a sky that turns from spring blossoms to autumn colors. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 245.7,
+   "t1": 262.1,
+   "sentence": "bleibt hier, ich habe ein Feuer wahrgenommen",
+   "id": "h59_musa_lantern_tent_night",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a small tent at night in a rocky valley with a lantern and travel bags beside it, a tiny warm fire glow far away on a mountainside. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 296.1,
+   "t1": 308.9,
+   "sentence": "Kalimullah",
+   "id": "h59_musa_night_sky_golden",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a deep blue starry night sky over quiet mountains with a soft golden glow from above. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 317.1,
+   "t1": 326.9,
+   "sentence": "seine Hand kam weiß heraus (H2: nur Licht)",
+   "id": "h59_musa_white_star_light",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a radiant pure white light shining like a bright star in a quiet valley at night, soft sparkles. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 340.1,
+   "t1": 347.1,
+   "sentence": "weite mir meine Brust, mache leicht",
+   "id": "h59_musa_clouds_path_light",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. clouds opening to reveal a wide path of golden light across a bright sky. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 354.5,
+   "t1": 368.5,
+   "sentence": "Harun, meinen Bruder",
+   "id": "h59_musa_two_lanterns",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. two warm glowing lanterns standing side by side on a stone wall at evening. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 368.5,
+   "t1": 379.7,
+   "sentence": "redet mit ihm in sanften Worten",
+   "id": "h59_musa_petals_breeze_gate",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a gentle breeze carrying flower petals toward a tall palace gate, soft pastel sky. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 400.3,
+   "t1": 411.7,
+   "sentence": "Musa warf seinen Stock, er verschlang",
+   "id": "h59_musa_staff_ropes_courtyard",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a glowing wooden staff lying in a sunlit stone courtyard, a few scattered ropes around it fading away in golden light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 441.5,
+   "t1": 454.3,
+   "sentence": "Vor ihnen das Meer, hinter ihnen Pharao",
+   "id": "h59_musa_sea_dust_horizon",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a wide sea at dawn seen from a beach, a cloud of dust rising far away on the desert horizon behind. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 457.5,
+   "t1": 467.7,
+   "sentence": "mit mir ist mein Herr",
+   "id": "h59_musa_sea_golden_beam",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a bright golden beam of light shining from the clouds onto a calm sea at dawn. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 492.9,
+   "t1": 499.1,
+   "sentence": "schloss sich das Meer wieder",
+   "id": "h59_musa_sea_calm_whole",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. calm blue sea waves at sunrise, the sea whole and peaceful again, seagulls in the sky. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "t0": 517.9,
+   "t1": 538.3,
+   "sentence": "fastete am Tag Ashura",
+   "id": "h59_musa_crescent_mosque_dusk",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a crescent moon over a peaceful small mosque at dusk, lanterns glowing, a plate of dates. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  }
+ ]
+}
