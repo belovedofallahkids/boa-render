@@ -26,7 +26,10 @@ jobs:
         with: {python-version: "3.11"}
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
       - run: pip install -q numpy opencv-python-headless
-      - run: python3 tools/h59_sample.py
+      - name: Render sample
+        run: |
+          set -o pipefail
+          python3 tools/h59_sample.py 2>&1 | tee run.log || { tail -c 900 run.log | tr '\n' ' ' | sed 's/^/::error::/'; echo; exit 1; }
       - name: Loudness check
         run: ffmpeg -hide_banner -i out/h59_sample/h59_after.mp4 -af ebur128 -f null - 2>&1 | grep -A3 "Integrated" | tee out/h59_sample/lufs.txt
       - name: Release (draft sample, not for publishing)
