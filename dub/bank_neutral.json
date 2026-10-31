@@ -1,0 +1,101 @@
+{
+ "_meta": {
+  "rule": "H58 (owner 31.10.2026: «لما يكون في سكتات طويلة اجعل جملة…» + «لا أريد سكتات إطلاقا»): neutral Oma lines with NO information (H55) used by tools/dub_free.py to fill any gap left after episode fill lines and slowing; never after s7a. Same bank for all episodes."
+ },
+ "n_01": {
+  "ar": "هل أنتما معي؟",
+  "fr": "Vous êtes avec moi ?",
+  "en": "Are you with me?",
+  "tr": "Benimle misiniz?",
+  "bs": "Jeste li sa mnom?",
+  "sq": "A jeni me mua?"
+ },
+ "n_02": {
+  "ar": "اسمعا جيّدًا…",
+  "fr": "Écoutez bien…",
+  "en": "Listen carefully…",
+  "tr": "İyi dinleyin…",
+  "bs": "Slušajte dobro…",
+  "sq": "Dëgjoni mirë…"
+ },
+ "n_03": {
+  "ar": "هيّا نكمل.",
+  "fr": "Allez, continuons.",
+  "en": "Come, let’s go on.",
+  "tr": "Haydi, devam edelim.",
+  "bs": "Hajde, nastavimo.",
+  "sq": "Hajde, të vazhdojmë."
+ },
+ "n_04": {
+  "ar": "ما أجملَ هذه القصّة!",
+  "fr": "Comme cette histoire est belle !",
+  "en": "What a beautiful story!",
+  "tr": "Ne güzel bir hikâye!",
+  "bs": "Kako je lijepa ova priča!",
+  "sq": "Sa e bukur është kjo histori!"
+ },
+ "n_05": {
+  "ar": "انتبها لما سيأتي…",
+  "fr": "Faites bien attention à la suite…",
+  "en": "Pay attention to what comes next…",
+  "tr": "Sonrasına dikkat edin…",
+  "bs": "Pazite šta slijedi…",
+  "sq": "Kini kujdes çfarë vjen më pas…"
+ },
+ "n_06": {
+  "ar": "أرأيتما؟",
+  "fr": "Vous voyez ?",
+  "en": "Do you see?",
+  "tr": "Gördünüz mü?",
+  "bs": "Vidite li?",
+  "sq": "E shihni?"
+ },
+ "n_07": {
+  "ar": "تابِعا معي يا حبيبيّ.",
+  "fr": "Suivez-moi bien, mes chéris.",
+  "en": "Stay with me, my dears.",
+  "tr": "Beni takip edin, canlarım.",
+  "bs": "Pratite me, dušice moje.",
+  "sq": "Më ndiqni, të dashurit e mi."
+ },
+ "n_08": {
+  "ar": "والآن…",
+  "fr": "Et maintenant…",
+  "en": "And now…",
+  "tr": "Ve şimdi…",
+  "bs": "A sada…",
+  "sq": "Dhe tani…"
+ },
+ "n_09": {
+  "ar": "فكّرا معي قليلًا…",
+  "fr": "Réfléchissez un peu avec moi…",
+  "en": "Think with me for a moment…",
+  "tr": "Benimle biraz düşünün…",
+  "bs": "Razmislite malo sa mnom…",
+  "sq": "Mendohuni pak me mua…"
+ },
+ "n_10": {
+  "ar": "هذه قصّةٌ من القرآن الكريم.",
+  "fr": "C’est une histoire du Noble Coran.",
+  "en": "This is a story from the Noble Quran.",
+  "tr": "Bu, Kur'an-ı Kerim'den bir kıssa.",
+  "bs": "Ovo je priča iz Časnog Kur'ana.",
+  "sq": "Kjo është një histori nga Kur'ani Fisnik."
+ },
+ "n_11": {
+  "ar": "اسمعا ماذا حدث بعد ذلك…",
+  "fr": "Écoutez ce qui s’est passé ensuite…",
+  "en": "Listen to what happened next…",
+  "tr": "Sonra ne olduğunu dinleyin…",
+  "bs": "Slušajte šta se zatim dogodilo…",
+  "sq": "Dëgjoni çfarë ndodhi më pas…"
+ },
+ "n_12": {
+  "ar": "انظرا إلى الصورة جيّدًا…",
+  "fr": "Regardez bien l’image…",
+  "en": "Look closely at the picture…",
+  "tr": "Resme iyi bakın…",
+  "bs": "Pogledajte dobro sliku…",
+  "sq": "Shikojeni mirë figurën…"
+ }
+}

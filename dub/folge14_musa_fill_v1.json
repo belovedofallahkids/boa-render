@@ -4,7 +4,8 @@
   "purpose": "Short gap lines by Oma (H49 update 2) to fill long silences in the free dub tracks after the H55 cleanup (v1 reports 30.10.2026: gaps up to 17 s). Each line follows the sentence named in 'after'.",
   "rule": "H55 (owner 30.10.2026): free interaction between Oma and the kids for suspense or filling gaps, with NO new religious information; every line restates the approved text or a verse already in the episode.",
   "status": "DRAFT – written under the owner's H55 freedom for interaction lines; owner listens in context before upload; ChatGPT review (H52) of the translations open.",
-  "v2_lines": "31.10.2026: y_s2d, y_k_s4a, y_s4c, y_s5b, y_s6d, y_s6f – Arabic approved by owner («نعم») to fill gaps of the v3 tracks (611 s); translations from the Arabic, restating episode wording only (H55); ChatGPT review (H52) open."
+  "v2_lines": "31.10.2026: y_s2d, y_k_s4a, y_s4c, y_s5b, y_s6d, y_s6f – Arabic approved by owner («نعم») to fill gaps of the v3 tracks (611 s); translations from the Arabic, restating episode wording only (H55); ChatGPT review (H52) open.",
+  "v3_lines": "31.10.2026: y_s1c, y_s2a_b, y_s4a_2, y_s4d_b, y_s5a, y_s6a – standing owner order H58 («لما يكون في سكتات طويلة اجعل جملة او شئ للتفسير السريع»): short Oma lines restating the episode's own text/verse meaning (H55, no new info)."
  },
  "y_s2a": {
   "after": "s2a",
@@ -139,5 +140,59 @@
   "tr": "Âşûrâ günü… Allah'ın Mûsâ aleyhisselâmı kurtardığı bir gün.",
   "bs": "Dan Ašure… dan u kojem je Allah spasio Musaa, alejhis-selam.",
   "sq": "Dita e Ashures… një ditë kur All-llahu e shpëtoi Musain, paqja qoftë mbi të."
+ },
+ "y_s1c": {
+  "after": "s1c",
+  "ar": "موسى… اسمٌ ستسمعانه كثيرًا في القرآن. هيّا نبدأ القصّة.",
+  "fr": "Moussa… un nom que vous entendrez souvent dans le Coran. Allez, commençons l’histoire.",
+  "en": "Musa… a name you will hear often in the Quran. Come, let’s begin the story.",
+  "tr": "Mûsâ… Kur'an'da çok duyacağınız bir isim. Haydi, hikâyeye başlayalım.",
+  "bs": "Musa… ime koje ćete često čuti u Kur'anu. Hajde, počnimo priču.",
+  "sq": "Musai… një emër që do ta dëgjoni shpesh në Kur'an. Hajde, ta fillojmë tregimin."
+ },
+ "y_s2a_b": {
+  "after": "y_s2a",
+  "ar": "اسمعا ماذا أوحى الله إلى أمّ موسى.",
+  "fr": "Écoutez ce qu’Allah a révélé à la mère de Moussa.",
+  "en": "Listen to what Allah revealed to the mother of Musa.",
+  "tr": "Allah'ın Mûsâ'nın annesine ne vahyettiğini dinleyin.",
+  "bs": "Slušajte šta je Allah objavio Musaovoj majci.",
+  "sq": "Dëgjoni çfarë i shpalli All-llahu nënës së Musait."
+ },
+ "y_s4a_2": {
+  "after": "s4a_2",
+  "ar": "سمعتما؟ اللهُ نادى موسى، وأخبره أنّه في الوادي المقدّس.",
+  "fr": "Vous avez entendu ? Allah a appelé Moussa, et lui a dit qu’il était dans la vallée sacrée.",
+  "en": "Did you hear? Allah called Musa, and told him he was in the sacred valley.",
+  "tr": "Duydunuz mu? Allah Mûsâ'ya seslendi ve ona kutsal vadide olduğunu bildirdi.",
+  "bs": "Jeste li čuli? Allah je dozvao Musaa i rekao mu da je u svetoj dolini.",
+  "sq": "E dëgjuat? All-llahu e thirri Musain dhe i tha se ishte në luginën e shenjtë."
+ },
+ "y_s4d_b": {
+  "after": "y_s4d",
+  "ar": "ربِّ اشرح لي صدري… دعاءٌ قصير، نقوله نحن أيضًا إذا صعب علينا أمر.",
+  "fr": "« Seigneur, ouvre-moi ma poitrine »… une courte invocation, que nous disons nous aussi quand une chose est difficile.",
+  "en": "“My Lord, expand for me my breast”… a short prayer that we say too when something is hard.",
+  "tr": "“Rabbim! Göğsümü genişlet”… kısa bir dua; bir iş zor gelince biz de söyleriz.",
+  "bs": "„Gospodaru moj, učini prostranim prsa moja“… kratka dova koju i mi učimo kad nam je nešto teško.",
+  "sq": "“Ma zgjëro gjoksin tim”… një lutje e shkurtër që e themi edhe ne kur diçka është e vështirë."
+ },
+ "y_s5a": {
+  "after": "s5a",
+  "ar": "قولًا ليّنًا… يعني كلامًا لطيفًا هادئًا، حتى مع فرعون!",
+  "fr": "« Parlez-lui gentiment »… c’est-à-dire avec des mots doux et calmes, même avec Pharaon !",
+  "en": "“Gentle speech”… that means kind and calm words, even with Pharaoh!",
+  "tr": "“Yumuşak söz”… yani nazik ve sakin sözler, Firavun'a bile!",
+  "bs": "„Blagim riječima“… to znači lijepim i mirnim riječima, čak i s faraonom!",
+  "sq": "“Fjalë të buta”… domethënë fjalë të mira dhe të qeta, edhe me faraonin!"
+ },
+ "y_s6a": {
+  "after": "s6a",
+  "ar": "تخيّلا… البحرُ أمامهم، وفرعونُ وجنودُه خلفهم!",
+  "fr": "Imaginez… la mer devant eux, et Pharaon et ses soldats derrière eux !",
+  "en": "Imagine… the sea in front of them, and Pharaoh and his soldiers behind them!",
+  "tr": "Hayal edin… önlerinde deniz, arkalarında Firavun ve askerleri!",
+  "bs": "Zamislite… more ispred njih, a faraon i njegova vojska iza njih!",
+  "sq": "Imagjinoni… deti përpara tyre, e faraoni me ushtarët e tij pas tyre!"
  }
 }

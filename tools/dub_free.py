@@ -19,13 +19,14 @@ EP = os.environ.get("DUB_EP", "folge10_yaqub")
 LANG = os.environ["DUB_LANG"]
 TAG = f"dub_{EP}_free"
 VOICE = {
-    "fr": ("fr-FR-VivienneMultilingualNeural", "-10%", "-2Hz"),
+    "fr": ("fr-FR-VivienneMultilingualNeural", "-20%", "-2Hz"),  # owner 31.10.: French too fast
     "en": ("en-US-AvaMultilingualNeural", "-10%", "-2Hz"),
     "tr": ("tr-TR-EmelNeural", "-10%", "-3Hz"),
     "bs": ("bs-BA-VesnaNeural", "-15%", "-4Hz"),
     "sq": ("sq-AL-AnilaNeural", "-15%", "-4Hz"),
 }
 KID_PITCH = "+22Hz"
+KIDFIX, SLOWED = [], []
 OD = f"/tmp/dubfree_{LANG}"
 VER = os.environ.get("DUB_VER") or ("v2" if os.environ.get("DUB_FILL") == "1" else "v1")
 
@@ -42,6 +43,15 @@ def dur(f):
 def clean(t):
     t = re.sub(r"\[[^\]]*\]", "", str(t)).replace("…", "... ")
     return re.sub(r"\s+", " ", t).strip()
+
+
+def speak(t):
+    """Text actually sent to TTS (owner 31.10.: «اخطاء كثيرة في الدبلجة»): tr-TR-Emel spells words with
+    circumflexes as letters (Mûsâ -> 'M.S.', Hârûn -> 'H.R.N', Âşûrâ -> 'ÇR') -> plain letters for TTS only."""
+    t = clean(t)
+    if LANG == "tr":
+        t = t.translate(str.maketrans("âîûÂÎÛ", "aiuAIU"))
+    return t
 
 
 async def tts(text, voice, rate, pitch, out):
@@ -121,9 +131,9 @@ def main():
         out = f"{OD}/{k}.mp3"
         p_ = KID_PITCH if (k in kids or k.startswith("k_")) else pitch
         try:
-            asyncio.run(tts(clean(tx[k]), voice, rate, p_, out))
+            asyncio.run(tts(speak(tx[k]), voice, rate, p_, out))
         except Exception as ex:  # H56 b9: deterministic NoAudioReceived on single lines -> safe fallbacks, logged
-            txt = clean(tx[k]).replace("’", "'").replace("«", "").replace("»", "").replace("“", "").replace("”", "")
+            txt = speak(tx[k]).replace("’", "'").replace("«", "").replace("»", "").replace("“", "").replace("”", "")
             done = False
             for v_, p2 in ((voice, p_), (voice, "+0Hz"), (BACKUP.get(LANG, voice), p_)):
                 try:
@@ -139,6 +149,37 @@ def main():
         clips[k] = out
         print("tts", k, round(dur(out), 1), flush=True)
 
+    # 1a) intensive check (owner 31.10.: «قم بمراجعة مكثفة»): one whisper model for everything; kid lines
+    # (high pitch) are re-voiced at a lower pitch when the transcript does not match (fr «À la», en «Alice»)
+    from faster_whisper import WhisperModel
+    model = WhisperModel(os.environ.get("DUB_ASR", "large-v3"), device="cpu", compute_type="int8")
+    norm = lambda s_: re.sub(r"[^\w\s]", " ", s_.lower()).split()
+
+    def match(k_, f_):
+        sw, _ = model.transcribe(f_, language=LANG, beam_size=5)
+        h = " ".join(x.text for x in sw).strip()
+        return difflib.SequenceMatcher(None, norm(clean(tx[k_])), norm(h)).ratio(), h
+
+    for k in keys:
+        if not (k in kids or k.startswith("k_")):
+            continue
+        best = (match(k, clips[k])[0], clips[k], KID_PITCH)
+        for p2 in ("+12Hz", "+6Hz"):
+            if best[0] >= 0.9:
+                break
+            alt = f"{OD}/{k}_p{p2.strip('+Hz')}.mp3"
+            try:
+                asyncio.run(tts(speak(tx[k]), voice, rate, p2, alt))
+            except Exception:
+                continue
+            r_ = match(k, alt)[0]
+            if r_ > best[0]:
+                best = (r_, alt, p2)
+        if best[2] != KID_PITCH:
+            KIDFIX.append({"key": k, "pitch": best[2], "match": round(best[0], 3)})
+            clips[k] = best[1]
+        print("kid", k, best[2], round(best[0], 3), flush=True)
+
     # 1b) opening fix (owner 30.10.: «صلح جملة البداية»): open + s1a share the first image and must end
     # before Ilyas's image (s1b). If too long, re-voice both at one faster rate (natural TTS, not atempo).
     if "open" in clips and "s1a" in clips and "s1b" in img:
@@ -148,7 +189,7 @@ def main():
             base = int(rate.rstrip("%"))
             new = min(10, int(((1 + base / 100) * need / room - 1) * 100 + 1))
             for k in ("open", "s1a"):
-                asyncio.run(tts(clean(tx[k]), voice, f"{new:+d}%", pitch, clips[k]))
+                asyncio.run(tts(speak(tx[k]), voice, f"{new:+d}%", pitch, clips[k]))
             print("opening re-voiced at", f"{new:+d}%", round(need, 1), "->",
                   round(dur(clips["open"]) + dur(clips["s1a"]), 1), "room", round(room, 1), flush=True)
 
@@ -192,6 +233,51 @@ def main():
     if t_end > T - 6:
         warn.append({"key": "final", "type": "ends_late", "end": round(t_end, 1), "video": T})
 
+    # 2b) no silences (owner 31.10.: «لا أريد سكتات إطلاقا»): (1) the line before a gap is slowed (>= 0.88);
+    # (2) the remaining gap is filled from a bank of neutral Oma lines (dub/bank_neutral.json, no information,
+    # H55/H58), never after the children fell asleep (s7a) or after the farewell.
+    bank = json.load(open(f"{ROOT}/dub/bank_neutral.json", encoding="utf-8"))
+    bclips, used = {}, {}
+    for bk, bv in bank.items():
+        if bk.startswith("_") or LANG not in bv:
+            continue
+        tx[bk] = bv[LANG]
+        bclips[bk] = f"{OD}/{bk}.mp3"
+        try:
+            asyncio.run(tts(speak(bv[LANG]), voice, rate, pitch, bclips[bk]))
+        except Exception:
+            bclips.pop(bk)
+    nofill = {"s7a", "s7b", "close", "final"}
+    out_place = []
+    for i, (k, f, t, d) in enumerate(place):
+        nxt_t = place[i + 1][2] if i + 1 < len(place) else None
+        if nxt_t is None or k in nofill:
+            out_place.append((k, f, t, d))
+            continue
+        gap = nxt_t - (t + d)
+        if gap > 1.0:
+            nd = min(d / 0.88, d + gap - 0.6)
+            if nd > d + 0.3:
+                f2, tp = f"{OD}/{k}_slow.wav", d / nd
+                sh("ffmpeg", "-loglevel", "error", "-y", "-i", f, "-af", f"atempo={tp:.4f}", f2)
+                f, d = f2, dur(f2)
+                SLOWED.append({"key": k, "tempo": round(tp, 3)})
+        out_place.append((k, f, t, d))
+        end = t + d
+        gap = nxt_t - end
+        while gap > 2.2:
+            cand = [(dur(p_), b) for b, p_ in bclips.items()
+                    if dur(p_) <= gap - 1.0 and end - used.get(b, -999) > 90]
+            if not cand:
+                break
+            bd, b = max(cand)
+            out_place.append((b, bclips[b], end + 0.5, bd))
+            used[b] = end
+            end += 0.5 + bd
+            gap = nxt_t - end
+    place = out_place
+    t_end = max(t + d for _, _, t, d in place)
+
     gaps = []
     for (k1, _, t1, d1), (k2, _, t2, _) in zip(place, place[1:]):
         g = t2 - (t1 + d1)
@@ -215,9 +301,6 @@ def main():
     m = re.findall(r"I:\s+(-?[\d.]+) LUFS", lufs)
 
     # 4) whisper check per line (H35): transcript vs text
-    from faster_whisper import WhisperModel
-    model = WhisperModel("medium", device="cpu", compute_type="int8")
-    norm = lambda s: re.sub(r"[^\w\s]", " ", s.lower()).split()
     checks = []
     for k, f, t, d in place:
         segs_w, _ = model.transcribe(f, language=LANG, beam_size=5)
@@ -230,7 +313,7 @@ def main():
 
     rep = {"episode": EP, "lang": LANG, "voice": voice, "rate": rate, "pitch": pitch, "kid_pitch": KID_PITCH,
            "duration_video": T, "speech_end": round(t_end, 1), "lufs": m[-1] if m else None,
-           "tts_fallbacks": FALLBACK, "overruns": warn, "gaps_over_1_2s": gaps, "asr_below_0_85": low, "lines": checks,
+           "tts_fallbacks": FALLBACK, "kid_pitch_fix": KIDFIX, "slowed": SLOWED, "overruns": warn, "gaps_over_1_2s": gaps, "asr_below_0_85": low, "lines": checks,
            "status": "DRAFT – owner listens (H46.6); names test (H37); bs/sq human reviewer (H44.6)"}
     rp = f"{OD}/{EP}_{LANG}_free_{VER}_report.json"
     json.dump(rep, open(rp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
