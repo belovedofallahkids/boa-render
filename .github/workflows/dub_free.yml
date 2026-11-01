@@ -19,6 +19,9 @@ on:
       rates:
         description: "optional JSON rate override per language, e.g. {\"tr\": \"+0%\"}"
         default: ""
+      langs:
+        description: "JSON list of languages, e.g. [\"ar\"] (ar = pre-recorded Mona lines in assets/dub_ar/<ep>)"
+        default: '["fr","en","tr","bs","sq"]'
       job:
         description: "job file (empty = newest jobs/<ep>_vN.json), e.g. jobs/folge14_musa_v3_keyed.json"
         default: ""
@@ -45,7 +48,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        lang: [fr, en, tr, bs, sq]
+        lang: ${{ fromJSON(github.event.inputs.langs || '["fr","en","tr","bs","sq"]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

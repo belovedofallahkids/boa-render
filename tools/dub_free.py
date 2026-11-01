@@ -24,7 +24,12 @@ VOICE = {
     "tr": ("tr-TR-EmelNeural", "-10%", "-3Hz"),
     "bs": ("bs-BA-VesnaNeural", "-15%", "-4Hz"),
     "sq": ("sq-AL-AnilaNeural", "-15%", "-4Hz"),
+    "ar": ("ElevenLabs Mona (pre-recorded)", "+0%", "+0Hz"),  # owner 01.11.2026: Arabic stays Mona
 }
+# Arabic (owner 01.11.2026): lines are recorded once with ElevenLabs Mona and stored in
+# assets/dub_ar/<ep>/<key>.mp3; "tts" then means: copy the recording (rate -> atempo). No edge-tts.
+PRE = os.environ.get("DUB_PRE") or (f"assets/dub_ar/{os.environ.get('DUB_EP', '')}" if os.environ["DUB_LANG"] == "ar" else "")
+PRE_MAP = {}
 KID_PITCH = "+22Hz"
 KIDFIX, SLOWED = [], []
 OD = f"/tmp/dubfree_{LANG}"
@@ -57,6 +62,14 @@ def speak(t):
 
 
 async def tts(text, voice, rate, pitch, out):
+    if PRE:
+        src = PRE_MAP.get(text)
+        if not src or not os.path.exists(src):
+            raise RuntimeError("no recording for: " + text[:80])
+        r_ = 1 + int(str(rate).rstrip("%")) / 100
+        af = ["-af", f"atempo={r_:.3f}"] if abs(r_ - 1) > 0.001 else []
+        sh("ffmpeg", "-loglevel", "error", "-y", "-i", src, *af, "-ar", "48000", out)
+        return
     # H56 b4: edge-tts fails now and then (seen mostly in fr) -> retry with backoff instead of failing the whole track
     import edge_tts, asyncio as _a
     last = None
@@ -132,6 +145,19 @@ def main():
         rate = _ro[LANG]
         print("rate override", LANG, rate, flush=True)
 
+    if PRE:
+        _root = ROOT if os.path.isabs(PRE) is False else ""
+        for k in keys:
+            PRE_MAP[speak(tx[k])] = os.path.join(_root, PRE, f"{k}.mp3")
+        _b = json.load(open(f"{ROOT}/dub/bank_neutral.json", encoding="utf-8"))
+        for bk, bv in _b.items():
+            if not bk.startswith("_") and LANG in bv:
+                PRE_MAP[speak(bv[LANG])] = os.path.join(_root, PRE, f"{bk}.mp3")
+        missing = [k for k in keys if not os.path.exists(PRE_MAP[speak(tx[k])])]
+        if missing:
+            print("::warning title=missing recordings::" + ",".join(missing), flush=True)
+            keys = [k for k in keys if k not in missing]
+
     # 1) TTS every line (one call each, free)
     clips = {}
     for k in keys:
@@ -168,7 +194,7 @@ def main():
         return difflib.SequenceMatcher(None, norm(clean(tx[k_])), norm(h)).ratio(), h
 
     for k in keys:
-        if not (k in kids or k.startswith("k_")):
+        if PRE or not (k in kids or k.startswith("k_")):
             continue
         best = (match(k, clips[k])[0], clips[k], KID_PITCH)
         for p2 in ("+12Hz", "+6Hz"):
