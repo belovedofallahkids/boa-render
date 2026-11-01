@@ -11,7 +11,8 @@
    "sentence": "Sein Name kommt im Koran öfter vor",
    "id": "h59_musa_quran_stand_light",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a beautifully decorated closed book resting on a carved wooden reading stand, soft golden light around it, cozy room. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "failed",
+   "error": "{\"result\":null,\"success\":false,\"errors\":[{\"code\":10000,\"message\":\"Authentication error\"}],\"messages\":[]}"
   },
   {
    "t0": 39.9,
