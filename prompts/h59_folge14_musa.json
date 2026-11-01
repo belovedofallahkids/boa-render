@@ -20,7 +20,8 @@
    "sentence": "Prophet Jakub / Israel",
    "id": "h59_musa_canaan_tents_dusk",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a peaceful ancient desert tent camp at dusk beside olive trees, warm lantern glow, first stars in a purple sky. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "failed",
+   "error": "{\"result\":null,\"success\":false,\"errors\":[{\"code\":10000,\"message\":\"Authentication error\"}],\"messages\":[]}"
   },
   {
    "t0": 49.7,
