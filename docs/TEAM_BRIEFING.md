@@ -1,6 +1,6 @@
 # Beloved of Allah Kids – Team Briefing (for ChatGPT and Gemini)
 
-Last update: 30.10.2026 · Maintained by Claude (coordinator). Read this fully before any task.
+Last update: 01.11.2026 · Maintained by Claude (coordinator). Read this fully before any task.
 
 ## 1. Who decides
 
@@ -10,7 +10,7 @@ Last update: 30.10.2026 · Maintained by Claude (coordinator). Read this fully b
 | Coordinator and producer | Claude | Gives tasks, checks every point against the source, accepts or rejects, writes all records (Notion, GitHub) |
 | Second independent reviewer | ChatGPT | Religious sources, Arabic, English, German, French, consistency of project files |
 | Drafting and visual check | Gemini | First drafts of multilingual metadata (ar/en/fr/tr), deep research, image/thumbnail checks |
-| Human reviewer | (to be found) | Final approval of Turkish, Bosnian, Albanian |
+| Bosnian/Albanian check | Claude (owner order 01.11.2026) | Back-translation + transcript check before upload; no separate human reviewer needed anymore |
 
 Nothing from ChatGPT or Gemini is used before Claude has checked it against the Qur'an or an authentic hadith with its number. Disagreements go to the owner with the source from each side.
 
@@ -20,7 +20,7 @@ Nothing from ChatGPT or Gemini is used before Claude has checked it against the 
 
 - YouTube: "Beloved of Allah Kids – Islam für Kinder", @BelovedOfAllahKids, Made for Kids (comments, notifications, end screens, cards are disabled by YouTube for kids channels).
 - Stories of the 25 prophets, one prophet per episode, in order from Adam to Muhammad ﷺ, as a bedtime story.
-- Audience: children 4–12. Language of the channel: German. Dubbed audio tracks planned: Arabic, English, Turkish, French, Bosnian, Albanian.
+- Audience: children 4–12. Language of the channel: German. Dubbed audio tracks: Arabic (ElevenLabs voice "Mona"), English, French, Turkish, Bosnian, Albanian (free voices).
 - Format: Grandma "Oma Karmoucha" tells her grandchildren Noah (8, green pyjamas) and Ilyas (10, blue pyjamas) a story before sleep; at the end the children are asleep and she gives the lesson.
 - 14 episodes published (Adam to Musa). Episodes 15–25 (Harun to Muhammad ﷺ) are scripted in `scripts/`.
 
@@ -77,7 +77,37 @@ Nothing from ChatGPT or Gemini is used before Claude has checked it against the 
 - ChatGPT 29.10: marked "Yaqub lived in the desert" as without source (source: Yusuf 12:100); marked "Zamzam is blessed" as without source (Muslim 2473); "Lut will be saved" (al-Ankabut 33); "Musa and those with him were saved" (ash-Shu'ara 65).
 - Harun episode: no unstated feelings ("Harun stayed calm and spoke lovingly" was removed); Musa's question follows Taha 92–93 exactly.
 
-## 7. Current priorities (30.10.2026)
+## 7. New standing rules (30.10.–01.11.2026)
+
+- **H55 Accuracy:** in the story part nothing without a source in the Qur'an or authentic Sunnah – no addition, no omission, verses quoted in full without cuts. Full freedom only for the playful exchange between Oma and the children (questions, wonder, suspense) as long as it adds no religious information.
+- **H58 No long silences:** gaps in a dubbed track are filled with short Oma lines that only restate the episode's own text ("Did you see? …"), never new information.
+- **H59 Lively videos:** every video gets more movement, more images, bright colours and transitions that follow the spoken text, so children stay attentive. Images still follow rules 5–8.
+- **H60 Owner trust rule:** any correction that does not change the Qur'anic text or the correct meaning is pre-approved by the owner. Claude applies it and informs the owner afterwards.
+- **Child-friendly:** every sentence must be understandable for a child of 4–12.
+
+## 8. Status (01.11.2026)
+
+- English/French/Turkish tracks published on: Yaqub (+Arabic), Musa, Ayyub, Shuaib, Lut, Ishaq, Ismail. Yusuf: uploaded, still processing.
+- Bosnian/Albanian: ready as drafts for the same 8 episodes; upload after Claude's review.
+- Arabic (Mona): Yaqub published; Musa recorded 01.11, track being built; Yusuf, Ayyub, Shuaib, Lut, Ismail, Ishaq next.
+- Ibrahim (6) and Noah (3): timing file from the published video still needed before dubbing. Adam, Idris, Hud, Salih: will be re-made first.
+- Musa (14) German v3 published (RPdXVMieWro). 29 new free images for the animated Musa v4 (H59) generated, being checked.
+- First Shorts: OpusClip is cutting Musa into 30–60 s clips (drafts, owner approves before publishing).
+
+## 9. Orders now
+
+**ChatGPT (second independent reviewer, H52):**
+1. Read `dub/folge11_yusuf_ar.json`, `folge12_ayyub_ar.json`, `folge13_shuaib_ar.json`, `folge07_lut_ar.json`, `folge08_ismail_ar.json`, `folge09_ishaq_ar.json` (GitHub, read only).
+2. For each sentence key: (a) is every Qur'an verse complete and word for word? (b) anything added or left out compared with Qur'an/authentic Sunnah (H55)? (c) can a child understand it?
+3. Answer in the report format of section 4, one table per episode. Mark "confirmed error" vs "needs checking". Do not rewrite whole texts.
+
+**Gemini (drafts and visual ideas):**
+1. For the Yusuf episode (11) write 25 image ideas for the animated version (H59): bright Pixar-3D style, one per story moment, following rules 5–8 strictly (no humans, no faces, no shadows, no footprints, no crosses or church towers, no European castles, no electric lamps). Each idea: moment | what we see | movement idea (zoom, pan, light).
+2. Draft localized titles and descriptions for episodes 1–14 in Bosnian and Albanian (same structure as the Arabic/English ones: question hook + "a story from the Qur'an, no music" + 4 hashtags). Claude checks every word before use.
+
+Nothing is published, changed or spent by ChatGPT or Gemini. Send results back to Claude.
+
+## 10. Older priorities (30.10.2026, kept for reference)
 
 1. Localized titles and descriptions for all 14 published episodes (Arabic and English first; YouTube search for these topics is 90–200× bigger in Arabic and English than in German).
 2. Arabic, then English dubbing of the published episodes.
