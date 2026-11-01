@@ -5,7 +5,12 @@ image before use, H36), and writes a check sheet (full + 4 quadrants) per image 
 Secrets: CF_ACCOUNT_ID, CF_API_TOKEN. Env: EP (e.g. folge14_musa), MAX (default 40)."""
 import base64, json, os, sys, time, requests, cv2, numpy as np
 ep = os.environ["EP"]; mx = int(os.environ.get("MAX", "40"))
-acc, tok = os.environ["CF_ACCOUNT_ID"], os.environ["CF_API_TOKEN"]
+acc, tok = os.environ["CF_ACCOUNT_ID"].strip(), os.environ["CF_API_TOKEN"].strip()
+import requests as _rq
+for _u in ("https://api.cloudflare.com/client/v4/user/tokens/verify", f"https://api.cloudflare.com/client/v4/accounts/{acc}/tokens/verify"):
+    _r = _rq.get(_u, headers={"Authorization": f"Bearer {tok}"}, timeout=30)
+    print("CHECK", _u.split("/v4/")[1].split("/")[0], _r.status_code, (_r.json().get("result") or {}).get("status"), [e.get("message") for e in _r.json().get("errors", [])])
+print("CHECK acc_len", len(acc), "acc_hex", all(c in "0123456789abcdef" for c in acc), "tok_len", len(tok))
 url = f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/@cf/black-forest-labs/flux-2-klein-4b"
 p = f"prompts/h59_{ep}.json"; plan = json.load(open(p))
 num = ep.split("_")[0].replace("folge", "folge")

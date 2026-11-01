@@ -25,7 +25,7 @@ jobs:
           set -o pipefail
           test -n "$CF_API_TOKEN" || { echo "::error::Secret CF_API_TOKEN fehlt"; exit 1; }
           python3 tools/h59_cf_images.py 2>&1 | tee gen.log || { tail -c 800 gen.log | tr '\n' ' ' | sed 's/^/::error::/'; echo; exit 1; }
-          grep -E "^(FAIL|generated)" gen.log | tr '\n' ' ' | sed 's/^/::notice::/'; echo
+          grep -E "^(FAIL|generated|CHECK)" gen.log | tr '\n' ' ' | sed 's/^/::notice::/'; echo
       - if: always()
         run: |
           git config user.name "boa-render-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
