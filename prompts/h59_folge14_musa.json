@@ -11,7 +11,9 @@
    "sentence": "Sein Name kommt im Koran öfter vor",
    "id": "h59_musa_quran_stand_light",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a beautifully decorated closed book resting on a carved wooden reading stand, soft golden light around it, cozy room. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge14/h59_musa_quran_stand_light.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "t0": 39.9,
@@ -19,7 +21,9 @@
    "sentence": "Prophet Jakub / Israel",
    "id": "h59_musa_canaan_tents_dusk",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a peaceful ancient desert tent camp at dusk beside olive trees, warm lantern glow, first stars in a purple sky. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge14/h59_musa_canaan_tents_dusk.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "t0": 49.7,
@@ -27,7 +31,9 @@
    "sentence": "Seine Nachkommen: Kinder Israels",
    "id": "h59_musa_village_lamps_river",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a small village of mud-brick houses beside a wide river at evening, many small window lamps glowing warmly. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge14/h59_musa_village_lamps_river.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "t0": 56.1,
@@ -45,7 +51,7 @@
    "sentence": "Er unterdrückte sie (H6: nur Stimmung)",
    "id": "h59_musa_storm_clouds_palace",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. dark grey clouds gathering over a distant flat-roofed ancient Egyptian palace with plain columns and no towers, no spires, no domes, no castle, a single small warm lamp glowing in a humble mud-brick window in the foreground. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned",
+   "status": "generated",
    "file": "assets/h59/folge14/h59_musa_storm_clouds_palace.jpg",
    "source": "Cloudflare flux-2-klein-4b (free)"
   },
@@ -55,7 +61,7 @@
    "sentence": "Eine Mutter bekam ein Baby, Musa",
    "id": "h59_musa_cradle_humble_room",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. an empty small wooden cradle with a soft blanket in a humble mud-brick room, warm light from a small clay oil lamp on the floor, no electric lamps, no wall lamps, simple clay pots. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned",
+   "status": "generated",
    "file": "assets/h59/folge14/h59_musa_cradle_humble_room.jpg",
    "source": "Cloudflare flux-2-klein-4b (free)"
   },
