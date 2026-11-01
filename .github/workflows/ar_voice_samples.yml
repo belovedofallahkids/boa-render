@@ -1,0 +1,12 @@
+name: ar_voice_samples
+on: {workflow_dispatch: {}}
+permissions: {contents: write}
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q edge-tts && python3 tools/ar_voice_samples.py
+      - run: |
+          git config user.name "boa-render-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b media-ar-voices; git add -f out/ar_voices; git commit -qm "ar voice samples [skip ci]"; git push -f origin media-ar-voices
