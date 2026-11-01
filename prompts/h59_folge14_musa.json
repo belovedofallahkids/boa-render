@@ -29,7 +29,8 @@
    "sentence": "Seine Nachkommen: Kinder Israels",
    "id": "h59_musa_village_lamps_river",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. a small village of mud-brick houses beside a wide river at evening, many small window lamps glowing warmly. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "failed",
+   "error": "{\"result\":null,\"success\":false,\"errors\":[{\"code\":10000,\"message\":\"Authentication error\"}],\"messages\":[]}"
   },
   {
    "t0": 56.1,
