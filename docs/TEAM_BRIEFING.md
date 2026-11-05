@@ -107,6 +107,22 @@ Nothing from ChatGPT or Gemini is used before Claude has checked it against the 
 
 Nothing is published, changed or spent by ChatGPT or Gemini. Send results back to Claude.
 
+## 9a. Orders from 05.11.2026 (owner: more work to ChatGPT and Gemini, to save Claude's usage limits)
+
+ChatGPT and Gemini now DRAFT; Claude only VERIFIES against the source and decides. Rules of section 3 and 7 apply unchanged. Nothing is published, changed or spent by ChatGPT or Gemini.
+
+**ChatGPT – corrected Arabic mother texts (drafts), one episode per answer, order: Ayyub 12, Yusuf 11, Shuaib 13, Ishaq 09, Ismail 08:**
+1. Start from `dub/<ep>_ar.json` and your own findings in `reviews/2026-11-01_chatgpt_H52_ar_6eps.md`.
+2. Return the COMPLETE corrected JSON (same keys s1a… plus open/close/final, same order). Every verse either complete word for word (Uthmani text, with the sura:aya number in a note) or said in Oma's own words without presenting it as a verse. Remove unsourced additions (durations, feelings, numbers). Hard words simplified for a child 4–12. Keep each line about as long as before (it must fit its image).
+3. Below the JSON: a change table `key | old | new | source`. Mark anything you are unsure of as "needs checking".
+4. Then the same changed lines translated from the corrected Arabic into fr, en, tr, bs, sq (verse translations only: Hamidullah, Saheeh International, Diyanet, Korkut, Ahmeti).
+
+**Gemini – images and metadata (drafts):**
+1. Image ideas for the animated versions (H59), 25 per episode, order: Yusuf 11, Ayyub 12, Shuaib 13 (format of section 9, rules 5–8 strictly).
+2. Localized titles and descriptions in Bosnian and Albanian for episodes 1–14 (if not yet delivered).
+
+**Claude:** checks every verse and every change against the source, accepts or rejects point by point (rejections recorded with the source), commits, starts the dubbing.
+
 ## 10. Older priorities (30.10.2026, kept for reference)
 
 1. Localized titles and descriptions for all 14 published episodes (Arabic and English first; YouTube search for these topics is 90–200× bigger in Arabic and English than in German).
