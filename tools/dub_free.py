@@ -272,7 +272,7 @@ def main():
     # (2) the remaining gap is filled from a bank of neutral Oma lines (dub/bank_neutral.json, no information,
     # H55/H58), never after the children fell asleep (s7a) or after the farewell.
     bank = json.load(open(f"{ROOT}/dub/bank_neutral.json", encoding="utf-8"))
-    bclips, used = {}, {}
+    bclips, used, cnt = {}, {}, {}
     for bk, bv in bank.items():
         if bk.startswith("_") or LANG not in bv:
             continue
@@ -307,9 +307,11 @@ def main():
                     if dur(p_) <= gap - 1.0 and end - used.get(b, -999) > 45]
             if not cand:
                 break
-            bd, b = max(cand)
+            # variety (05.11.2026, Musa ar v8: "هذه قصة من القرآن" came 7 times): least-used line first, then longest
+            bd, b = max(cand, key=lambda c: (-cnt.get(c[1], 0), c[0]))
             out_place.append((b, bclips[b], end + 0.5, bd))
             used[b] = end
+            cnt[b] = cnt.get(b, 0) + 1
             end += 0.5 + bd
             gap = nxt_t - end
     place = out_place
