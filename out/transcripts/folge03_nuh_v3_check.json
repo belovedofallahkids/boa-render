@@ -1,0 +1,3260 @@
+{
+ "name": "folge03_nuh_v3_check",
+ "job_hash": "36a07eda3987342cc316b275f186c2082f8997c6",
+ "duration": 341.12,
+ "model": "medium",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 10.7,
+   "text": "Psst, Noah, Elias, stellt euch vor, ein Schiff, so riesig wie ein Haus aus vielen Häusern,",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.88,
+     "word": "Psst,"
+    },
+    {
+     "start": 1.28,
+     "end": 1.54,
+     "word": "Noah,"
+    },
+    {
+     "start": 2.18,
+     "end": 3.36,
+     "word": "Elias,"
+    },
+    {
+     "start": 3.8,
+     "end": 3.92,
+     "word": "stellt"
+    },
+    {
+     "start": 3.92,
+     "end": 4.2,
+     "word": "euch"
+    },
+    {
+     "start": 4.2,
+     "end": 4.76,
+     "word": "vor,"
+    },
+    {
+     "start": 5.2,
+     "end": 5.4,
+     "word": "ein"
+    },
+    {
+     "start": 5.4,
+     "end": 6.26,
+     "word": "Schiff,"
+    },
+    {
+     "start": 6.62,
+     "end": 6.88,
+     "word": "so"
+    },
+    {
+     "start": 6.88,
+     "end": 7.52,
+     "word": "riesig"
+    },
+    {
+     "start": 7.52,
+     "end": 7.72,
+     "word": "wie"
+    },
+    {
+     "start": 7.72,
+     "end": 7.98,
+     "word": "ein"
+    },
+    {
+     "start": 7.98,
+     "end": 8.4,
+     "word": "Haus"
+    },
+    {
+     "start": 8.4,
+     "end": 8.8,
+     "word": "aus"
+    },
+    {
+     "start": 8.8,
+     "end": 9.3,
+     "word": "vielen"
+    },
+    {
+     "start": 9.3,
+     "end": 10.7,
+     "word": "Häusern,"
+    }
+   ]
+  },
+  {
+   "start": 11.18,
+   "end": 13.14,
+   "text": "gebaut auf dem trockenen Land.",
+   "words": [
+    {
+     "start": 11.18,
+     "end": 11.52,
+     "word": "gebaut"
+    },
+    {
+     "start": 11.52,
+     "end": 11.88,
+     "word": "auf"
+    },
+    {
+     "start": 11.88,
+     "end": 12.12,
+     "word": "dem"
+    },
+    {
+     "start": 12.12,
+     "end": 12.8,
+     "word": "trockenen"
+    },
+    {
+     "start": 12.8,
+     "end": 13.14,
+     "word": "Land."
+    }
+   ]
+  },
+  {
+   "start": 14.14,
+   "end": 16.38,
+   "text": "Und alle Leute lachen darüber.",
+   "words": [
+    {
+     "start": 14.14,
+     "end": 14.6,
+     "word": "Und"
+    },
+    {
+     "start": 14.6,
+     "end": 15.02,
+     "word": "alle"
+    },
+    {
+     "start": 15.02,
+     "end": 15.36,
+     "word": "Leute"
+    },
+    {
+     "start": 15.36,
+     "end": 15.78,
+     "word": "lachen"
+    },
+    {
+     "start": 15.78,
+     "end": 16.38,
+     "word": "darüber."
+    }
+   ]
+  },
+  {
+   "start": 17.4,
+   "end": 18.88,
+   "text": "Wer baut denn so etwas?",
+   "words": [
+    {
+     "start": 17.4,
+     "end": 17.66,
+     "word": "Wer"
+    },
+    {
+     "start": 17.66,
+     "end": 18.02,
+     "word": "baut"
+    },
+    {
+     "start": 18.02,
+     "end": 18.26,
+     "word": "denn"
+    },
+    {
+     "start": 18.26,
+     "end": 18.5,
+     "word": "so"
+    },
+    {
+     "start": 18.5,
+     "end": 18.88,
+     "word": "etwas?"
+    }
+   ]
+  },
+  {
+   "start": 20.18,
+   "end": 22.1,
+   "text": "Heute erzähle ich es euch.",
+   "words": [
+    {
+     "start": 20.18,
+     "end": 20.66,
+     "word": "Heute"
+    },
+    {
+     "start": 20.66,
+     "end": 21.26,
+     "word": "erzähle"
+    },
+    {
+     "start": 21.26,
+     "end": 21.46,
+     "word": "ich"
+    },
+    {
+     "start": 21.46,
+     "end": 21.7,
+     "word": "es"
+    },
+    {
+     "start": 21.7,
+     "end": 22.1,
+     "word": "euch."
+    }
+   ]
+  },
+  {
+   "start": 23.0,
+   "end": 24.4,
+   "text": "Und weißt du was, Noah?",
+   "words": [
+    {
+     "start": 23.0,
+     "end": 23.36,
+     "word": "Und"
+    },
+    {
+     "start": 23.36,
+     "end": 23.58,
+     "word": "weißt"
+    },
+    {
+     "start": 23.58,
+     "end": 23.68,
+     "word": "du"
+    },
+    {
+     "start": 23.68,
+     "end": 23.98,
+     "word": "was,"
+    },
+    {
+     "start": 24.14,
+     "end": 24.4,
+     "word": "Noah?"
+    }
+   ]
+  },
+  {
+   "start": 25.46,
+   "end": 28.16,
+   "text": "Dieser Prophet hat denselben Namen wie du.",
+   "words": [
+    {
+     "start": 25.46,
+     "end": 25.78,
+     "word": "Dieser"
+    },
+    {
+     "start": 25.78,
+     "end": 26.3,
+     "word": "Prophet"
+    },
+    {
+     "start": 26.3,
+     "end": 26.64,
+     "word": "hat"
+    },
+    {
+     "start": 26.64,
+     "end": 27.24,
+     "word": "denselben"
+    },
+    {
+     "start": 27.24,
+     "end": 27.56,
+     "word": "Namen"
+    },
+    {
+     "start": 27.56,
+     "end": 27.8,
+     "word": "wie"
+    },
+    {
+     "start": 27.8,
+     "end": 28.16,
+     "word": "du."
+    }
+   ]
+  },
+  {
+   "start": 29.12,
+   "end": 31.92,
+   "text": "Der Prophet Nu, Friede sei mit ihm.",
+   "words": [
+    {
+     "start": 28.92,
+     "end": 29.36,
+     "word": "Der"
+    },
+    {
+     "start": 29.36,
+     "end": 29.92,
+     "word": "Prophet"
+    },
+    {
+     "start": 29.92,
+     "end": 30.46,
+     "word": "Nu,"
+    },
+    {
+     "start": 30.94,
+     "end": 31.34,
+     "word": "Friede"
+    },
+    {
+     "start": 31.34,
+     "end": 31.46,
+     "word": "sei"
+    },
+    {
+     "start": 31.46,
+     "end": 31.68,
+     "word": "mit"
+    },
+    {
+     "start": 31.68,
+     "end": 31.92,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 32.14,
+   "end": 38.12,
+   "text": "Lange Zeit nach Adam lebten die Menschen nicht mehr so, wie Allah es wollte.",
+   "words": [
+    {
+     "start": 32.14,
+     "end": 32.6,
+     "word": "Lange"
+    },
+    {
+     "start": 32.6,
+     "end": 33.04,
+     "word": "Zeit"
+    },
+    {
+     "start": 33.04,
+     "end": 33.42,
+     "word": "nach"
+    },
+    {
+     "start": 33.42,
+     "end": 34.26,
+     "word": "Adam"
+    },
+    {
+     "start": 34.26,
+     "end": 35.16,
+     "word": "lebten"
+    },
+    {
+     "start": 35.16,
+     "end": 35.4,
+     "word": "die"
+    },
+    {
+     "start": 35.4,
+     "end": 35.74,
+     "word": "Menschen"
+    },
+    {
+     "start": 35.74,
+     "end": 36.12,
+     "word": "nicht"
+    },
+    {
+     "start": 36.12,
+     "end": 36.38,
+     "word": "mehr"
+    },
+    {
+     "start": 36.38,
+     "end": 36.8,
+     "word": "so,"
+    },
+    {
+     "start": 36.84,
+     "end": 37.08,
+     "word": "wie"
+    },
+    {
+     "start": 37.08,
+     "end": 37.42,
+     "word": "Allah"
+    },
+    {
+     "start": 37.42,
+     "end": 37.72,
+     "word": "es"
+    },
+    {
+     "start": 37.72,
+     "end": 38.12,
+     "word": "wollte."
+    }
+   ]
+  },
+  {
+   "start": 39.46,
+   "end": 44.4,
+   "text": "Sie machten sich Götzen aus Stein und beteten sie an.",
+   "words": [
+    {
+     "start": 39.46,
+     "end": 39.68,
+     "word": "Sie"
+    },
+    {
+     "start": 39.68,
+     "end": 40.18,
+     "word": "machten"
+    },
+    {
+     "start": 40.18,
+     "end": 40.48,
+     "word": "sich"
+    },
+    {
+     "start": 40.48,
+     "end": 41.02,
+     "word": "Götzen"
+    },
+    {
+     "start": 41.02,
+     "end": 41.44,
+     "word": "aus"
+    },
+    {
+     "start": 41.44,
+     "end": 41.84,
+     "word": "Stein"
+    },
+    {
+     "start": 41.84,
+     "end": 42.94,
+     "word": "und"
+    },
+    {
+     "start": 42.94,
+     "end": 43.52,
+     "word": "beteten"
+    },
+    {
+     "start": 43.52,
+     "end": 43.72,
+     "word": "sie"
+    },
+    {
+     "start": 43.72,
+     "end": 44.4,
+     "word": "an."
+    }
+   ]
+  },
+  {
+   "start": 44.94,
+   "end": 46.92,
+   "text": "Sie gaben ihnen sogar Namen.",
+   "words": [
+    {
+     "start": 44.94,
+     "end": 45.14,
+     "word": "Sie"
+    },
+    {
+     "start": 45.14,
+     "end": 45.58,
+     "word": "gaben"
+    },
+    {
+     "start": 45.58,
+     "end": 45.86,
+     "word": "ihnen"
+    },
+    {
+     "start": 45.86,
+     "end": 46.28,
+     "word": "sogar"
+    },
+    {
+     "start": 46.28,
+     "end": 46.92,
+     "word": "Namen."
+    }
+   ]
+  },
+  {
+   "start": 48.1,
+   "end": 54.92,
+   "text": "Watt, Suwa, Jagut, Jaug und Nasr.",
+   "words": [
+    {
+     "start": 48.1,
+     "end": 48.98,
+     "word": "Watt,"
+    },
+    {
+     "start": 49.42,
+     "end": 50.14,
+     "word": "Suwa,"
+    },
+    {
+     "start": 50.84,
+     "end": 51.9,
+     "word": "Jagut,"
+    },
+    {
+     "start": 52.7,
+     "end": 53.22,
+     "word": "Jaug"
+    },
+    {
+     "start": 53.22,
+     "end": 54.14,
+     "word": "und"
+    },
+    {
+     "start": 54.14,
+     "end": 54.92,
+     "word": "Nasr."
+    }
+   ]
+  },
+  {
+   "start": 55.72,
+   "end": 58.96,
+   "text": "Sie vergassen Allah, der sie erschaffen hatte.",
+   "words": [
+    {
+     "start": 55.52,
+     "end": 55.96,
+     "word": "Sie"
+    },
+    {
+     "start": 55.96,
+     "end": 56.6,
+     "word": "vergassen"
+    },
+    {
+     "start": 56.6,
+     "end": 57.16,
+     "word": "Allah,"
+    },
+    {
+     "start": 57.72,
+     "end": 57.88,
+     "word": "der"
+    },
+    {
+     "start": 57.88,
+     "end": 58.08,
+     "word": "sie"
+    },
+    {
+     "start": 58.08,
+     "end": 58.58,
+     "word": "erschaffen"
+    },
+    {
+     "start": 58.58,
+     "end": 58.96,
+     "word": "hatte."
+    }
+   ]
+  },
+  {
+   "start": 59.96,
+   "end": 64.16,
+   "text": "Da schickte Allah ihnen einen Propheten, Nu.",
+   "words": [
+    {
+     "start": 59.96,
+     "end": 60.14,
+     "word": "Da"
+    },
+    {
+     "start": 60.14,
+     "end": 60.64,
+     "word": "schickte"
+    },
+    {
+     "start": 60.64,
+     "end": 61.08,
+     "word": "Allah"
+    },
+    {
+     "start": 61.08,
+     "end": 61.54,
+     "word": "ihnen"
+    },
+    {
+     "start": 61.54,
+     "end": 61.88,
+     "word": "einen"
+    },
+    {
+     "start": 61.88,
+     "end": 63.56,
+     "word": "Propheten,"
+    },
+    {
+     "start": 63.94,
+     "end": 64.16,
+     "word": "Nu."
+    }
+   ]
+  },
+  {
+   "start": 65.3,
+   "end": 67.54,
+   "text": "Nu sagte zu seinen Leuten,",
+   "words": [
+    {
+     "start": 65.3,
+     "end": 65.8,
+     "word": "Nu"
+    },
+    {
+     "start": 65.8,
+     "end": 66.32,
+     "word": "sagte"
+    },
+    {
+     "start": 66.32,
+     "end": 66.66,
+     "word": "zu"
+    },
+    {
+     "start": 66.66,
+     "end": 66.98,
+     "word": "seinen"
+    },
+    {
+     "start": 66.98,
+     "end": 67.54,
+     "word": "Leuten,"
+    }
+   ]
+  },
+  {
+   "start": 68.58,
+   "end": 73.1,
+   "text": "Oh mein Volk, betet nur Allah an.",
+   "words": [
+    {
+     "start": 68.58,
+     "end": 68.92,
+     "word": "Oh"
+    },
+    {
+     "start": 68.92,
+     "end": 69.28,
+     "word": "mein"
+    },
+    {
+     "start": 69.28,
+     "end": 70.36,
+     "word": "Volk,"
+    },
+    {
+     "start": 70.66,
+     "end": 71.04,
+     "word": "betet"
+    },
+    {
+     "start": 71.04,
+     "end": 71.42,
+     "word": "nur"
+    },
+    {
+     "start": 71.42,
+     "end": 71.94,
+     "word": "Allah"
+    },
+    {
+     "start": 71.94,
+     "end": 73.1,
+     "word": "an."
+    }
+   ]
+  },
+  {
+   "start": 73.58,
+   "end": 78.2,
+   "text": "Bittet ihn um Vergebung, denn er vergibt so gerne.",
+   "words": [
+    {
+     "start": 73.58,
+     "end": 74.08,
+     "word": "Bittet"
+    },
+    {
+     "start": 74.08,
+     "end": 74.4,
+     "word": "ihn"
+    },
+    {
+     "start": 74.4,
+     "end": 74.7,
+     "word": "um"
+    },
+    {
+     "start": 74.7,
+     "end": 75.88,
+     "word": "Vergebung,"
+    },
+    {
+     "start": 76.2,
+     "end": 76.42,
+     "word": "denn"
+    },
+    {
+     "start": 76.42,
+     "end": 76.94,
+     "word": "er"
+    },
+    {
+     "start": 76.94,
+     "end": 77.38,
+     "word": "vergibt"
+    },
+    {
+     "start": 77.38,
+     "end": 77.68,
+     "word": "so"
+    },
+    {
+     "start": 77.68,
+     "end": 78.2,
+     "word": "gerne."
+    }
+   ]
+  },
+  {
+   "start": 79.36,
+   "end": 83.06,
+   "text": "Und wisst ihr, wie lange Nu bei ihnen war?",
+   "words": [
+    {
+     "start": 79.36,
+     "end": 79.94,
+     "word": "Und"
+    },
+    {
+     "start": 79.94,
+     "end": 80.24,
+     "word": "wisst"
+    },
+    {
+     "start": 80.24,
+     "end": 80.88,
+     "word": "ihr,"
+    },
+    {
+     "start": 81.16,
+     "end": 81.3,
+     "word": "wie"
+    },
+    {
+     "start": 81.3,
+     "end": 81.62,
+     "word": "lange"
+    },
+    {
+     "start": 81.62,
+     "end": 81.9,
+     "word": "Nu"
+    },
+    {
+     "start": 81.9,
+     "end": 82.28,
+     "word": "bei"
+    },
+    {
+     "start": 82.28,
+     "end": 82.62,
+     "word": "ihnen"
+    },
+    {
+     "start": 82.62,
+     "end": 83.06,
+     "word": "war?"
+    }
+   ]
+  },
+  {
+   "start": 86.0,
+   "end": 87.4,
+   "text": "Neunhundertfünfzig Jahre.",
+   "words": [
+    {
+     "start": 86.0,
+     "end": 86.76,
+     "word": "Neunhundertfünfzig"
+    },
+    {
+     "start": 86.76,
+     "end": 87.4,
+     "word": "Jahre."
+    }
+   ]
+  },
+  {
+   "start": 88.52,
+   "end": 94.08,
+   "text": "Er rief sie bei Tag und bei Nacht, laut und leise.",
+   "words": [
+    {
+     "start": 88.52,
+     "end": 88.82,
+     "word": "Er"
+    },
+    {
+     "start": 88.82,
+     "end": 89.04,
+     "word": "rief"
+    },
+    {
+     "start": 89.04,
+     "end": 89.34,
+     "word": "sie"
+    },
+    {
+     "start": 89.34,
+     "end": 89.72,
+     "word": "bei"
+    },
+    {
+     "start": 89.72,
+     "end": 90.16,
+     "word": "Tag"
+    },
+    {
+     "start": 90.16,
+     "end": 90.54,
+     "word": "und"
+    },
+    {
+     "start": 90.54,
+     "end": 90.86,
+     "word": "bei"
+    },
+    {
+     "start": 90.86,
+     "end": 91.48,
+     "word": "Nacht,"
+    },
+    {
+     "start": 92.28,
+     "end": 92.7,
+     "word": "laut"
+    },
+    {
+     "start": 92.7,
+     "end": 93.22,
+     "word": "und"
+    },
+    {
+     "start": 93.22,
+     "end": 94.08,
+     "word": "leise."
+    }
+   ]
+  },
+  {
+   "start": 94.82,
+   "end": 97.26,
+   "text": "Oma, haben sie denn zugehört?",
+   "words": [
+    {
+     "start": 94.82,
+     "end": 95.5,
+     "word": "Oma,"
+    },
+    {
+     "start": 95.5,
+     "end": 95.82,
+     "word": "haben"
+    },
+    {
+     "start": 95.82,
+     "end": 96.0,
+     "word": "sie"
+    },
+    {
+     "start": 96.0,
+     "end": 96.38,
+     "word": "denn"
+    },
+    {
+     "start": 96.38,
+     "end": 97.26,
+     "word": "zugehört?"
+    }
+   ]
+  },
+  {
+   "start": 98.44,
+   "end": 103.44,
+   "text": "Nein, Elias, sie steckten sich die Finger in die Ohren",
+   "words": [
+    {
+     "start": 98.44,
+     "end": 98.96,
+     "word": "Nein,"
+    },
+    {
+     "start": 99.24,
+     "end": 99.84,
+     "word": "Elias,"
+    },
+    {
+     "start": 100.5,
+     "end": 100.82,
+     "word": "sie"
+    },
+    {
+     "start": 100.82,
+     "end": 101.34,
+     "word": "steckten"
+    },
+    {
+     "start": 101.34,
+     "end": 101.62,
+     "word": "sich"
+    },
+    {
+     "start": 101.62,
+     "end": 101.88,
+     "word": "die"
+    },
+    {
+     "start": 101.88,
+     "end": 102.14,
+     "word": "Finger"
+    },
+    {
+     "start": 102.14,
+     "end": 102.44,
+     "word": "in"
+    },
+    {
+     "start": 102.44,
+     "end": 102.68,
+     "word": "die"
+    },
+    {
+     "start": 102.68,
+     "end": 103.44,
+     "word": "Ohren"
+    }
+   ]
+  },
+  {
+   "start": 103.44,
+   "end": 106.66,
+   "text": "und zogen sich ihre Kleider über den Kopf,",
+   "words": [
+    {
+     "start": 103.44,
+     "end": 104.0,
+     "word": "und"
+    },
+    {
+     "start": 104.0,
+     "end": 104.42,
+     "word": "zogen"
+    },
+    {
+     "start": 104.42,
+     "end": 104.74,
+     "word": "sich"
+    },
+    {
+     "start": 104.74,
+     "end": 105.0,
+     "word": "ihre"
+    },
+    {
+     "start": 105.0,
+     "end": 105.64,
+     "word": "Kleider"
+    },
+    {
+     "start": 105.64,
+     "end": 105.94,
+     "word": "über"
+    },
+    {
+     "start": 105.94,
+     "end": 106.28,
+     "word": "den"
+    },
+    {
+     "start": 106.28,
+     "end": 106.66,
+     "word": "Kopf,"
+    }
+   ]
+  },
+  {
+   "start": 107.3,
+   "end": 110.0,
+   "text": "damit sie ihn nicht hören mussten.",
+   "words": [
+    {
+     "start": 107.3,
+     "end": 107.58,
+     "word": "damit"
+    },
+    {
+     "start": 107.58,
+     "end": 107.82,
+     "word": "sie"
+    },
+    {
+     "start": 107.82,
+     "end": 107.98,
+     "word": "ihn"
+    },
+    {
+     "start": 107.98,
+     "end": 108.28,
+     "word": "nicht"
+    },
+    {
+     "start": 108.28,
+     "end": 108.66,
+     "word": "hören"
+    },
+    {
+     "start": 108.66,
+     "end": 110.0,
+     "word": "mussten."
+    }
+   ]
+  },
+  {
+   "start": 110.0,
+   "end": 113.18,
+   "text": "Nur ganz wenige glaubten an Allah.",
+   "words": [
+    {
+     "start": 110.0,
+     "end": 110.84,
+     "word": "Nur"
+    },
+    {
+     "start": 110.84,
+     "end": 111.48,
+     "word": "ganz"
+    },
+    {
+     "start": 111.48,
+     "end": 111.98,
+     "word": "wenige"
+    },
+    {
+     "start": 111.98,
+     "end": 112.52,
+     "word": "glaubten"
+    },
+    {
+     "start": 112.52,
+     "end": 112.86,
+     "word": "an"
+    },
+    {
+     "start": 112.86,
+     "end": 113.18,
+     "word": "Allah."
+    }
+   ]
+  },
+  {
+   "start": 113.32,
+   "end": 115.02,
+   "text": "Da sagte Allah zu Nu,",
+   "words": [
+    {
+     "start": 113.32,
+     "end": 113.54,
+     "word": "Da"
+    },
+    {
+     "start": 113.54,
+     "end": 113.96,
+     "word": "sagte"
+    },
+    {
+     "start": 113.96,
+     "end": 114.52,
+     "word": "Allah"
+    },
+    {
+     "start": 114.52,
+     "end": 114.84,
+     "word": "zu"
+    },
+    {
+     "start": 114.84,
+     "end": 115.02,
+     "word": "Nu,"
+    }
+   ]
+  },
+  {
+   "start": 116.12,
+   "end": 118.94,
+   "text": "Baue das Schiff unter unseren Augen.",
+   "words": [
+    {
+     "start": 116.12,
+     "end": 116.46,
+     "word": "Baue"
+    },
+    {
+     "start": 116.46,
+     "end": 116.7,
+     "word": "das"
+    },
+    {
+     "start": 116.7,
+     "end": 117.22,
+     "word": "Schiff"
+    },
+    {
+     "start": 117.22,
+     "end": 117.76,
+     "word": "unter"
+    },
+    {
+     "start": 117.76,
+     "end": 118.38,
+     "word": "unseren"
+    },
+    {
+     "start": 118.38,
+     "end": 118.94,
+     "word": "Augen."
+    }
+   ]
+  },
+  {
+   "start": 120.02,
+   "end": 121.82,
+   "text": "Und Nu begann zu bauen.",
+   "words": [
+    {
+     "start": 120.02,
+     "end": 120.36,
+     "word": "Und"
+    },
+    {
+     "start": 120.36,
+     "end": 120.7,
+     "word": "Nu"
+    },
+    {
+     "start": 120.7,
+     "end": 121.2,
+     "word": "begann"
+    },
+    {
+     "start": 121.2,
+     "end": 121.48,
+     "word": "zu"
+    },
+    {
+     "start": 121.48,
+     "end": 121.82,
+     "word": "bauen."
+    }
+   ]
+  },
+  {
+   "start": 122.54,
+   "end": 126.04,
+   "text": "Tag für Tag, Brett für Brett.",
+   "words": [
+    {
+     "start": 122.54,
+     "end": 123.02,
+     "word": "Tag"
+    },
+    {
+     "start": 123.02,
+     "end": 123.32,
+     "word": "für"
+    },
+    {
+     "start": 123.32,
+     "end": 124.2,
+     "word": "Tag,"
+    },
+    {
+     "start": 124.72,
+     "end": 124.94,
+     "word": "Brett"
+    },
+    {
+     "start": 124.94,
+     "end": 125.5,
+     "word": "für"
+    },
+    {
+     "start": 125.5,
+     "end": 126.04,
+     "word": "Brett."
+    }
+   ]
+  },
+  {
+   "start": 127.5,
+   "end": 131.04,
+   "text": "Ein Schiff? Hier? Auf dem Land?",
+   "words": [
+    {
+     "start": 127.5,
+     "end": 128.42,
+     "word": "Ein"
+    },
+    {
+     "start": 128.42,
+     "end": 129.22,
+     "word": "Schiff?"
+    },
+    {
+     "start": 129.48,
+     "end": 130.1,
+     "word": "Hier?"
+    },
+    {
+     "start": 130.32,
+     "end": 130.46,
+     "word": "Auf"
+    },
+    {
+     "start": 130.46,
+     "end": 130.74,
+     "word": "dem"
+    },
+    {
+     "start": 130.74,
+     "end": 131.04,
+     "word": "Land?"
+    }
+   ]
+  },
+  {
+   "start": 132.06,
+   "end": 135.84,
+   "text": "Jedes Mal, wenn die Anführer seines Volkes vorbeigingen,",
+   "words": [
+    {
+     "start": 132.06,
+     "end": 132.58,
+     "word": "Jedes"
+    },
+    {
+     "start": 132.58,
+     "end": 132.98,
+     "word": "Mal,"
+    },
+    {
+     "start": 133.06,
+     "end": 133.24,
+     "word": "wenn"
+    },
+    {
+     "start": 133.24,
+     "end": 133.48,
+     "word": "die"
+    },
+    {
+     "start": 133.48,
+     "end": 134.06,
+     "word": "Anführer"
+    },
+    {
+     "start": 134.06,
+     "end": 134.4,
+     "word": "seines"
+    },
+    {
+     "start": 134.4,
+     "end": 134.86,
+     "word": "Volkes"
+    },
+    {
+     "start": 134.86,
+     "end": 135.84,
+     "word": "vorbeigingen,"
+    }
+   ]
+  },
+  {
+   "start": 136.48,
+   "end": 137.76,
+   "text": "lachten sie ihn aus.",
+   "words": [
+    {
+     "start": 136.48,
+     "end": 136.82,
+     "word": "lachten"
+    },
+    {
+     "start": 136.82,
+     "end": 137.02,
+     "word": "sie"
+    },
+    {
+     "start": 137.02,
+     "end": 137.3,
+     "word": "ihn"
+    },
+    {
+     "start": 137.3,
+     "end": 137.76,
+     "word": "aus."
+    }
+   ]
+  },
+  {
+   "start": 138.76,
+   "end": 140.66,
+   "text": "Aber Nu sagte ruhig,",
+   "words": [
+    {
+     "start": 138.68,
+     "end": 139.08,
+     "word": "Aber"
+    },
+    {
+     "start": 139.08,
+     "end": 139.4,
+     "word": "Nu"
+    },
+    {
+     "start": 139.4,
+     "end": 139.9,
+     "word": "sagte"
+    },
+    {
+     "start": 139.9,
+     "end": 140.66,
+     "word": "ruhig,"
+    }
+   ]
+  },
+  {
+   "start": 141.18,
+   "end": 143.3,
+   "text": "Wenn ihr jetzt über uns lacht,",
+   "words": [
+    {
+     "start": 141.18,
+     "end": 141.48,
+     "word": "Wenn"
+    },
+    {
+     "start": 141.48,
+     "end": 141.74,
+     "word": "ihr"
+    },
+    {
+     "start": 141.74,
+     "end": 142.18,
+     "word": "jetzt"
+    },
+    {
+     "start": 142.18,
+     "end": 142.42,
+     "word": "über"
+    },
+    {
+     "start": 142.42,
+     "end": 142.78,
+     "word": "uns"
+    },
+    {
+     "start": 142.78,
+     "end": 143.3,
+     "word": "lacht,"
+    }
+   ]
+  },
+  {
+   "start": 144.34,
+   "end": 147.32,
+   "text": "Ihr werdet bald sehen, was geschieht.",
+   "words": [
+    {
+     "start": 144.34,
+     "end": 144.56,
+     "word": "Ihr"
+    },
+    {
+     "start": 144.56,
+     "end": 144.96,
+     "word": "werdet"
+    },
+    {
+     "start": 144.96,
+     "end": 145.4,
+     "word": "bald"
+    },
+    {
+     "start": 145.4,
+     "end": 145.9,
+     "word": "sehen,"
+    },
+    {
+     "start": 146.06,
+     "end": 146.3,
+     "word": "was"
+    },
+    {
+     "start": 146.3,
+     "end": 147.32,
+     "word": "geschieht."
+    }
+   ]
+  },
+  {
+   "start": 148.1,
+   "end": 149.86,
+   "text": "Nu gab niemals auf.",
+   "words": [
+    {
+     "start": 148.1,
+     "end": 148.4,
+     "word": "Nu"
+    },
+    {
+     "start": 148.4,
+     "end": 148.76,
+     "word": "gab"
+    },
+    {
+     "start": 148.76,
+     "end": 149.36,
+     "word": "niemals"
+    },
+    {
+     "start": 149.36,
+     "end": 149.86,
+     "word": "auf."
+    }
+   ]
+  },
+  {
+   "start": 150.74,
+   "end": 152.22,
+   "text": "Er vertraute auf Allah.",
+   "words": [
+    {
+     "start": 150.74,
+     "end": 150.98,
+     "word": "Er"
+    },
+    {
+     "start": 150.98,
+     "end": 151.62,
+     "word": "vertraute"
+    },
+    {
+     "start": 151.62,
+     "end": 151.9,
+     "word": "auf"
+    },
+    {
+     "start": 151.9,
+     "end": 152.22,
+     "word": "Allah."
+    }
+   ]
+  },
+  {
+   "start": 152.46,
+   "end": 155.32,
+   "text": "Und dann kam der Tag.",
+   "words": [
+    {
+     "start": 152.46,
+     "end": 152.86,
+     "word": "Und"
+    },
+    {
+     "start": 152.86,
+     "end": 153.62,
+     "word": "dann"
+    },
+    {
+     "start": 153.62,
+     "end": 154.36,
+     "word": "kam"
+    },
+    {
+     "start": 154.36,
+     "end": 154.82,
+     "word": "der"
+    },
+    {
+     "start": 154.82,
+     "end": 155.32,
+     "word": "Tag."
+    }
+   ]
+  },
+  {
+   "start": 156.56,
+   "end": 158.02,
+   "text": "Allah hatte gesagt,",
+   "words": [
+    {
+     "start": 156.56,
+     "end": 157.04,
+     "word": "Allah"
+    },
+    {
+     "start": 157.04,
+     "end": 157.36,
+     "word": "hatte"
+    },
+    {
+     "start": 157.36,
+     "end": 158.02,
+     "word": "gesagt,"
+    }
+   ]
+  },
+  {
+   "start": 158.52,
+   "end": 161.62,
+   "text": "Wenn das Wasser aus dem Ofen hervorsprudelt,",
+   "words": [
+    {
+     "start": 158.52,
+     "end": 158.74,
+     "word": "Wenn"
+    },
+    {
+     "start": 158.74,
+     "end": 159.06,
+     "word": "das"
+    },
+    {
+     "start": 159.06,
+     "end": 159.4,
+     "word": "Wasser"
+    },
+    {
+     "start": 159.4,
+     "end": 159.66,
+     "word": "aus"
+    },
+    {
+     "start": 159.66,
+     "end": 159.9,
+     "word": "dem"
+    },
+    {
+     "start": 159.9,
+     "end": 160.4,
+     "word": "Ofen"
+    },
+    {
+     "start": 160.4,
+     "end": 161.62,
+     "word": "hervorsprudelt,"
+    }
+   ]
+  },
+  {
+   "start": 162.3,
+   "end": 165.7,
+   "text": "dann nimm von jeder Art ein Paar ins Schiff.",
+   "words": [
+    {
+     "start": 162.3,
+     "end": 162.44,
+     "word": "dann"
+    },
+    {
+     "start": 162.44,
+     "end": 162.68,
+     "word": "nimm"
+    },
+    {
+     "start": 162.68,
+     "end": 162.94,
+     "word": "von"
+    },
+    {
+     "start": 162.94,
+     "end": 163.4,
+     "word": "jeder"
+    },
+    {
+     "start": 163.4,
+     "end": 163.78,
+     "word": "Art"
+    },
+    {
+     "start": 163.78,
+     "end": 164.18,
+     "word": "ein"
+    },
+    {
+     "start": 164.18,
+     "end": 164.48,
+     "word": "Paar"
+    },
+    {
+     "start": 164.48,
+     "end": 164.74,
+     "word": "ins"
+    },
+    {
+     "start": 164.74,
+     "end": 165.7,
+     "word": "Schiff."
+    }
+   ]
+  },
+  {
+   "start": 165.7,
+   "end": 169.64,
+   "text": "Dazu deine Familie und alle, die glauben.",
+   "words": [
+    {
+     "start": 165.7,
+     "end": 166.32,
+     "word": "Dazu"
+    },
+    {
+     "start": 166.32,
+     "end": 166.66,
+     "word": "deine"
+    },
+    {
+     "start": 166.66,
+     "end": 167.4,
+     "word": "Familie"
+    },
+    {
+     "start": 167.4,
+     "end": 168.38,
+     "word": "und"
+    },
+    {
+     "start": 168.38,
+     "end": 168.78,
+     "word": "alle,"
+    },
+    {
+     "start": 169.16,
+     "end": 169.16,
+     "word": "die"
+    },
+    {
+     "start": 169.16,
+     "end": 169.64,
+     "word": "glauben."
+    }
+   ]
+  },
+  {
+   "start": 171.14,
+   "end": 175.38,
+   "text": "Und plötzlich sprudelte das Wasser.",
+   "words": [
+    {
+     "start": 171.14,
+     "end": 171.72,
+     "word": "Und"
+    },
+    {
+     "start": 171.72,
+     "end": 172.92,
+     "word": "plötzlich"
+    },
+    {
+     "start": 172.92,
+     "end": 174.6,
+     "word": "sprudelte"
+    },
+    {
+     "start": 174.6,
+     "end": 174.9,
+     "word": "das"
+    },
+    {
+     "start": 174.9,
+     "end": 175.38,
+     "word": "Wasser."
+    }
+   ]
+  },
+  {
+   "start": 176.82,
+   "end": 178.7,
+   "text": "Nu nahm die Tiere ins Schiff,",
+   "words": [
+    {
+     "start": 176.82,
+     "end": 177.2,
+     "word": "Nu"
+    },
+    {
+     "start": 177.2,
+     "end": 177.6,
+     "word": "nahm"
+    },
+    {
+     "start": 177.6,
+     "end": 177.84,
+     "word": "die"
+    },
+    {
+     "start": 177.84,
+     "end": 178.14,
+     "word": "Tiere"
+    },
+    {
+     "start": 178.14,
+     "end": 178.46,
+     "word": "ins"
+    },
+    {
+     "start": 178.46,
+     "end": 178.92,
+     "word": "Schiff,"
+    }
+   ]
+  },
+  {
+   "start": 179.48,
+   "end": 181.24,
+   "text": "immer zwei und zwei.",
+   "words": [
+    {
+     "start": 179.48,
+     "end": 179.94,
+     "word": "immer"
+    },
+    {
+     "start": 179.94,
+     "end": 180.36,
+     "word": "zwei"
+    },
+    {
+     "start": 180.36,
+     "end": 180.92,
+     "word": "und"
+    },
+    {
+     "start": 180.92,
+     "end": 181.24,
+     "word": "zwei."
+    }
+   ]
+  },
+  {
+   "start": 182.18,
+   "end": 184.8,
+   "text": "Er sagte, steigt ein.",
+   "words": [
+    {
+     "start": 182.18,
+     "end": 182.44,
+     "word": "Er"
+    },
+    {
+     "start": 182.44,
+     "end": 182.94,
+     "word": "sagte,"
+    },
+    {
+     "start": 183.9,
+     "end": 184.3,
+     "word": "steigt"
+    },
+    {
+     "start": 184.3,
+     "end": 184.8,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 185.7,
+   "end": 187.94,
+   "text": "Im Namen Allahs fährt es",
+   "words": [
+    {
+     "start": 185.7,
+     "end": 185.96,
+     "word": "Im"
+    },
+    {
+     "start": 185.96,
+     "end": 186.38,
+     "word": "Namen"
+    },
+    {
+     "start": 186.38,
+     "end": 187.16,
+     "word": "Allahs"
+    },
+    {
+     "start": 187.16,
+     "end": 187.46,
+     "word": "fährt"
+    },
+    {
+     "start": 187.46,
+     "end": 187.94,
+     "word": "es"
+    }
+   ]
+  },
+  {
+   "start": 187.94,
+   "end": 191.18,
+   "text": "und im Namen Allahs hält es an.",
+   "words": [
+    {
+     "start": 187.94,
+     "end": 188.46,
+     "word": "und"
+    },
+    {
+     "start": 188.46,
+     "end": 188.72,
+     "word": "im"
+    },
+    {
+     "start": 188.72,
+     "end": 189.18,
+     "word": "Namen"
+    },
+    {
+     "start": 189.18,
+     "end": 190.0,
+     "word": "Allahs"
+    },
+    {
+     "start": 190.0,
+     "end": 190.32,
+     "word": "hält"
+    },
+    {
+     "start": 190.32,
+     "end": 190.76,
+     "word": "es"
+    },
+    {
+     "start": 190.76,
+     "end": 191.18,
+     "word": "an."
+    }
+   ]
+  },
+  {
+   "start": 191.18,
+   "end": 195.62,
+   "text": "Da öffneten sich die Tore des Himmels.",
+   "words": [
+    {
+     "start": 191.18,
+     "end": 192.74,
+     "word": "Da"
+    },
+    {
+     "start": 192.74,
+     "end": 193.48,
+     "word": "öffneten"
+    },
+    {
+     "start": 193.48,
+     "end": 193.78,
+     "word": "sich"
+    },
+    {
+     "start": 193.78,
+     "end": 194.04,
+     "word": "die"
+    },
+    {
+     "start": 194.04,
+     "end": 194.42,
+     "word": "Tore"
+    },
+    {
+     "start": 194.42,
+     "end": 194.7,
+     "word": "des"
+    },
+    {
+     "start": 194.7,
+     "end": 195.62,
+     "word": "Himmels."
+    }
+   ]
+  },
+  {
+   "start": 196.22,
+   "end": 198.02,
+   "text": "Wasser strömte herab.",
+   "words": [
+    {
+     "start": 196.22,
+     "end": 196.68,
+     "word": "Wasser"
+    },
+    {
+     "start": 196.68,
+     "end": 197.32,
+     "word": "strömte"
+    },
+    {
+     "start": 197.32,
+     "end": 198.02,
+     "word": "herab."
+    }
+   ]
+  },
+  {
+   "start": 198.86,
+   "end": 201.06,
+   "text": "Und aus der Erde quollen Quellen.",
+   "words": [
+    {
+     "start": 198.86,
+     "end": 199.04,
+     "word": "Und"
+    },
+    {
+     "start": 199.04,
+     "end": 199.2,
+     "word": "aus"
+    },
+    {
+     "start": 199.2,
+     "end": 199.46,
+     "word": "der"
+    },
+    {
+     "start": 199.46,
+     "end": 199.86,
+     "word": "Erde"
+    },
+    {
+     "start": 199.86,
+     "end": 200.42,
+     "word": "quollen"
+    },
+    {
+     "start": 200.42,
+     "end": 201.06,
+     "word": "Quellen."
+    }
+   ]
+  },
+  {
+   "start": 202.32,
+   "end": 205.5,
+   "text": "Und das Schiff fuhr auf Wellen.",
+   "words": [
+    {
+     "start": 202.32,
+     "end": 202.56,
+     "word": "Und"
+    },
+    {
+     "start": 202.56,
+     "end": 202.76,
+     "word": "das"
+    },
+    {
+     "start": 202.76,
+     "end": 203.28,
+     "word": "Schiff"
+    },
+    {
+     "start": 203.28,
+     "end": 203.74,
+     "word": "fuhr"
+    },
+    {
+     "start": 203.74,
+     "end": 204.14,
+     "word": "auf"
+    },
+    {
+     "start": 204.14,
+     "end": 205.5,
+     "word": "Wellen."
+    }
+   ]
+  },
+  {
+   "start": 205.84,
+   "end": 210.64,
+   "text": "So hoch wie Berge, doch einer stieg nicht ein.",
+   "words": [
+    {
+     "start": 205.84,
+     "end": 206.06,
+     "word": "So"
+    },
+    {
+     "start": 206.06,
+     "end": 206.6,
+     "word": "hoch"
+    },
+    {
+     "start": 206.6,
+     "end": 206.94,
+     "word": "wie"
+    },
+    {
+     "start": 206.94,
+     "end": 207.66,
+     "word": "Berge,"
+    },
+    {
+     "start": 207.78,
+     "end": 208.12,
+     "word": "doch"
+    },
+    {
+     "start": 208.12,
+     "end": 208.7,
+     "word": "einer"
+    },
+    {
+     "start": 208.7,
+     "end": 209.26,
+     "word": "stieg"
+    },
+    {
+     "start": 209.26,
+     "end": 209.66,
+     "word": "nicht"
+    },
+    {
+     "start": 209.66,
+     "end": 210.64,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 211.48,
+   "end": 213.54,
+   "text": "Nus' eigener Sohn.",
+   "words": [
+    {
+     "start": 211.48,
+     "end": 211.84,
+     "word": "Nus'"
+    },
+    {
+     "start": 212.1,
+     "end": 212.76,
+     "word": "eigener"
+    },
+    {
+     "start": 212.76,
+     "end": 213.54,
+     "word": "Sohn."
+    }
+   ]
+  },
+  {
+   "start": 214.54,
+   "end": 216.12,
+   "text": "Er stand weit weg.",
+   "words": [
+    {
+     "start": 214.54,
+     "end": 214.92,
+     "word": "Er"
+    },
+    {
+     "start": 214.92,
+     "end": 215.24,
+     "word": "stand"
+    },
+    {
+     "start": 215.24,
+     "end": 215.6,
+     "word": "weit"
+    },
+    {
+     "start": 215.6,
+     "end": 216.12,
+     "word": "weg."
+    }
+   ]
+  },
+  {
+   "start": 217.58,
+   "end": 218.48,
+   "text": "Nu rief,",
+   "words": [
+    {
+     "start": 217.58,
+     "end": 217.86,
+     "word": "Nu"
+    },
+    {
+     "start": 217.86,
+     "end": 218.48,
+     "word": "rief,"
+    }
+   ]
+  },
+  {
+   "start": 218.48,
+   "end": 222.38,
+   "text": "Mein Sohn, steig ein zu uns.",
+   "words": [
+    {
+     "start": 218.48,
+     "end": 219.42,
+     "word": "Mein"
+    },
+    {
+     "start": 219.42,
+     "end": 220.46,
+     "word": "Sohn,"
+    },
+    {
+     "start": 220.76,
+     "end": 221.08,
+     "word": "steig"
+    },
+    {
+     "start": 221.08,
+     "end": 221.36,
+     "word": "ein"
+    },
+    {
+     "start": 221.36,
+     "end": 221.66,
+     "word": "zu"
+    },
+    {
+     "start": 221.66,
+     "end": 222.38,
+     "word": "uns."
+    }
+   ]
+  },
+  {
+   "start": 222.9,
+   "end": 225.26,
+   "text": "Bleibt nicht bei denen, die nicht glauben.",
+   "words": [
+    {
+     "start": 222.9,
+     "end": 223.34,
+     "word": "Bleibt"
+    },
+    {
+     "start": 223.34,
+     "end": 223.6,
+     "word": "nicht"
+    },
+    {
+     "start": 223.6,
+     "end": 223.9,
+     "word": "bei"
+    },
+    {
+     "start": 223.9,
+     "end": 224.18,
+     "word": "denen,"
+    },
+    {
+     "start": 224.24,
+     "end": 224.38,
+     "word": "die"
+    },
+    {
+     "start": 224.38,
+     "end": 224.8,
+     "word": "nicht"
+    },
+    {
+     "start": 224.8,
+     "end": 225.26,
+     "word": "glauben."
+    }
+   ]
+  },
+  {
+   "start": 227.18,
+   "end": 228.74,
+   "text": "Aber der Sohn rief,",
+   "words": [
+    {
+     "start": 227.18,
+     "end": 227.48,
+     "word": "Aber"
+    },
+    {
+     "start": 227.48,
+     "end": 227.78,
+     "word": "der"
+    },
+    {
+     "start": 227.78,
+     "end": 228.2,
+     "word": "Sohn"
+    },
+    {
+     "start": 228.2,
+     "end": 228.74,
+     "word": "rief,"
+    }
+   ]
+  },
+  {
+   "start": 229.62,
+   "end": 231.5,
+   "text": "Ich gehe auf einen Berg,",
+   "words": [
+    {
+     "start": 229.62,
+     "end": 229.92,
+     "word": "Ich"
+    },
+    {
+     "start": 229.92,
+     "end": 230.24,
+     "word": "gehe"
+    },
+    {
+     "start": 230.24,
+     "end": 230.56,
+     "word": "auf"
+    },
+    {
+     "start": 230.56,
+     "end": 230.86,
+     "word": "einen"
+    },
+    {
+     "start": 230.86,
+     "end": 231.5,
+     "word": "Berg,"
+    }
+   ]
+  },
+  {
+   "start": 232.2,
+   "end": 233.76,
+   "text": "der schützt vor dem Wasser.",
+   "words": [
+    {
+     "start": 232.2,
+     "end": 232.48,
+     "word": "der"
+    },
+    {
+     "start": 232.48,
+     "end": 232.9,
+     "word": "schützt"
+    },
+    {
+     "start": 232.9,
+     "end": 233.04,
+     "word": "vor"
+    },
+    {
+     "start": 233.04,
+     "end": 233.24,
+     "word": "dem"
+    },
+    {
+     "start": 233.24,
+     "end": 233.76,
+     "word": "Wasser."
+    }
+   ]
+  },
+  {
+   "start": 235.86,
+   "end": 237.54,
+   "text": "Nu antwortete,",
+   "words": [
+    {
+     "start": 235.86,
+     "end": 236.7,
+     "word": "Nu"
+    },
+    {
+     "start": 236.7,
+     "end": 237.54,
+     "word": "antwortete,"
+    }
+   ]
+  },
+  {
+   "start": 238.52,
+   "end": 242.36,
+   "text": "Heute schützt nichts vor Allahs Befehl,",
+   "words": [
+    {
+     "start": 238.52,
+     "end": 239.0,
+     "word": "Heute"
+    },
+    {
+     "start": 239.0,
+     "end": 239.56,
+     "word": "schützt"
+    },
+    {
+     "start": 239.56,
+     "end": 239.98,
+     "word": "nichts"
+    },
+    {
+     "start": 239.98,
+     "end": 240.3,
+     "word": "vor"
+    },
+    {
+     "start": 240.3,
+     "end": 240.78,
+     "word": "Allahs"
+    },
+    {
+     "start": 240.78,
+     "end": 242.36,
+     "word": "Befehl,"
+    }
+   ]
+  },
+  {
+   "start": 242.7,
+   "end": 244.98,
+   "text": "außer seiner Barmherzigkeit.",
+   "words": [
+    {
+     "start": 242.7,
+     "end": 243.14,
+     "word": "außer"
+    },
+    {
+     "start": 243.14,
+     "end": 243.64,
+     "word": "seiner"
+    },
+    {
+     "start": 243.64,
+     "end": 244.98,
+     "word": "Barmherzigkeit."
+    }
+   ]
+  },
+  {
+   "start": 245.98,
+   "end": 249.2,
+   "text": "Da kam eine Welle zwischen die beiden",
+   "words": [
+    {
+     "start": 245.98,
+     "end": 246.76,
+     "word": "Da"
+    },
+    {
+     "start": 246.76,
+     "end": 247.18,
+     "word": "kam"
+    },
+    {
+     "start": 247.18,
+     "end": 247.56,
+     "word": "eine"
+    },
+    {
+     "start": 247.56,
+     "end": 248.1,
+     "word": "Welle"
+    },
+    {
+     "start": 248.1,
+     "end": 248.44,
+     "word": "zwischen"
+    },
+    {
+     "start": 248.44,
+     "end": 248.74,
+     "word": "die"
+    },
+    {
+     "start": 248.74,
+     "end": 249.2,
+     "word": "beiden"
+    }
+   ]
+  },
+  {
+   "start": 249.98,
+   "end": 252.74,
+   "text": "und der Sohn ertrank.",
+   "words": [
+    {
+     "start": 249.98,
+     "end": 250.98,
+     "word": "und"
+    },
+    {
+     "start": 250.98,
+     "end": 251.3,
+     "word": "der"
+    },
+    {
+     "start": 251.3,
+     "end": 251.84,
+     "word": "Sohn"
+    },
+    {
+     "start": 251.84,
+     "end": 252.74,
+     "word": "ertrank."
+    }
+   ]
+  },
+  {
+   "start": 254.48,
+   "end": 256.92,
+   "text": "Nu war sehr traurig,",
+   "words": [
+    {
+     "start": 254.48,
+     "end": 254.74,
+     "word": "Nu"
+    },
+    {
+     "start": 254.74,
+     "end": 255.12,
+     "word": "war"
+    },
+    {
+     "start": 255.12,
+     "end": 255.56,
+     "word": "sehr"
+    },
+    {
+     "start": 255.56,
+     "end": 256.92,
+     "word": "traurig,"
+    }
+   ]
+  },
+  {
+   "start": 257.64,
+   "end": 258.98,
+   "text": "aber er wusste,",
+   "words": [
+    {
+     "start": 257.64,
+     "end": 257.96,
+     "word": "aber"
+    },
+    {
+     "start": 257.96,
+     "end": 258.3,
+     "word": "er"
+    },
+    {
+     "start": 258.3,
+     "end": 258.98,
+     "word": "wusste,"
+    }
+   ]
+  },
+  {
+   "start": 259.84,
+   "end": 261.76,
+   "text": "Allah ist gerecht",
+   "words": [
+    {
+     "start": 259.84,
+     "end": 260.14,
+     "word": "Allah"
+    },
+    {
+     "start": 260.14,
+     "end": 260.58,
+     "word": "ist"
+    },
+    {
+     "start": 260.58,
+     "end": 261.76,
+     "word": "gerecht"
+    }
+   ]
+  },
+  {
+   "start": 261.76,
+   "end": 263.9,
+   "text": "und er weiß alles.",
+   "words": [
+    {
+     "start": 261.76,
+     "end": 262.44,
+     "word": "und"
+    },
+    {
+     "start": 262.44,
+     "end": 262.76,
+     "word": "er"
+    },
+    {
+     "start": 262.76,
+     "end": 263.2,
+     "word": "weiß"
+    },
+    {
+     "start": 263.2,
+     "end": 263.9,
+     "word": "alles."
+    }
+   ]
+  },
+  {
+   "start": 264.12,
+   "end": 265.8,
+   "text": "Dann wurde gesagt,",
+   "words": [
+    {
+     "start": 264.12,
+     "end": 264.52,
+     "word": "Dann"
+    },
+    {
+     "start": 264.52,
+     "end": 264.9,
+     "word": "wurde"
+    },
+    {
+     "start": 264.9,
+     "end": 265.8,
+     "word": "gesagt,"
+    }
+   ]
+  },
+  {
+   "start": 266.96,
+   "end": 268.16,
+   "text": "O Erde,",
+   "words": [
+    {
+     "start": 266.96,
+     "end": 267.38,
+     "word": "O"
+    },
+    {
+     "start": 267.38,
+     "end": 268.16,
+     "word": "Erde,"
+    }
+   ]
+  },
+  {
+   "start": 269.02,
+   "end": 270.34,
+   "text": "schlucke dein Wasser.",
+   "words": [
+    {
+     "start": 269.02,
+     "end": 269.54,
+     "word": "schlucke"
+    },
+    {
+     "start": 269.54,
+     "end": 269.72,
+     "word": "dein"
+    },
+    {
+     "start": 269.72,
+     "end": 270.34,
+     "word": "Wasser."
+    }
+   ]
+  },
+  {
+   "start": 271.34,
+   "end": 274.68,
+   "text": "O Himmel, halte ein.",
+   "words": [
+    {
+     "start": 271.34,
+     "end": 272.24,
+     "word": "O"
+    },
+    {
+     "start": 272.24,
+     "end": 273.38,
+     "word": "Himmel,"
+    },
+    {
+     "start": 273.54,
+     "end": 274.12,
+     "word": "halte"
+    },
+    {
+     "start": 274.12,
+     "end": 274.68,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 276.26,
+   "end": 277.68,
+   "text": "Und das Wasser sank.",
+   "words": [
+    {
+     "start": 276.26,
+     "end": 276.44,
+     "word": "Und"
+    },
+    {
+     "start": 276.44,
+     "end": 276.72,
+     "word": "das"
+    },
+    {
+     "start": 276.72,
+     "end": 277.08,
+     "word": "Wasser"
+    },
+    {
+     "start": 277.08,
+     "end": 277.68,
+     "word": "sank."
+    }
+   ]
+  },
+  {
+   "start": 279.14,
+   "end": 281.56,
+   "text": "Das Schiff kam zur Ruhe",
+   "words": [
+    {
+     "start": 279.14,
+     "end": 279.36,
+     "word": "Das"
+    },
+    {
+     "start": 279.36,
+     "end": 279.74,
+     "word": "Schiff"
+    },
+    {
+     "start": 279.74,
+     "end": 280.06,
+     "word": "kam"
+    },
+    {
+     "start": 280.06,
+     "end": 280.4,
+     "word": "zur"
+    },
+    {
+     "start": 280.4,
+     "end": 281.56,
+     "word": "Ruhe"
+    }
+   ]
+  },
+  {
+   "start": 281.56,
+   "end": 283.88,
+   "text": "auf dem Berg Judi.",
+   "words": [
+    {
+     "start": 281.56,
+     "end": 281.84,
+     "word": "auf"
+    },
+    {
+     "start": 281.84,
+     "end": 282.1,
+     "word": "dem"
+    },
+    {
+     "start": 282.1,
+     "end": 282.72,
+     "word": "Berg"
+    },
+    {
+     "start": 282.72,
+     "end": 283.88,
+     "word": "Judi."
+    }
+   ]
+  },
+  {
+   "start": 284.76,
+   "end": 286.8,
+   "text": "Und Allah sagte zu Nu,",
+   "words": [
+    {
+     "start": 284.76,
+     "end": 285.26,
+     "word": "Und"
+    },
+    {
+     "start": 285.26,
+     "end": 285.64,
+     "word": "Allah"
+    },
+    {
+     "start": 285.64,
+     "end": 286.14,
+     "word": "sagte"
+    },
+    {
+     "start": 286.14,
+     "end": 286.54,
+     "word": "zu"
+    },
+    {
+     "start": 286.54,
+     "end": 286.8,
+     "word": "Nu,"
+    }
+   ]
+  },
+  {
+   "start": 287.98,
+   "end": 289.14,
+   "text": "Steig aus,",
+   "words": [
+    {
+     "start": 287.98,
+     "end": 288.6,
+     "word": "Steig"
+    },
+    {
+     "start": 288.6,
+     "end": 289.14,
+     "word": "aus,"
+    }
+   ]
+  },
+  {
+   "start": 289.7,
+   "end": 293.04,
+   "text": "in Frieden und mit Segen von uns,",
+   "words": [
+    {
+     "start": 289.7,
+     "end": 289.98,
+     "word": "in"
+    },
+    {
+     "start": 289.98,
+     "end": 290.86,
+     "word": "Frieden"
+    },
+    {
+     "start": 290.86,
+     "end": 291.32,
+     "word": "und"
+    },
+    {
+     "start": 291.32,
+     "end": 291.66,
+     "word": "mit"
+    },
+    {
+     "start": 291.66,
+     "end": 292.0,
+     "word": "Segen"
+    },
+    {
+     "start": 292.0,
+     "end": 292.36,
+     "word": "von"
+    },
+    {
+     "start": 292.36,
+     "end": 293.04,
+     "word": "uns,"
+    }
+   ]
+  },
+  {
+   "start": 293.64,
+   "end": 296.24,
+   "text": "für dich und für alle,",
+   "words": [
+    {
+     "start": 293.64,
+     "end": 293.84,
+     "word": "für"
+    },
+    {
+     "start": 293.84,
+     "end": 294.38,
+     "word": "dich"
+    },
+    {
+     "start": 294.38,
+     "end": 295.24,
+     "word": "und"
+    },
+    {
+     "start": 295.24,
+     "end": 295.68,
+     "word": "für"
+    },
+    {
+     "start": 295.68,
+     "end": 296.24,
+     "word": "alle,"
+    }
+   ]
+  },
+  {
+   "start": 296.44,
+   "end": 297.58,
+   "text": "die bei dir sind.",
+   "words": [
+    {
+     "start": 296.44,
+     "end": 296.6,
+     "word": "die"
+    },
+    {
+     "start": 296.6,
+     "end": 296.88,
+     "word": "bei"
+    },
+    {
+     "start": 296.88,
+     "end": 297.08,
+     "word": "dir"
+    },
+    {
+     "start": 297.08,
+     "end": 297.58,
+     "word": "sind."
+    }
+   ]
+  },
+  {
+   "start": 298.42,
+   "end": 301.38,
+   "text": "Ein neuer Anfang auf der Erde.",
+   "words": [
+    {
+     "start": 298.42,
+     "end": 299.18,
+     "word": "Ein"
+    },
+    {
+     "start": 299.18,
+     "end": 299.74,
+     "word": "neuer"
+    },
+    {
+     "start": 299.74,
+     "end": 300.22,
+     "word": "Anfang"
+    },
+    {
+     "start": 300.22,
+     "end": 300.54,
+     "word": "auf"
+    },
+    {
+     "start": 300.54,
+     "end": 300.82,
+     "word": "der"
+    },
+    {
+     "start": 300.82,
+     "end": 301.38,
+     "word": "Erde."
+    }
+   ]
+  },
+  {
+   "start": 301.76,
+   "end": 302.2,
+   "text": "Noah?",
+   "words": [
+    {
+     "start": 301.76,
+     "end": 302.2,
+     "word": "Noah?"
+    }
+   ]
+  },
+  {
+   "start": 303.62,
+   "end": 304.2,
+   "text": "Elias?",
+   "words": [
+    {
+     "start": 303.62,
+     "end": 304.2,
+     "word": "Elias?"
+    }
+   ]
+  },
+  {
+   "start": 305.8,
+   "end": 307.24,
+   "text": "Sie schlafen schon.",
+   "words": [
+    {
+     "start": 305.8,
+     "end": 306.1,
+     "word": "Sie"
+    },
+    {
+     "start": 306.1,
+     "end": 306.66,
+     "word": "schlafen"
+    },
+    {
+     "start": 306.66,
+     "end": 307.24,
+     "word": "schon."
+    }
+   ]
+  },
+  {
+   "start": 308.24,
+   "end": 310.8,
+   "text": "Schlaft gut, meine kleinen Sterne,",
+   "words": [
+    {
+     "start": 308.24,
+     "end": 308.62,
+     "word": "Schlaft"
+    },
+    {
+     "start": 308.62,
+     "end": 308.94,
+     "word": "gut,"
+    },
+    {
+     "start": 309.22,
+     "end": 309.24,
+     "word": "meine"
+    },
+    {
+     "start": 309.24,
+     "end": 309.68,
+     "word": "kleinen"
+    },
+    {
+     "start": 309.68,
+     "end": 310.8,
+     "word": "Sterne,"
+    }
+   ]
+  },
+  {
+   "start": 311.02,
+   "end": 312.12,
+   "text": "und merkt euch,",
+   "words": [
+    {
+     "start": 311.02,
+     "end": 311.24,
+     "word": "und"
+    },
+    {
+     "start": 311.24,
+     "end": 311.58,
+     "word": "merkt"
+    },
+    {
+     "start": 311.58,
+     "end": 312.12,
+     "word": "euch,"
+    }
+   ]
+  },
+  {
+   "start": 312.72,
+   "end": 314.96,
+   "text": "auch wenn andere lachen,",
+   "words": [
+    {
+     "start": 312.72,
+     "end": 313.08,
+     "word": "auch"
+    },
+    {
+     "start": 313.08,
+     "end": 313.38,
+     "word": "wenn"
+    },
+    {
+     "start": 313.38,
+     "end": 313.82,
+     "word": "andere"
+    },
+    {
+     "start": 313.82,
+     "end": 314.96,
+     "word": "lachen,"
+    }
+   ]
+  },
+  {
+   "start": 315.3,
+   "end": 317.92,
+   "text": "gib niemals auf, das Richtige zu tun.",
+   "words": [
+    {
+     "start": 315.3,
+     "end": 315.44,
+     "word": "gib"
+    },
+    {
+     "start": 315.44,
+     "end": 316.08,
+     "word": "niemals"
+    },
+    {
+     "start": 316.08,
+     "end": 316.46,
+     "word": "auf,"
+    },
+    {
+     "start": 316.54,
+     "end": 316.8,
+     "word": "das"
+    },
+    {
+     "start": 316.8,
+     "end": 317.26,
+     "word": "Richtige"
+    },
+    {
+     "start": 317.26,
+     "end": 317.54,
+     "word": "zu"
+    },
+    {
+     "start": 317.54,
+     "end": 317.92,
+     "word": "tun."
+    }
+   ]
+  },
+  {
+   "start": 318.96,
+   "end": 320.14,
+   "text": "Vertrau auf Allah.",
+   "words": [
+    {
+     "start": 318.96,
+     "end": 319.42,
+     "word": "Vertrau"
+    },
+    {
+     "start": 319.42,
+     "end": 319.72,
+     "word": "auf"
+    },
+    {
+     "start": 319.72,
+     "end": 320.14,
+     "word": "Allah."
+    }
+   ]
+  },
+  {
+   "start": 321.08,
+   "end": 323.68,
+   "text": "Er ist mit denen, die geduldig sind.",
+   "words": [
+    {
+     "start": 321.08,
+     "end": 321.46,
+     "word": "Er"
+    },
+    {
+     "start": 321.46,
+     "end": 321.76,
+     "word": "ist"
+    },
+    {
+     "start": 321.76,
+     "end": 322.06,
+     "word": "mit"
+    },
+    {
+     "start": 322.06,
+     "end": 322.38,
+     "word": "denen,"
+    },
+    {
+     "start": 322.38,
+     "end": 322.68,
+     "word": "die"
+    },
+    {
+     "start": 322.68,
+     "end": 323.3,
+     "word": "geduldig"
+    },
+    {
+     "start": 323.3,
+     "end": 323.68,
+     "word": "sind."
+    }
+   ]
+  },
+  {
+   "start": 324.68,
+   "end": 327.86,
+   "text": "Und morgen erzähle ich euch",
+   "words": [
+    {
+     "start": 324.67,
+     "end": 325.18,
+     "word": "Und"
+    },
+    {
+     "start": 325.18,
+     "end": 325.92,
+     "word": "morgen"
+    },
+    {
+     "start": 325.92,
+     "end": 327.3,
+     "word": "erzähle"
+    },
+    {
+     "start": 327.3,
+     "end": 327.48,
+     "word": "ich"
+    },
+    {
+     "start": 327.48,
+     "end": 327.86,
+     "word": "euch"
+    }
+   ]
+  },
+  {
+   "start": 327.86,
+   "end": 329.38,
+   "text": "vom Propheten Hut",
+   "words": [
+    {
+     "start": 327.86,
+     "end": 328.1,
+     "word": "vom"
+    },
+    {
+     "start": 328.1,
+     "end": 329.02,
+     "word": "Propheten"
+    },
+    {
+     "start": 329.02,
+     "end": 329.38,
+     "word": "Hut"
+    }
+   ]
+  },
+  {
+   "start": 329.38,
+   "end": 334.74,
+   "text": "und von einem sehr, sehr starken Volk.",
+   "words": [
+    {
+     "start": 329.38,
+     "end": 330.62,
+     "word": "und"
+    },
+    {
+     "start": 330.62,
+     "end": 330.92,
+     "word": "von"
+    },
+    {
+     "start": 330.92,
+     "end": 331.22,
+     "word": "einem"
+    },
+    {
+     "start": 331.22,
+     "end": 331.94,
+     "word": "sehr,"
+    },
+    {
+     "start": 332.04,
+     "end": 332.58,
+     "word": "sehr"
+    },
+    {
+     "start": 332.58,
+     "end": 333.22,
+     "word": "starken"
+    },
+    {
+     "start": 333.22,
+     "end": 334.74,
+     "word": "Volk."
+    }
+   ]
+  },
+  {
+   "start": 335.16,
+   "end": 336.0,
+   "text": "Gute Nacht.",
+   "words": [
+    {
+     "start": 335.16,
+     "end": 335.52,
+     "word": "Gute"
+    },
+    {
+     "start": 335.52,
+     "end": 336.0,
+     "word": "Nacht."
+    }
+   ]
+  }
+ ]
+}
