@@ -1,0 +1,176 @@
+{
+ "name": "folge03_nuh_v4_keyed",
+ "disabled": true,
+ "_note": "timing of the German v4 voice (release folge03_nuh_v4) per sentence group, for dubbing only (H56: never re-render); starts = German sentence starts (whisper v3 + v4 splice shifts)",
+ "audio": "https://github.com/belovedofallahkids/boa-render/releases/download/folge03_nuh_v4/folge03_nuh_de_v4.mp3",
+ "segments": [
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 0.95,
+   "end": 17.4,
+   "motion": "none",
+   "label": "oma",
+   "script": "s1a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 17.4,
+   "end": 23.0,
+   "motion": "none",
+   "label": "oma",
+   "script": "s1b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 23.0,
+   "end": 29.12,
+   "motion": "none",
+   "label": "oma",
+   "script": "s1c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 29.12,
+   "end": 39.46,
+   "motion": "none",
+   "label": "oma",
+   "script": "s2a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 39.46,
+   "end": 59.96,
+   "motion": "none",
+   "label": "oma",
+   "script": "s2b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 59.96,
+   "end": 79.36,
+   "motion": "none",
+   "label": "oma",
+   "script": "s3a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 79.36,
+   "end": 94.82,
+   "motion": "none",
+   "label": "oma",
+   "script": "s3b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 94.82,
+   "end": 98.44,
+   "motion": "none",
+   "label": "ilyas",
+   "script": "s3c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 98.44,
+   "end": 113.32,
+   "motion": "none",
+   "label": "oma",
+   "script": "s3d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 113.32,
+   "end": 127.5,
+   "motion": "none",
+   "label": "oma",
+   "script": "s4a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 127.5,
+   "end": 132.06,
+   "motion": "none",
+   "label": "noah",
+   "script": "s4b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 132.06,
+   "end": 152.46,
+   "motion": "none",
+   "label": "oma",
+   "script": "s4c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 152.46,
+   "end": 173.0,
+   "motion": "none",
+   "label": "oma",
+   "script": "s5a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 173.0,
+   "end": 191.18,
+   "motion": "none",
+   "label": "oma",
+   "script": "s5b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 191.18,
+   "end": 217.58,
+   "motion": "none",
+   "label": "oma",
+   "script": "s6a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 217.58,
+   "end": 253.15,
+   "motion": "none",
+   "label": "oma",
+   "script": "s6b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 253.15,
+   "end": 265.05,
+   "motion": "none",
+   "label": "oma",
+   "script": "s7a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 265.05,
+   "end": 285.05,
+   "motion": "none",
+   "label": "oma",
+   "script": "s7c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 285.05,
+   "end": 301.76,
+   "motion": "none",
+   "label": "oma",
+   "script": "s8a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 301.76,
+   "end": 324.68,
+   "motion": "none",
+   "label": "oma",
+   "script": "s8b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 324.68,
+   "end": 341.2,
+   "motion": "none",
+   "label": "oma",
+   "script": "s8c"
+  }
+ ]
+}
