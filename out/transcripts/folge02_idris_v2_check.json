@@ -1,0 +1,2007 @@
+{
+ "name": "folge02_idris_v2_check",
+ "job_hash": "2d9081387e06c5c4f9b06a0165d5606e0aad2ca9",
+ "duration": 213.949,
+ "model": "medium",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.0,
+   "text": "Psst, Noah, Elias, wisst ihr welcher Prophet von Allah ganz, ganz hoch erhoben wurde?",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.94,
+     "word": "Psst,"
+    },
+    {
+     "start": 1.36,
+     "end": 1.8,
+     "word": "Noah,"
+    },
+    {
+     "start": 2.46,
+     "end": 3.5,
+     "word": "Elias,"
+    },
+    {
+     "start": 3.94,
+     "end": 4.2,
+     "word": "wisst"
+    },
+    {
+     "start": 4.2,
+     "end": 4.5,
+     "word": "ihr"
+    },
+    {
+     "start": 4.5,
+     "end": 5.08,
+     "word": "welcher"
+    },
+    {
+     "start": 5.08,
+     "end": 5.54,
+     "word": "Prophet"
+    },
+    {
+     "start": 5.54,
+     "end": 5.86,
+     "word": "von"
+    },
+    {
+     "start": 5.86,
+     "end": 6.36,
+     "word": "Allah"
+    },
+    {
+     "start": 6.36,
+     "end": 7.08,
+     "word": "ganz,"
+    },
+    {
+     "start": 7.16,
+     "end": 7.5,
+     "word": "ganz"
+    },
+    {
+     "start": 7.5,
+     "end": 8.0,
+     "word": "hoch"
+    },
+    {
+     "start": 8.0,
+     "end": 8.62,
+     "word": "erhoben"
+    },
+    {
+     "start": 8.62,
+     "end": 9.0,
+     "word": "wurde?"
+    }
+   ]
+  },
+  {
+   "start": 10.16,
+   "end": 13.66,
+   "text": "Bis hinauf zu einem wunderbaren Ort.",
+   "words": [
+    {
+     "start": 10.16,
+     "end": 10.4,
+     "word": "Bis"
+    },
+    {
+     "start": 10.4,
+     "end": 11.4,
+     "word": "hinauf"
+    },
+    {
+     "start": 11.4,
+     "end": 11.76,
+     "word": "zu"
+    },
+    {
+     "start": 11.76,
+     "end": 12.06,
+     "word": "einem"
+    },
+    {
+     "start": 12.06,
+     "end": 13.08,
+     "word": "wunderbaren"
+    },
+    {
+     "start": 13.08,
+     "end": 13.66,
+     "word": "Ort."
+    }
+   ]
+  },
+  {
+   "start": 15.08,
+   "end": 17.14,
+   "text": "Heute erzähle ich es Euch.",
+   "words": [
+    {
+     "start": 15.08,
+     "end": 15.7,
+     "word": "Heute"
+    },
+    {
+     "start": 15.7,
+     "end": 16.34,
+     "word": "erzähle"
+    },
+    {
+     "start": 16.34,
+     "end": 16.54,
+     "word": "ich"
+    },
+    {
+     "start": 16.54,
+     "end": 16.76,
+     "word": "es"
+    },
+    {
+     "start": 16.76,
+     "end": 17.14,
+     "word": "Euch."
+    }
+   ]
+  },
+  {
+   "start": 18.14,
+   "end": 20.92,
+   "text": "Kommt, kuschelt Euch schön ein.",
+   "words": [
+    {
+     "start": 18.14,
+     "end": 19.06,
+     "word": "Kommt,"
+    },
+    {
+     "start": 19.24,
+     "end": 19.62,
+     "word": "kuschelt"
+    },
+    {
+     "start": 19.62,
+     "end": 19.88,
+     "word": "Euch"
+    },
+    {
+     "start": 19.88,
+     "end": 20.24,
+     "word": "schön"
+    },
+    {
+     "start": 20.24,
+     "end": 20.92,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 21.74,
+   "end": 24.74,
+   "text": "Gestern haben wir vom Propheten Adam gehört.",
+   "words": [
+    {
+     "start": 21.74,
+     "end": 22.42,
+     "word": "Gestern"
+    },
+    {
+     "start": 22.42,
+     "end": 22.72,
+     "word": "haben"
+    },
+    {
+     "start": 22.72,
+     "end": 22.92,
+     "word": "wir"
+    },
+    {
+     "start": 22.92,
+     "end": 23.12,
+     "word": "vom"
+    },
+    {
+     "start": 23.12,
+     "end": 23.98,
+     "word": "Propheten"
+    },
+    {
+     "start": 23.98,
+     "end": 24.2,
+     "word": "Adam"
+    },
+    {
+     "start": 24.2,
+     "end": 24.74,
+     "word": "gehört."
+    }
+   ]
+  },
+  {
+   "start": 25.74,
+   "end": 30.68,
+   "text": "Und heute erzähle ich Euch vom Propheten Idris.",
+   "words": [
+    {
+     "start": 25.72,
+     "end": 26.16,
+     "word": "Und"
+    },
+    {
+     "start": 26.16,
+     "end": 26.78,
+     "word": "heute"
+    },
+    {
+     "start": 26.78,
+     "end": 27.98,
+     "word": "erzähle"
+    },
+    {
+     "start": 27.98,
+     "end": 28.18,
+     "word": "ich"
+    },
+    {
+     "start": 28.18,
+     "end": 28.5,
+     "word": "Euch"
+    },
+    {
+     "start": 28.5,
+     "end": 28.74,
+     "word": "vom"
+    },
+    {
+     "start": 28.74,
+     "end": 29.56,
+     "word": "Propheten"
+    },
+    {
+     "start": 29.56,
+     "end": 30.68,
+     "word": "Idris."
+    }
+   ]
+  },
+  {
+   "start": 31.1,
+   "end": 32.12,
+   "text": "Friede sei mit ihm.",
+   "words": [
+    {
+     "start": 31.1,
+     "end": 31.48,
+     "word": "Friede"
+    },
+    {
+     "start": 31.48,
+     "end": 31.54,
+     "word": "sei"
+    },
+    {
+     "start": 31.54,
+     "end": 31.82,
+     "word": "mit"
+    },
+    {
+     "start": 31.82,
+     "end": 32.12,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 32.36,
+   "end": 36.1,
+   "text": "Oma, Oma, war Idris ein starker Held?",
+   "words": [
+    {
+     "start": 32.36,
+     "end": 32.88,
+     "word": "Oma,"
+    },
+    {
+     "start": 33.02,
+     "end": 33.62,
+     "word": "Oma,"
+    },
+    {
+     "start": 33.9,
+     "end": 34.04,
+     "word": "war"
+    },
+    {
+     "start": 34.04,
+     "end": 34.62,
+     "word": "Idris"
+    },
+    {
+     "start": 34.62,
+     "end": 35.04,
+     "word": "ein"
+    },
+    {
+     "start": 35.04,
+     "end": 35.68,
+     "word": "starker"
+    },
+    {
+     "start": 35.68,
+     "end": 36.1,
+     "word": "Held?"
+    }
+   ]
+  },
+  {
+   "start": 37.58,
+   "end": 39.82,
+   "text": "Mein kleiner Elias,",
+   "words": [
+    {
+     "start": 37.58,
+     "end": 38.46,
+     "word": "Mein"
+    },
+    {
+     "start": 38.46,
+     "end": 38.9,
+     "word": "kleiner"
+    },
+    {
+     "start": 38.9,
+     "end": 39.82,
+     "word": "Elias,"
+    }
+   ]
+  },
+  {
+   "start": 40.68,
+   "end": 45.06,
+   "text": "Idris war etwas noch viel Besseres.",
+   "words": [
+    {
+     "start": 40.68,
+     "end": 41.56,
+     "word": "Idris"
+    },
+    {
+     "start": 41.56,
+     "end": 42.24,
+     "word": "war"
+    },
+    {
+     "start": 42.24,
+     "end": 42.74,
+     "word": "etwas"
+    },
+    {
+     "start": 42.74,
+     "end": 43.34,
+     "word": "noch"
+    },
+    {
+     "start": 43.34,
+     "end": 43.94,
+     "word": "viel"
+    },
+    {
+     "start": 43.94,
+     "end": 45.06,
+     "word": "Besseres."
+    }
+   ]
+  },
+  {
+   "start": 46.02,
+   "end": 47.06,
+   "text": "Hört gut zu.",
+   "words": [
+    {
+     "start": 46.02,
+     "end": 46.26,
+     "word": "Hört"
+    },
+    {
+     "start": 46.26,
+     "end": 46.66,
+     "word": "gut"
+    },
+    {
+     "start": 46.66,
+     "end": 47.06,
+     "word": "zu."
+    }
+   ]
+  },
+  {
+   "start": 47.92,
+   "end": 50.5,
+   "text": "Im Koran sagt Allah über ihn.",
+   "words": [
+    {
+     "start": 47.92,
+     "end": 48.24,
+     "word": "Im"
+    },
+    {
+     "start": 48.24,
+     "end": 48.82,
+     "word": "Koran"
+    },
+    {
+     "start": 48.82,
+     "end": 49.22,
+     "word": "sagt"
+    },
+    {
+     "start": 49.22,
+     "end": 49.64,
+     "word": "Allah"
+    },
+    {
+     "start": 49.64,
+     "end": 50.0,
+     "word": "über"
+    },
+    {
+     "start": 50.0,
+     "end": 50.5,
+     "word": "ihn."
+    }
+   ]
+  },
+  {
+   "start": 51.52,
+   "end": 53.78,
+   "text": "Er war ein Mensch der Wahrheit.",
+   "words": [
+    {
+     "start": 51.52,
+     "end": 51.78,
+     "word": "Er"
+    },
+    {
+     "start": 51.78,
+     "end": 52.1,
+     "word": "war"
+    },
+    {
+     "start": 52.1,
+     "end": 52.34,
+     "word": "ein"
+    },
+    {
+     "start": 52.34,
+     "end": 52.66,
+     "word": "Mensch"
+    },
+    {
+     "start": 52.66,
+     "end": 52.96,
+     "word": "der"
+    },
+    {
+     "start": 52.96,
+     "end": 53.78,
+     "word": "Wahrheit."
+    }
+   ]
+  },
+  {
+   "start": 53.78,
+   "end": 56.42,
+   "text": "Und ein Prophet.",
+   "words": [
+    {
+     "start": 53.78,
+     "end": 54.96,
+     "word": "Und"
+    },
+    {
+     "start": 54.96,
+     "end": 55.68,
+     "word": "ein"
+    },
+    {
+     "start": 55.68,
+     "end": 56.42,
+     "word": "Prophet."
+    }
+   ]
+  },
+  {
+   "start": 58.1,
+   "end": 62.4,
+   "text": "Das heißt, Idris hat immer die Wahrheit gesagt.",
+   "words": [
+    {
+     "start": 58.1,
+     "end": 58.42,
+     "word": "Das"
+    },
+    {
+     "start": 58.42,
+     "end": 59.14,
+     "word": "heißt,"
+    },
+    {
+     "start": 59.76,
+     "end": 60.12,
+     "word": "Idris"
+    },
+    {
+     "start": 60.12,
+     "end": 60.46,
+     "word": "hat"
+    },
+    {
+     "start": 60.46,
+     "end": 60.96,
+     "word": "immer"
+    },
+    {
+     "start": 60.96,
+     "end": 61.3,
+     "word": "die"
+    },
+    {
+     "start": 61.3,
+     "end": 61.78,
+     "word": "Wahrheit"
+    },
+    {
+     "start": 61.78,
+     "end": 62.4,
+     "word": "gesagt."
+    }
+   ]
+  },
+  {
+   "start": 62.9,
+   "end": 63.34,
+   "text": "Immer.",
+   "words": [
+    {
+     "start": 62.9,
+     "end": 63.34,
+     "word": "Immer."
+    }
+   ]
+  },
+  {
+   "start": 64.32,
+   "end": 65.98,
+   "text": "Auch wenn es schwer war.",
+   "words": [
+    {
+     "start": 64.32,
+     "end": 64.7,
+     "word": "Auch"
+    },
+    {
+     "start": 64.7,
+     "end": 64.94,
+     "word": "wenn"
+    },
+    {
+     "start": 64.94,
+     "end": 65.18,
+     "word": "es"
+    },
+    {
+     "start": 65.18,
+     "end": 65.48,
+     "word": "schwer"
+    },
+    {
+     "start": 65.48,
+     "end": 65.98,
+     "word": "war."
+    }
+   ]
+  },
+  {
+   "start": 66.86,
+   "end": 69.78,
+   "text": "Und er hat den Menschen von Allah erzählt.",
+   "words": [
+    {
+     "start": 66.86,
+     "end": 67.42,
+     "word": "Und"
+    },
+    {
+     "start": 67.42,
+     "end": 68.0,
+     "word": "er"
+    },
+    {
+     "start": 68.0,
+     "end": 68.24,
+     "word": "hat"
+    },
+    {
+     "start": 68.24,
+     "end": 68.48,
+     "word": "den"
+    },
+    {
+     "start": 68.48,
+     "end": 68.9,
+     "word": "Menschen"
+    },
+    {
+     "start": 68.9,
+     "end": 69.26,
+     "word": "von"
+    },
+    {
+     "start": 69.26,
+     "end": 69.68,
+     "word": "Allah"
+    },
+    {
+     "start": 69.68,
+     "end": 70.16,
+     "word": "erzählt."
+    }
+   ]
+  },
+  {
+   "start": 70.6,
+   "end": 75.76,
+   "text": "Allah sagt auch, dass Idris zu den Geduldigen gehörte.",
+   "words": [
+    {
+     "start": 70.6,
+     "end": 70.88,
+     "word": "Allah"
+    },
+    {
+     "start": 70.88,
+     "end": 71.24,
+     "word": "sagt"
+    },
+    {
+     "start": 71.24,
+     "end": 71.74,
+     "word": "auch,"
+    },
+    {
+     "start": 72.1,
+     "end": 72.36,
+     "word": "dass"
+    },
+    {
+     "start": 72.36,
+     "end": 73.08,
+     "word": "Idris"
+    },
+    {
+     "start": 73.08,
+     "end": 73.38,
+     "word": "zu"
+    },
+    {
+     "start": 73.38,
+     "end": 73.62,
+     "word": "den"
+    },
+    {
+     "start": 73.62,
+     "end": 74.44,
+     "word": "Geduldigen"
+    },
+    {
+     "start": 74.44,
+     "end": 75.76,
+     "word": "gehörte."
+    }
+   ]
+  },
+  {
+   "start": 76.96,
+   "end": 79.8,
+   "text": "Wisst Ihr, was Geduldigsein heißt?",
+   "words": [
+    {
+     "start": 76.96,
+     "end": 77.24,
+     "word": "Wisst"
+    },
+    {
+     "start": 77.24,
+     "end": 77.64,
+     "word": "Ihr,"
+    },
+    {
+     "start": 78.12,
+     "end": 78.44,
+     "word": "was"
+    },
+    {
+     "start": 78.44,
+     "end": 79.24,
+     "word": "Geduldigsein"
+    },
+    {
+     "start": 79.24,
+     "end": 79.8,
+     "word": "heißt?"
+    }
+   ]
+  },
+  {
+   "start": 80.74,
+   "end": 84.36,
+   "text": "Es heißt, nicht aufgeben.",
+   "words": [
+    {
+     "start": 80.74,
+     "end": 81.68,
+     "word": "Es"
+    },
+    {
+     "start": 81.68,
+     "end": 82.3,
+     "word": "heißt,"
+    },
+    {
+     "start": 82.84,
+     "end": 83.32,
+     "word": "nicht"
+    },
+    {
+     "start": 83.32,
+     "end": 84.36,
+     "word": "aufgeben."
+    }
+   ]
+  },
+  {
+   "start": 85.22,
+   "end": 88.88,
+   "text": "Auch wenn etwas lange dauert oder schwer ist.",
+   "words": [
+    {
+     "start": 85.22,
+     "end": 85.5,
+     "word": "Auch"
+    },
+    {
+     "start": 85.5,
+     "end": 85.82,
+     "word": "wenn"
+    },
+    {
+     "start": 85.82,
+     "end": 86.28,
+     "word": "etwas"
+    },
+    {
+     "start": 86.28,
+     "end": 86.78,
+     "word": "lange"
+    },
+    {
+     "start": 86.78,
+     "end": 87.4,
+     "word": "dauert"
+    },
+    {
+     "start": 87.4,
+     "end": 87.78,
+     "word": "oder"
+    },
+    {
+     "start": 87.78,
+     "end": 88.28,
+     "word": "schwer"
+    },
+    {
+     "start": 88.28,
+     "end": 88.88,
+     "word": "ist."
+    }
+   ]
+  },
+  {
+   "start": 90.1,
+   "end": 91.92,
+   "text": "Idris war geduldig.",
+   "words": [
+    {
+     "start": 90.1,
+     "end": 90.62,
+     "word": "Idris"
+    },
+    {
+     "start": 90.62,
+     "end": 90.92,
+     "word": "war"
+    },
+    {
+     "start": 90.92,
+     "end": 91.92,
+     "word": "geduldig."
+    }
+   ]
+  },
+  {
+   "start": 92.72,
+   "end": 96.92,
+   "text": "Und Allah sagt, er gehörte zu den Rechtschaffenden.",
+   "words": [
+    {
+     "start": 92.72,
+     "end": 93.08,
+     "word": "Und"
+    },
+    {
+     "start": 93.08,
+     "end": 93.34,
+     "word": "Allah"
+    },
+    {
+     "start": 93.34,
+     "end": 93.92,
+     "word": "sagt,"
+    },
+    {
+     "start": 94.6,
+     "end": 94.9,
+     "word": "er"
+    },
+    {
+     "start": 94.9,
+     "end": 95.5,
+     "word": "gehörte"
+    },
+    {
+     "start": 95.5,
+     "end": 95.64,
+     "word": "zu"
+    },
+    {
+     "start": 95.64,
+     "end": 95.88,
+     "word": "den"
+    },
+    {
+     "start": 95.88,
+     "end": 96.92,
+     "word": "Rechtschaffenden."
+    }
+   ]
+  },
+  {
+   "start": 98.02,
+   "end": 101.52,
+   "text": "Und Allah nahm ihn in seine Barmherzigkeit auf.",
+   "words": [
+    {
+     "start": 98.02,
+     "end": 98.48,
+     "word": "Und"
+    },
+    {
+     "start": 98.48,
+     "end": 98.84,
+     "word": "Allah"
+    },
+    {
+     "start": 98.84,
+     "end": 99.22,
+     "word": "nahm"
+    },
+    {
+     "start": 99.22,
+     "end": 99.5,
+     "word": "ihn"
+    },
+    {
+     "start": 99.5,
+     "end": 99.74,
+     "word": "in"
+    },
+    {
+     "start": 99.74,
+     "end": 100.04,
+     "word": "seine"
+    },
+    {
+     "start": 100.04,
+     "end": 101.1,
+     "word": "Barmherzigkeit"
+    },
+    {
+     "start": 101.1,
+     "end": 101.52,
+     "word": "auf."
+    }
+   ]
+  },
+  {
+   "start": 101.74,
+   "end": 105.44,
+   "text": "Und dann sagt Allah etwas ganz Besonderes.",
+   "words": [
+    {
+     "start": 101.74,
+     "end": 102.16,
+     "word": "Und"
+    },
+    {
+     "start": 102.16,
+     "end": 102.56,
+     "word": "dann"
+    },
+    {
+     "start": 102.56,
+     "end": 102.96,
+     "word": "sagt"
+    },
+    {
+     "start": 102.96,
+     "end": 103.36,
+     "word": "Allah"
+    },
+    {
+     "start": 103.36,
+     "end": 103.78,
+     "word": "etwas"
+    },
+    {
+     "start": 103.78,
+     "end": 104.4,
+     "word": "ganz"
+    },
+    {
+     "start": 104.4,
+     "end": 105.44,
+     "word": "Besonderes."
+    }
+   ]
+  },
+  {
+   "start": 105.44,
+   "end": 111.3,
+   "text": "Wir haben ihn an einen hohen Ort erhoben.",
+   "words": [
+    {
+     "start": 105.44,
+     "end": 106.64,
+     "word": "Wir"
+    },
+    {
+     "start": 106.64,
+     "end": 107.08,
+     "word": "haben"
+    },
+    {
+     "start": 107.08,
+     "end": 107.54,
+     "word": "ihn"
+    },
+    {
+     "start": 107.54,
+     "end": 107.88,
+     "word": "an"
+    },
+    {
+     "start": 107.88,
+     "end": 108.22,
+     "word": "einen"
+    },
+    {
+     "start": 108.22,
+     "end": 108.94,
+     "word": "hohen"
+    },
+    {
+     "start": 108.94,
+     "end": 109.36,
+     "word": "Ort"
+    },
+    {
+     "start": 109.36,
+     "end": 111.3,
+     "word": "erhoben."
+    }
+   ]
+  },
+  {
+   "start": 111.78,
+   "end": 113.86,
+   "text": "Einen hohen Ort.",
+   "words": [
+    {
+     "start": 111.78,
+     "end": 112.22,
+     "word": "Einen"
+    },
+    {
+     "start": 112.22,
+     "end": 112.98,
+     "word": "hohen"
+    },
+    {
+     "start": 112.98,
+     "end": 113.86,
+     "word": "Ort."
+    }
+   ]
+  },
+  {
+   "start": 115.3,
+   "end": 117.66,
+   "text": "Oma, wie hoch denn?",
+   "words": [
+    {
+     "start": 115.3,
+     "end": 115.98,
+     "word": "Oma,"
+    },
+    {
+     "start": 116.3,
+     "end": 116.54,
+     "word": "wie"
+    },
+    {
+     "start": 116.54,
+     "end": 116.94,
+     "word": "hoch"
+    },
+    {
+     "start": 116.94,
+     "end": 117.66,
+     "word": "denn?"
+    }
+   ]
+  },
+  {
+   "start": 118.0,
+   "end": 119.86,
+   "text": "Höher als die Wolken?",
+   "words": [
+    {
+     "start": 118.0,
+     "end": 118.4,
+     "word": "Höher"
+    },
+    {
+     "start": 118.4,
+     "end": 118.62,
+     "word": "als"
+    },
+    {
+     "start": 118.62,
+     "end": 118.94,
+     "word": "die"
+    },
+    {
+     "start": 118.94,
+     "end": 119.86,
+     "word": "Wolken?"
+    }
+   ]
+  },
+  {
+   "start": 121.02,
+   "end": 123.1,
+   "text": "Viel, viel höher nur.",
+   "words": [
+    {
+     "start": 121.02,
+     "end": 121.64,
+     "word": "Viel,"
+    },
+    {
+     "start": 121.72,
+     "end": 122.1,
+     "word": "viel"
+    },
+    {
+     "start": 122.1,
+     "end": 122.58,
+     "word": "höher"
+    },
+    {
+     "start": 122.58,
+     "end": 123.1,
+     "word": "nur."
+    }
+   ]
+  },
+  {
+   "start": 124.04,
+   "end": 125.72,
+   "text": "Unser Prophet Muhammad,",
+   "words": [
+    {
+     "start": 124.04,
+     "end": 124.34,
+     "word": "Unser"
+    },
+    {
+     "start": 124.34,
+     "end": 124.88,
+     "word": "Prophet"
+    },
+    {
+     "start": 124.88,
+     "end": 125.72,
+     "word": "Muhammad,"
+    }
+   ]
+  },
+  {
+   "start": 126.26,
+   "end": 127.44,
+   "text": "Friede sei mit ihm,",
+   "words": [
+    {
+     "start": 126.26,
+     "end": 126.64,
+     "word": "Friede"
+    },
+    {
+     "start": 126.64,
+     "end": 126.72,
+     "word": "sei"
+    },
+    {
+     "start": 126.72,
+     "end": 127.0,
+     "word": "mit"
+    },
+    {
+     "start": 127.0,
+     "end": 127.44,
+     "word": "ihm,"
+    }
+   ]
+  },
+  {
+   "start": 127.94,
+   "end": 129.14,
+   "text": "hat es uns erzählt.",
+   "words": [
+    {
+     "start": 127.94,
+     "end": 128.06,
+     "word": "hat"
+    },
+    {
+     "start": 128.06,
+     "end": 128.26,
+     "word": "es"
+    },
+    {
+     "start": 128.26,
+     "end": 128.5,
+     "word": "uns"
+    },
+    {
+     "start": 128.5,
+     "end": 129.14,
+     "word": "erzählt."
+    }
+   ]
+  },
+  {
+   "start": 130.28,
+   "end": 132.28,
+   "text": "In der wundersamen Nacht,",
+   "words": [
+    {
+     "start": 130.28,
+     "end": 130.74,
+     "word": "In"
+    },
+    {
+     "start": 130.74,
+     "end": 130.92,
+     "word": "der"
+    },
+    {
+     "start": 130.92,
+     "end": 131.72,
+     "word": "wundersamen"
+    },
+    {
+     "start": 131.72,
+     "end": 132.28,
+     "word": "Nacht,"
+    }
+   ]
+  },
+  {
+   "start": 132.86,
+   "end": 134.56,
+   "text": "als er durch die Himmel reiste,",
+   "words": [
+    {
+     "start": 132.86,
+     "end": 133.06,
+     "word": "als"
+    },
+    {
+     "start": 133.06,
+     "end": 133.2,
+     "word": "er"
+    },
+    {
+     "start": 133.2,
+     "end": 133.44,
+     "word": "durch"
+    },
+    {
+     "start": 133.44,
+     "end": 133.66,
+     "word": "die"
+    },
+    {
+     "start": 133.66,
+     "end": 133.96,
+     "word": "Himmel"
+    },
+    {
+     "start": 133.96,
+     "end": 134.56,
+     "word": "reiste,"
+    }
+   ]
+  },
+  {
+   "start": 134.56,
+   "end": 137.8,
+   "text": "traf er den Propheten Idris",
+   "words": [
+    {
+     "start": 134.56,
+     "end": 135.96,
+     "word": "traf"
+    },
+    {
+     "start": 135.96,
+     "end": 136.14,
+     "word": "er"
+    },
+    {
+     "start": 136.14,
+     "end": 136.4,
+     "word": "den"
+    },
+    {
+     "start": 136.4,
+     "end": 137.2,
+     "word": "Propheten"
+    },
+    {
+     "start": 137.2,
+     "end": 137.8,
+     "word": "Idris"
+    }
+   ]
+  },
+  {
+   "start": 137.8,
+   "end": 140.9,
+   "text": "im vierten Himmel.",
+   "words": [
+    {
+     "start": 137.8,
+     "end": 139.16,
+     "word": "im"
+    },
+    {
+     "start": 139.16,
+     "end": 139.8,
+     "word": "vierten"
+    },
+    {
+     "start": 139.8,
+     "end": 140.9,
+     "word": "Himmel."
+    }
+   ]
+  },
+  {
+   "start": 141.82,
+   "end": 144.9,
+   "text": "Und wisst Ihr, was Idris zu ihm gesagt hat?",
+   "words": [
+    {
+     "start": 141.82,
+     "end": 142.18,
+     "word": "Und"
+    },
+    {
+     "start": 142.18,
+     "end": 142.48,
+     "word": "wisst"
+    },
+    {
+     "start": 142.48,
+     "end": 142.7,
+     "word": "Ihr,"
+    },
+    {
+     "start": 142.74,
+     "end": 143.0,
+     "word": "was"
+    },
+    {
+     "start": 143.0,
+     "end": 143.62,
+     "word": "Idris"
+    },
+    {
+     "start": 143.62,
+     "end": 143.82,
+     "word": "zu"
+    },
+    {
+     "start": 143.82,
+     "end": 144.02,
+     "word": "ihm"
+    },
+    {
+     "start": 144.02,
+     "end": 144.56,
+     "word": "gesagt"
+    },
+    {
+     "start": 144.56,
+     "end": 144.9,
+     "word": "hat?"
+    }
+   ]
+  },
+  {
+   "start": 146.6,
+   "end": 147.6,
+   "text": "Er sagte,",
+   "words": [
+    {
+     "start": 146.6,
+     "end": 146.98,
+     "word": "Er"
+    },
+    {
+     "start": 146.98,
+     "end": 147.6,
+     "word": "sagte,"
+    }
+   ]
+  },
+  {
+   "start": 148.84,
+   "end": 150.96,
+   "text": "Willkommen, du guter Bruder",
+   "words": [
+    {
+     "start": 148.84,
+     "end": 149.58,
+     "word": "Willkommen,"
+    },
+    {
+     "start": 149.74,
+     "end": 149.86,
+     "word": "du"
+    },
+    {
+     "start": 149.86,
+     "end": 150.42,
+     "word": "guter"
+    },
+    {
+     "start": 150.42,
+     "end": 150.96,
+     "word": "Bruder"
+    }
+   ]
+  },
+  {
+   "start": 150.96,
+   "end": 153.16,
+   "text": "und guter Prophet.",
+   "words": [
+    {
+     "start": 150.96,
+     "end": 151.92,
+     "word": "und"
+    },
+    {
+     "start": 151.92,
+     "end": 152.72,
+     "word": "guter"
+    },
+    {
+     "start": 152.72,
+     "end": 153.16,
+     "word": "Prophet."
+    }
+   ]
+  },
+  {
+   "start": 155.0,
+   "end": 156.58,
+   "text": "Stellt Euch das vor.",
+   "words": [
+    {
+     "start": 155.0,
+     "end": 155.28,
+     "word": "Stellt"
+    },
+    {
+     "start": 155.28,
+     "end": 155.56,
+     "word": "Euch"
+    },
+    {
+     "start": 155.56,
+     "end": 155.86,
+     "word": "das"
+    },
+    {
+     "start": 155.86,
+     "end": 156.58,
+     "word": "vor."
+    }
+   ]
+  },
+  {
+   "start": 157.96,
+   "end": 161.56,
+   "text": "Zwei Propheten begrüßen sich im Himmel.",
+   "words": [
+    {
+     "start": 157.96,
+     "end": 158.52,
+     "word": "Zwei"
+    },
+    {
+     "start": 158.52,
+     "end": 159.5,
+     "word": "Propheten"
+    },
+    {
+     "start": 159.5,
+     "end": 160.04,
+     "word": "begrüßen"
+    },
+    {
+     "start": 160.04,
+     "end": 160.4,
+     "word": "sich"
+    },
+    {
+     "start": 160.4,
+     "end": 160.68,
+     "word": "im"
+    },
+    {
+     "start": 160.68,
+     "end": 161.56,
+     "word": "Himmel."
+    }
+   ]
+  },
+  {
+   "start": 163.52,
+   "end": 168.04,
+   "text": "Über den Propheten Idris wissen wir nicht zu viel.",
+   "words": [
+    {
+     "start": 163.52,
+     "end": 164.32,
+     "word": "Über"
+    },
+    {
+     "start": 164.32,
+     "end": 164.68,
+     "word": "den"
+    },
+    {
+     "start": 164.68,
+     "end": 165.62,
+     "word": "Propheten"
+    },
+    {
+     "start": 165.62,
+     "end": 166.36,
+     "word": "Idris"
+    },
+    {
+     "start": 166.36,
+     "end": 166.76,
+     "word": "wissen"
+    },
+    {
+     "start": 166.76,
+     "end": 167.02,
+     "word": "wir"
+    },
+    {
+     "start": 167.02,
+     "end": 167.28,
+     "word": "nicht"
+    },
+    {
+     "start": 167.28,
+     "end": 167.56,
+     "word": "zu"
+    },
+    {
+     "start": 167.56,
+     "end": 168.04,
+     "word": "viel."
+    }
+   ]
+  },
+  {
+   "start": 169.08,
+   "end": 172.5,
+   "text": "Aber das, was Allah uns über ihn sagt,",
+   "words": [
+    {
+     "start": 169.08,
+     "end": 169.46,
+     "word": "Aber"
+    },
+    {
+     "start": 169.46,
+     "end": 170.14,
+     "word": "das,"
+    },
+    {
+     "start": 170.4,
+     "end": 170.72,
+     "word": "was"
+    },
+    {
+     "start": 170.72,
+     "end": 171.12,
+     "word": "Allah"
+    },
+    {
+     "start": 171.12,
+     "end": 171.46,
+     "word": "uns"
+    },
+    {
+     "start": 171.46,
+     "end": 171.68,
+     "word": "über"
+    },
+    {
+     "start": 171.68,
+     "end": 171.92,
+     "word": "ihn"
+    },
+    {
+     "start": 171.92,
+     "end": 172.5,
+     "word": "sagt,"
+    }
+   ]
+  },
+  {
+   "start": 173.2,
+   "end": 176.18,
+   "text": "ist genug, um ihn zu lieben.",
+   "words": [
+    {
+     "start": 173.2,
+     "end": 173.4,
+     "word": "ist"
+    },
+    {
+     "start": 173.4,
+     "end": 173.96,
+     "word": "genug,"
+    },
+    {
+     "start": 174.46,
+     "end": 174.58,
+     "word": "um"
+    },
+    {
+     "start": 174.58,
+     "end": 174.84,
+     "word": "ihn"
+    },
+    {
+     "start": 174.84,
+     "end": 175.12,
+     "word": "zu"
+    },
+    {
+     "start": 175.12,
+     "end": 176.18,
+     "word": "lieben."
+    }
+   ]
+  },
+  {
+   "start": 177.2,
+   "end": 178.56,
+   "text": "Er war ehrlich.",
+   "words": [
+    {
+     "start": 177.2,
+     "end": 177.42,
+     "word": "Er"
+    },
+    {
+     "start": 177.42,
+     "end": 177.84,
+     "word": "war"
+    },
+    {
+     "start": 177.84,
+     "end": 178.56,
+     "word": "ehrlich."
+    }
+   ]
+  },
+  {
+   "start": 179.82,
+   "end": 181.34,
+   "text": "Er war geduldig.",
+   "words": [
+    {
+     "start": 179.82,
+     "end": 180.02,
+     "word": "Er"
+    },
+    {
+     "start": 180.02,
+     "end": 180.3,
+     "word": "war"
+    },
+    {
+     "start": 180.3,
+     "end": 181.34,
+     "word": "geduldig."
+    }
+   ]
+  },
+  {
+   "start": 182.44,
+   "end": 183.5,
+   "text": "Er war gut.",
+   "words": [
+    {
+     "start": 182.44,
+     "end": 182.6,
+     "word": "Er"
+    },
+    {
+     "start": 182.6,
+     "end": 182.92,
+     "word": "war"
+    },
+    {
+     "start": 182.92,
+     "end": 183.5,
+     "word": "gut."
+    }
+   ]
+  },
+  {
+   "start": 184.84,
+   "end": 187.48,
+   "text": "Und Allah hat ihn hoch erhoben.",
+   "words": [
+    {
+     "start": 184.84,
+     "end": 185.18,
+     "word": "Und"
+    },
+    {
+     "start": 185.18,
+     "end": 185.6,
+     "word": "Allah"
+    },
+    {
+     "start": 185.6,
+     "end": 185.9,
+     "word": "hat"
+    },
+    {
+     "start": 185.9,
+     "end": 186.22,
+     "word": "ihn"
+    },
+    {
+     "start": 186.22,
+     "end": 186.66,
+     "word": "hoch"
+    },
+    {
+     "start": 186.66,
+     "end": 187.48,
+     "word": "erhoben."
+    }
+   ]
+  },
+  {
+   "start": 187.48,
+   "end": 189.2,
+   "text": "Noah,",
+   "words": [
+    {
+     "start": 187.48,
+     "end": 189.2,
+     "word": "Noah,"
+    }
+   ]
+  },
+  {
+   "start": 190.86,
+   "end": 191.74,
+   "text": "Elias,",
+   "words": [
+    {
+     "start": 190.86,
+     "end": 191.74,
+     "word": "Elias,"
+    }
+   ]
+  },
+  {
+   "start": 192.26,
+   "end": 193.62,
+   "text": "sie schlafen schon.",
+   "words": [
+    {
+     "start": 192.26,
+     "end": 192.52,
+     "word": "sie"
+    },
+    {
+     "start": 192.52,
+     "end": 193.14,
+     "word": "schlafen"
+    },
+    {
+     "start": 193.14,
+     "end": 193.62,
+     "word": "schon."
+    }
+   ]
+  },
+  {
+   "start": 193.9,
+   "end": 196.5,
+   "text": "Schlaft gut, meine kleinen Sterne.",
+   "words": [
+    {
+     "start": 193.9,
+     "end": 194.3,
+     "word": "Schlaft"
+    },
+    {
+     "start": 194.3,
+     "end": 194.54,
+     "word": "gut,"
+    },
+    {
+     "start": 194.84,
+     "end": 194.84,
+     "word": "meine"
+    },
+    {
+     "start": 194.84,
+     "end": 195.32,
+     "word": "kleinen"
+    },
+    {
+     "start": 195.32,
+     "end": 196.5,
+     "word": "Sterne."
+    }
+   ]
+  },
+  {
+   "start": 196.86,
+   "end": 197.84,
+   "text": "Und denkt daran,",
+   "words": [
+    {
+     "start": 196.86,
+     "end": 197.04,
+     "word": "Und"
+    },
+    {
+     "start": 197.04,
+     "end": 197.3,
+     "word": "denkt"
+    },
+    {
+     "start": 197.3,
+     "end": 197.84,
+     "word": "daran,"
+    }
+   ]
+  },
+  {
+   "start": 198.74,
+   "end": 200.56,
+   "text": "wer immer die Wahrheit sagt",
+   "words": [
+    {
+     "start": 198.74,
+     "end": 199.08,
+     "word": "wer"
+    },
+    {
+     "start": 199.08,
+     "end": 199.44,
+     "word": "immer"
+    },
+    {
+     "start": 199.44,
+     "end": 199.7,
+     "word": "die"
+    },
+    {
+     "start": 199.7,
+     "end": 200.18,
+     "word": "Wahrheit"
+    },
+    {
+     "start": 200.18,
+     "end": 200.56,
+     "word": "sagt"
+    }
+   ]
+  },
+  {
+   "start": 200.56,
+   "end": 202.2,
+   "text": "und geduldig ist,",
+   "words": [
+    {
+     "start": 200.56,
+     "end": 200.94,
+     "word": "und"
+    },
+    {
+     "start": 200.94,
+     "end": 201.54,
+     "word": "geduldig"
+    },
+    {
+     "start": 201.54,
+     "end": 202.2,
+     "word": "ist,"
+    }
+   ]
+  },
+  {
+   "start": 202.76,
+   "end": 203.94,
+   "text": "den liebt Allah.",
+   "words": [
+    {
+     "start": 202.76,
+     "end": 202.98,
+     "word": "den"
+    },
+    {
+     "start": 202.98,
+     "end": 203.44,
+     "word": "liebt"
+    },
+    {
+     "start": 203.44,
+     "end": 203.94,
+     "word": "Allah."
+    }
+   ]
+  },
+  {
+   "start": 205.46,
+   "end": 208.66,
+   "text": "Morgen erzähle ich Euch vom Propheten Noah",
+   "words": [
+    {
+     "start": 205.46,
+     "end": 205.9,
+     "word": "Morgen"
+    },
+    {
+     "start": 205.9,
+     "end": 206.52,
+     "word": "erzähle"
+    },
+    {
+     "start": 206.52,
+     "end": 206.74,
+     "word": "ich"
+    },
+    {
+     "start": 206.74,
+     "end": 207.14,
+     "word": "Euch"
+    },
+    {
+     "start": 207.14,
+     "end": 207.44,
+     "word": "vom"
+    },
+    {
+     "start": 207.44,
+     "end": 208.36,
+     "word": "Propheten"
+    },
+    {
+     "start": 208.36,
+     "end": 208.66,
+     "word": "Noah"
+    }
+   ]
+  },
+  {
+   "start": 209.48,
+   "end": 212.86,
+   "text": "und von einem riesengroßen Schiff.",
+   "words": [
+    {
+     "start": 209.26,
+     "end": 209.7,
+     "word": "und"
+    },
+    {
+     "start": 209.7,
+     "end": 209.96,
+     "word": "von"
+    },
+    {
+     "start": 209.96,
+     "end": 210.34,
+     "word": "einem"
+    },
+    {
+     "start": 210.34,
+     "end": 212.16,
+     "word": "riesengroßen"
+    },
+    {
+     "start": 212.16,
+     "end": 212.86,
+     "word": "Schiff."
+    }
+   ]
+  },
+  {
+   "start": 213.3,
+   "end": 213.92,
+   "text": "Gute Nacht.",
+   "words": [
+    {
+     "start": 213.3,
+     "end": 213.56,
+     "word": "Gute"
+    },
+    {
+     "start": 213.56,
+     "end": 213.92,
+     "word": "Nacht."
+    }
+   ]
+  }
+ ]
+}
