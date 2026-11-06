@@ -1,0 +1,4866 @@
+{
+ "name": "folge06_ibrahim_published",
+ "job_hash": "dec5dd40315eba08554a41b866e1b22ffe4bfa72",
+ "duration": 480.003,
+ "model": "medium",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.7,
+   "text": "Psst, seid Ihr noch wach?",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.78,
+     "word": "Psst,"
+    },
+    {
+     "start": 1.14,
+     "end": 1.28,
+     "word": "seid"
+    },
+    {
+     "start": 1.28,
+     "end": 1.4,
+     "word": "Ihr"
+    },
+    {
+     "start": 1.4,
+     "end": 1.66,
+     "word": "noch"
+    },
+    {
+     "start": 1.66,
+     "end": 2.7,
+     "word": "wach?"
+    }
+   ]
+  },
+  {
+   "start": 3.28,
+   "end": 8.66,
+   "text": "Gut, denn heute erzähle ich Euch die Geschichte von einem jungen Mann,",
+   "words": [
+    {
+     "start": 3.28,
+     "end": 3.9,
+     "word": "Gut,"
+    },
+    {
+     "start": 4.2,
+     "end": 4.6,
+     "word": "denn"
+    },
+    {
+     "start": 4.6,
+     "end": 5.24,
+     "word": "heute"
+    },
+    {
+     "start": 5.24,
+     "end": 5.92,
+     "word": "erzähle"
+    },
+    {
+     "start": 5.92,
+     "end": 6.14,
+     "word": "ich"
+    },
+    {
+     "start": 6.14,
+     "end": 6.36,
+     "word": "Euch"
+    },
+    {
+     "start": 6.36,
+     "end": 6.66,
+     "word": "die"
+    },
+    {
+     "start": 6.66,
+     "end": 7.12,
+     "word": "Geschichte"
+    },
+    {
+     "start": 7.12,
+     "end": 7.46,
+     "word": "von"
+    },
+    {
+     "start": 7.46,
+     "end": 7.76,
+     "word": "einem"
+    },
+    {
+     "start": 7.76,
+     "end": 8.14,
+     "word": "jungen"
+    },
+    {
+     "start": 8.14,
+     "end": 8.66,
+     "word": "Mann,"
+    }
+   ]
+  },
+  {
+   "start": 9.22,
+   "end": 13.96,
+   "text": "der sich ganz allein gegen eine ganze Stadt gestellt hat",
+   "words": [
+    {
+     "start": 9.22,
+     "end": 9.4,
+     "word": "der"
+    },
+    {
+     "start": 9.4,
+     "end": 9.76,
+     "word": "sich"
+    },
+    {
+     "start": 9.76,
+     "end": 10.32,
+     "word": "ganz"
+    },
+    {
+     "start": 10.32,
+     "end": 11.08,
+     "word": "allein"
+    },
+    {
+     "start": 11.08,
+     "end": 11.7,
+     "word": "gegen"
+    },
+    {
+     "start": 11.7,
+     "end": 12.14,
+     "word": "eine"
+    },
+    {
+     "start": 12.14,
+     "end": 12.6,
+     "word": "ganze"
+    },
+    {
+     "start": 12.6,
+     "end": 13.02,
+     "word": "Stadt"
+    },
+    {
+     "start": 13.02,
+     "end": 13.56,
+     "word": "gestellt"
+    },
+    {
+     "start": 13.56,
+     "end": 13.96,
+     "word": "hat"
+    }
+   ]
+  },
+  {
+   "start": 15.0,
+   "end": 17.5,
+   "text": "und von einem riesigen Feuer,",
+   "words": [
+    {
+     "start": 15.0,
+     "end": 15.46,
+     "word": "und"
+    },
+    {
+     "start": 15.46,
+     "end": 15.78,
+     "word": "von"
+    },
+    {
+     "start": 15.78,
+     "end": 16.08,
+     "word": "einem"
+    },
+    {
+     "start": 16.08,
+     "end": 16.94,
+     "word": "riesigen"
+    },
+    {
+     "start": 16.94,
+     "end": 17.5,
+     "word": "Feuer,"
+    }
+   ]
+  },
+  {
+   "start": 18.86,
+   "end": 21.28,
+   "text": "das ihm nichts tun konnte.",
+   "words": [
+    {
+     "start": 18.86,
+     "end": 19.06,
+     "word": "das"
+    },
+    {
+     "start": 19.06,
+     "end": 19.5,
+     "word": "ihm"
+    },
+    {
+     "start": 19.5,
+     "end": 20.22,
+     "word": "nichts"
+    },
+    {
+     "start": 20.22,
+     "end": 20.76,
+     "word": "tun"
+    },
+    {
+     "start": 20.76,
+     "end": 21.28,
+     "word": "konnte."
+    }
+   ]
+  },
+  {
+   "start": 21.58,
+   "end": 23.92,
+   "text": "Ein Feuer, das nicht brennt?",
+   "words": [
+    {
+     "start": 21.58,
+     "end": 22.02,
+     "word": "Ein"
+    },
+    {
+     "start": 22.02,
+     "end": 22.48,
+     "word": "Feuer,"
+    },
+    {
+     "start": 22.58,
+     "end": 22.78,
+     "word": "das"
+    },
+    {
+     "start": 22.78,
+     "end": 23.14,
+     "word": "nicht"
+    },
+    {
+     "start": 23.14,
+     "end": 23.92,
+     "word": "brennt?"
+    }
+   ]
+  },
+  {
+   "start": 24.7,
+   "end": 27.38,
+   "text": "Oma, das gibt es doch gar nicht!",
+   "words": [
+    {
+     "start": 24.7,
+     "end": 25.38,
+     "word": "Oma,"
+    },
+    {
+     "start": 25.52,
+     "end": 25.8,
+     "word": "das"
+    },
+    {
+     "start": 25.8,
+     "end": 26.14,
+     "word": "gibt"
+    },
+    {
+     "start": 26.14,
+     "end": 26.32,
+     "word": "es"
+    },
+    {
+     "start": 26.32,
+     "end": 26.6,
+     "word": "doch"
+    },
+    {
+     "start": 26.6,
+     "end": 27.0,
+     "word": "gar"
+    },
+    {
+     "start": 27.0,
+     "end": 27.38,
+     "word": "nicht!"
+    }
+   ]
+  },
+  {
+   "start": 28.38,
+   "end": 30.28,
+   "text": "Oh doch, mein Schatz,",
+   "words": [
+    {
+     "start": 28.24,
+     "end": 28.76,
+     "word": "Oh"
+    },
+    {
+     "start": 28.76,
+     "end": 29.3,
+     "word": "doch,"
+    },
+    {
+     "start": 29.44,
+     "end": 29.6,
+     "word": "mein"
+    },
+    {
+     "start": 29.6,
+     "end": 30.28,
+     "word": "Schatz,"
+    }
+   ]
+  },
+  {
+   "start": 30.7,
+   "end": 35.24,
+   "text": "wenn Allah etwas will, dann geschieht es.",
+   "words": [
+    {
+     "start": 30.7,
+     "end": 31.04,
+     "word": "wenn"
+    },
+    {
+     "start": 31.04,
+     "end": 31.68,
+     "word": "Allah"
+    },
+    {
+     "start": 31.68,
+     "end": 32.22,
+     "word": "etwas"
+    },
+    {
+     "start": 32.22,
+     "end": 32.68,
+     "word": "will,"
+    },
+    {
+     "start": 33.38,
+     "end": 33.66,
+     "word": "dann"
+    },
+    {
+     "start": 33.66,
+     "end": 34.22,
+     "word": "geschieht"
+    },
+    {
+     "start": 34.22,
+     "end": 35.24,
+     "word": "es."
+    }
+   ]
+  },
+  {
+   "start": 35.78,
+   "end": 37.58,
+   "text": "Kuschelt Euch schön ein.",
+   "words": [
+    {
+     "start": 35.78,
+     "end": 36.28,
+     "word": "Kuschelt"
+    },
+    {
+     "start": 36.28,
+     "end": 36.52,
+     "word": "Euch"
+    },
+    {
+     "start": 36.52,
+     "end": 36.84,
+     "word": "schön"
+    },
+    {
+     "start": 36.84,
+     "end": 37.58,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 38.86,
+   "end": 43.04,
+   "text": "Heute erzähle ich Euch von Prophet Ibrahim.",
+   "words": [
+    {
+     "start": 38.86,
+     "end": 39.38,
+     "word": "Heute"
+    },
+    {
+     "start": 39.38,
+     "end": 40.08,
+     "word": "erzähle"
+    },
+    {
+     "start": 40.08,
+     "end": 40.34,
+     "word": "ich"
+    },
+    {
+     "start": 40.34,
+     "end": 40.8,
+     "word": "Euch"
+    },
+    {
+     "start": 40.8,
+     "end": 41.56,
+     "word": "von"
+    },
+    {
+     "start": 41.56,
+     "end": 42.14,
+     "word": "Prophet"
+    },
+    {
+     "start": 42.14,
+     "end": 43.04,
+     "word": "Ibrahim."
+    }
+   ]
+  },
+  {
+   "start": 43.72,
+   "end": 44.94,
+   "text": "Friede sei mit ihm.",
+   "words": [
+    {
+     "start": 43.72,
+     "end": 44.2,
+     "word": "Friede"
+    },
+    {
+     "start": 44.2,
+     "end": 44.32,
+     "word": "sei"
+    },
+    {
+     "start": 44.32,
+     "end": 44.58,
+     "word": "mit"
+    },
+    {
+     "start": 44.58,
+     "end": 44.94,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 45.12,
+   "end": 47.96,
+   "text": "Vor sehr, sehr langer Zeit",
+   "words": [
+    {
+     "start": 45.12,
+     "end": 45.56,
+     "word": "Vor"
+    },
+    {
+     "start": 45.56,
+     "end": 46.24,
+     "word": "sehr,"
+    },
+    {
+     "start": 46.24,
+     "end": 46.8,
+     "word": "sehr"
+    },
+    {
+     "start": 46.8,
+     "end": 47.26,
+     "word": "langer"
+    },
+    {
+     "start": 47.26,
+     "end": 47.96,
+     "word": "Zeit"
+    }
+   ]
+  },
+  {
+   "start": 47.96,
+   "end": 52.26,
+   "text": "lebte Ibrahim in einer Stadt voller Statuen.",
+   "words": [
+    {
+     "start": 47.96,
+     "end": 48.84,
+     "word": "lebte"
+    },
+    {
+     "start": 48.84,
+     "end": 49.52,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 49.52,
+     "end": 49.9,
+     "word": "in"
+    },
+    {
+     "start": 49.9,
+     "end": 50.16,
+     "word": "einer"
+    },
+    {
+     "start": 50.16,
+     "end": 50.78,
+     "word": "Stadt"
+    },
+    {
+     "start": 50.78,
+     "end": 51.48,
+     "word": "voller"
+    },
+    {
+     "start": 51.48,
+     "end": 52.26,
+     "word": "Statuen."
+    }
+   ]
+  },
+  {
+   "start": 53.32,
+   "end": 55.46,
+   "text": "Die Menschen hatten sie selbst gemacht,",
+   "words": [
+    {
+     "start": 53.32,
+     "end": 53.52,
+     "word": "Die"
+    },
+    {
+     "start": 53.52,
+     "end": 53.96,
+     "word": "Menschen"
+    },
+    {
+     "start": 53.96,
+     "end": 54.32,
+     "word": "hatten"
+    },
+    {
+     "start": 54.32,
+     "end": 54.58,
+     "word": "sie"
+    },
+    {
+     "start": 54.58,
+     "end": 54.96,
+     "word": "selbst"
+    },
+    {
+     "start": 54.96,
+     "end": 55.46,
+     "word": "gemacht,"
+    }
+   ]
+  },
+  {
+   "start": 55.46,
+   "end": 58.04,
+   "text": "aus Stein und aus Holz.",
+   "words": [
+    {
+     "start": 55.46,
+     "end": 56.22,
+     "word": "aus"
+    },
+    {
+     "start": 56.22,
+     "end": 56.84,
+     "word": "Stein"
+    },
+    {
+     "start": 56.84,
+     "end": 57.26,
+     "word": "und"
+    },
+    {
+     "start": 57.26,
+     "end": 57.62,
+     "word": "aus"
+    },
+    {
+     "start": 57.62,
+     "end": 58.04,
+     "word": "Holz."
+    }
+   ]
+  },
+  {
+   "start": 59.26,
+   "end": 62.08,
+   "text": "Und dann beteten sie sie an.",
+   "words": [
+    {
+     "start": 59.26,
+     "end": 59.58,
+     "word": "Und"
+    },
+    {
+     "start": 59.58,
+     "end": 60.3,
+     "word": "dann"
+    },
+    {
+     "start": 60.3,
+     "end": 61.12,
+     "word": "beteten"
+    },
+    {
+     "start": 61.12,
+     "end": 61.36,
+     "word": "sie"
+    },
+    {
+     "start": 61.36,
+     "end": 61.54,
+     "word": "sie"
+    },
+    {
+     "start": 61.54,
+     "end": 62.08,
+     "word": "an."
+    }
+   ]
+  },
+  {
+   "start": 62.98,
+   "end": 65.24,
+   "text": "Sie verbeugten sich vor ihnen,",
+   "words": [
+    {
+     "start": 62.98,
+     "end": 63.26,
+     "word": "Sie"
+    },
+    {
+     "start": 63.26,
+     "end": 64.0,
+     "word": "verbeugten"
+    },
+    {
+     "start": 64.0,
+     "end": 64.26,
+     "word": "sich"
+    },
+    {
+     "start": 64.26,
+     "end": 64.56,
+     "word": "vor"
+    },
+    {
+     "start": 64.56,
+     "end": 65.24,
+     "word": "ihnen,"
+    }
+   ]
+  },
+  {
+   "start": 65.72,
+   "end": 66.9,
+   "text": "brachten ihnen Essen",
+   "words": [
+    {
+     "start": 65.72,
+     "end": 66.08,
+     "word": "brachten"
+    },
+    {
+     "start": 66.08,
+     "end": 66.44,
+     "word": "ihnen"
+    },
+    {
+     "start": 66.44,
+     "end": 66.9,
+     "word": "Essen"
+    }
+   ]
+  },
+  {
+   "start": 66.9,
+   "end": 69.46,
+   "text": "und baten sie um Hilfe.",
+   "words": [
+    {
+     "start": 66.9,
+     "end": 67.92,
+     "word": "und"
+    },
+    {
+     "start": 67.92,
+     "end": 68.4,
+     "word": "baten"
+    },
+    {
+     "start": 68.4,
+     "end": 68.72,
+     "word": "sie"
+    },
+    {
+     "start": 68.72,
+     "end": 69.0,
+     "word": "um"
+    },
+    {
+     "start": 69.0,
+     "end": 69.46,
+     "word": "Hilfe."
+    }
+   ]
+  },
+  {
+   "start": 69.66,
+   "end": 73.66,
+   "text": "Sogar Ibrahims Vater Azar machte das so.",
+   "words": [
+    {
+     "start": 69.66,
+     "end": 70.3,
+     "word": "Sogar"
+    },
+    {
+     "start": 70.3,
+     "end": 71.04,
+     "word": "Ibrahims"
+    },
+    {
+     "start": 71.04,
+     "end": 71.52,
+     "word": "Vater"
+    },
+    {
+     "start": 71.52,
+     "end": 72.36,
+     "word": "Azar"
+    },
+    {
+     "start": 72.36,
+     "end": 72.84,
+     "word": "machte"
+    },
+    {
+     "start": 72.84,
+     "end": 73.06,
+     "word": "das"
+    },
+    {
+     "start": 73.06,
+     "end": 73.66,
+     "word": "so."
+    }
+   ]
+  },
+  {
+   "start": 74.72,
+   "end": 79.96,
+   "text": "Aber Ibrahim schaute sich die Statuen ganz genau an und dachte,",
+   "words": [
+    {
+     "start": 74.72,
+     "end": 75.18,
+     "word": "Aber"
+    },
+    {
+     "start": 75.18,
+     "end": 75.98,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 75.98,
+     "end": 76.46,
+     "word": "schaute"
+    },
+    {
+     "start": 76.46,
+     "end": 76.76,
+     "word": "sich"
+    },
+    {
+     "start": 76.76,
+     "end": 77.12,
+     "word": "die"
+    },
+    {
+     "start": 77.12,
+     "end": 77.76,
+     "word": "Statuen"
+    },
+    {
+     "start": 77.76,
+     "end": 78.28,
+     "word": "ganz"
+    },
+    {
+     "start": 78.28,
+     "end": 78.74,
+     "word": "genau"
+    },
+    {
+     "start": 78.74,
+     "end": 79.22,
+     "word": "an"
+    },
+    {
+     "start": 79.22,
+     "end": 79.56,
+     "word": "und"
+    },
+    {
+     "start": 79.56,
+     "end": 79.96,
+     "word": "dachte,"
+    }
+   ]
+  },
+  {
+   "start": 81.46,
+   "end": 82.96,
+   "text": "die können nicht hören,",
+   "words": [
+    {
+     "start": 81.46,
+     "end": 81.7,
+     "word": "die"
+    },
+    {
+     "start": 81.7,
+     "end": 82.06,
+     "word": "können"
+    },
+    {
+     "start": 82.06,
+     "end": 82.46,
+     "word": "nicht"
+    },
+    {
+     "start": 82.46,
+     "end": 82.96,
+     "word": "hören,"
+    }
+   ]
+  },
+  {
+   "start": 83.96,
+   "end": 85.62,
+   "text": "die können nicht sehen,",
+   "words": [
+    {
+     "start": 83.96,
+     "end": 84.38,
+     "word": "die"
+    },
+    {
+     "start": 84.38,
+     "end": 84.72,
+     "word": "können"
+    },
+    {
+     "start": 84.72,
+     "end": 85.08,
+     "word": "nicht"
+    },
+    {
+     "start": 85.08,
+     "end": 85.62,
+     "word": "sehen,"
+    }
+   ]
+  },
+  {
+   "start": 87.02,
+   "end": 89.4,
+   "text": "die können sich nicht einmal bewegen.",
+   "words": [
+    {
+     "start": 87.02,
+     "end": 87.22,
+     "word": "die"
+    },
+    {
+     "start": 87.22,
+     "end": 87.5,
+     "word": "können"
+    },
+    {
+     "start": 87.5,
+     "end": 87.84,
+     "word": "sich"
+    },
+    {
+     "start": 87.84,
+     "end": 88.24,
+     "word": "nicht"
+    },
+    {
+     "start": 88.24,
+     "end": 88.68,
+     "word": "einmal"
+    },
+    {
+     "start": 88.68,
+     "end": 89.4,
+     "word": "bewegen."
+    }
+   ]
+  },
+  {
+   "start": 90.88,
+   "end": 93.12,
+   "text": "Und er sagte zu seinem Vater,",
+   "words": [
+    {
+     "start": 90.88,
+     "end": 91.3,
+     "word": "Und"
+    },
+    {
+     "start": 91.3,
+     "end": 91.56,
+     "word": "er"
+    },
+    {
+     "start": 91.56,
+     "end": 91.94,
+     "word": "sagte"
+    },
+    {
+     "start": 91.94,
+     "end": 92.24,
+     "word": "zu"
+    },
+    {
+     "start": 92.24,
+     "end": 92.46,
+     "word": "seinem"
+    },
+    {
+     "start": 92.46,
+     "end": 93.12,
+     "word": "Vater,"
+    }
+   ]
+  },
+  {
+   "start": 94.6,
+   "end": 95.76,
+   "text": "mein lieber Vater,",
+   "words": [
+    {
+     "start": 94.6,
+     "end": 94.82,
+     "word": "mein"
+    },
+    {
+     "start": 94.82,
+     "end": 95.18,
+     "word": "lieber"
+    },
+    {
+     "start": 95.18,
+     "end": 95.76,
+     "word": "Vater,"
+    }
+   ]
+  },
+  {
+   "start": 96.96,
+   "end": 98.94,
+   "text": "warum betest Du etwas an,",
+   "words": [
+    {
+     "start": 96.96,
+     "end": 97.28,
+     "word": "warum"
+    },
+    {
+     "start": 97.28,
+     "end": 97.8,
+     "word": "betest"
+    },
+    {
+     "start": 97.8,
+     "end": 97.98,
+     "word": "Du"
+    },
+    {
+     "start": 97.98,
+     "end": 98.28,
+     "word": "etwas"
+    },
+    {
+     "start": 98.28,
+     "end": 98.94,
+     "word": "an,"
+    }
+   ]
+  },
+  {
+   "start": 99.04,
+   "end": 100.18,
+   "text": "das nicht hört",
+   "words": [
+    {
+     "start": 99.04,
+     "end": 99.36,
+     "word": "das"
+    },
+    {
+     "start": 99.36,
+     "end": 99.7,
+     "word": "nicht"
+    },
+    {
+     "start": 99.7,
+     "end": 100.18,
+     "word": "hört"
+    }
+   ]
+  },
+  {
+   "start": 100.18,
+   "end": 101.7,
+   "text": "und nicht sieht",
+   "words": [
+    {
+     "start": 100.18,
+     "end": 100.86,
+     "word": "und"
+    },
+    {
+     "start": 100.86,
+     "end": 101.24,
+     "word": "nicht"
+    },
+    {
+     "start": 101.24,
+     "end": 101.7,
+     "word": "sieht"
+    }
+   ]
+  },
+  {
+   "start": 102.36,
+   "end": 104.82,
+   "text": "und Dir überhaupt nicht helfen kann?",
+   "words": [
+    {
+     "start": 102.36,
+     "end": 102.78,
+     "word": "und"
+    },
+    {
+     "start": 102.78,
+     "end": 103.14,
+     "word": "Dir"
+    },
+    {
+     "start": 103.14,
+     "end": 103.84,
+     "word": "überhaupt"
+    },
+    {
+     "start": 103.84,
+     "end": 104.08,
+     "word": "nicht"
+    },
+    {
+     "start": 104.08,
+     "end": 104.48,
+     "word": "helfen"
+    },
+    {
+     "start": 104.48,
+     "end": 104.82,
+     "word": "kann?"
+    }
+   ]
+  },
+  {
+   "start": 104.92,
+   "end": 106.98,
+   "text": "Und was hat sein Papa gesagt?",
+   "words": [
+    {
+     "start": 104.92,
+     "end": 105.36,
+     "word": "Und"
+    },
+    {
+     "start": 105.36,
+     "end": 105.62,
+     "word": "was"
+    },
+    {
+     "start": 105.62,
+     "end": 105.8,
+     "word": "hat"
+    },
+    {
+     "start": 105.8,
+     "end": 105.98,
+     "word": "sein"
+    },
+    {
+     "start": 105.98,
+     "end": 106.28,
+     "word": "Papa"
+    },
+    {
+     "start": 106.28,
+     "end": 106.98,
+     "word": "gesagt?"
+    }
+   ]
+  },
+  {
+   "start": 107.12,
+   "end": 110.14,
+   "text": "Er wurde sehr, sehr wütend.",
+   "words": [
+    {
+     "start": 107.12,
+     "end": 107.64,
+     "word": "Er"
+    },
+    {
+     "start": 107.64,
+     "end": 108.0,
+     "word": "wurde"
+    },
+    {
+     "start": 108.0,
+     "end": 108.7,
+     "word": "sehr,"
+    },
+    {
+     "start": 108.7,
+     "end": 109.36,
+     "word": "sehr"
+    },
+    {
+     "start": 109.36,
+     "end": 110.14,
+     "word": "wütend."
+    }
+   ]
+  },
+  {
+   "start": 111.14,
+   "end": 114.34,
+   "text": "Aber Ibrahim blieb trotzdem freundlich zu ihm.",
+   "words": [
+    {
+     "start": 111.08,
+     "end": 111.52,
+     "word": "Aber"
+    },
+    {
+     "start": 111.52,
+     "end": 112.22,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 112.22,
+     "end": 112.58,
+     "word": "blieb"
+    },
+    {
+     "start": 112.58,
+     "end": 113.14,
+     "word": "trotzdem"
+    },
+    {
+     "start": 113.14,
+     "end": 113.78,
+     "word": "freundlich"
+    },
+    {
+     "start": 113.78,
+     "end": 114.06,
+     "word": "zu"
+    },
+    {
+     "start": 114.06,
+     "end": 114.34,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 115.22,
+   "end": 116.22,
+   "text": "Er sagte nur,",
+   "words": [
+    {
+     "start": 115.22,
+     "end": 115.44,
+     "word": "Er"
+    },
+    {
+     "start": 115.44,
+     "end": 115.78,
+     "word": "sagte"
+    },
+    {
+     "start": 115.78,
+     "end": 116.22,
+     "word": "nur,"
+    }
+   ]
+  },
+  {
+   "start": 117.2,
+   "end": 118.86,
+   "text": "Friede sei mit Dir, mein Vater.",
+   "words": [
+    {
+     "start": 117.2,
+     "end": 117.6,
+     "word": "Friede"
+    },
+    {
+     "start": 117.6,
+     "end": 117.72,
+     "word": "sei"
+    },
+    {
+     "start": 117.72,
+     "end": 117.92,
+     "word": "mit"
+    },
+    {
+     "start": 117.92,
+     "end": 118.12,
+     "word": "Dir,"
+    },
+    {
+     "start": 118.2,
+     "end": 118.36,
+     "word": "mein"
+    },
+    {
+     "start": 118.36,
+     "end": 118.86,
+     "word": "Vater."
+    }
+   ]
+  },
+  {
+   "start": 119.14,
+   "end": 124.92,
+   "text": "Eines Nachts schaute Ibrahim mit seinem Volk hinauf in den Himmel.",
+   "words": [
+    {
+     "start": 119.14,
+     "end": 119.62,
+     "word": "Eines"
+    },
+    {
+     "start": 119.62,
+     "end": 120.64,
+     "word": "Nachts"
+    },
+    {
+     "start": 120.64,
+     "end": 121.14,
+     "word": "schaute"
+    },
+    {
+     "start": 121.14,
+     "end": 121.9,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 121.9,
+     "end": 122.16,
+     "word": "mit"
+    },
+    {
+     "start": 122.16,
+     "end": 122.5,
+     "word": "seinem"
+    },
+    {
+     "start": 122.5,
+     "end": 123.1,
+     "word": "Volk"
+    },
+    {
+     "start": 123.1,
+     "end": 123.68,
+     "word": "hinauf"
+    },
+    {
+     "start": 123.68,
+     "end": 123.9,
+     "word": "in"
+    },
+    {
+     "start": 123.9,
+     "end": 124.12,
+     "word": "den"
+    },
+    {
+     "start": 124.12,
+     "end": 124.92,
+     "word": "Himmel."
+    }
+   ]
+  },
+  {
+   "start": 125.82,
+   "end": 128.14,
+   "text": "Da funkelte ein heller Stern.",
+   "words": [
+    {
+     "start": 125.82,
+     "end": 126.18,
+     "word": "Da"
+    },
+    {
+     "start": 126.18,
+     "end": 126.9,
+     "word": "funkelte"
+    },
+    {
+     "start": 126.9,
+     "end": 127.2,
+     "word": "ein"
+    },
+    {
+     "start": 127.2,
+     "end": 127.6,
+     "word": "heller"
+    },
+    {
+     "start": 127.6,
+     "end": 128.14,
+     "word": "Stern."
+    }
+   ]
+  },
+  {
+   "start": 129.46,
+   "end": 130.44,
+   "text": "Ibrahim sagte,",
+   "words": [
+    {
+     "start": 129.46,
+     "end": 129.98,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 129.98,
+     "end": 130.44,
+     "word": "sagte,"
+    }
+   ]
+  },
+  {
+   "start": 131.28,
+   "end": 132.96,
+   "text": "das ist mein Herr.",
+   "words": [
+    {
+     "start": 131.28,
+     "end": 131.72,
+     "word": "das"
+    },
+    {
+     "start": 131.72,
+     "end": 132.22,
+     "word": "ist"
+    },
+    {
+     "start": 132.22,
+     "end": 132.42,
+     "word": "mein"
+    },
+    {
+     "start": 132.42,
+     "end": 132.96,
+     "word": "Herr."
+    }
+   ]
+  },
+  {
+   "start": 134.7,
+   "end": 136.88,
+   "text": "Doch als der Stern verschwand,",
+   "words": [
+    {
+     "start": 134.7,
+     "end": 135.0,
+     "word": "Doch"
+    },
+    {
+     "start": 135.0,
+     "end": 135.4,
+     "word": "als"
+    },
+    {
+     "start": 135.4,
+     "end": 135.76,
+     "word": "der"
+    },
+    {
+     "start": 135.76,
+     "end": 136.0,
+     "word": "Stern"
+    },
+    {
+     "start": 136.0,
+     "end": 136.88,
+     "word": "verschwand,"
+    }
+   ]
+  },
+  {
+   "start": 137.22,
+   "end": 137.88,
+   "text": "sagte er,",
+   "words": [
+    {
+     "start": 137.22,
+     "end": 137.42,
+     "word": "sagte"
+    },
+    {
+     "start": 137.42,
+     "end": 137.88,
+     "word": "er,"
+    }
+   ]
+  },
+  {
+   "start": 138.78,
+   "end": 141.56,
+   "text": "ich liebe nicht die, die verschwinden.",
+   "words": [
+    {
+     "start": 138.54,
+     "end": 138.98,
+     "word": "ich"
+    },
+    {
+     "start": 138.98,
+     "end": 139.4,
+     "word": "liebe"
+    },
+    {
+     "start": 139.4,
+     "end": 139.88,
+     "word": "nicht"
+    },
+    {
+     "start": 139.88,
+     "end": 140.38,
+     "word": "die,"
+    },
+    {
+     "start": 140.5,
+     "end": 140.72,
+     "word": "die"
+    },
+    {
+     "start": 140.72,
+     "end": 141.56,
+     "word": "verschwinden."
+    }
+   ]
+  },
+  {
+   "start": 141.74,
+   "end": 144.08,
+   "text": "Dann stieg der Mond auf,",
+   "words": [
+    {
+     "start": 141.74,
+     "end": 142.22,
+     "word": "Dann"
+    },
+    {
+     "start": 142.22,
+     "end": 142.64,
+     "word": "stieg"
+    },
+    {
+     "start": 142.64,
+     "end": 142.9,
+     "word": "der"
+    },
+    {
+     "start": 142.9,
+     "end": 143.2,
+     "word": "Mond"
+    },
+    {
+     "start": 143.2,
+     "end": 144.08,
+     "word": "auf,"
+    }
+   ]
+  },
+  {
+   "start": 144.58,
+   "end": 146.7,
+   "text": "groß und silbern.",
+   "words": [
+    {
+     "start": 144.58,
+     "end": 145.18,
+     "word": "groß"
+    },
+    {
+     "start": 145.18,
+     "end": 145.94,
+     "word": "und"
+    },
+    {
+     "start": 145.94,
+     "end": 146.7,
+     "word": "silbern."
+    }
+   ]
+  },
+  {
+   "start": 147.94,
+   "end": 149.88,
+   "text": "Das ist mein Herr.",
+   "words": [
+    {
+     "start": 147.94,
+     "end": 148.42,
+     "word": "Das"
+    },
+    {
+     "start": 148.42,
+     "end": 149.06,
+     "word": "ist"
+    },
+    {
+     "start": 149.06,
+     "end": 149.32,
+     "word": "mein"
+    },
+    {
+     "start": 149.32,
+     "end": 149.88,
+     "word": "Herr."
+    }
+   ]
+  },
+  {
+   "start": 152.0,
+   "end": 154.24,
+   "text": "Doch auch der Mond ging unter.",
+   "words": [
+    {
+     "start": 152.0,
+     "end": 152.18,
+     "word": "Doch"
+    },
+    {
+     "start": 152.18,
+     "end": 152.46,
+     "word": "auch"
+    },
+    {
+     "start": 152.46,
+     "end": 152.72,
+     "word": "der"
+    },
+    {
+     "start": 152.72,
+     "end": 153.28,
+     "word": "Mond"
+    },
+    {
+     "start": 153.28,
+     "end": 153.66,
+     "word": "ging"
+    },
+    {
+     "start": 153.66,
+     "end": 154.24,
+     "word": "unter."
+    }
+   ]
+  },
+  {
+   "start": 154.42,
+   "end": 156.7,
+   "text": "Am Morgen kam die Sonne,",
+   "words": [
+    {
+     "start": 154.42,
+     "end": 154.7,
+     "word": "Am"
+    },
+    {
+     "start": 154.7,
+     "end": 155.14,
+     "word": "Morgen"
+    },
+    {
+     "start": 155.14,
+     "end": 155.42,
+     "word": "kam"
+    },
+    {
+     "start": 155.42,
+     "end": 155.7,
+     "word": "die"
+    },
+    {
+     "start": 155.7,
+     "end": 156.7,
+     "word": "Sonne,"
+    }
+   ]
+  },
+  {
+   "start": 157.26,
+   "end": 158.96,
+   "text": "riesig und strahlend.",
+   "words": [
+    {
+     "start": 157.26,
+     "end": 157.7,
+     "word": "riesig"
+    },
+    {
+     "start": 157.7,
+     "end": 158.1,
+     "word": "und"
+    },
+    {
+     "start": 158.1,
+     "end": 158.96,
+     "word": "strahlend."
+    }
+   ]
+  },
+  {
+   "start": 159.78,
+   "end": 161.2,
+   "text": "Das ist mein Herr,",
+   "words": [
+    {
+     "start": 159.78,
+     "end": 160.12,
+     "word": "Das"
+    },
+    {
+     "start": 160.12,
+     "end": 160.48,
+     "word": "ist"
+    },
+    {
+     "start": 160.48,
+     "end": 160.76,
+     "word": "mein"
+    },
+    {
+     "start": 160.76,
+     "end": 161.2,
+     "word": "Herr,"
+    }
+   ]
+  },
+  {
+   "start": 161.58,
+   "end": 163.7,
+   "text": "das ist das Größte.",
+   "words": [
+    {
+     "start": 161.58,
+     "end": 161.84,
+     "word": "das"
+    },
+    {
+     "start": 161.84,
+     "end": 162.06,
+     "word": "ist"
+    },
+    {
+     "start": 162.06,
+     "end": 162.44,
+     "word": "das"
+    },
+    {
+     "start": 162.44,
+     "end": 163.7,
+     "word": "Größte."
+    }
+   ]
+  },
+  {
+   "start": 164.78,
+   "end": 166.62,
+   "text": "Doch am Abend",
+   "words": [
+    {
+     "start": 164.78,
+     "end": 165.2,
+     "word": "Doch"
+    },
+    {
+     "start": 165.2,
+     "end": 165.72,
+     "word": "am"
+    },
+    {
+     "start": 165.72,
+     "end": 166.62,
+     "word": "Abend"
+    }
+   ]
+  },
+  {
+   "start": 167.22,
+   "end": 169.56,
+   "text": "ging auch die Sonne unter.",
+   "words": [
+    {
+     "start": 167.17,
+     "end": 167.58,
+     "word": "ging"
+    },
+    {
+     "start": 167.58,
+     "end": 168.16,
+     "word": "auch"
+    },
+    {
+     "start": 168.16,
+     "end": 168.5,
+     "word": "die"
+    },
+    {
+     "start": 168.5,
+     "end": 168.9,
+     "word": "Sonne"
+    },
+    {
+     "start": 168.9,
+     "end": 169.56,
+     "word": "unter."
+    }
+   ]
+  },
+  {
+   "start": 170.86,
+   "end": 172.42,
+   "text": "Da rief Ibrahim,",
+   "words": [
+    {
+     "start": 170.86,
+     "end": 171.24,
+     "word": "Da"
+    },
+    {
+     "start": 171.24,
+     "end": 171.66,
+     "word": "rief"
+    },
+    {
+     "start": 171.66,
+     "end": 172.42,
+     "word": "Ibrahim,"
+    }
+   ]
+  },
+  {
+   "start": 172.96,
+   "end": 173.86,
+   "text": "mein Volk,",
+   "words": [
+    {
+     "start": 172.96,
+     "end": 173.16,
+     "word": "mein"
+    },
+    {
+     "start": 173.16,
+     "end": 173.86,
+     "word": "Volk,"
+    }
+   ]
+  },
+  {
+   "start": 174.06,
+   "end": 176.32,
+   "text": "ich habe nichts mit dem zu tun,",
+   "words": [
+    {
+     "start": 174.06,
+     "end": 174.3,
+     "word": "ich"
+    },
+    {
+     "start": 174.3,
+     "end": 174.7,
+     "word": "habe"
+    },
+    {
+     "start": 174.7,
+     "end": 175.24,
+     "word": "nichts"
+    },
+    {
+     "start": 175.24,
+     "end": 175.52,
+     "word": "mit"
+    },
+    {
+     "start": 175.52,
+     "end": 175.74,
+     "word": "dem"
+    },
+    {
+     "start": 175.74,
+     "end": 176.1,
+     "word": "zu"
+    },
+    {
+     "start": 176.1,
+     "end": 176.32,
+     "word": "tun,"
+    }
+   ]
+  },
+  {
+   "start": 176.36,
+   "end": 177.74,
+   "text": "was Ihr anbetet.",
+   "words": [
+    {
+     "start": 176.36,
+     "end": 176.6,
+     "word": "was"
+    },
+    {
+     "start": 176.6,
+     "end": 176.82,
+     "word": "Ihr"
+    },
+    {
+     "start": 176.82,
+     "end": 177.74,
+     "word": "anbetet."
+    }
+   ]
+  },
+  {
+   "start": 178.78,
+   "end": 180.74,
+   "text": "Ich wende mich dem zu,",
+   "words": [
+    {
+     "start": 178.78,
+     "end": 179.26,
+     "word": "Ich"
+    },
+    {
+     "start": 179.26,
+     "end": 179.62,
+     "word": "wende"
+    },
+    {
+     "start": 179.62,
+     "end": 179.96,
+     "word": "mich"
+    },
+    {
+     "start": 179.96,
+     "end": 180.24,
+     "word": "dem"
+    },
+    {
+     "start": 180.24,
+     "end": 180.74,
+     "word": "zu,"
+    }
+   ]
+  },
+  {
+   "start": 181.16,
+   "end": 182.28,
+   "text": "der die Himmel",
+   "words": [
+    {
+     "start": 181.16,
+     "end": 181.36,
+     "word": "der"
+    },
+    {
+     "start": 181.36,
+     "end": 181.7,
+     "word": "die"
+    },
+    {
+     "start": 181.7,
+     "end": 182.28,
+     "word": "Himmel"
+    }
+   ]
+  },
+  {
+   "start": 182.28,
+   "end": 184.46,
+   "text": "und die Erde erschaffen hat.",
+   "words": [
+    {
+     "start": 182.28,
+     "end": 182.86,
+     "word": "und"
+    },
+    {
+     "start": 182.86,
+     "end": 183.22,
+     "word": "die"
+    },
+    {
+     "start": 183.22,
+     "end": 183.52,
+     "word": "Erde"
+    },
+    {
+     "start": 183.52,
+     "end": 184.12,
+     "word": "erschaffen"
+    },
+    {
+     "start": 184.12,
+     "end": 184.46,
+     "word": "hat."
+    }
+   ]
+  },
+  {
+   "start": 185.02,
+   "end": 185.84,
+   "text": "Oma,",
+   "words": [
+    {
+     "start": 185.02,
+     "end": 185.84,
+     "word": "Oma,"
+    }
+   ]
+  },
+  {
+   "start": 186.36,
+   "end": 188.66,
+   "text": "wusste Ibrahim das denn nicht schon vorher?",
+   "words": [
+    {
+     "start": 186.36,
+     "end": 186.64,
+     "word": "wusste"
+    },
+    {
+     "start": 186.64,
+     "end": 187.16,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 187.16,
+     "end": 187.4,
+     "word": "das"
+    },
+    {
+     "start": 187.4,
+     "end": 187.6,
+     "word": "denn"
+    },
+    {
+     "start": 187.6,
+     "end": 187.8,
+     "word": "nicht"
+    },
+    {
+     "start": 187.8,
+     "end": 188.16,
+     "word": "schon"
+    },
+    {
+     "start": 188.16,
+     "end": 188.66,
+     "word": "vorher?"
+    }
+   ]
+  },
+  {
+   "start": 189.0,
+   "end": 190.26,
+   "text": "Kluge Frage.",
+   "words": [
+    {
+     "start": 189.0,
+     "end": 189.64,
+     "word": "Kluge"
+    },
+    {
+     "start": 189.64,
+     "end": 190.26,
+     "word": "Frage."
+    }
+   ]
+  },
+  {
+   "start": 191.3,
+   "end": 191.78,
+   "text": "Doch",
+   "words": [
+    {
+     "start": 191.3,
+     "end": 191.78,
+     "word": "Doch"
+    }
+   ]
+  },
+  {
+   "start": 192.42,
+   "end": 193.68,
+   "text": "er wusste es.",
+   "words": [
+    {
+     "start": 192.29,
+     "end": 192.7,
+     "word": "er"
+    },
+    {
+     "start": 192.7,
+     "end": 193.12,
+     "word": "wusste"
+    },
+    {
+     "start": 193.12,
+     "end": 193.68,
+     "word": "es."
+    }
+   ]
+  },
+  {
+   "start": 194.58,
+   "end": 197.7,
+   "text": "Er wollte seinem Volk etwas zeigen.",
+   "words": [
+    {
+     "start": 194.27,
+     "end": 194.76,
+     "word": "Er"
+    },
+    {
+     "start": 194.76,
+     "end": 195.28,
+     "word": "wollte"
+    },
+    {
+     "start": 195.28,
+     "end": 195.66,
+     "word": "seinem"
+    },
+    {
+     "start": 195.66,
+     "end": 196.3,
+     "word": "Volk"
+    },
+    {
+     "start": 196.3,
+     "end": 196.8,
+     "word": "etwas"
+    },
+    {
+     "start": 196.8,
+     "end": 197.7,
+     "word": "zeigen."
+    }
+   ]
+  },
+  {
+   "start": 198.78,
+   "end": 200.76,
+   "text": "Alles, was verschwindet,",
+   "words": [
+    {
+     "start": 198.78,
+     "end": 199.22,
+     "word": "Alles,"
+    },
+    {
+     "start": 199.22,
+     "end": 199.54,
+     "word": "was"
+    },
+    {
+     "start": 199.54,
+     "end": 200.76,
+     "word": "verschwindet,"
+    }
+   ]
+  },
+  {
+   "start": 201.06,
+   "end": 202.64,
+   "text": "kann nicht Gott sein.",
+   "words": [
+    {
+     "start": 201.06,
+     "end": 201.32,
+     "word": "kann"
+    },
+    {
+     "start": 201.32,
+     "end": 201.78,
+     "word": "nicht"
+    },
+    {
+     "start": 201.78,
+     "end": 202.08,
+     "word": "Gott"
+    },
+    {
+     "start": 202.08,
+     "end": 202.64,
+     "word": "sein."
+    }
+   ]
+  },
+  {
+   "start": 203.7,
+   "end": 205.0,
+   "text": "Nur Allah",
+   "words": [
+    {
+     "start": 203.7,
+     "end": 204.14,
+     "word": "Nur"
+    },
+    {
+     "start": 204.14,
+     "end": 205.0,
+     "word": "Allah"
+    }
+   ]
+  },
+  {
+   "start": 205.0,
+   "end": 206.3,
+   "text": "bleibt für immer.",
+   "words": [
+    {
+     "start": 205.0,
+     "end": 205.66,
+     "word": "bleibt"
+    },
+    {
+     "start": 205.66,
+     "end": 205.96,
+     "word": "für"
+    },
+    {
+     "start": 205.96,
+     "end": 206.3,
+     "word": "immer."
+    }
+   ]
+  },
+  {
+   "start": 206.6,
+   "end": 209.64,
+   "text": "Ibrahim hatte einen mutigen Plan.",
+   "words": [
+    {
+     "start": 206.6,
+     "end": 207.32,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 207.32,
+     "end": 207.72,
+     "word": "hatte"
+    },
+    {
+     "start": 207.72,
+     "end": 208.32,
+     "word": "einen"
+    },
+    {
+     "start": 208.32,
+     "end": 209.14,
+     "word": "mutigen"
+    },
+    {
+     "start": 209.14,
+     "end": 209.64,
+     "word": "Plan."
+    }
+   ]
+  },
+  {
+   "start": 210.9,
+   "end": 213.58,
+   "text": "Als die Leute die Stadt verlassen hatten,",
+   "words": [
+    {
+     "start": 210.9,
+     "end": 211.32,
+     "word": "Als"
+    },
+    {
+     "start": 211.32,
+     "end": 211.62,
+     "word": "die"
+    },
+    {
+     "start": 211.62,
+     "end": 211.92,
+     "word": "Leute"
+    },
+    {
+     "start": 211.92,
+     "end": 212.16,
+     "word": "die"
+    },
+    {
+     "start": 212.16,
+     "end": 212.46,
+     "word": "Stadt"
+    },
+    {
+     "start": 212.46,
+     "end": 212.94,
+     "word": "verlassen"
+    },
+    {
+     "start": 212.94,
+     "end": 213.58,
+     "word": "hatten,"
+    }
+   ]
+  },
+  {
+   "start": 214.32,
+   "end": 218.3,
+   "text": "ging er ganz leise in den Tempel.",
+   "words": [
+    {
+     "start": 214.32,
+     "end": 214.38,
+     "word": "ging"
+    },
+    {
+     "start": 214.38,
+     "end": 214.64,
+     "word": "er"
+    },
+    {
+     "start": 214.64,
+     "end": 215.48,
+     "word": "ganz"
+    },
+    {
+     "start": 215.48,
+     "end": 216.18,
+     "word": "leise"
+    },
+    {
+     "start": 216.18,
+     "end": 216.62,
+     "word": "in"
+    },
+    {
+     "start": 216.62,
+     "end": 216.88,
+     "word": "den"
+    },
+    {
+     "start": 216.88,
+     "end": 218.3,
+     "word": "Tempel."
+    }
+   ]
+  },
+  {
+   "start": 219.34,
+   "end": 220.32,
+   "text": "Tapp,",
+   "words": [
+    {
+     "start": 219.34,
+     "end": 220.32,
+     "word": "Tapp,"
+    }
+   ]
+  },
+  {
+   "start": 220.62,
+   "end": 221.56,
+   "text": "tapp,",
+   "words": [
+    {
+     "start": 220.62,
+     "end": 221.56,
+     "word": "tapp,"
+    }
+   ]
+  },
+  {
+   "start": 221.92,
+   "end": 222.36,
+   "text": "tapp.",
+   "words": [
+    {
+     "start": 221.92,
+     "end": 222.36,
+     "word": "tapp."
+    }
+   ]
+  },
+  {
+   "start": 223.16,
+   "end": 225.2,
+   "text": "Da standen die Statuen",
+   "words": [
+    {
+     "start": 223.01,
+     "end": 223.48,
+     "word": "Da"
+    },
+    {
+     "start": 223.48,
+     "end": 224.02,
+     "word": "standen"
+    },
+    {
+     "start": 224.02,
+     "end": 224.3,
+     "word": "die"
+    },
+    {
+     "start": 224.3,
+     "end": 225.2,
+     "word": "Statuen"
+    }
+   ]
+  },
+  {
+   "start": 225.2,
+   "end": 227.24,
+   "text": "mit Essen vor sich",
+   "words": [
+    {
+     "start": 225.2,
+     "end": 225.94,
+     "word": "mit"
+    },
+    {
+     "start": 225.94,
+     "end": 226.32,
+     "word": "Essen"
+    },
+    {
+     "start": 226.32,
+     "end": 226.74,
+     "word": "vor"
+    },
+    {
+     "start": 226.74,
+     "end": 227.24,
+     "word": "sich"
+    }
+   ]
+  },
+  {
+   "start": 227.96,
+   "end": 230.22,
+   "text": "und Ibrahim fragte sie,",
+   "words": [
+    {
+     "start": 227.96,
+     "end": 228.52,
+     "word": "und"
+    },
+    {
+     "start": 228.52,
+     "end": 229.22,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 229.22,
+     "end": 229.82,
+     "word": "fragte"
+    },
+    {
+     "start": 229.82,
+     "end": 230.22,
+     "word": "sie,"
+    }
+   ]
+  },
+  {
+   "start": 231.2,
+   "end": 232.66,
+   "text": "warum esst Ihr nicht?",
+   "words": [
+    {
+     "start": 231.2,
+     "end": 231.56,
+     "word": "warum"
+    },
+    {
+     "start": 231.56,
+     "end": 232.0,
+     "word": "esst"
+    },
+    {
+     "start": 232.0,
+     "end": 232.14,
+     "word": "Ihr"
+    },
+    {
+     "start": 232.14,
+     "end": 232.66,
+     "word": "nicht?"
+    }
+   ]
+  },
+  {
+   "start": 233.72,
+   "end": 235.28,
+   "text": "Warum sprecht Ihr nicht?",
+   "words": [
+    {
+     "start": 233.72,
+     "end": 234.1,
+     "word": "Warum"
+    },
+    {
+     "start": 234.1,
+     "end": 234.68,
+     "word": "sprecht"
+    },
+    {
+     "start": 234.68,
+     "end": 234.88,
+     "word": "Ihr"
+    },
+    {
+     "start": 234.88,
+     "end": 235.28,
+     "word": "nicht?"
+    }
+   ]
+  },
+  {
+   "start": 235.42,
+   "end": 236.92,
+   "text": "Und dann",
+   "words": [
+    {
+     "start": 235.42,
+     "end": 235.86,
+     "word": "Und"
+    },
+    {
+     "start": 235.86,
+     "end": 236.92,
+     "word": "dann"
+    }
+   ]
+  },
+  {
+   "start": 236.92,
+   "end": 238.08,
+   "text": "Krach.",
+   "words": [
+    {
+     "start": 236.92,
+     "end": 238.08,
+     "word": "Krach."
+    }
+   ]
+  },
+  {
+   "start": 238.74,
+   "end": 240.96,
+   "text": "Er zerschlug sie alle.",
+   "words": [
+    {
+     "start": 238.74,
+     "end": 239.02,
+     "word": "Er"
+    },
+    {
+     "start": 239.02,
+     "end": 239.76,
+     "word": "zerschlug"
+    },
+    {
+     "start": 239.76,
+     "end": 240.28,
+     "word": "sie"
+    },
+    {
+     "start": 240.28,
+     "end": 240.96,
+     "word": "alle."
+    }
+   ]
+  },
+  {
+   "start": 244.28,
+   "end": 246.7,
+   "text": "Bis auf die größte Statue.",
+   "words": [
+    {
+     "start": 244.28,
+     "end": 244.56,
+     "word": "Bis"
+    },
+    {
+     "start": 244.56,
+     "end": 244.9,
+     "word": "auf"
+    },
+    {
+     "start": 244.9,
+     "end": 245.2,
+     "word": "die"
+    },
+    {
+     "start": 245.2,
+     "end": 245.98,
+     "word": "größte"
+    },
+    {
+     "start": 245.98,
+     "end": 246.7,
+     "word": "Statue."
+    }
+   ]
+  },
+  {
+   "start": 246.78,
+   "end": 249.58,
+   "text": "Als die Leute zurück kamen, riefen sie,",
+   "words": [
+    {
+     "start": 246.78,
+     "end": 247.16,
+     "word": "Als"
+    },
+    {
+     "start": 247.16,
+     "end": 247.46,
+     "word": "die"
+    },
+    {
+     "start": 247.46,
+     "end": 247.8,
+     "word": "Leute"
+    },
+    {
+     "start": 247.8,
+     "end": 248.34,
+     "word": "zurück"
+    },
+    {
+     "start": 248.34,
+     "end": 248.76,
+     "word": "kamen,"
+    },
+    {
+     "start": 249.0,
+     "end": 249.24,
+     "word": "riefen"
+    },
+    {
+     "start": 249.24,
+     "end": 249.58,
+     "word": "sie,"
+    }
+   ]
+  },
+  {
+   "start": 249.58,
+   "end": 253.8,
+   "text": "wer hat das unseren Göttern angetan?",
+   "words": [
+    {
+     "start": 249.58,
+     "end": 250.58,
+     "word": "wer"
+    },
+    {
+     "start": 250.58,
+     "end": 250.88,
+     "word": "hat"
+    },
+    {
+     "start": 250.88,
+     "end": 251.16,
+     "word": "das"
+    },
+    {
+     "start": 251.16,
+     "end": 251.58,
+     "word": "unseren"
+    },
+    {
+     "start": 251.58,
+     "end": 252.12,
+     "word": "Göttern"
+    },
+    {
+     "start": 252.12,
+     "end": 253.8,
+     "word": "angetan?"
+    }
+   ]
+  },
+  {
+   "start": 254.42,
+   "end": 255.62,
+   "text": "Einige sagten,",
+   "words": [
+    {
+     "start": 254.42,
+     "end": 254.9,
+     "word": "Einige"
+    },
+    {
+     "start": 254.9,
+     "end": 255.62,
+     "word": "sagten,"
+    }
+   ]
+  },
+  {
+   "start": 256.22,
+   "end": 259.4,
+   "text": "wir haben einen jungen Mann über sie reden hören.",
+   "words": [
+    {
+     "start": 256.22,
+     "end": 256.5,
+     "word": "wir"
+    },
+    {
+     "start": 256.5,
+     "end": 256.9,
+     "word": "haben"
+    },
+    {
+     "start": 256.9,
+     "end": 257.3,
+     "word": "einen"
+    },
+    {
+     "start": 257.3,
+     "end": 257.7,
+     "word": "jungen"
+    },
+    {
+     "start": 257.7,
+     "end": 258.04,
+     "word": "Mann"
+    },
+    {
+     "start": 258.04,
+     "end": 258.34,
+     "word": "über"
+    },
+    {
+     "start": 258.34,
+     "end": 258.56,
+     "word": "sie"
+    },
+    {
+     "start": 258.56,
+     "end": 258.88,
+     "word": "reden"
+    },
+    {
+     "start": 258.88,
+     "end": 259.4,
+     "word": "hören."
+    }
+   ]
+  },
+  {
+   "start": 260.48,
+   "end": 262.1,
+   "text": "Er heißt Ibrahim.",
+   "words": [
+    {
+     "start": 260.48,
+     "end": 260.74,
+     "word": "Er"
+    },
+    {
+     "start": 260.74,
+     "end": 261.16,
+     "word": "heißt"
+    },
+    {
+     "start": 261.16,
+     "end": 262.1,
+     "word": "Ibrahim."
+    }
+   ]
+  },
+  {
+   "start": 263.54,
+   "end": 265.06,
+   "text": "Sie fragten ihn,",
+   "words": [
+    {
+     "start": 263.54,
+     "end": 263.9,
+     "word": "Sie"
+    },
+    {
+     "start": 263.9,
+     "end": 264.42,
+     "word": "fragten"
+    },
+    {
+     "start": 264.42,
+     "end": 265.06,
+     "word": "ihn,"
+    }
+   ]
+  },
+  {
+   "start": 265.84,
+   "end": 267.16,
+   "text": "warst du das Ibrahim?",
+   "words": [
+    {
+     "start": 265.84,
+     "end": 266.1,
+     "word": "warst"
+    },
+    {
+     "start": 266.1,
+     "end": 266.22,
+     "word": "du"
+    },
+    {
+     "start": 266.22,
+     "end": 266.52,
+     "word": "das"
+    },
+    {
+     "start": 266.52,
+     "end": 267.16,
+     "word": "Ibrahim?"
+    }
+   ]
+  },
+  {
+   "start": 268.5,
+   "end": 270.22,
+   "text": "Und Ibrahim sagte,",
+   "words": [
+    {
+     "start": 268.5,
+     "end": 269.0,
+     "word": "Und"
+    },
+    {
+     "start": 269.0,
+     "end": 269.64,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 269.64,
+     "end": 270.22,
+     "word": "sagte,"
+    }
+   ]
+  },
+  {
+   "start": 271.36,
+   "end": 273.98,
+   "text": "die größte von ihnen hat es getan.",
+   "words": [
+    {
+     "start": 271.36,
+     "end": 271.7,
+     "word": "die"
+    },
+    {
+     "start": 271.7,
+     "end": 272.3,
+     "word": "größte"
+    },
+    {
+     "start": 272.3,
+     "end": 272.56,
+     "word": "von"
+    },
+    {
+     "start": 272.56,
+     "end": 272.9,
+     "word": "ihnen"
+    },
+    {
+     "start": 272.9,
+     "end": 273.14,
+     "word": "hat"
+    },
+    {
+     "start": 273.14,
+     "end": 273.38,
+     "word": "es"
+    },
+    {
+     "start": 273.38,
+     "end": 273.98,
+     "word": "getan."
+    }
+   ]
+  },
+  {
+   "start": 275.44,
+   "end": 276.54,
+   "text": "Fragt sie doch,",
+   "words": [
+    {
+     "start": 275.44,
+     "end": 275.78,
+     "word": "Fragt"
+    },
+    {
+     "start": 275.78,
+     "end": 276.0,
+     "word": "sie"
+    },
+    {
+     "start": 276.0,
+     "end": 276.54,
+     "word": "doch,"
+    }
+   ]
+  },
+  {
+   "start": 276.98,
+   "end": 278.28,
+   "text": "wenn sie sprechen können.",
+   "words": [
+    {
+     "start": 276.98,
+     "end": 277.12,
+     "word": "wenn"
+    },
+    {
+     "start": 277.12,
+     "end": 277.38,
+     "word": "sie"
+    },
+    {
+     "start": 277.38,
+     "end": 277.9,
+     "word": "sprechen"
+    },
+    {
+     "start": 277.9,
+     "end": 278.28,
+     "word": "können."
+    }
+   ]
+  },
+  {
+   "start": 278.28,
+   "end": 281.2,
+   "text": "Da wurde es ganz still.",
+   "words": [
+    {
+     "start": 278.28,
+     "end": 278.62,
+     "word": "Da"
+    },
+    {
+     "start": 278.62,
+     "end": 279.04,
+     "word": "wurde"
+    },
+    {
+     "start": 279.04,
+     "end": 279.66,
+     "word": "es"
+    },
+    {
+     "start": 279.66,
+     "end": 280.54,
+     "word": "ganz"
+    },
+    {
+     "start": 280.54,
+     "end": 281.2,
+     "word": "still."
+    }
+   ]
+  },
+  {
+   "start": 282.58,
+   "end": 284.28,
+   "text": "Denn alle wussten,",
+   "words": [
+    {
+     "start": 282.58,
+     "end": 282.86,
+     "word": "Denn"
+    },
+    {
+     "start": 282.86,
+     "end": 283.22,
+     "word": "alle"
+    },
+    {
+     "start": 283.22,
+     "end": 284.28,
+     "word": "wussten,"
+    }
+   ]
+  },
+  {
+   "start": 284.76,
+   "end": 286.96,
+   "text": "diese Statuen können nicht sprechen.",
+   "words": [
+    {
+     "start": 284.76,
+     "end": 285.1,
+     "word": "diese"
+    },
+    {
+     "start": 285.1,
+     "end": 285.8,
+     "word": "Statuen"
+    },
+    {
+     "start": 285.8,
+     "end": 286.14,
+     "word": "können"
+    },
+    {
+     "start": 286.14,
+     "end": 286.48,
+     "word": "nicht"
+    },
+    {
+     "start": 286.48,
+     "end": 286.96,
+     "word": "sprechen."
+    }
+   ]
+  },
+  {
+   "start": 288.12,
+   "end": 290.16,
+   "text": "Das war aber schlau.",
+   "words": [
+    {
+     "start": 288.12,
+     "end": 288.84,
+     "word": "Das"
+    },
+    {
+     "start": 288.84,
+     "end": 289.12,
+     "word": "war"
+    },
+    {
+     "start": 289.12,
+     "end": 289.48,
+     "word": "aber"
+    },
+    {
+     "start": 289.48,
+     "end": 290.16,
+     "word": "schlau."
+    }
+   ]
+  },
+  {
+   "start": 290.16,
+   "end": 292.2,
+   "text": "Ja, mein Schatz.",
+   "words": [
+    {
+     "start": 290.16,
+     "end": 290.52,
+     "word": "Ja,"
+    },
+    {
+     "start": 290.64,
+     "end": 290.8,
+     "word": "mein"
+    },
+    {
+     "start": 290.8,
+     "end": 292.2,
+     "word": "Schatz."
+    }
+   ]
+  },
+  {
+   "start": 292.66,
+   "end": 293.7,
+   "text": "Ibrahim wollte,",
+   "words": [
+    {
+     "start": 292.66,
+     "end": 293.1,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 293.1,
+     "end": 293.7,
+     "word": "wollte,"
+    }
+   ]
+  },
+  {
+   "start": 294.14,
+   "end": 297.66,
+   "text": "dass sie selbst nachdenken und merken,",
+   "words": [
+    {
+     "start": 294.14,
+     "end": 294.36,
+     "word": "dass"
+    },
+    {
+     "start": 294.36,
+     "end": 294.64,
+     "word": "sie"
+    },
+    {
+     "start": 294.64,
+     "end": 295.1,
+     "word": "selbst"
+    },
+    {
+     "start": 295.1,
+     "end": 296.06,
+     "word": "nachdenken"
+    },
+    {
+     "start": 296.06,
+     "end": 296.42,
+     "word": "und"
+    },
+    {
+     "start": 296.42,
+     "end": 297.66,
+     "word": "merken,"
+    }
+   ]
+  },
+  {
+   "start": 298.22,
+   "end": 301.2,
+   "text": "eine Statue kann nichts tun,",
+   "words": [
+    {
+     "start": 298.22,
+     "end": 298.54,
+     "word": "eine"
+    },
+    {
+     "start": 298.54,
+     "end": 299.52,
+     "word": "Statue"
+    },
+    {
+     "start": 299.52,
+     "end": 300.04,
+     "word": "kann"
+    },
+    {
+     "start": 300.04,
+     "end": 300.64,
+     "word": "nichts"
+    },
+    {
+     "start": 300.64,
+     "end": 301.2,
+     "word": "tun,"
+    }
+   ]
+  },
+  {
+   "start": 302.28,
+   "end": 304.04,
+   "text": "nicht einmal sich selbst helfen.",
+   "words": [
+    {
+     "start": 302.28,
+     "end": 302.58,
+     "word": "nicht"
+    },
+    {
+     "start": 302.58,
+     "end": 302.98,
+     "word": "einmal"
+    },
+    {
+     "start": 302.98,
+     "end": 303.36,
+     "word": "sich"
+    },
+    {
+     "start": 303.36,
+     "end": 303.68,
+     "word": "selbst"
+    },
+    {
+     "start": 303.68,
+     "end": 304.04,
+     "word": "helfen."
+    }
+   ]
+  },
+  {
+   "start": 304.2,
+   "end": 306.16,
+   "text": "Aber statt nachzudenken,",
+   "words": [
+    {
+     "start": 304.2,
+     "end": 304.54,
+     "word": "Aber"
+    },
+    {
+     "start": 304.54,
+     "end": 304.86,
+     "word": "statt"
+    },
+    {
+     "start": 304.86,
+     "end": 306.16,
+     "word": "nachzudenken,"
+    }
+   ]
+  },
+  {
+   "start": 306.16,
+   "end": 308.52,
+   "text": "wurden die Leute noch wütender.",
+   "words": [
+    {
+     "start": 306.16,
+     "end": 306.6,
+     "word": "wurden"
+    },
+    {
+     "start": 306.6,
+     "end": 306.88,
+     "word": "die"
+    },
+    {
+     "start": 306.88,
+     "end": 307.2,
+     "word": "Leute"
+    },
+    {
+     "start": 307.2,
+     "end": 307.72,
+     "word": "noch"
+    },
+    {
+     "start": 307.72,
+     "end": 308.52,
+     "word": "wütender."
+    }
+   ]
+  },
+  {
+   "start": 309.28,
+   "end": 310.62,
+   "text": "Sie riefen,",
+   "words": [
+    {
+     "start": 309.28,
+     "end": 309.5,
+     "word": "Sie"
+    },
+    {
+     "start": 309.5,
+     "end": 310.62,
+     "word": "riefen,"
+    }
+   ]
+  },
+  {
+   "start": 310.86,
+   "end": 311.9,
+   "text": "verbrennt ihn.",
+   "words": [
+    {
+     "start": 310.86,
+     "end": 311.46,
+     "word": "verbrennt"
+    },
+    {
+     "start": 311.46,
+     "end": 311.9,
+     "word": "ihn."
+    }
+   ]
+  },
+  {
+   "start": 312.8,
+   "end": 314.16,
+   "text": "Sie sammelten Holz,",
+   "words": [
+    {
+     "start": 312.8,
+     "end": 313.06,
+     "word": "Sie"
+    },
+    {
+     "start": 313.06,
+     "end": 313.6,
+     "word": "sammelten"
+    },
+    {
+     "start": 313.6,
+     "end": 314.16,
+     "word": "Holz,"
+    }
+   ]
+  },
+  {
+   "start": 314.66,
+   "end": 316.42,
+   "text": "so viel Holz",
+   "words": [
+    {
+     "start": 314.66,
+     "end": 315.22,
+     "word": "so"
+    },
+    {
+     "start": 315.22,
+     "end": 315.7,
+     "word": "viel"
+    },
+    {
+     "start": 315.7,
+     "end": 316.42,
+     "word": "Holz"
+    }
+   ]
+  },
+  {
+   "start": 317.46,
+   "end": 319.88,
+   "text": "und machten ein riesiges Feuer.",
+   "words": [
+    {
+     "start": 317.4,
+     "end": 317.88,
+     "word": "und"
+    },
+    {
+     "start": 317.88,
+     "end": 318.4,
+     "word": "machten"
+    },
+    {
+     "start": 318.4,
+     "end": 318.66,
+     "word": "ein"
+    },
+    {
+     "start": 318.66,
+     "end": 319.34,
+     "word": "riesiges"
+    },
+    {
+     "start": 319.34,
+     "end": 319.88,
+     "word": "Feuer."
+    }
+   ]
+  },
+  {
+   "start": 320.66,
+   "end": 321.62,
+   "text": "So groß,",
+   "words": [
+    {
+     "start": 320.66,
+     "end": 321.04,
+     "word": "So"
+    },
+    {
+     "start": 321.04,
+     "end": 321.62,
+     "word": "groß,"
+    }
+   ]
+  },
+  {
+   "start": 322.12,
+   "end": 325.62,
+   "text": "dass die Flammen bis in den Himmel zu reichen schienen.",
+   "words": [
+    {
+     "start": 322.12,
+     "end": 322.22,
+     "word": "dass"
+    },
+    {
+     "start": 322.22,
+     "end": 322.6,
+     "word": "die"
+    },
+    {
+     "start": 322.6,
+     "end": 323.04,
+     "word": "Flammen"
+    },
+    {
+     "start": 323.04,
+     "end": 323.52,
+     "word": "bis"
+    },
+    {
+     "start": 323.52,
+     "end": 323.8,
+     "word": "in"
+    },
+    {
+     "start": 323.8,
+     "end": 324.02,
+     "word": "den"
+    },
+    {
+     "start": 324.02,
+     "end": 324.4,
+     "word": "Himmel"
+    },
+    {
+     "start": 324.4,
+     "end": 324.7,
+     "word": "zu"
+    },
+    {
+     "start": 324.7,
+     "end": 325.08,
+     "word": "reichen"
+    },
+    {
+     "start": 325.08,
+     "end": 325.62,
+     "word": "schienen."
+    }
+   ]
+  },
+  {
+   "start": 325.84,
+   "end": 329.26,
+   "text": "Und sie warfen Ibrahim hinein.",
+   "words": [
+    {
+     "start": 325.84,
+     "end": 326.08,
+     "word": "Und"
+    },
+    {
+     "start": 326.08,
+     "end": 326.3,
+     "word": "sie"
+    },
+    {
+     "start": 326.3,
+     "end": 326.96,
+     "word": "warfen"
+    },
+    {
+     "start": 326.96,
+     "end": 327.9,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 327.9,
+     "end": 329.26,
+     "word": "hinein."
+    }
+   ]
+  },
+  {
+   "start": 330.64,
+   "end": 331.8,
+   "text": "Was glaubt Ihr?",
+   "words": [
+    {
+     "start": 330.64,
+     "end": 330.98,
+     "word": "Was"
+    },
+    {
+     "start": 330.98,
+     "end": 331.34,
+     "word": "glaubt"
+    },
+    {
+     "start": 331.34,
+     "end": 331.8,
+     "word": "Ihr?"
+    }
+   ]
+  },
+  {
+   "start": 332.6,
+   "end": 334.16,
+   "text": "Hatte Ibrahim Angst?",
+   "words": [
+    {
+     "start": 332.6,
+     "end": 333.06,
+     "word": "Hatte"
+    },
+    {
+     "start": 333.06,
+     "end": 333.5,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 333.5,
+     "end": 334.16,
+     "word": "Angst?"
+    }
+   ]
+  },
+  {
+   "start": 335.44,
+   "end": 337.78,
+   "text": "Ibrahim sagte nur,",
+   "words": [
+    {
+     "start": 335.44,
+     "end": 336.56,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 336.56,
+     "end": 337.04,
+     "word": "sagte"
+    },
+    {
+     "start": 337.04,
+     "end": 337.78,
+     "word": "nur,"
+    }
+   ]
+  },
+  {
+   "start": 338.82,
+   "end": 342.0,
+   "text": "Hasbi Allahu wa ni'mal wakil.",
+   "words": [
+    {
+     "start": 338.82,
+     "end": 339.28,
+     "word": "Hasbi"
+    },
+    {
+     "start": 339.28,
+     "end": 340.12,
+     "word": "Allahu"
+    },
+    {
+     "start": 340.12,
+     "end": 340.56,
+     "word": "wa"
+    },
+    {
+     "start": 340.56,
+     "end": 341.08,
+     "word": "ni'mal"
+    },
+    {
+     "start": 341.08,
+     "end": 342.0,
+     "word": "wakil."
+    }
+   ]
+  },
+  {
+   "start": 343.18,
+   "end": 344.66,
+   "text": "Allah genügt mir",
+   "words": [
+    {
+     "start": 343.18,
+     "end": 343.54,
+     "word": "Allah"
+    },
+    {
+     "start": 343.54,
+     "end": 344.1,
+     "word": "genügt"
+    },
+    {
+     "start": 344.1,
+     "end": 344.66,
+     "word": "mir"
+    }
+   ]
+  },
+  {
+   "start": 344.66,
+   "end": 347.48,
+   "text": "und er ist der beste Beschützer.",
+   "words": [
+    {
+     "start": 344.66,
+     "end": 345.42,
+     "word": "und"
+    },
+    {
+     "start": 345.42,
+     "end": 345.84,
+     "word": "er"
+    },
+    {
+     "start": 345.84,
+     "end": 346.1,
+     "word": "ist"
+    },
+    {
+     "start": 346.1,
+     "end": 346.32,
+     "word": "der"
+    },
+    {
+     "start": 346.32,
+     "end": 346.74,
+     "word": "beste"
+    },
+    {
+     "start": 346.74,
+     "end": 347.48,
+     "word": "Beschützer."
+    }
+   ]
+  },
+  {
+   "start": 347.6,
+   "end": 350.28,
+   "text": "Und da sprach Allah zum Feuer.",
+   "words": [
+    {
+     "start": 347.6,
+     "end": 347.88,
+     "word": "Und"
+    },
+    {
+     "start": 347.88,
+     "end": 348.24,
+     "word": "da"
+    },
+    {
+     "start": 348.24,
+     "end": 348.82,
+     "word": "sprach"
+    },
+    {
+     "start": 348.82,
+     "end": 349.34,
+     "word": "Allah"
+    },
+    {
+     "start": 349.34,
+     "end": 349.64,
+     "word": "zum"
+    },
+    {
+     "start": 349.64,
+     "end": 350.28,
+     "word": "Feuer."
+    }
+   ]
+  },
+  {
+   "start": 351.44,
+   "end": 352.44,
+   "text": "O Feuer,",
+   "words": [
+    {
+     "start": 351.44,
+     "end": 351.82,
+     "word": "O"
+    },
+    {
+     "start": 351.82,
+     "end": 352.44,
+     "word": "Feuer,"
+    }
+   ]
+  },
+  {
+   "start": 353.38,
+   "end": 356.92,
+   "text": "sei kühl und friedlich für Ibrahim.",
+   "words": [
+    {
+     "start": 353.38,
+     "end": 353.62,
+     "word": "sei"
+    },
+    {
+     "start": 353.62,
+     "end": 354.24,
+     "word": "kühl"
+    },
+    {
+     "start": 354.24,
+     "end": 354.84,
+     "word": "und"
+    },
+    {
+     "start": 354.84,
+     "end": 355.72,
+     "word": "friedlich"
+    },
+    {
+     "start": 355.72,
+     "end": 356.02,
+     "word": "für"
+    },
+    {
+     "start": 356.02,
+     "end": 356.92,
+     "word": "Ibrahim."
+    }
+   ]
+  },
+  {
+   "start": 358.34,
+   "end": 361.42,
+   "text": "Und das Feuer gehorchte.",
+   "words": [
+    {
+     "start": 358.34,
+     "end": 358.66,
+     "word": "Und"
+    },
+    {
+     "start": 358.66,
+     "end": 359.0,
+     "word": "das"
+    },
+    {
+     "start": 359.0,
+     "end": 359.76,
+     "word": "Feuer"
+    },
+    {
+     "start": 359.76,
+     "end": 361.42,
+     "word": "gehorchte."
+    }
+   ]
+  },
+  {
+   "start": 362.72,
+   "end": 364.14,
+   "text": "Es wurde kühl.",
+   "words": [
+    {
+     "start": 362.72,
+     "end": 363.1,
+     "word": "Es"
+    },
+    {
+     "start": 363.1,
+     "end": 363.48,
+     "word": "wurde"
+    },
+    {
+     "start": 363.48,
+     "end": 364.14,
+     "word": "kühl."
+    }
+   ]
+  },
+  {
+   "start": 365.14,
+   "end": 367.3,
+   "text": "Es tat Ibrahim nichts.",
+   "words": [
+    {
+     "start": 365.11,
+     "end": 365.64,
+     "word": "Es"
+    },
+    {
+     "start": 365.64,
+     "end": 366.04,
+     "word": "tat"
+    },
+    {
+     "start": 366.04,
+     "end": 366.74,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 366.74,
+     "end": 367.3,
+     "word": "nichts."
+    }
+   ]
+  },
+  {
+   "start": 367.52,
+   "end": 368.12,
+   "text": "Wow!",
+   "words": [
+    {
+     "start": 367.52,
+     "end": 368.12,
+     "word": "Wow!"
+    }
+   ]
+  },
+  {
+   "start": 368.58,
+   "end": 370.96,
+   "text": "Das Feuer hat auf Allah gehört?",
+   "words": [
+    {
+     "start": 368.58,
+     "end": 368.84,
+     "word": "Das"
+    },
+    {
+     "start": 368.84,
+     "end": 369.26,
+     "word": "Feuer"
+    },
+    {
+     "start": 369.26,
+     "end": 369.52,
+     "word": "hat"
+    },
+    {
+     "start": 369.52,
+     "end": 369.84,
+     "word": "auf"
+    },
+    {
+     "start": 369.84,
+     "end": 370.32,
+     "word": "Allah"
+    },
+    {
+     "start": 370.32,
+     "end": 370.96,
+     "word": "gehört?"
+    }
+   ]
+  },
+  {
+   "start": 371.28,
+   "end": 371.92,
+   "text": "Ja!",
+   "words": [
+    {
+     "start": 371.28,
+     "end": 371.92,
+     "word": "Ja!"
+    }
+   ]
+  },
+  {
+   "start": 373.14,
+   "end": 375.08,
+   "text": "Alles gehorcht Allah.",
+   "words": [
+    {
+     "start": 373.14,
+     "end": 373.68,
+     "word": "Alles"
+    },
+    {
+     "start": 373.68,
+     "end": 374.4,
+     "word": "gehorcht"
+    },
+    {
+     "start": 374.4,
+     "end": 375.08,
+     "word": "Allah."
+    }
+   ]
+  },
+  {
+   "start": 376.36,
+   "end": 377.24,
+   "text": "Der Wind,",
+   "words": [
+    {
+     "start": 376.36,
+     "end": 376.64,
+     "word": "Der"
+    },
+    {
+     "start": 376.64,
+     "end": 377.24,
+     "word": "Wind,"
+    }
+   ]
+  },
+  {
+   "start": 378.38,
+   "end": 379.26,
+   "text": "das Wasser",
+   "words": [
+    {
+     "start": 378.38,
+     "end": 378.58,
+     "word": "das"
+    },
+    {
+     "start": 378.58,
+     "end": 379.26,
+     "word": "Wasser"
+    }
+   ]
+  },
+  {
+   "start": 380.34,
+   "end": 382.4,
+   "text": "und sogar das Feuer.",
+   "words": [
+    {
+     "start": 380.34,
+     "end": 381.1,
+     "word": "und"
+    },
+    {
+     "start": 381.1,
+     "end": 381.68,
+     "word": "sogar"
+    },
+    {
+     "start": 381.68,
+     "end": 382.1,
+     "word": "das"
+    },
+    {
+     "start": 382.1,
+     "end": 382.4,
+     "word": "Feuer."
+    }
+   ]
+  },
+  {
+   "start": 382.58,
+   "end": 385.52,
+   "text": "Die Leute wollten Ibrahim schaden,",
+   "words": [
+    {
+     "start": 382.58,
+     "end": 382.86,
+     "word": "Die"
+    },
+    {
+     "start": 382.86,
+     "end": 383.38,
+     "word": "Leute"
+    },
+    {
+     "start": 383.38,
+     "end": 383.82,
+     "word": "wollten"
+    },
+    {
+     "start": 383.82,
+     "end": 384.5,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 384.5,
+     "end": 385.52,
+     "word": "schaden,"
+    }
+   ]
+  },
+  {
+   "start": 386.14,
+   "end": 389.48,
+   "text": "aber Allah ließ ihren Plan scheitern.",
+   "words": [
+    {
+     "start": 386.14,
+     "end": 386.4,
+     "word": "aber"
+    },
+    {
+     "start": 386.4,
+     "end": 386.92,
+     "word": "Allah"
+    },
+    {
+     "start": 386.92,
+     "end": 387.28,
+     "word": "ließ"
+    },
+    {
+     "start": 387.28,
+     "end": 387.58,
+     "word": "ihren"
+    },
+    {
+     "start": 387.58,
+     "end": 387.92,
+     "word": "Plan"
+    },
+    {
+     "start": 387.92,
+     "end": 389.48,
+     "word": "scheitern."
+    }
+   ]
+  },
+  {
+   "start": 390.1,
+   "end": 391.98,
+   "text": "Allah rettete Ibrahim",
+   "words": [
+    {
+     "start": 390.1,
+     "end": 390.5,
+     "word": "Allah"
+    },
+    {
+     "start": 390.5,
+     "end": 391.1,
+     "word": "rettete"
+    },
+    {
+     "start": 391.1,
+     "end": 391.98,
+     "word": "Ibrahim"
+    }
+   ]
+  },
+  {
+   "start": 391.98,
+   "end": 395.62,
+   "text": "und auch Luth, der an ihn glaubte",
+   "words": [
+    {
+     "start": 391.98,
+     "end": 392.84,
+     "word": "und"
+    },
+    {
+     "start": 392.84,
+     "end": 393.32,
+     "word": "auch"
+    },
+    {
+     "start": 393.32,
+     "end": 393.86,
+     "word": "Luth,"
+    },
+    {
+     "start": 394.08,
+     "end": 394.34,
+     "word": "der"
+    },
+    {
+     "start": 394.34,
+     "end": 394.52,
+     "word": "an"
+    },
+    {
+     "start": 394.52,
+     "end": 394.78,
+     "word": "ihn"
+    },
+    {
+     "start": 394.78,
+     "end": 395.62,
+     "word": "glaubte"
+    }
+   ]
+  },
+  {
+   "start": 396.18,
+   "end": 399.46,
+   "text": "und brachte sie in ein gesegnetes Land.",
+   "words": [
+    {
+     "start": 396.16,
+     "end": 396.66,
+     "word": "und"
+    },
+    {
+     "start": 396.66,
+     "end": 397.1,
+     "word": "brachte"
+    },
+    {
+     "start": 397.1,
+     "end": 397.5,
+     "word": "sie"
+    },
+    {
+     "start": 397.5,
+     "end": 397.82,
+     "word": "in"
+    },
+    {
+     "start": 397.82,
+     "end": 398.08,
+     "word": "ein"
+    },
+    {
+     "start": 398.08,
+     "end": 398.88,
+     "word": "gesegnetes"
+    },
+    {
+     "start": 398.88,
+     "end": 399.46,
+     "word": "Land."
+    }
+   ]
+  },
+  {
+   "start": 401.04,
+   "end": 403.66,
+   "text": "Und Allah nahm Ibrahim zum Freund.",
+   "words": [
+    {
+     "start": 401.04,
+     "end": 401.38,
+     "word": "Und"
+    },
+    {
+     "start": 401.38,
+     "end": 401.7,
+     "word": "Allah"
+    },
+    {
+     "start": 401.7,
+     "end": 402.1,
+     "word": "nahm"
+    },
+    {
+     "start": 402.1,
+     "end": 402.76,
+     "word": "Ibrahim"
+    },
+    {
+     "start": 402.76,
+     "end": 403.12,
+     "word": "zum"
+    },
+    {
+     "start": 403.12,
+     "end": 403.66,
+     "word": "Freund."
+    }
+   ]
+  },
+  {
+   "start": 404.7,
+   "end": 406.58,
+   "text": "Deshalb nennen wir ihn",
+   "words": [
+    {
+     "start": 404.7,
+     "end": 405.18,
+     "word": "Deshalb"
+    },
+    {
+     "start": 405.18,
+     "end": 405.56,
+     "word": "nennen"
+    },
+    {
+     "start": 405.56,
+     "end": 405.8,
+     "word": "wir"
+    },
+    {
+     "start": 405.8,
+     "end": 406.58,
+     "word": "ihn"
+    }
+   ]
+  },
+  {
+   "start": 406.58,
+   "end": 407.8,
+   "text": "Khalilullah,",
+   "words": [
+    {
+     "start": 406.58,
+     "end": 407.8,
+     "word": "Khalilullah,"
+    }
+   ]
+  },
+  {
+   "start": 408.7,
+   "end": 410.4,
+   "text": "den Freund Allahs.",
+   "words": [
+    {
+     "start": 408.7,
+     "end": 409.06,
+     "word": "den"
+    },
+    {
+     "start": 409.06,
+     "end": 409.58,
+     "word": "Freund"
+    },
+    {
+     "start": 409.58,
+     "end": 410.4,
+     "word": "Allahs."
+    }
+   ]
+  },
+  {
+   "start": 410.56,
+   "end": 411.06,
+   "text": "Oh,",
+   "words": [
+    {
+     "start": 410.56,
+     "end": 411.06,
+     "word": "Oh,"
+    }
+   ]
+  },
+  {
+   "start": 411.78,
+   "end": 413.38,
+   "text": "sie schlafen schon.",
+   "words": [
+    {
+     "start": 411.78,
+     "end": 412.08,
+     "word": "sie"
+    },
+    {
+     "start": 412.08,
+     "end": 412.76,
+     "word": "schlafen"
+    },
+    {
+     "start": 412.76,
+     "end": 413.38,
+     "word": "schon."
+    }
+   ]
+  },
+  {
+   "start": 414.98,
+   "end": 416.62,
+   "text": "Meine Lieben,",
+   "words": [
+    {
+     "start": 414.98,
+     "end": 415.44,
+     "word": "Meine"
+    },
+    {
+     "start": 415.44,
+     "end": 416.62,
+     "word": "Lieben,"
+    }
+   ]
+  },
+  {
+   "start": 417.14,
+   "end": 420.14,
+   "text": "wer auf Allah vertraut,",
+   "words": [
+    {
+     "start": 417.14,
+     "end": 417.6,
+     "word": "wer"
+    },
+    {
+     "start": 417.6,
+     "end": 418.04,
+     "word": "auf"
+    },
+    {
+     "start": 418.04,
+     "end": 418.6,
+     "word": "Allah"
+    },
+    {
+     "start": 418.6,
+     "end": 420.14,
+     "word": "vertraut,"
+    }
+   ]
+  },
+  {
+   "start": 420.14,
+   "end": 422.3,
+   "text": "dem genügt Allah.",
+   "words": [
+    {
+     "start": 420.14,
+     "end": 420.68,
+     "word": "dem"
+    },
+    {
+     "start": 420.68,
+     "end": 421.66,
+     "word": "genügt"
+    },
+    {
+     "start": 421.66,
+     "end": 422.3,
+     "word": "Allah."
+    }
+   ]
+  },
+  {
+   "start": 423.42,
+   "end": 426.64,
+   "text": "Auch wenn alle anderen etwas Falsches tun.",
+   "words": [
+    {
+     "start": 423.42,
+     "end": 423.76,
+     "word": "Auch"
+    },
+    {
+     "start": 423.76,
+     "end": 424.18,
+     "word": "wenn"
+    },
+    {
+     "start": 424.18,
+     "end": 424.58,
+     "word": "alle"
+    },
+    {
+     "start": 424.58,
+     "end": 425.16,
+     "word": "anderen"
+    },
+    {
+     "start": 425.16,
+     "end": 425.56,
+     "word": "etwas"
+    },
+    {
+     "start": 425.56,
+     "end": 426.28,
+     "word": "Falsches"
+    },
+    {
+     "start": 426.28,
+     "end": 426.64,
+     "word": "tun."
+    }
+   ]
+  },
+  {
+   "start": 427.62,
+   "end": 429.68,
+   "text": "Sei mutig wie Ibrahim",
+   "words": [
+    {
+     "start": 427.62,
+     "end": 427.9,
+     "word": "Sei"
+    },
+    {
+     "start": 427.9,
+     "end": 428.58,
+     "word": "mutig"
+    },
+    {
+     "start": 428.58,
+     "end": 428.84,
+     "word": "wie"
+    },
+    {
+     "start": 428.84,
+     "end": 429.68,
+     "word": "Ibrahim"
+    }
+   ]
+  },
+  {
+   "start": 430.34,
+   "end": 432.86,
+   "text": "und bleib bei der Wahrheit.",
+   "words": [
+    {
+     "start": 430.34,
+     "end": 430.98,
+     "word": "und"
+    },
+    {
+     "start": 430.98,
+     "end": 431.36,
+     "word": "bleib"
+    },
+    {
+     "start": 431.36,
+     "end": 431.6,
+     "word": "bei"
+    },
+    {
+     "start": 431.6,
+     "end": 431.86,
+     "word": "der"
+    },
+    {
+     "start": 431.86,
+     "end": 432.86,
+     "word": "Wahrheit."
+    }
+   ]
+  },
+  {
+   "start": 433.86,
+   "end": 436.12,
+   "text": "Aber immer freundlich,",
+   "words": [
+    {
+     "start": 433.86,
+     "end": 434.34,
+     "word": "Aber"
+    },
+    {
+     "start": 434.34,
+     "end": 434.9,
+     "word": "immer"
+    },
+    {
+     "start": 434.9,
+     "end": 436.12,
+     "word": "freundlich,"
+    }
+   ]
+  },
+  {
+   "start": 436.48,
+   "end": 438.34,
+   "text": "so wie er zu seinem Vater.",
+   "words": [
+    {
+     "start": 436.48,
+     "end": 436.8,
+     "word": "so"
+    },
+    {
+     "start": 436.8,
+     "end": 436.96,
+     "word": "wie"
+    },
+    {
+     "start": 436.96,
+     "end": 437.26,
+     "word": "er"
+    },
+    {
+     "start": 437.26,
+     "end": 437.46,
+     "word": "zu"
+    },
+    {
+     "start": 437.46,
+     "end": 437.74,
+     "word": "seinem"
+    },
+    {
+     "start": 437.74,
+     "end": 438.34,
+     "word": "Vater."
+    }
+   ]
+  },
+  {
+   "start": 439.62,
+   "end": 442.08,
+   "text": "Und wenn du einmal Angst hast,",
+   "words": [
+    {
+     "start": 439.62,
+     "end": 440.14,
+     "word": "Und"
+    },
+    {
+     "start": 440.14,
+     "end": 440.46,
+     "word": "wenn"
+    },
+    {
+     "start": 440.46,
+     "end": 440.72,
+     "word": "du"
+    },
+    {
+     "start": 440.72,
+     "end": 441.04,
+     "word": "einmal"
+    },
+    {
+     "start": 441.04,
+     "end": 441.46,
+     "word": "Angst"
+    },
+    {
+     "start": 441.46,
+     "end": 442.08,
+     "word": "hast,"
+    }
+   ]
+  },
+  {
+   "start": 442.52,
+   "end": 443.22,
+   "text": "dann sag,",
+   "words": [
+    {
+     "start": 442.52,
+     "end": 442.72,
+     "word": "dann"
+    },
+    {
+     "start": 442.72,
+     "end": 443.22,
+     "word": "sag,"
+    }
+   ]
+  },
+  {
+   "start": 443.82,
+   "end": 447.28,
+   "text": "Hasbi Allahu war niemal vakil.",
+   "words": [
+    {
+     "start": 443.82,
+     "end": 444.38,
+     "word": "Hasbi"
+    },
+    {
+     "start": 444.38,
+     "end": 445.0,
+     "word": "Allahu"
+    },
+    {
+     "start": 445.0,
+     "end": 445.94,
+     "word": "war"
+    },
+    {
+     "start": 445.94,
+     "end": 446.58,
+     "word": "niemal"
+    },
+    {
+     "start": 446.58,
+     "end": 447.28,
+     "word": "vakil."
+    }
+   ]
+  },
+  {
+   "start": 447.38,
+   "end": 449.32,
+   "text": "Und nächstes Mal",
+   "words": [
+    {
+     "start": 447.38,
+     "end": 447.96,
+     "word": "Und"
+    },
+    {
+     "start": 447.96,
+     "end": 448.6,
+     "word": "nächstes"
+    },
+    {
+     "start": 448.6,
+     "end": 449.32,
+     "word": "Mal"
+    }
+   ]
+  },
+  {
+   "start": 449.32,
+   "end": 451.52,
+   "text": "erzähle ich euch von Luth",
+   "words": [
+    {
+     "start": 449.32,
+     "end": 450.04,
+     "word": "erzähle"
+    },
+    {
+     "start": 450.04,
+     "end": 450.24,
+     "word": "ich"
+    },
+    {
+     "start": 450.24,
+     "end": 450.54,
+     "word": "euch"
+    },
+    {
+     "start": 450.54,
+     "end": 450.98,
+     "word": "von"
+    },
+    {
+     "start": 450.98,
+     "end": 451.52,
+     "word": "Luth"
+    }
+   ]
+  },
+  {
+   "start": 451.52,
+   "end": 453.5,
+   "text": "und von einer Stadt,",
+   "words": [
+    {
+     "start": 451.52,
+     "end": 452.42,
+     "word": "und"
+    },
+    {
+     "start": 452.42,
+     "end": 452.76,
+     "word": "von"
+    },
+    {
+     "start": 452.76,
+     "end": 453.04,
+     "word": "einer"
+    },
+    {
+     "start": 453.04,
+     "end": 453.5,
+     "word": "Stadt,"
+    }
+   ]
+  },
+  {
+   "start": 453.6,
+   "end": 455.82,
+   "text": "die nicht auf ihn hören wollte.",
+   "words": [
+    {
+     "start": 453.6,
+     "end": 453.84,
+     "word": "die"
+    },
+    {
+     "start": 453.84,
+     "end": 454.3,
+     "word": "nicht"
+    },
+    {
+     "start": 454.3,
+     "end": 454.48,
+     "word": "auf"
+    },
+    {
+     "start": 454.48,
+     "end": 454.72,
+     "word": "ihn"
+    },
+    {
+     "start": 454.72,
+     "end": 455.26,
+     "word": "hören"
+    },
+    {
+     "start": 455.26,
+     "end": 455.82,
+     "word": "wollte."
+    }
+   ]
+  },
+  {
+   "start": 458.14,
+   "end": 459.0,
+   "text": "Und du,",
+   "words": [
+    {
+     "start": 458.14,
+     "end": 458.42,
+     "word": "Und"
+    },
+    {
+     "start": 458.42,
+     "end": 459.0,
+     "word": "du,"
+    }
+   ]
+  },
+  {
+   "start": 459.44,
+   "end": 461.34,
+   "text": "der du gerade zuschaust?",
+   "words": [
+    {
+     "start": 459.44,
+     "end": 459.6,
+     "word": "der"
+    },
+    {
+     "start": 459.6,
+     "end": 459.88,
+     "word": "du"
+    },
+    {
+     "start": 459.88,
+     "end": 460.3,
+     "word": "gerade"
+    },
+    {
+     "start": 460.3,
+     "end": 461.34,
+     "word": "zuschaust?"
+    }
+   ]
+  },
+  {
+   "start": 462.18,
+   "end": 464.28,
+   "text": "Wenn dir die Geschichte gefallen hat,",
+   "words": [
+    {
+     "start": 462.18,
+     "end": 462.36,
+     "word": "Wenn"
+    },
+    {
+     "start": 462.36,
+     "end": 462.58,
+     "word": "dir"
+    },
+    {
+     "start": 462.58,
+     "end": 462.84,
+     "word": "die"
+    },
+    {
+     "start": 462.84,
+     "end": 463.24,
+     "word": "Geschichte"
+    },
+    {
+     "start": 463.24,
+     "end": 463.76,
+     "word": "gefallen"
+    },
+    {
+     "start": 463.76,
+     "end": 464.28,
+     "word": "hat,"
+    }
+   ]
+  },
+  {
+   "start": 465.0,
+   "end": 466.54,
+   "text": "dann frag deine Eltern,",
+   "words": [
+    {
+     "start": 465.0,
+     "end": 465.28,
+     "word": "dann"
+    },
+    {
+     "start": 465.28,
+     "end": 465.6,
+     "word": "frag"
+    },
+    {
+     "start": 465.6,
+     "end": 465.94,
+     "word": "deine"
+    },
+    {
+     "start": 465.94,
+     "end": 466.54,
+     "word": "Eltern,"
+    }
+   ]
+  },
+  {
+   "start": 467.1,
+   "end": 469.38,
+   "text": "ob sie unseren Kanal abonnieren.",
+   "words": [
+    {
+     "start": 467.1,
+     "end": 467.26,
+     "word": "ob"
+    },
+    {
+     "start": 467.26,
+     "end": 467.52,
+     "word": "sie"
+    },
+    {
+     "start": 467.52,
+     "end": 467.94,
+     "word": "unseren"
+    },
+    {
+     "start": 467.94,
+     "end": 468.54,
+     "word": "Kanal"
+    },
+    {
+     "start": 468.54,
+     "end": 469.38,
+     "word": "abonnieren."
+    }
+   ]
+  },
+  {
+   "start": 470.38,
+   "end": 473.24,
+   "text": "So verpasst du die nächste Geschichte nicht.",
+   "words": [
+    {
+     "start": 470.38,
+     "end": 470.74,
+     "word": "So"
+    },
+    {
+     "start": 470.74,
+     "end": 471.22,
+     "word": "verpasst"
+    },
+    {
+     "start": 471.22,
+     "end": 471.46,
+     "word": "du"
+    },
+    {
+     "start": 471.46,
+     "end": 471.58,
+     "word": "die"
+    },
+    {
+     "start": 471.58,
+     "end": 471.98,
+     "word": "nächste"
+    },
+    {
+     "start": 471.98,
+     "end": 472.52,
+     "word": "Geschichte"
+    },
+    {
+     "start": 472.52,
+     "end": 473.24,
+     "word": "nicht."
+    }
+   ]
+  },
+  {
+   "start": 474.86,
+   "end": 475.8,
+   "text": "Schlaft gut,",
+   "words": [
+    {
+     "start": 474.86,
+     "end": 475.28,
+     "word": "Schlaft"
+    },
+    {
+     "start": 475.28,
+     "end": 475.8,
+     "word": "gut,"
+    }
+   ]
+  },
+  {
+   "start": 476.1,
+   "end": 477.48,
+   "text": "meine Lieben.",
+   "words": [
+    {
+     "start": 476.1,
+     "end": 476.28,
+     "word": "meine"
+    },
+    {
+     "start": 476.28,
+     "end": 477.48,
+     "word": "Lieben."
+    }
+   ]
+  },
+  {
+   "start": 477.48,
+   "end": 479.6,
+   "text": "Allah beschütze euch.",
+   "words": [
+    {
+     "start": 477.48,
+     "end": 478.54,
+     "word": "Allah"
+    },
+    {
+     "start": 478.54,
+     "end": 479.26,
+     "word": "beschütze"
+    },
+    {
+     "start": 479.26,
+     "end": 479.6,
+     "word": "euch."
+    }
+   ]
+  }
+ ]
+}
