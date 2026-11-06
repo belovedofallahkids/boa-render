@@ -1,0 +1,25 @@
+{
+ "release": "dub_ar_folge04_hud_mona",
+ "files": {
+  "s01": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/uZZFkd7oJenVoz73kgGG/PfXrPTVP1MYZB9hzyw7X/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=zdJzroXZra-mrIF5BqfCn-_XlEg=",
+  "s02": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/wqDsSQB3llrp6IS83F6t/H721NCgP6mPA5MMpsry6/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=YcQeUApcz8VY1QQEQGaOluIfshY=",
+  "s03": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/qti11yLLXnWN8ybwVWyZ/PbDOUjf9j4zDHCw1v7HN/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=f1lmy054ssyFOD90ISDRWU0QnFE=",
+  "s04": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/0PM195C37Tk3RER65pBQ/dfkFja31ckE1hClol5Nq/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=csIApsZ87QF8VSInydwbBKaWQ8w=",
+  "s05": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/3pBr1cmtMN1GxKa94MjM/9Y5GdUEw7xHwD8GXcSOk/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=VTDXi-joiGLAegSlA-YKBVaME6E=",
+  "s06": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/jhbni9FESPUDJPaItTxw/h4MxX7uobKLqguN9KUAN/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=dHdZOnuv_Y20IAuv7yaJdHyjouA=",
+  "s07": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/glN0VCjRi3SxLn77ZHLq/o9zJXDn9dbwP3CdYjc78/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=kQiepsOdx8BWu4BZ7roVprTw8zY=",
+  "s08": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/jfqR960eCiyDFE49SHv5/L8yEaKwRUn316xG9NtMf/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=MH3OJrhSvXBfrQxXGEqhEqhej4A=",
+  "s09": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/cDHU8mJyynsWgAn5mjKc/jHOoUV9LN82jCKOS7Vi4/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=4_gNx7Tzhl0lEvJmv3jz2a5GZWk=",
+  "s10": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/IZbM9ZBfRojmKJhs137V/Q2fdTRMg8YzaBOYya0Kh/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=NhI1iNBaUp9kUPrHKUzylZDZAjc=",
+  "s11": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/x5UlbfVsJ5x1z1aD3G6i/EgmlblfaC3lxMsKkAfak/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=mH30DXDnKqkMqdfHWIo-vfKVew0=",
+  "s12": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/g9RrBIi9b90KM3uN2Q5h/2i7YjL32Zd0vvj0RV2GZ/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=d47xw7Jj94Da65AVvTnjXFTlPTY=",
+  "s13": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/TTAmTfs1aETp4UcaJlm9/bXgZxwPnM4X7G5OzFWWb/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=per_XA7pms0Alvreghwjozulsiw=",
+  "s14": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/R7hVmCkTJbzEsZTgLVvT/ochqXcDSGaZ8D94TWWV9/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=bMcH6Aho43EaPMMygsqg71Nxvic=",
+  "s15": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/eQQcE5FHxPJo14kmoWlF/8YW6avZDMpGySJVKfpSz/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=LmONqp6ak63vzVgIcUvp5kGIbfY=",
+  "s16": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/UtbspwonOilflRMAB6ci/F8uoggO6pikNtDddNnD3/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=ATt8BAbHChwRzxyrNAMAH4kxiYM=",
+  "s17": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/3VtR5gOF7sHZcjXqUi8f/e7aplcG7T3ObZjPWooen/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=MigcqPvAIMO68tLc-3l29I2we1M=",
+  "s18": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/ZlzPWyDS9Kvmcpy0zaWU/kACHmM7255bMFJU9SNq0/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=Xnn-376I6Uis0Lxc6JrO2Ylktp8=",
+  "s20": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/2gjdZP4DNhQBW4N4uD6W/bqAafoTxxOmnrtuprL6R/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=UdOYrTYcx3bxOSMHNXfpz2rPCv8=",
+  "s21": "https://elevenlabsusercontent.com/database/workspace/23b215c39a81481a96c3ff194c7f69a7/content_generation/qI8BYd1gY5vlJqN2qzqu/y0rweC0JIQmFxloGnC2o/content.mp3?Expires=1794013200&KeyName=assets-cdn-key-1&Signature=xEWUSAhGSMe9FVECbNDjOO-syX8="
+ }
+}
