@@ -1,0 +1,168 @@
+{
+ "name": "folge05_salih_v2_keyed",
+ "disabled": true,
+ "_note": "timing of the German v2 voice (published video + corrected Oma lines) per sentence group, for dubbing only (H56: never re-render)",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 7.28,
+   "label": "oma",
+   "script": "s01",
+   "motion": "none"
+  },
+  {
+   "start": 7.28,
+   "end": 20.62,
+   "label": "oma",
+   "script": "s02",
+   "motion": "none"
+  },
+  {
+   "start": 20.62,
+   "end": 28.54,
+   "label": "oma",
+   "script": "s03",
+   "motion": "none"
+  },
+  {
+   "start": 28.54,
+   "end": 48.62,
+   "label": "oma",
+   "script": "s04",
+   "motion": "none"
+  },
+  {
+   "start": 48.62,
+   "end": 64.72,
+   "label": "oma",
+   "script": "s05",
+   "motion": "none"
+  },
+  {
+   "start": 64.72,
+   "end": 72.66,
+   "label": "oma",
+   "script": "s06",
+   "motion": "none"
+  },
+  {
+   "start": 72.66,
+   "end": 88.68,
+   "label": "oma",
+   "script": "s07",
+   "motion": "none"
+  },
+  {
+   "start": 88.68,
+   "end": 98.3,
+   "label": "oma",
+   "script": "s08",
+   "motion": "none"
+  },
+  {
+   "start": 98.3,
+   "end": 105.68,
+   "label": "oma",
+   "script": "s09",
+   "motion": "none"
+  },
+  {
+   "start": 105.68,
+   "end": 127.96,
+   "label": "oma",
+   "script": "s10",
+   "motion": "none"
+  },
+  {
+   "start": 127.96,
+   "end": 137.86,
+   "label": "oma",
+   "script": "s11",
+   "motion": "none"
+  },
+  {
+   "start": 137.86,
+   "end": 140.6,
+   "label": "ilyas",
+   "script": "s12",
+   "motion": "none"
+  },
+  {
+   "start": 140.6,
+   "end": 145.06,
+   "label": "oma",
+   "script": "s13",
+   "motion": "none"
+  },
+  {
+   "start": 145.06,
+   "end": 155.14,
+   "label": "oma",
+   "script": "s14",
+   "motion": "none"
+  },
+  {
+   "start": 155.14,
+   "end": 175.78,
+   "label": "oma",
+   "script": "s15",
+   "motion": "none"
+  },
+  {
+   "start": 175.78,
+   "end": 187.24,
+   "label": "oma",
+   "script": "s16",
+   "motion": "none"
+  },
+  {
+   "start": 187.24,
+   "end": 201.84,
+   "label": "oma",
+   "script": "s17",
+   "motion": "none"
+  },
+  {
+   "start": 201.84,
+   "end": 218.86,
+   "label": "oma",
+   "script": "s18",
+   "motion": "none"
+  },
+  {
+   "start": 218.86,
+   "end": 236.5,
+   "label": "oma",
+   "script": "s19",
+   "motion": "none"
+  },
+  {
+   "start": 236.5,
+   "end": 252.96,
+   "label": "oma",
+   "script": "s20",
+   "motion": "none"
+  },
+  {
+   "start": 252.96,
+   "end": 259.16,
+   "label": "kinder_schlafen",
+   "script": "s21",
+   "motion": "none"
+  },
+  {
+   "start": 259.16,
+   "end": 271.2,
+   "label": "oma",
+   "script": "s22",
+   "motion": "none"
+  },
+  {
+   "start": 271.2,
+   "end": 285.5,
+   "label": "oma",
+   "script": "s23",
+   "motion": "none"
+  }
+ ]
+}

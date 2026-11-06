@@ -1,0 +1,147 @@
+{
+ "name": "folge02_idris_v2_keyed",
+ "disabled": true,
+ "_note": "timing of the German v2 voice (published video + corrected Oma lines) per sentence group, for dubbing only (H56: never re-render)",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 21.74,
+   "label": "oma",
+   "script": "s01",
+   "motion": "none"
+  },
+  {
+   "start": 21.74,
+   "end": 32.34,
+   "label": "oma",
+   "script": "s02",
+   "motion": "none"
+  },
+  {
+   "start": 32.34,
+   "end": 37.54,
+   "label": "ilyas",
+   "script": "s03",
+   "motion": "none"
+  },
+  {
+   "start": 37.54,
+   "end": 47.92,
+   "label": "oma",
+   "script": "s04",
+   "motion": "none"
+  },
+  {
+   "start": 47.92,
+   "end": 58.1,
+   "label": "oma",
+   "script": "s05",
+   "motion": "none"
+  },
+  {
+   "start": 58.1,
+   "end": 70.6,
+   "label": "oma",
+   "script": "s06",
+   "motion": "none"
+  },
+  {
+   "start": 70.6,
+   "end": 76.96,
+   "label": "oma",
+   "script": "s07",
+   "motion": "none"
+  },
+  {
+   "start": 76.96,
+   "end": 92.72,
+   "label": "oma",
+   "script": "s08",
+   "motion": "none"
+  },
+  {
+   "start": 92.72,
+   "end": 101.74,
+   "label": "oma",
+   "script": "s09",
+   "motion": "none"
+  },
+  {
+   "start": 101.74,
+   "end": 115.3,
+   "label": "oma",
+   "script": "s10",
+   "motion": "none"
+  },
+  {
+   "start": 115.3,
+   "end": 121.02,
+   "label": "ilyas",
+   "script": "s11",
+   "motion": "none"
+  },
+  {
+   "start": 121.02,
+   "end": 124.04,
+   "label": "oma",
+   "script": "s12",
+   "motion": "none"
+  },
+  {
+   "start": 124.04,
+   "end": 141.86,
+   "label": "oma",
+   "script": "s13",
+   "motion": "none"
+  },
+  {
+   "start": 141.86,
+   "end": 155.0,
+   "label": "oma",
+   "script": "s14",
+   "motion": "none"
+  },
+  {
+   "start": 155.0,
+   "end": 164.0,
+   "label": "oma",
+   "script": "s15",
+   "motion": "none"
+  },
+  {
+   "start": 164.0,
+   "end": 177.18,
+   "label": "oma",
+   "script": "s16",
+   "motion": "none"
+  },
+  {
+   "start": 177.18,
+   "end": 188.62,
+   "label": "oma",
+   "script": "s17",
+   "motion": "none"
+  },
+  {
+   "start": 188.62,
+   "end": 193.9,
+   "label": "kinder_schlafen",
+   "script": "s18",
+   "motion": "none"
+  },
+  {
+   "start": 193.9,
+   "end": 205.36,
+   "label": "oma",
+   "script": "s19",
+   "motion": "none"
+  },
+  {
+   "start": 205.36,
+   "end": 214.0,
+   "label": "oma",
+   "script": "s20",
+   "motion": "none"
+  }
+ ]
+}
