@@ -1,0 +1,51 @@
+name: nuh_v4
+# Noah 03 v4: published v3 video + corrected German voice (Nu -> Noah), release + whisper check.
+on:
+  workflow_dispatch: {}
+permissions: {contents: write}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q faster-whisper==1.1.1 av==12.3.0
+      - name: mux
+        run: |
+          mkdir -p w && cd w
+          curl -fsSL -o v3.mp4 https://github.com/belovedofallahkids/boa-render/releases/download/folge03_nuh_v3/folge03_nuh_v3.mp4
+          curl -fsSL -o de.mp3 https://raw.githubusercontent.com/belovedofallahkids/boa-render/media-folge03_nuh_v4/folge03_nuh_de_v4.mp3
+          ffmpeg -y -loglevel error -i v3.mp4 -i de.mp3 -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -ar 48000 -t 341.2 folge03_nuh_v4.mp4
+          ffprobe -v error -show_entries format=duration -of csv=p=0 folge03_nuh_v4.mp4
+      - name: whisper check
+        run: |
+          python3 - <<'P'
+          import json, re
+          from faster_whisper import WhisperModel
+          m = WhisperModel("medium", device="cpu", compute_type="int8")
+          segs, _ = m.transcribe("w/folge03_nuh_v4.mp4", language="de", word_timestamps=True,
+                                 initial_prompt="Oma erzählt Noah und Ilyas die Geschichte vom Propheten Noah.")
+          out = [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip()} for s in segs]
+          txt = " ".join(o["text"] for o in out)
+          rep = {"nu_hits": re.findall(r"\bNu[hs']*\b", txt), "elias_hits": re.findall(r"\bElias\b", txt), "segments": out}
+          import os; os.makedirs("out/nuh_v4", exist_ok=True)
+          json.dump(rep, open("out/nuh_v4/check.json", "w"), ensure_ascii=False, indent=1)
+          print("Nu:", rep["nu_hits"], "Elias:", rep["elias_hits"])
+          P
+      - name: release
+        run: |
+          gh release view folge03_nuh_v4 >/dev/null 2>&1 || gh release create folge03_nuh_v4 -t "Folge 03 Noah v4 (Nu→Noah)" -n "v3 video + corrected German voice (16 Oma Karmoucha lines: Nu→Noah, Elias→Ilyas, H55 fixes). Replaces 2z5bsTOxkJc (owner)."
+          curl -fsSL -o w/folge03_nuh_de_v4.mp3 https://raw.githubusercontent.com/belovedofallahkids/boa-render/media-folge03_nuh_v4/folge03_nuh_de_v4.mp3
+          gh release upload folge03_nuh_v4 w/folge03_nuh_v4.mp4 w/folge03_nuh_de_v4.mp3 --clobber
+      - if: always()
+        run: |
+          git config user.name "boa-render-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/nuh_v4 || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Noah v4: whisper check [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 6; done
