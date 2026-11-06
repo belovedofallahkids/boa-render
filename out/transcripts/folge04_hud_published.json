@@ -1,0 +1,2373 @@
+{
+ "name": "folge04_hud_published",
+ "job_hash": "63c8e21714620aa37a2b1924b5e496a99c1849d3",
+ "duration": 267.169,
+ "model": "medium",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 7.38,
+   "text": "Psst, Noah, Ilyas, was ist stärker als die stärksten Menschen der Welt?",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.94,
+     "word": "Psst,"
+    },
+    {
+     "start": 1.3,
+     "end": 1.6,
+     "word": "Noah,"
+    },
+    {
+     "start": 2.22,
+     "end": 2.8,
+     "word": "Ilyas,"
+    },
+    {
+     "start": 3.36,
+     "end": 3.72,
+     "word": "was"
+    },
+    {
+     "start": 3.72,
+     "end": 4.22,
+     "word": "ist"
+    },
+    {
+     "start": 4.22,
+     "end": 4.88,
+     "word": "stärker"
+    },
+    {
+     "start": 4.88,
+     "end": 5.16,
+     "word": "als"
+    },
+    {
+     "start": 5.16,
+     "end": 5.6,
+     "word": "die"
+    },
+    {
+     "start": 5.6,
+     "end": 6.22,
+     "word": "stärksten"
+    },
+    {
+     "start": 6.22,
+     "end": 6.62,
+     "word": "Menschen"
+    },
+    {
+     "start": 6.62,
+     "end": 6.98,
+     "word": "der"
+    },
+    {
+     "start": 6.98,
+     "end": 7.38,
+     "word": "Welt?"
+    }
+   ]
+  },
+  {
+   "start": 8.78,
+   "end": 13.92,
+   "text": "Stärker als riesige Burden und hohe Türme.",
+   "words": [
+    {
+     "start": 8.78,
+     "end": 9.38,
+     "word": "Stärker"
+    },
+    {
+     "start": 9.38,
+     "end": 9.82,
+     "word": "als"
+    },
+    {
+     "start": 9.82,
+     "end": 10.52,
+     "word": "riesige"
+    },
+    {
+     "start": 10.52,
+     "end": 11.12,
+     "word": "Burden"
+    },
+    {
+     "start": 11.12,
+     "end": 11.78,
+     "word": "und"
+    },
+    {
+     "start": 11.78,
+     "end": 12.2,
+     "word": "hohe"
+    },
+    {
+     "start": 12.2,
+     "end": 13.92,
+     "word": "Türme."
+    }
+   ]
+  },
+  {
+   "start": 14.54,
+   "end": 16.04,
+   "text": "Na, wisst ihr es?",
+   "words": [
+    {
+     "start": 14.54,
+     "end": 14.94,
+     "word": "Na,"
+    },
+    {
+     "start": 15.2,
+     "end": 15.42,
+     "word": "wisst"
+    },
+    {
+     "start": 15.42,
+     "end": 15.56,
+     "word": "ihr"
+    },
+    {
+     "start": 15.56,
+     "end": 16.04,
+     "word": "es?"
+    }
+   ]
+  },
+  {
+   "start": 16.96,
+   "end": 18.98,
+   "text": "Heute erzähle ich es euch.",
+   "words": [
+    {
+     "start": 16.96,
+     "end": 17.56,
+     "word": "Heute"
+    },
+    {
+     "start": 17.56,
+     "end": 18.2,
+     "word": "erzähle"
+    },
+    {
+     "start": 18.2,
+     "end": 18.38,
+     "word": "ich"
+    },
+    {
+     "start": 18.38,
+     "end": 18.62,
+     "word": "es"
+    },
+    {
+     "start": 18.62,
+     "end": 18.98,
+     "word": "euch."
+    }
+   ]
+  },
+  {
+   "start": 20.22,
+   "end": 22.66,
+   "text": "Kommt, kuschelt euch ein.",
+   "words": [
+    {
+     "start": 20.22,
+     "end": 21.04,
+     "word": "Kommt,"
+    },
+    {
+     "start": 21.34,
+     "end": 21.72,
+     "word": "kuschelt"
+    },
+    {
+     "start": 21.72,
+     "end": 21.98,
+     "word": "euch"
+    },
+    {
+     "start": 21.98,
+     "end": 22.66,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 23.44,
+   "end": 25.92,
+   "text": "Heute geht es um den Propheten Hut.",
+   "words": [
+    {
+     "start": 23.44,
+     "end": 23.86,
+     "word": "Heute"
+    },
+    {
+     "start": 23.86,
+     "end": 24.14,
+     "word": "geht"
+    },
+    {
+     "start": 24.14,
+     "end": 24.4,
+     "word": "es"
+    },
+    {
+     "start": 24.4,
+     "end": 24.54,
+     "word": "um"
+    },
+    {
+     "start": 24.54,
+     "end": 24.88,
+     "word": "den"
+    },
+    {
+     "start": 24.88,
+     "end": 25.62,
+     "word": "Propheten"
+    },
+    {
+     "start": 25.62,
+     "end": 25.92,
+     "word": "Hut."
+    }
+   ]
+  },
+  {
+   "start": 26.62,
+   "end": 27.7,
+   "text": "Friede sei mit ihm.",
+   "words": [
+    {
+     "start": 26.62,
+     "end": 27.08,
+     "word": "Friede"
+    },
+    {
+     "start": 27.08,
+     "end": 27.18,
+     "word": "sei"
+    },
+    {
+     "start": 27.18,
+     "end": 27.44,
+     "word": "mit"
+    },
+    {
+     "start": 27.44,
+     "end": 27.7,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 27.7,
+   "end": 31.96,
+   "text": "Nach Nu lebte ein Volk, das hieß Ad.",
+   "words": [
+    {
+     "start": 27.7,
+     "end": 28.28,
+     "word": "Nach"
+    },
+    {
+     "start": 28.28,
+     "end": 28.84,
+     "word": "Nu"
+    },
+    {
+     "start": 28.84,
+     "end": 29.48,
+     "word": "lebte"
+    },
+    {
+     "start": 29.48,
+     "end": 29.78,
+     "word": "ein"
+    },
+    {
+     "start": 29.78,
+     "end": 30.56,
+     "word": "Volk,"
+    },
+    {
+     "start": 30.66,
+     "end": 30.9,
+     "word": "das"
+    },
+    {
+     "start": 30.9,
+     "end": 31.42,
+     "word": "hieß"
+    },
+    {
+     "start": 31.42,
+     "end": 31.96,
+     "word": "Ad."
+    }
+   ]
+  },
+  {
+   "start": 33.18,
+   "end": 37.06,
+   "text": "Allah hatte ihnen ganz besondere Gaben geschenkt.",
+   "words": [
+    {
+     "start": 33.18,
+     "end": 33.7,
+     "word": "Allah"
+    },
+    {
+     "start": 33.7,
+     "end": 34.12,
+     "word": "hatte"
+    },
+    {
+     "start": 34.12,
+     "end": 34.58,
+     "word": "ihnen"
+    },
+    {
+     "start": 34.58,
+     "end": 35.28,
+     "word": "ganz"
+    },
+    {
+     "start": 35.28,
+     "end": 35.74,
+     "word": "besondere"
+    },
+    {
+     "start": 35.74,
+     "end": 36.2,
+     "word": "Gaben"
+    },
+    {
+     "start": 36.2,
+     "end": 37.06,
+     "word": "geschenkt."
+    }
+   ]
+  },
+  {
+   "start": 37.64,
+   "end": 41.04,
+   "text": "Sie waren groß und unglaublich stark.",
+   "words": [
+    {
+     "start": 37.64,
+     "end": 37.78,
+     "word": "Sie"
+    },
+    {
+     "start": 37.78,
+     "end": 38.16,
+     "word": "waren"
+    },
+    {
+     "start": 38.16,
+     "end": 38.86,
+     "word": "groß"
+    },
+    {
+     "start": 38.86,
+     "end": 39.62,
+     "word": "und"
+    },
+    {
+     "start": 39.62,
+     "end": 40.62,
+     "word": "unglaublich"
+    },
+    {
+     "start": 40.62,
+     "end": 41.04,
+     "word": "stark."
+    }
+   ]
+  },
+  {
+   "start": 42.26,
+   "end": 47.2,
+   "text": "Sie bauten eine Stadt mit riesigen Säulen, die hieß Iram.",
+   "words": [
+    {
+     "start": 42.26,
+     "end": 42.44,
+     "word": "Sie"
+    },
+    {
+     "start": 42.44,
+     "end": 42.98,
+     "word": "bauten"
+    },
+    {
+     "start": 42.98,
+     "end": 43.22,
+     "word": "eine"
+    },
+    {
+     "start": 43.22,
+     "end": 43.56,
+     "word": "Stadt"
+    },
+    {
+     "start": 43.56,
+     "end": 43.9,
+     "word": "mit"
+    },
+    {
+     "start": 43.9,
+     "end": 44.5,
+     "word": "riesigen"
+    },
+    {
+     "start": 44.5,
+     "end": 45.4,
+     "word": "Säulen,"
+    },
+    {
+     "start": 45.72,
+     "end": 45.94,
+     "word": "die"
+    },
+    {
+     "start": 45.94,
+     "end": 46.56,
+     "word": "hieß"
+    },
+    {
+     "start": 46.56,
+     "end": 47.2,
+     "word": "Iram."
+    }
+   ]
+  },
+  {
+   "start": 48.6,
+   "end": 52.36,
+   "text": "Eine Stadt wie diese gab es nirgendwo sonst.",
+   "words": [
+    {
+     "start": 48.6,
+     "end": 48.88,
+     "word": "Eine"
+    },
+    {
+     "start": 48.88,
+     "end": 49.14,
+     "word": "Stadt"
+    },
+    {
+     "start": 49.14,
+     "end": 49.4,
+     "word": "wie"
+    },
+    {
+     "start": 49.4,
+     "end": 50.14,
+     "word": "diese"
+    },
+    {
+     "start": 50.14,
+     "end": 50.68,
+     "word": "gab"
+    },
+    {
+     "start": 50.68,
+     "end": 51.04,
+     "word": "es"
+    },
+    {
+     "start": 51.04,
+     "end": 51.84,
+     "word": "nirgendwo"
+    },
+    {
+     "start": 51.84,
+     "end": 52.36,
+     "word": "sonst."
+    }
+   ]
+  },
+  {
+   "start": 53.36,
+   "end": 60.3,
+   "text": "Allah schenkte ihnen Gärten und Quellen, viele Tiere und viele Kinder.",
+   "words": [
+    {
+     "start": 53.36,
+     "end": 54.28,
+     "word": "Allah"
+    },
+    {
+     "start": 54.28,
+     "end": 54.8,
+     "word": "schenkte"
+    },
+    {
+     "start": 54.8,
+     "end": 55.14,
+     "word": "ihnen"
+    },
+    {
+     "start": 55.14,
+     "end": 55.8,
+     "word": "Gärten"
+    },
+    {
+     "start": 55.8,
+     "end": 56.16,
+     "word": "und"
+    },
+    {
+     "start": 56.16,
+     "end": 56.96,
+     "word": "Quellen,"
+    },
+    {
+     "start": 57.64,
+     "end": 57.84,
+     "word": "viele"
+    },
+    {
+     "start": 57.84,
+     "end": 58.4,
+     "word": "Tiere"
+    },
+    {
+     "start": 58.4,
+     "end": 59.28,
+     "word": "und"
+    },
+    {
+     "start": 59.28,
+     "end": 59.86,
+     "word": "viele"
+    },
+    {
+     "start": 59.86,
+     "end": 60.3,
+     "word": "Kinder."
+    }
+   ]
+  },
+  {
+   "start": 60.58,
+   "end": 65.88,
+   "text": "Aber statt Allah dafür zu danken, wurden sie hochmütig.",
+   "words": [
+    {
+     "start": 60.58,
+     "end": 60.96,
+     "word": "Aber"
+    },
+    {
+     "start": 60.96,
+     "end": 61.42,
+     "word": "statt"
+    },
+    {
+     "start": 61.42,
+     "end": 61.96,
+     "word": "Allah"
+    },
+    {
+     "start": 61.96,
+     "end": 62.38,
+     "word": "dafür"
+    },
+    {
+     "start": 62.38,
+     "end": 62.72,
+     "word": "zu"
+    },
+    {
+     "start": 62.72,
+     "end": 63.82,
+     "word": "danken,"
+    },
+    {
+     "start": 64.26,
+     "end": 64.3,
+     "word": "wurden"
+    },
+    {
+     "start": 64.3,
+     "end": 64.64,
+     "word": "sie"
+    },
+    {
+     "start": 64.64,
+     "end": 65.88,
+     "word": "hochmütig."
+    }
+   ]
+  },
+  {
+   "start": 66.9,
+   "end": 72.5,
+   "text": "Auf jedem Hügel bauten sie hohe Türne nur zum Angeben.",
+   "words": [
+    {
+     "start": 66.9,
+     "end": 67.24,
+     "word": "Auf"
+    },
+    {
+     "start": 67.24,
+     "end": 67.66,
+     "word": "jedem"
+    },
+    {
+     "start": 67.66,
+     "end": 68.36,
+     "word": "Hügel"
+    },
+    {
+     "start": 68.36,
+     "end": 68.9,
+     "word": "bauten"
+    },
+    {
+     "start": 68.9,
+     "end": 69.2,
+     "word": "sie"
+    },
+    {
+     "start": 69.2,
+     "end": 69.82,
+     "word": "hohe"
+    },
+    {
+     "start": 69.82,
+     "end": 70.66,
+     "word": "Türne"
+    },
+    {
+     "start": 70.66,
+     "end": 71.26,
+     "word": "nur"
+    },
+    {
+     "start": 71.26,
+     "end": 71.76,
+     "word": "zum"
+    },
+    {
+     "start": 71.76,
+     "end": 72.5,
+     "word": "Angeben."
+    }
+   ]
+  },
+  {
+   "start": 73.84,
+   "end": 79.0,
+   "text": "Sie bauten mächtige Burgen, als ob sie für immer leben würden.",
+   "words": [
+    {
+     "start": 73.84,
+     "end": 74.06,
+     "word": "Sie"
+    },
+    {
+     "start": 74.06,
+     "end": 74.62,
+     "word": "bauten"
+    },
+    {
+     "start": 74.62,
+     "end": 75.34,
+     "word": "mächtige"
+    },
+    {
+     "start": 75.34,
+     "end": 76.48,
+     "word": "Burgen,"
+    },
+    {
+     "start": 76.78,
+     "end": 76.94,
+     "word": "als"
+    },
+    {
+     "start": 76.94,
+     "end": 77.16,
+     "word": "ob"
+    },
+    {
+     "start": 77.16,
+     "end": 77.36,
+     "word": "sie"
+    },
+    {
+     "start": 77.36,
+     "end": 77.74,
+     "word": "für"
+    },
+    {
+     "start": 77.74,
+     "end": 78.08,
+     "word": "immer"
+    },
+    {
+     "start": 78.08,
+     "end": 78.48,
+     "word": "leben"
+    },
+    {
+     "start": 78.48,
+     "end": 79.0,
+     "word": "würden."
+    }
+   ]
+  },
+  {
+   "start": 80.0,
+   "end": 83.14,
+   "text": "Und sie waren hart und grob zu anderen.",
+   "words": [
+    {
+     "start": 79.85,
+     "end": 80.34,
+     "word": "Und"
+    },
+    {
+     "start": 80.34,
+     "end": 80.54,
+     "word": "sie"
+    },
+    {
+     "start": 80.54,
+     "end": 80.88,
+     "word": "waren"
+    },
+    {
+     "start": 80.88,
+     "end": 81.42,
+     "word": "hart"
+    },
+    {
+     "start": 81.42,
+     "end": 81.9,
+     "word": "und"
+    },
+    {
+     "start": 81.9,
+     "end": 82.42,
+     "word": "grob"
+    },
+    {
+     "start": 82.42,
+     "end": 82.68,
+     "word": "zu"
+    },
+    {
+     "start": 82.68,
+     "end": 83.14,
+     "word": "anderen."
+    }
+   ]
+  },
+  {
+   "start": 84.4,
+   "end": 88.68,
+   "text": "Sie sagten sogar, wer ist stärker als wir?",
+   "words": [
+    {
+     "start": 84.4,
+     "end": 84.66,
+     "word": "Sie"
+    },
+    {
+     "start": 84.66,
+     "end": 85.22,
+     "word": "sagten"
+    },
+    {
+     "start": 85.22,
+     "end": 85.78,
+     "word": "sogar,"
+    },
+    {
+     "start": 86.44,
+     "end": 86.84,
+     "word": "wer"
+    },
+    {
+     "start": 86.84,
+     "end": 87.3,
+     "word": "ist"
+    },
+    {
+     "start": 87.3,
+     "end": 87.8,
+     "word": "stärker"
+    },
+    {
+     "start": 87.8,
+     "end": 88.2,
+     "word": "als"
+    },
+    {
+     "start": 88.2,
+     "end": 88.68,
+     "word": "wir?"
+    }
+   ]
+  },
+  {
+   "start": 90.02,
+   "end": 93.94,
+   "text": "Uma, waren sie wirklich soo stark?",
+   "words": [
+    {
+     "start": 90.02,
+     "end": 90.58,
+     "word": "Uma,"
+    },
+    {
+     "start": 91.2,
+     "end": 91.48,
+     "word": "waren"
+    },
+    {
+     "start": 91.48,
+     "end": 91.74,
+     "word": "sie"
+    },
+    {
+     "start": 91.74,
+     "end": 92.48,
+     "word": "wirklich"
+    },
+    {
+     "start": 92.48,
+     "end": 93.44,
+     "word": "soo"
+    },
+    {
+     "start": 93.44,
+     "end": 93.94,
+     "word": "stark?"
+    }
+   ]
+  },
+  {
+   "start": 94.98,
+   "end": 99.36,
+   "text": "Ja, Elias, aber sie hatten etwas vergessen.",
+   "words": [
+    {
+     "start": 94.98,
+     "end": 95.54,
+     "word": "Ja,"
+    },
+    {
+     "start": 95.8,
+     "end": 96.52,
+     "word": "Elias,"
+    },
+    {
+     "start": 97.12,
+     "end": 97.64,
+     "word": "aber"
+    },
+    {
+     "start": 97.64,
+     "end": 97.9,
+     "word": "sie"
+    },
+    {
+     "start": 97.9,
+     "end": 98.26,
+     "word": "hatten"
+    },
+    {
+     "start": 98.26,
+     "end": 98.66,
+     "word": "etwas"
+    },
+    {
+     "start": 98.66,
+     "end": 99.36,
+     "word": "vergessen."
+    }
+   ]
+  },
+  {
+   "start": 100.82,
+   "end": 105.48,
+   "text": "Allah, der sie erschaffen hat, ist viel stärker als sie.",
+   "words": [
+    {
+     "start": 100.82,
+     "end": 101.12,
+     "word": "Allah,"
+    },
+    {
+     "start": 101.26,
+     "end": 101.5,
+     "word": "der"
+    },
+    {
+     "start": 101.5,
+     "end": 101.78,
+     "word": "sie"
+    },
+    {
+     "start": 101.78,
+     "end": 102.28,
+     "word": "erschaffen"
+    },
+    {
+     "start": 102.28,
+     "end": 102.64,
+     "word": "hat,"
+    },
+    {
+     "start": 103.38,
+     "end": 103.7,
+     "word": "ist"
+    },
+    {
+     "start": 103.7,
+     "end": 104.24,
+     "word": "viel"
+    },
+    {
+     "start": 104.24,
+     "end": 104.92,
+     "word": "stärker"
+    },
+    {
+     "start": 104.92,
+     "end": 105.2,
+     "word": "als"
+    },
+    {
+     "start": 105.2,
+     "end": 105.48,
+     "word": "sie."
+    }
+   ]
+  },
+  {
+   "start": 105.48,
+   "end": 112.8,
+   "text": "Da schickte Allah ihnen einen Mann aus ihrem eigenen Volk, den Propheten Hut.",
+   "words": [
+    {
+     "start": 105.48,
+     "end": 106.08,
+     "word": "Da"
+    },
+    {
+     "start": 106.08,
+     "end": 106.72,
+     "word": "schickte"
+    },
+    {
+     "start": 106.72,
+     "end": 107.16,
+     "word": "Allah"
+    },
+    {
+     "start": 107.16,
+     "end": 107.66,
+     "word": "ihnen"
+    },
+    {
+     "start": 107.66,
+     "end": 107.98,
+     "word": "einen"
+    },
+    {
+     "start": 107.98,
+     "end": 108.44,
+     "word": "Mann"
+    },
+    {
+     "start": 108.44,
+     "end": 108.76,
+     "word": "aus"
+    },
+    {
+     "start": 108.76,
+     "end": 109.1,
+     "word": "ihrem"
+    },
+    {
+     "start": 109.1,
+     "end": 109.72,
+     "word": "eigenen"
+    },
+    {
+     "start": 109.72,
+     "end": 110.78,
+     "word": "Volk,"
+    },
+    {
+     "start": 111.38,
+     "end": 111.66,
+     "word": "den"
+    },
+    {
+     "start": 111.66,
+     "end": 112.56,
+     "word": "Propheten"
+    },
+    {
+     "start": 112.56,
+     "end": 112.8,
+     "word": "Hut."
+    }
+   ]
+  },
+  {
+   "start": 114.24,
+   "end": 120.38,
+   "text": "Er sagte, O mein Volk, betet nur Allah an.",
+   "words": [
+    {
+     "start": 114.24,
+     "end": 114.56,
+     "word": "Er"
+    },
+    {
+     "start": 114.56,
+     "end": 115.08,
+     "word": "sagte,"
+    },
+    {
+     "start": 116.24,
+     "end": 116.56,
+     "word": "O"
+    },
+    {
+     "start": 116.56,
+     "end": 116.9,
+     "word": "mein"
+    },
+    {
+     "start": 116.9,
+     "end": 118.02,
+     "word": "Volk,"
+    },
+    {
+     "start": 118.44,
+     "end": 118.86,
+     "word": "betet"
+    },
+    {
+     "start": 118.86,
+     "end": 119.2,
+     "word": "nur"
+    },
+    {
+     "start": 119.2,
+     "end": 119.76,
+     "word": "Allah"
+    },
+    {
+     "start": 119.76,
+     "end": 120.38,
+     "word": "an."
+    }
+   ]
+  },
+  {
+   "start": 121.44,
+   "end": 124.62,
+   "text": "Ihr habt keinen anderen Gott außer ihm.",
+   "words": [
+    {
+     "start": 121.44,
+     "end": 121.72,
+     "word": "Ihr"
+    },
+    {
+     "start": 121.72,
+     "end": 122.14,
+     "word": "habt"
+    },
+    {
+     "start": 122.14,
+     "end": 122.66,
+     "word": "keinen"
+    },
+    {
+     "start": 122.66,
+     "end": 123.24,
+     "word": "anderen"
+    },
+    {
+     "start": 123.24,
+     "end": 123.62,
+     "word": "Gott"
+    },
+    {
+     "start": 123.62,
+     "end": 124.0,
+     "word": "außer"
+    },
+    {
+     "start": 124.0,
+     "end": 124.62,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 126.04,
+   "end": 128.4,
+   "text": "Bittet Allah um Vergebung.",
+   "words": [
+    {
+     "start": 126.04,
+     "end": 126.52,
+     "word": "Bittet"
+    },
+    {
+     "start": 126.52,
+     "end": 127.0,
+     "word": "Allah"
+    },
+    {
+     "start": 127.0,
+     "end": 127.34,
+     "word": "um"
+    },
+    {
+     "start": 127.34,
+     "end": 128.4,
+     "word": "Vergebung."
+    }
+   ]
+  },
+  {
+   "start": 129.32,
+   "end": 135.74,
+   "text": "Dann schickt er euch reichlich Regen vom Himmel und macht euch noch stärker.",
+   "words": [
+    {
+     "start": 129.22,
+     "end": 129.72,
+     "word": "Dann"
+    },
+    {
+     "start": 129.72,
+     "end": 130.2,
+     "word": "schickt"
+    },
+    {
+     "start": 130.2,
+     "end": 130.44,
+     "word": "er"
+    },
+    {
+     "start": 130.44,
+     "end": 130.72,
+     "word": "euch"
+    },
+    {
+     "start": 130.72,
+     "end": 131.42,
+     "word": "reichlich"
+    },
+    {
+     "start": 131.42,
+     "end": 131.88,
+     "word": "Regen"
+    },
+    {
+     "start": 131.88,
+     "end": 132.1,
+     "word": "vom"
+    },
+    {
+     "start": 132.1,
+     "end": 133.1,
+     "word": "Himmel"
+    },
+    {
+     "start": 133.1,
+     "end": 133.74,
+     "word": "und"
+    },
+    {
+     "start": 133.74,
+     "end": 134.1,
+     "word": "macht"
+    },
+    {
+     "start": 134.1,
+     "end": 134.48,
+     "word": "euch"
+    },
+    {
+     "start": 134.48,
+     "end": 134.98,
+     "word": "noch"
+    },
+    {
+     "start": 134.98,
+     "end": 135.74,
+     "word": "stärker."
+    }
+   ]
+  },
+  {
+   "start": 135.84,
+   "end": 140.68,
+   "text": "Aber sie antworteten, Du hast uns keinen Beweis gebracht.",
+   "words": [
+    {
+     "start": 135.84,
+     "end": 136.16,
+     "word": "Aber"
+    },
+    {
+     "start": 136.16,
+     "end": 136.48,
+     "word": "sie"
+    },
+    {
+     "start": 136.48,
+     "end": 137.34,
+     "word": "antworteten,"
+    },
+    {
+     "start": 138.26,
+     "end": 138.48,
+     "word": "Du"
+    },
+    {
+     "start": 138.48,
+     "end": 138.78,
+     "word": "hast"
+    },
+    {
+     "start": 138.78,
+     "end": 139.22,
+     "word": "uns"
+    },
+    {
+     "start": 139.22,
+     "end": 139.48,
+     "word": "keinen"
+    },
+    {
+     "start": 139.48,
+     "end": 140.08,
+     "word": "Beweis"
+    },
+    {
+     "start": 140.08,
+     "end": 140.68,
+     "word": "gebracht."
+    }
+   ]
+  },
+  {
+   "start": 141.56,
+   "end": 144.1,
+   "text": "Wir verlassen unsere Götter nicht.",
+   "words": [
+    {
+     "start": 141.56,
+     "end": 142.12,
+     "word": "Wir"
+    },
+    {
+     "start": 142.12,
+     "end": 142.76,
+     "word": "verlassen"
+    },
+    {
+     "start": 142.76,
+     "end": 143.24,
+     "word": "unsere"
+    },
+    {
+     "start": 143.24,
+     "end": 143.68,
+     "word": "Götter"
+    },
+    {
+     "start": 143.68,
+     "end": 144.1,
+     "word": "nicht."
+    }
+   ]
+  },
+  {
+   "start": 145.5,
+   "end": 149.36,
+   "text": "Vielleicht hat einer unserer Götter dich verrückt gemacht.",
+   "words": [
+    {
+     "start": 145.5,
+     "end": 146.14,
+     "word": "Vielleicht"
+    },
+    {
+     "start": 146.14,
+     "end": 146.48,
+     "word": "hat"
+    },
+    {
+     "start": 146.48,
+     "end": 146.94,
+     "word": "einer"
+    },
+    {
+     "start": 146.94,
+     "end": 147.44,
+     "word": "unserer"
+    },
+    {
+     "start": 147.44,
+     "end": 147.94,
+     "word": "Götter"
+    },
+    {
+     "start": 147.94,
+     "end": 148.28,
+     "word": "dich"
+    },
+    {
+     "start": 148.28,
+     "end": 148.8,
+     "word": "verrückt"
+    },
+    {
+     "start": 148.8,
+     "end": 149.36,
+     "word": "gemacht."
+    }
+   ]
+  },
+  {
+   "start": 150.9,
+   "end": 154.26,
+   "text": "Doch Hat blieb ruhig und mutig.",
+   "words": [
+    {
+     "start": 150.9,
+     "end": 151.3,
+     "word": "Doch"
+    },
+    {
+     "start": 151.3,
+     "end": 151.64,
+     "word": "Hat"
+    },
+    {
+     "start": 151.64,
+     "end": 152.22,
+     "word": "blieb"
+    },
+    {
+     "start": 152.22,
+     "end": 152.92,
+     "word": "ruhig"
+    },
+    {
+     "start": 152.92,
+     "end": 153.38,
+     "word": "und"
+    },
+    {
+     "start": 153.38,
+     "end": 154.26,
+     "word": "mutig."
+    }
+   ]
+  },
+  {
+   "start": 154.86,
+   "end": 162.56,
+   "text": "Er sagte, Ich vertraue auf Allah, meinen Herrn und euren Herrn.",
+   "words": [
+    {
+     "start": 154.59,
+     "end": 155.06,
+     "word": "Er"
+    },
+    {
+     "start": 155.06,
+     "end": 155.66,
+     "word": "sagte,"
+    },
+    {
+     "start": 156.68,
+     "end": 157.04,
+     "word": "Ich"
+    },
+    {
+     "start": 157.04,
+     "end": 157.7,
+     "word": "vertraue"
+    },
+    {
+     "start": 157.7,
+     "end": 158.0,
+     "word": "auf"
+    },
+    {
+     "start": 158.0,
+     "end": 158.72,
+     "word": "Allah,"
+    },
+    {
+     "start": 159.66,
+     "end": 160.0,
+     "word": "meinen"
+    },
+    {
+     "start": 160.0,
+     "end": 160.56,
+     "word": "Herrn"
+    },
+    {
+     "start": 160.56,
+     "end": 161.52,
+     "word": "und"
+    },
+    {
+     "start": 161.52,
+     "end": 162.02,
+     "word": "euren"
+    },
+    {
+     "start": 162.02,
+     "end": 162.56,
+     "word": "Herrn."
+    }
+   ]
+  },
+  {
+   "start": 163.56,
+   "end": 168.52,
+   "text": "Es gibt kein Lebewesen, das er nicht in seiner Hand hält.",
+   "words": [
+    {
+     "start": 163.56,
+     "end": 163.86,
+     "word": "Es"
+    },
+    {
+     "start": 163.86,
+     "end": 164.24,
+     "word": "gibt"
+    },
+    {
+     "start": 164.24,
+     "end": 164.7,
+     "word": "kein"
+    },
+    {
+     "start": 164.7,
+     "end": 165.72,
+     "word": "Lebewesen,"
+    },
+    {
+     "start": 166.24,
+     "end": 166.5,
+     "word": "das"
+    },
+    {
+     "start": 166.5,
+     "end": 166.86,
+     "word": "er"
+    },
+    {
+     "start": 166.86,
+     "end": 167.28,
+     "word": "nicht"
+    },
+    {
+     "start": 167.28,
+     "end": 167.56,
+     "word": "in"
+    },
+    {
+     "start": 167.56,
+     "end": 167.76,
+     "word": "seiner"
+    },
+    {
+     "start": 167.76,
+     "end": 168.1,
+     "word": "Hand"
+    },
+    {
+     "start": 168.1,
+     "end": 168.52,
+     "word": "hält."
+    }
+   ]
+  },
+  {
+   "start": 170.04,
+   "end": 173.06,
+   "text": "Was glaubt ihr, was ist dann passiert?",
+   "words": [
+    {
+     "start": 170.04,
+     "end": 170.32,
+     "word": "Was"
+    },
+    {
+     "start": 170.32,
+     "end": 170.76,
+     "word": "glaubt"
+    },
+    {
+     "start": 170.76,
+     "end": 171.22,
+     "word": "ihr,"
+    },
+    {
+     "start": 171.7,
+     "end": 171.98,
+     "word": "was"
+    },
+    {
+     "start": 171.98,
+     "end": 172.24,
+     "word": "ist"
+    },
+    {
+     "start": 172.24,
+     "end": 172.46,
+     "word": "dann"
+    },
+    {
+     "start": 172.46,
+     "end": 173.06,
+     "word": "passiert?"
+    }
+   ]
+  },
+  {
+   "start": 173.36,
+   "end": 179.0,
+   "text": "Eines Tages sahen die Leute eine riesige, dunkle Wolke.",
+   "words": [
+    {
+     "start": 173.36,
+     "end": 173.9,
+     "word": "Eines"
+    },
+    {
+     "start": 173.9,
+     "end": 174.64,
+     "word": "Tages"
+    },
+    {
+     "start": 174.64,
+     "end": 175.22,
+     "word": "sahen"
+    },
+    {
+     "start": 175.22,
+     "end": 175.44,
+     "word": "die"
+    },
+    {
+     "start": 175.44,
+     "end": 175.76,
+     "word": "Leute"
+    },
+    {
+     "start": 175.76,
+     "end": 176.28,
+     "word": "eine"
+    },
+    {
+     "start": 176.28,
+     "end": 177.2,
+     "word": "riesige,"
+    },
+    {
+     "start": 177.34,
+     "end": 177.88,
+     "word": "dunkle"
+    },
+    {
+     "start": 177.88,
+     "end": 179.0,
+     "word": "Wolke."
+    }
+   ]
+  },
+  {
+   "start": 179.8,
+   "end": 182.42,
+   "text": "Sie kam auf ihre Täler zu.",
+   "words": [
+    {
+     "start": 179.8,
+     "end": 180.2,
+     "word": "Sie"
+    },
+    {
+     "start": 180.2,
+     "end": 180.66,
+     "word": "kam"
+    },
+    {
+     "start": 180.66,
+     "end": 180.9,
+     "word": "auf"
+    },
+    {
+     "start": 180.9,
+     "end": 181.34,
+     "word": "ihre"
+    },
+    {
+     "start": 181.34,
+     "end": 181.92,
+     "word": "Täler"
+    },
+    {
+     "start": 181.92,
+     "end": 182.42,
+     "word": "zu."
+    }
+   ]
+  },
+  {
+   "start": 183.24,
+   "end": 189.32,
+   "text": "Sie freuten sich und riefen, Das ist eine Wolke, die uns Regen bringt.",
+   "words": [
+    {
+     "start": 183.24,
+     "end": 184.0,
+     "word": "Sie"
+    },
+    {
+     "start": 184.0,
+     "end": 184.6,
+     "word": "freuten"
+    },
+    {
+     "start": 184.6,
+     "end": 184.94,
+     "word": "sich"
+    },
+    {
+     "start": 184.94,
+     "end": 185.22,
+     "word": "und"
+    },
+    {
+     "start": 185.22,
+     "end": 186.12,
+     "word": "riefen,"
+    },
+    {
+     "start": 186.3,
+     "end": 186.64,
+     "word": "Das"
+    },
+    {
+     "start": 186.64,
+     "end": 186.94,
+     "word": "ist"
+    },
+    {
+     "start": 186.94,
+     "end": 187.28,
+     "word": "eine"
+    },
+    {
+     "start": 187.28,
+     "end": 187.84,
+     "word": "Wolke,"
+    },
+    {
+     "start": 187.86,
+     "end": 188.02,
+     "word": "die"
+    },
+    {
+     "start": 188.02,
+     "end": 188.34,
+     "word": "uns"
+    },
+    {
+     "start": 188.34,
+     "end": 188.9,
+     "word": "Regen"
+    },
+    {
+     "start": 188.9,
+     "end": 189.32,
+     "word": "bringt."
+    }
+   ]
+  },
+  {
+   "start": 190.74,
+   "end": 192.92,
+   "text": "Aber es war kein Regen.",
+   "words": [
+    {
+     "start": 190.74,
+     "end": 191.12,
+     "word": "Aber"
+    },
+    {
+     "start": 191.12,
+     "end": 191.36,
+     "word": "es"
+    },
+    {
+     "start": 191.36,
+     "end": 191.68,
+     "word": "war"
+    },
+    {
+     "start": 191.68,
+     "end": 191.98,
+     "word": "kein"
+    },
+    {
+     "start": 191.98,
+     "end": 192.92,
+     "word": "Regen."
+    }
+   ]
+  },
+  {
+   "start": 193.78,
+   "end": 197.16,
+   "text": "Es war ein eiskalter, brausender Wind.",
+   "words": [
+    {
+     "start": 193.78,
+     "end": 194.0,
+     "word": "Es"
+    },
+    {
+     "start": 194.0,
+     "end": 194.32,
+     "word": "war"
+    },
+    {
+     "start": 194.32,
+     "end": 194.68,
+     "word": "ein"
+    },
+    {
+     "start": 194.68,
+     "end": 195.78,
+     "word": "eiskalter,"
+    },
+    {
+     "start": 196.06,
+     "end": 196.66,
+     "word": "brausender"
+    },
+    {
+     "start": 196.66,
+     "end": 197.16,
+     "word": "Wind."
+    }
+   ]
+  },
+  {
+   "start": 198.4,
+   "end": 204.28,
+   "text": "Er wehte sieben Nächte und acht Tage lang, ohne aufzuhören.",
+   "words": [
+    {
+     "start": 198.4,
+     "end": 198.66,
+     "word": "Er"
+    },
+    {
+     "start": 198.66,
+     "end": 199.12,
+     "word": "wehte"
+    },
+    {
+     "start": 199.12,
+     "end": 199.68,
+     "word": "sieben"
+    },
+    {
+     "start": 199.68,
+     "end": 200.34,
+     "word": "Nächte"
+    },
+    {
+     "start": 200.34,
+     "end": 200.64,
+     "word": "und"
+    },
+    {
+     "start": 200.64,
+     "end": 201.14,
+     "word": "acht"
+    },
+    {
+     "start": 201.14,
+     "end": 201.6,
+     "word": "Tage"
+    },
+    {
+     "start": 201.6,
+     "end": 202.22,
+     "word": "lang,"
+    },
+    {
+     "start": 202.68,
+     "end": 203.08,
+     "word": "ohne"
+    },
+    {
+     "start": 203.08,
+     "end": 204.28,
+     "word": "aufzuhören."
+    }
+   ]
+  },
+  {
+   "start": 205.72,
+   "end": 211.64,
+   "text": "Und als der Wind vorbei war, sah man nur noch ihre leeren Häuser.",
+   "words": [
+    {
+     "start": 205.72,
+     "end": 206.08,
+     "word": "Und"
+    },
+    {
+     "start": 206.08,
+     "end": 206.44,
+     "word": "als"
+    },
+    {
+     "start": 206.44,
+     "end": 206.64,
+     "word": "der"
+    },
+    {
+     "start": 206.64,
+     "end": 206.9,
+     "word": "Wind"
+    },
+    {
+     "start": 206.9,
+     "end": 207.38,
+     "word": "vorbei"
+    },
+    {
+     "start": 207.38,
+     "end": 208.16,
+     "word": "war,"
+    },
+    {
+     "start": 209.22,
+     "end": 209.3,
+     "word": "sah"
+    },
+    {
+     "start": 209.3,
+     "end": 209.52,
+     "word": "man"
+    },
+    {
+     "start": 209.52,
+     "end": 209.84,
+     "word": "nur"
+    },
+    {
+     "start": 209.84,
+     "end": 210.14,
+     "word": "noch"
+    },
+    {
+     "start": 210.14,
+     "end": 210.48,
+     "word": "ihre"
+    },
+    {
+     "start": 210.48,
+     "end": 211.02,
+     "word": "leeren"
+    },
+    {
+     "start": 211.02,
+     "end": 211.64,
+     "word": "Häuser."
+    }
+   ]
+  },
+  {
+   "start": 211.64,
+   "end": 220.02,
+   "text": "Aber Allah rettete den Propheten Hut und alle, die mit ihm glaubten, mit seiner Barmherzigkeit.",
+   "words": [
+    {
+     "start": 211.64,
+     "end": 212.2,
+     "word": "Aber"
+    },
+    {
+     "start": 212.2,
+     "end": 212.68,
+     "word": "Allah"
+    },
+    {
+     "start": 212.68,
+     "end": 213.38,
+     "word": "rettete"
+    },
+    {
+     "start": 213.38,
+     "end": 213.7,
+     "word": "den"
+    },
+    {
+     "start": 213.7,
+     "end": 214.48,
+     "word": "Propheten"
+    },
+    {
+     "start": 214.48,
+     "end": 214.76,
+     "word": "Hut"
+    },
+    {
+     "start": 214.76,
+     "end": 215.8,
+     "word": "und"
+    },
+    {
+     "start": 215.8,
+     "end": 216.26,
+     "word": "alle,"
+    },
+    {
+     "start": 216.34,
+     "end": 216.46,
+     "word": "die"
+    },
+    {
+     "start": 216.46,
+     "end": 216.66,
+     "word": "mit"
+    },
+    {
+     "start": 216.66,
+     "end": 216.94,
+     "word": "ihm"
+    },
+    {
+     "start": 216.94,
+     "end": 217.9,
+     "word": "glaubten,"
+    },
+    {
+     "start": 218.24,
+     "end": 218.46,
+     "word": "mit"
+    },
+    {
+     "start": 218.46,
+     "end": 218.74,
+     "word": "seiner"
+    },
+    {
+     "start": 218.74,
+     "end": 220.02,
+     "word": "Barmherzigkeit."
+    }
+   ]
+  },
+  {
+   "start": 221.84,
+   "end": 229.14,
+   "text": "Die stärksten Burden und die höchsten Türne konnten das Volk Ad nicht schützen.",
+   "words": [
+    {
+     "start": 221.84,
+     "end": 222.24,
+     "word": "Die"
+    },
+    {
+     "start": 222.24,
+     "end": 222.94,
+     "word": "stärksten"
+    },
+    {
+     "start": 222.94,
+     "end": 223.62,
+     "word": "Burden"
+    },
+    {
+     "start": 223.62,
+     "end": 224.02,
+     "word": "und"
+    },
+    {
+     "start": 224.02,
+     "end": 224.34,
+     "word": "die"
+    },
+    {
+     "start": 224.34,
+     "end": 224.82,
+     "word": "höchsten"
+    },
+    {
+     "start": 224.82,
+     "end": 225.94,
+     "word": "Türne"
+    },
+    {
+     "start": 225.94,
+     "end": 226.42,
+     "word": "konnten"
+    },
+    {
+     "start": 226.42,
+     "end": 226.82,
+     "word": "das"
+    },
+    {
+     "start": 226.82,
+     "end": 227.26,
+     "word": "Volk"
+    },
+    {
+     "start": 227.26,
+     "end": 227.54,
+     "word": "Ad"
+    },
+    {
+     "start": 227.54,
+     "end": 227.9,
+     "word": "nicht"
+    },
+    {
+     "start": 227.9,
+     "end": 229.14,
+     "word": "schützen."
+    }
+   ]
+  },
+  {
+   "start": 229.96,
+   "end": 232.02,
+   "text": "Nur Allah beschützt.",
+   "words": [
+    {
+     "start": 229.96,
+     "end": 230.36,
+     "word": "Nur"
+    },
+    {
+     "start": 230.36,
+     "end": 231.08,
+     "word": "Allah"
+    },
+    {
+     "start": 231.08,
+     "end": 232.02,
+     "word": "beschützt."
+    }
+   ]
+  },
+  {
+   "start": 232.34,
+   "end": 232.76,
+   "text": "Noah?",
+   "words": [
+    {
+     "start": 232.34,
+     "end": 232.76,
+     "word": "Noah?"
+    }
+   ]
+  },
+  {
+   "start": 234.24,
+   "end": 234.98,
+   "text": "Elias?",
+   "words": [
+    {
+     "start": 234.24,
+     "end": 234.98,
+     "word": "Elias?"
+    }
+   ]
+  },
+  {
+   "start": 236.7,
+   "end": 238.26,
+   "text": "Sie schlafen schon.",
+   "words": [
+    {
+     "start": 236.7,
+     "end": 237.16,
+     "word": "Sie"
+    },
+    {
+     "start": 237.16,
+     "end": 237.78,
+     "word": "schlafen"
+    },
+    {
+     "start": 237.78,
+     "end": 238.26,
+     "word": "schon."
+    }
+   ]
+  },
+  {
+   "start": 239.26,
+   "end": 246.76,
+   "text": "Schlaft gut, meine kleinen Sterne, und merkt euch, wahre Stärke kommt von Allah.",
+   "words": [
+    {
+     "start": 239.26,
+     "end": 239.86,
+     "word": "Schlaft"
+    },
+    {
+     "start": 239.86,
+     "end": 240.24,
+     "word": "gut,"
+    },
+    {
+     "start": 240.5,
+     "end": 240.54,
+     "word": "meine"
+    },
+    {
+     "start": 240.54,
+     "end": 241.02,
+     "word": "kleinen"
+    },
+    {
+     "start": 241.02,
+     "end": 242.02,
+     "word": "Sterne,"
+    },
+    {
+     "start": 242.62,
+     "end": 242.9,
+     "word": "und"
+    },
+    {
+     "start": 242.9,
+     "end": 243.34,
+     "word": "merkt"
+    },
+    {
+     "start": 243.34,
+     "end": 243.92,
+     "word": "euch,"
+    },
+    {
+     "start": 244.62,
+     "end": 245.1,
+     "word": "wahre"
+    },
+    {
+     "start": 245.1,
+     "end": 245.64,
+     "word": "Stärke"
+    },
+    {
+     "start": 245.64,
+     "end": 245.96,
+     "word": "kommt"
+    },
+    {
+     "start": 245.96,
+     "end": 246.28,
+     "word": "von"
+    },
+    {
+     "start": 246.28,
+     "end": 246.76,
+     "word": "Allah."
+    }
+   ]
+  },
+  {
+   "start": 248.04,
+   "end": 254.06,
+   "text": "Wenn Allah uns etwas schenkt, sagen wir Danke und werden nicht stolz.",
+   "words": [
+    {
+     "start": 248.04,
+     "end": 248.34,
+     "word": "Wenn"
+    },
+    {
+     "start": 248.34,
+     "end": 248.86,
+     "word": "Allah"
+    },
+    {
+     "start": 248.86,
+     "end": 249.16,
+     "word": "uns"
+    },
+    {
+     "start": 249.16,
+     "end": 249.42,
+     "word": "etwas"
+    },
+    {
+     "start": 249.42,
+     "end": 250.24,
+     "word": "schenkt,"
+    },
+    {
+     "start": 250.58,
+     "end": 250.72,
+     "word": "sagen"
+    },
+    {
+     "start": 250.72,
+     "end": 250.96,
+     "word": "wir"
+    },
+    {
+     "start": 250.96,
+     "end": 251.54,
+     "word": "Danke"
+    },
+    {
+     "start": 251.54,
+     "end": 252.44,
+     "word": "und"
+    },
+    {
+     "start": 252.44,
+     "end": 252.78,
+     "word": "werden"
+    },
+    {
+     "start": 252.78,
+     "end": 253.12,
+     "word": "nicht"
+    },
+    {
+     "start": 253.12,
+     "end": 254.06,
+     "word": "stolz."
+    }
+   ]
+  },
+  {
+   "start": 255.14,
+   "end": 262.22,
+   "text": "Und morgen erzähle ich euch vom Propheten Salih und von einem wundersamen Kamel.",
+   "words": [
+    {
+     "start": 255.14,
+     "end": 255.52,
+     "word": "Und"
+    },
+    {
+     "start": 255.52,
+     "end": 255.96,
+     "word": "morgen"
+    },
+    {
+     "start": 255.96,
+     "end": 256.54,
+     "word": "erzähle"
+    },
+    {
+     "start": 256.54,
+     "end": 256.68,
+     "word": "ich"
+    },
+    {
+     "start": 256.68,
+     "end": 256.94,
+     "word": "euch"
+    },
+    {
+     "start": 256.94,
+     "end": 257.1,
+     "word": "vom"
+    },
+    {
+     "start": 257.1,
+     "end": 258.06,
+     "word": "Propheten"
+    },
+    {
+     "start": 258.06,
+     "end": 258.98,
+     "word": "Salih"
+    },
+    {
+     "start": 258.98,
+     "end": 259.82,
+     "word": "und"
+    },
+    {
+     "start": 259.82,
+     "end": 260.12,
+     "word": "von"
+    },
+    {
+     "start": 260.12,
+     "end": 260.36,
+     "word": "einem"
+    },
+    {
+     "start": 260.36,
+     "end": 261.22,
+     "word": "wundersamen"
+    },
+    {
+     "start": 261.22,
+     "end": 262.22,
+     "word": "Kamel."
+    }
+   ]
+  },
+  {
+   "start": 263.3,
+   "end": 264.06,
+   "text": "Gute Nacht.",
+   "words": [
+    {
+     "start": 263.3,
+     "end": 263.66,
+     "word": "Gute"
+    },
+    {
+     "start": 263.66,
+     "end": 264.06,
+     "word": "Nacht."
+    }
+   ]
+  }
+ ]
+}
