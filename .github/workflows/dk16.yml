@@ -1,0 +1,32 @@
+name: dk16
+# Folge 16 Dhul-Kifl: narration build + transcript, image check sheets.
+on:
+  workflow_dispatch:
+    inputs:
+      step: {description: "narration | imgcheck", required: true}
+permissions: {contents: write}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q faster-whisper==1.1.1 av==12.3.0 requests
+      - run: python3 tools/dk16_build.py ${{ github.event.inputs.step }}
+      - name: release narration
+        if: github.event.inputs.step == 'narration'
+        run: |
+          gh release view folge16_dhulkifl_audio >/dev/null 2>&1 || gh release create folge16_dhulkifl_audio -t "Folge 16 Dhul-Kifl narration" -n "19 Oma Karmoucha lines joined"
+          gh release upload folge16_dhulkifl_audio work16/folge16_dhulkifl_de.mp3 --clobber
+      - if: always()
+        run: |
+          git config user.name "boa-render-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Folge 16 dk16 ${{ github.event.inputs.step }} [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 6; done
