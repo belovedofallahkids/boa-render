@@ -1,1 +1,15 @@
-{"folge15_harun": {"file": "boa_folge15_erzaehlung_komplett_2026-10-17mp3-5hmYzP1OogQ.mp3", "orshot_id": 267, "transcript": "folge15_harun_ton", "job": "folge15_harun_v1", "sources": "19 ElevenLabs (Flow p1hnxaZ83xJ5P5mRWire) + s4b, s6a, s7a Chatterbox (kostenlos)"}}
+{
+ "folge15_harun": {
+  "file": "boa_folge15_erzaehlung_komplett_2026-10-17mp3-5hmYzP1OogQ.mp3",
+  "orshot_id": 267,
+  "transcript": "folge15_harun_ton",
+  "job": "folge15_harun_v1",
+  "sources": "19 ElevenLabs (Flow p1hnxaZ83xJ5P5mRWire) + s4b, s6a, s7a Chatterbox (kostenlos)"
+ },
+ "folge16_dhulkifl": {
+  "file": "https://github.com/belovedofallahkids/boa-render/releases/download/folge16_dhulkifl_audio/folge16_dhulkifl_de.mp3",
+  "transcript": "folge16_dhulkifl_ton",
+  "job": "folge16_dhulkifl_v1",
+  "sources": "19 ElevenLabs Oma Karmoucha lines (eleven_v3, flow Np2pkmRey37WjCaoVa8N, 07.11.2026), joined by dk16.yml"
+ }
+}
