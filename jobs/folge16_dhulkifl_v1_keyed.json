@@ -1,0 +1,188 @@
+{
+ "name": "folge16_dhulkifl_v1_keyed",
+ "disabled": true,
+ "_note": "timing of German v1 (folge16_dhulkifl_v1 render) per sentence group, for dubbing only (H56: never re-render)",
+ "audio": "https://github.com/belovedofallahkids/boa-render/releases/download/folge16_dhulkifl_audio/folge16_dhulkifl_de.mp3",
+ "segments": [
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 0.0,
+   "end": 20.16,
+   "motion": "none",
+   "amount": 0.121,
+   "label": "master_A_buch",
+   "script": "s1a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 20.16,
+   "end": 24.34,
+   "motion": "none",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s1b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 24.34,
+   "end": 36.81,
+   "motion": "none",
+   "amount": 0.09,
+   "label": "master_A_buch",
+   "script": "s1c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_scroll_few_lines_cfpng-MWLhlwfQOrf.jpeg",
+   "start": 36.81,
+   "end": 52.46,
+   "motion": "none",
+   "amount": 0.103,
+   "label": "scroll_few_lines",
+   "script": "s2a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_mercy_light_clouds_cfpng-5k4h7RRJ1yJ.jpeg",
+   "start": 52.46,
+   "end": 61.41,
+   "motion": "none",
+   "amount": 0.076,
+   "label": "mercy_light_clouds",
+   "script": "s2a|Wir ließen sie"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_scroll_few_lines_cfpng-MWLhlwfQOrf.jpeg",
+   "start": 61.41,
+   "end": 75.24,
+   "motion": "none",
+   "amount": 0.095,
+   "label": "scroll_few_lines",
+   "script": "s2b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 75.24,
+   "end": 80.45,
+   "motion": "none",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s2c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_quiet_garden_dawn_cfpng-vrbFkhDKCen.jpeg",
+   "start": 80.45,
+   "end": 97.23,
+   "motion": "none",
+   "amount": 0.107,
+   "label": "quiet_garden_dawn",
+   "script": "s2d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_hourglass_sand_cfpng-v822OoPQy3P.jpeg",
+   "start": 97.23,
+   "end": 104.98,
+   "motion": "none",
+   "amount": 0.071,
+   "label": "hourglass_sand",
+   "script": "s3a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 104.98,
+   "end": 114.48,
+   "motion": "none",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s3b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_seed_waiting_rain_cfpng-BcejXUjV9d1.jpeg",
+   "start": 114.48,
+   "end": 139.93,
+   "motion": "none",
+   "amount": 0.13,
+   "label": "seed_waiting_rain",
+   "script": "s3c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge10_seedling_patience_cfjpg-NNkXInQAWCl.jpeg",
+   "start": 139.93,
+   "end": 154.63,
+   "motion": "none",
+   "amount": 0.099,
+   "label": "seedling_patience",
+   "script": "s3d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_hidden_kindness_cfpng-r8Bwhg5SQDx.jpeg",
+   "start": 154.63,
+   "end": 171.34,
+   "motion": "none",
+   "amount": 0.107,
+   "label": "hidden_kindness",
+   "script": "s4a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 171.34,
+   "end": 179.1,
+   "motion": "none",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s4b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_mercy_light_clouds_cfpng-5k4h7RRJ1yJ.jpeg",
+   "start": 179.1,
+   "end": 199.61,
+   "motion": "none",
+   "amount": 0.122,
+   "label": "mercy_light_clouds",
+   "script": "s4c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_unknown_flowers_field_cfpng-mgQlNzEo6vg.jpeg",
+   "start": 199.61,
+   "end": 217.2,
+   "motion": "none",
+   "amount": 0.11,
+   "label": "unknown_flowers_field",
+   "script": "s5a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 217.2,
+   "end": 221.55,
+   "motion": "none",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s5b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge16_unknown_flowers_field_cfpng-mgQlNzEo6vg.jpeg",
+   "start": 221.55,
+   "end": 243.43,
+   "motion": "none",
+   "amount": 0.128,
+   "label": "unknown_flowers_field",
+   "script": "s5c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_kinder_schlafen_offizielljpg-aevRtHZ0V3q.jpeg",
+   "start": 243.43,
+   "end": 265.75,
+   "motion": "none",
+   "amount": 0.129,
+   "label": "kinder_schlafen",
+   "script": "s6a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_oma_window_night_offizielljpg-i61gAYOmKJ9.jpeg",
+   "start": 265.75,
+   "end": 307.34,
+   "motion": "none",
+   "amount": 0.13,
+   "label": "oma_window_night",
+   "script": "s6b"
+  }
+ ]
+}
