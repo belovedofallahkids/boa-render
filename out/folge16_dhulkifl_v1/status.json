@@ -1,0 +1,19 @@
+{
+  "name": "folge16_dhulkifl_v1",
+  "ok": true,
+  "job_hash": "6c1d02900ffc7090f9e6e038fb76c556c109c010",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge16_dhulkifl_v1/folge16_dhulkifl_v1.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge16_dhulkifl_v1/contact.jpg",
+  "duration_video": 307.367,
+  "duration_audio": 307.34,
+  "timeline": 307.34,
+  "segments": 20,
+  "narration_end": 301.34,
+  "tail_hold": 6.0,
+  "loudness_lufs": -14.2,
+  "true_peak_dbfs": -3.9,
+  "input_lufs": -16.28,
+  "size_mb": 134.2,
+  "render_seconds": 404,
+  "finished_utc": "2026-11-07T09:00:42Z"
+}
