@@ -1,9 +1,1 @@
-
-[notice] A new release of pip is available: 26.2.2 -> 26.3
-[notice] To update, run: pip install --upgrade pip
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-transcribed folge01_adam_v2_check 546 words
-transcribed folge02_idris_v2_check 313 words
-transcribed folge04_hud_v2_check 401 words
-transcribed folge05_salih_v2_check 429 words
-transcribed folge06_ibrahim_v2_check 729 words
+no transcribe jobs
