@@ -59,8 +59,14 @@ def main(base, scene, subtitle, name, out):
         d.line([(x - 2.0, y), (x + 2.0, y)], fill=CREAM)
     canvas = canvas.convert("RGBA")
     cx = 1011.5
-    f_sub = ImageFont.truetype(FONTS + "Poppins-ExtraBold.ttf", 46)
-    f_name = ImageFont.truetype(FONTS + "Poppins-Black.ttf", 117)
+    def fit(fname, size, text, maxw):
+        f = ImageFont.truetype(FONTS + fname, size)
+        while size > 20 and f.getbbox(text)[2] - f.getbbox(text)[0] > maxw:
+            size -= 2
+            f = ImageFont.truetype(FONTS + fname, size)
+        return f
+    f_sub = fit("Poppins-ExtraBold.ttf", 46, subtitle, 480)  # shrink only when the text is wider than the panel
+    f_name = fit("Poppins-Black.ttf", 117, name, 480)
     text_center(canvas, subtitle, f_sub, cx, 390, (255, 255, 255), shadow=(2, 3), shadow_blur=3)
     text_center(canvas, name, f_name, cx, 482, YELLOW, outline=2, shadow=(0, 7))
     canvas.convert("RGB").save(out, quality=92)
