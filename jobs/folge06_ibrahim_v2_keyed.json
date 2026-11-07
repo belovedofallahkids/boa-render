@@ -239,22 +239,22 @@
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
    "start": 410.56,
-   "end": 447.38,
+   "end": 432.0,
    "motion": "none",
    "label": "kinder_schlafen",
    "script": "s6c"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
-   "start": 447.38,
-   "end": 458.14,
+   "start": 432.0,
+   "end": 440.0,
    "motion": "none",
    "label": "oma",
    "script": "s6d"
   },
   {
    "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
-   "start": 458.14,
+   "start": 440.0,
    "end": 480.0,
    "motion": "none",
    "label": "oma",
