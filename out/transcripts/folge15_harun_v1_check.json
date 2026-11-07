@@ -1,0 +1,3867 @@
+{
+ "name": "folge15_harun_v1_check",
+ "job_hash": "1a07dbff59d4197157594ef67f2ff00583adf943",
+ "duration": 403.776,
+ "model": "medium",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.88,
+   "text": "Noah, Elias, ihr seid Brüder.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 1.06,
+     "word": "Noah,"
+    },
+    {
+     "start": 2.08,
+     "end": 3.46,
+     "word": "Elias,"
+    },
+    {
+     "start": 3.98,
+     "end": 4.18,
+     "word": "ihr"
+    },
+    {
+     "start": 4.18,
+     "end": 4.84,
+     "word": "seid"
+    },
+    {
+     "start": 4.84,
+     "end": 6.88,
+     "word": "Brüder."
+    }
+   ]
+  },
+  {
+   "start": 7.2,
+   "end": 13.84,
+   "text": "Sagt mal, wenn einer von euch etwas schweres machen muss, hilft der andere dann?",
+   "words": [
+    {
+     "start": 7.2,
+     "end": 7.52,
+     "word": "Sagt"
+    },
+    {
+     "start": 7.52,
+     "end": 8.04,
+     "word": "mal,"
+    },
+    {
+     "start": 8.46,
+     "end": 8.94,
+     "word": "wenn"
+    },
+    {
+     "start": 8.94,
+     "end": 9.3,
+     "word": "einer"
+    },
+    {
+     "start": 9.3,
+     "end": 9.54,
+     "word": "von"
+    },
+    {
+     "start": 9.54,
+     "end": 9.98,
+     "word": "euch"
+    },
+    {
+     "start": 9.98,
+     "end": 10.38,
+     "word": "etwas"
+    },
+    {
+     "start": 10.38,
+     "end": 11.14,
+     "word": "schweres"
+    },
+    {
+     "start": 11.14,
+     "end": 11.4,
+     "word": "machen"
+    },
+    {
+     "start": 11.4,
+     "end": 11.84,
+     "word": "muss,"
+    },
+    {
+     "start": 12.74,
+     "end": 12.96,
+     "word": "hilft"
+    },
+    {
+     "start": 12.96,
+     "end": 13.26,
+     "word": "der"
+    },
+    {
+     "start": 13.26,
+     "end": 13.54,
+     "word": "andere"
+    },
+    {
+     "start": 13.54,
+     "end": 13.84,
+     "word": "dann?"
+    }
+   ]
+  },
+  {
+   "start": 14.52,
+   "end": 18.6,
+   "text": "Klar, Elias hilft mir immer bei den Hausaufgaben.",
+   "words": [
+    {
+     "start": 14.52,
+     "end": 15.14,
+     "word": "Klar,"
+    },
+    {
+     "start": 15.7,
+     "end": 16.18,
+     "word": "Elias"
+    },
+    {
+     "start": 16.18,
+     "end": 16.46,
+     "word": "hilft"
+    },
+    {
+     "start": 16.46,
+     "end": 16.76,
+     "word": "mir"
+    },
+    {
+     "start": 16.76,
+     "end": 17.12,
+     "word": "immer"
+    },
+    {
+     "start": 17.12,
+     "end": 17.38,
+     "word": "bei"
+    },
+    {
+     "start": 17.38,
+     "end": 17.64,
+     "word": "den"
+    },
+    {
+     "start": 17.64,
+     "end": 18.6,
+     "word": "Hausaufgaben."
+    }
+   ]
+  },
+  {
+   "start": 19.52,
+   "end": 22.0,
+   "text": "Das ist schön, mein Schatz.",
+   "words": [
+    {
+     "start": 19.52,
+     "end": 20.38,
+     "word": "Das"
+    },
+    {
+     "start": 20.38,
+     "end": 20.7,
+     "word": "ist"
+    },
+    {
+     "start": 20.7,
+     "end": 21.0,
+     "word": "schön,"
+    },
+    {
+     "start": 21.16,
+     "end": 21.28,
+     "word": "mein"
+    },
+    {
+     "start": 21.28,
+     "end": 22.0,
+     "word": "Schatz."
+    }
+   ]
+  },
+  {
+   "start": 22.56,
+   "end": 23.84,
+   "text": "Kuschelt euch ein.",
+   "words": [
+    {
+     "start": 22.56,
+     "end": 22.98,
+     "word": "Kuschelt"
+    },
+    {
+     "start": 22.98,
+     "end": 23.22,
+     "word": "euch"
+    },
+    {
+     "start": 23.22,
+     "end": 23.84,
+     "word": "ein."
+    }
+   ]
+  },
+  {
+   "start": 24.8,
+   "end": 30.8,
+   "text": "Heute erzähle ich euch von zwei Brüdern, die beide Propheten waren.",
+   "words": [
+    {
+     "start": 24.8,
+     "end": 25.48,
+     "word": "Heute"
+    },
+    {
+     "start": 25.48,
+     "end": 26.16,
+     "word": "erzähle"
+    },
+    {
+     "start": 26.16,
+     "end": 26.38,
+     "word": "ich"
+    },
+    {
+     "start": 26.38,
+     "end": 26.7,
+     "word": "euch"
+    },
+    {
+     "start": 26.7,
+     "end": 27.04,
+     "word": "von"
+    },
+    {
+     "start": 27.04,
+     "end": 27.6,
+     "word": "zwei"
+    },
+    {
+     "start": 27.6,
+     "end": 28.26,
+     "word": "Brüdern,"
+    },
+    {
+     "start": 28.82,
+     "end": 29.22,
+     "word": "die"
+    },
+    {
+     "start": 29.22,
+     "end": 29.64,
+     "word": "beide"
+    },
+    {
+     "start": 29.64,
+     "end": 30.36,
+     "word": "Propheten"
+    },
+    {
+     "start": 30.36,
+     "end": 30.8,
+     "word": "waren."
+    }
+   ]
+  },
+  {
+   "start": 32.08,
+   "end": 36.2,
+   "text": "Musa und sein Bruder Harun, Friede sei mit ihnen.",
+   "words": [
+    {
+     "start": 32.08,
+     "end": 32.56,
+     "word": "Musa"
+    },
+    {
+     "start": 32.56,
+     "end": 32.96,
+     "word": "und"
+    },
+    {
+     "start": 32.96,
+     "end": 33.18,
+     "word": "sein"
+    },
+    {
+     "start": 33.18,
+     "end": 33.6,
+     "word": "Bruder"
+    },
+    {
+     "start": 33.6,
+     "end": 34.36,
+     "word": "Harun,"
+    },
+    {
+     "start": 34.96,
+     "end": 35.28,
+     "word": "Friede"
+    },
+    {
+     "start": 35.28,
+     "end": 35.4,
+     "word": "sei"
+    },
+    {
+     "start": 35.4,
+     "end": 35.68,
+     "word": "mit"
+    },
+    {
+     "start": 35.68,
+     "end": 36.2,
+     "word": "ihnen."
+    }
+   ]
+  },
+  {
+   "start": 37.3,
+   "end": 40.04,
+   "text": "Und heute geht es um Harun.",
+   "words": [
+    {
+     "start": 37.3,
+     "end": 37.72,
+     "word": "Und"
+    },
+    {
+     "start": 37.72,
+     "end": 38.06,
+     "word": "heute"
+    },
+    {
+     "start": 38.06,
+     "end": 38.4,
+     "word": "geht"
+    },
+    {
+     "start": 38.4,
+     "end": 38.7,
+     "word": "es"
+    },
+    {
+     "start": 38.7,
+     "end": 38.88,
+     "word": "um"
+    },
+    {
+     "start": 38.88,
+     "end": 40.04,
+     "word": "Harun."
+    }
+   ]
+  },
+  {
+   "start": 40.88,
+   "end": 42.04,
+   "text": "Erinnert ihr euch?",
+   "words": [
+    {
+     "start": 40.88,
+     "end": 41.42,
+     "word": "Erinnert"
+    },
+    {
+     "start": 41.42,
+     "end": 41.6,
+     "word": "ihr"
+    },
+    {
+     "start": 41.6,
+     "end": 42.04,
+     "word": "euch?"
+    }
+   ]
+  },
+  {
+   "start": 42.96,
+   "end": 49.1,
+   "text": "Am Feuer auf dem Berg sagte Allah zu Musa, Geh zu Pharao!",
+   "words": [
+    {
+     "start": 42.96,
+     "end": 43.26,
+     "word": "Am"
+    },
+    {
+     "start": 43.26,
+     "end": 43.74,
+     "word": "Feuer"
+    },
+    {
+     "start": 43.74,
+     "end": 44.04,
+     "word": "auf"
+    },
+    {
+     "start": 44.04,
+     "end": 44.32,
+     "word": "dem"
+    },
+    {
+     "start": 44.32,
+     "end": 44.68,
+     "word": "Berg"
+    },
+    {
+     "start": 44.68,
+     "end": 45.08,
+     "word": "sagte"
+    },
+    {
+     "start": 45.08,
+     "end": 45.6,
+     "word": "Allah"
+    },
+    {
+     "start": 45.6,
+     "end": 45.88,
+     "word": "zu"
+    },
+    {
+     "start": 45.88,
+     "end": 47.04,
+     "word": "Musa,"
+    },
+    {
+     "start": 47.48,
+     "end": 47.9,
+     "word": "Geh"
+    },
+    {
+     "start": 47.9,
+     "end": 48.18,
+     "word": "zu"
+    },
+    {
+     "start": 48.18,
+     "end": 49.1,
+     "word": "Pharao!"
+    }
+   ]
+  },
+  {
+   "start": 50.06,
+   "end": 53.02,
+   "text": "Das war eine sehr schwere Aufgabe.",
+   "words": [
+    {
+     "start": 50.0,
+     "end": 50.48,
+     "word": "Das"
+    },
+    {
+     "start": 50.48,
+     "end": 50.92,
+     "word": "war"
+    },
+    {
+     "start": 50.92,
+     "end": 51.28,
+     "word": "eine"
+    },
+    {
+     "start": 51.28,
+     "end": 51.88,
+     "word": "sehr"
+    },
+    {
+     "start": 51.88,
+     "end": 52.32,
+     "word": "schwere"
+    },
+    {
+     "start": 52.32,
+     "end": 53.02,
+     "word": "Aufgabe."
+    }
+   ]
+  },
+  {
+   "start": 54.44,
+   "end": 61.5,
+   "text": "Und Musa betete, mein Hel, gib mir einen Helfer aus meiner Familie,",
+   "words": [
+    {
+     "start": 54.44,
+     "end": 54.82,
+     "word": "Und"
+    },
+    {
+     "start": 54.82,
+     "end": 55.22,
+     "word": "Musa"
+    },
+    {
+     "start": 55.22,
+     "end": 56.18,
+     "word": "betete,"
+    },
+    {
+     "start": 57.08,
+     "end": 57.36,
+     "word": "mein"
+    },
+    {
+     "start": 57.36,
+     "end": 57.76,
+     "word": "Hel,"
+    },
+    {
+     "start": 58.66,
+     "end": 58.9,
+     "word": "gib"
+    },
+    {
+     "start": 58.9,
+     "end": 59.24,
+     "word": "mir"
+    },
+    {
+     "start": 59.24,
+     "end": 59.62,
+     "word": "einen"
+    },
+    {
+     "start": 59.62,
+     "end": 60.16,
+     "word": "Helfer"
+    },
+    {
+     "start": 60.16,
+     "end": 60.54,
+     "word": "aus"
+    },
+    {
+     "start": 60.54,
+     "end": 60.8,
+     "word": "meiner"
+    },
+    {
+     "start": 60.8,
+     "end": 61.5,
+     "word": "Familie,"
+    }
+   ]
+  },
+  {
+   "start": 62.74,
+   "end": 64.66,
+   "text": "Harun, meinen Bruder.",
+   "words": [
+    {
+     "start": 62.74,
+     "end": 63.3,
+     "word": "Harun,"
+    },
+    {
+     "start": 63.78,
+     "end": 63.98,
+     "word": "meinen"
+    },
+    {
+     "start": 63.98,
+     "end": 64.66,
+     "word": "Bruder."
+    }
+   ]
+  },
+  {
+   "start": 65.6,
+   "end": 71.54,
+   "text": "Mach mich durch ihn stark und lass ihn bei meiner Aufgabe dabei sein.",
+   "words": [
+    {
+     "start": 65.6,
+     "end": 65.9,
+     "word": "Mach"
+    },
+    {
+     "start": 65.9,
+     "end": 66.26,
+     "word": "mich"
+    },
+    {
+     "start": 66.26,
+     "end": 66.52,
+     "word": "durch"
+    },
+    {
+     "start": 66.52,
+     "end": 66.8,
+     "word": "ihn"
+    },
+    {
+     "start": 66.8,
+     "end": 67.46,
+     "word": "stark"
+    },
+    {
+     "start": 67.46,
+     "end": 68.66,
+     "word": "und"
+    },
+    {
+     "start": 68.66,
+     "end": 69.02,
+     "word": "lass"
+    },
+    {
+     "start": 69.02,
+     "end": 69.36,
+     "word": "ihn"
+    },
+    {
+     "start": 69.36,
+     "end": 69.56,
+     "word": "bei"
+    },
+    {
+     "start": 69.56,
+     "end": 69.9,
+     "word": "meiner"
+    },
+    {
+     "start": 69.9,
+     "end": 70.6,
+     "word": "Aufgabe"
+    },
+    {
+     "start": 70.6,
+     "end": 71.16,
+     "word": "dabei"
+    },
+    {
+     "start": 71.16,
+     "end": 71.54,
+     "word": "sein."
+    }
+   ]
+  },
+  {
+   "start": 72.04,
+   "end": 75.16,
+   "text": "Warum wollte Musa genau Harun?",
+   "words": [
+    {
+     "start": 72.04,
+     "end": 72.88,
+     "word": "Warum"
+    },
+    {
+     "start": 72.88,
+     "end": 73.34,
+     "word": "wollte"
+    },
+    {
+     "start": 73.34,
+     "end": 73.94,
+     "word": "Musa"
+    },
+    {
+     "start": 73.94,
+     "end": 74.42,
+     "word": "genau"
+    },
+    {
+     "start": 74.42,
+     "end": 75.16,
+     "word": "Harun?"
+    }
+   ]
+  },
+  {
+   "start": 75.84,
+   "end": 81.64,
+   "text": "Musa sagte, mein Bruder Harun kann besser reden als ich.",
+   "words": [
+    {
+     "start": 75.84,
+     "end": 76.5,
+     "word": "Musa"
+    },
+    {
+     "start": 76.5,
+     "end": 76.9,
+     "word": "sagte,"
+    },
+    {
+     "start": 78.16,
+     "end": 78.52,
+     "word": "mein"
+    },
+    {
+     "start": 78.52,
+     "end": 79.02,
+     "word": "Bruder"
+    },
+    {
+     "start": 79.02,
+     "end": 79.56,
+     "word": "Harun"
+    },
+    {
+     "start": 79.56,
+     "end": 79.92,
+     "word": "kann"
+    },
+    {
+     "start": 79.92,
+     "end": 80.4,
+     "word": "besser"
+    },
+    {
+     "start": 80.4,
+     "end": 80.74,
+     "word": "reden"
+    },
+    {
+     "start": 80.74,
+     "end": 81.06,
+     "word": "als"
+    },
+    {
+     "start": 81.06,
+     "end": 81.64,
+     "word": "ich."
+    }
+   ]
+  },
+  {
+   "start": 82.5,
+   "end": 87.9,
+   "text": "Schick ihn mit mir, damit er mir hilft und bestätigt, was ich sage.",
+   "words": [
+    {
+     "start": 82.5,
+     "end": 82.86,
+     "word": "Schick"
+    },
+    {
+     "start": 82.86,
+     "end": 83.06,
+     "word": "ihn"
+    },
+    {
+     "start": 83.06,
+     "end": 83.34,
+     "word": "mit"
+    },
+    {
+     "start": 83.34,
+     "end": 83.92,
+     "word": "mir,"
+    },
+    {
+     "start": 84.2,
+     "end": 84.42,
+     "word": "damit"
+    },
+    {
+     "start": 84.42,
+     "end": 84.62,
+     "word": "er"
+    },
+    {
+     "start": 84.62,
+     "end": 84.88,
+     "word": "mir"
+    },
+    {
+     "start": 84.88,
+     "end": 85.42,
+     "word": "hilft"
+    },
+    {
+     "start": 85.42,
+     "end": 86.14,
+     "word": "und"
+    },
+    {
+     "start": 86.14,
+     "end": 86.98,
+     "word": "bestätigt,"
+    },
+    {
+     "start": 87.06,
+     "end": 87.2,
+     "word": "was"
+    },
+    {
+     "start": 87.2,
+     "end": 87.56,
+     "word": "ich"
+    },
+    {
+     "start": 87.56,
+     "end": 87.9,
+     "word": "sage."
+    }
+   ]
+  },
+  {
+   "start": 89.28,
+   "end": 95.02,
+   "text": "Und Allah antwortete, wir machen dich stark durch deinen Bruder.",
+   "words": [
+    {
+     "start": 89.28,
+     "end": 89.92,
+     "word": "Und"
+    },
+    {
+     "start": 89.92,
+     "end": 90.32,
+     "word": "Allah"
+    },
+    {
+     "start": 90.32,
+     "end": 91.4,
+     "word": "antwortete,"
+    },
+    {
+     "start": 92.52,
+     "end": 92.7,
+     "word": "wir"
+    },
+    {
+     "start": 92.7,
+     "end": 92.98,
+     "word": "machen"
+    },
+    {
+     "start": 92.98,
+     "end": 93.28,
+     "word": "dich"
+    },
+    {
+     "start": 93.28,
+     "end": 93.82,
+     "word": "stark"
+    },
+    {
+     "start": 93.82,
+     "end": 94.16,
+     "word": "durch"
+    },
+    {
+     "start": 94.16,
+     "end": 94.38,
+     "word": "deinen"
+    },
+    {
+     "start": 94.38,
+     "end": 95.02,
+     "word": "Bruder."
+    }
+   ]
+  },
+  {
+   "start": 96.2,
+   "end": 103.72,
+   "text": "Allah machte Harun auch zu einem Propheten, ein Geschenk aus seiner Barmherzigkeit.",
+   "words": [
+    {
+     "start": 96.2,
+     "end": 96.7,
+     "word": "Allah"
+    },
+    {
+     "start": 96.7,
+     "end": 97.24,
+     "word": "machte"
+    },
+    {
+     "start": 97.24,
+     "end": 97.72,
+     "word": "Harun"
+    },
+    {
+     "start": 97.72,
+     "end": 98.18,
+     "word": "auch"
+    },
+    {
+     "start": 98.18,
+     "end": 98.44,
+     "word": "zu"
+    },
+    {
+     "start": 98.44,
+     "end": 98.64,
+     "word": "einem"
+    },
+    {
+     "start": 98.64,
+     "end": 99.94,
+     "word": "Propheten,"
+    },
+    {
+     "start": 100.86,
+     "end": 101.14,
+     "word": "ein"
+    },
+    {
+     "start": 101.14,
+     "end": 102.08,
+     "word": "Geschenk"
+    },
+    {
+     "start": 102.08,
+     "end": 102.32,
+     "word": "aus"
+    },
+    {
+     "start": 102.32,
+     "end": 102.64,
+     "word": "seiner"
+    },
+    {
+     "start": 102.64,
+     "end": 103.72,
+     "word": "Barmherzigkeit."
+    }
+   ]
+  },
+  {
+   "start": 104.68,
+   "end": 113.72,
+   "text": "Dann sagte Allah zu den beiden Brüdern, Geh zu Pharao, denn er ist maßlos geworden.",
+   "words": [
+    {
+     "start": 104.68,
+     "end": 105.44,
+     "word": "Dann"
+    },
+    {
+     "start": 105.44,
+     "end": 105.96,
+     "word": "sagte"
+    },
+    {
+     "start": 105.96,
+     "end": 106.4,
+     "word": "Allah"
+    },
+    {
+     "start": 106.4,
+     "end": 106.7,
+     "word": "zu"
+    },
+    {
+     "start": 106.7,
+     "end": 106.96,
+     "word": "den"
+    },
+    {
+     "start": 106.96,
+     "end": 107.36,
+     "word": "beiden"
+    },
+    {
+     "start": 107.36,
+     "end": 108.0,
+     "word": "Brüdern,"
+    },
+    {
+     "start": 109.18,
+     "end": 109.46,
+     "word": "Geh"
+    },
+    {
+     "start": 109.46,
+     "end": 109.72,
+     "word": "zu"
+    },
+    {
+     "start": 109.72,
+     "end": 110.76,
+     "word": "Pharao,"
+    },
+    {
+     "start": 111.24,
+     "end": 111.54,
+     "word": "denn"
+    },
+    {
+     "start": 111.54,
+     "end": 111.82,
+     "word": "er"
+    },
+    {
+     "start": 111.82,
+     "end": 112.18,
+     "word": "ist"
+    },
+    {
+     "start": 112.18,
+     "end": 113.02,
+     "word": "maßlos"
+    },
+    {
+     "start": 113.02,
+     "end": 113.72,
+     "word": "geworden."
+    }
+   ]
+  },
+  {
+   "start": 115.0,
+   "end": 119.36,
+   "text": "Und sprecht freundlich mit ihm, vielleicht denkt er nach.",
+   "words": [
+    {
+     "start": 115.0,
+     "end": 115.38,
+     "word": "Und"
+    },
+    {
+     "start": 115.38,
+     "end": 115.8,
+     "word": "sprecht"
+    },
+    {
+     "start": 115.8,
+     "end": 116.48,
+     "word": "freundlich"
+    },
+    {
+     "start": 116.48,
+     "end": 116.74,
+     "word": "mit"
+    },
+    {
+     "start": 116.74,
+     "end": 117.16,
+     "word": "ihm,"
+    },
+    {
+     "start": 117.8,
+     "end": 118.36,
+     "word": "vielleicht"
+    },
+    {
+     "start": 118.36,
+     "end": 118.68,
+     "word": "denkt"
+    },
+    {
+     "start": 118.68,
+     "end": 118.88,
+     "word": "er"
+    },
+    {
+     "start": 118.88,
+     "end": 119.36,
+     "word": "nach."
+    }
+   ]
+  },
+  {
+   "start": 120.7,
+   "end": 126.12,
+   "text": "Musa und Harun sagten, unser Herr, wir haben Angst.",
+   "words": [
+    {
+     "start": 120.7,
+     "end": 121.24,
+     "word": "Musa"
+    },
+    {
+     "start": 121.24,
+     "end": 121.48,
+     "word": "und"
+    },
+    {
+     "start": 121.48,
+     "end": 121.88,
+     "word": "Harun"
+    },
+    {
+     "start": 121.88,
+     "end": 122.96,
+     "word": "sagten,"
+    },
+    {
+     "start": 123.7,
+     "end": 124.02,
+     "word": "unser"
+    },
+    {
+     "start": 124.02,
+     "end": 124.52,
+     "word": "Herr,"
+    },
+    {
+     "start": 125.04,
+     "end": 125.26,
+     "word": "wir"
+    },
+    {
+     "start": 125.26,
+     "end": 125.52,
+     "word": "haben"
+    },
+    {
+     "start": 125.52,
+     "end": 126.12,
+     "word": "Angst."
+    }
+   ]
+  },
+  {
+   "start": 127.3,
+   "end": 130.78,
+   "text": "Und Allah sagte, habt keine Angst.",
+   "words": [
+    {
+     "start": 127.3,
+     "end": 127.64,
+     "word": "Und"
+    },
+    {
+     "start": 127.64,
+     "end": 127.96,
+     "word": "Allah"
+    },
+    {
+     "start": 127.96,
+     "end": 128.64,
+     "word": "sagte,"
+    },
+    {
+     "start": 129.5,
+     "end": 129.78,
+     "word": "habt"
+    },
+    {
+     "start": 129.78,
+     "end": 130.16,
+     "word": "keine"
+    },
+    {
+     "start": 130.16,
+     "end": 130.78,
+     "word": "Angst."
+    }
+   ]
+  },
+  {
+   "start": 131.7,
+   "end": 136.48,
+   "text": "Ich bin mit euch, ich höre und ich sehe.",
+   "words": [
+    {
+     "start": 131.58,
+     "end": 132.02,
+     "word": "Ich"
+    },
+    {
+     "start": 132.02,
+     "end": 132.28,
+     "word": "bin"
+    },
+    {
+     "start": 132.28,
+     "end": 132.62,
+     "word": "mit"
+    },
+    {
+     "start": 132.62,
+     "end": 133.16,
+     "word": "euch,"
+    },
+    {
+     "start": 133.88,
+     "end": 134.16,
+     "word": "ich"
+    },
+    {
+     "start": 134.16,
+     "end": 135.04,
+     "word": "höre"
+    },
+    {
+     "start": 135.04,
+     "end": 135.86,
+     "word": "und"
+    },
+    {
+     "start": 135.86,
+     "end": 136.22,
+     "word": "ich"
+    },
+    {
+     "start": 136.22,
+     "end": 136.48,
+     "word": "sehe."
+    }
+   ]
+  },
+  {
+   "start": 137.24,
+   "end": 141.18,
+   "text": "Dann sind sie zusammen hingegangen, wie ein Team.",
+   "words": [
+    {
+     "start": 137.24,
+     "end": 137.76,
+     "word": "Dann"
+    },
+    {
+     "start": 137.76,
+     "end": 138.12,
+     "word": "sind"
+    },
+    {
+     "start": 138.12,
+     "end": 138.4,
+     "word": "sie"
+    },
+    {
+     "start": 138.4,
+     "end": 138.82,
+     "word": "zusammen"
+    },
+    {
+     "start": 138.82,
+     "end": 139.68,
+     "word": "hingegangen,"
+    },
+    {
+     "start": 140.16,
+     "end": 140.36,
+     "word": "wie"
+    },
+    {
+     "start": 140.36,
+     "end": 140.76,
+     "word": "ein"
+    },
+    {
+     "start": 140.76,
+     "end": 141.18,
+     "word": "Team."
+    }
+   ]
+  },
+  {
+   "start": 142.88,
+   "end": 145.6,
+   "text": "Ganz genau, wie ein Team.",
+   "words": [
+    {
+     "start": 142.88,
+     "end": 143.38,
+     "word": "Ganz"
+    },
+    {
+     "start": 143.38,
+     "end": 144.04,
+     "word": "genau,"
+    },
+    {
+     "start": 144.26,
+     "end": 144.72,
+     "word": "wie"
+    },
+    {
+     "start": 144.72,
+     "end": 145.18,
+     "word": "ein"
+    },
+    {
+     "start": 145.18,
+     "end": 145.6,
+     "word": "Team."
+    }
+   ]
+  },
+  {
+   "start": 146.82,
+   "end": 153.58,
+   "text": "Sie gingen zusammen zu Pharao und sie hielten zusammen, auch als es schwer wurde.",
+   "words": [
+    {
+     "start": 146.82,
+     "end": 147.1,
+     "word": "Sie"
+    },
+    {
+     "start": 147.1,
+     "end": 147.46,
+     "word": "gingen"
+    },
+    {
+     "start": 147.46,
+     "end": 147.94,
+     "word": "zusammen"
+    },
+    {
+     "start": 147.94,
+     "end": 148.22,
+     "word": "zu"
+    },
+    {
+     "start": 148.22,
+     "end": 149.08,
+     "word": "Pharao"
+    },
+    {
+     "start": 149.08,
+     "end": 149.76,
+     "word": "und"
+    },
+    {
+     "start": 149.76,
+     "end": 150.04,
+     "word": "sie"
+    },
+    {
+     "start": 150.04,
+     "end": 150.46,
+     "word": "hielten"
+    },
+    {
+     "start": 150.46,
+     "end": 151.14,
+     "word": "zusammen,"
+    },
+    {
+     "start": 151.52,
+     "end": 152.12,
+     "word": "auch"
+    },
+    {
+     "start": 152.12,
+     "end": 152.42,
+     "word": "als"
+    },
+    {
+     "start": 152.42,
+     "end": 152.74,
+     "word": "es"
+    },
+    {
+     "start": 152.74,
+     "end": 153.02,
+     "word": "schwer"
+    },
+    {
+     "start": 153.02,
+     "end": 153.58,
+     "word": "wurde."
+    }
+   ]
+  },
+  {
+   "start": 154.58,
+   "end": 163.18,
+   "text": "Und Allah rettete sie und die Kinder Israels am Meer, das habe ich euch letztes Mal erzählt.",
+   "words": [
+    {
+     "start": 154.58,
+     "end": 155.06,
+     "word": "Und"
+    },
+    {
+     "start": 155.06,
+     "end": 155.62,
+     "word": "Allah"
+    },
+    {
+     "start": 155.62,
+     "end": 156.22,
+     "word": "rettete"
+    },
+    {
+     "start": 156.22,
+     "end": 156.78,
+     "word": "sie"
+    },
+    {
+     "start": 156.78,
+     "end": 157.72,
+     "word": "und"
+    },
+    {
+     "start": 157.72,
+     "end": 157.94,
+     "word": "die"
+    },
+    {
+     "start": 157.94,
+     "end": 158.42,
+     "word": "Kinder"
+    },
+    {
+     "start": 158.42,
+     "end": 159.26,
+     "word": "Israels"
+    },
+    {
+     "start": 159.26,
+     "end": 159.54,
+     "word": "am"
+    },
+    {
+     "start": 159.54,
+     "end": 159.96,
+     "word": "Meer,"
+    },
+    {
+     "start": 160.9,
+     "end": 161.28,
+     "word": "das"
+    },
+    {
+     "start": 161.28,
+     "end": 161.5,
+     "word": "habe"
+    },
+    {
+     "start": 161.5,
+     "end": 161.74,
+     "word": "ich"
+    },
+    {
+     "start": 161.74,
+     "end": 161.94,
+     "word": "euch"
+    },
+    {
+     "start": 161.94,
+     "end": 162.46,
+     "word": "letztes"
+    },
+    {
+     "start": 162.46,
+     "end": 162.6,
+     "word": "Mal"
+    },
+    {
+     "start": 162.6,
+     "end": 163.18,
+     "word": "erzählt."
+    }
+   ]
+  },
+  {
+   "start": 164.48,
+   "end": 170.98,
+   "text": "Nach der Rettung rief Allah Musa für 40 Nächte zu sich an den Berg.",
+   "words": [
+    {
+     "start": 164.48,
+     "end": 164.86,
+     "word": "Nach"
+    },
+    {
+     "start": 164.86,
+     "end": 165.12,
+     "word": "der"
+    },
+    {
+     "start": 165.12,
+     "end": 165.82,
+     "word": "Rettung"
+    },
+    {
+     "start": 165.82,
+     "end": 166.38,
+     "word": "rief"
+    },
+    {
+     "start": 166.38,
+     "end": 166.78,
+     "word": "Allah"
+    },
+    {
+     "start": 166.78,
+     "end": 167.38,
+     "word": "Musa"
+    },
+    {
+     "start": 167.38,
+     "end": 167.74,
+     "word": "für"
+    },
+    {
+     "start": 167.74,
+     "end": 168.36,
+     "word": "40"
+    },
+    {
+     "start": 168.36,
+     "end": 168.94,
+     "word": "Nächte"
+    },
+    {
+     "start": 168.94,
+     "end": 169.3,
+     "word": "zu"
+    },
+    {
+     "start": 169.3,
+     "end": 169.68,
+     "word": "sich"
+    },
+    {
+     "start": 169.68,
+     "end": 170.32,
+     "word": "an"
+    },
+    {
+     "start": 170.32,
+     "end": 170.56,
+     "word": "den"
+    },
+    {
+     "start": 170.56,
+     "end": 170.98,
+     "word": "Berg."
+    }
+   ]
+  },
+  {
+   "start": 172.58,
+   "end": 179.78,
+   "text": "Bevor Musa ging, sagte er zu Harun, vertritt mich bei meinem Volk.",
+   "words": [
+    {
+     "start": 172.58,
+     "end": 173.18,
+     "word": "Bevor"
+    },
+    {
+     "start": 173.18,
+     "end": 173.64,
+     "word": "Musa"
+    },
+    {
+     "start": 173.64,
+     "end": 174.14,
+     "word": "ging,"
+    },
+    {
+     "start": 174.6,
+     "end": 174.8,
+     "word": "sagte"
+    },
+    {
+     "start": 174.8,
+     "end": 175.08,
+     "word": "er"
+    },
+    {
+     "start": 175.08,
+     "end": 175.32,
+     "word": "zu"
+    },
+    {
+     "start": 175.32,
+     "end": 176.14,
+     "word": "Harun,"
+    },
+    {
+     "start": 177.2,
+     "end": 177.64,
+     "word": "vertritt"
+    },
+    {
+     "start": 177.64,
+     "end": 177.96,
+     "word": "mich"
+    },
+    {
+     "start": 177.96,
+     "end": 178.2,
+     "word": "bei"
+    },
+    {
+     "start": 178.2,
+     "end": 178.52,
+     "word": "meinem"
+    },
+    {
+     "start": 178.52,
+     "end": 179.78,
+     "word": "Volk."
+    }
+   ]
+  },
+  {
+   "start": 179.78,
+   "end": 185.42,
+   "text": "Mach alles richtig und folge nicht denen, die Unheil stiften.",
+   "words": [
+    {
+     "start": 179.78,
+     "end": 180.4,
+     "word": "Mach"
+    },
+    {
+     "start": 180.4,
+     "end": 180.92,
+     "word": "alles"
+    },
+    {
+     "start": 180.92,
+     "end": 181.58,
+     "word": "richtig"
+    },
+    {
+     "start": 181.58,
+     "end": 182.56,
+     "word": "und"
+    },
+    {
+     "start": 182.56,
+     "end": 183.02,
+     "word": "folge"
+    },
+    {
+     "start": 183.02,
+     "end": 183.32,
+     "word": "nicht"
+    },
+    {
+     "start": 183.32,
+     "end": 183.7,
+     "word": "denen,"
+    },
+    {
+     "start": 183.98,
+     "end": 184.2,
+     "word": "die"
+    },
+    {
+     "start": 184.2,
+     "end": 184.8,
+     "word": "Unheil"
+    },
+    {
+     "start": 184.8,
+     "end": 185.42,
+     "word": "stiften."
+    }
+   ]
+  },
+  {
+   "start": 185.96,
+   "end": 191.16,
+   "text": "Doch während Musa weg war, machte ein Mann namens Samiri aus dem Goldschmuck der Leute",
+   "words": [
+    {
+     "start": 185.96,
+     "end": 186.14,
+     "word": "Doch"
+    },
+    {
+     "start": 186.14,
+     "end": 186.54,
+     "word": "während"
+    },
+    {
+     "start": 186.54,
+     "end": 186.96,
+     "word": "Musa"
+    },
+    {
+     "start": 186.96,
+     "end": 187.2,
+     "word": "weg"
+    },
+    {
+     "start": 187.2,
+     "end": 187.8,
+     "word": "war,"
+    },
+    {
+     "start": 188.12,
+     "end": 188.4,
+     "word": "machte"
+    },
+    {
+     "start": 188.4,
+     "end": 188.58,
+     "word": "ein"
+    },
+    {
+     "start": 188.58,
+     "end": 188.82,
+     "word": "Mann"
+    },
+    {
+     "start": 188.82,
+     "end": 189.3,
+     "word": "namens"
+    },
+    {
+     "start": 189.3,
+     "end": 189.7,
+     "word": "Samiri"
+    },
+    {
+     "start": 189.7,
+     "end": 189.9,
+     "word": "aus"
+    },
+    {
+     "start": 189.9,
+     "end": 190.12,
+     "word": "dem"
+    },
+    {
+     "start": 190.12,
+     "end": 190.62,
+     "word": "Goldschmuck"
+    },
+    {
+     "start": 190.62,
+     "end": 190.82,
+     "word": "der"
+    },
+    {
+     "start": 190.82,
+     "end": 191.16,
+     "word": "Leute"
+    }
+   ]
+  },
+  {
+   "start": 191.16,
+   "end": 194.32,
+   "text": "ein goldenes Kalb, das einen laut von sich gab.",
+   "words": [
+    {
+     "start": 191.16,
+     "end": 191.64,
+     "word": "ein"
+    },
+    {
+     "start": 191.64,
+     "end": 192.18,
+     "word": "goldenes"
+    },
+    {
+     "start": 192.18,
+     "end": 192.74,
+     "word": "Kalb,"
+    },
+    {
+     "start": 192.88,
+     "end": 193.04,
+     "word": "das"
+    },
+    {
+     "start": 193.04,
+     "end": 193.28,
+     "word": "einen"
+    },
+    {
+     "start": 193.28,
+     "end": 193.54,
+     "word": "laut"
+    },
+    {
+     "start": 193.54,
+     "end": 193.78,
+     "word": "von"
+    },
+    {
+     "start": 193.78,
+     "end": 193.98,
+     "word": "sich"
+    },
+    {
+     "start": 193.98,
+     "end": 194.32,
+     "word": "gab."
+    }
+   ]
+  },
+  {
+   "start": 195.1,
+   "end": 199.56,
+   "text": "Und er sagte, das ist euer Gott und viele Leute glaubten ihm.",
+   "words": [
+    {
+     "start": 195.1,
+     "end": 195.34,
+     "word": "Und"
+    },
+    {
+     "start": 195.34,
+     "end": 195.54,
+     "word": "er"
+    },
+    {
+     "start": 195.54,
+     "end": 195.86,
+     "word": "sagte,"
+    },
+    {
+     "start": 196.34,
+     "end": 196.54,
+     "word": "das"
+    },
+    {
+     "start": 196.54,
+     "end": 196.74,
+     "word": "ist"
+    },
+    {
+     "start": 196.74,
+     "end": 197.02,
+     "word": "euer"
+    },
+    {
+     "start": 197.02,
+     "end": 197.28,
+     "word": "Gott"
+    },
+    {
+     "start": 197.28,
+     "end": 198.0,
+     "word": "und"
+    },
+    {
+     "start": 198.0,
+     "end": 198.36,
+     "word": "viele"
+    },
+    {
+     "start": 198.36,
+     "end": 198.66,
+     "word": "Leute"
+    },
+    {
+     "start": 198.66,
+     "end": 199.14,
+     "word": "glaubten"
+    },
+    {
+     "start": 199.14,
+     "end": 199.56,
+     "word": "ihm."
+    }
+   ]
+  },
+  {
+   "start": 200.6,
+   "end": 205.12,
+   "text": "Ein Kalb aus Gold? Das kann doch kein Gott sein.",
+   "words": [
+    {
+     "start": 200.6,
+     "end": 200.98,
+     "word": "Ein"
+    },
+    {
+     "start": 200.98,
+     "end": 201.58,
+     "word": "Kalb"
+    },
+    {
+     "start": 201.58,
+     "end": 201.96,
+     "word": "aus"
+    },
+    {
+     "start": 201.96,
+     "end": 202.5,
+     "word": "Gold?"
+    },
+    {
+     "start": 203.2,
+     "end": 203.58,
+     "word": "Das"
+    },
+    {
+     "start": 203.58,
+     "end": 203.82,
+     "word": "kann"
+    },
+    {
+     "start": 203.82,
+     "end": 204.1,
+     "word": "doch"
+    },
+    {
+     "start": 204.1,
+     "end": 204.34,
+     "word": "kein"
+    },
+    {
+     "start": 204.34,
+     "end": 204.66,
+     "word": "Gott"
+    },
+    {
+     "start": 204.66,
+     "end": 205.12,
+     "word": "sein."
+    }
+   ]
+  },
+  {
+   "start": 205.84,
+   "end": 207.74,
+   "text": "Du hast Recht, mein Schatz.",
+   "words": [
+    {
+     "start": 205.59,
+     "end": 206.04,
+     "word": "Du"
+    },
+    {
+     "start": 206.04,
+     "end": 206.4,
+     "word": "hast"
+    },
+    {
+     "start": 206.4,
+     "end": 206.76,
+     "word": "Recht,"
+    },
+    {
+     "start": 206.9,
+     "end": 207.06,
+     "word": "mein"
+    },
+    {
+     "start": 207.06,
+     "end": 207.74,
+     "word": "Schatz."
+    }
+   ]
+  },
+  {
+   "start": 208.44,
+   "end": 211.18,
+   "text": "Und genau das hat Harun gesagt.",
+   "words": [
+    {
+     "start": 208.44,
+     "end": 208.82,
+     "word": "Und"
+    },
+    {
+     "start": 208.82,
+     "end": 209.34,
+     "word": "genau"
+    },
+    {
+     "start": 209.34,
+     "end": 209.76,
+     "word": "das"
+    },
+    {
+     "start": 209.76,
+     "end": 210.08,
+     "word": "hat"
+    },
+    {
+     "start": 210.08,
+     "end": 210.54,
+     "word": "Harun"
+    },
+    {
+     "start": 210.54,
+     "end": 211.18,
+     "word": "gesagt."
+    }
+   ]
+  },
+  {
+   "start": 212.26,
+   "end": 218.26,
+   "text": "Er rief, mein Volk, damit werdet ihr nur geprüft.",
+   "words": [
+    {
+     "start": 212.26,
+     "end": 212.5,
+     "word": "Er"
+    },
+    {
+     "start": 212.5,
+     "end": 213.28,
+     "word": "rief,"
+    },
+    {
+     "start": 214.02,
+     "end": 214.3,
+     "word": "mein"
+    },
+    {
+     "start": 214.3,
+     "end": 215.28,
+     "word": "Volk,"
+    },
+    {
+     "start": 215.7,
+     "end": 216.0,
+     "word": "damit"
+    },
+    {
+     "start": 216.0,
+     "end": 216.44,
+     "word": "werdet"
+    },
+    {
+     "start": 216.44,
+     "end": 216.74,
+     "word": "ihr"
+    },
+    {
+     "start": 216.74,
+     "end": 217.12,
+     "word": "nur"
+    },
+    {
+     "start": 217.12,
+     "end": 218.26,
+     "word": "geprüft."
+    }
+   ]
+  },
+  {
+   "start": 219.26,
+   "end": 221.72,
+   "text": "Euer Herr ist der Barmherzige.",
+   "words": [
+    {
+     "start": 219.26,
+     "end": 219.56,
+     "word": "Euer"
+    },
+    {
+     "start": 219.56,
+     "end": 219.98,
+     "word": "Herr"
+    },
+    {
+     "start": 219.98,
+     "end": 220.38,
+     "word": "ist"
+    },
+    {
+     "start": 220.38,
+     "end": 220.58,
+     "word": "der"
+    },
+    {
+     "start": 220.58,
+     "end": 221.72,
+     "word": "Barmherzige."
+    }
+   ]
+  },
+  {
+   "start": 222.66,
+   "end": 225.44,
+   "text": "Folgt mir und hört auf mich.",
+   "words": [
+    {
+     "start": 222.66,
+     "end": 223.14,
+     "word": "Folgt"
+    },
+    {
+     "start": 223.14,
+     "end": 223.7,
+     "word": "mir"
+    },
+    {
+     "start": 223.7,
+     "end": 224.4,
+     "word": "und"
+    },
+    {
+     "start": 224.4,
+     "end": 224.74,
+     "word": "hört"
+    },
+    {
+     "start": 224.74,
+     "end": 225.08,
+     "word": "auf"
+    },
+    {
+     "start": 225.08,
+     "end": 225.44,
+     "word": "mich."
+    }
+   ]
+  },
+  {
+   "start": 226.48,
+   "end": 232.56,
+   "text": "Aber sie sagten, wir hören nicht auf, bis Musa zurückkommt.",
+   "words": [
+    {
+     "start": 226.48,
+     "end": 226.96,
+     "word": "Aber"
+    },
+    {
+     "start": 226.96,
+     "end": 227.22,
+     "word": "sie"
+    },
+    {
+     "start": 227.22,
+     "end": 227.98,
+     "word": "sagten,"
+    },
+    {
+     "start": 228.78,
+     "end": 228.92,
+     "word": "wir"
+    },
+    {
+     "start": 228.92,
+     "end": 229.3,
+     "word": "hören"
+    },
+    {
+     "start": 229.3,
+     "end": 229.7,
+     "word": "nicht"
+    },
+    {
+     "start": 229.7,
+     "end": 230.2,
+     "word": "auf,"
+    },
+    {
+     "start": 230.76,
+     "end": 231.16,
+     "word": "bis"
+    },
+    {
+     "start": 231.16,
+     "end": 231.78,
+     "word": "Musa"
+    },
+    {
+     "start": 231.78,
+     "end": 232.56,
+     "word": "zurückkommt."
+    }
+   ]
+  },
+  {
+   "start": 233.52,
+   "end": 241.38,
+   "text": "Als Musa zurückkam und sah, was passiert war, wurde er sehr traurig und zornig.",
+   "words": [
+    {
+     "start": 233.52,
+     "end": 234.32,
+     "word": "Als"
+    },
+    {
+     "start": 234.32,
+     "end": 234.7,
+     "word": "Musa"
+    },
+    {
+     "start": 234.7,
+     "end": 235.5,
+     "word": "zurückkam"
+    },
+    {
+     "start": 235.5,
+     "end": 235.94,
+     "word": "und"
+    },
+    {
+     "start": 235.94,
+     "end": 236.32,
+     "word": "sah,"
+    },
+    {
+     "start": 236.48,
+     "end": 236.72,
+     "word": "was"
+    },
+    {
+     "start": 236.72,
+     "end": 237.16,
+     "word": "passiert"
+    },
+    {
+     "start": 237.16,
+     "end": 237.82,
+     "word": "war,"
+    },
+    {
+     "start": 238.38,
+     "end": 238.54,
+     "word": "wurde"
+    },
+    {
+     "start": 238.54,
+     "end": 238.82,
+     "word": "er"
+    },
+    {
+     "start": 238.82,
+     "end": 239.28,
+     "word": "sehr"
+    },
+    {
+     "start": 239.28,
+     "end": 240.1,
+     "word": "traurig"
+    },
+    {
+     "start": 240.1,
+     "end": 240.66,
+     "word": "und"
+    },
+    {
+     "start": 240.66,
+     "end": 241.38,
+     "word": "zornig."
+    }
+   ]
+  },
+  {
+   "start": 242.52,
+   "end": 248.84,
+   "text": "Er dachte, Harun hätte nicht genug aufgepasst und packte ihn am Kopf.",
+   "words": [
+    {
+     "start": 242.52,
+     "end": 242.82,
+     "word": "Er"
+    },
+    {
+     "start": 242.82,
+     "end": 243.36,
+     "word": "dachte,"
+    },
+    {
+     "start": 244.12,
+     "end": 244.44,
+     "word": "Harun"
+    },
+    {
+     "start": 244.44,
+     "end": 244.78,
+     "word": "hätte"
+    },
+    {
+     "start": 244.78,
+     "end": 245.18,
+     "word": "nicht"
+    },
+    {
+     "start": 245.18,
+     "end": 245.58,
+     "word": "genug"
+    },
+    {
+     "start": 245.58,
+     "end": 246.82,
+     "word": "aufgepasst"
+    },
+    {
+     "start": 246.82,
+     "end": 247.32,
+     "word": "und"
+    },
+    {
+     "start": 247.32,
+     "end": 247.84,
+     "word": "packte"
+    },
+    {
+     "start": 247.84,
+     "end": 248.1,
+     "word": "ihn"
+    },
+    {
+     "start": 248.1,
+     "end": 248.46,
+     "word": "am"
+    },
+    {
+     "start": 248.46,
+     "end": 248.84,
+     "word": "Kopf."
+    }
+   ]
+  },
+  {
+   "start": 249.52,
+   "end": 253.52,
+   "text": "Oh nein, war Harun dann sauer auf ihn?",
+   "words": [
+    {
+     "start": 249.52,
+     "end": 249.9,
+     "word": "Oh"
+    },
+    {
+     "start": 249.9,
+     "end": 250.42,
+     "word": "nein,"
+    },
+    {
+     "start": 251.1,
+     "end": 251.6,
+     "word": "war"
+    },
+    {
+     "start": 251.6,
+     "end": 252.14,
+     "word": "Harun"
+    },
+    {
+     "start": 252.14,
+     "end": 252.44,
+     "word": "dann"
+    },
+    {
+     "start": 252.44,
+     "end": 252.86,
+     "word": "sauer"
+    },
+    {
+     "start": 252.86,
+     "end": 253.16,
+     "word": "auf"
+    },
+    {
+     "start": 253.16,
+     "end": 253.52,
+     "word": "ihn?"
+    }
+   ]
+  },
+  {
+   "start": 254.16,
+   "end": 255.58,
+   "text": "Nein, mein Schatz.",
+   "words": [
+    {
+     "start": 254.16,
+     "end": 254.66,
+     "word": "Nein,"
+    },
+    {
+     "start": 254.82,
+     "end": 255.0,
+     "word": "mein"
+    },
+    {
+     "start": 255.0,
+     "end": 255.58,
+     "word": "Schatz."
+    }
+   ]
+  },
+  {
+   "start": 256.46,
+   "end": 260.12,
+   "text": "Harun blieb ganz ruhig und sagte liebevoll,",
+   "words": [
+    {
+     "start": 256.46,
+     "end": 257.18,
+     "word": "Harun"
+    },
+    {
+     "start": 257.18,
+     "end": 257.5,
+     "word": "blieb"
+    },
+    {
+     "start": 257.5,
+     "end": 258.0,
+     "word": "ganz"
+    },
+    {
+     "start": 258.0,
+     "end": 258.58,
+     "word": "ruhig"
+    },
+    {
+     "start": 258.58,
+     "end": 258.84,
+     "word": "und"
+    },
+    {
+     "start": 258.84,
+     "end": 259.24,
+     "word": "sagte"
+    },
+    {
+     "start": 259.24,
+     "end": 260.12,
+     "word": "liebevoll,"
+    }
+   ]
+  },
+  {
+   "start": 261.04,
+   "end": 264.18,
+   "text": "Sohn meiner Mutter, lass mich los.",
+   "words": [
+    {
+     "start": 261.04,
+     "end": 261.48,
+     "word": "Sohn"
+    },
+    {
+     "start": 261.48,
+     "end": 261.76,
+     "word": "meiner"
+    },
+    {
+     "start": 261.76,
+     "end": 262.48,
+     "word": "Mutter,"
+    },
+    {
+     "start": 263.02,
+     "end": 263.26,
+     "word": "lass"
+    },
+    {
+     "start": 263.26,
+     "end": 263.58,
+     "word": "mich"
+    },
+    {
+     "start": 263.58,
+     "end": 264.18,
+     "word": "los."
+    }
+   ]
+  },
+  {
+   "start": 265.58,
+   "end": 270.7,
+   "text": "Ich hatte Angst, dass du sagst, du hast die Kinder Israels gespalten.",
+   "words": [
+    {
+     "start": 265.58,
+     "end": 265.8,
+     "word": "Ich"
+    },
+    {
+     "start": 265.8,
+     "end": 266.08,
+     "word": "hatte"
+    },
+    {
+     "start": 266.08,
+     "end": 266.44,
+     "word": "Angst,"
+    },
+    {
+     "start": 266.58,
+     "end": 266.66,
+     "word": "dass"
+    },
+    {
+     "start": 266.66,
+     "end": 266.92,
+     "word": "du"
+    },
+    {
+     "start": 266.92,
+     "end": 267.68,
+     "word": "sagst,"
+    },
+    {
+     "start": 268.28,
+     "end": 268.44,
+     "word": "du"
+    },
+    {
+     "start": 268.44,
+     "end": 268.66,
+     "word": "hast"
+    },
+    {
+     "start": 268.66,
+     "end": 268.86,
+     "word": "die"
+    },
+    {
+     "start": 268.86,
+     "end": 269.22,
+     "word": "Kinder"
+    },
+    {
+     "start": 269.22,
+     "end": 269.92,
+     "word": "Israels"
+    },
+    {
+     "start": 269.92,
+     "end": 270.7,
+     "word": "gespalten."
+    }
+   ]
+  },
+  {
+   "start": 271.98,
+   "end": 273.98,
+   "text": "Die Leute haben nicht auf mich gehört.",
+   "words": [
+    {
+     "start": 271.98,
+     "end": 272.2,
+     "word": "Die"
+    },
+    {
+     "start": 272.2,
+     "end": 272.52,
+     "word": "Leute"
+    },
+    {
+     "start": 272.52,
+     "end": 272.78,
+     "word": "haben"
+    },
+    {
+     "start": 272.78,
+     "end": 273.08,
+     "word": "nicht"
+    },
+    {
+     "start": 273.08,
+     "end": 273.24,
+     "word": "auf"
+    },
+    {
+     "start": 273.24,
+     "end": 273.52,
+     "word": "mich"
+    },
+    {
+     "start": 273.52,
+     "end": 273.98,
+     "word": "gehört."
+    }
+   ]
+  },
+  {
+   "start": 274.78,
+   "end": 279.88,
+   "text": "Da verstand Musa, dass sein Bruder alles richtig gemacht hatte.",
+   "words": [
+    {
+     "start": 274.78,
+     "end": 275.16,
+     "word": "Da"
+    },
+    {
+     "start": 275.16,
+     "end": 275.8,
+     "word": "verstand"
+    },
+    {
+     "start": 275.8,
+     "end": 276.54,
+     "word": "Musa,"
+    },
+    {
+     "start": 276.98,
+     "end": 277.16,
+     "word": "dass"
+    },
+    {
+     "start": 277.16,
+     "end": 277.36,
+     "word": "sein"
+    },
+    {
+     "start": 277.36,
+     "end": 277.94,
+     "word": "Bruder"
+    },
+    {
+     "start": 277.94,
+     "end": 278.48,
+     "word": "alles"
+    },
+    {
+     "start": 278.48,
+     "end": 279.0,
+     "word": "richtig"
+    },
+    {
+     "start": 279.0,
+     "end": 279.46,
+     "word": "gemacht"
+    },
+    {
+     "start": 279.46,
+     "end": 279.88,
+     "word": "hatte."
+    }
+   ]
+  },
+  {
+   "start": 280.88,
+   "end": 287.94,
+   "text": "Und er betete, mein Herr, vergib mir und meinem Bruder.",
+   "words": [
+    {
+     "start": 280.76,
+     "end": 281.2,
+     "word": "Und"
+    },
+    {
+     "start": 281.2,
+     "end": 281.7,
+     "word": "er"
+    },
+    {
+     "start": 281.7,
+     "end": 282.76,
+     "word": "betete,"
+    },
+    {
+     "start": 283.74,
+     "end": 283.98,
+     "word": "mein"
+    },
+    {
+     "start": 283.98,
+     "end": 284.78,
+     "word": "Herr,"
+    },
+    {
+     "start": 285.74,
+     "end": 286.1,
+     "word": "vergib"
+    },
+    {
+     "start": 286.1,
+     "end": 286.5,
+     "word": "mir"
+    },
+    {
+     "start": 286.5,
+     "end": 287.0,
+     "word": "und"
+    },
+    {
+     "start": 287.0,
+     "end": 287.24,
+     "word": "meinem"
+    },
+    {
+     "start": 287.24,
+     "end": 287.94,
+     "word": "Bruder."
+    }
+   ]
+  },
+  {
+   "start": 289.06,
+   "end": 292.92,
+   "text": "Und lass uns in deine Barmherzigkeit eintreten.",
+   "words": [
+    {
+     "start": 289.06,
+     "end": 289.28,
+     "word": "Und"
+    },
+    {
+     "start": 289.28,
+     "end": 289.52,
+     "word": "lass"
+    },
+    {
+     "start": 289.52,
+     "end": 290.04,
+     "word": "uns"
+    },
+    {
+     "start": 290.04,
+     "end": 290.54,
+     "word": "in"
+    },
+    {
+     "start": 290.54,
+     "end": 291.0,
+     "word": "deine"
+    },
+    {
+     "start": 291.0,
+     "end": 292.12,
+     "word": "Barmherzigkeit"
+    },
+    {
+     "start": 292.12,
+     "end": 292.92,
+     "word": "eintreten."
+    }
+   ]
+  },
+  {
+   "start": 294.44,
+   "end": 298.28,
+   "text": "Du bist der Barmherzigste der Barmherzigen.",
+   "words": [
+    {
+     "start": 294.44,
+     "end": 294.8,
+     "word": "Du"
+    },
+    {
+     "start": 294.8,
+     "end": 295.14,
+     "word": "bist"
+    },
+    {
+     "start": 295.14,
+     "end": 295.36,
+     "word": "der"
+    },
+    {
+     "start": 295.36,
+     "end": 296.58,
+     "word": "Barmherzigste"
+    },
+    {
+     "start": 296.58,
+     "end": 297.22,
+     "word": "der"
+    },
+    {
+     "start": 297.22,
+     "end": 298.28,
+     "word": "Barmherzigen."
+    }
+   ]
+  },
+  {
+   "start": 299.56,
+   "end": 302.74,
+   "text": "Allah lobt die beiden Brüder im Koran.",
+   "words": [
+    {
+     "start": 299.56,
+     "end": 300.24,
+     "word": "Allah"
+    },
+    {
+     "start": 300.24,
+     "end": 300.72,
+     "word": "lobt"
+    },
+    {
+     "start": 300.72,
+     "end": 300.98,
+     "word": "die"
+    },
+    {
+     "start": 300.98,
+     "end": 301.36,
+     "word": "beiden"
+    },
+    {
+     "start": 301.36,
+     "end": 301.7,
+     "word": "Brüder"
+    },
+    {
+     "start": 301.7,
+     "end": 301.94,
+     "word": "im"
+    },
+    {
+     "start": 301.94,
+     "end": 302.74,
+     "word": "Koran."
+    }
+   ]
+  },
+  {
+   "start": 302.96,
+   "end": 305.88,
+   "text": "Er sagt, Friede sei auf Musa und Harun.",
+   "words": [
+    {
+     "start": 302.96,
+     "end": 303.26,
+     "word": "Er"
+    },
+    {
+     "start": 303.26,
+     "end": 303.68,
+     "word": "sagt,"
+    },
+    {
+     "start": 303.96,
+     "end": 304.28,
+     "word": "Friede"
+    },
+    {
+     "start": 304.28,
+     "end": 304.42,
+     "word": "sei"
+    },
+    {
+     "start": 304.42,
+     "end": 304.68,
+     "word": "auf"
+    },
+    {
+     "start": 304.68,
+     "end": 305.08,
+     "word": "Musa"
+    },
+    {
+     "start": 305.08,
+     "end": 305.3,
+     "word": "und"
+    },
+    {
+     "start": 305.3,
+     "end": 305.88,
+     "word": "Harun."
+    }
+   ]
+  },
+  {
+   "start": 306.04,
+   "end": 308.24,
+   "text": "Sie gehörten zu seinen gläubigen Dienern.",
+   "words": [
+    {
+     "start": 306.04,
+     "end": 306.26,
+     "word": "Sie"
+    },
+    {
+     "start": 306.26,
+     "end": 306.7,
+     "word": "gehörten"
+    },
+    {
+     "start": 306.7,
+     "end": 306.94,
+     "word": "zu"
+    },
+    {
+     "start": 306.94,
+     "end": 307.16,
+     "word": "seinen"
+    },
+    {
+     "start": 307.16,
+     "end": 307.64,
+     "word": "gläubigen"
+    },
+    {
+     "start": 307.64,
+     "end": 308.24,
+     "word": "Dienern."
+    }
+   ]
+  },
+  {
+   "start": 309.24,
+   "end": 313.48,
+   "text": "Hat unser Prophet Muhammad auch von Harun erzählt?",
+   "words": [
+    {
+     "start": 309.24,
+     "end": 309.88,
+     "word": "Hat"
+    },
+    {
+     "start": 309.88,
+     "end": 310.4,
+     "word": "unser"
+    },
+    {
+     "start": 310.4,
+     "end": 310.86,
+     "word": "Prophet"
+    },
+    {
+     "start": 310.86,
+     "end": 311.4,
+     "word": "Muhammad"
+    },
+    {
+     "start": 311.4,
+     "end": 311.8,
+     "word": "auch"
+    },
+    {
+     "start": 311.8,
+     "end": 312.2,
+     "word": "von"
+    },
+    {
+     "start": 312.2,
+     "end": 312.76,
+     "word": "Harun"
+    },
+    {
+     "start": 312.76,
+     "end": 313.48,
+     "word": "erzählt?"
+    }
+   ]
+  },
+  {
+   "start": 315.14,
+   "end": 318.8,
+   "text": "Ja, als unser Prophet Muhammad,",
+   "words": [
+    {
+     "start": 315.14,
+     "end": 316.02,
+     "word": "Ja,"
+    },
+    {
+     "start": 316.6,
+     "end": 317.08,
+     "word": "als"
+    },
+    {
+     "start": 317.08,
+     "end": 317.46,
+     "word": "unser"
+    },
+    {
+     "start": 317.46,
+     "end": 317.92,
+     "word": "Prophet"
+    },
+    {
+     "start": 317.92,
+     "end": 318.8,
+     "word": "Muhammad,"
+    }
+   ]
+  },
+  {
+   "start": 319.26,
+   "end": 322.42,
+   "text": "Allah segne ihn und schenke ihn Frieden,",
+   "words": [
+    {
+     "start": 319.26,
+     "end": 319.6,
+     "word": "Allah"
+    },
+    {
+     "start": 319.6,
+     "end": 320.16,
+     "word": "segne"
+    },
+    {
+     "start": 320.16,
+     "end": 320.52,
+     "word": "ihn"
+    },
+    {
+     "start": 320.52,
+     "end": 320.8,
+     "word": "und"
+    },
+    {
+     "start": 320.8,
+     "end": 321.12,
+     "word": "schenke"
+    },
+    {
+     "start": 321.12,
+     "end": 321.44,
+     "word": "ihn"
+    },
+    {
+     "start": 321.44,
+     "end": 322.42,
+     "word": "Frieden,"
+    }
+   ]
+  },
+  {
+   "start": 322.92,
+   "end": 324.74,
+   "text": "einmal auf eine Reise ging,",
+   "words": [
+    {
+     "start": 322.92,
+     "end": 323.24,
+     "word": "einmal"
+    },
+    {
+     "start": 323.24,
+     "end": 323.58,
+     "word": "auf"
+    },
+    {
+     "start": 323.58,
+     "end": 323.82,
+     "word": "eine"
+    },
+    {
+     "start": 323.82,
+     "end": 324.3,
+     "word": "Reise"
+    },
+    {
+     "start": 324.3,
+     "end": 324.74,
+     "word": "ging,"
+    }
+   ]
+  },
+  {
+   "start": 325.18,
+   "end": 327.72,
+   "text": "ließ er seinen Cousin Ali zurück,",
+   "words": [
+    {
+     "start": 325.18,
+     "end": 325.5,
+     "word": "ließ"
+    },
+    {
+     "start": 325.5,
+     "end": 325.78,
+     "word": "er"
+    },
+    {
+     "start": 325.78,
+     "end": 326.12,
+     "word": "seinen"
+    },
+    {
+     "start": 326.12,
+     "end": 326.68,
+     "word": "Cousin"
+    },
+    {
+     "start": 326.68,
+     "end": 327.06,
+     "word": "Ali"
+    },
+    {
+     "start": 327.06,
+     "end": 327.72,
+     "word": "zurück,"
+    }
+   ]
+  },
+  {
+   "start": 328.2,
+   "end": 330.42,
+   "text": "um auf die Familie aufzupassen.",
+   "words": [
+    {
+     "start": 328.2,
+     "end": 328.44,
+     "word": "um"
+    },
+    {
+     "start": 328.44,
+     "end": 328.7,
+     "word": "auf"
+    },
+    {
+     "start": 328.7,
+     "end": 328.98,
+     "word": "die"
+    },
+    {
+     "start": 328.98,
+     "end": 329.42,
+     "word": "Familie"
+    },
+    {
+     "start": 329.42,
+     "end": 330.42,
+     "word": "aufzupassen."
+    }
+   ]
+  },
+  {
+   "start": 331.48,
+   "end": 333.26,
+   "text": "Und er sagte zu ihm,",
+   "words": [
+    {
+     "start": 331.48,
+     "end": 331.98,
+     "word": "Und"
+    },
+    {
+     "start": 331.98,
+     "end": 332.22,
+     "word": "er"
+    },
+    {
+     "start": 332.22,
+     "end": 332.56,
+     "word": "sagte"
+    },
+    {
+     "start": 332.56,
+     "end": 332.84,
+     "word": "zu"
+    },
+    {
+     "start": 332.84,
+     "end": 333.26,
+     "word": "ihm,"
+    }
+   ]
+  },
+  {
+   "start": 334.06,
+   "end": 339.26,
+   "text": "Bist du nicht froh, für mich so zu sein wie Harun für Musa?",
+   "words": [
+    {
+     "start": 334.06,
+     "end": 334.42,
+     "word": "Bist"
+    },
+    {
+     "start": 334.42,
+     "end": 334.52,
+     "word": "du"
+    },
+    {
+     "start": 334.52,
+     "end": 334.82,
+     "word": "nicht"
+    },
+    {
+     "start": 334.82,
+     "end": 335.28,
+     "word": "froh,"
+    },
+    {
+     "start": 335.44,
+     "end": 335.48,
+     "word": "für"
+    },
+    {
+     "start": 335.48,
+     "end": 335.72,
+     "word": "mich"
+    },
+    {
+     "start": 335.72,
+     "end": 336.02,
+     "word": "so"
+    },
+    {
+     "start": 336.02,
+     "end": 336.3,
+     "word": "zu"
+    },
+    {
+     "start": 336.3,
+     "end": 336.48,
+     "word": "sein"
+    },
+    {
+     "start": 336.48,
+     "end": 336.74,
+     "word": "wie"
+    },
+    {
+     "start": 336.74,
+     "end": 337.28,
+     "word": "Harun"
+    },
+    {
+     "start": 337.28,
+     "end": 337.56,
+     "word": "für"
+    },
+    {
+     "start": 337.56,
+     "end": 339.26,
+     "word": "Musa?"
+    }
+   ]
+  },
+  {
+   "start": 339.78,
+   "end": 342.7,
+   "text": "Nur, dass nach mir kein Prophet mehr kommt.",
+   "words": [
+    {
+     "start": 339.78,
+     "end": 340.12,
+     "word": "Nur,"
+    },
+    {
+     "start": 340.34,
+     "end": 340.5,
+     "word": "dass"
+    },
+    {
+     "start": 340.5,
+     "end": 340.74,
+     "word": "nach"
+    },
+    {
+     "start": 340.74,
+     "end": 341.08,
+     "word": "mir"
+    },
+    {
+     "start": 341.08,
+     "end": 341.48,
+     "word": "kein"
+    },
+    {
+     "start": 341.48,
+     "end": 341.94,
+     "word": "Prophet"
+    },
+    {
+     "start": 341.94,
+     "end": 342.32,
+     "word": "mehr"
+    },
+    {
+     "start": 342.32,
+     "end": 342.7,
+     "word": "kommt."
+    }
+   ]
+  },
+  {
+   "start": 344.12,
+   "end": 346.08,
+   "text": "Oh, sie schlafen schon.",
+   "words": [
+    {
+     "start": 344.12,
+     "end": 344.68,
+     "word": "Oh,"
+    },
+    {
+     "start": 344.78,
+     "end": 345.0,
+     "word": "sie"
+    },
+    {
+     "start": 345.0,
+     "end": 345.58,
+     "word": "schlafen"
+    },
+    {
+     "start": 345.58,
+     "end": 346.08,
+     "word": "schon."
+    }
+   ]
+  },
+  {
+   "start": 346.62,
+   "end": 350.22,
+   "text": "Meine Lieben, haltet zusammen, wie Musa und Harun.",
+   "words": [
+    {
+     "start": 346.62,
+     "end": 346.86,
+     "word": "Meine"
+    },
+    {
+     "start": 346.86,
+     "end": 347.58,
+     "word": "Lieben,"
+    },
+    {
+     "start": 347.96,
+     "end": 348.2,
+     "word": "haltet"
+    },
+    {
+     "start": 348.2,
+     "end": 348.6,
+     "word": "zusammen,"
+    },
+    {
+     "start": 348.74,
+     "end": 348.82,
+     "word": "wie"
+    },
+    {
+     "start": 348.82,
+     "end": 349.36,
+     "word": "Musa"
+    },
+    {
+     "start": 349.36,
+     "end": 349.58,
+     "word": "und"
+    },
+    {
+     "start": 349.58,
+     "end": 350.22,
+     "word": "Harun."
+    }
+   ]
+  },
+  {
+   "start": 350.58,
+   "end": 352.7,
+   "text": "Helft einander, wenn etwas schwer ist.",
+   "words": [
+    {
+     "start": 350.58,
+     "end": 350.88,
+     "word": "Helft"
+    },
+    {
+     "start": 350.88,
+     "end": 351.28,
+     "word": "einander,"
+    },
+    {
+     "start": 351.3,
+     "end": 351.44,
+     "word": "wenn"
+    },
+    {
+     "start": 351.44,
+     "end": 351.72,
+     "word": "etwas"
+    },
+    {
+     "start": 351.72,
+     "end": 352.16,
+     "word": "schwer"
+    },
+    {
+     "start": 352.16,
+     "end": 352.7,
+     "word": "ist."
+    }
+   ]
+  },
+  {
+   "start": 353.1,
+   "end": 355.96,
+   "text": "Sagt die Wahrheit, auch wenn viele etwas Falsches tun.",
+   "words": [
+    {
+     "start": 353.1,
+     "end": 353.32,
+     "word": "Sagt"
+    },
+    {
+     "start": 353.32,
+     "end": 353.54,
+     "word": "die"
+    },
+    {
+     "start": 353.54,
+     "end": 354.06,
+     "word": "Wahrheit,"
+    },
+    {
+     "start": 354.14,
+     "end": 354.32,
+     "word": "auch"
+    },
+    {
+     "start": 354.32,
+     "end": 354.52,
+     "word": "wenn"
+    },
+    {
+     "start": 354.52,
+     "end": 354.82,
+     "word": "viele"
+    },
+    {
+     "start": 354.82,
+     "end": 355.2,
+     "word": "etwas"
+    },
+    {
+     "start": 355.2,
+     "end": 355.64,
+     "word": "Falsches"
+    },
+    {
+     "start": 355.64,
+     "end": 355.96,
+     "word": "tun."
+    }
+   ]
+  },
+  {
+   "start": 356.34,
+   "end": 358.28,
+   "text": "Und wenn Euch jemand falsch versteht,",
+   "words": [
+    {
+     "start": 356.34,
+     "end": 356.54,
+     "word": "Und"
+    },
+    {
+     "start": 356.54,
+     "end": 356.72,
+     "word": "wenn"
+    },
+    {
+     "start": 356.72,
+     "end": 356.92,
+     "word": "Euch"
+    },
+    {
+     "start": 356.92,
+     "end": 357.26,
+     "word": "jemand"
+    },
+    {
+     "start": 357.26,
+     "end": 357.6,
+     "word": "falsch"
+    },
+    {
+     "start": 357.6,
+     "end": 358.28,
+     "word": "versteht,"
+    }
+   ]
+  },
+  {
+   "start": 358.5,
+   "end": 361.02,
+   "text": "dann bleibt freundlich und erklärt es ruhig.",
+   "words": [
+    {
+     "start": 358.5,
+     "end": 358.66,
+     "word": "dann"
+    },
+    {
+     "start": 358.66,
+     "end": 358.9,
+     "word": "bleibt"
+    },
+    {
+     "start": 358.9,
+     "end": 359.62,
+     "word": "freundlich"
+    },
+    {
+     "start": 359.62,
+     "end": 359.84,
+     "word": "und"
+    },
+    {
+     "start": 359.84,
+     "end": 360.14,
+     "word": "erklärt"
+    },
+    {
+     "start": 360.14,
+     "end": 360.4,
+     "word": "es"
+    },
+    {
+     "start": 360.4,
+     "end": 361.02,
+     "word": "ruhig."
+    }
+   ]
+  },
+  {
+   "start": 361.62,
+   "end": 367.12,
+   "text": "Und nächstes Mal erzähle ich Euch von Dul-Kifl,",
+   "words": [
+    {
+     "start": 361.62,
+     "end": 362.18,
+     "word": "Und"
+    },
+    {
+     "start": 362.18,
+     "end": 362.88,
+     "word": "nächstes"
+    },
+    {
+     "start": 362.88,
+     "end": 363.24,
+     "word": "Mal"
+    },
+    {
+     "start": 363.24,
+     "end": 363.8,
+     "word": "erzähle"
+    },
+    {
+     "start": 363.8,
+     "end": 363.96,
+     "word": "ich"
+    },
+    {
+     "start": 363.96,
+     "end": 364.26,
+     "word": "Euch"
+    },
+    {
+     "start": 364.26,
+     "end": 364.82,
+     "word": "von"
+    },
+    {
+     "start": 364.82,
+     "end": 365.44,
+     "word": "Dul"
+    },
+    {
+     "start": 365.44,
+     "end": 367.12,
+     "word": "-Kifl,"
+    }
+   ]
+  },
+  {
+   "start": 367.5,
+   "end": 369.02,
+   "text": "einem Propheten,",
+   "words": [
+    {
+     "start": 367.5,
+     "end": 367.7,
+     "word": "einem"
+    },
+    {
+     "start": 367.7,
+     "end": 369.02,
+     "word": "Propheten,"
+    }
+   ]
+  },
+  {
+   "start": 369.02,
+   "end": 372.12,
+   "text": "über den der Koran nur wenige Worte sagt,",
+   "words": [
+    {
+     "start": 369.02,
+     "end": 369.32,
+     "word": "über"
+    },
+    {
+     "start": 369.32,
+     "end": 369.52,
+     "word": "den"
+    },
+    {
+     "start": 369.52,
+     "end": 369.78,
+     "word": "der"
+    },
+    {
+     "start": 369.78,
+     "end": 370.3,
+     "word": "Koran"
+    },
+    {
+     "start": 370.3,
+     "end": 370.74,
+     "word": "nur"
+    },
+    {
+     "start": 370.74,
+     "end": 371.26,
+     "word": "wenige"
+    },
+    {
+     "start": 371.26,
+     "end": 371.64,
+     "word": "Worte"
+    },
+    {
+     "start": 371.64,
+     "end": 372.12,
+     "word": "sagt,"
+    }
+   ]
+  },
+  {
+   "start": 373.0,
+   "end": 375.06,
+   "text": "aber ganz besondere.",
+   "words": [
+    {
+     "start": 373.0,
+     "end": 373.38,
+     "word": "aber"
+    },
+    {
+     "start": 373.38,
+     "end": 374.04,
+     "word": "ganz"
+    },
+    {
+     "start": 374.04,
+     "end": 375.06,
+     "word": "besondere."
+    }
+   ]
+  },
+  {
+   "start": 376.56,
+   "end": 380.0,
+   "text": "Und Du, der Du gerade zuschaust?",
+   "words": [
+    {
+     "start": 376.56,
+     "end": 377.0,
+     "word": "Und"
+    },
+    {
+     "start": 377.0,
+     "end": 377.56,
+     "word": "Du,"
+    },
+    {
+     "start": 378.18,
+     "end": 378.36,
+     "word": "der"
+    },
+    {
+     "start": 378.36,
+     "end": 378.64,
+     "word": "Du"
+    },
+    {
+     "start": 378.64,
+     "end": 379.02,
+     "word": "gerade"
+    },
+    {
+     "start": 379.02,
+     "end": 380.0,
+     "word": "zuschaust?"
+    }
+   ]
+  },
+  {
+   "start": 380.92,
+   "end": 383.18,
+   "text": "Wenn Dir die Geschichte gefallen hat,",
+   "words": [
+    {
+     "start": 380.92,
+     "end": 381.18,
+     "word": "Wenn"
+    },
+    {
+     "start": 381.18,
+     "end": 381.48,
+     "word": "Dir"
+    },
+    {
+     "start": 381.48,
+     "end": 381.74,
+     "word": "die"
+    },
+    {
+     "start": 381.74,
+     "end": 382.12,
+     "word": "Geschichte"
+    },
+    {
+     "start": 382.12,
+     "end": 382.66,
+     "word": "gefallen"
+    },
+    {
+     "start": 382.66,
+     "end": 383.18,
+     "word": "hat,"
+    }
+   ]
+  },
+  {
+   "start": 383.94,
+   "end": 385.38,
+   "text": "dann frag Deine Eltern,",
+   "words": [
+    {
+     "start": 383.94,
+     "end": 384.14,
+     "word": "dann"
+    },
+    {
+     "start": 384.14,
+     "end": 384.5,
+     "word": "frag"
+    },
+    {
+     "start": 384.5,
+     "end": 384.8,
+     "word": "Deine"
+    },
+    {
+     "start": 384.8,
+     "end": 385.38,
+     "word": "Eltern,"
+    }
+   ]
+  },
+  {
+   "start": 385.94,
+   "end": 388.52,
+   "text": "ob sie unseren Kanal abonnieren.",
+   "words": [
+    {
+     "start": 385.94,
+     "end": 386.14,
+     "word": "ob"
+    },
+    {
+     "start": 386.14,
+     "end": 386.36,
+     "word": "sie"
+    },
+    {
+     "start": 386.36,
+     "end": 386.8,
+     "word": "unseren"
+    },
+    {
+     "start": 386.8,
+     "end": 387.48,
+     "word": "Kanal"
+    },
+    {
+     "start": 387.48,
+     "end": 388.52,
+     "word": "abonnieren."
+    }
+   ]
+  },
+  {
+   "start": 389.12,
+   "end": 392.34,
+   "text": "So verpasst Du die nächste Geschichte nicht.",
+   "words": [
+    {
+     "start": 389.12,
+     "end": 389.76,
+     "word": "So"
+    },
+    {
+     "start": 389.76,
+     "end": 390.3,
+     "word": "verpasst"
+    },
+    {
+     "start": 390.3,
+     "end": 390.48,
+     "word": "Du"
+    },
+    {
+     "start": 390.48,
+     "end": 390.7,
+     "word": "die"
+    },
+    {
+     "start": 390.7,
+     "end": 391.0,
+     "word": "nächste"
+    },
+    {
+     "start": 391.0,
+     "end": 391.56,
+     "word": "Geschichte"
+    },
+    {
+     "start": 391.56,
+     "end": 392.34,
+     "word": "nicht."
+    }
+   ]
+  },
+  {
+   "start": 393.9,
+   "end": 395.54,
+   "text": "Schlaft gut, meine Lieben.",
+   "words": [
+    {
+     "start": 393.9,
+     "end": 394.28,
+     "word": "Schlaft"
+    },
+    {
+     "start": 394.28,
+     "end": 394.54,
+     "word": "gut,"
+    },
+    {
+     "start": 394.54,
+     "end": 394.86,
+     "word": "meine"
+    },
+    {
+     "start": 394.86,
+     "end": 395.54,
+     "word": "Lieben."
+    }
+   ]
+  },
+  {
+   "start": 396.46,
+   "end": 397.8,
+   "text": "Allah beschütze Euch.",
+   "words": [
+    {
+     "start": 396.46,
+     "end": 396.76,
+     "word": "Allah"
+    },
+    {
+     "start": 396.76,
+     "end": 397.42,
+     "word": "beschütze"
+    },
+    {
+     "start": 397.42,
+     "end": 397.8,
+     "word": "Euch."
+    }
+   ]
+  }
+ ]
+}
