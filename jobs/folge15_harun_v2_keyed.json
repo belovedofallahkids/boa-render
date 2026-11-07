@@ -1,0 +1,184 @@
+{
+ "name": "folge15_harun_v2_keyed",
+ "disabled": true,
+ "_note": "timing of German v2 voice (media-folge15_harun_v2) per sentence group, for dubbing only (H56: never re-render)",
+ "audio": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/media-folge15_harun_v2/folge15_harun_de_v2.mp3",
+ "segments": [
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 0.0,
+   "end": 14.17,
+   "motion": "none",
+   "label": "master_A_buch",
+   "script": "s1a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 14.17,
+   "end": 19.06,
+   "motion": "none",
+   "label": "noah",
+   "script": "s1b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_two_paths_together_cfpng-T9jRhcpfxxZ.jpeg",
+   "start": 19.06,
+   "end": 40.28,
+   "motion": "none",
+   "label": "two_paths_together",
+   "script": "s1c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_mountain_light_dawn_cfpng-DWLMURKJbWf.jpeg",
+   "start": 40.28,
+   "end": 71.91,
+   "motion": "none",
+   "label": "mountain_light_dawn",
+   "script": "s2a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 71.91,
+   "end": 75.14,
+   "motion": "none",
+   "label": "ilyas",
+   "script": "s2b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_two_paths_together_cfpng-T9jRhcpfxxZ.jpeg",
+   "start": 75.14,
+   "end": 103.72,
+   "motion": "none",
+   "label": "two_paths_together",
+   "script": "s2c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_palace_columns_dusk_cfpng-LxPI3E02TSG.jpeg",
+   "start": 103.72,
+   "end": 136.86,
+   "motion": "none",
+   "label": "palace_columns_dusk",
+   "script": "s3a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 136.86,
+   "end": 142.04,
+   "motion": "none",
+   "label": "noah",
+   "script": "s3b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge14_sea_split_cfpng-xQ3N5CS0s7Z.jpeg",
+   "start": 142.04,
+   "end": 163.85,
+   "motion": "none",
+   "label": "sea_split",
+   "script": "s3c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_camp_tents_desert_cfpng-E2Duq5NIAZX.jpeg",
+   "start": 163.85,
+   "end": 185.46,
+   "motion": "none",
+   "label": "camp_tents_desert",
+   "script": "s4a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_gold_jewelry_pile_cfpng-hEvlSWRF0AP.jpeg",
+   "start": 185.46,
+   "end": 200.02,
+   "motion": "none",
+   "label": "gold_jewelry_pile",
+   "script": "s4b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 200.02,
+   "end": 205.49,
+   "motion": "none",
+   "label": "ilyas",
+   "script": "s4c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_lantern_alone_tent_cfpng-lG74x0ZfJfM.jpeg",
+   "start": 205.49,
+   "end": 233.21,
+   "motion": "none",
+   "label": "lantern_alone_tent",
+   "script": "s4d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_mountain_path_return_cfpng-wsFHpAVB1xy.jpeg",
+   "start": 233.21,
+   "end": 249.2,
+   "motion": "none",
+   "label": "mountain_path_return",
+   "script": "s5a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 249.2,
+   "end": 253.87,
+   "motion": "none",
+   "label": "noah",
+   "script": "s5b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_two_palms_storm_calm_cfpng-7K6X4WyAY3Z.jpeg",
+   "start": 253.87,
+   "end": 274.34,
+   "motion": "none",
+   "label": "two_palms_storm_calm",
+   "script": "s5c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge12_night_dua_sky_cfjpg-JhW0kGjZT4G.jpeg",
+   "start": 274.34,
+   "end": 299.02,
+   "motion": "none",
+   "label": "night_dua_sky",
+   "script": "s5d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_starry_peace_sky_cfpng-IDmro8MvUGB.jpeg",
+   "start": 299.02,
+   "end": 309.01,
+   "motion": "none",
+   "label": "starry_peace_sky",
+   "script": "s6a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 309.01,
+   "end": 314.33,
+   "motion": "none",
+   "label": "ilyas",
+   "script": "s6b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge15_two_paths_together_cfpng-T9jRhcpfxxZ.jpeg",
+   "start": 314.33,
+   "end": 343.42,
+   "motion": "none",
+   "label": "two_paths_together",
+   "script": "s6c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_kinder_schlafen_offizielljpg-aevRtHZ0V3q.jpeg",
+   "start": 343.42,
+   "end": 361.41,
+   "motion": "none",
+   "label": "kinder_schlafen",
+   "script": "s7a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_oma_window_night_offizielljpg-i61gAYOmKJ9.jpeg",
+   "start": 361.41,
+   "end": 403.76,
+   "motion": "none",
+   "label": "oma_window_night",
+   "script": "s7b"
+  }
+ ]
+}
