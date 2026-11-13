@@ -14,9 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: free disk
-        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL; df -h /
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL; df -h /; sudo swapoff -a; sudo fallocate -l 20G /swapfile2; sudo chmod 600 /swapfile2; sudo mkswap /swapfile2; sudo swapon /swapfile2; free -g
       - name: deps
-        run: pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu && pip install --quiet diffusers transformers accelerate sentencepiece imageio imageio-ffmpeg
+        run: pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu && pip install --quiet diffusers transformers accelerate sentencepiece tiktoken protobuf imageio imageio-ffmpeg
       - name: image
         run: curl -sL -o in.jpg https://raw.githubusercontent.com/belovedofallahkids/boa-render/media-video-test/noah_animals_ramp.jpg
       - name: generate
