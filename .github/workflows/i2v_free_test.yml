@@ -1,0 +1,28 @@
+name: i2v_free_test
+on:
+  workflow_dispatch:
+    inputs:
+      w: {default: "704"}
+      h: {default: "416"}
+      frames: {default: "97"}
+      steps: {default: "30"}
+permissions: {contents: write}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - name: free disk
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL; df -h /
+      - name: deps
+        run: pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu && pip install --quiet diffusers transformers accelerate sentencepiece imageio imageio-ffmpeg
+      - name: image
+        run: curl -sL -o in.jpg https://raw.githubusercontent.com/belovedofallahkids/boa-render/media-video-test/noah_animals_ramp.jpg
+      - name: generate
+        run: /usr/bin/time -v python3 tools/i2v_free_test.py in.jpg out.mp4 ${{ inputs.w }} ${{ inputs.h }} ${{ inputs.frames }} ${{ inputs.steps }} 2>&1 | tee log.txt
+      - name: publish
+        if: always()
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          gh release create i2v_free_test_${{ github.run_id }} out.mp4 log.txt --title "free i2v test (LTX-Video CPU)" --notes "CPU test" || gh release create i2v_free_test_${{ github.run_id }} log.txt --title "free i2v test (failed)" --notes "see log"
