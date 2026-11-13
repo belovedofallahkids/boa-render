@@ -6,7 +6,9 @@ from diffusers.utils import export_to_video, load_image
 img, out, W, H, F, S = sys.argv[1], sys.argv[2], *map(int, sys.argv[3:7])
 torch.set_num_threads(4)
 t0 = time.time()
-pipe = LTXImageToVideoPipeline.from_pretrained("Lightricks/LTX-Video", torch_dtype=torch.bfloat16)
+from transformers import T5Tokenizer
+tok = T5Tokenizer.from_pretrained("Lightricks/LTX-Video", subfolder="tokenizer", legacy=True)
+pipe = LTXImageToVideoPipeline.from_pretrained("Lightricks/LTX-Video", tokenizer=tok, torch_dtype=torch.bfloat16)
 print("loaded", round(time.time()-t0), "s", flush=True)
 prompt = ("The animals walk slowly in pairs up the wooden ramp into the big wooden ark, birds flap their wings and fly "
           "gently toward the door, soft clouds drift in the evening sky, the little stream sparkles. Pixar-like 3D "
