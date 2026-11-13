@@ -138,6 +138,14 @@ def main():
                 continue
             tx[fk] = fv[LANG]
             keys.insert(keys.index(fv["after"]) + 1, fk)
+    # owner 13.11.2026: prophet names in each language's own form (names/names_local.json)
+    if os.environ.get("DUB_NAMES_LOCAL") == "1":
+        nl = json.load(open(f"{ROOT}/names/names_local.json", encoding="utf-8")).get(LANG, {})
+        def _loc(t):
+            for a in sorted(nl, key=len, reverse=True):
+                t = re.sub(r"(?<![\w’'])" + re.escape(a) + r"(?![\w])", nl[a], t)
+            return t
+        tx = {k: (_loc(v) if isinstance(v, str) else v) for k, v in tx.items()}
     voice, rate, pitch = VOICE[LANG]
     # per-episode rate override (v6 review: Ismail tr runs 5–13 s over the next images at -10%)
     _ro = json.loads(os.environ.get("DUB_RATES") or "{}")
