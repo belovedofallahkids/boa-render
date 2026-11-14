@@ -1,0 +1,578 @@
+{
+ "1": {
+  "ep": "folge01_adam",
+  "dur": 363.41551,
+  "tracks": {
+   "ar": {
+    "file": "folge01_adam_ar_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge01_adam_free/folge01_adam_ar_free_v1.mp3",
+    "dv": 363.415
+   },
+   "en": {
+    "file": "folge01_adam_en_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge01_adam_free/folge01_adam_en_free_v1.mp3",
+    "dv": 363.415
+   },
+   "fr": {
+    "file": "folge01_adam_fr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge01_adam_free/folge01_adam_fr_free_v1.mp3",
+    "dv": 363.415
+   },
+   "tr": {
+    "file": "folge01_adam_tr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge01_adam_free/folge01_adam_tr_free_v1.mp3",
+    "dv": 363.415
+   },
+   "bs": {
+    "file": "folge01_adam_bs_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge01_adam_free/folge01_adam_bs_free_v1.mp3",
+    "dv": 363.415
+   },
+   "sq": {
+    "file": "folge01_adam_sq_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge01_adam_free/folge01_adam_sq_free_v1.mp3",
+    "dv": 363.415
+   }
+  }
+ },
+ "2": {
+  "ep": "folge02_idris",
+  "dur": 213.948662,
+  "tracks": {
+   "ar": {
+    "file": "folge02_idris_ar_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge02_idris_free/folge02_idris_ar_free_v1.mp3",
+    "dv": 213.948
+   },
+   "en": {
+    "file": "folge02_idris_en_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge02_idris_free/folge02_idris_en_free_v1.mp3",
+    "dv": 213.948
+   },
+   "fr": {
+    "file": "folge02_idris_fr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge02_idris_free/folge02_idris_fr_free_v1.mp3",
+    "dv": 213.948
+   },
+   "tr": {
+    "file": "folge02_idris_tr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge02_idris_free/folge02_idris_tr_free_v1.mp3",
+    "dv": 213.948
+   },
+   "bs": {
+    "file": "folge02_idris_bs_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge02_idris_free/folge02_idris_bs_free_v1.mp3",
+    "dv": 213.948
+   },
+   "sq": {
+    "file": "folge02_idris_sq_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge02_idris_free/folge02_idris_sq_free_v1.mp3",
+    "dv": 213.948
+   }
+  }
+ },
+ "3": {
+  "ep": "folge03_nuh",
+  "dur": 341.1,
+  "tracks": {
+   "ar": {
+    "file": "folge03_nuh_ar_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge03_nuh_free/folge03_nuh_ar_free_v1.mp3",
+    "dv": 341.2
+   },
+   "en": {
+    "file": "folge03_nuh_en_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge03_nuh_free/folge03_nuh_en_free_v1.mp3",
+    "dv": 341.2
+   },
+   "fr": {
+    "file": "folge03_nuh_fr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge03_nuh_free/folge03_nuh_fr_free_v1.mp3",
+    "dv": 341.2
+   },
+   "tr": {
+    "file": "folge03_nuh_tr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge03_nuh_free/folge03_nuh_tr_free_v1.mp3",
+    "dv": 341.2
+   },
+   "bs": {
+    "file": "folge03_nuh_bs_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge03_nuh_free/folge03_nuh_bs_free_v1.mp3",
+    "dv": 341.2
+   },
+   "sq": {
+    "file": "folge03_nuh_sq_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge03_nuh_free/folge03_nuh_sq_free_v1.mp3",
+    "dv": 341.2
+   }
+  }
+ },
+ "4": {
+  "ep": "folge04_hud",
+  "dur": 267.168798,
+  "tracks": {
+   "ar": {
+    "file": "folge04_hud_ar_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge04_hud_free/folge04_hud_ar_free_v1.mp3",
+    "dv": 267.169
+   },
+   "en": {
+    "file": "folge04_hud_en_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge04_hud_free/folge04_hud_en_free_v1.mp3",
+    "dv": 267.169
+   },
+   "fr": {
+    "file": "folge04_hud_fr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge04_hud_free/folge04_hud_fr_free_v1.mp3",
+    "dv": 267.169
+   },
+   "tr": {
+    "file": "folge04_hud_tr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge04_hud_free/folge04_hud_tr_free_v1.mp3",
+    "dv": 267.169
+   },
+   "bs": {
+    "file": "folge04_hud_bs_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge04_hud_free/folge04_hud_bs_free_v1.mp3",
+    "dv": 267.169
+   },
+   "sq": {
+    "file": "folge04_hud_sq_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge04_hud_free/folge04_hud_sq_free_v1.mp3",
+    "dv": 267.169
+   }
+  }
+ },
+ "5": {
+  "ep": "folge05_salih",
+  "dur": 285.559002,
+  "tracks": {
+   "ar": {
+    "file": "folge05_salih_ar_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge05_salih_free/folge05_salih_ar_free_v1.mp3",
+    "dv": 285.559
+   },
+   "en": {
+    "file": "folge05_salih_en_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge05_salih_free/folge05_salih_en_free_v1.mp3",
+    "dv": 285.559
+   },
+   "fr": {
+    "file": "folge05_salih_fr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge05_salih_free/folge05_salih_fr_free_v1.mp3",
+    "dv": 285.559
+   },
+   "tr": {
+    "file": "folge05_salih_tr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge05_salih_free/folge05_salih_tr_free_v1.mp3",
+    "dv": 285.559
+   },
+   "bs": {
+    "file": "folge05_salih_bs_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge05_salih_free/folge05_salih_bs_free_v1.mp3",
+    "dv": 285.559
+   },
+   "sq": {
+    "file": "folge05_salih_sq_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge05_salih_free/folge05_salih_sq_free_v1.mp3",
+    "dv": 285.559
+   }
+  }
+ },
+ "6": {
+  "ep": "folge06_ibrahim",
+  "dur": 480.002902,
+  "tracks": {
+   "ar": {
+    "file": "folge06_ibrahim_ar_free_2.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge06_ibrahim_free/folge06_ibrahim_ar_free_2.mp3",
+    "dv": 480.0
+   },
+   "en": {
+    "file": "folge06_ibrahim_en_free_2.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge06_ibrahim_free/folge06_ibrahim_en_free_2.mp3",
+    "dv": 480.0
+   },
+   "fr": {
+    "file": "folge06_ibrahim_fr_free_2.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge06_ibrahim_free/folge06_ibrahim_fr_free_2.mp3",
+    "dv": 480.0
+   },
+   "tr": {
+    "file": "folge06_ibrahim_tr_free_2.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge06_ibrahim_free/folge06_ibrahim_tr_free_2.mp3",
+    "dv": 480.0
+   },
+   "bs": {
+    "file": "folge06_ibrahim_bs_free_2.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge06_ibrahim_free/folge06_ibrahim_bs_free_2.mp3",
+    "dv": 480.0
+   },
+   "sq": {
+    "file": "folge06_ibrahim_sq_free_2.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge06_ibrahim_free/folge06_ibrahim_sq_free_2.mp3",
+    "dv": 480.0
+   }
+  }
+ },
+ "7": {
+  "ep": "folge07_lut",
+  "dur": 402.3,
+  "tracks": {
+   "ar": {
+    "file": "folge07_lut_ar_free_v9.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge07_lut_free/folge07_lut_ar_free_v9.mp3",
+    "dv": 402.28
+   },
+   "en": {
+    "file": "folge07_lut_en_free_v9.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge07_lut_free/folge07_lut_en_free_v9.mp3",
+    "dv": 402.28
+   },
+   "fr": {
+    "file": "folge07_lut_fr_free_v9.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge07_lut_free/folge07_lut_fr_free_v9.mp3",
+    "dv": 402.28
+   },
+   "tr": {
+    "file": "folge07_lut_tr_free_v9.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge07_lut_free/folge07_lut_tr_free_v9.mp3",
+    "dv": 402.28
+   },
+   "bs": {
+    "file": "folge07_lut_bs_free_v9.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge07_lut_free/folge07_lut_bs_free_v9.mp3",
+    "dv": 402.28
+   },
+   "sq": {
+    "file": "folge07_lut_sq_free_v9.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge07_lut_free/folge07_lut_sq_free_v9.mp3",
+    "dv": 402.28
+   }
+  }
+ },
+ "8": {
+  "ep": "folge08_ismail",
+  "dur": 402.633333,
+  "tracks": {
+   "ar": {
+    "file": "folge08_ismail_ar_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge08_ismail_free/folge08_ismail_ar_free_v8.mp3",
+    "dv": 402.63
+   },
+   "en": {
+    "file": "folge08_ismail_en_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge08_ismail_free/folge08_ismail_en_free_v8.mp3",
+    "dv": 402.63
+   },
+   "fr": {
+    "file": "folge08_ismail_fr_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge08_ismail_free/folge08_ismail_fr_free_v8.mp3",
+    "dv": 402.63
+   },
+   "tr": {
+    "file": "folge08_ismail_tr_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge08_ismail_free/folge08_ismail_tr_free_v8.mp3",
+    "dv": 402.63
+   },
+   "bs": {
+    "file": "folge08_ismail_bs_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge08_ismail_free/folge08_ismail_bs_free_v8.mp3",
+    "dv": 402.63
+   },
+   "sq": {
+    "file": "folge08_ismail_sq_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge08_ismail_free/folge08_ismail_sq_free_v8.mp3",
+    "dv": 402.63
+   }
+  }
+ },
+ "9": {
+  "ep": "folge09_ishaq",
+  "dur": 502.4,
+  "tracks": {
+   "ar": {
+    "file": "folge09_ishaq_ar_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge09_ishaq_free/folge09_ishaq_ar_free_v7.mp3",
+    "dv": 502.4
+   },
+   "en": {
+    "file": "folge09_ishaq_en_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge09_ishaq_free/folge09_ishaq_en_free_v7.mp3",
+    "dv": 502.4
+   },
+   "fr": {
+    "file": "folge09_ishaq_fr_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge09_ishaq_free/folge09_ishaq_fr_free_v7.mp3",
+    "dv": 502.4
+   },
+   "tr": {
+    "file": "folge09_ishaq_tr_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge09_ishaq_free/folge09_ishaq_tr_free_v7.mp3",
+    "dv": 502.4
+   },
+   "bs": {
+    "file": "folge09_ishaq_bs_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge09_ishaq_free/folge09_ishaq_bs_free_v7.mp3",
+    "dv": 502.4
+   },
+   "sq": {
+    "file": "folge09_ishaq_sq_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge09_ishaq_free/folge09_ishaq_sq_free_v7.mp3",
+    "dv": 502.4
+   }
+  }
+ },
+ "10": {
+  "ep": "folge10_yaqub",
+  "dur": 469.8,
+  "tracks": {
+   "ar": {
+    "file": "folge10_yaqub_ar_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge10_yaqub_free/folge10_yaqub_ar_free_v7.mp3",
+    "dv": 469.8
+   },
+   "en": {
+    "file": "folge10_yaqub_en_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge10_yaqub_free/folge10_yaqub_en_free_v7.mp3",
+    "dv": 469.8
+   },
+   "fr": {
+    "file": "folge10_yaqub_fr_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge10_yaqub_free/folge10_yaqub_fr_free_v7.mp3",
+    "dv": 469.8
+   },
+   "tr": {
+    "file": "folge10_yaqub_tr_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge10_yaqub_free/folge10_yaqub_tr_free_v8.mp3",
+    "dv": 469.8
+   },
+   "bs": {
+    "file": "folge10_yaqub_bs_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge10_yaqub_free/folge10_yaqub_bs_free_v8.mp3",
+    "dv": 469.8
+   },
+   "sq": {
+    "file": "folge10_yaqub_sq_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge10_yaqub_free/folge10_yaqub_sq_free_v8.mp3",
+    "dv": 469.8
+   }
+  }
+ },
+ "11": {
+  "ep": "folge11_yusuf",
+  "dur": 559.566667,
+  "tracks": {
+   "ar": {
+    "file": "folge11_yusuf_ar_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge11_yusuf_free/folge11_yusuf_ar_free_v8.mp3",
+    "dv": 559.58
+   },
+   "en": {
+    "file": "folge11_yusuf_en_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge11_yusuf_free/folge11_yusuf_en_free_v8.mp3",
+    "dv": 559.58
+   },
+   "fr": {
+    "file": "folge11_yusuf_fr_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge11_yusuf_free/folge11_yusuf_fr_free_v8.mp3",
+    "dv": 559.58
+   },
+   "tr": {
+    "file": "folge11_yusuf_tr_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge11_yusuf_free/folge11_yusuf_tr_free_v8.mp3",
+    "dv": 559.58
+   },
+   "bs": {
+    "file": "folge11_yusuf_bs_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge11_yusuf_free/folge11_yusuf_bs_free_v8.mp3",
+    "dv": 559.58
+   },
+   "sq": {
+    "file": "folge11_yusuf_sq_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge11_yusuf_free/folge11_yusuf_sq_free_v8.mp3",
+    "dv": 559.58
+   }
+  }
+ },
+ "12": {
+  "ep": "folge12_ayyub",
+  "dur": 410.266667,
+  "tracks": {
+   "ar": {
+    "file": "folge12_ayyub_ar_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge12_ayyub_free/folge12_ayyub_ar_free_v7.mp3",
+    "dv": 410.24
+   },
+   "en": {
+    "file": "folge12_ayyub_en_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge12_ayyub_free/folge12_ayyub_en_free_v7.mp3",
+    "dv": 410.24
+   },
+   "fr": {
+    "file": "folge12_ayyub_fr_free_v7.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge12_ayyub_free/folge12_ayyub_fr_free_v7.mp3",
+    "dv": 410.24
+   },
+   "tr": {
+    "file": "folge12_ayyub_tr_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge12_ayyub_free/folge12_ayyub_tr_free_v8.mp3",
+    "dv": 410.24
+   },
+   "bs": {
+    "file": "folge12_ayyub_bs_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge12_ayyub_free/folge12_ayyub_bs_free_v8.mp3",
+    "dv": 410.24
+   },
+   "sq": {
+    "file": "folge12_ayyub_sq_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge12_ayyub_free/folge12_ayyub_sq_free_v8.mp3",
+    "dv": 410.24
+   }
+  }
+ },
+ "13": {
+  "ep": "folge13_shuaib",
+  "dur": 387.333333,
+  "tracks": {
+   "ar": {
+    "file": "folge13_shuaib_ar_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge13_shuaib_free/folge13_shuaib_ar_free_v8.mp3",
+    "dv": 387.32
+   },
+   "en": {
+    "file": "folge13_shuaib_en_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge13_shuaib_free/folge13_shuaib_en_free_v8.mp3",
+    "dv": 387.32
+   },
+   "fr": {
+    "file": "folge13_shuaib_fr_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge13_shuaib_free/folge13_shuaib_fr_free_v8.mp3",
+    "dv": 387.32
+   },
+   "tr": {
+    "file": "folge13_shuaib_tr_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge13_shuaib_free/folge13_shuaib_tr_free_v8.mp3",
+    "dv": 387.32
+   },
+   "bs": {
+    "file": "folge13_shuaib_bs_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge13_shuaib_free/folge13_shuaib_bs_free_v8.mp3",
+    "dv": 387.32
+   },
+   "sq": {
+    "file": "folge13_shuaib_sq_free_v8.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge13_shuaib_free/folge13_shuaib_sq_free_v8.mp3",
+    "dv": 387.32
+   }
+  }
+ },
+ "14": {
+  "ep": "folge14_musa",
+  "dur": 611.0,
+  "tracks": {
+   "ar": {
+    "file": "folge14_musa_ar_free_v10.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge14_musa_free/folge14_musa_ar_free_v10.mp3",
+    "dv": 611.0
+   },
+   "en": {
+    "file": "folge14_musa_en_free_v10.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge14_musa_free/folge14_musa_en_free_v10.mp3",
+    "dv": 611.0
+   },
+   "fr": {
+    "file": "folge14_musa_fr_free_v10.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge14_musa_free/folge14_musa_fr_free_v10.mp3",
+    "dv": 611.0
+   },
+   "tr": {
+    "file": "folge14_musa_tr_free_v10.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge14_musa_free/folge14_musa_tr_free_v10.mp3",
+    "dv": 611.0
+   },
+   "bs": {
+    "file": "folge14_musa_bs_free_v11.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge14_musa_free/folge14_musa_bs_free_v11.mp3",
+    "dv": 611.0
+   },
+   "sq": {
+    "file": "folge14_musa_sq_free_v11.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge14_musa_free/folge14_musa_sq_free_v11.mp3",
+    "dv": 611.0
+   }
+  }
+ },
+ "15": {
+  "ep": "folge15_harun",
+  "dur": 403.766667,
+  "tracks": {
+   "ar": {
+    "file": "folge15_harun_ar_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge15_harun_free/folge15_harun_ar_free_v1.mp3",
+    "dv": 403.8
+   },
+   "en": {
+    "file": "folge15_harun_en_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge15_harun_free/folge15_harun_en_free_v1.mp3",
+    "dv": 403.8
+   },
+   "fr": {
+    "file": "folge15_harun_fr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge15_harun_free/folge15_harun_fr_free_v1.mp3",
+    "dv": 403.8
+   },
+   "tr": {
+    "file": "folge15_harun_tr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge15_harun_free/folge15_harun_tr_free_v1.mp3",
+    "dv": 403.8
+   },
+   "bs": {
+    "file": "folge15_harun_bs_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge15_harun_free/folge15_harun_bs_free_v1.mp3",
+    "dv": 403.8
+   },
+   "sq": {
+    "file": "folge15_harun_sq_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge15_harun_free/folge15_harun_sq_free_v1.mp3",
+    "dv": 403.8
+   }
+  }
+ },
+ "16": {
+  "ep": "folge16_dhulkifl",
+  "dur": 307.366667,
+  "tracks": {
+   "ar": {
+    "file": "folge16_dhulkifl_ar_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge16_dhulkifl_free/folge16_dhulkifl_ar_free_v1.mp3",
+    "dv": 307.37
+   },
+   "en": {
+    "file": "folge16_dhulkifl_en_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge16_dhulkifl_free/folge16_dhulkifl_en_free_v1.mp3",
+    "dv": 307.37
+   },
+   "fr": {
+    "file": "folge16_dhulkifl_fr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge16_dhulkifl_free/folge16_dhulkifl_fr_free_v1.mp3",
+    "dv": 307.37
+   },
+   "tr": {
+    "file": "folge16_dhulkifl_tr_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge16_dhulkifl_free/folge16_dhulkifl_tr_free_v1.mp3",
+    "dv": 307.37
+   },
+   "bs": {
+    "file": "folge16_dhulkifl_bs_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge16_dhulkifl_free/folge16_dhulkifl_bs_free_v1.mp3",
+    "dv": 307.37
+   },
+   "sq": {
+    "file": "folge16_dhulkifl_sq_free_v1.mp3",
+    "url": "https://github.com/belovedofallahkids/boa-render/releases/download/dub_folge16_dhulkifl_free/folge16_dhulkifl_sq_free_v1.mp3",
+    "dv": 307.37
+   }
+  }
+ }
+}
