@@ -129,7 +129,7 @@ def block(ep, L):
         had = [HAD_AR[next(k for k in HAD_AR if h.startswith(k))] + h[len(next(k for k in HAD_AR if h.startswith(k))):] for h in ep['h']]
     else:
         had = ep['h']
-    src = f"{SRC[L]} {ep['q']}" + (' · ' + ', '.join(had) if had else '') + '.'
+    src = f"{SRC[L]} {ep['q']}" + (' · ' + ' · '.join(had) if had else '') + '.'
     return '\n'.join(lines) + '\n\n' + src
 
 out = {}
