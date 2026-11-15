@@ -9,7 +9,7 @@ on:
       - ".github/workflows/jaddo.yml"
   workflow_dispatch:
     inputs:
-      name: {description: "output name", required: false, default: "jaddo01_ar_v1"}
+      name: {description: "output name", required: false, default: "jaddo01_ar_v2"}
 
 permissions:
   contents: write
@@ -29,7 +29,8 @@ jobs:
       - name: Install
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core > /dev/null
-          pip install -q faster-whisper
+          pip install -q faster-whisper opencv-python-headless pillow
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q transformers
       - name: Sources (store permanently in release jaddo01_src, H40)
         env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
         run: |
@@ -46,7 +47,7 @@ jobs:
       - name: Build
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          JADDO_NAME: ${{ github.event.inputs.name || 'jaddo01_ar_v1' }}
+          JADDO_NAME: ${{ github.event.inputs.name || 'jaddo01_ar_v2' }}
         run: python3 tools/jaddo01_build.py
       - name: Save report
         if: always()

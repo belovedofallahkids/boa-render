@@ -12,7 +12,7 @@ import difflib, hashlib, json, os, re, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "src")
 WORK = os.path.join(ROOT, "work", "jaddo01")
-NAME = os.environ.get("JADDO_NAME", "jaddo01_ar_v1")
+NAME = os.environ.get("JADDO_NAME") or "jaddo01_ar_v2"
 os.makedirs(WORK, exist_ok=True)
 sys.path.insert(0, os.path.join(ROOT, "render"))
 
@@ -249,6 +249,18 @@ def main():
         en = marks[i + 1][0] if i + 1 < len(marks) else "audio"
         segs.append({"image": "file://" + os.path.join(SRC, img + ".png"), "start": round(st, 3),
                      "end": en if en == "audio" else round(en, 3), "motion": motion, "amount": 0.07, "label": img})
+    alt = ["zoom_in", "pan_right", "zoom_out", "pan_left", "pan_up"]
+    split, aud_total = [], total + 3
+    for k, sg in enumerate(segs):
+        a = sg["start"]; b = aud_total if sg["end"] == "audio" else sg["end"]
+        n = max(1, int(round((b - a) / 9.0)))
+        for j in range(n):
+            s2 = dict(sg, start=round(a + (b - a) * j / n, 3), end=round(a + (b - a) * (j + 1) / n, 3))
+            if j:
+                s2["motion"] = alt[(alt.index(sg["motion"]) + j) % len(alt)] if sg["motion"] in alt else alt[j % 5]
+            split.append(s2)
+    split[-1]["end"] = "audio"
+    segs = split
     job = {"name": NAME, "audio": "file://" + narration, "crossfade": 0.8, "fade_in": 0.8, "fade_out": 1.5,
            "loudness": -14, "tail_hold": 3, "segments": segs}
     outdir = os.path.join(ROOT, "out", NAME)
@@ -257,6 +269,13 @@ def main():
                "job": job}, open(os.path.join(outdir, "align_report.json"), "w"), ensure_ascii=False, indent=1)
     import render
     os.makedirs(render.CACHE, exist_ok=True)
+    if os.environ.get("PARALLAX", "1") == "1":
+        # H: لا صور ثابتة أبداً – كل لقطة حركة كاميرا 2.5D (عمق) مجانية
+        sys.path.insert(0, os.path.join(ROOT, "tools"))
+        import parallax
+        for s_ in job["segments"]:
+            parallax._depth(s_["image"][7:])
+        render.render_clip = parallax.render_clip
     raw = json.dumps(job, sort_keys=True).encode()
     st = render.render_job(job, hashlib.sha1(raw).hexdigest(), outdir)
     # also publish the narration (for dubbing / reuse)
