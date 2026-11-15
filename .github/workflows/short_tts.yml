@@ -1,0 +1,26 @@
+name: short_tts
+on:
+  push:
+    branches: [main]
+    paths: ["jobs/short_tts/**", "tools/short_tts.py", ".github/workflows/short_tts.yml"]
+  workflow_dispatch:
+permissions: {contents: write}
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q edge-tts
+      - env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+        run: |
+          set -e
+          for f in jobs/short_tts/*.json; do
+            n=$(basename "$f" .json)
+            rm -rf /tmp/out && python3 tools/short_tts.py "$f"
+            cd /tmp/out && git init -q -b "media-short-tts-$n"
+            git config user.name "boa-render-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add . && git commit -qm "short tts $n"
+            git push -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "HEAD:media-short-tts-$n"
+            cd "$GITHUB_WORKSPACE"
+          done
