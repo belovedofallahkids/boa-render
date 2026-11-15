@@ -1,0 +1,884 @@
+{
+ "pieces": {
+  "c1a": [
+   {
+    "id": "n1",
+    "from": 0.0,
+    "to": 3.11,
+    "len": 2.87,
+    "expected": "جدو جدو وجدت كنزا",
+    "heard": "جدّو، جدّو، وجدّو كنّزاً",
+    "match": 0.75
+   },
+   {
+    "id": "i1",
+    "from": 3.11,
+    "to": 7.4,
+    "len": 3.69,
+    "expected": "كنز هذه حبة صغيرة يا نوح",
+    "heard": "كنّز؟ هذه حبة صغيرة يا نوح",
+    "match": 1.0
+   },
+   {
+    "id": "n2",
+    "from": 7.4,
+    "to": 10.85,
+    "len": 2.69,
+    "expected": "سر ما هو يا جدو قل لي",
+    "heard": "سر، ما هو يا جدّو؟ قلّي",
+    "match": 0.77
+   },
+   {
+    "id": "k1",
+    "from": 10.85,
+    "to": 12.8,
+    "len": 1.49,
+    "expected": "تحدي مقبول",
+    "heard": "تحدّ مقبول",
+    "match": 0.5
+   }
+  ],
+  "c1b": [
+   {
+    "id": "j1",
+    "from": 0.0,
+    "to": 9.35,
+    "len": 8.97,
+    "expected": "هممم لا يا إلياس هذه ليست مجرد حبة في داخلها سر كبير كبير جدا",
+    "heard": "همم، لا يا إلياس، هذه ليست مجرد حبة، في داخلها سر كبير، كبير جداً",
+    "match": 0.93
+   },
+   {
+    "id": "j2",
+    "from": 9.35,
+    "to": 17.04,
+    "len": 7.25,
+    "expected": "سأخبركما لكن في آخر حكايتنا ومن يدري ربما تكتشفانه أنتما قبلي",
+    "heard": "سأخبركم، لكن في آخر الحكايتنا، ومن يدري، ربما تكتشفانه أنتم قبلي",
+    "match": 0.73
+   }
+  ],
+  "c2a": [
+   {
+    "id": "j3",
+    "from": 0.0,
+    "to": 9.04,
+    "len": 8.36,
+    "expected": "تعاليا نلعب لعبة أنا أشير إلى شيء وأنتما تنظران وتفكران اسمها من صنع هذا",
+    "heard": "تعالي نلعب لعبة أنا أشير إلى شيء وأنتما تنظراني وتفكران اسمها من صنع هذا",
+    "match": 0.86
+   },
+   {
+    "id": "j4",
+    "from": 9.04,
+    "to": 18.24,
+    "len": 8.23,
+    "expected": "الناس يصنعون وردة من بلاستيك لكنها لا تكبر ولا تفوح رائحتها ولا تتفتح في الصباح",
+    "heard": "الناس يصنعون وردة من بلاستيك لكنها لا تكبر ولا تفوح رائحتها ولا تتفتح في الصباح",
+    "match": 1.0
+   }
+  ],
+  "c2b": [
+   {
+    "id": "i2",
+    "from": 0.0,
+    "to": 4.03,
+    "len": 3.96,
+    "expected": "انظر يا نوح النملة تحمل شيئا أكبر منها",
+    "heard": "انظر يا نوح النملة تحمل شيئا أكبر منها",
+    "match": 1.0
+   },
+   {
+    "id": "n3",
+    "from": 4.03,
+    "to": 10.94,
+    "len": 6.59,
+    "expected": "يا لها من بطلة لو كنت أنا نملة لحملت كل الحلوى",
+    "heard": "يالها من بطلة لو كنت أنا نملة لحملت كل الحلوة",
+    "match": 0.76
+   },
+   {
+    "id": "n4",
+    "from": 10.94,
+    "to": 16.4,
+    "len": 4.86,
+    "expected": "جدو هل يستطيع أحد من الناس أن يصنع وردة حقيقية",
+    "heard": "جدو هل يستطيع أحد من الناس أن يصنع وردة حقيقية",
+    "match": 1.0
+   }
+  ],
+  "c3a": [
+   {
+    "id": "n5",
+    "from": 0.0,
+    "to": 6.15,
+    "len": 5.51,
+    "expected": "جدو من خلق كل هذا النملة والماء والورد",
+    "heard": "جدو، من خلق كل هذا؟ النملة والماء والورد؟",
+    "match": 1.0
+   },
+   {
+    "id": "i3",
+    "from": 6.15,
+    "to": 12.48,
+    "len": 6.07,
+    "expected": "لكن يا جدو نحن لا نرى الله فكيف نعرف أنه هو الذي خلقها",
+    "heard": "لكن يا جدو، نحن لا نرى الله، فكيف نعرف أنه هو الذي خلقها؟",
+    "match": 1.0
+   },
+   {
+    "id": "i4",
+    "from": 12.48,
+    "to": 15.26,
+    "len": 2.33,
+    "expected": "أقول أحد رسمها",
+    "heard": "أقول، أحد رسمها.",
+    "match": 1.0
+   },
+   {
+    "id": "n6",
+    "from": 15.26,
+    "to": 18.64,
+    "len": 3.1,
+    "expected": "لا طبعا القلم لا يمشي وحده",
+    "heard": "لا طبعًا، القلم لا يمشي وحده.",
+    "match": 1.0
+   }
+  ],
+  "c3b": [
+   {
+    "id": "j5",
+    "from": 0.0,
+    "to": 8.6,
+    "len": 8.22,
+    "expected": "الله يا حبيبي الله هو الخالق هو الذي خلق النملة وأنزل الماء ولون الورود",
+    "heard": "الله يا حبيبي الله هو الخالق هو الذي خلق النملة وأنزل الماء ولون الورود",
+    "match": 1.0
+   },
+   {
+    "id": "j6",
+    "from": 8.6,
+    "to": 16.14,
+    "len": 6.89,
+    "expected": "سؤال رجل كبير يا إلياس قل لي لو رأيت رسمة جميلة على الحائط ماذا تقول",
+    "heard": "سؤال رجل كبير يا إلياس قل لي لو رأيت رسمة جميلة على الحائط ماذا تقول؟",
+    "match": 1.0
+   },
+   {
+    "id": "j7",
+    "from": 16.14,
+    "to": 20.11,
+    "len": 3.14,
+    "expected": "وهل يمكن أن ترسم الرسمة نفسها وحدها",
+    "heard": "وهل يمكن أن ترسم الرسمة نفسها وحدها؟",
+    "match": 1.0
+   },
+   {
+    "id": "j8",
+    "from": 20.11,
+    "to": 28.4,
+    "len": 7.82,
+    "expected": "وهذه الحديقة أجمل من كل الرسومات وكل شيء فيها كأنه يقول لنا الله خلقني",
+    "heard": "وهذه الحديقة أجمل من كل الرسومات وكل شيء فيها كأنه يقول لنا الله خلقني",
+    "match": 1.0
+   }
+  ],
+  "c4a": [
+   {
+    "id": "j9",
+    "from": 0.0,
+    "to": 5.79,
+    "len": 5.31,
+    "expected": "والله نفسه يدعونا في القرآن أن ننظر ونتفكر اسمعا",
+    "heard": "والله نفسه يدعونا في القرآن أن ننظر ونتفكر اسمع",
+    "match": 0.89
+   },
+   {
+    "id": "V1",
+    "from": 5.79,
+    "to": 20.68,
+    "len": 14.14,
+    "expected": "أفلا ينظرون إلى الإبل كيف خلقت وإلى السماء كيف رفعت وإلى الجبال كيف نصبت وإلى الأرض كيف سطحت",
+    "heard": "أَفَلَا يَنْظُرُونَ إِلَى الْإِبْلِ كَيْفَ خُلِقَتْ وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
+    "match": 1.0
+   },
+   {
+    "id": "j10",
+    "from": 20.68,
+    "to": 37.48,
+    "len": 16.2,
+    "expected": "الجمل والسماء والجبال والأرض الله يقول لنا انظروا كيف خلقتها وهل تعرفان النبي صلى الله عليه وسلم كان يقوم في آخر الليل فينظر إلى السماء ويقرأ",
+    "heard": "الجمل والسماء والجبال والأرض الله يقول لنا انظروا كيف خلقتها وهل تعرفان النبي صلى الله عليه وسلم كان يقوم في آخر الليل فينظر إلى السماء ويقرأ",
+    "match": 1.0
+   },
+   {
+    "id": "V2",
+    "from": 37.48,
+    "to": 46.09,
+    "len": 7.91,
+    "expected": "إن في خلق السماوات والأرض واختلاف الليل والنهار لآيات لأولي الألباب",
+    "heard": "إن في خلق السماوات والأرض واختلاف الليل والنهار لآيات لأولي الألباب",
+    "match": 1.0
+   },
+   {
+    "id": "j11",
+    "from": 46.09,
+    "to": 57.9,
+    "len": 11.39,
+    "expected": "رواه البخاري والله مدح الذين يتفكرون في خلقه يعني الآن ونحن ننظر إلى النملة والورد نحن نفعل شيئا يرضي الله",
+    "heard": "رواه البخاري والله مدح الذين يتفكرون في خلقه يعني الآن ونحن ننظر إلى النملة والورد نحن نفعل شيئا يرضي الله إذا",
+    "match": 0.98
+   },
+   {
+    "id": "j12",
+    "from": 57.9,
+    "to": 62.0,
+    "len": 3.62,
+    "expected": "إذا تفكرت وقلت سبحان الله نعم",
+    "heard": "إذا تفكرت وقلت سبحان الله نعم",
+    "match": 1.0
+   }
+  ],
+  "c4b": [
+   {
+    "id": "n7",
+    "from": 0.0,
+    "to": 4.64,
+    "len": 4.12,
+    "expected": "الجمل مثل جمل قرموشة الصغير",
+    "heard": "الجمل، مثل جمل جدة الصغير",
+    "match": 0.8
+   },
+   {
+    "id": "n8",
+    "from": 4.64,
+    "to": 8.64,
+    "len": 3.42,
+    "expected": "يعني النظر إلى النملة عبادة",
+    "heard": "يعني النظر إلى النملة عبادة؟",
+    "match": 1.0
+   }
+  ],
+  "c5a": [
+   {
+    "id": "n9",
+    "from": 0.0,
+    "to": 5.58,
+    "len": 4.85,
+    "expected": "جدو وشجرة التين هذه هل ذكرها الله في القرآن",
+    "heard": "جد وشجرة التين هذه، هل ذكرها الله في القرآن؟",
+    "match": 0.89
+   },
+   {
+    "id": "n10",
+    "from": 5.58,
+    "to": 8.32,
+    "len": 1.92,
+    "expected": "التين في القرآن",
+    "heard": "التين في القرآن",
+    "match": 1.0
+   },
+   {
+    "id": "i5",
+    "from": 8.32,
+    "to": 10.7,
+    "len": 1.64,
+    "expected": "والزيتون أيضا",
+    "heard": "والزيتون أيضا",
+    "match": 1.0
+   },
+   {
+    "id": "n11",
+    "from": 10.7,
+    "to": 14.5,
+    "len": 3.0,
+    "expected": "يعني أنا أيضا أحسن تقويم",
+    "heard": "يعني أنا أيضا أحسن تقويم؟",
+    "match": 1.0
+   },
+   {
+    "id": "k2",
+    "from": 14.5,
+    "to": 16.64,
+    "len": 1.59,
+    "expected": "الحمد لله",
+    "heard": "الحمد لله",
+    "match": 1.0
+   }
+  ],
+  "c5b": [
+   {
+    "id": "j13",
+    "from": 0.0,
+    "to": 4.24,
+    "len": 4.01,
+    "expected": "هناك سورة اسمها سورة التين تبدأ هكذا",
+    "heard": "هناك سورة اسمها سورة التين تبدأها كذا",
+    "match": 0.71
+   },
+   {
+    "id": "V3",
+    "from": 4.24,
+    "to": 17.0,
+    "len": 12.12,
+    "expected": "والتين والزيتون وطور سينين وهذا البلد الأمين لقد خلقنا الإنسان في أحسن تقويم",
+    "heard": "والتين والزيتون وطور سينين وهذا البلد الأمين لقد خلقنا الإنسان في أحسن تقويم",
+    "match": 1.0
+   },
+   {
+    "id": "j14",
+    "from": 17.0,
+    "to": 27.08,
+    "len": 9.5,
+    "expected": "وفي الآية الرابعة يقول الله إنه خلق الإنسان في أحسن تقويم يعني في أحسن صورة وأجمل خلقة",
+    "heard": "وفي الآية الرابعة يقول الله إنه خلق الإنسان في أحسن تقويم يعني في أحسن صورة وأجمل خلقه",
+    "match": 1.0
+   },
+   {
+    "id": "j15",
+    "from": 27.08,
+    "to": 32.72,
+    "len": 5.31,
+    "expected": "أنت وإلياس وكل إنسان فماذا نقول لله",
+    "heard": "أنت وإلياس وكل إنسان فماذا نقول لله؟",
+    "match": 1.0
+   }
+  ],
+  "c6a": [
+   {
+    "id": "n12",
+    "from": 0.0,
+    "to": 2.81,
+    "len": 2.14,
+    "expected": "جدو نسيت السر",
+    "heard": "جدّو نسيتَ السّر",
+    "match": 1.0
+   },
+   {
+    "id": "n13",
+    "from": 2.81,
+    "to": 7.78,
+    "len": 3.58,
+    "expected": "هذه الصغيرة تصير هذه الكبيرة",
+    "heard": "هذه الصّغيرة تصيرُ هذه الكّبيرة",
+    "match": 1.0
+   },
+   {
+    "id": "i6",
+    "from": 7.78,
+    "to": 11.84,
+    "len": 3.38,
+    "expected": "يعني الله هو الذي ينبتها",
+    "heard": "يعني الله هو اللّذي ينبتُها",
+    "match": 0.8
+   }
+  ],
+  "c6b": [
+   {
+    "id": "j16",
+    "from": 0.0,
+    "to": 7.28,
+    "len": 6.49,
+    "expected": "لم أنس ارفعا رأسيكما إلى الأعلى أعلى أعلى",
+    "heard": "لم أنس، ترفع رأسيكما إلى الأعلى، أعلى، أعلى",
+    "match": 0.88
+   },
+   {
+    "id": "j17",
+    "from": 7.28,
+    "to": 15.89,
+    "len": 7.49,
+    "expected": "الشجرة الكبيرة التي نجلس في ظلها كانت يوما ما بذرة صغيرة مثل التي في يدك",
+    "heard": "الشجرة الكبيرة التي مجلس في ظلها كانت يوم ما بذرة صغيرة مثل التي في يدك",
+    "match": 0.87
+   },
+   {
+    "id": "j18",
+    "from": 15.89,
+    "to": 24.84,
+    "len": 7.68,
+    "expected": "نحن نضعها في التراب ونسقيها لكن من يخرج منها الشجرة اسمعا ماذا قال الله",
+    "heard": "نحن نضعها في التراب ونسقيها، لكن من يخرج منها الشجرة؟ سمع، ماذا قال الله؟",
+    "match": 0.93
+   },
+   {
+    "id": "V4",
+    "from": 24.84,
+    "to": 31.82,
+    "len": 6.66,
+    "expected": "أفرأيتم ما تحرثون أأنتم تزرعونه أم نحن الزارعون",
+    "heard": "أفرأيتم ما تحرثون؟ أأنتم تزرعونه أم نحن الزارعون؟",
+    "match": 1.0
+   },
+   {
+    "id": "j19",
+    "from": 31.82,
+    "to": 34.8,
+    "len": 2.52,
+    "expected": "أحسنت هذا هو السر",
+    "heard": "أحسنت، هذا هو السر",
+    "match": 1.0
+   }
+  ],
+  "c7a": [
+   {
+    "id": "j20",
+    "from": 0.0,
+    "to": 10.15,
+    "len": 9.6,
+    "expected": "مهمتكما اليوم كل واحد يبحث عن ثلاثة أشياء جميلة خلقها الله وعند كل واحد يقول سبحان الله",
+    "heard": "مهمتكم اليوم كل واحد يبحث عن ثلاثة أشياء جميلة خلقها الله وعند كل واحد يقول سبحان الله",
+    "match": 0.94
+   },
+   {
+    "id": "j21",
+    "from": 10.15,
+    "to": 16.99,
+    "len": 6.23,
+    "expected": "الله هو الخالق وكل شيء جميل يذكرنا به سبحان الله",
+    "heard": "الله هو الخالق وكل شيء جميل يذكرنا به سبحان الله",
+    "match": 1.0
+   },
+   {
+    "id": "j22",
+    "from": 16.99,
+    "to": 26.8,
+    "len": 9.73,
+    "expected": "آه هذا سؤال الغد وجوابه في سورة قصيرة جدا أظنكما تحفظانها من زمان",
+    "heard": "هذا سؤال الغد وجوابه في سورة قصيرة جدا أظنكم تحفظانها من زمان",
+    "match": 0.88
+   }
+  ],
+  "c7b": [
+   {
+    "id": "n14",
+    "from": 0.0,
+    "to": 3.99,
+    "len": 3.59,
+    "expected": "واحد النملة سبحان الله",
+    "heard": "واحد، النملة، سبحان الله",
+    "match": 1.0
+   },
+   {
+    "id": "i7",
+    "from": 3.99,
+    "to": 8.16,
+    "len": 3.64,
+    "expected": "اثنان الشمس سبحان الله",
+    "heard": "اثنان، الشمس، سبحان الله",
+    "match": 1.0
+   },
+   {
+    "id": "k3",
+    "from": 8.16,
+    "to": 12.81,
+    "len": 3.8,
+    "expected": "ثلاثة شجرتنا سبحان الله",
+    "heard": "ثلاثة، شجرتنا، سبحان الله",
+    "match": 1.0
+   },
+   {
+    "id": "k4",
+    "from": 12.81,
+    "to": 18.62,
+    "len": 5.32,
+    "expected": "الحمد لله الذي جعلنا مسلمين نعرف ربنا ونحبه",
+    "heard": "الحمد لله الذي جعلنا مسلمين نعرف ربنا ونحبه",
+    "match": 1.0
+   },
+   {
+    "id": "n15",
+    "from": 18.62,
+    "to": 24.02,
+    "len": 4.76,
+    "expected": "جدو سؤال أخير الله واحد أم أكثر من واحد",
+    "heard": "جد، سؤال أخير، الله واحد أم أكثر من واحد؟",
+    "match": 0.89
+   },
+   {
+    "id": "k5",
+    "from": 24.02,
+    "to": 25.6,
+    "len": 1.23,
+    "expected": "أي سورة",
+    "heard": "أي سورة",
+    "match": 1.0
+   }
+  ],
+  "ISTI": {
+   "source": "istiadha1",
+   "from": 0.0,
+   "to": 3.84
+  },
+  "BASM": {
+   "source": "basmala1",
+   "from": 0.0,
+   "to": 3.02
+  }
+ },
+ "starts": {
+  "n1": 0.6,
+  "i1": 3.82,
+  "j1": 7.87,
+  "n2": 17.19,
+  "j2": 20.23,
+  "k1": 27.83,
+  "j3": 30.42,
+  "i2": 39.13,
+  "n3": 43.44,
+  "n4": 50.38,
+  "j4": 55.6,
+  "n5": 64.93,
+  "j5": 70.79,
+  "i3": 79.35,
+  "j6": 85.77,
+  "i4": 93.01,
+  "j7": 95.68,
+  "n6": 99.17,
+  "j8": 102.62,
+  "j9": 111.54,
+  "ISTI": 117.45,
+  "V1": 121.89,
+  "n7": 136.63,
+  "j10": 141.1,
+  "V2": 162.35,
+  "j11": 170.86,
+  "n8": 182.59,
+  "j12": 186.36,
+  "n9": 191.08,
+  "j13": 196.28,
+  "BASM": 205.33,
+  "V3": 209.04,
+  "n10": 221.76,
+  "i5": 224.03,
+  "j14": 226.01,
+  "n11": 235.87,
+  "j15": 239.21,
+  "k2": 244.87,
+  "n12": 247.57,
+  "j16": 250.06,
+  "j17": 256.91,
+  "n13": 264.74,
+  "j18": 268.67,
+  "V4": 281.4,
+  "i6": 288.66,
+  "j19": 292.39,
+  "j20": 296.01,
+  "n14": 305.95,
+  "i7": 309.89,
+  "k3": 313.89,
+  "k4": 318.04,
+  "j21": 323.71,
+  "n15": 330.28,
+  "j22": 335.39,
+  "k5": 345.47
+ },
+ "narration_s": 342.2,
+ "job": {
+  "name": "jaddo01_ar_v2",
+  "audio": "file:///home/runner/work/boa-render/boa-render/work/jaddo01/narration.wav",
+  "crossfade": 0.8,
+  "fade_in": 0.8,
+  "fade_out": 1.5,
+  "loudness": -14,
+  "tail_hold": 3,
+  "segments": [
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_kanz.png",
+    "start": 0.0,
+    "end": 10.022,
+    "motion": "zoom_in",
+    "amount": 0.07,
+    "label": "img_kanz"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_kanz.png",
+    "start": 10.022,
+    "end": 20.044,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_kanz"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_kanz.png",
+    "start": 20.044,
+    "end": 30.066,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_kanz"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_namla.png",
+    "start": 30.066,
+    "end": 40.099,
+    "motion": "zoom_in",
+    "amount": 0.07,
+    "label": "img_namla"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_namla.png",
+    "start": 40.099,
+    "end": 50.132,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_namla"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_nafura.png",
+    "start": 50.132,
+    "end": 57.356,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_nafura"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_nafura.png",
+    "start": 57.356,
+    "end": 64.58,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_nafura"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 64.58,
+    "end": 74.028,
+    "motion": "zoom_in",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 74.028,
+    "end": 83.476,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 83.476,
+    "end": 92.924,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 92.924,
+    "end": 102.372,
+    "motion": "pan_left",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_nafura.png",
+    "start": 102.372,
+    "end": 111.193,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_nafura"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 111.193,
+    "end": 121.08,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 121.08,
+    "end": 130.968,
+    "motion": "pan_left",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 130.968,
+    "end": 140.855,
+    "motion": "pan_up",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 140.855,
+    "end": 150.772,
+    "motion": "pan_up",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 150.772,
+    "end": 160.69,
+    "motion": "zoom_in",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 160.69,
+    "end": 170.607,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_namla.png",
+    "start": 170.607,
+    "end": 180.668,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_namla"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_namla.png",
+    "start": 180.668,
+    "end": 190.73,
+    "motion": "pan_left",
+    "amount": 0.07,
+    "label": "img_namla"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 190.73,
+    "end": 199.489,
+    "motion": "pan_down",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 199.489,
+    "end": 208.248,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 208.248,
+    "end": 217.006,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 217.006,
+    "end": 225.765,
+    "motion": "pan_left",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 225.765,
+    "end": 236.491,
+    "motion": "zoom_in",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_hadiqa.png",
+    "start": 236.491,
+    "end": 247.218,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_hadiqa"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 247.218,
+    "end": 255.855,
+    "motion": "pan_up",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_tina.png",
+    "start": 255.855,
+    "end": 264.492,
+    "motion": "zoom_in",
+    "amount": 0.07,
+    "label": "img_tina"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_bedhra.png",
+    "start": 264.492,
+    "end": 274.881,
+    "motion": "zoom_in",
+    "amount": 0.07,
+    "label": "img_bedhra"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_bedhra.png",
+    "start": 274.881,
+    "end": 285.269,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_bedhra"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_bedhra.png",
+    "start": 285.269,
+    "end": 295.658,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_bedhra"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_ghurub.png",
+    "start": 295.658,
+    "end": 303.916,
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_ghurub"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_ghurub.png",
+    "start": 303.916,
+    "end": 312.173,
+    "motion": "pan_left",
+    "amount": 0.07,
+    "label": "img_ghurub"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_ghurub.png",
+    "start": 312.173,
+    "end": 320.43,
+    "motion": "pan_up",
+    "amount": 0.07,
+    "label": "img_ghurub"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_ghurub.png",
+    "start": 320.43,
+    "end": 328.688,
+    "motion": "zoom_in",
+    "amount": 0.07,
+    "label": "img_ghurub"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_ghurub.png",
+    "start": 328.688,
+    "end": 336.945,
+    "motion": "pan_right",
+    "amount": 0.07,
+    "label": "img_ghurub"
+   },
+   {
+    "image": "file:///home/runner/work/boa-render/boa-render/src/img_ghurub.png",
+    "start": 336.945,
+    "end": "audio",
+    "motion": "zoom_out",
+    "amount": 0.07,
+    "label": "img_ghurub"
+   }
+  ]
+ }
+}

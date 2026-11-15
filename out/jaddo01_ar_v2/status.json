@@ -1,0 +1,19 @@
+{
+  "name": "jaddo01_ar_v2",
+  "ok": true,
+  "job_hash": "324a8c0b9e7e4099cacc8fb77c5f77e1308fe9b3",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/jaddo01_ar_v2/jaddo01_ar_v2.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/jaddo01_ar_v2/contact.jpg",
+  "duration_video": 345.233,
+  "duration_audio": 345.203,
+  "timeline": 345.203,
+  "segments": 37,
+  "narration_end": 342.203,
+  "tail_hold": 3.0,
+  "loudness_lufs": -15.1,
+  "true_peak_dbfs": -3.9,
+  "input_lufs": -20.44,
+  "size_mb": 237.8,
+  "render_seconds": 618,
+  "finished_utc": "2026-11-15T19:53:02Z"
+}
