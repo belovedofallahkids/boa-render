@@ -9,73 +9,106 @@
    "id": "folge24_isa_cradle_starlight",
    "scene": "cradle_starlight",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An empty handmade wooden cradle with a soft blanket under a window full of stars, gentle silver light, wondrous and calm. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "rejected",
    "file": "assets/h59/folge24/folge24_isa_cradle_starlight.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "reject": "19.11. Claude: pointed church-like window with tracery"
   },
   {
    "id": "folge24_isa_prayer_niche_light",
    "scene": "prayer_niche_light",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A quiet stone prayer niche with a small oil lamp and a folded prayer cloth, soft golden light pouring in, pure and peaceful, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge24/folge24_isa_prayer_niche_light.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, whole animals as food ✅"
   },
   {
    "id": "folge24_isa_quiet_place_east",
    "scene": "quiet_place_east",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A secluded peaceful spot east of a small town at sunrise, a low stone wall and a curtain of fabric gently moving in the breeze, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge24/folge24_isa_quiet_place_east.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, whole animals as food ✅"
   },
   {
    "id": "folge24_isa_palm_tree_stream",
    "scene": "palm_tree_stream",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A single tall date palm tree in a quiet desert valley with a small fresh stream bubbling at its foot, ripe dates hanging, soft evening light, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge24/folge24_isa_palm_tree_stream.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, whole animals as food ✅"
   },
   {
    "id": "folge24_isa_dates_falling",
    "scene": "dates_falling",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Fresh ripe golden-brown dates gently falling from a palm tree onto soft sand next to a little stream, warm light, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "rejected",
    "file": "assets/h59/folge24/folge24_isa_dates_falling.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "reject": "19.11. Claude: not a date palm (leafy tree); Maryam 25 = trunk of a date palm"
   },
   {
    "id": "folge24_isa_clay_bird_flying",
    "scene": "clay_bird_flying",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small bird made of soft brown clay coming to life and flying up from a wooden table into a bright sky, magical sparkles, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge24/folge24_isa_clay_bird_flying.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, whole animals as food ✅"
   },
   {
    "id": "folge24_isa_healing_light_village",
    "scene": "healing_light_village",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small ancient village at sunrise with gentle golden light shining over the houses, hopeful and healing atmosphere, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "rejected",
    "file": "assets/h59/folge24/folge24_isa_healing_light_village.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "reject": "19.11. Claude: European thatched cottages"
   },
   {
    "id": "folge24_isa_table_from_sky",
    "scene": "table_from_sky",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A beautiful table set with bread, fish and fruits descending gently from glowing clouds in a golden sky, wondrous and festive, no people. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "generated",
+   "status": "rejected",
    "file": "assets/h59/folge24/folge24_isa_table_from_sky.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "reject": "19.11. Claude: whole fish on plates (H33: no whole animal as food)"
   },
   {
    "id": "folge24_isa_lifted_light_sky",
    "scene": "lifted_light_sky",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Soft beams of light rising upward from quiet hills into gentle glowing clouds at dusk, peaceful, protective and wondrous, no figures, no crosses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge24/folge24_isa_lifted_light_sky.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, whole animals as food ✅"
+  },
+  {
+   "id": "folge24_isa_cradle_starlight_v2",
+   "scene": "cradle_starlight",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A simple wooden cradle with a soft blanket in an ancient mud-brick room at night, starlight through a small plain square window opening, warm and calm. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+  },
+  {
+   "id": "folge24_isa_dates_falling_v2",
+   "scene": "dates_falling",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A tall date palm tree with a rough palm trunk and long feathery fronds, clusters of ripe fresh dates, a few dates gently falling onto clean sand near a small clear stream. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+  },
+  {
+   "id": "folge24_isa_healing_light_village_v2",
+   "scene": "healing_light_village",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small ancient village of flat-roofed mud-brick houses among olive trees, soft golden healing light shining from the sky over it, calm morning. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+  },
+  {
+   "id": "folge24_isa_table_from_sky_v2",
+   "scene": "table_from_sky",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A beautiful table spread with bread, grapes, figs, pomegranates and dates descending gently from a bright sky among soft clouds, golden light. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
   }
  ]
 }

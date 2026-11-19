@@ -80,18 +80,20 @@
   {
    "id": "folge23_yahya_old_couple_home_v2",
    "scene": "old_couple_home",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A simple ancient mud-brick home interior with a low floor cushion seating, two woven cushions side by side, a small clay oil lamp and a clay water jug, warm evening light through a small plain window opening. No modern furniture, no electric lights. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge23/folge23_yahya_old_couple_home_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, whole animals as food ✅"
   },
   {
    "id": "folge23_yahya_strong_fortress_v2",
    "scene": "strong_fortress",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A strong ancient city wall of big stones on a hill under a blue sky, simple and solid, no towers, no battlements, no castles. No modern furniture, no electric lights. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge23/folge23_yahya_strong_fortress_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, whole animals as food ✅"
   }
  ]
 }
