@@ -40,7 +40,7 @@ for L in job["langs"]:
     tx = json.load(open(f"{ROOT}/dub/{job['ep']}_{L}_from_ar_v1.json", encoding="utf-8"))
     v, r, p = VOICE[L]
     for k in job["keys"]:
-        t = loc(clean(tx[k]), L)
+        t = loc(clean(job.get("override", {}).get(L, {}).get(k, tx[k])), L)
         texts[f"{L}_{k}"] = t
         asyncio.run(tts(t, v, r, KID if k in job.get("kids", []) else p, f"/tmp/out/{L}_{k}.mp3"))
         print(L, k, t, flush=True)

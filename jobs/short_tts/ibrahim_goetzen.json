@@ -1,0 +1,5 @@
+{"ep": "folge06_ibrahim", "keys": ["s4b","s4c","s4d","s4e","s4f","s4g","s4h"], "kids": ["s4g"], "langs": ["en","fr"],
+ "_note": "Short Ibrahim «die Götzen» 19.11.2026: s4d/s4e en without additions (al-Anbiya 60, 63: يذكرهم / بل فعله كبيرهم), names local (Abraham).",
+ "override": {"en": {"s4d": "Some of them said: We heard a young man talking about them. His name is Ibrahim.",
+                     "s4e": "They asked him: Did you do this, Ibrahim? Ibrahim said: Rather, the biggest of them did it. So ask them, if they can speak."},
+              "fr": {"s4d": "Certains dirent : Nous avons entendu un jeune homme parler d'elles. Il s'appelle Ibrahim."}}}
