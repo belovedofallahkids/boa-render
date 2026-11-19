@@ -83,9 +83,10 @@
    "id": "folge17_dawud_chainmail_workshop_v2",
    "scene": "chainmail_workshop",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A tidy ancient workshop with finished chainmail shirts hanging neatly on wooden pegs, tools on the bench, warm afternoon light, nobody present. Simple ancient Middle-Eastern mud-brick workshop with one small plain square window opening, no glass, no stained glass, no arches. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge17/folge17_dawud_chainmail_workshop_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: mud-brick workshop, plain window, no people/text/crosses ✅"
   }
  ]
 }
