@@ -9,43 +9,57 @@
    "id": "folge19_ilyas_name_stars_sky",
    "scene": "name_stars_sky",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A deep blue night sky full of stars forming a soft glowing swirl over quiet green hills, magical and personal, no letters. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge19/folge19_ilyas_name_stars_sky.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge19_ilyas_old_town_valley",
    "scene": "old_town_valley",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An ancient stone town in a green mountain valley at late afternoon, flat roofs, olive trees, peaceful but slightly gloomy clouds, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge19/folge19_ilyas_old_town_valley.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge19_ilyas_empty_pedestal_shadow",
    "scene": "empty_pedestal_shadow",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An empty stone pedestal in a dim old courtyard with dry leaves on the ground and a single beam of light falling beside it, nothing on top, quiet atmosphere. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge19/folge19_ilyas_empty_pedestal_shadow.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge19_ilyas_creation_wonder",
    "scene": "creation_wonder",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A wondrous landscape showing the sun rising over the sea, waves, green cliffs, flowers and a waterfall all together, vibrant and full of life. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge19/folge19_ilyas_creation_wonder.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge19_ilyas_stone_block_tools",
    "scene": "stone_block_tools",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A plain block of grey stone with a chisel and hammer resting next to it on a workbench, dusty workshop, cold dull light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge19/folge19_ilyas_stone_block_tools.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge19_ilyas_few_lanterns_night",
    "scene": "few_lanterns_night",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A few warm lanterns glowing on the doorsteps of three small houses in a dark quiet village at night, hopeful. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge19/folge19_ilyas_few_lanterns_night.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge19_ilyas_mountain_peace_morning",
    "scene": "mountain_peace_morning",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A lonely green mountain peak in soft golden morning mist, peaceful, honorable and calm, birds far away. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge19/folge19_ilyas_mountain_peace_morning.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   }
  ]
 }
