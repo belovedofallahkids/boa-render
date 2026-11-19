@@ -9,49 +9,67 @@
    "id": "folge20_alyasa_two_scrolls_side",
    "scene": "two_scrolls_side",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Two old parchment scrolls lying side by side on a wooden table in warm candle light, peaceful and humble, no readable letters. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge20/folge20_alyasa_two_scrolls_side.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, modern objects ✅"
   },
   {
    "id": "folge20_alyasa_row_of_lamps",
    "scene": "row_of_lamps",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A long row of glowing oil lamps on a stone wall at dusk, each lamp shining with the same warm light, stretching into the distance. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "rejected",
    "file": "assets/h59/folge20/folge20_alyasa_row_of_lamps.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "reject": "19.11. Claude: lamps look like electric bulbs"
   },
   {
    "id": "folge20_alyasa_starry_path_hills",
    "scene": "starry_path_hills",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A winding path over gentle hills under a starry sky, with soft glowing stones marking the way, calm and guiding. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge20/folge20_alyasa_starry_path_hills.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, modern objects ✅"
   },
   {
    "id": "folge20_alyasa_two_trees_one_root",
    "scene": "two_trees_one_root",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Two olive trees growing from the same root on a sunny hill, branches touching, warm afternoon light, brotherhood. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge20/folge20_alyasa_two_trees_one_root.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, modern objects ✅"
   },
   {
    "id": "folge20_alyasa_pillows_cozy_room",
    "scene": "pillows_cozy_room",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A cozy children's bedroom at night with two beds, scattered soft pillows and a warm night lamp, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "rejected",
    "file": "assets/h59/folge20/folge20_alyasa_pillows_cozy_room.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "reject": "19.11. Claude: modern beds and an electric table lamp"
   },
   {
    "id": "folge20_alyasa_water_drops_river",
    "scene": "water_drops_river",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Small water drops falling from leaves into a tiny stream that grows into a sparkling river through a green valley, morning light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge20/folge20_alyasa_water_drops_river.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses, modern objects ✅"
+  },
+  {
+   "id": "folge20_alyasa_row_of_lamps_v2",
+   "scene": "row_of_lamps",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A long row of small ancient clay oil lamps with tiny flames standing along a stone wall at dusk, warm glow, no glass bulbs. No electric lights, no glass windows, no modern objects. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+  },
+  {
+   "id": "folge20_alyasa_pillows_cozy_room_v2",
+   "scene": "pillows_cozy_room",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A cozy ancient room with soft cushions and woven blankets on a low floor seating, a small clay oil lamp with a tiny flame, warm evening light through a small window. No electric lights, no glass windows, no modern objects. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
   }
  ]
 }
