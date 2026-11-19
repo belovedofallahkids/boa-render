@@ -71,14 +71,18 @@
   {
    "id": "folge19_ilyas_stone_block_tools_v2",
    "scene": "stone_block_tools",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A rough block of stone with a simple ancient chisel and wooden mallet lying on an old wooden bench outside under an olive tree, warm daylight, plain ancient setting. No electric lights, no glass windows, no modern objects. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A rough block of stone with a simple ancient chisel and wooden mallet lying on an old wooden bench outside under an olive tree, warm daylight, plain ancient setting. No electric lights, no glass windows, no modern objects. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge19/folge19_ilyas_stone_block_tools_v2.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge19_ilyas_few_lanterns_night_v2",
    "scene": "few_lanterns_night",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A few small flat-roofed ancient mud-brick houses in a quiet valley at night, small clay oil lamps with tiny flames glowing in a few window openings, starry sky. No electric lights, no glass windows, no modern objects. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A few small flat-roofed ancient mud-brick houses in a quiet valley at night, small clay oil lamps with tiny flames glowing in a few window openings, starry sky. No electric lights, no glass windows, no modern objects. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge19/folge19_ilyas_few_lanterns_night_v2.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   }
  ]
 }
