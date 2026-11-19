@@ -9,65 +9,85 @@
    "id": "folge23_yahya_child_scroll_lamp",
    "scene": "child_scroll_lamp",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small wooden desk with an open scroll and a little oil lamp, a child-size cushion beside it, cozy study corner at night, nobody present, no readable letters. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge23/folge23_yahya_child_scroll_lamp.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses ✅"
   },
   {
    "id": "folge23_yahya_scroll_held_strong",
    "scene": "scroll_held_strong",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An ancient scroll tied with a strong leather cord resting on a stone ledge in bright morning light, firm and steady, no readable letters. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge23/folge23_yahya_scroll_held_strong.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses ✅"
   },
   {
    "id": "folge23_yahya_soft_heart_garden",
    "scene": "soft_heart_garden",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A gentle garden with soft pink and white flowers and a little stream, calm air, warm loving light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge23/folge23_yahya_soft_heart_garden.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses ✅"
   },
   {
    "id": "folge23_yahya_old_couple_home",
    "scene": "old_couple_home",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A cozy simple old house interior with two comfortable chairs side by side, two cups of tea on a small table and a warm fire, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "rejected",
    "file": "assets/h59/folge23/folge23_yahya_old_couple_home.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "reject": "19.11. Claude: modern European living room (armchairs, fireplace, teacups)"
   },
   {
    "id": "folge23_yahya_five_lanterns",
    "scene": "five_lanterns",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Five small glowing lanterns in a row on a wooden shelf, each a different warm color, cozy evening light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge23/folge23_yahya_five_lanterns.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses ✅"
   },
   {
    "id": "folge23_yahya_musk_pouch",
    "scene": "musk_pouch",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small cloth pouch tied with a string on a wooden table, soft glowing sparkles of fragrance rising from it, warm light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge23/folge23_yahya_musk_pouch.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses ✅"
   },
   {
    "id": "folge23_yahya_strong_fortress",
    "scene": "strong_fortress",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A strong friendly stone fortress on a green hill under a clear blue sky, safe and protective, soft clouds. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "rejected",
    "file": "assets/h59/folge23/folge23_yahya_strong_fortress.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "reject": "19.11. Claude: European castle with crenellated towers (rule: no European castles)"
   },
   {
    "id": "folge23_yahya_seven_skies",
    "scene": "seven_skies",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Layered heavenly skies with soft clouds and golden light, rising upward into brightness, wondrous and calm, no figures. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "generated",
+   "status": "approved",
    "file": "assets/h59/folge23/folge23_yahya_seven_skies.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: grid check – no people, footprints, text, crosses ✅"
+  },
+  {
+   "id": "folge23_yahya_old_couple_home_v2",
+   "scene": "old_couple_home",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A simple ancient mud-brick home interior with a low floor cushion seating, two woven cushions side by side, a small clay oil lamp and a clay water jug, warm evening light through a small plain window opening. No modern furniture, no electric lights. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+  },
+  {
+   "id": "folge23_yahya_strong_fortress_v2",
+   "scene": "strong_fortress",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A strong ancient city wall of big stones on a hill under a blue sky, simple and solid, no towers, no battlements, no castles. No modern furniture, no electric lights. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
   }
  ]
 }
