@@ -116,8 +116,10 @@
   {
    "id": "folge18_sulaiman_glass_floor_palace_v3",
    "scene": "glass_floor_palace",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A grand empty ancient palace hall with a flat carved cedar-wood ceiling, square golden pillars and plain round windows; the floor is smooth crystal-clear glass shining so it looks like calm water, nothing under the glass. No arches, no vaults, no domes. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A grand empty ancient palace hall with a flat carved cedar-wood ceiling, square golden pillars and plain round windows; the floor is smooth crystal-clear glass shining so it looks like calm water, nothing under the glass. No arches, no vaults, no domes. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge18/folge18_sulaiman_glass_floor_palace_v3.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   }
  ]
 }
