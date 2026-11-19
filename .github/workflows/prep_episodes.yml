@@ -1,0 +1,45 @@
+name: prep_episodes
+# Free preparation of whole episodes (owner 19.11.2026: «التجهيز لكل الفيديوات، خاصة الفيديوات والحركة لكل القصص»):
+# for each episode: planned H59 images (Cloudflare free) -> 2.5D motion clips for every picture (release motion_<ep>).
+# New images are NOT approved automatically: Claude zoom-checks them (H36) before any montage.
+on:
+  workflow_dispatch:
+    inputs:
+      eps: {description: "space separated episode keys", default: "folge18_sulaiman folge19_ilyas folge20_alyasa folge21_yunus folge22_zakariya folge23_yahya folge24_isa folge25_muhammad"}
+      moves: {default: "zoom_in,pan_right,pan_left"}
+permissions: {contents: write}
+concurrency: {group: prep_episodes, cancel-in-progress: false}
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      MOVES: ${{ github.event.inputs.moves }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q requests opencv-python-headless pillow numpy
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q transformers
+      - name: Episodes
+        run: |
+          git config user.name "boa-render-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for EP in ${{ github.event.inputs.eps }}; do
+            export EP MAX=40
+            echo "== $EP"
+            [ -f "prompts/h59_${EP}.json" ] && python3 tools/h59_cf_images.py 2>&1 | grep -E "^(ok|FAIL|generated)" || true
+            git add assets/h59 prompts out/h59_check 2>/dev/null; git commit -qm "prep images ${EP} [skip ci]" || true
+            for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 6; done
+            T="motion_${EP}"
+            gh release view "$T" >/dev/null 2>&1 || gh release create "$T" -t "$T" -n "مكتبة الحركة 2.5D (مجانية) – ${EP}: لكل صورة 3 حركات كاميرا 8 ث، 1080p، بلا صوت. لا تُستعمل صورة قبل فحصها بالتكبير (H36)."
+            gh api "repos/${GITHUB_REPOSITORY}/releases/tags/$T" -q '.assets[].name' > /tmp/have.txt || true
+            rm -rf /tmp/motion; python3 tools/motion_lib.py || echo "::warning::motion failed $EP"
+            ls /tmp/motion/*.mp4 >/dev/null 2>&1 && gh release upload "$T" /tmp/motion/*.mp4 --clobber
+            echo "::notice::$EP: $(gh api repos/${GITHUB_REPOSITORY}/releases/tags/$T -q '.assets|length') clips"
+          done
