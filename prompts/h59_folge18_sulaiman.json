@@ -1,0 +1,69 @@
+{
+ "episode": "folge18_sulaiman",
+ "rule": "H59/H36: free Cloudflare images; zoom-checked by Claude before use; then 2.5D motion (motion_lib.yml)",
+ "prefix": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic.",
+ "suffix": "No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+ "skipped": [],
+ "images": [
+  {
+   "id": "folge18_sulaiman_birds_sky_morning",
+   "scene": "birds_sky_morning",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Many colorful birds flying together in a bright morning sky over green hills and a calm river, joyful and free. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_wind_over_land",
+   "scene": "wind_over_land",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Strong gentle wind sweeping over golden grass fields and treetops, swirls of leaves in the air, soft clouds moving fast, sunny day. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_ant_valley",
+   "scene": "ant_valley",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Close-up of a tiny friendly cartoon ant standing on a pebble in a sunny valley, many small ant holes in the soil around it, grass blades like trees. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_ant_hills_safe",
+   "scene": "ant_hills_safe",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Little ant hills in warm soil with tiny ants walking in neat lines into their holes, soft afternoon light, safe and cozy. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_hoopoe_branch",
+   "scene": "hoopoe_branch",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A beautiful hoopoe bird with its crown of orange feathers sitting on a branch, looking curious, soft blue sky background. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_sun_worship_far",
+   "scene": "sun_worship_far",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A distant ancient city of Saba in a green valley with a big golden sunrise behind it, gardens and a large stone dam, peaceful landscape view. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_letter_seal_bird",
+   "scene": "letter_seal_bird",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A rolled parchment letter with a red wax seal lying on a stone ledge, a hoopoe feather beside it, warm light, no readable letters. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_gift_chests",
+   "scene": "gift_chests",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Open wooden treasure chests with gold and jewels in a palace hall, soft light, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_throne_appears",
+   "scene": "throne_appears",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A grand ornate golden throne with soft magical sparkles around it in an empty palace hall, warm light, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge18_sulaiman_glass_floor_palace",
+   "scene": "glass_floor_palace",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A palace hall with a perfectly clear glass floor over shallow water with fish and lilies beneath, reflections of columns, sunlight, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  }
+ ]
+}

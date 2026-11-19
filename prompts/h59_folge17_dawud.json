@@ -1,0 +1,59 @@
+{
+ "episode": "folge17_dawud",
+ "rule": "H59/H36: free Cloudflare images; zoom-checked by Claude before use; then 2.5D motion (motion_lib.yml)",
+ "prefix": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic.",
+ "suffix": "No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+ "skipped": [
+  "sling_stones_sunrise (Bible detail, H56)"
+ ],
+ "images": [
+  {
+   "id": "folge17_dawud_mountains_birds_dawn",
+   "scene": "mountains_birds_dawn",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Majestic green mountains at sunrise with many small birds flying in a gentle circle above them, golden light, peaceful and joyful, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "status": "planned"
+  },
+  {
+   "id": "folge17_dawud_army_far_dust",
+   "scene": "army_far_dust",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Far away on a wide plain, a huge cloud of dust and many tiny tents of a big army camp on the horizon, seen from a hill, tense but not scary, no people visible. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge17_dawud_river_test",
+   "scene": "river_test",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A clear cool river flowing through a dry desert valley in bright sunlight, sparkling water, a single cupped clay bowl on a rock by the shore, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge17_dawud_small_camp_hill",
+   "scene": "small_camp_hill",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small group of simple tents on a hill at dusk with a few campfires, stars appearing, brave and hopeful atmosphere. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge17_dawud_zabur_scroll_light",
+   "scene": "zabur_scroll_light",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An ancient scroll book resting on a wooden stand in soft golden light, gentle sparkles in the air, no readable letters, holy and calm. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge17_dawud_iron_rings_glow",
+   "scene": "iron_rings_glow",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Glowing soft iron rings being linked into a fine chainmail on a wooden workbench, warm forge light, no hands, no people, craftsmanship. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge17_dawud_chainmail_workshop",
+   "scene": "chainmail_workshop",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A tidy ancient workshop with finished chainmail shirts hanging neatly on wooden pegs, tools on the bench, warm afternoon light, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge17_dawud_moon_half_night",
+   "scene": "moon_half_night",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A calm night with a half moon over a quiet hilltop with a simple prayer rug, peaceful, prayerful atmosphere. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  }
+ ]
+}

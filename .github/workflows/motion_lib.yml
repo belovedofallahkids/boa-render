@@ -1,0 +1,30 @@
+name: motion_lib
+on:
+  workflow_dispatch:
+    inputs:
+      ep: {description: "episode key, e.g. folge17_dawud", required: true}
+      moves: {default: "zoom_in,pan_right,pan_left"}
+permissions: {contents: write}
+concurrency: {group: "motion_lib-${{ github.event.inputs.ep }}", cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env: {EP: "${{ github.event.inputs.ep }}", MOVES: "${{ github.event.inputs.moves }}", GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q opencv-python-headless pillow numpy
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q transformers
+      - name: Build clips
+        run: |
+          T="motion_${EP}"
+          gh release view "$T" >/dev/null 2>&1 || gh release create "$T" -t "$T" -n "مكتبة الحركة 2.5D (مجانية) – ${EP}: لكل صورة 3 حركات كاميرا 8 ث، 1080p، بلا صوت. الصور تُفحص بالتكبير قبل الاستعمال (H36)."
+          gh api "repos/${GITHUB_REPOSITORY}/releases/tags/$T" -q '.assets[].name' > /tmp/have.txt || true
+          python3 tools/motion_lib.py
+          ls /tmp/motion/*.mp4 >/dev/null 2>&1 && gh release upload "$T" /tmp/motion/*.mp4 --clobber || echo "nothing new"
+          echo "::notice::$(gh api repos/${GITHUB_REPOSITORY}/releases/tags/$T -q '.assets|length') clips in $T"

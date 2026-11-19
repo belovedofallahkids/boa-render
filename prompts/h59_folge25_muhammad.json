@@ -1,0 +1,63 @@
+{
+ "episode": "folge25_muhammad",
+ "rule": "H59/H36: free Cloudflare images; zoom-checked by Claude before use; then 2.5D motion (motion_lib.yml)",
+ "prefix": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic.",
+ "suffix": "No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+ "skipped": [],
+ "images": [
+  {
+   "id": "folge25_muhammad_chain_of_lights",
+   "scene": "chain_of_lights",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A long chain of glowing golden lanterns stretching across a deep blue night sky over desert hills, the last lantern shining brightest, wondrous and peaceful. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge25_muhammad_mecca_valley_old",
+   "scene": "mecca_valley_old",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An ancient dry valley between rocky mountains at sunrise with simple old mud-brick houses, warm golden light, no buildings with domes or towers, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge25_muhammad_orphan_home_lamp",
+   "scene": "orphan_home_lamp",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A simple warm home interior in an ancient desert town at evening, a small bed with a woolen blanket and an oil lamp glowing, loving and safe, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge25_muhammad_honest_scale_market",
+   "scene": "honest_scale_market",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An old desert market at morning with a simple balance scale perfectly level on a wooden stall, baskets of dates and cloth, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge25_muhammad_hira_mountain_night",
+   "scene": "hira_mountain_night",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A tall rocky mountain at night under a sky full of stars, with a tiny cave opening near the top glowing softly, peaceful and wondrous. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge25_muhammad_cave_light_inside",
+   "scene": "cave_light_inside",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. The inside of a small rocky mountain cave at night, looking out through the opening at a valley and stars, a soft heavenly light entering, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge25_muhammad_thawr_cave_dusk",
+   "scene": "thawr_cave_dusk",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small cave entrance in a rocky desert mountain at dusk, quiet and hidden, a gentle protective golden glow inside, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge25_muhammad_medina_palms_welcome",
+   "scene": "medina_palms_welcome",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A green oasis town with many date palms and simple houses at bright morning, colorful cloth banners waving in joy, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  },
+  {
+   "id": "folge25_muhammad_children_courtyard_toys",
+   "scene": "children_courtyard_toys",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A sunny courtyard of an old desert house with simple wooden toys, a ball and a little swing under a palm tree, joyful, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
+   "status": "planned"
+  }
+ ]
+}
