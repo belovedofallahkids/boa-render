@@ -98,20 +98,26 @@
   {
    "id": "folge21_yunus_dark_cozy_blanket_v2",
    "scene": "dark_cozy_blanket",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Deep calm darkness of the night sea under a dark cloudy sky, only very faint blue light on the gentle waves, peaceful not scary. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Deep calm darkness of the night sea under a dark cloudy sky, only very faint blue light on the gentle waves, peaceful not scary. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge21/folge21_yunus_dark_cozy_blanket_v2.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_road_leaving_city_v2",
    "scene": "road_leaving_city",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A dusty road leading away from a big ancient mud-brick city with flat roofs and thick walls at sunset, toward the sea, a small cloth bundle lying by the road, no towers, no spires, no domes. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A dusty road leading away from a big ancient mud-brick city with flat roofs and thick walls at sunset, toward the sea, a small cloth bundle lying by the road, no towers, no spires, no domes. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge21/folge21_yunus_road_leaving_city_v2.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_beach_dawn_whale_v2",
    "scene": "beach_dawn_whale",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An empty smooth sandy beach at dawn, perfectly untouched smooth sand with no marks at all, gentle waves, far out at sea the tail of a big whale diving, soft pink sky. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An empty smooth sandy beach at dawn, perfectly untouched smooth sand with no marks at all, gentle waves, far out at sea the tail of a big whale diving, soft pink sky. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge21/folge21_yunus_beach_dawn_whale_v2.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   }
  ]
 }
