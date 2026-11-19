@@ -10,14 +10,14 @@
  "alt_titles": [
   "Prophet Dawud 🌙 Folge 17 | Die Geschichten der Propheten für Kinder",
   "Prophet Dawud (David) – Koran-Geschichte für Kinder auf Deutsch",
-  "Klein gegen Groß: Prophet Dawud und Jalut",
+  "Wenige gegen viele: Prophet Dawud und Jalut",
   "Oma erzählt: Prophet Dawud und die lobenden Berge ⛰️",
-  "Prophet Dawud – Eisen wurde weich in seiner Hand",
+  "Prophet Dawud – Allah machte das Eisen weich",
   "Prophet Dawud einfach erklärt – Islam für Kinder (4–12 Jahre)",
   "Das Fasten von Prophet Dawud – Islam für Kinder",
   "Prophet Dawud – islamische Gute-Nacht-Geschichte"
  ],
- "hook_desc": "Kann ein Berg Allah loben? ⛰️ Heute erzählt Oma Karmoucha Noah und Ilyas die Geschichte von Prophet Dawud (Friede sei mit ihm): vom Wasser-Test am Fluss, von Dawud und dem starken Jalut, vom Buch Zabur, von Bergen und Vögeln, die mit ihm Allah lobten, und von Eisen, das in seiner Hand weich wurde.",
+ "hook_desc": "Kann ein Berg Allah loben? ⛰️ Heute erzählt Oma Karmoucha Noah und Ilyas die Geschichte von Prophet Dawud (Friede sei mit ihm): vom Wasser-Test am Fluss, von Dawud und dem starken Jalut, vom Buch Zabur, von Bergen und Vögeln, die mit ihm Allah lobten, und von Eisen, das Allah für ihn weich machte.",
  "learn": [
   "Mut kommt vom Vertrauen auf Allah – nicht von der Größe",
   "Allah loben (Subhanallah) – wie die Berge und die Vögel",
@@ -73,24 +73,24 @@
   "s1a": "[whispers] Noah… Ilyas… hört mal ganz genau hin. [curious] Habt ihr gewusst, dass sogar die Berge und die Vögel Allah loben können?",
   "s1b": "[childlike voice] [surprised] Die Berge? Die können doch gar nicht sprechen!",
   "s1c": "[chuckles] Doch, auf ihre Art, die nur Allah versteht. [warmly] Kuschelt euch ein… Heute erzähle ich euch von Prophet Dawud, Friede sei mit ihm. Mit ihm haben die Berge und die Vögel ganz besonders Allah gelobt.",
-  "s2a": "[warmly] Nach Musa zogen die Kinder Israils mit ihrem König Talut los. Vor ihnen wartete ein großes, starkes Heer mit seinem Anführer Jalut. [curious] Auf dem Weg kamen sie an einen Fluss. Und Talut sagte: Allah prüft euch mit diesem Fluss. Wer daraus trinkt, gehört nicht zu mir. Nur eine Handvoll ist erlaubt.",
+  "s2a": "[warmly] Nach Musa zogen die Kinder Israils mit ihrem König Talut los. Vor ihnen wartete ein großes, starkes Heer mit seinem Anführer Jalut. [curious] Auf dem Weg kamen sie an einen Fluss. Und Talut sagte: Allah prüft euch mit diesem Fluss. Wer daraus trinkt, gehört nicht zu mir. Und wer nicht davon kostet, der gehört zu mir – außer wer nur eine Handvoll mit seiner Hand schöpft.",
   "s2b": "[childlike voice] [curious] Und? Haben sie nur eine Handvoll getrunken?",
-  "s2c": "[sighs] Die meisten nicht. Sie tranken, so viel sie wollten. Nur wenige hielten durch. [softly] Und als diese wenigen das riesige Heer sahen, sagten manche: Heute haben wir keine Kraft gegen Jalut.",
-  "s2d": "[warmly] Aber die, die fest an Allah glaubten, sagten etwas Wunderschönes: Wie oft hat schon eine kleine Gruppe eine große Gruppe besiegt, mit Allahs Erlaubnis! Allah ist mit den Geduldigen.",
-  "s3a": "[softly] Und sie beteten: Unser Herr, schenk uns Geduld, mach unsere Füße fest und hilf uns. [excited] Unter ihnen war Dawud. Und mit Allahs Erlaubnis besiegte Dawud den starken Jalut!",
+  "s2c": "[sighs] Die meisten nicht. Sie tranken davon, bis auf wenige. [softly] Und als sie mit diesen wenigen den Fluss überquert hatten, sagten manche: Heute haben wir keine Kraft gegen Jalut und sein Heer.",
+  "s2d": "[warmly] Aber die, die fest wussten, dass sie Allah begegnen werden, sagten etwas Wunderschönes: Wie oft hat schon eine kleine Gruppe eine große Gruppe besiegt, mit Allahs Erlaubnis! Allah ist mit den Geduldigen.",
+  "s3a": "[softly] Und sie beteten: Unser Herr, schenk uns Geduld, mach unsere Füße fest und hilf uns gegen das ungläubige Volk. [excited] Unter ihnen war Dawud. Und mit Allahs Erlaubnis besiegte Dawud den starken Jalut!",
   "s3b": "[childlike voice] [excited] Dawud hat den starken Jalut besiegt?",
-  "s3c": "[warmly] Ja, mein Schatz, mit Allahs Hilfe. Denn wahre Stärke kommt nicht von großen Muskeln, sondern vom Vertrauen auf Allah. [softly] Und Allah schenkte Dawud danach ein Königreich, Weisheit und viel Wissen.",
-  "s4a": "[warmly] Allah machte Dawud zu einem Propheten und gab ihm ein heiliges Buch: den Zabur. [softly] Und Dawud lobte Allah sehr oft. Allah sagt im Koran: Ihr Berge, lobt mit ihm, und ihr Vögel auch!",
-  "s4b": "[warmly] Morgens und abends lobten die Berge Allah zusammen mit Dawud. Und die Vögel versammelten sich um ihn. [softly] Unser Prophet Muhammad, Allah segne ihn und schenke ihm Frieden, sagte einmal zu Abu Musa, der den Koran sehr schön las: Dir wurde eine Stimme wie die der Familie Dawuds geschenkt.",
+  "s3c": "[warmly] Ja, mein Schatz, mit Allahs Hilfe. Denn wahre Stärke kommt nicht von großen Muskeln, sondern vom Vertrauen auf Allah. [softly] Und Allah schenkte Dawud danach die Herrschaft und die Weisheit und lehrte ihn, was Er wollte.",
+  "s4a": "[warmly] Allah machte Dawud zu einem Propheten und gab ihm ein heiliges Buch: den Zabur. [softly] Und Dawud wandte sich immer wieder Allah zu. Und Allah befahl den Bergen und den Vögeln, zusammen mit ihm Allah zu loben!",
+  "s4b": "[warmly] Morgens und abends lobten die Berge Allah zusammen mit Dawud. Und die Vögel versammelten sich um ihn. [softly] Unser Prophet Muhammad, Allah segne ihn und schenke ihm Frieden, sagte einmal zu Abu Musa, der den Koran sehr schön las: Dir wurde eine der schönen Stimmen der Familie Dawuds geschenkt.",
   "s4c": "[childlike voice] [excited] Subhanallah! Dann darf ich auch mit den Vögeln Allah loben?",
   "s4d": "[chuckles] Natürlich, mein Schatz! Jedes Mal, wenn du Subhanallah sagst, lobst du Allah. Genau wie die Berge und die Vögel.",
-  "s5a": "[curious] Und Allah schenkte Dawud noch ein Wunder: Das harte Eisen wurde in seinen Händen weich! [warmly] Allah lehrte ihn, daraus feine Kettenhemden zu machen, die die Menschen schützten.",
+  "s5a": "[curious] Und Allah schenkte Dawud noch ein Wunder: Allah machte das harte Eisen für ihn weich! [warmly] Allah lehrte ihn, daraus lange Kettenhemden zu machen, die die Menschen im Kampf schützten.",
   "s5b": "[childlike voice] [surprised] Ein König, der selbst arbeitet?",
   "s5c": "[warmly] Ja! Unser Prophet sagte: Niemand hat jemals besseres Essen gegessen als das, was er mit seinen eigenen Händen verdient hat. Und Prophet Dawud aß von der Arbeit seiner Hände.",
   "s6a": "[warmly] Und Dawud fastete auf eine ganz besondere Art: einen Tag fastete er, einen Tag nicht, immer abwechselnd. [softly] Unser Prophet sagte: Das liebste Fasten bei Allah ist das Fasten von Dawud. Und das liebste Gebet bei Allah ist das Gebet von Dawud: Er schlief die halbe Nacht, betete ein Drittel und schlief wieder ein Sechstel.",
   "s6b": "[childlike voice] [curious] Und mit dem Schlafen war er auch gut, oder? So wie wir!",
-  "s6c": "[chuckles] Ja, genau, mein kluger Schatz. Dawud hat gebetet und auch geschlafen. Allah mag es, wenn wir das Gute tun und dabei nicht übertreiben.",
-  "s7a": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… vertraut auf Allah wie Dawud, denn wahre Stärke kommt vom Vertrauen auf Allah. Lobt Allah oft: Subhanallah, wie die Berge und die Vögel. Und helft mit euren eigenen Händen.",
+  "s6c": "[chuckles] Ja, genau, mein kluger Schatz. Dawud hat gebetet und auch geschlafen. Allah liebt die guten Taten, die wir immer wieder tun, auch wenn sie klein sind.",
+  "s7a": "[whispers] Oh… sie schlafen schon. [softly] [slowly] Meine Lieben… vertraut auf Allah wie Dawud, denn wahre Stärke kommt vom Vertrauen auf Allah. Lobt Allah oft: Subhanallah, wie die Berge und die Vögel. Und arbeitet fleißig mit euren eigenen Händen.",
   "s7b": "[whispers] Und nächstes Mal erzähle ich euch von Dawuds Sohn Sulaiman… der die Sprache der Vögel verstand und sogar eine kleine Ameise sprechen hörte. [pause] Und du, der du gerade zuschaust: Wenn dir die Geschichte gefallen hat, dann frag deine Eltern, ob sie unseren Kanal abonnieren. So verpasst du die nächste Geschichte nicht. [long pause] Schlaft gut, meine Lieben. Allah beschütze euch."
  },
  "kids": {
@@ -256,5 +256,6 @@
  ],
  "animals_ok": [
   "mountains_birds_dawn"
- ]
+ ],
+ "h55_check": "19.11.2026 Claude: H55-Fassung aus Notion (wöchentlicher Lauf 15.11.) übernommen: 2:249–251, 38:17, 34:10–11, 21:80, Bukhari 5048/6464/2072. Offen: zweite unabhängige Prüfung (ChatGPT, H52) + Freigabe des Inhabers."
 }
