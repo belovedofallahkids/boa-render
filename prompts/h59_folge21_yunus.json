@@ -9,61 +9,81 @@
    "id": "folge21_yunus_dark_cozy_blanket",
    "scene": "dark_cozy_blanket",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A dark cozy bedroom at night with only a tiny soft glow from a night light, a thick blanket on a bed, calm and safe, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_dark_cozy_blanket.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_big_city_old",
    "scene": "big_city_old",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A huge ancient city on a river plain with many houses and walls under a cloudy sky, viewed from a distance, nobody visible. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_big_city_old.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_road_leaving_city",
    "scene": "road_leaving_city",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A dusty road leading away from a big ancient city toward the sea coast at sunset, a single small bundle on a rock by the road, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_road_leaving_city.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_ship_harbor_loaded",
    "scene": "ship_harbor_loaded",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An old wooden sailing ship heavily loaded with sacks and barrels in a small harbor, calm evening light, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_ship_harbor_loaded.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_ship_stormy_sea",
    "scene": "ship_stormy_sea",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An old wooden sailing ship on big rolling waves in the open grey sea, tilting a little, dramatic but not scary, family film style. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_ship_stormy_sea.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_gentle_whale_deep",
    "scene": "gentle_whale_deep",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A huge gentle friendly blue whale swimming peacefully in the deep dark blue ocean, soft light rays from above, calm and protective. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_gentle_whale_deep.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_three_darkness",
    "scene": "three_darkness",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A deep dark ocean at night under a moonless sky, with a faint soft glow deep beneath the water, mysterious but calm and hopeful. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_three_darkness.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_beach_dawn_whale",
    "scene": "beach_dawn_whale",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A quiet sandy beach at dawn, gentle waves, a big friendly whale tail disappearing into the calm sea, soft golden light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_beach_dawn_whale.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_gourd_plant_shade",
    "scene": "gourd_plant_shade",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A large gourd plant with big broad green leaves growing over a sandy shore, creating cool shade, sunny day, peaceful. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_gourd_plant_shade.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge21_yunus_city_lanterns_joy",
    "scene": "city_lanterns_joy",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A big ancient city at dusk with hundreds of warm lanterns glowing on every roof, joyful and peaceful, viewed from a hill. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge21/folge21_yunus_city_lanterns_joy.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   }
  ]
 }
