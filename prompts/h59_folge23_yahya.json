@@ -9,49 +9,65 @@
    "id": "folge23_yahya_child_scroll_lamp",
    "scene": "child_scroll_lamp",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small wooden desk with an open scroll and a little oil lamp, a child-size cushion beside it, cozy study corner at night, nobody present, no readable letters. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge23/folge23_yahya_child_scroll_lamp.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge23_yahya_scroll_held_strong",
    "scene": "scroll_held_strong",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An ancient scroll tied with a strong leather cord resting on a stone ledge in bright morning light, firm and steady, no readable letters. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge23/folge23_yahya_scroll_held_strong.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge23_yahya_soft_heart_garden",
    "scene": "soft_heart_garden",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A gentle garden with soft pink and white flowers and a little stream, calm air, warm loving light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge23/folge23_yahya_soft_heart_garden.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge23_yahya_old_couple_home",
    "scene": "old_couple_home",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A cozy simple old house interior with two comfortable chairs side by side, two cups of tea on a small table and a warm fire, nobody present. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge23/folge23_yahya_old_couple_home.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge23_yahya_five_lanterns",
    "scene": "five_lanterns",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Five small glowing lanterns in a row on a wooden shelf, each a different warm color, cozy evening light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge23/folge23_yahya_five_lanterns.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge23_yahya_musk_pouch",
    "scene": "musk_pouch",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small cloth pouch tied with a string on a wooden table, soft glowing sparkles of fragrance rising from it, warm light. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge23/folge23_yahya_musk_pouch.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge23_yahya_strong_fortress",
    "scene": "strong_fortress",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A strong friendly stone fortress on a green hill under a clear blue sky, safe and protective, soft clouds. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge23/folge23_yahya_strong_fortress.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge23_yahya_seven_skies",
    "scene": "seven_skies",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Layered heavenly skies with soft clouds and golden light, rising upward into brightness, wondrous and calm, no figures. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people. No animals.",
-   "status": "planned"
+   "status": "generated",
+   "file": "assets/h59/folge23/folge23_yahya_seven_skies.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   }
  ]
 }
