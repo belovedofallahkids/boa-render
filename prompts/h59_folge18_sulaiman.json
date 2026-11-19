@@ -98,14 +98,18 @@
   {
    "id": "folge18_sulaiman_hoopoe_branch_v2",
    "scene": "hoopoe_branch",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A real Eurasian hoopoe bird on a branch: long thin slightly curved beak, cinnamon-orange body, big fan-shaped crest of orange feathers with black tips spread open, bold black and white striped wings and tail, natural proportions. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A real Eurasian hoopoe bird on a branch: long thin slightly curved beak, cinnamon-orange body, big fan-shaped crest of orange feathers with black tips spread open, bold black and white striped wings and tail, natural proportions. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge18/folge18_sulaiman_hoopoe_branch_v2.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   },
   {
    "id": "folge18_sulaiman_glass_floor_palace_v2",
    "scene": "glass_floor_palace",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A grand empty palace hall with a smooth shining crystal-clear glass floor that reflects the light so it looks like calm water, but it is solid glass; nothing under the glass, no fish, no plants, golden pillars. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A grand empty palace hall with a smooth shining crystal-clear glass floor that reflects the light so it looks like calm water, but it is solid glass; nothing under the glass, no fish, no plants, golden pillars. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge18/folge18_sulaiman_glass_floor_palace_v2.jpg",
+   "source": "Cloudflare flux-2-klein-4b (free)"
   }
  ]
 }
