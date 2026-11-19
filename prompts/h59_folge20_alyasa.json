@@ -62,18 +62,20 @@
   {
    "id": "folge20_alyasa_row_of_lamps_v2",
    "scene": "row_of_lamps",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A long row of small ancient clay oil lamps with tiny flames standing along a stone wall at dusk, warm glow, no glass bulbs. No electric lights, no glass windows, no modern objects. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge20/folge20_alyasa_row_of_lamps_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: ancient setting, oil lamps, no people/text ✅"
   },
   {
    "id": "folge20_alyasa_pillows_cozy_room_v2",
    "scene": "pillows_cozy_room",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A cozy ancient room with soft cushions and woven blankets on a low floor seating, a small clay oil lamp with a tiny flame, warm evening light through a small window. No electric lights, no glass windows, no modern objects. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge20/folge20_alyasa_pillows_cozy_room_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "19.11. Claude: ancient setting, oil lamps, no people/text ✅"
   }
  ]
 }
