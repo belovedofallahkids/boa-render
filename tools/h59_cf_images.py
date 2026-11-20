@@ -18,6 +18,7 @@ outd = f"assets/h59/{num}"; os.makedirs(outd, exist_ok=True); os.makedirs("out/h
 done = errs = 0
 
 cf_dead = False
+_pol_last = 0.0
 HOOK, HOOK_KEY = os.environ.get("BOA_HOOK_URL", ""), os.environ.get("BOA_HOOK_KEY", "")
 def _ok(b):
     try: return b is not None and cv2.imdecode(np.frombuffer(b, np.uint8), cv2.IMREAD_COLOR) is not None
@@ -38,17 +39,25 @@ def fallback(prompt):
                 print("GEM_FAIL", m, r.status_code, r.text[:200])
             except Exception as e:
                 print("GEM_FAIL", m, str(e)[:200])
-    import urllib.parse
-    for model in ("flux", "turbo"):
-        for t in range(3):
-            try:
-                r = requests.get("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt),
-                                 params={"width": 1536, "height": 864, "model": model, "nologo": "true", "seed": 7 + t}, timeout=240)
-                if r.status_code == 200 and _ok(r.content): print("FALLBACK pollinations", model); return r.content, f"Pollinations {model} (free)"
-                print("POL_FAIL", model, r.status_code, r.text[:150])
-            except Exception as e:
-                print("POL_FAIL", model, str(e)[:150])
-            time.sleep(15)
+    import urllib.parse, re
+    global _pol_last
+    for t in range(6):
+        wait = 50 - (time.time() - _pol_last)
+        if wait > 0: time.sleep(wait)
+        try:
+            _pol_last = time.time()
+            r = requests.get("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt),
+                             params={"width": 1536, "height": 864, "model": "flux", "nologo": "true", "seed": 11 + t}, timeout=240)
+            if r.status_code == 200 and _ok(r.content):
+                a = cv2.imdecode(np.frombuffer(r.content, np.uint8), cv2.IMREAD_COLOR)
+                h, w = a.shape[:2]; nh = int(h * 0.90); nw = int(nh * 16 / 9)   # cut off bottom strip with the pollinations logo
+                x0 = max(0, (w - nw) // 2); a = cv2.resize(a[:nh, x0:x0 + nw], (1536, 864), interpolation=cv2.INTER_LANCZOS4)
+                print("FALLBACK pollinations flux"); return cv2.imencode(".jpg", a, [cv2.IMWRITE_JPEG_QUALITY, 94])[1].tobytes(), "Pollinations flux (free, logo strip cropped)"
+            print("POL_FAIL", r.status_code, r.text[:150])
+            m = re.search(r"Retry after (\d+)s", r.text)
+            if m: _pol_last = time.time() - 50 + int(m.group(1)) + 3
+        except Exception as e:
+            print("POL_FAIL", str(e)[:150])
     return None, None
 for im in plan["images"]:
     if im.get("status") != "planned" or done >= mx:
