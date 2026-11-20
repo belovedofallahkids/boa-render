@@ -89,28 +89,36 @@
   {
    "id": "folge24_isa_cradle_starlight_v2",
    "scene": "cradle_starlight",
-   "status": "planned",
+   "status": "generated",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A simple wooden cradle with a soft blanket in an ancient mud-brick room at night, starlight through a small plain square window opening, warm and calm. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "note": "20.11. 19:07 UTC: CF free quota still used up → retry"
+   "note": "20.11. 19:07 UTC: CF free quota still used up → retry",
+   "file": "assets/h59/folge24/folge24_isa_cradle_starlight_v2.jpg",
+   "source": "Pollinations flux (free)"
   },
   {
    "id": "folge24_isa_dates_falling_v2",
    "scene": "dates_falling",
-   "status": "planned",
+   "status": "generated",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A tall date palm tree with a rough palm trunk and long feathery fronds, clusters of ripe fresh dates, a few dates gently falling onto clean sand near a small clear stream. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
-   "note": "20.11. 19:07 UTC: CF free quota still used up → retry"
+   "note": "20.11. 19:07 UTC: CF free quota still used up → retry",
+   "file": "assets/h59/folge24/folge24_isa_dates_falling_v2.jpg",
+   "source": "Pollinations turbo (free)"
   },
   {
    "id": "folge24_isa_healing_light_village_v2",
    "scene": "healing_light_village",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small ancient village of flat-roofed mud-brick houses among olive trees, soft golden healing light shining from the sky over it, calm morning. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small ancient village of flat-roofed mud-brick houses among olive trees, soft golden healing light shining from the sky over it, calm morning. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge24/folge24_isa_healing_light_village_v2.jpg",
+   "source": "Pollinations turbo (free)"
   },
   {
    "id": "folge24_isa_table_from_sky_v2",
    "scene": "table_from_sky",
-   "status": "planned",
-   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A beautiful table spread with bread, grapes, figs, pomegranates and dates descending gently from a bright sky among soft clouds, golden light. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people."
+   "status": "generated",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A beautiful table spread with bread, grapes, figs, pomegranates and dates descending gently from a bright sky among soft clouds, golden light. No fish, no meat, no church windows, no European houses. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "file": "assets/h59/folge24/folge24_isa_table_from_sky_v2.jpg",
+   "source": "Pollinations turbo (free)"
   }
  ]
 }
