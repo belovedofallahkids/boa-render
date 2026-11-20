@@ -15,6 +15,8 @@ jobs:
       MAX: ${{ github.event.inputs.max }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      BOA_HOOK_URL: ${{ secrets.BOA_HOOK_URL }}
+      BOA_HOOK_KEY: ${{ secrets.BOA_HOOK_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,7 +27,7 @@ jobs:
           set -o pipefail
           test -n "$CF_API_TOKEN" || { echo "::error::Secret CF_API_TOKEN fehlt"; exit 1; }
           python3 tools/h59_cf_images.py 2>&1 | tee gen.log || { tail -c 800 gen.log | tr '\n' ' ' | sed 's/^/::error::/'; echo; exit 1; }
-          grep -E "^(FAIL|generated|CHECK)" gen.log | tr '\n' ' ' | sed 's/^/::notice::/'; echo
+          grep -E "^(FAIL|generated|CHECK|FALLBACK|GEM_FAIL|POL_FAIL|CF_FAIL)" gen.log | tr '\n' ' ' | sed 's/^/::notice::/'; echo
       - if: always()
         run: |
           git config user.name "boa-render-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

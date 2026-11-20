@@ -16,16 +16,56 @@ p = f"prompts/h59_{ep}.json"; plan = json.load(open(p))
 num = ep.split("_")[0].replace("folge", "folge")
 outd = f"assets/h59/{num}"; os.makedirs(outd, exist_ok=True); os.makedirs("out/h59_check", exist_ok=True)
 done = errs = 0
+
+cf_dead = False
+HOOK, HOOK_KEY = os.environ.get("BOA_HOOK_URL", ""), os.environ.get("BOA_HOOK_KEY", "")
+def _ok(b):
+    try: return b is not None and cv2.imdecode(np.frombuffer(b, np.uint8), cv2.IMREAD_COLOR) is not None
+    except Exception: return False
+def fallback(prompt):
+    """Free fallbacks when the Cloudflare daily quota is used up: Gemini image models via the Make hook, then Pollinations (free, no key)."""
+    if HOOK and HOOK_KEY:
+        body = {"contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"responseModalities": ["IMAGE"], "imageConfig": {"aspectRatio": "16:9"}}}
+        for m in ("gemini-2.5-flash-image", "gemini-3.1-flash-image", "gemini-3.1-flash-image-preview", "gemini-2.0-flash-preview-image-generation"):
+            try:
+                r = requests.post(HOOK, json={"k": HOOK_KEY, "engine": "text", "m": m,
+                                  "b": base64.b64encode(json.dumps(body).encode()).decode()}, timeout=240)
+                j = r.json()
+                for part in j["candidates"][0]["content"]["parts"]:
+                    d = (part.get("inlineData") or {}).get("data")
+                    if d and _ok(base64.b64decode(d)): print("FALLBACK gemini", m); return base64.b64decode(d), f"Gemini {m} (free tier, via Make)"
+                print("GEM_FAIL", m, r.status_code, r.text[:200])
+            except Exception as e:
+                print("GEM_FAIL", m, str(e)[:200])
+    import urllib.parse
+    for model in ("flux", "turbo"):
+        for t in range(3):
+            try:
+                r = requests.get("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt),
+                                 params={"width": 1536, "height": 864, "model": model, "nologo": "true", "seed": 7 + t}, timeout=240)
+                if r.status_code == 200 and _ok(r.content): print("FALLBACK pollinations", model); return r.content, f"Pollinations {model} (free)"
+                print("POL_FAIL", model, r.status_code, r.text[:150])
+            except Exception as e:
+                print("POL_FAIL", model, str(e)[:150])
+            time.sleep(15)
+    return None, None
 for im in plan["images"]:
     if im.get("status") != "planned" or done >= mx:
         continue
-    r = requests.post(url, headers={"Authorization": f"Bearer {tok}"},
-                      files={"prompt": (None, im["prompt"]), "width": (None, "1536"), "height": (None, "864")}, timeout=180)
-    if r.status_code != 200:
-        print("FAIL", im["id"], r.status_code, r.text[:300]); im["status"] = "failed"; im["error"] = r.text[:300]; errs += 1
-        if r.status_code in (401, 403, 429): break
-        continue
-    b = base64.b64decode(r.json()["result"]["image"])
+    b, src = None, "Cloudflare flux-2-klein-4b (free)"
+    if not cf_dead:
+        r = requests.post(url, headers={"Authorization": f"Bearer {tok}"},
+                          files={"prompt": (None, im["prompt"]), "width": (None, "1536"), "height": (None, "864")}, timeout=180)
+        if r.status_code == 200:
+            b = base64.b64decode(r.json()["result"]["image"])
+        else:
+            print("CF_FAIL", im["id"], r.status_code, r.text[:200])
+            if "4006" in r.text or r.status_code in (401, 403, 429): cf_dead = True
+    if b is None:
+        b, src = fallback(im["prompt"])
+    if b is None:
+        im["status"] = "failed"; im["error"] = "all free engines failed"; errs += 1; print("FAIL", im["id"]); continue
     a = cv2.imdecode(np.frombuffer(b, np.uint8), cv2.IMREAD_COLOR)
     f = f"{outd}/{im['id']}.jpg"; cv2.imwrite(f, a, [cv2.IMWRITE_JPEG_QUALITY, 92])
     h, w = a.shape[:2]
@@ -33,7 +73,7 @@ for im in plan["images"]:
     q = [cv2.resize(x, (768, 432)) for x in q]
     sheet = np.vstack([cv2.resize(a, (1536, 864)), np.hstack(q[:2]), np.hstack(q[2:])])
     cv2.imwrite(f"out/h59_check/{im['id']}.jpg", sheet, [cv2.IMWRITE_JPEG_QUALITY, 85])
-    im.update(status="generated", file=f, source="Cloudflare flux-2-klein-4b (free)")
+    im.update(status="generated", file=f, source=src)
     done += 1; print("ok", im["id"]); time.sleep(1)
 json.dump(plan, open(p, "w"), ensure_ascii=False, indent=1)
 print("generated", done, "errors", errs)
