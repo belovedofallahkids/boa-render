@@ -127,34 +127,66 @@
   {
    "id": "folge24_isa_cradle_starlight_v3",
    "scene": "cradle_starlight",
-   "status": "generated",
+   "status": "rejected",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small simple wooden baby cradle with a soft cream blanket standing alone in a tiny ancient mud-brick room with earthen walls and a palm-wood ceiling, a single small square opening in the wall showing a deep blue night sky full of bright stars, silver starlight falling on the cradle, warm and calm. No church, no castle, no European buildings, no modern furniture. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge24/folge24_isa_cradle_starlight_v3.jpg",
-   "source": "Pollinations flux (free, logo strip cropped)"
+   "source": "Pollinations flux (free, logo strip cropped)",
+   "reject": "20.11. Claude: face-like object, no cradle (Pollinations)"
   },
   {
    "id": "folge24_isa_dates_falling_v3",
    "scene": "dates_falling",
-   "status": "generated",
+   "status": "rejected",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Close view of the rough trunk and green fronds of one tall date palm tree, heavy clusters of ripe golden-brown dates, several fresh dates gently falling down onto soft desert sand beside a small clear stream of water, desert hills behind, warm sunset light. No church, no castle, no European buildings, no modern furniture. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge24/folge24_isa_dates_falling_v3.jpg",
-   "source": "Pollinations flux (free, logo strip cropped)"
+   "source": "Pollinations flux (free, logo strip cropped)",
+   "reject": "20.11. Claude: no dates, no stream (Pollinations)"
   },
   {
    "id": "folge24_isa_healing_light_village_v3",
    "scene": "healing_light_village",
-   "status": "generated",
+   "status": "rejected",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small ancient Middle Eastern village of flat-roofed beige mud-brick houses with small square windows and date palms, soft glowing golden light rays spreading gently over the rooftops from the sky, hopeful and warm, dusty path, desert hills. No church, no castle, no European buildings, no modern furniture. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge24/folge24_isa_healing_light_village_v3.jpg",
-   "source": "Pollinations flux (free, logo strip cropped)"
+   "source": "Pollinations flux (free, logo strip cropped)",
+   "reject": "20.11. Claude: HUMAN FIGURE + dome (Pollinations)"
   },
   {
    "id": "folge24_isa_table_from_sky_v3",
    "scene": "table_from_sky",
-   "status": "generated",
+   "status": "rejected",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A simple low wooden table covered with a white cloth slowly descending from a bright golden sky through soft clouds, on the table round flatbreads, bunches of grapes, dates, figs, pomegranates and olives in clay bowls, glowing heavenly light, open desert landscape below. No church, no castle, no European buildings, no modern furniture. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge24/folge24_isa_table_from_sky_v3.jpg",
-   "source": "Pollinations flux (free, logo strip cropped)"
+   "source": "Pollinations flux (free, logo strip cropped)",
+   "reject": "20.11. Claude: table not from sky, post/figure-like shape (Pollinations)"
+  },
+  {
+   "id": "folge24_isa_cradle_starlight_v4",
+   "scene": "cradle_starlight",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small simple wooden baby cradle with a soft cream blanket standing alone in a tiny ancient mud-brick room with earthen walls and a palm-wood ceiling, a single small square opening in the wall showing a deep blue night sky full of bright stars, silver starlight falling on the cradle, warm and calm. No church, no castle, no European buildings, no modern furniture. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "note": "same prompt as v3, for Cloudflare (Pollinations off)"
+  },
+  {
+   "id": "folge24_isa_dates_falling_v4",
+   "scene": "dates_falling",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. Close view of the rough trunk and green fronds of one tall date palm tree, heavy clusters of ripe golden-brown dates, several fresh dates gently falling down onto soft desert sand beside a small clear stream of water, desert hills behind, warm sunset light. No church, no castle, no European buildings, no modern furniture. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "note": "same prompt as v3, for Cloudflare (Pollinations off)"
+  },
+  {
+   "id": "folge24_isa_healing_light_village_v4",
+   "scene": "healing_light_village",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small ancient Middle Eastern village of flat-roofed beige mud-brick houses with small square windows and date palms, soft glowing golden light rays spreading gently over the rooftops from the sky, hopeful and warm, dusty path, desert hills. No church, no castle, no European buildings, no modern furniture. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "note": "same prompt as v3, for Cloudflare (Pollinations off)"
+  },
+  {
+   "id": "folge24_isa_table_from_sky_v4",
+   "scene": "table_from_sky",
+   "status": "planned",
+   "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A simple low wooden table covered with a white cloth slowly descending from a bright golden sky through soft clouds, on the table round flatbreads, bunches of grapes, dates, figs, pomegranates and olives in clay bowls, glowing heavenly light, open desert landscape below. No church, no castle, no European buildings, no modern furniture. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
+   "note": "same prompt as v3, for Cloudflare (Pollinations off)"
   }
  ]
 }

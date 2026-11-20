@@ -39,6 +39,8 @@ def fallback(prompt):
                 print("GEM_FAIL", m, r.status_code, r.text[:200])
             except Exception as e:
                 print("GEM_FAIL", m, str(e)[:200])
+    if os.environ.get("FALLBACK_POLLINATIONS") != "1":
+        return None, None   # 20.11.: Pollinations 0/15 usable (people, faces, domes, modern rooms) → off by default
     import urllib.parse, re
     global _pol_last
     for t in range(6):
