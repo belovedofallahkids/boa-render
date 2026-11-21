@@ -1,0 +1,19 @@
+{
+  "name": "folge18_sulaiman_v1",
+  "ok": true,
+  "job_hash": "ce5a232db657ce7b5effc4559f800c8fd4758f54",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge18_sulaiman_v1/folge18_sulaiman_v1.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge18_sulaiman_v1/contact.jpg",
+  "duration_video": 522.367,
+  "duration_audio": 522.353,
+  "timeline": 522.353,
+  "segments": 27,
+  "narration_end": 516.353,
+  "tail_hold": 6.0,
+  "loudness_lufs": -14.1,
+  "true_peak_dbfs": -4.1,
+  "input_lufs": -16.3,
+  "size_mb": 241.5,
+  "render_seconds": 680,
+  "finished_utc": "2026-11-21T09:20:01Z"
+}

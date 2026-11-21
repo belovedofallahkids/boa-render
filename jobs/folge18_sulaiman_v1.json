@@ -1,0 +1,254 @@
+{
+ "name": "folge18_sulaiman_v1",
+ "audio": "https://github.com/belovedofallahkids/boa-render/releases/download/folge18_sulaiman_audio/folge18_sulaiman_de.mp3",
+ "crossfade": 0.6,
+ "fade_in": 0.8,
+ "fade_out": 1.0,
+ "tail_hold": 6.0,
+ "loudness": -14,
+ "segments": [
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_master_A_buchpng-uoxAhZwWy9D.png",
+   "start": 0.0,
+   "end": 11.96,
+   "motion": "zoom_in",
+   "amount": 0.088,
+   "label": "master_A_buch",
+   "script": "s1a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 11.96,
+   "end": 16.51,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s1b"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_birds_sky_morning.jpg",
+   "start": 16.51,
+   "end": 34.48,
+   "motion": "zoom_in",
+   "amount": 0.112,
+   "label": "birds_sky_morning",
+   "script": "s1c"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_wind_over_land.jpg",
+   "start": 34.48,
+   "end": 43.96,
+   "motion": "pan_right",
+   "amount": 0.078,
+   "label": "wind_over_land",
+   "script": "s1c|Und Allah machte"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_birds_sky_morning.jpg",
+   "start": 43.96,
+   "end": 55.16,
+   "motion": "pan_left",
+   "amount": 0.085,
+   "label": "birds_sky_morning",
+   "script": "s2a"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_ant_valley.jpg",
+   "start": 55.16,
+   "end": 74.02,
+   "motion": "zoom_in",
+   "amount": 0.115,
+   "label": "ant_valley",
+   "script": "s2a|Da kamen sie"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 74.02,
+   "end": 80.49,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s2b"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_ant_valley.jpg",
+   "start": 80.49,
+   "end": 85.19,
+   "motion": "zoom_out",
+   "amount": 0.059,
+   "label": "ant_valley",
+   "script": "s2c"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge12_night_dua_sky_cfjpg-JhW0kGjZT4G.jpeg",
+   "start": 85.19,
+   "end": 107.22,
+   "motion": "zoom_in",
+   "amount": 0.128,
+   "label": "night_dua_sky",
+   "script": "s2c|Und er betete"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 107.22,
+   "end": 111.71,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s2d"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_ant_hills_safe.jpg",
+   "start": 111.71,
+   "end": 129.91,
+   "motion": "zoom_in",
+   "amount": 0.113,
+   "label": "ant_hills_safe",
+   "script": "s2e"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_hoopoe_branch_v2.jpg",
+   "start": 129.91,
+   "end": 164.67,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "hoopoe_branch",
+   "script": "s3a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 164.67,
+   "end": 166.63,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s3b"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_sun_worship_far.jpg",
+   "start": 166.63,
+   "end": 205.06,
+   "motion": "pan_right",
+   "amount": 0.13,
+   "label": "sun_worship_far",
+   "script": "s3c"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_letter_seal_bird.jpg",
+   "start": 205.06,
+   "end": 246.55,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "letter_seal_bird",
+   "script": "s4a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 246.55,
+   "end": 249.34,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s4b"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_hoopoe_branch_v2.jpg",
+   "start": 249.34,
+   "end": 254.97,
+   "motion": "pan_left",
+   "amount": 0.063,
+   "label": "hoopoe_branch",
+   "script": "s4c"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_gift_chests.jpg",
+   "start": 254.97,
+   "end": 289.87,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "gift_chests",
+   "script": "s4c|Die Königin beriet"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_throne_appears.jpg",
+   "start": 289.87,
+   "end": 324.45,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "throne_appears",
+   "script": "s5a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge12_night_dua_sky_cfjpg-JhW0kGjZT4G.jpeg",
+   "start": 324.45,
+   "end": 352.53,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "night_dua_sky",
+   "script": "s5b"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_throne_appears.jpg",
+   "start": 352.53,
+   "end": 386.11,
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "throne_appears",
+   "script": "s5c"
+  },
+  {
+   "image": "https://raw.githubusercontent.com/belovedofallahkids/boa-render/main/assets/h59/folge18/folge18_sulaiman_glass_floor_palace_v3.jpg",
+   "start": 386.11,
+   "end": 421.21,
+   "motion": "pan_right",
+   "amount": 0.13,
+   "label": "glass_floor_palace",
+   "script": "s5c|Dann kam sie in einen Palast"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_ilyas_allein_offizielljpg-OQtwI3xapxd.jpeg",
+   "start": 421.21,
+   "end": 426.24,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "ilyas",
+   "script": "s5d"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_folge09_sunrise_hope_cfjpg-jm9njyyaEFi.jpeg",
+   "start": 426.24,
+   "end": 448.67,
+   "motion": "zoom_in",
+   "amount": 0.13,
+   "label": "sunrise_hope",
+   "script": "s6a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_noah_allein_offizielljpg-YwfUilEIZQs.jpeg",
+   "start": 448.67,
+   "end": 452.83,
+   "motion": "zoom_in",
+   "amount": 0.05,
+   "label": "noah",
+   "script": "s6b"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_kinder_schlafen_offizielljpg-aevRtHZ0V3q.jpeg",
+   "start": 452.83,
+   "end": 478.98,
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "kinder_schlafen",
+   "script": "s7a"
+  },
+  {
+   "image": "https://storage.orshot.com/cloud/w-12325/renders/brand_assets/boa_oma_window_night_offizielljpg-i61gAYOmKJ9.jpeg",
+   "start": 478.98,
+   "end": "audio",
+   "motion": "zoom_out",
+   "amount": 0.13,
+   "label": "oma_window_night",
+   "script": "s7b"
+  }
+ ]
+}
