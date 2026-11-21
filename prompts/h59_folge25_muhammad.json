@@ -89,58 +89,65 @@
   {
    "id": "folge25_muhammad_orphan_home_lamp_v2",
    "scene": "orphan_home_lamp",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A simple warm home interior in an ancient desert town at evening, a small bed with a woolen blanket and an oil lamp glowing, loving and safe, nobody present.  No animals. Must show: ancient mud-brick room with earthen walls and palm-wood ceiling, a low simple bed of woven palm fibre with a woolen blanket, a small clay oil lamp with a tiny flame. No modern objects, no glass windows, no tiled roofs. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge25/folge25_muhammad_orphan_home_lamp_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "21.11. Claude: zoom check – no people/figures, faces, hands, footprints, text, crosses, domes, European buildings, modern objects ✅"
   },
   {
    "id": "folge25_muhammad_honest_scale_market_v2",
    "scene": "honest_scale_market",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. An old desert market at morning with a simple balance scale perfectly level on a wooden stall, baskets of dates and cloth, nobody present.  No animals. Must show: an old-fashioned two-pan hanging balance scale made of wood and brass, perfectly level, on a simple wooden stall, woven baskets of dates and plain rolls of cloth, mud-brick walls. No modern objects, no glass windows, no tiled roofs. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge25/folge25_muhammad_honest_scale_market_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "21.11. Claude: zoom check – no people/figures, faces, hands, footprints, text, crosses, domes, European buildings, modern objects ✅"
   },
   {
    "id": "folge25_muhammad_hira_mountain_night_v2",
    "scene": "hira_mountain_night",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A tall rocky mountain at night under a sky full of stars, with a tiny cave opening near the top glowing softly, peaceful and wondrous.  No animals. Must show: a bare rocky brown desert mountain without snow, Arabian desert at night. No modern objects, no glass windows, no tiled roofs. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge25/folge25_muhammad_hira_mountain_night_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "21.11. Claude: zoom check – no people/figures, faces, hands, footprints, text, crosses, domes, European buildings, modern objects ✅ (stylized rocky peak with glowing cave)"
   },
   {
    "id": "folge25_muhammad_cave_light_inside_v2",
    "scene": "cave_light_inside",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. The inside of a small rocky mountain cave at night, looking out through the opening at a valley and stars, a soft heavenly light entering, nobody present.  No animals. Must show: a small rough brown rocky desert cave, the opening looks out on a dark desert valley under stars, no snow, no ice. No modern objects, no glass windows, no tiled roofs. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge25/folge25_muhammad_cave_light_inside_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "21.11. Claude: zoom check – no people/figures, faces, hands, footprints, text, crosses, domes, European buildings, modern objects ✅"
   },
   {
    "id": "folge25_muhammad_thawr_cave_dusk_v2",
    "scene": "thawr_cave_dusk",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A small cave entrance in a rocky desert mountain at dusk, quiet and hidden, a gentle protective golden glow inside, nobody present.  No animals. Must show: an empty brown rocky desert cave entrance, absolutely empty, only rocks and a few desert plants. No modern objects, no glass windows, no tiled roofs. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge25/folge25_muhammad_thawr_cave_dusk_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "21.11. Claude: zoom check – no people/figures, faces, hands, footprints, text, crosses, domes, European buildings, modern objects ✅"
   },
   {
    "id": "folge25_muhammad_medina_palms_welcome_v2",
    "scene": "medina_palms_welcome",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A green oasis town with many date palms and simple houses at bright morning, colorful cloth banners waving in joy, nobody present.  No animals. Must show: flat-roofed ancient mud-brick houses, many date palm trees, colorful plain cloth banners hanging between palms. No modern objects, no glass windows, no tiled roofs. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge25/folge25_muhammad_medina_palms_welcome_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "21.11. Claude: zoom check – no people/figures, faces, hands, footprints, text, crosses, domes, European buildings, modern objects ✅"
   },
   {
    "id": "folge25_muhammad_children_courtyard_toys_v2",
    "scene": "children_courtyard_toys",
-   "status": "generated",
+   "status": "approved",
    "prompt": "Stylized Pixar 3D animated movie look, soft rounded shapes, bright vivid saturated colors, warm cheerful lighting, not photorealistic. A sunny courtyard of an old desert house with simple wooden toys, a ball and a little swing under a palm tree, joyful, nobody present.  No animals. Must show: an ancient mud-brick courtyard with earthen walls, a small rope swing hanging from a date palm, a simple leather ball and small wooden toys on the ground. No modern objects, no glass windows, no tiled roofs. No people, no human figures, no faces, no hands, no text, no letters. No footprints, no tracks or prints in sand or soil, no shadows of people.",
    "file": "assets/h59/folge25/folge25_muhammad_children_courtyard_toys_v2.jpg",
-   "source": "Cloudflare flux-2-klein-4b (free)"
+   "source": "Cloudflare flux-2-klein-4b (free)",
+   "check": "21.11. Claude: zoom check – no people/figures, faces, hands, footprints, text, crosses, domes, European buildings, modern objects ✅"
   }
  ]
 }
