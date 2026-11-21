@@ -1,0 +1,19 @@
+{
+  "name": "folge17_dawud_v1",
+  "ok": true,
+  "job_hash": "5f8782bd2787eb3e82b916b3832e1ed0e16e1c04",
+  "video_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge17_dawud_v1/folge17_dawud_v1.mp4",
+  "contact_url": "https://github.com/belovedofallahkids/boa-render/releases/download/folge17_dawud_v1/contact.jpg",
+  "duration_video": 420.2,
+  "duration_audio": 420.173,
+  "timeline": 420.173,
+  "segments": 26,
+  "narration_end": 414.173,
+  "tail_hold": 6.0,
+  "loudness_lufs": -14.2,
+  "true_peak_dbfs": -3.8,
+  "input_lufs": -16.37,
+  "size_mb": 205.0,
+  "render_seconds": 567,
+  "finished_utc": "2026-11-21T08:47:35Z"
+}
