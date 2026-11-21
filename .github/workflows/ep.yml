@@ -1,0 +1,41 @@
+name: ep
+# Folge 17+: ElevenLabs takes -> narration + transcript -> cut list -> render (one run).
+on:
+  workflow_dispatch:
+    inputs:
+      ep: {description: "episode number, e.g. 17", required: true}
+      step: {description: "all | narration | cuts", required: false, default: "all"}
+permissions: {contents: write}
+concurrency: {group: render, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}", EP: "${{ github.event.inputs.ep }}"}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core >/dev/null
+      - run: pip install -q faster-whisper==1.1.1 av==12.3.0 requests
+      - name: narration
+        if: github.event.inputs.step != 'cuts'
+        run: |
+          python3 tools/ep_build.py narration
+          KEY=$(python3 -c "import glob,json;d=json.load(open(glob.glob('scripts/folge%02d_*.json'%int('$EP'))[0]));print(f\"folge{d['nr']}_{d['key']}\")")
+          gh release view ${KEY}_audio >/dev/null 2>&1 || gh release create ${KEY}_audio -t "${KEY} narration" -n "Oma Karmoucha ElevenLabs takes joined"
+          gh release upload ${KEY}_audio work_ep/${KEY}_de.mp3 --clobber
+      - name: cuts
+        if: github.event.inputs.step != 'narration'
+        run: python3 tools/ep_build.py cuts
+      - name: render
+        if: github.event.inputs.step == 'all'
+        run: python3 render/render.py
+      - if: always()
+        run: |
+          git config user.name "boa-render-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out jobs || true
+          git diff --cached --quiet && exit 0
+          git commit -m "ep ${EP} ${{ github.event.inputs.step }} [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0; sleep 6; done
