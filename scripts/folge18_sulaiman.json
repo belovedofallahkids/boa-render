@@ -86,7 +86,7 @@
   "s4c": "[chuckles] Ja, der schnellste Briefträger der Welt! [warmly] Die Königin beriet sich mit ihren Leuten und schickte Sulaiman ein Geschenk. [softly] Aber Sulaiman sagte: Wollt ihr mich mit Reichtum unterstützen? Was Allah mir gegeben hat, ist besser als das, was Er euch gegeben hat. Vielmehr freut ihr euch über euer Geschenk. Und er schickte das Geschenk zurück. Er wollte keine Schätze, sondern dass sie sich Allah ergeben.",
   "s5a": "[curious] Bevor die Königin ankam, fragte Sulaiman: Wer bringt mir ihren Thron? Ein starker Dschinn sagte: Ich bringe ihn dir, bevor du von deinem Platz aufstehst. [softly] Aber einer, der Wissen aus dem Buch hatte, sagte: Ich bringe ihn dir, bevor dein Blick zu dir zurückkehrt! [excited] Und schon stand der Thron vor Sulaiman!",
   "s5b": "[warmly] Und Sulaiman sagte sofort: Das ist von der Huld meines Herrn, um mich zu prüfen, ob ich dankbar oder undankbar bin. Wer dankbar ist, der ist es zu seinem eigenen Nutzen. Und wer undankbar ist: Mein Herr ist auf niemanden angewiesen und voller Güte.",
-  "s5c": "[curious] Sulaiman ließ ihren Thron verändern, um zu sehen, ob sie ihn erkennt. Als sie kam, wurde sie gefragt: Ist dein Thron so? Sie sagte: Es ist, als wäre er es. Und Sulaiman sagte: Wir hatten schon vorher Wissen erhalten und waren Allah ergeben. [softly] Bisher hatte sie anderes statt Allah angebetet. Dann kam sie in einen Palast. Der Boden war aus glattem, durchsichtigem Glas. Sie dachte, es wäre tiefes Wasser! [warmly] Sulaiman sagte: Das ist ein Palast, glatt gemacht aus Glas. Da sagte sie: Mein Herr, ich habe mir selbst Unrecht getan. Ich unterwerfe mich gemeinsam mit Sulaiman Allah, dem Herrn der Welten.",
+  "s5c": "[curious] Sulaiman ließ ihren Thron verändern, um zu sehen, ob sie ihn erkennt. Als sie kam, wurde sie gefragt: Ist dein Thron so? Sie sagte: Es ist, als wäre er es. Und Sulaiman sagte: Wir hatten schon vorher Wissen erhalten und waren Allah ergeben. [softly] Bisher hatte sie anderes statt Allah angebetet. Dann kam sie in einen Palast. Der Boden war aus glattem, durchsichtigem Glas. Sie dachte, es wäre tiefes Wasser! [warmly] Sulaiman sagte: Das ist ein Palast mit einem glatten Boden aus Glas. Da sagte sie: Mein Herr, ich habe mir selbst Unrecht getan. Ich unterwerfe mich gemeinsam mit Sulaiman Allah, dem Herrn der Welten.",
   "s5d": "[childlike voice] [excited] Sie hat sich Allah ergeben! Subhanallah!",
   "s6a": "[chuckles] Ja, mein Schatz. [warmly] Sulaiman war ein großer König mit wunderbaren Gaben, und für alles dankte er Allah. [softly] Wollen wir einen Satz aus seinem Bittgebet zusammen sagen? Mein Herr, hilf mir, dankbar zu sein.",
   "s6b": "[childlike voice] [softly] Mein Herr, hilf mir, dankbar zu sein.",
@@ -269,5 +269,143 @@
   ]
  ],
  "h55_check": "21.11.2026 Claude H55: 27:17 Reihenfolge (Dschinn, Menschen, Vögel); 27:18 ohne «schnell»; 27:19 Bittgebet vollständig; 27:21 ergänzt (gemildert); 27:23 «von allem gegeben … gewaltiger Thron»; 27:30–31 «Er ist von Sulaiman», «mir gegenüber»; 27:40 «bevor dein Blick zu dir zurückkehrt», «dankbar oder undankbar»; 27:44 Glas-Satz + «ich habe mir selbst Unrecht getan», Deutung «verstand Allahs Macht» entfernt; s5d Kinderzeile ohne falschen Schluss. Offen: zweite unabhängige Prüfung (ChatGPT, H52) + arabischer Muttertext angleichen + Freigabe.",
- "h52_check": "21.11.2026 ChatGPT (H52): 1. Runde NICHT FREIGEGEBEN → umgesetzt; Kontrollrunde: s3a ausdrücklich freigegeben; s4a, s5b (غني كريم = auf niemanden angewiesen, voller Güte), s5c (27:42 ergänzt, Boden aus Glas, Schlusssatz) umgesetzt → letzte Kontrolle offen."
+ "h52_check": "21.11.2026 ChatGPT (H52): 1. Runde NICHT FREIGEGEBEN → umgesetzt; Kontrollrunde: s3a ausdrücklich freigegeben; s4a, s5b (غني كريم = auf niemanden angewiesen, voller Güte), s5c (27:42 ergänzt, Boden aus Glas, Schlusssatz) umgesetzt → letzte Kontrolle offen. Letzte Kontrolle 21.11.: FREIGABE (ChatGPT).",
+ "plan_v2": [
+  [
+   "s1a",
+   "master_A_buch",
+   "zoom_in"
+  ],
+  [
+   "s1b",
+   "noah",
+   "zoom_in"
+  ],
+  [
+   "s1c",
+   "birds_sky_morning",
+   "zoom_in"
+  ],
+  [
+   "s1c|Und Allah machte",
+   "wind_over_land",
+   "pan_right"
+  ],
+  [
+   "s2a",
+   "birds_sky_morning",
+   "pan_left"
+  ],
+  [
+   "s2a|Da kamen sie",
+   "ant_valley",
+   "zoom_in"
+  ],
+  [
+   "s2b",
+   "ilyas",
+   "zoom_in"
+  ],
+  [
+   "s2c",
+   "ant_valley",
+   "zoom_out"
+  ],
+  [
+   "s2c|Und er betete",
+   "night_dua_sky",
+   "zoom_in"
+  ],
+  [
+   "s2d",
+   "noah",
+   "zoom_in"
+  ],
+  [
+   "s2e",
+   "ant_hills_safe",
+   "zoom_in"
+  ],
+  [
+   "s3a",
+   "hoopoe_branch",
+   "zoom_in"
+  ],
+  [
+   "s3b",
+   "ilyas",
+   "zoom_in"
+  ],
+  [
+   "s3c",
+   "sun_worship_far",
+   "pan_right"
+  ],
+  [
+   "s4a",
+   "letter_seal_bird",
+   "zoom_in"
+  ],
+  [
+   "s4b",
+   "noah",
+   "zoom_in"
+  ],
+  [
+   "s4c",
+   "hoopoe_branch",
+   "pan_left"
+  ],
+  [
+   "s4c|Die Königin beriet",
+   "gift_chests",
+   "zoom_in"
+  ],
+  [
+   "s5a",
+   "throne_appears",
+   "zoom_in"
+  ],
+  [
+   "s5b",
+   "night_dua_sky",
+   "zoom_in"
+  ],
+  [
+   "s5c",
+   "throne_appears",
+   "zoom_out"
+  ],
+  [
+   "s5c|Dann kam sie in einen Palast",
+   "glass_floor_palace",
+   "pan_right"
+  ],
+  [
+   "s5d",
+   "ilyas",
+   "zoom_in"
+  ],
+  [
+   "s6a",
+   "sunrise_hope",
+   "zoom_in"
+  ],
+  [
+   "s6b",
+   "noah",
+   "zoom_in"
+  ],
+  [
+   "s7a",
+   "kinder_schlafen",
+   "zoom_out"
+  ],
+  [
+   "s7b",
+   "oma_window_night",
+   "zoom_out"
+  ]
+ ],
+ "plan_v2_note": "21.11.2026 Claude: s2c-Phrase an Text angepasst; s5c: zuerst Thron (27:41–42), dann Glaspalast (27:44)."
 }
